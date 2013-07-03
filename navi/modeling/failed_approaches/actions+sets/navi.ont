@@ -1,0 +1,121 @@
+(
+
+// Actions
+do:<m,a>
+do_if:<a,<t,a>>
+do_seq:<a+,a>
+do_until:<a,<t,a>>
+verify:<t,a>
+
+// Methods
+goal:m
+travel:m
+turn:m
+
+// Agent
+at:<p,t>		// The current position of the agent. Changes through execution.
+at0:<p,t>	// The position of the agent before the current action started to execute.
+visible:<p,t>	 // All positions visible to the agent
+
+// Set predicates
+intersect:<<e,t>*,<e,t>>			// Intersection of two sets
+notempty:<<e,t>,t>
+empty:<<e,t>,t>
+
+// Test the number of steps taken
+steps:<n,t>
+
+// Numbers
+1:n
+2:n
+3:n
+4:n
+5:n
+6:n
+7:n
+8:n
+9:n
+
+/////////////////////////////////
+// Positions etc.              //
+/////////////////////////////////
+
+// The last artifact the instructions refered to and the agent observed
+recent:<p,t>
+
+// Position modifiers
+left:<<p,t>,<p,t>>					// Partially observable positions that result from peeking left
+right:<<p,t>,<p,t>>					// Partially observable positions that result from peeking right
+front:<<p,t>,<p,t>>					// The set of positions that will result from going forward recursivelly, until a wall
+behind:<<p,t>,<p,t>>				// The set of positions behind the given positions
+side:<<p,t>,<p,t>>					// Getting everything on the sides (left, right, front, back) of a given set of positions
+middle:<<p,t>,<p,t>>				// Given a set of positions, will return all positions that are within these positions (i.e. positions on all side are included in the given set), for example: the middle of the blue hallway :- N : (middle:<<p,t>,<p,t>> blue_h:<p,t>)
+distance:<<p,t>,<n,<p,t>>>			// distance N from X
+order:<<p,t>,<<e,n>,<n,<p,t>>>>				// Given a set of positions, return the set (a singleton) that's in the n-th order, according to proximity to the agent at initial execution time (i.e. at0)
+past:<<p,t>,<p,t>>					// Given a set of locations, will return the set of locations that are past the locations in the givne set, computed in relation to the initial position (i.e. at0)
+definite:<<p,t>,<p,t>>
+end:<<p,t>,<p,t>>					// The end of a given hallway
+
+// Sorters
+dist:<<p,t>,<e,n>>
+frontdist:<e,n>
+
+// Disabled predicates (at least for now)
+// between:<<p,t>,<<p,t>,<p,t>>>
+// beyond:<<p,t>,<<p,t>,<p,t>>>		// X beyond Y
+// opposite:<<p,t>,<p,t>>				// Given a set of positions, return the set of positions opposite to them
+// gray_h:<p,t>						// Equals to: (union:<<p,t>*,<p,t>> cement_h:<p,t> stone_h:<p,t>)
+// greenish_h:<p,t>					// Equals to: (union:<<p,t>*,<p,t>> grass_h:<p,t> honeycomb_h:<p,t>)
+// brown_h:<p,t>						// Equals to: (union:<<p,t>*,<p,t>> brick_h:<p,t> wood_h:<p,t>)
+// dark_h:<p,t>						// Equals to: (union:<<p,t>*,<p,t>> stone_h:<p,t> blue_h:<p,t> wood_h:<p,t> brick_h:<p,t>)
+
+// Objects
+chair:<p,t>
+sofa:<p,t>
+barstool:<p,t>
+hatrack:<p,t>
+easel:<p,t>
+lamp:<p,t>
+empty:<p,t>							// The set of locations that include no object
+furniture:<p,t>					// Equals to: (union:<<p,t>*,<p,t>> chair:<p,t> sofa:<p,t> barstool:<p,t> hatrack:<p,t> easel:<p,t> lamp:<p,t>)
+// seat:<p,t>							// Equals to: (union:<<p,t>*,<p,t>> chair:<p,t> sofa:<p,t> barstool:<p,t>)
+// genchair:<p,t>						// Equals to: (union:<<p,t>*,<p,t>> chair:<p,t> sofa:<p,t>)
+
+// Hallway textures
+rose:c
+wood:c
+grass:c
+cement:c
+blue:c
+brick:c
+stone:c
+honeycomb:c
+any:c
+hall:<c,<p,t>>
+// hallway:<p,t>						// A union of all hallway textures
+
+// Wall pictures
+butterfly_w:<p,t>
+eiffel_w:<p,t>
+fish_w:<p,t>
+wallpaper:<p,t>
+
+// Other objects
+end:<p,t>							// The end of the map, a position that doesn't exist in the map
+
+// Structures
+wall:<p,t>
+intersection:<p,t>					// Includes corners, any meeting of two hallways, even if colored the same way
+intersection:<<p,t>*1,<p,t>>
+deadend:<p,t>
+t_intersection:<p,t>				// Intersection of 3 hallways
+t_intersection:<<p,t>*1,<p,t>>
+corner:<p,t>						// Intersection of 2 hallways 
+corner:<<p,t>*1,<p,t>>
+
+// Partial information constants. These exist only for internal usage and should never be used in logical expressions directly.
+// unknown_h:<p,t>
+// unknown_w:<p,t>
+// unknown_o:<p,t>
+
+)

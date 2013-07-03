@@ -1,0 +1,11 @@
+EDA_L0_5_2_Dirs_1
+{'numFollowers': 6, 'confidence': (5.166666666666667, 0.8975274678557507), 'directionRating': (5.0, 1.0), 'targetFound': (1.0, 0.0), 'efficiency': (1.0, 0.0), 'implicit': False}
+turn so that the wall is on your right
+## (do_until:<a,<t,a>> (do:<m,a> turn:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> (right:<<p,t>,<p,t>> at:<p,t>) (definite:<<p,t>,<p,t>> wall:<p,t>))))
+walk forward five times
+## (do_until:<a,<t,a>> (do:<m,a> travel:m) (steps:<n,t> 5:n))
+turn right
+## (do_until:<a,<t,a>> (do:<m,a> turn:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (right:<<p,t>,<p,t>> at0:<p,t>))))
+walk forward twice
+## (do_until:<a,<t,a>> (do:<m,a> travel:m) (steps:<n,t> 2:n))
+

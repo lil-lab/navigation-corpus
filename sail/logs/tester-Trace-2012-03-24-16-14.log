@@ -1,0 +1,804 @@
+03-24 16:14:47 INFO     frame2action [Turn_v=[MEAN='turn_V_1'], Purpose=[Purpose_p=[MEAN='SO THAT'], S=[Side=[Dir=[MEAN='back_ADV_1,2'], Side_n=[MEAN='side_N_1']], Orient_v=[MEAN="faces_V_('face', [5])"], Obj=[Det=[MEAN='THE'], Obj_n=[MEAN='easel_N_1']]]]]
+03-24 16:14:47 INFO     <0> Turn(face=Face(faced=Verify(desc=[Thing(dist='0:', value=Easel, type='Obj', side=[Back])])))
+03-24 16:14:47 INFO     Recognizing [Thing(dist='0', value=Path, type='Path', side=[Right])].
+03-24 16:14:47 INFO     recognize observing...
+03-24 16:14:47 INFO     Observed [(Wall, Empty, Wall, Butterfly, Wood, Butterfly), (Cement, Easel, Cement, Eiffel, Wood, Eiffel), (Wall, Empty, Wall, End, Wall, End)]
+03-24 16:14:47 INFO     .....Examining [(Wall, Empty, Wall, Butterfly, Wood, Butterfly), (Cement, Easel, Cement, Eiffel, Wood, Eiffel), (Wall, Empty, Wall, End, Wall, End)]
+.....for Thing(dist='0', value=Path, type='Path', side=[Right])
+03-24 16:14:47 INFO     .....Did NOT recognize Thing(dist='0', value=Path, type='Path', side=[Right])
+03-24 16:14:47 INFO     Recognizing [Thing(dist='0:', value=Easel, type='Obj', side=[Back])].
+03-24 16:14:47 INFO     .....Examining [(Wall, Empty, Wall, Butterfly, Wood, Butterfly), (Cement, Easel, Cement, Eiffel, Wood, Eiffel), (Wall, Empty, Wall, End, Wall, End)]
+.....for Thing(dist='0:', value=Easel, type='Obj', side=[Back])
+03-24 16:14:47 INFO     .....Did NOT recognize Thing(dist='0:', value=Easel, type='Obj', side=[Back])
+03-24 16:14:47 INFO     Turning Left.
+03-24 16:14:47 INFO     After face 1 [(Wood, Empty, Wood, End, Wall, End)]
+03-24 16:14:47 INFO     Recognizing [Thing(dist='0:', value=Easel, type='Obj', side=[Back])].
+03-24 16:14:47 INFO     .....Examining [(Wood, Empty, Wood, End, Wall, End)]
+.....for Thing(dist='0:', value=Easel, type='Obj', side=[Back])
+03-24 16:14:47 INFO     .....Did NOT recognize Thing(dist='0:', value=Easel, type='Obj', side=[Back])
+03-24 16:14:47 INFO     Turning Left.
+03-24 16:14:47 INFO     After face 1 [(Wall, Empty, Wall, Butterfly, Wood, Butterfly), (Cement, Empty, Wall, End, Wall, End)]
+03-24 16:14:47 INFO     Recognizing [Thing(dist='0:', value=Easel, type='Obj', side=[Back])].
+03-24 16:14:47 INFO     .....Examining [(Wall, Empty, Wall, Butterfly, Wood, Butterfly), (Cement, Empty, Wall, End, Wall, End)]
+.....for Thing(dist='0:', value=Easel, type='Obj', side=[Back])
+03-24 16:14:47 INFO     .....Recognized Thing(dist='0:', value=Easel, type='Obj', side=[Back])
+03-24 16:14:47 INFO     .....Recognized entire description!
+03-24 16:14:47 INFO     After face 2 [(Wall, Empty, Wall, Butterfly, Wood, Butterfly), (Cement, Empty, Wall, End, Wall, End)]
+03-24 16:14:48 INFO     frame2action [Travel_v=[MEAN='walk_V_1'], Dir=[MEAN='forward_ADV_1'], Dist=[Count=[MEAN='four_ADJ_1'], Dist_unit=[MEAN="times_N_('time', [1])"]]]
+03-24 16:14:48 INFO     <0> Travel(distance=[Distance(count=4)])
+03-24 16:14:48 INFO     Facing the Distance conditions in the distance [Thing(dist='4:', value=Position, type='Struct', side=[Front])]
+03-24 16:14:48 INFO     Recognizing [Thing(dist='0', value=Path, type='Path', side=[Right])].
+03-24 16:14:48 INFO     recognize observing...
+03-24 16:14:48 INFO     Observed [(Wall, Empty, Cement, Fish, BlueTile, Fish), (Cement, Chair, Cement, Eiffel, BlueTile, Eiffel), (Wall, Empty, Wall, Eiffel, BlueTile, Eiffel), (Wall, Empty, Rose, Eiffel, BlueTile, Eiffel), (Cement, Empty, Wall, End, Wall, End)]
+03-24 16:14:48 INFO     .....Examining [(Wall, Empty, Cement, Fish, BlueTile, Fish), (Cement, Chair, Cement, Eiffel, BlueTile, Eiffel), (Wall, Empty, Wall, Eiffel, BlueTile, Eiffel), (Wall, Empty, Rose, Eiffel, BlueTile, Eiffel), (Cement, Empty, Wall, End, Wall, End)]
+.....for Thing(dist='0', value=Path, type='Path', side=[Right])
+03-24 16:14:48 INFO     .....Recognized Thing(dist='0', value=Path, type='Path', side=[Right])
+03-24 16:14:48 INFO     .....Recognized entire description!
+03-24 16:14:48 INFO     Recognizing [Thing(dist='4:', value=Position, type='Struct', side=[Front])].
+03-24 16:14:48 INFO     .....Examining [(Wall, Empty, Cement, Fish, BlueTile, Fish), (Cement, Chair, Cement, Eiffel, BlueTile, Eiffel), (Wall, Empty, Wall, Eiffel, BlueTile, Eiffel), (Wall, Empty, Rose, Eiffel, BlueTile, Eiffel), (Cement, Empty, Wall, End, Wall, End)]
+.....for Thing(dist='4:', value=Position, type='Struct', side=[Front])
+03-24 16:14:48 INFO     .....Recognized Thing(dist='4:', value=Position, type='Struct', side=[Front])
+03-24 16:14:48 INFO     .....Recognized entire description!
+03-24 16:14:48 INFO     After Faced Distance 0 []
+03-24 16:14:48 INFO     Traveling forward.
+03-24 16:14:48 INFO     travel observing...
+03-24 16:14:48 INFO     post travel obs: [(Wall, Empty, Cement, Fish, BlueTile, Fish), (Cement, Chair, Cement, Eiffel, BlueTile, Eiffel), (Wall, Empty, Wall, Eiffel, BlueTile, Eiffel), (Wall, Empty, Rose, Eiffel, BlueTile, Eiffel), (Cement, Empty, Wall, End, Wall, End)]; viewCache: ViewCache([[(Wall, Empty, Cement, Fish, BlueTile, Fish), (Cement, Chair, Cement, Eiffel, BlueTile, Eiffel), (Wall, Empty, Wall, Eiffel, BlueTile, Eiffel), (Wall, Empty, Rose, Eiffel, BlueTile, Eiffel), (Cement, Empty, Wall, End, Wall, End)], [(BlueTile, Empty, BlueTile, Unknown, Cement, Unknown)], [(Cement, Empty, Wall, Fish, BlueTile, Fish), (Cement, Empty, Wall, Unknown, Unknown, Unknown)], [(BlueTile, Empty, BlueTile, End, Wall, End)]])
+03-24 16:14:48 INFO     After distance 1 [(Cement, Chair, Cement, Eiffel, BlueTile, Eiffel)]...
+03-24 16:14:48 INFO     Travel Distance: None Count is 1 of 4
+03-24 16:14:48 INFO     Traveling forward.
+03-24 16:14:48 INFO     travel observing...
+03-24 16:14:48 INFO     post travel obs: [(Cement, Chair, Cement, Eiffel, BlueTile, Eiffel), (Wall, Empty, Wall, Eiffel, BlueTile, Eiffel), (Wall, Empty, Rose, Eiffel, BlueTile, Eiffel), (Cement, Empty, Wall, End, Wall, End)]; viewCache: ViewCache([[(Cement, Chair, Cement, Eiffel, BlueTile, Eiffel), (Wall, Empty, Wall, Eiffel, BlueTile, Eiffel), (Wall, Empty, Rose, Eiffel, BlueTile, Eiffel), (Cement, Empty, Wall, End, Wall, End)], [(BlueTile, Chair, BlueTile, Unknown, Cement, Unknown)], [(Cement, Chair, Cement, Fish, BlueTile, Fish), (Cement, Empty, Wall, Fish, BlueTile, Fish), (Cement, Empty, Wall, Unknown, Unknown, Unknown)], [(BlueTile, Chair, BlueTile, Unknown, Cement, Unknown)]])
+03-24 16:14:48 INFO     After distance 1 [(Wall, Empty, Wall, Eiffel, BlueTile, Eiffel)]...
+03-24 16:14:48 INFO     Travel Distance: None Count is 2 of 4
+03-24 16:14:48 INFO     Traveling forward.
+03-24 16:14:48 INFO     travel observing...
+03-24 16:14:48 INFO     post travel obs: [(Wall, Empty, Wall, Eiffel, BlueTile, Eiffel), (Wall, Empty, Rose, Eiffel, BlueTile, Eiffel), (Cement, Empty, Wall, End, Wall, End)]; viewCache: ViewCache([[(Wall, Empty, Wall, Eiffel, BlueTile, Eiffel), (Wall, Empty, Rose, Eiffel, BlueTile, Eiffel), (Cement, Empty, Wall, End, Wall, End)], [(BlueTile, Empty, BlueTile, End, Wall, End)], [(Wall, Empty, Wall, Eiffel, BlueTile, Eiffel), (Cement, Chair, Cement, Fish, BlueTile, Fish), (Cement, Empty, Wall, Fish, BlueTile, Fish), (Cement, Empty, Wall, Unknown, Unknown, Unknown)], [(BlueTile, Empty, BlueTile, End, Wall, End)]])
+03-24 16:14:48 INFO     After distance 1 [(Wall, Empty, Rose, Eiffel, BlueTile, Eiffel), (Cement, Empty, Wall, End, Wall, End)]
+03-24 16:14:48 INFO     Travel Distance: None Count is 3 of 4
+03-24 16:14:48 INFO     Traveling forward.
+03-24 16:14:48 INFO     travel observing...
+03-24 16:14:48 INFO     post travel obs: [(Wall, Empty, Rose, Eiffel, BlueTile, Eiffel), (Cement, Empty, Wall, End, Wall, End)]; viewCache: ViewCache([[(Wall, Empty, Rose, Eiffel, BlueTile, Eiffel), (Cement, Empty, Wall, End, Wall, End)], [(BlueTile, Empty, BlueTile, Unknown, Rose, Unknown)], [(Rose, Empty, Wall, Eiffel, BlueTile, Eiffel), (Wall, Empty, Wall, Eiffel, BlueTile, Eiffel), (Cement, Chair, Cement, Fish, BlueTile, Fish), (Cement, Empty, Wall, Fish, BlueTile, Fish), (Cement, Empty, Wall, Unknown, Unknown, Unknown)], [(BlueTile, Empty, BlueTile, End, Wall, End)]])
+03-24 16:14:48 INFO     After distance 1 [(Cement, Empty, Wall, End, Wall, End)]
+03-24 16:14:48 INFO     Travel Distance: None Count is 4 of 4
+03-24 16:14:48 INFO     frame2action [Travel_v=[MEAN='walk_V_1'], Dir=[MEAN='forward_ADV_1'], Dist=[Count=[MEAN='four_ADJ_1'], Dist_unit=[MEAN="times_N_('time', [1])"]]]
+03-24 16:14:48 INFO     <0> Travel(distance=[Distance(count=4)])
+03-24 16:14:49 INFO     Facing the Distance conditions in the distance [Thing(dist='4:', value=Position, type='Struct', side=[Front])]
+03-24 16:14:49 INFO     Recognizing [Thing(dist='0', value=Path, type='Path', side=[Right])].
+03-24 16:14:49 INFO     recognize observing...
+03-24 16:14:49 INFO     Observed [(Rose, Hatrack, Rose, Eiffel, Brick, Eiffel), (Wall, Empty, Wall, Eiffel, Brick, Eiffel), (Wall, Lamp, Cement, Butterfly, Brick, Butterfly), (Wall, Empty, Cement, Butterfly, Brick, Butterfly), (Wood, Empty, Wood, Butterfly, Brick, Butterfly), (Wall, Empty, Wall, End, Wall, End)]
+03-24 16:14:49 INFO     .....Examining [(Rose, Hatrack, Rose, Eiffel, Brick, Eiffel), (Wall, Empty, Wall, Eiffel, Brick, Eiffel), (Wall, Lamp, Cement, Butterfly, Brick, Butterfly), (Wall, Empty, Cement, Butterfly, Brick, Butterfly), (Wood, Empty, Wood, Butterfly, Brick, Butterfly), (Wall, Empty, Wall, End, Wall, End)]
+.....for Thing(dist='0', value=Path, type='Path', side=[Right])
+03-24 16:14:49 INFO     .....Recognized Thing(dist='0', value=Path, type='Path', side=[Right])
+03-24 16:14:49 INFO     .....Recognized entire description!
+03-24 16:14:49 INFO     Recognizing [Thing(dist='4:', value=Position, type='Struct', side=[Front])].
+03-24 16:14:49 INFO     .....Examining [(Rose, Hatrack, Rose, Eiffel, Brick, Eiffel), (Wall, Empty, Wall, Eiffel, Brick, Eiffel), (Wall, Lamp, Cement, Butterfly, Brick, Butterfly), (Wall, Empty, Cement, Butterfly, Brick, Butterfly), (Wood, Empty, Wood, Butterfly, Brick, Butterfly), (Wall, Empty, Wall, End, Wall, End)]
+.....for Thing(dist='4:', value=Position, type='Struct', side=[Front])
+03-24 16:14:49 INFO     .....Recognized Thing(dist='4:', value=Position, type='Struct', side=[Front])
+03-24 16:14:49 INFO     .....Recognized entire description!
+03-24 16:14:49 INFO     After Faced Distance 0 []
+03-24 16:14:49 INFO     Traveling forward.
+03-24 16:14:49 INFO     travel observing...
+03-24 16:14:49 INFO     post travel obs: [(Rose, Hatrack, Rose, Eiffel, Brick, Eiffel), (Wall, Empty, Wall, Eiffel, Brick, Eiffel), (Wall, Lamp, Cement, Butterfly, Brick, Butterfly), (Wall, Empty, Cement, Butterfly, Brick, Butterfly), (Wood, Empty, Wood, Butterfly, Brick, Butterfly), (Wall, Empty, Wall, End, Wall, End)]; viewCache: ViewCache([[(Rose, Hatrack, Rose, Eiffel, Brick, Eiffel), (Wall, Empty, Wall, Eiffel, Brick, Eiffel), (Wall, Lamp, Cement, Butterfly, Brick, Butterfly), (Wall, Empty, Cement, Butterfly, Brick, Butterfly), (Wood, Empty, Wood, Butterfly, Brick, Butterfly), (Wall, Empty, Wall, End, Wall, End)], [(Brick, Hatrack, Brick, Unknown, Rose, Unknown)], [(Rose, Hatrack, Rose, Eiffel, Brick, Eiffel), (Rose, Hatrack, Rose, Unknown, Unknown, Unknown)], [(Brick, Hatrack, Brick, Unknown, Rose, Unknown)]])
+03-24 16:14:49 INFO     After distance 1 [(Wall, Empty, Wall, Eiffel, Brick, Eiffel)]...
+03-24 16:14:49 INFO     Travel Distance: None Count is 1 of 4
+03-24 16:14:49 INFO     Traveling forward.
+03-24 16:14:49 INFO     travel observing...
+03-24 16:14:49 INFO     post travel obs: [(Wall, Empty, Wall, Eiffel, Brick, Eiffel), (Wall, Lamp, Cement, Butterfly, Brick, Butterfly), (Wall, Empty, Cement, Butterfly, Brick, Butterfly), (Wood, Empty, Wood, Butterfly, Brick, Butterfly), (Wall, Empty, Wall, End, Wall, End)]; viewCache: ViewCache([[(Wall, Empty, Wall, Eiffel, Brick, Eiffel), (Wall, Lamp, Cement, Butterfly, Brick, Butterfly), (Wall, Empty, Cement, Butterfly, Brick, Butterfly), (Wood, Empty, Wood, Butterfly, Brick, Butterfly), (Wall, Empty, Wall, End, Wall, End)], [(Brick, Empty, Brick, End, Wall, End)], [(Wall, Empty, Wall, Eiffel, Brick, Eiffel), (Rose, Hatrack, Rose, Eiffel, Brick, Eiffel), (Rose, Hatrack, Rose, Unknown, Unknown, Unknown)], [(Brick, Empty, Brick, End, Wall, End)]])
+03-24 16:14:49 INFO     After distance 1 [(Wall, Lamp, Cement, Butterfly, Brick, Butterfly)]...
+03-24 16:14:49 INFO     Travel Distance: None Count is 2 of 4
+03-24 16:14:49 INFO     Traveling forward.
+03-24 16:14:49 INFO     travel observing...
+03-24 16:14:49 INFO     post travel obs: [(Wall, Lamp, Cement, Butterfly, Brick, Butterfly), (Wall, Empty, Cement, Butterfly, Brick, Butterfly), (Wood, Empty, Wood, Butterfly, Brick, Butterfly), (Wall, Empty, Wall, End, Wall, End)]; viewCache: ViewCache([[(Wall, Lamp, Cement, Butterfly, Brick, Butterfly), (Wall, Empty, Cement, Butterfly, Brick, Butterfly), (Wood, Empty, Wood, Butterfly, Brick, Butterfly), (Wall, Empty, Wall, End, Wall, End)], [(Brick, Lamp, Brick, Unknown, Cement, Unknown)], [(Cement, Lamp, Wall, Eiffel, Brick, Eiffel), (Wall, Empty, Wall, Eiffel, Brick, Eiffel), (Rose, Hatrack, Rose, Eiffel, Brick, Eiffel), (Rose, Hatrack, Rose, Unknown, Unknown, Unknown)], [(Brick, Lamp, Brick, End, Wall, End)]])
+03-24 16:14:49 INFO     After distance 1 [(Wall, Empty, Cement, Butterfly, Brick, Butterfly)]...
+03-24 16:14:49 INFO     Travel Distance: None Count is 3 of 4
+03-24 16:14:49 INFO     Traveling forward.
+03-24 16:14:49 INFO     travel observing...
+03-24 16:14:49 INFO     post travel obs: [(Wall, Empty, Cement, Butterfly, Brick, Butterfly), (Wood, Empty, Wood, Butterfly, Brick, Butterfly), (Wall, Empty, Wall, End, Wall, End)]; viewCache: ViewCache([[(Wall, Empty, Cement, Butterfly, Brick, Butterfly), (Wood, Empty, Wood, Butterfly, Brick, Butterfly), (Wall, Empty, Wall, End, Wall, End)], [(Brick, Empty, Brick, Unknown, Cement, Unknown)], [(Cement, Empty, Wall, Butterfly, Brick, Butterfly), (Cement, Lamp, Wall, Eiffel, Brick, Eiffel), (Wall, Empty, Wall, Eiffel, Brick, Eiffel), (Rose, Hatrack, Rose, Eiffel, Brick, Eiffel), (Rose, Hatrack, Rose, Unknown, Unknown, Unknown)], [(Brick, Empty, Brick, End, Wall, End)]])
+03-24 16:14:49 INFO     After distance 1 [(Wood, Empty, Wood, Butterfly, Brick, Butterfly), (Wall, Empty, Wall, End, Wall, End)]
+03-24 16:14:49 INFO     Travel Distance: None Count is 4 of 4
+03-24 16:14:49 INFO     frame2action [Travel_v=[MEAN='walk_V_1'], Dir=[MEAN='forward_ADV_1'], Dist=[Count=[MEAN='four_ADJ_1'], Dist_unit=[MEAN="times_N_('time', [1])"]]]
+03-24 16:14:49 INFO     <0> Travel(distance=[Distance(count=4)])
+03-24 16:14:49 INFO     Facing the Distance conditions in the distance [Thing(dist='4:', value=Position, type='Struct', side=[Front])]
+03-24 16:14:49 INFO     Recognizing [Thing(dist='0', value=Path, type='Path', side=[Right])].
+03-24 16:14:49 INFO     recognize observing...
+03-24 16:14:49 INFO     Observed [(Wall, Empty, Cement, Butterfly, BlueTile, Butterfly), (Wall, Barstool, Stone, Butterfly, BlueTile, Butterfly), (Wall, Chair, Wood, Fish, BlueTile, Fish), (Wall, Empty, Rose, Fish, BlueTile, Fish), (Wall, Empty, Grass, End, Wall, End)]
+03-24 16:14:49 INFO     .....Examining [(Wall, Empty, Cement, Butterfly, BlueTile, Butterfly), (Wall, Barstool, Stone, Butterfly, BlueTile, Butterfly), (Wall, Chair, Wood, Fish, BlueTile, Fish), (Wall, Empty, Rose, Fish, BlueTile, Fish), (Wall, Empty, Grass, End, Wall, End)]
+.....for Thing(dist='0', value=Path, type='Path', side=[Right])
+03-24 16:14:49 INFO     .....Recognized Thing(dist='0', value=Path, type='Path', side=[Right])
+03-24 16:14:49 INFO     .....Recognized entire description!
+03-24 16:14:49 INFO     Recognizing [Thing(dist='4:', value=Position, type='Struct', side=[Front])].
+03-24 16:14:49 INFO     .....Examining [(Wall, Empty, Cement, Butterfly, BlueTile, Butterfly), (Wall, Barstool, Stone, Butterfly, BlueTile, Butterfly), (Wall, Chair, Wood, Fish, BlueTile, Fish), (Wall, Empty, Rose, Fish, BlueTile, Fish), (Wall, Empty, Grass, End, Wall, End)]
+.....for Thing(dist='4:', value=Position, type='Struct', side=[Front])
+03-24 16:14:49 INFO     .....Recognized Thing(dist='4:', value=Position, type='Struct', side=[Front])
+03-24 16:14:49 INFO     .....Recognized entire description!
+03-24 16:14:49 INFO     After Faced Distance 0 []
+03-24 16:14:49 INFO     Traveling forward.
+03-24 16:14:49 INFO     travel observing...
+03-24 16:14:49 INFO     post travel obs: [(Wall, Empty, Cement, Butterfly, BlueTile, Butterfly), (Wall, Barstool, Stone, Butterfly, BlueTile, Butterfly), (Wall, Chair, Wood, Fish, BlueTile, Fish), (Wall, Empty, Rose, Fish, BlueTile, Fish), (Wall, Empty, Grass, End, Wall, End)]; viewCache: ViewCache([[(Wall, Empty, Cement, Butterfly, BlueTile, Butterfly), (Wall, Barstool, Stone, Butterfly, BlueTile, Butterfly), (Wall, Chair, Wood, Fish, BlueTile, Fish), (Wall, Empty, Rose, Fish, BlueTile, Fish), (Wall, Empty, Grass, End, Wall, End)], [(BlueTile, Empty, BlueTile, Unknown, Cement, Unknown)], [(Cement, Empty, Wall, Butterfly, BlueTile, Butterfly), (Cement, Empty, Wall, Unknown, Unknown, Unknown)], [(BlueTile, Empty, BlueTile, End, Wall, End)]])
+03-24 16:14:49 INFO     After distance 1 [(Wall, Barstool, Stone, Butterfly, BlueTile, Butterfly)]...
+03-24 16:14:49 INFO     Travel Distance: None Count is 1 of 4
+03-24 16:14:49 INFO     Traveling forward.
+03-24 16:14:49 INFO     travel observing...
+03-24 16:14:49 INFO     post travel obs: [(Wall, Barstool, Stone, Butterfly, BlueTile, Butterfly), (Wall, Chair, Wood, Fish, BlueTile, Fish), (Wall, Empty, Rose, Fish, BlueTile, Fish), (Wall, Empty, Grass, End, Wall, End)]; viewCache: ViewCache([[(Wall, Barstool, Stone, Butterfly, BlueTile, Butterfly), (Wall, Chair, Wood, Fish, BlueTile, Fish), (Wall, Empty, Rose, Fish, BlueTile, Fish), (Wall, Empty, Grass, End, Wall, End)], [(BlueTile, Barstool, BlueTile, Unknown, Stone, Unknown)], [(Stone, Barstool, Wall, Butterfly, BlueTile, Butterfly), (Cement, Empty, Wall, Butterfly, BlueTile, Butterfly), (Cement, Empty, Wall, Unknown, Unknown, Unknown)], [(BlueTile, Barstool, BlueTile, End, Wall, End)]])
+03-24 16:14:49 INFO     After distance 1 [(Wall, Chair, Wood, Fish, BlueTile, Fish)]...
+03-24 16:14:49 INFO     Travel Distance: None Count is 2 of 4
+03-24 16:14:49 INFO     Traveling forward.
+03-24 16:14:49 INFO     travel observing...
+03-24 16:14:49 INFO     post travel obs: [(Wall, Chair, Wood, Fish, BlueTile, Fish), (Wall, Empty, Rose, Fish, BlueTile, Fish), (Wall, Empty, Grass, End, Wall, End)]; viewCache: ViewCache([[(Wall, Chair, Wood, Fish, BlueTile, Fish), (Wall, Empty, Rose, Fish, BlueTile, Fish), (Wall, Empty, Grass, End, Wall, End)], [(BlueTile, Chair, BlueTile, Unknown, Wood, Unknown)], [(Wood, Chair, Wall, Butterfly, BlueTile, Butterfly), (Stone, Barstool, Wall, Butterfly, BlueTile, Butterfly), (Cement, Empty, Wall, Butterfly, BlueTile, Butterfly), (Cement, Empty, Wall, Unknown, Unknown, Unknown)], [(BlueTile, Chair, BlueTile, End, Wall, End)]])
+03-24 16:14:49 INFO     After distance 1 [(Wall, Empty, Rose, Fish, BlueTile, Fish), (Wall, Empty, Grass, End, Wall, End)]
+03-24 16:14:49 INFO     Travel Distance: None Count is 3 of 4
+03-24 16:14:49 INFO     Traveling forward.
+03-24 16:14:49 INFO     travel observing...
+03-24 16:14:49 INFO     post travel obs: [(Wall, Empty, Rose, Fish, BlueTile, Fish), (Wall, Empty, Grass, End, Wall, End)]; viewCache: ViewCache([[(Wall, Empty, Rose, Fish, BlueTile, Fish), (Wall, Empty, Grass, End, Wall, End)], [(BlueTile, Empty, BlueTile, Unknown, Rose, Unknown)], [(Rose, Empty, Wall, Fish, BlueTile, Fish), (Wood, Chair, Wall, Butterfly, BlueTile, Butterfly), (Stone, Barstool, Wall, Butterfly, BlueTile, Butterfly), (Cement, Empty, Wall, Butterfly, BlueTile, Butterfly), (Cement, Empty, Wall, Unknown, Unknown, Unknown)], [(BlueTile, Empty, BlueTile, End, Wall, End)]])
+03-24 16:14:49 INFO     After distance 1 [(Wall, Empty, Grass, End, Wall, End)]
+03-24 16:14:49 INFO     Travel Distance: None Count is 4 of 4
+03-24 16:14:50 INFO     frame2action [Travel_v=[MEAN='walk_V_1'], Dir=[MEAN='forward_ADV_1'], Dist=[Count=[MEAN='four_ADJ_1'], Dist_unit=[MEAN="times_N_('time', [1])"]]]
+03-24 16:14:50 INFO     <0> Travel(distance=[Distance(count=4)])
+03-24 16:14:50 INFO     Facing the Distance conditions in the distance [Thing(dist='4:', value=Position, type='Struct', side=[Front])]
+03-24 16:14:50 INFO     Recognizing [Thing(dist='0', value=Path, type='Path', side=[Left])].
+03-24 16:14:50 INFO     recognize observing...
+03-24 16:14:50 INFO     Observed [(Wall, Empty, Cement, Eiffel, BlueTile, Eiffel), (Rose, Empty, Wall, Eiffel, BlueTile, Eiffel), (Wall, Empty, Wall, Eiffel, BlueTile, Eiffel), (Cement, Chair, Cement, Fish, BlueTile, Fish), (Cement, Empty, Wall, Fish, BlueTile, Fish), (Honeycomb, Hatrack, Honeycomb, Fish, BlueTile, Fish), (Wall, Empty, Wall, End, Wall, End)]
+03-24 16:14:50 INFO     .....Examining [(Wall, Empty, Cement, Eiffel, BlueTile, Eiffel), (Rose, Empty, Wall, Eiffel, BlueTile, Eiffel), (Wall, Empty, Wall, Eiffel, BlueTile, Eiffel), (Cement, Chair, Cement, Fish, BlueTile, Fish), (Cement, Empty, Wall, Fish, BlueTile, Fish), (Honeycomb, Hatrack, Honeycomb, Fish, BlueTile, Fish), (Wall, Empty, Wall, End, Wall, End)]
+.....for Thing(dist='0', value=Path, type='Path', side=[Left])
+03-24 16:14:50 INFO     .....Did NOT recognize Thing(dist='0', value=Path, type='Path', side=[Left])
+03-24 16:14:50 INFO     Recognizing [Thing(dist='4:', value=Position, type='Struct', side=[Front])].
+03-24 16:14:50 INFO     .....Examining [(Wall, Empty, Cement, Eiffel, BlueTile, Eiffel), (Rose, Empty, Wall, Eiffel, BlueTile, Eiffel), (Wall, Empty, Wall, Eiffel, BlueTile, Eiffel), (Cement, Chair, Cement, Fish, BlueTile, Fish), (Cement, Empty, Wall, Fish, BlueTile, Fish), (Honeycomb, Hatrack, Honeycomb, Fish, BlueTile, Fish), (Wall, Empty, Wall, End, Wall, End)]
+.....for Thing(dist='4:', value=Position, type='Struct', side=[Front])
+03-24 16:14:50 INFO     .....Recognized Thing(dist='4:', value=Position, type='Struct', side=[Front])
+03-24 16:14:50 INFO     .....Recognized entire description!
+03-24 16:14:50 INFO     After Faced Distance 0 []
+03-24 16:14:50 INFO     Traveling forward.
+03-24 16:14:50 INFO     travel observing...
+03-24 16:14:50 INFO     post travel obs: [(Wall, Empty, Cement, Eiffel, BlueTile, Eiffel), (Rose, Empty, Wall, Eiffel, BlueTile, Eiffel), (Wall, Empty, Wall, Eiffel, BlueTile, Eiffel), (Cement, Chair, Cement, Fish, BlueTile, Fish), (Cement, Empty, Wall, Fish, BlueTile, Fish), (Honeycomb, Hatrack, Honeycomb, Fish, BlueTile, Fish), (Wall, Empty, Wall, End, Wall, End)]; viewCache: ViewCache([[(Wall, Empty, Cement, Eiffel, BlueTile, Eiffel), (Rose, Empty, Wall, Eiffel, BlueTile, Eiffel), (Wall, Empty, Wall, Eiffel, BlueTile, Eiffel), (Cement, Chair, Cement, Fish, BlueTile, Fish), (Cement, Empty, Wall, Fish, BlueTile, Fish), (Honeycomb, Hatrack, Honeycomb, Fish, BlueTile, Fish), (Wall, Empty, Wall, End, Wall, End)], [(BlueTile, Empty, BlueTile, Unknown, Cement, Unknown)], [(Cement, Empty, Wall, Eiffel, BlueTile, Eiffel), (Cement, Empty, Wall, Unknown, Unknown, Unknown)], [(BlueTile, Empty, BlueTile, End, Wall, End)]])
+03-24 16:14:50 INFO     After distance 1 [(Rose, Empty, Wall, Eiffel, BlueTile, Eiffel)]...
+03-24 16:14:50 INFO     Travel Distance: None Count is 1 of 4
+03-24 16:14:50 INFO     Traveling forward.
+03-24 16:14:50 INFO     travel observing...
+03-24 16:14:50 INFO     post travel obs: [(Rose, Empty, Wall, Eiffel, BlueTile, Eiffel), (Wall, Empty, Wall, Eiffel, BlueTile, Eiffel), (Cement, Chair, Cement, Fish, BlueTile, Fish), (Cement, Empty, Wall, Fish, BlueTile, Fish), (Honeycomb, Hatrack, Honeycomb, Fish, BlueTile, Fish), (Wall, Empty, Wall, End, Wall, End)]; viewCache: ViewCache([[(Rose, Empty, Wall, Eiffel, BlueTile, Eiffel), (Wall, Empty, Wall, Eiffel, BlueTile, Eiffel), (Cement, Chair, Cement, Fish, BlueTile, Fish), (Cement, Empty, Wall, Fish, BlueTile, Fish), (Honeycomb, Hatrack, Honeycomb, Fish, BlueTile, Fish), (Wall, Empty, Wall, End, Wall, End)], [(BlueTile, Empty, BlueTile, End, Wall, End)], [(Wall, Empty, Rose, Eiffel, BlueTile, Eiffel), (Cement, Empty, Wall, Eiffel, BlueTile, Eiffel), (Cement, Empty, Wall, Unknown, Unknown, Unknown)], [(BlueTile, Empty, BlueTile, Unknown, Rose, Unknown)]])
+03-24 16:14:50 INFO     After distance 1 [(Wall, Empty, Wall, Eiffel, BlueTile, Eiffel)]...
+03-24 16:14:50 INFO     Travel Distance: None Count is 2 of 4
+03-24 16:14:50 INFO     Traveling forward.
+03-24 16:14:50 INFO     travel observing...
+03-24 16:14:50 INFO     post travel obs: [(Wall, Empty, Wall, Eiffel, BlueTile, Eiffel), (Cement, Chair, Cement, Fish, BlueTile, Fish), (Cement, Empty, Wall, Fish, BlueTile, Fish), (Honeycomb, Hatrack, Honeycomb, Fish, BlueTile, Fish), (Wall, Empty, Wall, End, Wall, End)]; viewCache: ViewCache([[(Wall, Empty, Wall, Eiffel, BlueTile, Eiffel), (Cement, Chair, Cement, Fish, BlueTile, Fish), (Cement, Empty, Wall, Fish, BlueTile, Fish), (Honeycomb, Hatrack, Honeycomb, Fish, BlueTile, Fish), (Wall, Empty, Wall, End, Wall, End)], [(BlueTile, Empty, BlueTile, End, Wall, End)], [(Wall, Empty, Wall, Eiffel, BlueTile, Eiffel), (Wall, Empty, Rose, Eiffel, BlueTile, Eiffel), (Cement, Empty, Wall, Eiffel, BlueTile, Eiffel), (Cement, Empty, Wall, Unknown, Unknown, Unknown)], [(BlueTile, Empty, BlueTile, End, Wall, End)]])
+03-24 16:14:50 INFO     After distance 1 [(Cement, Chair, Cement, Fish, BlueTile, Fish)]...
+03-24 16:14:50 INFO     Travel Distance: None Count is 3 of 4
+03-24 16:14:50 INFO     Traveling forward.
+03-24 16:14:50 INFO     travel observing...
+03-24 16:14:50 INFO     post travel obs: [(Cement, Chair, Cement, Fish, BlueTile, Fish), (Cement, Empty, Wall, Fish, BlueTile, Fish), (Honeycomb, Hatrack, Honeycomb, Fish, BlueTile, Fish), (Wall, Empty, Wall, End, Wall, End)]; viewCache: ViewCache([[(Cement, Chair, Cement, Fish, BlueTile, Fish), (Cement, Empty, Wall, Fish, BlueTile, Fish), (Honeycomb, Hatrack, Honeycomb, Fish, BlueTile, Fish), (Wall, Empty, Wall, End, Wall, End)], [(BlueTile, Chair, BlueTile, Unknown, Cement, Unknown)], [(Cement, Chair, Cement, Eiffel, BlueTile, Eiffel), (Wall, Empty, Wall, Eiffel, BlueTile, Eiffel), (Wall, Empty, Rose, Eiffel, BlueTile, Eiffel), (Cement, Empty, Wall, Eiffel, BlueTile, Eiffel), (Cement, Empty, Wall, Unknown, Unknown, Unknown)], [(BlueTile, Chair, BlueTile, Unknown, Cement, Unknown)]])
+03-24 16:14:50 INFO     After distance 1 [(Cement, Empty, Wall, Fish, BlueTile, Fish)]...
+03-24 16:14:50 INFO     Travel Distance: None Count is 4 of 4
+03-24 16:14:50 INFO     frame2action [Travel_v=[MEAN='walk_V_1'], Dir=[MEAN='forward_ADV_1'], Dist=[Count=[MEAN='four_ADJ_1'], Dist_unit=[MEAN="times_N_('time', [1])"]]]
+03-24 16:14:50 INFO     <0> Travel(distance=[Distance(count=4)])
+03-24 16:14:50 INFO     Facing the Distance conditions in the distance [Thing(dist='4:', value=Position, type='Struct', side=[Front])]
+03-24 16:14:50 INFO     Recognizing [Thing(dist='0', value=Path, type='Path', side=[Right])].
+03-24 16:14:50 INFO     recognize observing...
+03-24 16:14:50 INFO     Observed [(Wood, Chair, Wall, Butterfly, BlueTile, Butterfly), (Stone, Barstool, Wall, Butterfly, BlueTile, Butterfly), (Cement, Empty, Wall, Butterfly, BlueTile, Butterfly), (Cement, Sofa, Wall, Butterfly, BlueTile, Butterfly), (Cement, Hatrack, Wall, Butterfly, BlueTile, Butterfly), (Cement, Empty, Wall, End, Wall, End)]
+03-24 16:14:50 INFO     .....Examining [(Wood, Chair, Wall, Butterfly, BlueTile, Butterfly), (Stone, Barstool, Wall, Butterfly, BlueTile, Butterfly), (Cement, Empty, Wall, Butterfly, BlueTile, Butterfly), (Cement, Sofa, Wall, Butterfly, BlueTile, Butterfly), (Cement, Hatrack, Wall, Butterfly, BlueTile, Butterfly), (Cement, Empty, Wall, End, Wall, End)]
+.....for Thing(dist='0', value=Path, type='Path', side=[Right])
+03-24 16:14:50 INFO     .....Did NOT recognize Thing(dist='0', value=Path, type='Path', side=[Right])
+03-24 16:14:50 INFO     Recognizing [Thing(dist='4:', value=Position, type='Struct', side=[Front])].
+03-24 16:14:50 INFO     .....Examining [(Wood, Chair, Wall, Butterfly, BlueTile, Butterfly), (Stone, Barstool, Wall, Butterfly, BlueTile, Butterfly), (Cement, Empty, Wall, Butterfly, BlueTile, Butterfly), (Cement, Sofa, Wall, Butterfly, BlueTile, Butterfly), (Cement, Hatrack, Wall, Butterfly, BlueTile, Butterfly), (Cement, Empty, Wall, End, Wall, End)]
+.....for Thing(dist='4:', value=Position, type='Struct', side=[Front])
+03-24 16:14:50 INFO     .....Recognized Thing(dist='4:', value=Position, type='Struct', side=[Front])
+03-24 16:14:50 INFO     .....Recognized entire description!
+03-24 16:14:50 INFO     After Faced Distance 0 []
+03-24 16:14:50 INFO     Traveling forward.
+03-24 16:14:50 INFO     travel observing...
+03-24 16:14:50 INFO     post travel obs: [(Wood, Chair, Wall, Butterfly, BlueTile, Butterfly), (Stone, Barstool, Wall, Butterfly, BlueTile, Butterfly), (Cement, Empty, Wall, Butterfly, BlueTile, Butterfly), (Cement, Sofa, Wall, Butterfly, BlueTile, Butterfly), (Cement, Hatrack, Wall, Butterfly, BlueTile, Butterfly), (Cement, Empty, Wall, End, Wall, End)]; viewCache: ViewCache([[(Wood, Chair, Wall, Butterfly, BlueTile, Butterfly), (Stone, Barstool, Wall, Butterfly, BlueTile, Butterfly), (Cement, Empty, Wall, Butterfly, BlueTile, Butterfly), (Cement, Sofa, Wall, Butterfly, BlueTile, Butterfly), (Cement, Hatrack, Wall, Butterfly, BlueTile, Butterfly), (Cement, Empty, Wall, End, Wall, End)], [(BlueTile, Chair, BlueTile, End, Wall, End)], [(Wall, Chair, Wood, Butterfly, BlueTile, Butterfly), (Wall, Chair, Wood, Unknown, Unknown, Unknown)], [(BlueTile, Chair, BlueTile, Unknown, Wood, Unknown)]])
+03-24 16:14:50 INFO     After distance 1 [(Stone, Barstool, Wall, Butterfly, BlueTile, Butterfly)]...
+03-24 16:14:50 INFO     Travel Distance: None Count is 1 of 4
+03-24 16:14:50 INFO     Traveling forward.
+03-24 16:14:50 INFO     travel observing...
+03-24 16:14:50 INFO     post travel obs: [(Stone, Barstool, Wall, Butterfly, BlueTile, Butterfly), (Cement, Empty, Wall, Butterfly, BlueTile, Butterfly), (Cement, Sofa, Wall, Butterfly, BlueTile, Butterfly), (Cement, Hatrack, Wall, Butterfly, BlueTile, Butterfly), (Cement, Empty, Wall, End, Wall, End)]; viewCache: ViewCache([[(Stone, Barstool, Wall, Butterfly, BlueTile, Butterfly), (Cement, Empty, Wall, Butterfly, BlueTile, Butterfly), (Cement, Sofa, Wall, Butterfly, BlueTile, Butterfly), (Cement, Hatrack, Wall, Butterfly, BlueTile, Butterfly), (Cement, Empty, Wall, End, Wall, End)], [(BlueTile, Barstool, BlueTile, End, Wall, End)], [(Wall, Barstool, Stone, Butterfly, BlueTile, Butterfly), (Wall, Chair, Wood, Butterfly, BlueTile, Butterfly), (Wall, Chair, Wood, Unknown, Unknown, Unknown)], [(BlueTile, Barstool, BlueTile, Unknown, Stone, Unknown)]])
+03-24 16:14:50 INFO     After distance 1 [(Cement, Empty, Wall, Butterfly, BlueTile, Butterfly)]...
+03-24 16:14:50 INFO     Travel Distance: None Count is 2 of 4
+03-24 16:14:50 INFO     Traveling forward.
+03-24 16:14:50 INFO     travel observing...
+03-24 16:14:50 INFO     post travel obs: [(Cement, Empty, Wall, Butterfly, BlueTile, Butterfly), (Cement, Sofa, Wall, Butterfly, BlueTile, Butterfly), (Cement, Hatrack, Wall, Butterfly, BlueTile, Butterfly), (Cement, Empty, Wall, End, Wall, End)]; viewCache: ViewCache([[(Cement, Empty, Wall, Butterfly, BlueTile, Butterfly), (Cement, Sofa, Wall, Butterfly, BlueTile, Butterfly), (Cement, Hatrack, Wall, Butterfly, BlueTile, Butterfly), (Cement, Empty, Wall, End, Wall, End)], [(BlueTile, Empty, BlueTile, End, Wall, End)], [(Wall, Empty, Cement, Butterfly, BlueTile, Butterfly), (Wall, Barstool, Stone, Butterfly, BlueTile, Butterfly), (Wall, Chair, Wood, Butterfly, BlueTile, Butterfly), (Wall, Chair, Wood, Unknown, Unknown, Unknown)], [(BlueTile, Empty, BlueTile, Unknown, Cement, Unknown)]])
+03-24 16:14:50 INFO     After distance 1 [(Cement, Sofa, Wall, Butterfly, BlueTile, Butterfly)]...
+03-24 16:14:50 INFO     Travel Distance: None Count is 3 of 4
+03-24 16:14:50 INFO     Traveling forward.
+03-24 16:14:50 INFO     travel observing...
+03-24 16:14:50 INFO     post travel obs: [(Cement, Sofa, Wall, Butterfly, BlueTile, Butterfly), (Cement, Hatrack, Wall, Butterfly, BlueTile, Butterfly), (Cement, Empty, Wall, End, Wall, End)]; viewCache: ViewCache([[(Cement, Sofa, Wall, Butterfly, BlueTile, Butterfly), (Cement, Hatrack, Wall, Butterfly, BlueTile, Butterfly), (Cement, Empty, Wall, End, Wall, End)], [(BlueTile, Sofa, BlueTile, End, Wall, End)], [(Wall, Sofa, Cement, Butterfly, BlueTile, Butterfly), (Wall, Empty, Cement, Butterfly, BlueTile, Butterfly), (Wall, Barstool, Stone, Butterfly, BlueTile, Butterfly), (Wall, Chair, Wood, Butterfly, BlueTile, Butterfly), (Wall, Chair, Wood, Unknown, Unknown, Unknown)], [(BlueTile, Sofa, BlueTile, Unknown, Cement, Unknown)]])
+03-24 16:14:50 INFO     After distance 1 [(Cement, Hatrack, Wall, Butterfly, BlueTile, Butterfly), (Cement, Empty, Wall, End, Wall, End)]
+03-24 16:14:50 INFO     Travel Distance: None Count is 4 of 4
+03-24 16:14:51 INFO     frame2action [Travel_v=[MEAN='walk_V_1'], Dir=[MEAN='forward_ADV_1'], Dist=[Count=[MEAN='four_ADJ_1'], Dist_unit=[MEAN="times_N_('time', [1])"]]]
+03-24 16:14:51 INFO     <0> Travel(distance=[Distance(count=4)])
+03-24 16:14:51 INFO     Facing the Distance conditions in the distance [Thing(dist='4:', value=Position, type='Struct', side=[Front])]
+03-24 16:14:51 INFO     Recognizing [Thing(dist='0', value=Path, type='Path', side=[Left])].
+03-24 16:14:51 INFO     recognize observing...
+03-24 16:14:51 INFO     Observed [(Cement, Hatrack, Wall, Butterfly, Grass, Butterfly), (Wall, Empty, Wall, Butterfly, Grass, Butterfly), (Wall, Empty, Wall, Butterfly, Grass, Butterfly), (Wall, Empty, Wall, Butterfly, Grass, Butterfly), (Cement, Chair, Wall, Butterfly, Grass, Butterfly), (Wall, Empty, Wall, End, Wall, End)]
+03-24 16:14:51 INFO     .....Examining [(Cement, Hatrack, Wall, Butterfly, Grass, Butterfly), (Wall, Empty, Wall, Butterfly, Grass, Butterfly), (Wall, Empty, Wall, Butterfly, Grass, Butterfly), (Wall, Empty, Wall, Butterfly, Grass, Butterfly), (Cement, Chair, Wall, Butterfly, Grass, Butterfly), (Wall, Empty, Wall, End, Wall, End)]
+.....for Thing(dist='0', value=Path, type='Path', side=[Left])
+03-24 16:14:51 INFO     .....Recognized Thing(dist='0', value=Path, type='Path', side=[Left])
+03-24 16:14:51 INFO     .....Recognized entire description!
+03-24 16:14:51 INFO     Recognizing [Thing(dist='4:', value=Position, type='Struct', side=[Front])].
+03-24 16:14:51 INFO     .....Examining [(Cement, Hatrack, Wall, Butterfly, Grass, Butterfly), (Wall, Empty, Wall, Butterfly, Grass, Butterfly), (Wall, Empty, Wall, Butterfly, Grass, Butterfly), (Wall, Empty, Wall, Butterfly, Grass, Butterfly), (Cement, Chair, Wall, Butterfly, Grass, Butterfly), (Wall, Empty, Wall, End, Wall, End)]
+.....for Thing(dist='4:', value=Position, type='Struct', side=[Front])
+03-24 16:14:51 INFO     .....Recognized Thing(dist='4:', value=Position, type='Struct', side=[Front])
+03-24 16:14:51 INFO     .....Recognized entire description!
+03-24 16:14:51 INFO     After Faced Distance 0 []
+03-24 16:14:51 INFO     Traveling forward.
+03-24 16:14:51 INFO     travel observing...
+03-24 16:14:51 INFO     post travel obs: [(Cement, Hatrack, Wall, Butterfly, Grass, Butterfly), (Wall, Empty, Wall, Butterfly, Grass, Butterfly), (Wall, Empty, Wall, Butterfly, Grass, Butterfly), (Wall, Empty, Wall, Butterfly, Grass, Butterfly), (Cement, Chair, Wall, Butterfly, Grass, Butterfly), (Wall, Empty, Wall, End, Wall, End)]; viewCache: ViewCache([[(Cement, Hatrack, Wall, Butterfly, Grass, Butterfly), (Wall, Empty, Wall, Butterfly, Grass, Butterfly), (Wall, Empty, Wall, Butterfly, Grass, Butterfly), (Wall, Empty, Wall, Butterfly, Grass, Butterfly), (Cement, Chair, Wall, Butterfly, Grass, Butterfly), (Wall, Empty, Wall, End, Wall, End)], [(Grass, Hatrack, Grass, End, Wall, End)], [(Wall, Hatrack, Cement, Butterfly, Grass, Butterfly), (Wall, Hatrack, Cement, Unknown, Unknown, Unknown)], [(Grass, Hatrack, Grass, Unknown, Cement, Unknown)]])
+03-24 16:14:51 INFO     After distance 1 [(Wall, Empty, Wall, Butterfly, Grass, Butterfly)]...
+03-24 16:14:51 INFO     Travel Distance: None Count is 1 of 4
+03-24 16:14:51 INFO     Traveling forward.
+03-24 16:14:51 INFO     travel observing...
+03-24 16:14:51 INFO     post travel obs: [(Wall, Empty, Wall, Butterfly, Grass, Butterfly), (Wall, Empty, Wall, Butterfly, Grass, Butterfly), (Wall, Empty, Wall, Butterfly, Grass, Butterfly), (Cement, Chair, Wall, Butterfly, Grass, Butterfly), (Wall, Empty, Wall, End, Wall, End)]; viewCache: ViewCache([[(Wall, Empty, Wall, Butterfly, Grass, Butterfly), (Wall, Empty, Wall, Butterfly, Grass, Butterfly), (Wall, Empty, Wall, Butterfly, Grass, Butterfly), (Cement, Chair, Wall, Butterfly, Grass, Butterfly), (Wall, Empty, Wall, End, Wall, End)], [(Grass, Empty, Grass, End, Wall, End)], [(Wall, Empty, Wall, Butterfly, Grass, Butterfly), (Wall, Hatrack, Cement, Butterfly, Grass, Butterfly), (Wall, Hatrack, Cement, Unknown, Unknown, Unknown)], [(Grass, Empty, Grass, End, Wall, End)]])
+03-24 16:14:51 INFO     After distance 1 [(Wall, Empty, Wall, Butterfly, Grass, Butterfly)]...
+03-24 16:14:51 INFO     Travel Distance: None Count is 2 of 4
+03-24 16:14:51 INFO     Traveling forward.
+03-24 16:14:51 INFO     travel observing...
+03-24 16:14:51 INFO     post travel obs: [(Wall, Empty, Wall, Butterfly, Grass, Butterfly), (Wall, Empty, Wall, Butterfly, Grass, Butterfly), (Cement, Chair, Wall, Butterfly, Grass, Butterfly), (Wall, Empty, Wall, End, Wall, End)]; viewCache: ViewCache([[(Wall, Empty, Wall, Butterfly, Grass, Butterfly), (Wall, Empty, Wall, Butterfly, Grass, Butterfly), (Cement, Chair, Wall, Butterfly, Grass, Butterfly), (Wall, Empty, Wall, End, Wall, End)], [(Grass, Empty, Grass, End, Wall, End)], [(Wall, Empty, Wall, Butterfly, Grass, Butterfly), (Wall, Empty, Wall, Butterfly, Grass, Butterfly), (Wall, Hatrack, Cement, Butterfly, Grass, Butterfly), (Wall, Hatrack, Cement, Unknown, Unknown, Unknown)], [(Grass, Empty, Grass, End, Wall, End)]])
+03-24 16:14:51 INFO     After distance 1 [(Wall, Empty, Wall, Butterfly, Grass, Butterfly)]...
+03-24 16:14:51 INFO     Travel Distance: None Count is 3 of 4
+03-24 16:14:51 INFO     Traveling forward.
+03-24 16:14:51 INFO     travel observing...
+03-24 16:14:51 INFO     post travel obs: [(Wall, Empty, Wall, Butterfly, Grass, Butterfly), (Cement, Chair, Wall, Butterfly, Grass, Butterfly), (Wall, Empty, Wall, End, Wall, End)]; viewCache: ViewCache([[(Wall, Empty, Wall, Butterfly, Grass, Butterfly), (Cement, Chair, Wall, Butterfly, Grass, Butterfly), (Wall, Empty, Wall, End, Wall, End)], [(Grass, Empty, Grass, End, Wall, End)], [(Wall, Empty, Wall, Butterfly, Grass, Butterfly), (Wall, Empty, Wall, Butterfly, Grass, Butterfly), (Wall, Empty, Wall, Butterfly, Grass, Butterfly), (Wall, Hatrack, Cement, Butterfly, Grass, Butterfly), (Wall, Hatrack, Cement, Unknown, Unknown, Unknown)], [(Grass, Empty, Grass, End, Wall, End)]])
+03-24 16:14:51 INFO     After distance 1 [(Cement, Chair, Wall, Butterfly, Grass, Butterfly), (Wall, Empty, Wall, End, Wall, End)]
+03-24 16:14:51 INFO     Travel Distance: None Count is 4 of 4
+03-24 16:14:53 INFO     frame2action [Turn_v=[MEAN='turn_V_1'], Purpose=[Purpose_p=[MEAN='SO THAT'], S=[Obj=[Det=[MEAN='THE'], Obj_n=[MEAN='wall_N_1']], Is_v=[MEAN="is_V_('be', [1, 2, 3, 4, 5])"], Side=[Side=[Side_p=[MEAN='ON'], Dir=[MEAN='left_ADV_1']], Cc=[MEAN='AND'], Side_2=[Side_p=[MEAN='TO'], Dir=[MEAN='back_ADV_1,2']]]]]]
+03-24 16:14:53 INFO     <0> Turn(face=Face(faced=Verify(desc=[Thing(dist='0', value=Wall, type='Obj', side=[Back, Left])])))
+03-24 16:14:53 INFO     Recognizing [Thing(dist='0', value=Path, type='Path', side=[Left])].
+03-24 16:14:53 INFO     recognize observing...
+03-24 16:14:53 INFO     Observed [(Cement, Empty, Wall, End, Wall, End)]
+03-24 16:14:53 INFO     .....Examining [(Cement, Empty, Wall, End, Wall, End)]
+.....for Thing(dist='0', value=Path, type='Path', side=[Left])
+03-24 16:14:53 INFO     .....Recognized Thing(dist='0', value=Path, type='Path', side=[Left])
+03-24 16:14:53 INFO     .....Recognized entire description!
+03-24 16:14:53 INFO     Recognizing [Thing(dist='0', value=Wall, type='Obj', side=[Back, Left])].
+03-24 16:14:53 INFO     .....Examining [(Cement, Empty, Wall, End, Wall, End)]
+.....for Thing(dist='0', value=Wall, type='Obj', side=[Back, Left])
+03-24 16:14:53 INFO     .....Did NOT recognize Thing(dist='0', value=Wall, type='Obj', side=[Back, Left])
+03-24 16:14:53 INFO     Turning Left.
+03-24 16:14:53 INFO     After face 1 [(Cement, Empty, Wall, Butterfly, Cement, Butterfly), (Grass, Hatrack, Wall, End, Wall, End)]
+03-24 16:14:53 INFO     Recognizing [Thing(dist='0', value=Wall, type='Obj', side=[Back, Left])].
+03-24 16:14:53 INFO     .....Examining [(Cement, Empty, Wall, Butterfly, Cement, Butterfly), (Grass, Hatrack, Wall, End, Wall, End)]
+.....for Thing(dist='0', value=Wall, type='Obj', side=[Back, Left])
+03-24 16:14:53 INFO     .....Did NOT recognize Thing(dist='0', value=Wall, type='Obj', side=[Back, Left])
+03-24 16:14:53 INFO     Turning Left.
+03-24 16:14:53 INFO     After face 1 [(Wall, Empty, Cement, Butterfly, Cement, Butterfly), (Cement, Lamp, Wall, End, Wall, End)]
+03-24 16:14:53 INFO     Recognizing [Thing(dist='0', value=Wall, type='Obj', side=[Back, Left])].
+03-24 16:14:53 INFO     .....Examining [(Wall, Empty, Cement, Butterfly, Cement, Butterfly), (Cement, Lamp, Wall, End, Wall, End)]
+.....for Thing(dist='0', value=Wall, type='Obj', side=[Back, Left])
+03-24 16:14:53 INFO     .....Recognized Thing(dist='0', value=Wall, type='Obj', side=[Back, Left])
+03-24 16:14:53 INFO     .....Recognized entire description!
+03-24 16:14:53 INFO     After face 2 [(Wall, Empty, Cement, Butterfly, Cement, Butterfly), (Cement, Lamp, Wall, End, Wall, End)]
+03-24 16:14:55 INFO     frame2action [Travel_v=[MEAN='walk_V_1'], Dir=[MEAN='forward_ADV_1'], Dist=[Count=[MEAN='twice_ADV_1']], ,=[MEAN=','], Cc=[MEAN='OR'], Until=[Until_p=[MEAN='UNTIL'], Arrive=[Agent=[MEAN='YOU'], Arrive_v=[MEAN='reach_V_1'], Path=[Det=[MEAN='THE'], Appear=[MEAN='blue_ADJ_1'], Path_n=[MEAN='hallway_N_1']]]]]
+03-24 16:14:55 INFO     <0> Travel(distance=[Distance(count=2)], until=Verify(desc=[Thing(dist='0', Appear=[BlueTile], value=Path, type='Path', side=[At])]))
+03-24 16:14:55 INFO     Recognizing [Thing(dist='0', Appear=[BlueTile], value=Path, type='Path', side=[At])].
+03-24 16:14:55 INFO     recognize observing...
+03-24 16:14:55 INFO     Observed [(Wall, Easel, Honeycomb, Eiffel, Stone, Eiffel), (Cement, Empty, Wall, Eiffel, Stone, Eiffel), (Brick, Empty, Brick, Butterfly, Stone, Butterfly), (BlueTile, Barstool, BlueTile, End, Wall, End)]
+03-24 16:14:55 INFO     .....Examining [(Wall, Easel, Honeycomb, Eiffel, Stone, Eiffel), (Cement, Empty, Wall, Eiffel, Stone, Eiffel), (Brick, Empty, Brick, Butterfly, Stone, Butterfly), (BlueTile, Barstool, BlueTile, End, Wall, End)]
+.....for Thing(dist='0', Appear=[BlueTile], value=Path, type='Path', side=[At])
+03-24 16:14:55 INFO     .....Did NOT recognize Thing(dist='0', Appear=[BlueTile], value=Path, type='Path', side=[At])
+03-24 16:14:55 INFO     Recognizing [Thing(dist='0', Appear=[BlueTile], value=Path, type='Path', side=[At])].
+03-24 16:14:55 INFO     .....Examining [(Wall, Easel, Honeycomb, Eiffel, Stone, Eiffel), (Cement, Empty, Wall, Eiffel, Stone, Eiffel), (Brick, Empty, Brick, Butterfly, Stone, Butterfly), (BlueTile, Barstool, BlueTile, End, Wall, End)]
+.....for Thing(dist='0', Appear=[BlueTile], value=Path, type='Path', side=[At])
+03-24 16:14:55 INFO     .....Did NOT recognize Thing(dist='0', Appear=[BlueTile], value=Path, type='Path', side=[At])
+03-24 16:14:55 INFO     Facing the Distance/Until conditions in the distance [Thing(dist='2:', value=Position, type='Struct', side=[Front]), Thing(dist='0:', Appear=[BlueTile], value=Path, type='Path', side=[Front])]
+03-24 16:14:55 INFO     Recognizing [Thing(dist='0', value=Path, type='Path', side=[Left])].
+03-24 16:14:55 INFO     .....Examining [(Wall, Easel, Honeycomb, Eiffel, Stone, Eiffel), (Cement, Empty, Wall, Eiffel, Stone, Eiffel), (Brick, Empty, Brick, Butterfly, Stone, Butterfly), (BlueTile, Barstool, BlueTile, End, Wall, End)]
+.....for Thing(dist='0', value=Path, type='Path', side=[Left])
+03-24 16:14:55 INFO     .....Did NOT recognize Thing(dist='0', value=Path, type='Path', side=[Left])
+03-24 16:14:55 INFO     Recognizing [Thing(dist='2:', value=Position, type='Struct', side=[Front]), Thing(dist='0:', Appear=[BlueTile], value=Path, type='Path', side=[Front])].
+03-24 16:14:55 INFO     .....Examining [(Wall, Easel, Honeycomb, Eiffel, Stone, Eiffel), (Cement, Empty, Wall, Eiffel, Stone, Eiffel), (Brick, Empty, Brick, Butterfly, Stone, Butterfly), (BlueTile, Barstool, BlueTile, End, Wall, End)]
+.....for Thing(dist='2:', value=Position, type='Struct', side=[Front])
+03-24 16:14:55 INFO     .....Recognized Thing(dist='2:', value=Position, type='Struct', side=[Front])
+03-24 16:14:55 INFO     .....Examining [(Wall, Easel, Honeycomb, Eiffel, Stone, Eiffel), (Cement, Empty, Wall, Eiffel, Stone, Eiffel), (Brick, Empty, Brick, Butterfly, Stone, Butterfly), (BlueTile, Barstool, BlueTile, End, Wall, End)]
+.....for Thing(dist='0:', Appear=[BlueTile], value=Path, type='Path', side=[Front])
+03-24 16:14:55 INFO     .....Recognized Thing(dist='0:', Appear=[BlueTile], value=Path, type='Path', side=[Front])
+03-24 16:14:55 INFO     .....Recognized entire description!
+03-24 16:14:55 INFO     After Faced Distance/Until 0 []
+03-24 16:14:55 INFO     Traveling forward.
+03-24 16:14:55 INFO     travel observing...
+03-24 16:14:55 INFO     post travel obs: [(Wall, Easel, Honeycomb, Eiffel, Stone, Eiffel), (Cement, Empty, Wall, Eiffel, Stone, Eiffel), (Brick, Empty, Brick, Butterfly, Stone, Butterfly), (BlueTile, Barstool, BlueTile, End, Wall, End)]; viewCache: ViewCache([[(Wall, Easel, Honeycomb, Eiffel, Stone, Eiffel), (Cement, Empty, Wall, Eiffel, Stone, Eiffel), (Brick, Empty, Brick, Butterfly, Stone, Butterfly), (BlueTile, Barstool, BlueTile, End, Wall, End)], [(Stone, Easel, Stone, Unknown, Honeycomb, Unknown)], [(Honeycomb, Easel, Wall, Eiffel, Stone, Eiffel), (Honeycomb, Easel, Wall, Unknown, Unknown, Unknown)], [(Stone, Easel, Stone, End, Wall, End)]])
+03-24 16:14:55 INFO     After distance 1 [(Cement, Empty, Wall, Eiffel, Stone, Eiffel)]...
+03-24 16:14:55 INFO     Travel Distance: None Count is 1 of 2
+03-24 16:14:55 INFO     Traveling forward.
+03-24 16:14:55 INFO     travel observing...
+03-24 16:14:55 INFO     post travel obs: [(Cement, Empty, Wall, Eiffel, Stone, Eiffel), (Brick, Empty, Brick, Butterfly, Stone, Butterfly), (BlueTile, Barstool, BlueTile, End, Wall, End)]; viewCache: ViewCache([[(Cement, Empty, Wall, Eiffel, Stone, Eiffel), (Brick, Empty, Brick, Butterfly, Stone, Butterfly), (BlueTile, Barstool, BlueTile, End, Wall, End)], [(Stone, Empty, Stone, End, Wall, End)], [(Wall, Empty, Cement, Eiffel, Stone, Eiffel), (Honeycomb, Easel, Wall, Eiffel, Stone, Eiffel), (Honeycomb, Easel, Wall, Unknown, Unknown, Unknown)], [(Stone, Empty, Stone, Unknown, Cement, Unknown)]])
+03-24 16:14:55 INFO     After distance 1 [(Brick, Empty, Brick, Butterfly, Stone, Butterfly), (BlueTile, Barstool, BlueTile, End, Wall, End)]
+03-24 16:14:55 INFO     Travel Distance: None Count is 2 of 2
+03-24 16:14:55 INFO     Recognizing [Thing(dist='0', Appear=[BlueTile], value=Path, type='Path', side=[At])].
+03-24 16:14:55 INFO     .....Examining [(Brick, Empty, Brick, Butterfly, Stone, Butterfly), (BlueTile, Barstool, BlueTile, End, Wall, End)]
+.....for Thing(dist='0', Appear=[BlueTile], value=Path, type='Path', side=[At])
+03-24 16:14:55 INFO     .....Did NOT recognize Thing(dist='0', Appear=[BlueTile], value=Path, type='Path', side=[At])
+03-24 16:14:55 INFO     Testing for over-shooting destination
+03-24 16:14:55 INFO     Recognizing [Thing(dist='0:', Appear=[BlueTile], value=Path, type='Path', side=[Front])].
+03-24 16:14:55 INFO     .....Examining [(Brick, Empty, Brick, Butterfly, Stone, Butterfly), (BlueTile, Barstool, BlueTile, End, Wall, End)]
+.....for Thing(dist='0:', Appear=[BlueTile], value=Path, type='Path', side=[Front])
+03-24 16:14:55 INFO     .....Recognized Thing(dist='0:', Appear=[BlueTile], value=Path, type='Path', side=[Front])
+03-24 16:14:55 INFO     .....Recognized entire description!
+03-24 16:14:55 INFO     Traveling forward.
+03-24 16:14:55 INFO     travel observing...
+03-24 16:14:55 INFO     post travel obs: [(Brick, Empty, Brick, Butterfly, Stone, Butterfly), (BlueTile, Barstool, BlueTile, End, Wall, End)]; viewCache: ViewCache([[(Brick, Empty, Brick, Butterfly, Stone, Butterfly), (BlueTile, Barstool, BlueTile, End, Wall, End)], [(Stone, Empty, Stone, Unknown, Brick, Unknown)], [(Brick, Empty, Brick, Butterfly, Stone, Butterfly), (Brick, Empty, Brick, Eiffel, Stone, Eiffel), (Honeycomb, Easel, Wall, Eiffel, Stone, Eiffel), (Honeycomb, Easel, Wall, Unknown, Unknown, Unknown)], [(Stone, Empty, Stone, Unknown, Brick, Unknown)]])
+03-24 16:14:55 INFO     After until 1 [(BlueTile, Barstool, BlueTile, End, Wall, End)]
+03-24 16:14:55 INFO     Recognizing [Thing(dist='0', Appear=[BlueTile], value=Path, type='Path', side=[At])].
+03-24 16:14:55 INFO     .....Examining [(BlueTile, Barstool, BlueTile, End, Wall, End)]
+.....for Thing(dist='0', Appear=[BlueTile], value=Path, type='Path', side=[At])
+03-24 16:14:55 INFO     .....Recognized Thing(dist='0', Appear=[BlueTile], value=Path, type='Path', side=[At])
+03-24 16:14:55 INFO     .....Recognized entire description!
+03-24 16:14:56 INFO     frame2action [Turn_v=[MEAN='turn_V_1'], Purpose=[Purpose_p=[MEAN='TO'], S=[Loc=[Loc_p=[MEAN='WHERE'], S=[Obj=[Det=[MEAN='THE'], Obj_n=[MEAN='wall_N_1']], Is_v=[MEAN="is_V_('be', [1, 2, 3, 4, 5])"], Side=[Side_p=[MEAN='ON'], Dir=[MEAN='left_ADV_1'], Side_n=[MEAN='side_N_1']]]]]]]
+03-24 16:14:56 INFO     <0> Turn(face=Face(faced=Verify(desc=[Thing(dist='0', value=Wall, type='Obj', side=[Left])])))
+03-24 16:14:56 INFO     Recognizing [Thing(dist='0', value=Path, type='Path', side=[Left])].
+03-24 16:14:56 INFO     recognize observing...
+03-24 16:14:56 INFO     Observed [(Cement, Empty, Wall, Butterfly, Brick, Butterfly), (Wall, Empty, Cement, End, Wall, End)]
+03-24 16:14:56 INFO     .....Examining [(Cement, Empty, Wall, Butterfly, Brick, Butterfly), (Wall, Empty, Cement, End, Wall, End)]
+.....for Thing(dist='0', value=Path, type='Path', side=[Left])
+03-24 16:14:56 INFO     .....Recognized Thing(dist='0', value=Path, type='Path', side=[Left])
+03-24 16:14:56 INFO     .....Recognized entire description!
+03-24 16:14:56 INFO     Recognizing [Thing(dist='0', value=Wall, type='Obj', side=[Left])].
+03-24 16:14:56 INFO     .....Examining [(Cement, Empty, Wall, Butterfly, Brick, Butterfly), (Wall, Empty, Cement, End, Wall, End)]
+.....for Thing(dist='0', value=Wall, type='Obj', side=[Left])
+03-24 16:14:56 INFO     .....Did NOT recognize Thing(dist='0', value=Wall, type='Obj', side=[Left])
+03-24 16:14:56 INFO     Turning Left.
+03-24 16:14:56 INFO     After face 1 [(Brick, Empty, Brick, Butterfly, Cement, Butterfly), (Grass, Chair, Grass, End, Wall, End)]
+03-24 16:14:56 INFO     Recognizing [Thing(dist='0', value=Wall, type='Obj', side=[Left])].
+03-24 16:14:56 INFO     .....Examining [(Brick, Empty, Brick, Butterfly, Cement, Butterfly), (Grass, Chair, Grass, End, Wall, End)]
+.....for Thing(dist='0', value=Wall, type='Obj', side=[Left])
+03-24 16:14:56 INFO     .....Did NOT recognize Thing(dist='0', value=Wall, type='Obj', side=[Left])
+03-24 16:14:56 INFO     Turning Left.
+03-24 16:14:56 INFO     After face 1 [(Wall, Empty, Cement, Eiffel, Brick, Eiffel)]...
+03-24 16:14:56 INFO     Recognizing [Thing(dist='0', value=Wall, type='Obj', side=[Left])].
+03-24 16:14:56 INFO     .....Examining [(Wall, Empty, Cement, Eiffel, Brick, Eiffel), (Cement, Sofa, Wall, Eiffel, Brick, Eiffel), (Wall, Empty, Wall, End, Wall, End)]
+.....for Thing(dist='0', value=Wall, type='Obj', side=[Left])
+03-24 16:14:56 INFO     .....Recognized Thing(dist='0', value=Wall, type='Obj', side=[Left])
+03-24 16:14:56 INFO     .....Recognized entire description!
+03-24 16:14:56 INFO     After face 2 [(Wall, Empty, Cement, Eiffel, Brick, Eiffel)]...
+03-24 16:14:58 INFO     frame2action [Turn_v=[MEAN='turn_V_1'], Purpose=[Purpose_p=[MEAN='SO THAT'], S=[Obj=[Det=[MEAN='THE'], Obj_n=[MEAN="walls_N_('wall', [1])"]], Is_v=[MEAN="are_V_('be', [1, 2, 3, 4, 5])"], Side=[Side_p=[MEAN='ON'], Dir=[Det=[MEAN='YOUR'], Dir=[MEAN='right_ADV_4'], Cc=[MEAN='AND'], Dir_3=[MEAN='back_ADV_1,2']]]]]]
+03-24 16:14:58 INFO     <0> Turn(face=Face(faced=Verify(desc=[Thing(dist='0', value=Wall, type='Obj', side=[Back, Right])])))
+03-24 16:14:58 INFO     Recognizing [Thing(dist='0', value=Path, type='Path', side=[Left])].
+03-24 16:14:58 INFO     recognize observing...
+03-24 16:14:58 INFO     Observed [(Wall, Empty, Cement, End, Wall, End)]
+03-24 16:14:58 INFO     .....Examining [(Wall, Empty, Cement, End, Wall, End)]
+.....for Thing(dist='0', value=Path, type='Path', side=[Left])
+03-24 16:14:58 INFO     .....Did NOT recognize Thing(dist='0', value=Path, type='Path', side=[Left])
+03-24 16:14:58 INFO     Recognizing [Thing(dist='0', value=Wall, type='Obj', side=[Back, Right])].
+03-24 16:14:58 INFO     .....Examining [(Wall, Empty, Cement, End, Wall, End)]
+.....for Thing(dist='0', value=Wall, type='Obj', side=[Back, Right])
+03-24 16:14:58 INFO     .....Did NOT recognize Thing(dist='0', value=Wall, type='Obj', side=[Back, Right])
+03-24 16:14:58 INFO     Turning Right.
+03-24 16:14:58 INFO     After face 1 [(Wall, Empty, Cement, Butterfly, Cement, Butterfly), (Wall, Empty, Cement, End, Wall, End)]
+03-24 16:14:58 INFO     Recognizing [Thing(dist='0', value=Wall, type='Obj', side=[Back, Right])].
+03-24 16:14:58 INFO     .....Examining [(Wall, Empty, Cement, Butterfly, Cement, Butterfly), (Wall, Empty, Cement, End, Wall, End)]
+.....for Thing(dist='0', value=Wall, type='Obj', side=[Back, Right])
+03-24 16:14:58 INFO     .....Did NOT recognize Thing(dist='0', value=Wall, type='Obj', side=[Back, Right])
+03-24 16:14:58 INFO     Turning Right.
+03-24 16:14:58 INFO     After face 1 [(Cement, Empty, Wall, Butterfly, Cement, Butterfly), (BlueTile, Hatrack, BlueTile, End, Wall, End)]
+03-24 16:14:58 INFO     Recognizing [Thing(dist='0', value=Wall, type='Obj', side=[Back, Right])].
+03-24 16:14:58 INFO     .....Examining [(Cement, Empty, Wall, Butterfly, Cement, Butterfly), (BlueTile, Hatrack, BlueTile, End, Wall, End)]
+.....for Thing(dist='0', value=Wall, type='Obj', side=[Back, Right])
+03-24 16:14:58 INFO     .....Recognized Thing(dist='0', value=Wall, type='Obj', side=[Back, Right])
+03-24 16:14:58 INFO     .....Recognized entire description!
+03-24 16:14:58 INFO     After face 2 [(Cement, Empty, Wall, Butterfly, Cement, Butterfly), (BlueTile, Hatrack, BlueTile, End, Wall, End)]
+03-24 16:14:59 INFO     frame2action [Travel_v=[MEAN='walk_V_1'], Dir=[MEAN='forward_ADV_1'], Dist=[Count=[MEAN='five_ADJ_1'], Dist_unit=[MEAN="times_N_('time', [1])"]]]
+03-24 16:14:59 INFO     <0> Travel(distance=[Distance(count=5)])
+03-24 16:14:59 INFO     Facing the Distance conditions in the distance [Thing(dist='5:', value=Position, type='Struct', side=[Front])]
+03-24 16:14:59 INFO     Recognizing [Thing(dist='0', value=Path, type='Path', side=[Left])].
+03-24 16:14:59 INFO     recognize observing...
+03-24 16:14:59 INFO     Observed [(Cement, Empty, Wall, Butterfly, Brick, Butterfly), (Cement, Lamp, Wall, Eiffel, Brick, Eiffel), (Wall, Empty, Wall, Eiffel, Brick, Eiffel), (Rose, Hatrack, Rose, Eiffel, Brick, Eiffel), (Grass, Empty, Grass, Eiffel, Brick, Eiffel), (Stone, Empty, Stone, Eiffel, Brick, Eiffel), (Cement, Empty, Wall, End, Wall, End)]
+03-24 16:14:59 INFO     .....Examining [(Cement, Empty, Wall, Butterfly, Brick, Butterfly), (Cement, Lamp, Wall, Eiffel, Brick, Eiffel), (Wall, Empty, Wall, Eiffel, Brick, Eiffel), (Rose, Hatrack, Rose, Eiffel, Brick, Eiffel), (Grass, Empty, Grass, Eiffel, Brick, Eiffel), (Stone, Empty, Stone, Eiffel, Brick, Eiffel), (Cement, Empty, Wall, End, Wall, End)]
+.....for Thing(dist='0', value=Path, type='Path', side=[Left])
+03-24 16:14:59 INFO     .....Recognized Thing(dist='0', value=Path, type='Path', side=[Left])
+03-24 16:14:59 INFO     .....Recognized entire description!
+03-24 16:14:59 INFO     Recognizing [Thing(dist='5:', value=Position, type='Struct', side=[Front])].
+03-24 16:14:59 INFO     .....Examining [(Cement, Empty, Wall, Butterfly, Brick, Butterfly), (Cement, Lamp, Wall, Eiffel, Brick, Eiffel), (Wall, Empty, Wall, Eiffel, Brick, Eiffel), (Rose, Hatrack, Rose, Eiffel, Brick, Eiffel), (Grass, Empty, Grass, Eiffel, Brick, Eiffel), (Stone, Empty, Stone, Eiffel, Brick, Eiffel), (Cement, Empty, Wall, End, Wall, End)]
+.....for Thing(dist='5:', value=Position, type='Struct', side=[Front])
+03-24 16:14:59 INFO     .....Recognized Thing(dist='5:', value=Position, type='Struct', side=[Front])
+03-24 16:14:59 INFO     .....Recognized entire description!
+03-24 16:14:59 INFO     After Faced Distance 0 []
+03-24 16:14:59 INFO     Traveling forward.
+03-24 16:14:59 INFO     travel observing...
+03-24 16:14:59 INFO     post travel obs: [(Cement, Empty, Wall, Butterfly, Brick, Butterfly), (Cement, Lamp, Wall, Eiffel, Brick, Eiffel), (Wall, Empty, Wall, Eiffel, Brick, Eiffel), (Rose, Hatrack, Rose, Eiffel, Brick, Eiffel), (Grass, Empty, Grass, Eiffel, Brick, Eiffel), (Stone, Empty, Stone, Eiffel, Brick, Eiffel), (Cement, Empty, Wall, End, Wall, End)]; viewCache: ViewCache([[(Cement, Empty, Wall, Butterfly, Brick, Butterfly), (Cement, Lamp, Wall, Eiffel, Brick, Eiffel), (Wall, Empty, Wall, Eiffel, Brick, Eiffel), (Rose, Hatrack, Rose, Eiffel, Brick, Eiffel), (Grass, Empty, Grass, Eiffel, Brick, Eiffel), (Stone, Empty, Stone, Eiffel, Brick, Eiffel), (Cement, Empty, Wall, End, Wall, End)], [(Brick, Empty, Brick, End, Wall, End)], [(Wall, Empty, Cement, Butterfly, Brick, Butterfly), (Wall, Empty, Cement, Unknown, Unknown, Unknown)], [(Brick, Empty, Brick, Unknown, Cement, Unknown)]])
+03-24 16:14:59 INFO     After distance 1 [(Cement, Lamp, Wall, Eiffel, Brick, Eiffel)]...
+03-24 16:14:59 INFO     Travel Distance: None Count is 1 of 5
+03-24 16:14:59 INFO     Traveling forward.
+03-24 16:14:59 INFO     travel observing...
+03-24 16:14:59 INFO     post travel obs: [(Cement, Lamp, Wall, Eiffel, Brick, Eiffel), (Wall, Empty, Wall, Eiffel, Brick, Eiffel), (Rose, Hatrack, Rose, Eiffel, Brick, Eiffel), (Grass, Empty, Grass, Eiffel, Brick, Eiffel), (Stone, Empty, Stone, Eiffel, Brick, Eiffel), (Cement, Empty, Wall, End, Wall, End)]; viewCache: ViewCache([[(Cement, Lamp, Wall, Eiffel, Brick, Eiffel), (Wall, Empty, Wall, Eiffel, Brick, Eiffel), (Rose, Hatrack, Rose, Eiffel, Brick, Eiffel), (Grass, Empty, Grass, Eiffel, Brick, Eiffel), (Stone, Empty, Stone, Eiffel, Brick, Eiffel), (Cement, Empty, Wall, End, Wall, End)], [(Brick, Lamp, Brick, End, Wall, End)], [(Wall, Lamp, Cement, Butterfly, Brick, Butterfly), (Wall, Empty, Cement, Butterfly, Brick, Butterfly), (Wall, Empty, Cement, Unknown, Unknown, Unknown)], [(Brick, Lamp, Brick, Unknown, Cement, Unknown)]])
+03-24 16:14:59 INFO     After distance 1 [(Wall, Empty, Wall, Eiffel, Brick, Eiffel)]...
+03-24 16:14:59 INFO     Travel Distance: None Count is 2 of 5
+03-24 16:14:59 INFO     Traveling forward.
+03-24 16:14:59 INFO     travel observing...
+03-24 16:14:59 INFO     post travel obs: [(Wall, Empty, Wall, Eiffel, Brick, Eiffel), (Rose, Hatrack, Rose, Eiffel, Brick, Eiffel), (Grass, Empty, Grass, Eiffel, Brick, Eiffel), (Stone, Empty, Stone, Eiffel, Brick, Eiffel), (Cement, Empty, Wall, End, Wall, End)]; viewCache: ViewCache([[(Wall, Empty, Wall, Eiffel, Brick, Eiffel), (Rose, Hatrack, Rose, Eiffel, Brick, Eiffel), (Grass, Empty, Grass, Eiffel, Brick, Eiffel), (Stone, Empty, Stone, Eiffel, Brick, Eiffel), (Cement, Empty, Wall, End, Wall, End)], [(Brick, Empty, Brick, End, Wall, End)], [(Wall, Empty, Wall, Eiffel, Brick, Eiffel), (Wall, Lamp, Cement, Butterfly, Brick, Butterfly), (Wall, Empty, Cement, Butterfly, Brick, Butterfly), (Wall, Empty, Cement, Unknown, Unknown, Unknown)], [(Brick, Empty, Brick, End, Wall, End)]])
+03-24 16:14:59 INFO     After distance 1 [(Rose, Hatrack, Rose, Eiffel, Brick, Eiffel)]...
+03-24 16:14:59 INFO     Travel Distance: None Count is 3 of 5
+03-24 16:14:59 INFO     Traveling forward.
+03-24 16:14:59 INFO     travel observing...
+03-24 16:14:59 INFO     post travel obs: [(Rose, Hatrack, Rose, Eiffel, Brick, Eiffel), (Grass, Empty, Grass, Eiffel, Brick, Eiffel), (Stone, Empty, Stone, Eiffel, Brick, Eiffel), (Cement, Empty, Wall, End, Wall, End)]; viewCache: ViewCache([[(Rose, Hatrack, Rose, Eiffel, Brick, Eiffel), (Grass, Empty, Grass, Eiffel, Brick, Eiffel), (Stone, Empty, Stone, Eiffel, Brick, Eiffel), (Cement, Empty, Wall, End, Wall, End)], [(Brick, Hatrack, Brick, Unknown, Rose, Unknown)], [(Rose, Hatrack, Rose, Eiffel, Brick, Eiffel), (Wall, Empty, Wall, Eiffel, Brick, Eiffel), (Wall, Lamp, Cement, Butterfly, Brick, Butterfly), (Wall, Empty, Cement, Butterfly, Brick, Butterfly), (Wall, Empty, Cement, Unknown, Unknown, Unknown)], [(Brick, Hatrack, Brick, Unknown, Rose, Unknown)]])
+03-24 16:14:59 INFO     After distance 1 [(Grass, Empty, Grass, Eiffel, Brick, Eiffel)]...
+03-24 16:14:59 INFO     Travel Distance: None Count is 4 of 5
+03-24 16:14:59 INFO     Traveling forward.
+03-24 16:14:59 INFO     travel observing...
+03-24 16:14:59 INFO     post travel obs: [(Grass, Empty, Grass, Eiffel, Brick, Eiffel), (Stone, Empty, Stone, Eiffel, Brick, Eiffel), (Cement, Empty, Wall, End, Wall, End)]; viewCache: ViewCache([[(Grass, Empty, Grass, Eiffel, Brick, Eiffel), (Stone, Empty, Stone, Eiffel, Brick, Eiffel), (Cement, Empty, Wall, End, Wall, End)], [(Brick, Empty, Brick, Unknown, Grass, Unknown)], [(Grass, Empty, Grass, Eiffel, Brick, Eiffel), (Rose, Hatrack, Rose, Eiffel, Brick, Eiffel), (Wall, Empty, Wall, Eiffel, Brick, Eiffel), (Wall, Lamp, Cement, Butterfly, Brick, Butterfly), (Wall, Empty, Cement, Butterfly, Brick, Butterfly), (Wall, Empty, Cement, Unknown, Unknown, Unknown)], [(Brick, Empty, Brick, Unknown, Grass, Unknown)]])
+03-24 16:14:59 INFO     After distance 1 [(Stone, Empty, Stone, Eiffel, Brick, Eiffel), (Cement, Empty, Wall, End, Wall, End)]
+03-24 16:14:59 INFO     Travel Distance: None Count is 5 of 5
+03-24 16:14:59 INFO     frame2action [Travel_v=[MEAN='walk_V_1'], Dir=[MEAN='forward_ADV_1'], Dist=[Count=[MEAN='five_ADJ_1'], Dist_unit=[MEAN="times_N_('time', [1])"]]]
+03-24 16:14:59 INFO     <0> Travel(distance=[Distance(count=5)])
+03-24 16:14:59 INFO     Facing the Distance conditions in the distance [Thing(dist='5:', value=Position, type='Struct', side=[Front])]
+03-24 16:14:59 INFO     Recognizing [Thing(dist='0', value=Path, type='Path', side=[Right])].
+03-24 16:14:59 INFO     recognize observing...
+03-24 16:14:59 INFO     Observed [(Wall, Empty, Cement, Eiffel, BlueTile, Eiffel), (Rose, Empty, Wall, Eiffel, BlueTile, Eiffel), (Wall, Empty, Wall, Eiffel, BlueTile, Eiffel), (Cement, Chair, Cement, Fish, BlueTile, Fish), (Cement, Empty, Wall, Fish, BlueTile, Fish), (Honeycomb, Hatrack, Honeycomb, Fish, BlueTile, Fish), (Wall, Empty, Wall, End, Wall, End)]
+03-24 16:14:59 INFO     .....Examining [(Wall, Empty, Cement, Eiffel, BlueTile, Eiffel), (Rose, Empty, Wall, Eiffel, BlueTile, Eiffel), (Wall, Empty, Wall, Eiffel, BlueTile, Eiffel), (Cement, Chair, Cement, Fish, BlueTile, Fish), (Cement, Empty, Wall, Fish, BlueTile, Fish), (Honeycomb, Hatrack, Honeycomb, Fish, BlueTile, Fish), (Wall, Empty, Wall, End, Wall, End)]
+.....for Thing(dist='0', value=Path, type='Path', side=[Right])
+03-24 16:14:59 INFO     .....Recognized Thing(dist='0', value=Path, type='Path', side=[Right])
+03-24 16:14:59 INFO     .....Recognized entire description!
+03-24 16:14:59 INFO     Recognizing [Thing(dist='5:', value=Position, type='Struct', side=[Front])].
+03-24 16:14:59 INFO     .....Examining [(Wall, Empty, Cement, Eiffel, BlueTile, Eiffel), (Rose, Empty, Wall, Eiffel, BlueTile, Eiffel), (Wall, Empty, Wall, Eiffel, BlueTile, Eiffel), (Cement, Chair, Cement, Fish, BlueTile, Fish), (Cement, Empty, Wall, Fish, BlueTile, Fish), (Honeycomb, Hatrack, Honeycomb, Fish, BlueTile, Fish), (Wall, Empty, Wall, End, Wall, End)]
+.....for Thing(dist='5:', value=Position, type='Struct', side=[Front])
+03-24 16:14:59 INFO     .....Recognized Thing(dist='5:', value=Position, type='Struct', side=[Front])
+03-24 16:14:59 INFO     .....Recognized entire description!
+03-24 16:14:59 INFO     After Faced Distance 0 []
+03-24 16:14:59 INFO     Traveling forward.
+03-24 16:14:59 INFO     travel observing...
+03-24 16:14:59 INFO     post travel obs: [(Wall, Empty, Cement, Eiffel, BlueTile, Eiffel), (Rose, Empty, Wall, Eiffel, BlueTile, Eiffel), (Wall, Empty, Wall, Eiffel, BlueTile, Eiffel), (Cement, Chair, Cement, Fish, BlueTile, Fish), (Cement, Empty, Wall, Fish, BlueTile, Fish), (Honeycomb, Hatrack, Honeycomb, Fish, BlueTile, Fish), (Wall, Empty, Wall, End, Wall, End)]; viewCache: ViewCache([[(Wall, Empty, Cement, Eiffel, BlueTile, Eiffel), (Rose, Empty, Wall, Eiffel, BlueTile, Eiffel), (Wall, Empty, Wall, Eiffel, BlueTile, Eiffel), (Cement, Chair, Cement, Fish, BlueTile, Fish), (Cement, Empty, Wall, Fish, BlueTile, Fish), (Honeycomb, Hatrack, Honeycomb, Fish, BlueTile, Fish), (Wall, Empty, Wall, End, Wall, End)], [(BlueTile, Empty, BlueTile, Unknown, Cement, Unknown)], [(Cement, Empty, Wall, Eiffel, BlueTile, Eiffel), (Cement, Empty, Wall, Unknown, Unknown, Unknown)], [(BlueTile, Empty, BlueTile, End, Wall, End)]])
+03-24 16:14:59 INFO     After distance 1 [(Rose, Empty, Wall, Eiffel, BlueTile, Eiffel)]...
+03-24 16:14:59 INFO     Travel Distance: None Count is 1 of 5
+03-24 16:14:59 INFO     Traveling forward.
+03-24 16:14:59 INFO     travel observing...
+03-24 16:14:59 INFO     post travel obs: [(Rose, Empty, Wall, Eiffel, BlueTile, Eiffel), (Wall, Empty, Wall, Eiffel, BlueTile, Eiffel), (Cement, Chair, Cement, Fish, BlueTile, Fish), (Cement, Empty, Wall, Fish, BlueTile, Fish), (Honeycomb, Hatrack, Honeycomb, Fish, BlueTile, Fish), (Wall, Empty, Wall, End, Wall, End)]; viewCache: ViewCache([[(Rose, Empty, Wall, Eiffel, BlueTile, Eiffel), (Wall, Empty, Wall, Eiffel, BlueTile, Eiffel), (Cement, Chair, Cement, Fish, BlueTile, Fish), (Cement, Empty, Wall, Fish, BlueTile, Fish), (Honeycomb, Hatrack, Honeycomb, Fish, BlueTile, Fish), (Wall, Empty, Wall, End, Wall, End)], [(BlueTile, Empty, BlueTile, End, Wall, End)], [(Wall, Empty, Rose, Eiffel, BlueTile, Eiffel), (Cement, Empty, Wall, Eiffel, BlueTile, Eiffel), (Cement, Empty, Wall, Unknown, Unknown, Unknown)], [(BlueTile, Empty, BlueTile, Unknown, Rose, Unknown)]])
+03-24 16:14:59 INFO     After distance 1 [(Wall, Empty, Wall, Eiffel, BlueTile, Eiffel)]...
+03-24 16:14:59 INFO     Travel Distance: None Count is 2 of 5
+03-24 16:14:59 INFO     Traveling forward.
+03-24 16:14:59 INFO     travel observing...
+03-24 16:14:59 INFO     post travel obs: [(Wall, Empty, Wall, Eiffel, BlueTile, Eiffel), (Cement, Chair, Cement, Fish, BlueTile, Fish), (Cement, Empty, Wall, Fish, BlueTile, Fish), (Honeycomb, Hatrack, Honeycomb, Fish, BlueTile, Fish), (Wall, Empty, Wall, End, Wall, End)]; viewCache: ViewCache([[(Wall, Empty, Wall, Eiffel, BlueTile, Eiffel), (Cement, Chair, Cement, Fish, BlueTile, Fish), (Cement, Empty, Wall, Fish, BlueTile, Fish), (Honeycomb, Hatrack, Honeycomb, Fish, BlueTile, Fish), (Wall, Empty, Wall, End, Wall, End)], [(BlueTile, Empty, BlueTile, End, Wall, End)], [(Wall, Empty, Wall, Eiffel, BlueTile, Eiffel), (Wall, Empty, Rose, Eiffel, BlueTile, Eiffel), (Cement, Empty, Wall, Eiffel, BlueTile, Eiffel), (Cement, Empty, Wall, Unknown, Unknown, Unknown)], [(BlueTile, Empty, BlueTile, End, Wall, End)]])
+03-24 16:14:59 INFO     After distance 1 [(Cement, Chair, Cement, Fish, BlueTile, Fish)]...
+03-24 16:14:59 INFO     Travel Distance: None Count is 3 of 5
+03-24 16:14:59 INFO     Traveling forward.
+03-24 16:14:59 INFO     travel observing...
+03-24 16:14:59 INFO     post travel obs: [(Cement, Chair, Cement, Fish, BlueTile, Fish), (Cement, Empty, Wall, Fish, BlueTile, Fish), (Honeycomb, Hatrack, Honeycomb, Fish, BlueTile, Fish), (Wall, Empty, Wall, End, Wall, End)]; viewCache: ViewCache([[(Cement, Chair, Cement, Fish, BlueTile, Fish), (Cement, Empty, Wall, Fish, BlueTile, Fish), (Honeycomb, Hatrack, Honeycomb, Fish, BlueTile, Fish), (Wall, Empty, Wall, End, Wall, End)], [(BlueTile, Chair, BlueTile, Unknown, Cement, Unknown)], [(Cement, Chair, Cement, Eiffel, BlueTile, Eiffel), (Wall, Empty, Wall, Eiffel, BlueTile, Eiffel), (Wall, Empty, Rose, Eiffel, BlueTile, Eiffel), (Cement, Empty, Wall, Eiffel, BlueTile, Eiffel), (Cement, Empty, Wall, Unknown, Unknown, Unknown)], [(BlueTile, Chair, BlueTile, Unknown, Cement, Unknown)]])
+03-24 16:14:59 INFO     After distance 1 [(Cement, Empty, Wall, Fish, BlueTile, Fish)]...
+03-24 16:14:59 INFO     Travel Distance: None Count is 4 of 5
+03-24 16:14:59 INFO     Traveling forward.
+03-24 16:14:59 INFO     travel observing...
+03-24 16:14:59 INFO     post travel obs: [(Cement, Empty, Wall, Fish, BlueTile, Fish), (Honeycomb, Hatrack, Honeycomb, Fish, BlueTile, Fish), (Wall, Empty, Wall, End, Wall, End)]; viewCache: ViewCache([[(Cement, Empty, Wall, Fish, BlueTile, Fish), (Honeycomb, Hatrack, Honeycomb, Fish, BlueTile, Fish), (Wall, Empty, Wall, End, Wall, End)], [(BlueTile, Empty, BlueTile, End, Wall, End)], [(Wall, Empty, Cement, Fish, BlueTile, Fish), (Cement, Chair, Cement, Eiffel, BlueTile, Eiffel), (Wall, Empty, Wall, Eiffel, BlueTile, Eiffel), (Wall, Empty, Rose, Eiffel, BlueTile, Eiffel), (Cement, Empty, Wall, Eiffel, BlueTile, Eiffel), (Cement, Empty, Wall, Unknown, Unknown, Unknown)], [(BlueTile, Empty, BlueTile, Unknown, Cement, Unknown)]])
+03-24 16:14:59 INFO     After distance 1 [(Honeycomb, Hatrack, Honeycomb, Fish, BlueTile, Fish), (Wall, Empty, Wall, End, Wall, End)]
+03-24 16:14:59 INFO     Travel Distance: None Count is 5 of 5
+03-24 16:15:00 INFO     frame2action [Travel_v=[MEAN='walk_V_1'], Dir=[MEAN='forward_ADV_1'], Dist=[Count=[MEAN='six_ADJ_1'], Dist_unit=[MEAN="times_N_('time', [1])"]]]
+03-24 16:15:00 INFO     <0> Travel(distance=[Distance(count=6)])
+03-24 16:15:00 INFO     Facing the Distance conditions in the distance [Thing(dist='6:', value=Position, type='Struct', side=[Front])]
+03-24 16:15:00 INFO     Recognizing [Thing(dist='0', value=Path, type='Path', side=[Left])].
+03-24 16:15:00 INFO     recognize observing...
+03-24 16:15:00 INFO     Observed [(Wood, Empty, Wood, Butterfly, Brick, Butterfly), (Cement, Empty, Wall, Butterfly, Brick, Butterfly), (Cement, Lamp, Wall, Eiffel, Brick, Eiffel), (Wall, Empty, Wall, Eiffel, Brick, Eiffel), (Rose, Hatrack, Rose, Eiffel, Brick, Eiffel), (Grass, Empty, Grass, Eiffel, Brick, Eiffel), (Stone, Empty, Stone, Eiffel, Brick, Eiffel), (Cement, Empty, Wall, End, Wall, End)]
+03-24 16:15:00 INFO     .....Examining [(Wood, Empty, Wood, Butterfly, Brick, Butterfly), (Cement, Empty, Wall, Butterfly, Brick, Butterfly), (Cement, Lamp, Wall, Eiffel, Brick, Eiffel), (Wall, Empty, Wall, Eiffel, Brick, Eiffel), (Rose, Hatrack, Rose, Eiffel, Brick, Eiffel), (Grass, Empty, Grass, Eiffel, Brick, Eiffel), (Stone, Empty, Stone, Eiffel, Brick, Eiffel), (Cement, Empty, Wall, End, Wall, End)]
+.....for Thing(dist='0', value=Path, type='Path', side=[Left])
+03-24 16:15:00 INFO     .....Recognized Thing(dist='0', value=Path, type='Path', side=[Left])
+03-24 16:15:00 INFO     .....Recognized entire description!
+03-24 16:15:00 INFO     Recognizing [Thing(dist='6:', value=Position, type='Struct', side=[Front])].
+03-24 16:15:00 INFO     .....Examining [(Wood, Empty, Wood, Butterfly, Brick, Butterfly), (Cement, Empty, Wall, Butterfly, Brick, Butterfly), (Cement, Lamp, Wall, Eiffel, Brick, Eiffel), (Wall, Empty, Wall, Eiffel, Brick, Eiffel), (Rose, Hatrack, Rose, Eiffel, Brick, Eiffel), (Grass, Empty, Grass, Eiffel, Brick, Eiffel), (Stone, Empty, Stone, Eiffel, Brick, Eiffel), (Cement, Empty, Wall, End, Wall, End)]
+.....for Thing(dist='6:', value=Position, type='Struct', side=[Front])
+03-24 16:15:00 INFO     .....Recognized Thing(dist='6:', value=Position, type='Struct', side=[Front])
+03-24 16:15:00 INFO     .....Recognized entire description!
+03-24 16:15:00 INFO     After Faced Distance 0 []
+03-24 16:15:00 INFO     Traveling forward.
+03-24 16:15:00 INFO     travel observing...
+03-24 16:15:00 INFO     post travel obs: [(Wood, Empty, Wood, Butterfly, Brick, Butterfly), (Cement, Empty, Wall, Butterfly, Brick, Butterfly), (Cement, Lamp, Wall, Eiffel, Brick, Eiffel), (Wall, Empty, Wall, Eiffel, Brick, Eiffel), (Rose, Hatrack, Rose, Eiffel, Brick, Eiffel), (Grass, Empty, Grass, Eiffel, Brick, Eiffel), (Stone, Empty, Stone, Eiffel, Brick, Eiffel), (Cement, Empty, Wall, End, Wall, End)]; viewCache: ViewCache([[(Wood, Empty, Wood, Butterfly, Brick, Butterfly), (Cement, Empty, Wall, Butterfly, Brick, Butterfly), (Cement, Lamp, Wall, Eiffel, Brick, Eiffel), (Wall, Empty, Wall, Eiffel, Brick, Eiffel), (Rose, Hatrack, Rose, Eiffel, Brick, Eiffel), (Grass, Empty, Grass, Eiffel, Brick, Eiffel), (Stone, Empty, Stone, Eiffel, Brick, Eiffel), (Cement, Empty, Wall, End, Wall, End)], [(Brick, Empty, Brick, Unknown, Wood, Unknown)], [(Wood, Empty, Wood, Butterfly, Brick, Butterfly), (Wood, Empty, Wood, Unknown, Unknown, Unknown)], [(Brick, Empty, Brick, Unknown, Wood, Unknown)]])
+03-24 16:15:00 INFO     After distance 1 [(Cement, Empty, Wall, Butterfly, Brick, Butterfly)]...
+03-24 16:15:00 INFO     Travel Distance: None Count is 1 of 6
+03-24 16:15:00 INFO     Traveling forward.
+03-24 16:15:00 INFO     travel observing...
+03-24 16:15:00 INFO     post travel obs: [(Cement, Empty, Wall, Butterfly, Brick, Butterfly), (Cement, Lamp, Wall, Eiffel, Brick, Eiffel), (Wall, Empty, Wall, Eiffel, Brick, Eiffel), (Rose, Hatrack, Rose, Eiffel, Brick, Eiffel), (Grass, Empty, Grass, Eiffel, Brick, Eiffel), (Stone, Empty, Stone, Eiffel, Brick, Eiffel), (Cement, Empty, Wall, End, Wall, End)]; viewCache: ViewCache([[(Cement, Empty, Wall, Butterfly, Brick, Butterfly), (Cement, Lamp, Wall, Eiffel, Brick, Eiffel), (Wall, Empty, Wall, Eiffel, Brick, Eiffel), (Rose, Hatrack, Rose, Eiffel, Brick, Eiffel), (Grass, Empty, Grass, Eiffel, Brick, Eiffel), (Stone, Empty, Stone, Eiffel, Brick, Eiffel), (Cement, Empty, Wall, End, Wall, End)], [(Brick, Empty, Brick, End, Wall, End)], [(Wall, Empty, Cement, Butterfly, Brick, Butterfly), (Wood, Empty, Wood, Butterfly, Brick, Butterfly), (Wood, Empty, Wood, Unknown, Unknown, Unknown)], [(Brick, Empty, Brick, Unknown, Cement, Unknown)]])
+03-24 16:15:00 INFO     After distance 1 [(Cement, Lamp, Wall, Eiffel, Brick, Eiffel)]...
+03-24 16:15:00 INFO     Travel Distance: None Count is 2 of 6
+03-24 16:15:00 INFO     Traveling forward.
+03-24 16:15:00 INFO     travel observing...
+03-24 16:15:00 INFO     post travel obs: [(Cement, Lamp, Wall, Eiffel, Brick, Eiffel), (Wall, Empty, Wall, Eiffel, Brick, Eiffel), (Rose, Hatrack, Rose, Eiffel, Brick, Eiffel), (Grass, Empty, Grass, Eiffel, Brick, Eiffel), (Stone, Empty, Stone, Eiffel, Brick, Eiffel), (Cement, Empty, Wall, End, Wall, End)]; viewCache: ViewCache([[(Cement, Lamp, Wall, Eiffel, Brick, Eiffel), (Wall, Empty, Wall, Eiffel, Brick, Eiffel), (Rose, Hatrack, Rose, Eiffel, Brick, Eiffel), (Grass, Empty, Grass, Eiffel, Brick, Eiffel), (Stone, Empty, Stone, Eiffel, Brick, Eiffel), (Cement, Empty, Wall, End, Wall, End)], [(Brick, Lamp, Brick, End, Wall, End)], [(Wall, Lamp, Cement, Butterfly, Brick, Butterfly), (Wall, Empty, Cement, Butterfly, Brick, Butterfly), (Wood, Empty, Wood, Butterfly, Brick, Butterfly), (Wood, Empty, Wood, Unknown, Unknown, Unknown)], [(Brick, Lamp, Brick, Unknown, Cement, Unknown)]])
+03-24 16:15:00 INFO     After distance 1 [(Wall, Empty, Wall, Eiffel, Brick, Eiffel)]...
+03-24 16:15:00 INFO     Travel Distance: None Count is 3 of 6
+03-24 16:15:00 INFO     Traveling forward.
+03-24 16:15:00 INFO     travel observing...
+03-24 16:15:00 INFO     post travel obs: [(Wall, Empty, Wall, Eiffel, Brick, Eiffel), (Rose, Hatrack, Rose, Eiffel, Brick, Eiffel), (Grass, Empty, Grass, Eiffel, Brick, Eiffel), (Stone, Empty, Stone, Eiffel, Brick, Eiffel), (Cement, Empty, Wall, End, Wall, End)]; viewCache: ViewCache([[(Wall, Empty, Wall, Eiffel, Brick, Eiffel), (Rose, Hatrack, Rose, Eiffel, Brick, Eiffel), (Grass, Empty, Grass, Eiffel, Brick, Eiffel), (Stone, Empty, Stone, Eiffel, Brick, Eiffel), (Cement, Empty, Wall, End, Wall, End)], [(Brick, Empty, Brick, End, Wall, End)], [(Wall, Empty, Wall, Eiffel, Brick, Eiffel), (Wall, Lamp, Cement, Butterfly, Brick, Butterfly), (Wall, Empty, Cement, Butterfly, Brick, Butterfly), (Wood, Empty, Wood, Butterfly, Brick, Butterfly), (Wood, Empty, Wood, Unknown, Unknown, Unknown)], [(Brick, Empty, Brick, End, Wall, End)]])
+03-24 16:15:00 INFO     After distance 1 [(Rose, Hatrack, Rose, Eiffel, Brick, Eiffel)]...
+03-24 16:15:00 INFO     Travel Distance: None Count is 4 of 6
+03-24 16:15:00 INFO     Traveling forward.
+03-24 16:15:00 INFO     travel observing...
+03-24 16:15:00 INFO     post travel obs: [(Rose, Hatrack, Rose, Eiffel, Brick, Eiffel), (Grass, Empty, Grass, Eiffel, Brick, Eiffel), (Stone, Empty, Stone, Eiffel, Brick, Eiffel), (Cement, Empty, Wall, End, Wall, End)]; viewCache: ViewCache([[(Rose, Hatrack, Rose, Eiffel, Brick, Eiffel), (Grass, Empty, Grass, Eiffel, Brick, Eiffel), (Stone, Empty, Stone, Eiffel, Brick, Eiffel), (Cement, Empty, Wall, End, Wall, End)], [(Brick, Hatrack, Brick, Unknown, Rose, Unknown)], [(Rose, Hatrack, Rose, Eiffel, Brick, Eiffel), (Wall, Empty, Wall, Eiffel, Brick, Eiffel), (Wall, Lamp, Cement, Butterfly, Brick, Butterfly), (Wall, Empty, Cement, Butterfly, Brick, Butterfly), (Wood, Empty, Wood, Butterfly, Brick, Butterfly), (Wood, Empty, Wood, Unknown, Unknown, Unknown)], [(Brick, Hatrack, Brick, Unknown, Rose, Unknown)]])
+03-24 16:15:00 INFO     After distance 1 [(Grass, Empty, Grass, Eiffel, Brick, Eiffel)]...
+03-24 16:15:00 INFO     Travel Distance: None Count is 5 of 6
+03-24 16:15:00 INFO     Traveling forward.
+03-24 16:15:00 INFO     travel observing...
+03-24 16:15:00 INFO     post travel obs: [(Grass, Empty, Grass, Eiffel, Brick, Eiffel), (Stone, Empty, Stone, Eiffel, Brick, Eiffel), (Cement, Empty, Wall, End, Wall, End)]; viewCache: ViewCache([[(Grass, Empty, Grass, Eiffel, Brick, Eiffel), (Stone, Empty, Stone, Eiffel, Brick, Eiffel), (Cement, Empty, Wall, End, Wall, End)], [(Brick, Empty, Brick, Unknown, Grass, Unknown)], [(Grass, Empty, Grass, Eiffel, Brick, Eiffel), (Rose, Hatrack, Rose, Eiffel, Brick, Eiffel), (Wall, Empty, Wall, Eiffel, Brick, Eiffel), (Wall, Lamp, Cement, Butterfly, Brick, Butterfly), (Wall, Empty, Cement, Butterfly, Brick, Butterfly), (Wood, Empty, Wood, Butterfly, Brick, Butterfly), (Wood, Empty, Wood, Unknown, Unknown, Unknown)], [(Brick, Empty, Brick, Unknown, Grass, Unknown)]])
+03-24 16:15:00 INFO     After distance 1 [(Stone, Empty, Stone, Eiffel, Brick, Eiffel), (Cement, Empty, Wall, End, Wall, End)]
+03-24 16:15:00 INFO     Travel Distance: None Count is 6 of 6
+03-24 16:15:01 INFO     frame2action [Travel_v=[MEAN='walk_V_1'], Dir=[MEAN='forward_ADV_1'], Dist=[Count=[MEAN='six_ADJ_1'], Dist_unit=[MEAN="times_N_('time', [1])"]]]
+03-24 16:15:01 INFO     <0> Travel(distance=[Distance(count=6)])
+03-24 16:15:01 INFO     Facing the Distance conditions in the distance [Thing(dist='6:', value=Position, type='Struct', side=[Front])]
+03-24 16:15:01 INFO     Recognizing [Thing(dist='0', value=Path, type='Path', side=[Right])].
+03-24 16:15:01 INFO     recognize observing...
+03-24 16:15:01 INFO     Observed [(Grass, Empty, Wall, Fish, BlueTile, Fish), (Rose, Empty, Wall, Fish, BlueTile, Fish), (Wood, Chair, Wall, Butterfly, BlueTile, Butterfly), (Stone, Barstool, Wall, Butterfly, BlueTile, Butterfly), (Cement, Empty, Wall, Butterfly, BlueTile, Butterfly), (Cement, Sofa, Wall, Butterfly, BlueTile, Butterfly), (Cement, Hatrack, Wall, Butterfly, BlueTile, Butterfly), (Cement, Empty, Wall, End, Wall, End)]
+03-24 16:15:01 INFO     .....Examining [(Grass, Empty, Wall, Fish, BlueTile, Fish), (Rose, Empty, Wall, Fish, BlueTile, Fish), (Wood, Chair, Wall, Butterfly, BlueTile, Butterfly), (Stone, Barstool, Wall, Butterfly, BlueTile, Butterfly), (Cement, Empty, Wall, Butterfly, BlueTile, Butterfly), (Cement, Sofa, Wall, Butterfly, BlueTile, Butterfly), (Cement, Hatrack, Wall, Butterfly, BlueTile, Butterfly), (Cement, Empty, Wall, End, Wall, End)]
+.....for Thing(dist='0', value=Path, type='Path', side=[Right])
+03-24 16:15:01 INFO     .....Did NOT recognize Thing(dist='0', value=Path, type='Path', side=[Right])
+03-24 16:15:01 INFO     Recognizing [Thing(dist='6:', value=Position, type='Struct', side=[Front])].
+03-24 16:15:01 INFO     .....Examining [(Grass, Empty, Wall, Fish, BlueTile, Fish), (Rose, Empty, Wall, Fish, BlueTile, Fish), (Wood, Chair, Wall, Butterfly, BlueTile, Butterfly), (Stone, Barstool, Wall, Butterfly, BlueTile, Butterfly), (Cement, Empty, Wall, Butterfly, BlueTile, Butterfly), (Cement, Sofa, Wall, Butterfly, BlueTile, Butterfly), (Cement, Hatrack, Wall, Butterfly, BlueTile, Butterfly), (Cement, Empty, Wall, End, Wall, End)]
+.....for Thing(dist='6:', value=Position, type='Struct', side=[Front])
+03-24 16:15:01 INFO     .....Recognized Thing(dist='6:', value=Position, type='Struct', side=[Front])
+03-24 16:15:01 INFO     .....Recognized entire description!
+03-24 16:15:01 INFO     After Faced Distance 0 []
+03-24 16:15:01 INFO     Traveling forward.
+03-24 16:15:01 INFO     travel observing...
+03-24 16:15:01 INFO     post travel obs: [(Grass, Empty, Wall, Fish, BlueTile, Fish), (Rose, Empty, Wall, Fish, BlueTile, Fish), (Wood, Chair, Wall, Butterfly, BlueTile, Butterfly), (Stone, Barstool, Wall, Butterfly, BlueTile, Butterfly), (Cement, Empty, Wall, Butterfly, BlueTile, Butterfly), (Cement, Sofa, Wall, Butterfly, BlueTile, Butterfly), (Cement, Hatrack, Wall, Butterfly, BlueTile, Butterfly), (Cement, Empty, Wall, End, Wall, End)]; viewCache: ViewCache([[(Grass, Empty, Wall, Fish, BlueTile, Fish), (Rose, Empty, Wall, Fish, BlueTile, Fish), (Wood, Chair, Wall, Butterfly, BlueTile, Butterfly), (Stone, Barstool, Wall, Butterfly, BlueTile, Butterfly), (Cement, Empty, Wall, Butterfly, BlueTile, Butterfly), (Cement, Sofa, Wall, Butterfly, BlueTile, Butterfly), (Cement, Hatrack, Wall, Butterfly, BlueTile, Butterfly), (Cement, Empty, Wall, End, Wall, End)], [(BlueTile, Empty, BlueTile, End, Wall, End)], [(Wall, Empty, Grass, Fish, BlueTile, Fish), (Wall, Empty, Grass, Unknown, Unknown, Unknown)], [(BlueTile, Empty, BlueTile, Unknown, Grass, Unknown)]])
+03-24 16:15:01 INFO     After distance 1 [(Rose, Empty, Wall, Fish, BlueTile, Fish)]...
+03-24 16:15:01 INFO     Travel Distance: None Count is 1 of 6
+03-24 16:15:01 INFO     Traveling forward.
+03-24 16:15:01 INFO     travel observing...
+03-24 16:15:01 INFO     post travel obs: [(Rose, Empty, Wall, Fish, BlueTile, Fish), (Wood, Chair, Wall, Butterfly, BlueTile, Butterfly), (Stone, Barstool, Wall, Butterfly, BlueTile, Butterfly), (Cement, Empty, Wall, Butterfly, BlueTile, Butterfly), (Cement, Sofa, Wall, Butterfly, BlueTile, Butterfly), (Cement, Hatrack, Wall, Butterfly, BlueTile, Butterfly), (Cement, Empty, Wall, End, Wall, End)]; viewCache: ViewCache([[(Rose, Empty, Wall, Fish, BlueTile, Fish), (Wood, Chair, Wall, Butterfly, BlueTile, Butterfly), (Stone, Barstool, Wall, Butterfly, BlueTile, Butterfly), (Cement, Empty, Wall, Butterfly, BlueTile, Butterfly), (Cement, Sofa, Wall, Butterfly, BlueTile, Butterfly), (Cement, Hatrack, Wall, Butterfly, BlueTile, Butterfly), (Cement, Empty, Wall, End, Wall, End)], [(BlueTile, Empty, BlueTile, End, Wall, End)], [(Wall, Empty, Rose, Fish, BlueTile, Fish), (Wall, Empty, Grass, Fish, BlueTile, Fish), (Wall, Empty, Grass, Unknown, Unknown, Unknown)], [(BlueTile, Empty, BlueTile, Unknown, Rose, Unknown)]])
+03-24 16:15:01 INFO     After distance 1 [(Wood, Chair, Wall, Butterfly, BlueTile, Butterfly)]...
+03-24 16:15:01 INFO     Travel Distance: None Count is 2 of 6
+03-24 16:15:01 INFO     Traveling forward.
+03-24 16:15:01 INFO     travel observing...
+03-24 16:15:01 INFO     post travel obs: [(Wood, Chair, Wall, Butterfly, BlueTile, Butterfly), (Stone, Barstool, Wall, Butterfly, BlueTile, Butterfly), (Cement, Empty, Wall, Butterfly, BlueTile, Butterfly), (Cement, Sofa, Wall, Butterfly, BlueTile, Butterfly), (Cement, Hatrack, Wall, Butterfly, BlueTile, Butterfly), (Cement, Empty, Wall, End, Wall, End)]; viewCache: ViewCache([[(Wood, Chair, Wall, Butterfly, BlueTile, Butterfly), (Stone, Barstool, Wall, Butterfly, BlueTile, Butterfly), (Cement, Empty, Wall, Butterfly, BlueTile, Butterfly), (Cement, Sofa, Wall, Butterfly, BlueTile, Butterfly), (Cement, Hatrack, Wall, Butterfly, BlueTile, Butterfly), (Cement, Empty, Wall, End, Wall, End)], [(BlueTile, Chair, BlueTile, End, Wall, End)], [(Wall, Chair, Wood, Fish, BlueTile, Fish), (Wall, Empty, Rose, Fish, BlueTile, Fish), (Wall, Empty, Grass, Fish, BlueTile, Fish), (Wall, Empty, Grass, Unknown, Unknown, Unknown)], [(BlueTile, Chair, BlueTile, Unknown, Wood, Unknown)]])
+03-24 16:15:01 INFO     After distance 1 [(Stone, Barstool, Wall, Butterfly, BlueTile, Butterfly)]...
+03-24 16:15:01 INFO     Travel Distance: None Count is 3 of 6
+03-24 16:15:01 INFO     Traveling forward.
+03-24 16:15:01 INFO     travel observing...
+03-24 16:15:01 INFO     post travel obs: [(Stone, Barstool, Wall, Butterfly, BlueTile, Butterfly), (Cement, Empty, Wall, Butterfly, BlueTile, Butterfly), (Cement, Sofa, Wall, Butterfly, BlueTile, Butterfly), (Cement, Hatrack, Wall, Butterfly, BlueTile, Butterfly), (Cement, Empty, Wall, End, Wall, End)]; viewCache: ViewCache([[(Stone, Barstool, Wall, Butterfly, BlueTile, Butterfly), (Cement, Empty, Wall, Butterfly, BlueTile, Butterfly), (Cement, Sofa, Wall, Butterfly, BlueTile, Butterfly), (Cement, Hatrack, Wall, Butterfly, BlueTile, Butterfly), (Cement, Empty, Wall, End, Wall, End)], [(BlueTile, Barstool, BlueTile, End, Wall, End)], [(Wall, Barstool, Stone, Butterfly, BlueTile, Butterfly), (Wall, Chair, Wood, Fish, BlueTile, Fish), (Wall, Empty, Rose, Fish, BlueTile, Fish), (Wall, Empty, Grass, Fish, BlueTile, Fish), (Wall, Empty, Grass, Unknown, Unknown, Unknown)], [(BlueTile, Barstool, BlueTile, Unknown, Stone, Unknown)]])
+03-24 16:15:01 INFO     After distance 1 [(Cement, Empty, Wall, Butterfly, BlueTile, Butterfly)]...
+03-24 16:15:01 INFO     Travel Distance: None Count is 4 of 6
+03-24 16:15:01 INFO     Traveling forward.
+03-24 16:15:01 INFO     travel observing...
+03-24 16:15:01 INFO     post travel obs: [(Cement, Empty, Wall, Butterfly, BlueTile, Butterfly), (Cement, Sofa, Wall, Butterfly, BlueTile, Butterfly), (Cement, Hatrack, Wall, Butterfly, BlueTile, Butterfly), (Cement, Empty, Wall, End, Wall, End)]; viewCache: ViewCache([[(Cement, Empty, Wall, Butterfly, BlueTile, Butterfly), (Cement, Sofa, Wall, Butterfly, BlueTile, Butterfly), (Cement, Hatrack, Wall, Butterfly, BlueTile, Butterfly), (Cement, Empty, Wall, End, Wall, End)], [(BlueTile, Empty, BlueTile, End, Wall, End)], [(Wall, Empty, Cement, Butterfly, BlueTile, Butterfly), (Wall, Barstool, Stone, Butterfly, BlueTile, Butterfly), (Wall, Chair, Wood, Fish, BlueTile, Fish), (Wall, Empty, Rose, Fish, BlueTile, Fish), (Wall, Empty, Grass, Fish, BlueTile, Fish), (Wall, Empty, Grass, Unknown, Unknown, Unknown)], [(BlueTile, Empty, BlueTile, Unknown, Cement, Unknown)]])
+03-24 16:15:01 INFO     After distance 1 [(Cement, Sofa, Wall, Butterfly, BlueTile, Butterfly)]...
+03-24 16:15:01 INFO     Travel Distance: None Count is 5 of 6
+03-24 16:15:01 INFO     Traveling forward.
+03-24 16:15:01 INFO     travel observing...
+03-24 16:15:01 INFO     post travel obs: [(Cement, Sofa, Wall, Butterfly, BlueTile, Butterfly), (Cement, Hatrack, Wall, Butterfly, BlueTile, Butterfly), (Cement, Empty, Wall, End, Wall, End)]; viewCache: ViewCache([[(Cement, Sofa, Wall, Butterfly, BlueTile, Butterfly), (Cement, Hatrack, Wall, Butterfly, BlueTile, Butterfly), (Cement, Empty, Wall, End, Wall, End)], [(BlueTile, Sofa, BlueTile, End, Wall, End)], [(Wall, Sofa, Cement, Butterfly, BlueTile, Butterfly), (Wall, Empty, Cement, Butterfly, BlueTile, Butterfly), (Wall, Barstool, Stone, Butterfly, BlueTile, Butterfly), (Wall, Chair, Wood, Fish, BlueTile, Fish), (Wall, Empty, Rose, Fish, BlueTile, Fish), (Wall, Empty, Grass, Fish, BlueTile, Fish), (Wall, Empty, Grass, Unknown, Unknown, Unknown)], [(BlueTile, Sofa, BlueTile, Unknown, Cement, Unknown)]])
+03-24 16:15:01 INFO     After distance 1 [(Cement, Hatrack, Wall, Butterfly, BlueTile, Butterfly), (Cement, Empty, Wall, End, Wall, End)]
+03-24 16:15:01 INFO     Travel Distance: None Count is 6 of 6
+03-24 16:15:01 INFO     frame2action [Travel_v=[MEAN='walk_V_1'], Dir=[MEAN='forward_ADV_1'], Dist=[Count=[MEAN='twice_ADV_1']]]
+03-24 16:15:01 INFO     <0> Travel(distance=[Distance(count=2)])
+03-24 16:15:01 INFO     Facing the Distance conditions in the distance [Thing(dist='2:', value=Position, type='Struct', side=[Front])]
+03-24 16:15:01 INFO     Recognizing [Thing(dist='0', value=Path, type='Path', side=[Left])].
+03-24 16:15:01 INFO     recognize observing...
+03-24 16:15:01 INFO     Observed [(Wall, Empty, Cement, Eiffel, Wood, Eiffel), (Brick, Lamp, Brick, Fish, Wood, Fish), (BlueTile, Chair, BlueTile, End, Wall, End)]
+03-24 16:15:01 INFO     .....Examining [(Wall, Empty, Cement, Eiffel, Wood, Eiffel), (Brick, Lamp, Brick, Fish, Wood, Fish), (BlueTile, Chair, BlueTile, End, Wall, End)]
+.....for Thing(dist='0', value=Path, type='Path', side=[Left])
+03-24 16:15:01 INFO     .....Did NOT recognize Thing(dist='0', value=Path, type='Path', side=[Left])
+03-24 16:15:01 INFO     Recognizing [Thing(dist='2:', value=Position, type='Struct', side=[Front])].
+03-24 16:15:01 INFO     .....Examining [(Wall, Empty, Cement, Eiffel, Wood, Eiffel), (Brick, Lamp, Brick, Fish, Wood, Fish), (BlueTile, Chair, BlueTile, End, Wall, End)]
+.....for Thing(dist='2:', value=Position, type='Struct', side=[Front])
+03-24 16:15:01 INFO     .....Recognized Thing(dist='2:', value=Position, type='Struct', side=[Front])
+03-24 16:15:01 INFO     .....Recognized entire description!
+03-24 16:15:01 INFO     After Faced Distance 0 []
+03-24 16:15:01 INFO     Traveling forward.
+03-24 16:15:01 INFO     travel observing...
+03-24 16:15:01 INFO     post travel obs: [(Wall, Empty, Cement, Eiffel, Wood, Eiffel), (Brick, Lamp, Brick, Fish, Wood, Fish), (BlueTile, Chair, BlueTile, End, Wall, End)]; viewCache: ViewCache([[(Wall, Empty, Cement, Eiffel, Wood, Eiffel), (Brick, Lamp, Brick, Fish, Wood, Fish), (BlueTile, Chair, BlueTile, End, Wall, End)], [(Wood, Empty, Wood, Unknown, Cement, Unknown)], [(Cement, Empty, Wall, Eiffel, Wood, Eiffel), (Cement, Empty, Wall, Unknown, Unknown, Unknown)], [(Wood, Empty, Wood, End, Wall, End)]])
+03-24 16:15:01 INFO     After distance 1 [(Brick, Lamp, Brick, Fish, Wood, Fish), (BlueTile, Chair, BlueTile, End, Wall, End)]
+03-24 16:15:01 INFO     Travel Distance: None Count is 1 of 2
+03-24 16:15:01 INFO     Traveling forward.
+03-24 16:15:01 INFO     travel observing...
+03-24 16:15:01 INFO     post travel obs: [(Brick, Lamp, Brick, Fish, Wood, Fish), (BlueTile, Chair, BlueTile, End, Wall, End)]; viewCache: ViewCache([[(Brick, Lamp, Brick, Fish, Wood, Fish), (BlueTile, Chair, BlueTile, End, Wall, End)], [(Wood, Lamp, Wood, Unknown, Brick, Unknown)], [(Brick, Lamp, Brick, Eiffel, Wood, Eiffel), (Cement, Empty, Wall, Eiffel, Wood, Eiffel), (Cement, Empty, Wall, Unknown, Unknown, Unknown)], [(Wood, Lamp, Wood, Unknown, Brick, Unknown)]])
+03-24 16:15:01 INFO     After distance 1 [(BlueTile, Chair, BlueTile, End, Wall, End)]
+03-24 16:15:01 INFO     Travel Distance: None Count is 2 of 2
+03-24 16:15:02 INFO     frame2action [Travel_v=[MEAN='walk_V_1'], Dir=[MEAN='forward_ADV_1'], Dist=[Count=[MEAN='twice_ADV_1']]]
+03-24 16:15:02 INFO     <0> Travel(distance=[Distance(count=2)])
+03-24 16:15:02 INFO     Facing the Distance conditions in the distance [Thing(dist='2:', value=Position, type='Struct', side=[Front])]
+03-24 16:15:02 INFO     Recognizing [Thing(dist='0', value=Path, type='Path', side=[Left])].
+03-24 16:15:02 INFO     recognize observing...
+03-24 16:15:02 INFO     Observed [(Wall, Empty, Honeycomb, Fish, Rose, Fish), (Wall, Empty, Wall, Eiffel, Rose, Eiffel), (Brick, Hatrack, Brick, Eiffel, Rose, Eiffel), (BlueTile, Empty, BlueTile, End, Wall, End)]
+03-24 16:15:02 INFO     .....Examining [(Wall, Empty, Honeycomb, Fish, Rose, Fish), (Wall, Empty, Wall, Eiffel, Rose, Eiffel), (Brick, Hatrack, Brick, Eiffel, Rose, Eiffel), (BlueTile, Empty, BlueTile, End, Wall, End)]
+.....for Thing(dist='0', value=Path, type='Path', side=[Left])
+03-24 16:15:02 INFO     .....Did NOT recognize Thing(dist='0', value=Path, type='Path', side=[Left])
+03-24 16:15:02 INFO     Recognizing [Thing(dist='2:', value=Position, type='Struct', side=[Front])].
+03-24 16:15:02 INFO     .....Examining [(Wall, Empty, Honeycomb, Fish, Rose, Fish), (Wall, Empty, Wall, Eiffel, Rose, Eiffel), (Brick, Hatrack, Brick, Eiffel, Rose, Eiffel), (BlueTile, Empty, BlueTile, End, Wall, End)]
+.....for Thing(dist='2:', value=Position, type='Struct', side=[Front])
+03-24 16:15:02 INFO     .....Recognized Thing(dist='2:', value=Position, type='Struct', side=[Front])
+03-24 16:15:02 INFO     .....Recognized entire description!
+03-24 16:15:02 INFO     After Faced Distance 0 []
+03-24 16:15:02 INFO     Traveling forward.
+03-24 16:15:02 INFO     travel observing...
+03-24 16:15:02 INFO     post travel obs: [(Wall, Empty, Honeycomb, Fish, Rose, Fish), (Wall, Empty, Wall, Eiffel, Rose, Eiffel), (Brick, Hatrack, Brick, Eiffel, Rose, Eiffel), (BlueTile, Empty, BlueTile, End, Wall, End)]; viewCache: ViewCache([[(Wall, Empty, Honeycomb, Fish, Rose, Fish), (Wall, Empty, Wall, Eiffel, Rose, Eiffel), (Brick, Hatrack, Brick, Eiffel, Rose, Eiffel), (BlueTile, Empty, BlueTile, End, Wall, End)], [(Rose, Empty, Rose, Unknown, Honeycomb, Unknown)], [(Honeycomb, Empty, Wall, Fish, Rose, Fish), (Honeycomb, Empty, Wall, Unknown, Unknown, Unknown)], [(Rose, Empty, Rose, End, Wall, End)]])
+03-24 16:15:02 INFO     After distance 1 [(Wall, Empty, Wall, Eiffel, Rose, Eiffel)]...
+03-24 16:15:02 INFO     Travel Distance: None Count is 1 of 2
+03-24 16:15:02 INFO     Traveling forward.
+03-24 16:15:02 INFO     travel observing...
+03-24 16:15:02 INFO     post travel obs: [(Wall, Empty, Wall, Eiffel, Rose, Eiffel), (Brick, Hatrack, Brick, Eiffel, Rose, Eiffel), (BlueTile, Empty, BlueTile, End, Wall, End)]; viewCache: ViewCache([[(Wall, Empty, Wall, Eiffel, Rose, Eiffel), (Brick, Hatrack, Brick, Eiffel, Rose, Eiffel), (BlueTile, Empty, BlueTile, End, Wall, End)], [(Rose, Empty, Rose, End, Wall, End)], [(Wall, Empty, Wall, Fish, Rose, Fish), (Honeycomb, Empty, Wall, Fish, Rose, Fish), (Honeycomb, Empty, Wall, Unknown, Unknown, Unknown)], [(Rose, Empty, Rose, End, Wall, End)]])
+03-24 16:15:02 INFO     After distance 1 [(Brick, Hatrack, Brick, Eiffel, Rose, Eiffel), (BlueTile, Empty, BlueTile, End, Wall, End)]
+03-24 16:15:02 INFO     Travel Distance: None Count is 2 of 2
+03-24 16:15:02 INFO     frame2action [Travel_v=[MEAN='walk_V_1'], Dir=[MEAN='forward_ADV_1'], Dist=[Count=[MEAN='twice_ADV_1']]]
+03-24 16:15:02 INFO     <0> Travel(distance=[Distance(count=2)])
+03-24 16:15:02 INFO     Facing the Distance conditions in the distance [Thing(dist='2:', value=Position, type='Struct', side=[Front])]
+03-24 16:15:02 INFO     Recognizing [Thing(dist='0', value=Path, type='Path', side=[Right])].
+03-24 16:15:02 INFO     recognize observing...
+03-24 16:15:02 INFO     Observed [(Wall, Empty, Rose, Eiffel, BlueTile, Eiffel), (Wall, Chair, Grass, Eiffel, BlueTile, Eiffel), (Wall, Lamp, Stone, Eiffel, BlueTile, Eiffel), (Wall, Empty, Cement, End, Wall, End)]
+03-24 16:15:02 INFO     .....Examining [(Wall, Empty, Rose, Eiffel, BlueTile, Eiffel), (Wall, Chair, Grass, Eiffel, BlueTile, Eiffel), (Wall, Lamp, Stone, Eiffel, BlueTile, Eiffel), (Wall, Empty, Cement, End, Wall, End)]
+.....for Thing(dist='0', value=Path, type='Path', side=[Right])
+03-24 16:15:02 INFO     .....Recognized Thing(dist='0', value=Path, type='Path', side=[Right])
+03-24 16:15:02 INFO     .....Recognized entire description!
+03-24 16:15:02 INFO     Recognizing [Thing(dist='2:', value=Position, type='Struct', side=[Front])].
+03-24 16:15:02 INFO     .....Examining [(Wall, Empty, Rose, Eiffel, BlueTile, Eiffel), (Wall, Chair, Grass, Eiffel, BlueTile, Eiffel), (Wall, Lamp, Stone, Eiffel, BlueTile, Eiffel), (Wall, Empty, Cement, End, Wall, End)]
+.....for Thing(dist='2:', value=Position, type='Struct', side=[Front])
+03-24 16:15:02 INFO     .....Recognized Thing(dist='2:', value=Position, type='Struct', side=[Front])
+03-24 16:15:02 INFO     .....Recognized entire description!
+03-24 16:15:02 INFO     After Faced Distance 0 []
+03-24 16:15:02 INFO     Traveling forward.
+03-24 16:15:02 INFO     travel observing...
+03-24 16:15:02 INFO     post travel obs: [(Wall, Empty, Rose, Eiffel, BlueTile, Eiffel), (Wall, Chair, Grass, Eiffel, BlueTile, Eiffel), (Wall, Lamp, Stone, Eiffel, BlueTile, Eiffel), (Wall, Empty, Cement, End, Wall, End)]; viewCache: ViewCache([[(Wall, Empty, Rose, Eiffel, BlueTile, Eiffel), (Wall, Chair, Grass, Eiffel, BlueTile, Eiffel), (Wall, Lamp, Stone, Eiffel, BlueTile, Eiffel), (Wall, Empty, Cement, End, Wall, End)], [(BlueTile, Empty, BlueTile, Unknown, Rose, Unknown)], [(Rose, Empty, Wall, Eiffel, BlueTile, Eiffel), (Rose, Empty, Wall, Unknown, Unknown, Unknown)], [(BlueTile, Empty, BlueTile, End, Wall, End)]])
+03-24 16:15:02 INFO     After distance 1 [(Wall, Chair, Grass, Eiffel, BlueTile, Eiffel)]...
+03-24 16:15:02 INFO     Travel Distance: None Count is 1 of 2
+03-24 16:15:02 INFO     Traveling forward.
+03-24 16:15:02 INFO     travel observing...
+03-24 16:15:02 INFO     post travel obs: [(Wall, Chair, Grass, Eiffel, BlueTile, Eiffel), (Wall, Lamp, Stone, Eiffel, BlueTile, Eiffel), (Wall, Empty, Cement, End, Wall, End)]; viewCache: ViewCache([[(Wall, Chair, Grass, Eiffel, BlueTile, Eiffel), (Wall, Lamp, Stone, Eiffel, BlueTile, Eiffel), (Wall, Empty, Cement, End, Wall, End)], [(BlueTile, Chair, BlueTile, Unknown, Grass, Unknown)], [(Grass, Chair, Wall, Eiffel, BlueTile, Eiffel), (Rose, Empty, Wall, Eiffel, BlueTile, Eiffel), (Rose, Empty, Wall, Unknown, Unknown, Unknown)], [(BlueTile, Chair, BlueTile, End, Wall, End)]])
+03-24 16:15:02 INFO     After distance 1 [(Wall, Lamp, Stone, Eiffel, BlueTile, Eiffel), (Wall, Empty, Cement, End, Wall, End)]
+03-24 16:15:02 INFO     Travel Distance: None Count is 2 of 2
+03-24 16:15:03 INFO     frame2action [Travel_v=[MEAN='walk_V_1'], Dir=[MEAN='forward_ADV_1'], Dist=[Count=[MEAN='twice_ADV_1']]]
+03-24 16:15:03 INFO     <0> Travel(distance=[Distance(count=2)])
+03-24 16:15:03 INFO     Facing the Distance conditions in the distance [Thing(dist='2:', value=Position, type='Struct', side=[Front])]
+03-24 16:15:03 INFO     Recognizing [Thing(dist='0', value=Path, type='Path', side=[Left])].
+03-24 16:15:03 INFO     recognize observing...
+03-24 16:15:03 INFO     Observed [(Brick, Hatrack, Brick, Eiffel, Rose, Eiffel), (Wall, Empty, Wall, Fish, Rose, Fish), (Honeycomb, Empty, Wall, Fish, Rose, Fish), (Wall, Empty, Wall, End, Wall, End)]
+03-24 16:15:03 INFO     .....Examining [(Brick, Hatrack, Brick, Eiffel, Rose, Eiffel), (Wall, Empty, Wall, Fish, Rose, Fish), (Honeycomb, Empty, Wall, Fish, Rose, Fish), (Wall, Empty, Wall, End, Wall, End)]
+.....for Thing(dist='0', value=Path, type='Path', side=[Left])
+03-24 16:15:03 INFO     .....Recognized Thing(dist='0', value=Path, type='Path', side=[Left])
+03-24 16:15:03 INFO     .....Recognized entire description!
+03-24 16:15:03 INFO     Recognizing [Thing(dist='2:', value=Position, type='Struct', side=[Front])].
+03-24 16:15:03 INFO     .....Examining [(Brick, Hatrack, Brick, Eiffel, Rose, Eiffel), (Wall, Empty, Wall, Fish, Rose, Fish), (Honeycomb, Empty, Wall, Fish, Rose, Fish), (Wall, Empty, Wall, End, Wall, End)]
+.....for Thing(dist='2:', value=Position, type='Struct', side=[Front])
+03-24 16:15:03 INFO     .....Recognized Thing(dist='2:', value=Position, type='Struct', side=[Front])
+03-24 16:15:03 INFO     .....Recognized entire description!
+03-24 16:15:03 INFO     After Faced Distance 0 []
+03-24 16:15:03 INFO     Traveling forward.
+03-24 16:15:03 INFO     travel observing...
+03-24 16:15:03 INFO     post travel obs: [(Brick, Hatrack, Brick, Eiffel, Rose, Eiffel), (Wall, Empty, Wall, Fish, Rose, Fish), (Honeycomb, Empty, Wall, Fish, Rose, Fish), (Wall, Empty, Wall, End, Wall, End)]; viewCache: ViewCache([[(Brick, Hatrack, Brick, Eiffel, Rose, Eiffel), (Wall, Empty, Wall, Fish, Rose, Fish), (Honeycomb, Empty, Wall, Fish, Rose, Fish), (Wall, Empty, Wall, End, Wall, End)], [(Rose, Hatrack, Rose, Unknown, Brick, Unknown)], [(Brick, Hatrack, Brick, Eiffel, Rose, Eiffel), (Brick, Hatrack, Brick, Unknown, Unknown, Unknown)], [(Rose, Hatrack, Rose, Unknown, Brick, Unknown)]])
+03-24 16:15:03 INFO     After distance 1 [(Wall, Empty, Wall, Fish, Rose, Fish)]...
+03-24 16:15:03 INFO     Travel Distance: None Count is 1 of 2
+03-24 16:15:03 INFO     Traveling forward.
+03-24 16:15:03 INFO     travel observing...
+03-24 16:15:03 INFO     post travel obs: [(Wall, Empty, Wall, Fish, Rose, Fish), (Honeycomb, Empty, Wall, Fish, Rose, Fish), (Wall, Empty, Wall, End, Wall, End)]; viewCache: ViewCache([[(Wall, Empty, Wall, Fish, Rose, Fish), (Honeycomb, Empty, Wall, Fish, Rose, Fish), (Wall, Empty, Wall, End, Wall, End)], [(Rose, Empty, Rose, End, Wall, End)], [(Wall, Empty, Wall, Eiffel, Rose, Eiffel), (Brick, Hatrack, Brick, Eiffel, Rose, Eiffel), (Brick, Hatrack, Brick, Unknown, Unknown, Unknown)], [(Rose, Empty, Rose, End, Wall, End)]])
+03-24 16:15:03 INFO     After distance 1 [(Honeycomb, Empty, Wall, Fish, Rose, Fish), (Wall, Empty, Wall, End, Wall, End)]
+03-24 16:15:03 INFO     Travel Distance: None Count is 2 of 2
+03-24 16:15:03 INFO     frame2action [Travel_v=[MEAN='walk_V_1'], Dir=[MEAN='forward_ADV_1'], Dist=[Count=[MEAN='twice_ADV_1']]]
+03-24 16:15:03 INFO     <0> Travel(distance=[Distance(count=2)])
+03-24 16:15:03 INFO     Facing the Distance conditions in the distance [Thing(dist='2:', value=Position, type='Struct', side=[Front])]
+03-24 16:15:03 INFO     Recognizing [Thing(dist='0', value=Path, type='Path', side=[Left])].
+03-24 16:15:03 INFO     recognize observing...
+03-24 16:15:03 INFO     Observed [(Rose, Empty, Wall, Eiffel, BlueTile, Eiffel), (Wall, Empty, Wall, Eiffel, BlueTile, Eiffel), (Cement, Sofa, Wall, End, Wall, End)]
+03-24 16:15:03 INFO     .....Examining [(Rose, Empty, Wall, Eiffel, BlueTile, Eiffel), (Wall, Empty, Wall, Eiffel, BlueTile, Eiffel), (Cement, Sofa, Wall, End, Wall, End)]
+.....for Thing(dist='0', value=Path, type='Path', side=[Left])
+03-24 16:15:03 INFO     .....Recognized Thing(dist='0', value=Path, type='Path', side=[Left])
+03-24 16:15:03 INFO     .....Recognized entire description!
+03-24 16:15:03 INFO     Recognizing [Thing(dist='2:', value=Position, type='Struct', side=[Front])].
+03-24 16:15:03 INFO     .....Examining [(Rose, Empty, Wall, Eiffel, BlueTile, Eiffel), (Wall, Empty, Wall, Eiffel, BlueTile, Eiffel), (Cement, Sofa, Wall, End, Wall, End)]
+.....for Thing(dist='2:', value=Position, type='Struct', side=[Front])
+03-24 16:15:03 INFO     .....Recognized Thing(dist='2:', value=Position, type='Struct', side=[Front])
+03-24 16:15:03 INFO     .....Recognized entire description!
+03-24 16:15:03 INFO     After Faced Distance 0 []
+03-24 16:15:03 INFO     Traveling forward.
+03-24 16:15:03 INFO     travel observing...
+03-24 16:15:03 INFO     post travel obs: [(Rose, Empty, Wall, Eiffel, BlueTile, Eiffel), (Wall, Empty, Wall, Eiffel, BlueTile, Eiffel), (Cement, Sofa, Wall, End, Wall, End)]; viewCache: ViewCache([[(Rose, Empty, Wall, Eiffel, BlueTile, Eiffel), (Wall, Empty, Wall, Eiffel, BlueTile, Eiffel), (Cement, Sofa, Wall, End, Wall, End)], [(BlueTile, Empty, BlueTile, End, Wall, End)], [(Wall, Empty, Rose, Eiffel, BlueTile, Eiffel), (Wall, Empty, Rose, Unknown, Unknown, Unknown)], [(BlueTile, Empty, BlueTile, Unknown, Rose, Unknown)]])
+03-24 16:15:03 INFO     After distance 1 [(Wall, Empty, Wall, Eiffel, BlueTile, Eiffel), (Cement, Sofa, Wall, End, Wall, End)]
+03-24 16:15:03 INFO     Travel Distance: None Count is 1 of 2
+03-24 16:15:03 INFO     Traveling forward.
+03-24 16:15:03 INFO     travel observing...
+03-24 16:15:03 INFO     post travel obs: [(Wall, Empty, Wall, Eiffel, BlueTile, Eiffel), (Cement, Sofa, Wall, End, Wall, End)]; viewCache: ViewCache([[(Wall, Empty, Wall, Eiffel, BlueTile, Eiffel), (Cement, Sofa, Wall, End, Wall, End)], [(BlueTile, Empty, BlueTile, End, Wall, End)], [(Wall, Empty, Wall, Eiffel, BlueTile, Eiffel), (Wall, Empty, Rose, Eiffel, BlueTile, Eiffel), (Wall, Empty, Rose, Unknown, Unknown, Unknown)], [(BlueTile, Empty, BlueTile, End, Wall, End)]])
+03-24 16:15:03 INFO     After distance 1 [(Cement, Sofa, Wall, End, Wall, End)]
+03-24 16:15:03 INFO     Travel Distance: None Count is 2 of 2
+03-24 16:15:04 INFO     frame2action [Travel_v=[MEAN='walk_V_1'], Dir=[MEAN='forward_ADV_1'], Dist=[Count=[MEAN='twice_ADV_1']]]
+03-24 16:15:04 INFO     <0> Travel(distance=[Distance(count=2)])
+03-24 16:15:04 INFO     Facing the Distance conditions in the distance [Thing(dist='2:', value=Position, type='Struct', side=[Front])]
+03-24 16:15:04 INFO     Recognizing [Thing(dist='0', value=Path, type='Path', side=[Right])].
+03-24 16:15:04 INFO     recognize observing...
+03-24 16:15:04 INFO     Observed [(Brick, Empty, Brick, Eiffel, Stone, Eiffel), (Wall, Empty, Cement, Eiffel, Stone, Eiffel), (Honeycomb, Easel, Wall, Eiffel, Stone, Eiffel), (Cement, Lamp, Wall, End, Wall, End)]
+03-24 16:15:04 INFO     .....Examining [(Brick, Empty, Brick, Eiffel, Stone, Eiffel), (Wall, Empty, Cement, Eiffel, Stone, Eiffel), (Honeycomb, Easel, Wall, Eiffel, Stone, Eiffel), (Cement, Lamp, Wall, End, Wall, End)]
+.....for Thing(dist='0', value=Path, type='Path', side=[Right])
+03-24 16:15:04 INFO     .....Recognized Thing(dist='0', value=Path, type='Path', side=[Right])
+03-24 16:15:04 INFO     .....Recognized entire description!
+03-24 16:15:04 INFO     Recognizing [Thing(dist='2:', value=Position, type='Struct', side=[Front])].
+03-24 16:15:04 INFO     .....Examining [(Brick, Empty, Brick, Eiffel, Stone, Eiffel), (Wall, Empty, Cement, Eiffel, Stone, Eiffel), (Honeycomb, Easel, Wall, Eiffel, Stone, Eiffel), (Cement, Lamp, Wall, End, Wall, End)]
+.....for Thing(dist='2:', value=Position, type='Struct', side=[Front])
+03-24 16:15:04 INFO     .....Recognized Thing(dist='2:', value=Position, type='Struct', side=[Front])
+03-24 16:15:04 INFO     .....Recognized entire description!
+03-24 16:15:04 INFO     After Faced Distance 0 []
+03-24 16:15:04 INFO     Traveling forward.
+03-24 16:15:04 INFO     travel observing...
+03-24 16:15:04 INFO     post travel obs: [(Brick, Empty, Brick, Eiffel, Stone, Eiffel), (Wall, Empty, Cement, Eiffel, Stone, Eiffel), (Honeycomb, Easel, Wall, Eiffel, Stone, Eiffel), (Cement, Lamp, Wall, End, Wall, End)]; viewCache: ViewCache([[(Brick, Empty, Brick, Eiffel, Stone, Eiffel), (Wall, Empty, Cement, Eiffel, Stone, Eiffel), (Honeycomb, Easel, Wall, Eiffel, Stone, Eiffel), (Cement, Lamp, Wall, End, Wall, End)], [(Stone, Empty, Stone, Unknown, Brick, Unknown)], [(Brick, Empty, Brick, Eiffel, Stone, Eiffel), (Brick, Empty, Brick, Unknown, Unknown, Unknown)], [(Stone, Empty, Stone, Unknown, Brick, Unknown)]])
+03-24 16:15:04 INFO     After distance 1 [(Wall, Empty, Cement, Eiffel, Stone, Eiffel)]...
+03-24 16:15:04 INFO     Travel Distance: None Count is 1 of 2
+03-24 16:15:04 INFO     Traveling forward.
+03-24 16:15:04 INFO     travel observing...
+03-24 16:15:04 INFO     post travel obs: [(Wall, Empty, Cement, Eiffel, Stone, Eiffel), (Honeycomb, Easel, Wall, Eiffel, Stone, Eiffel), (Cement, Lamp, Wall, End, Wall, End)]; viewCache: ViewCache([[(Wall, Empty, Cement, Eiffel, Stone, Eiffel), (Honeycomb, Easel, Wall, Eiffel, Stone, Eiffel), (Cement, Lamp, Wall, End, Wall, End)], [(Stone, Empty, Stone, Unknown, Cement, Unknown)], [(Cement, Empty, Wall, Eiffel, Stone, Eiffel), (Brick, Empty, Brick, Eiffel, Stone, Eiffel), (Brick, Empty, Brick, Unknown, Unknown, Unknown)], [(Stone, Empty, Stone, End, Wall, End)]])
+03-24 16:15:04 INFO     After distance 1 [(Honeycomb, Easel, Wall, Eiffel, Stone, Eiffel), (Cement, Lamp, Wall, End, Wall, End)]
+03-24 16:15:04 INFO     Travel Distance: None Count is 2 of 2
+03-24 16:15:04 INFO     frame2action [Travel_v=[MEAN='walk_V_1'], Dir=[MEAN='forward_ADV_1'], Dist=[Count=[MEAN='twice_ADV_1']]]
+03-24 16:15:04 INFO     <0> Travel(distance=[Distance(count=2)])
+03-24 16:15:04 INFO     Facing the Distance conditions in the distance [Thing(dist='2:', value=Position, type='Struct', side=[Front])]
+03-24 16:15:04 INFO     Recognizing [Thing(dist='0', value=Path, type='Path', side=[Right])].
+03-24 16:15:04 INFO     recognize observing...
+03-24 16:15:04 INFO     Observed [(Wood, Chair, Wall, Butterfly, BlueTile, Butterfly), (Stone, Barstool, Wall, Butterfly, BlueTile, Butterfly), (Cement, Empty, Wall, Butterfly, BlueTile, Butterfly), (Cement, Sofa, Wall, Butterfly, BlueTile, Butterfly), (Cement, Hatrack, Wall, Butterfly, BlueTile, Butterfly), (Cement, Empty, Wall, End, Wall, End)]
+03-24 16:15:04 INFO     .....Examining [(Wood, Chair, Wall, Butterfly, BlueTile, Butterfly), (Stone, Barstool, Wall, Butterfly, BlueTile, Butterfly), (Cement, Empty, Wall, Butterfly, BlueTile, Butterfly), (Cement, Sofa, Wall, Butterfly, BlueTile, Butterfly), (Cement, Hatrack, Wall, Butterfly, BlueTile, Butterfly), (Cement, Empty, Wall, End, Wall, End)]
+.....for Thing(dist='0', value=Path, type='Path', side=[Right])
+03-24 16:15:04 INFO     .....Did NOT recognize Thing(dist='0', value=Path, type='Path', side=[Right])
+03-24 16:15:04 INFO     Recognizing [Thing(dist='2:', value=Position, type='Struct', side=[Front])].
+03-24 16:15:04 INFO     .....Examining [(Wood, Chair, Wall, Butterfly, BlueTile, Butterfly), (Stone, Barstool, Wall, Butterfly, BlueTile, Butterfly), (Cement, Empty, Wall, Butterfly, BlueTile, Butterfly), (Cement, Sofa, Wall, Butterfly, BlueTile, Butterfly), (Cement, Hatrack, Wall, Butterfly, BlueTile, Butterfly), (Cement, Empty, Wall, End, Wall, End)]
+.....for Thing(dist='2:', value=Position, type='Struct', side=[Front])
+03-24 16:15:04 INFO     .....Recognized Thing(dist='2:', value=Position, type='Struct', side=[Front])
+03-24 16:15:04 INFO     .....Recognized entire description!
+03-24 16:15:04 INFO     After Faced Distance 0 []
+03-24 16:15:04 INFO     Traveling forward.
+03-24 16:15:04 INFO     travel observing...
+03-24 16:15:04 INFO     post travel obs: [(Wood, Chair, Wall, Butterfly, BlueTile, Butterfly), (Stone, Barstool, Wall, Butterfly, BlueTile, Butterfly), (Cement, Empty, Wall, Butterfly, BlueTile, Butterfly), (Cement, Sofa, Wall, Butterfly, BlueTile, Butterfly), (Cement, Hatrack, Wall, Butterfly, BlueTile, Butterfly), (Cement, Empty, Wall, End, Wall, End)]; viewCache: ViewCache([[(Wood, Chair, Wall, Butterfly, BlueTile, Butterfly), (Stone, Barstool, Wall, Butterfly, BlueTile, Butterfly), (Cement, Empty, Wall, Butterfly, BlueTile, Butterfly), (Cement, Sofa, Wall, Butterfly, BlueTile, Butterfly), (Cement, Hatrack, Wall, Butterfly, BlueTile, Butterfly), (Cement, Empty, Wall, End, Wall, End)], [(BlueTile, Chair, BlueTile, End, Wall, End)], [(Wall, Chair, Wood, Butterfly, BlueTile, Butterfly), (Wall, Chair, Wood, Unknown, Unknown, Unknown)], [(BlueTile, Chair, BlueTile, Unknown, Wood, Unknown)]])
+03-24 16:15:04 INFO     After distance 1 [(Stone, Barstool, Wall, Butterfly, BlueTile, Butterfly)]...
+03-24 16:15:04 INFO     Travel Distance: None Count is 1 of 2
+03-24 16:15:04 INFO     Traveling forward.
+03-24 16:15:04 INFO     travel observing...
+03-24 16:15:04 INFO     post travel obs: [(Stone, Barstool, Wall, Butterfly, BlueTile, Butterfly), (Cement, Empty, Wall, Butterfly, BlueTile, Butterfly), (Cement, Sofa, Wall, Butterfly, BlueTile, Butterfly), (Cement, Hatrack, Wall, Butterfly, BlueTile, Butterfly), (Cement, Empty, Wall, End, Wall, End)]; viewCache: ViewCache([[(Stone, Barstool, Wall, Butterfly, BlueTile, Butterfly), (Cement, Empty, Wall, Butterfly, BlueTile, Butterfly), (Cement, Sofa, Wall, Butterfly, BlueTile, Butterfly), (Cement, Hatrack, Wall, Butterfly, BlueTile, Butterfly), (Cement, Empty, Wall, End, Wall, End)], [(BlueTile, Barstool, BlueTile, End, Wall, End)], [(Wall, Barstool, Stone, Butterfly, BlueTile, Butterfly), (Wall, Chair, Wood, Butterfly, BlueTile, Butterfly), (Wall, Chair, Wood, Unknown, Unknown, Unknown)], [(BlueTile, Barstool, BlueTile, Unknown, Stone, Unknown)]])
+03-24 16:15:04 INFO     After distance 1 [(Cement, Empty, Wall, Butterfly, BlueTile, Butterfly)]...
+03-24 16:15:04 INFO     Travel Distance: None Count is 2 of 2
+03-24 16:15:05 INFO     frame2action [Travel_v=[MEAN='walk_V_1'], Dir=[MEAN='forward_ADV_1'], Dist=[Count=[MEAN='twice_ADV_1']]]
+03-24 16:15:05 INFO     <0> Travel(distance=[Distance(count=2)])
+03-24 16:15:05 INFO     Facing the Distance conditions in the distance [Thing(dist='2:', value=Position, type='Struct', side=[Front])]
+03-24 16:15:05 INFO     Recognizing [Thing(dist='0', value=Path, type='Path', side=[Right])].
+03-24 16:15:05 INFO     recognize observing...
+03-24 16:15:05 INFO     Observed [(Cement, Empty, Wall, Butterfly, BlueTile, Butterfly), (Cement, Sofa, Wall, Butterfly, BlueTile, Butterfly), (Cement, Hatrack, Wall, Butterfly, BlueTile, Butterfly), (Cement, Empty, Wall, End, Wall, End)]
+03-24 16:15:05 INFO     .....Examining [(Cement, Empty, Wall, Butterfly, BlueTile, Butterfly), (Cement, Sofa, Wall, Butterfly, BlueTile, Butterfly), (Cement, Hatrack, Wall, Butterfly, BlueTile, Butterfly), (Cement, Empty, Wall, End, Wall, End)]
+.....for Thing(dist='0', value=Path, type='Path', side=[Right])
+03-24 16:15:05 INFO     .....Did NOT recognize Thing(dist='0', value=Path, type='Path', side=[Right])
+03-24 16:15:05 INFO     Recognizing [Thing(dist='2:', value=Position, type='Struct', side=[Front])].
+03-24 16:15:05 INFO     .....Examining [(Cement, Empty, Wall, Butterfly, BlueTile, Butterfly), (Cement, Sofa, Wall, Butterfly, BlueTile, Butterfly), (Cement, Hatrack, Wall, Butterfly, BlueTile, Butterfly), (Cement, Empty, Wall, End, Wall, End)]
+.....for Thing(dist='2:', value=Position, type='Struct', side=[Front])
+03-24 16:15:05 INFO     .....Recognized Thing(dist='2:', value=Position, type='Struct', side=[Front])
+03-24 16:15:05 INFO     .....Recognized entire description!
+03-24 16:15:05 INFO     After Faced Distance 0 []
+03-24 16:15:05 INFO     Traveling forward.
+03-24 16:15:05 INFO     travel observing...
+03-24 16:15:05 INFO     post travel obs: [(Cement, Empty, Wall, Butterfly, BlueTile, Butterfly), (Cement, Sofa, Wall, Butterfly, BlueTile, Butterfly), (Cement, Hatrack, Wall, Butterfly, BlueTile, Butterfly), (Cement, Empty, Wall, End, Wall, End)]; viewCache: ViewCache([[(Cement, Empty, Wall, Butterfly, BlueTile, Butterfly), (Cement, Sofa, Wall, Butterfly, BlueTile, Butterfly), (Cement, Hatrack, Wall, Butterfly, BlueTile, Butterfly), (Cement, Empty, Wall, End, Wall, End)], [(BlueTile, Empty, BlueTile, End, Wall, End)], [(Wall, Empty, Cement, Butterfly, BlueTile, Butterfly), (Wall, Empty, Cement, Unknown, Unknown, Unknown)], [(BlueTile, Empty, BlueTile, Unknown, Cement, Unknown)]])
+03-24 16:15:05 INFO     After distance 1 [(Cement, Sofa, Wall, Butterfly, BlueTile, Butterfly)]...
+03-24 16:15:05 INFO     Travel Distance: None Count is 1 of 2
+03-24 16:15:05 INFO     Traveling forward.
+03-24 16:15:05 INFO     travel observing...
+03-24 16:15:05 INFO     post travel obs: [(Cement, Sofa, Wall, Butterfly, BlueTile, Butterfly), (Cement, Hatrack, Wall, Butterfly, BlueTile, Butterfly), (Cement, Empty, Wall, End, Wall, End)]; viewCache: ViewCache([[(Cement, Sofa, Wall, Butterfly, BlueTile, Butterfly), (Cement, Hatrack, Wall, Butterfly, BlueTile, Butterfly), (Cement, Empty, Wall, End, Wall, End)], [(BlueTile, Sofa, BlueTile, End, Wall, End)], [(Wall, Sofa, Cement, Butterfly, BlueTile, Butterfly), (Wall, Empty, Cement, Butterfly, BlueTile, Butterfly), (Wall, Empty, Cement, Unknown, Unknown, Unknown)], [(BlueTile, Sofa, BlueTile, Unknown, Cement, Unknown)]])
+03-24 16:15:05 INFO     After distance 1 [(Cement, Hatrack, Wall, Butterfly, BlueTile, Butterfly), (Cement, Empty, Wall, End, Wall, End)]
+03-24 16:15:05 INFO     Travel Distance: None Count is 2 of 2
+03-24 16:15:05 INFO     frame2action [Travel_v=[MEAN='walk_V_1'], Dir=[MEAN='forward_ADV_1'], Dist=[Count=[MEAN='twice_ADV_1']]]
+03-24 16:15:05 INFO     <0> Travel(distance=[Distance(count=2)])
+03-24 16:15:06 INFO     Facing the Distance conditions in the distance [Thing(dist='2:', value=Position, type='Struct', side=[Front])]
+03-24 16:15:06 INFO     Recognizing [Thing(dist='0', value=Path, type='Path', side=[Left])].
+03-24 16:15:06 INFO     recognize observing...
+03-24 16:15:06 INFO     Observed [(Rose, Easel, Rose, Fish, Brick, Fish), (Wood, Lamp, Wood, Eiffel, Brick, Eiffel), (Stone, Empty, Stone, Butterfly, Brick, Butterfly), (Cement, Empty, Cement, Butterfly, Brick, Butterfly), (Cement, Chair, Cement, End, Wall, End)]
+03-24 16:15:06 INFO     .....Examining [(Rose, Easel, Rose, Fish, Brick, Fish), (Wood, Lamp, Wood, Eiffel, Brick, Eiffel), (Stone, Empty, Stone, Butterfly, Brick, Butterfly), (Cement, Empty, Cement, Butterfly, Brick, Butterfly), (Cement, Chair, Cement, End, Wall, End)]
+.....for Thing(dist='0', value=Path, type='Path', side=[Left])
+03-24 16:15:06 INFO     .....Recognized Thing(dist='0', value=Path, type='Path', side=[Left])
+03-24 16:15:06 INFO     .....Recognized entire description!
+03-24 16:15:06 INFO     Recognizing [Thing(dist='2:', value=Position, type='Struct', side=[Front])].
+03-24 16:15:06 INFO     .....Examining [(Rose, Easel, Rose, Fish, Brick, Fish), (Wood, Lamp, Wood, Eiffel, Brick, Eiffel), (Stone, Empty, Stone, Butterfly, Brick, Butterfly), (Cement, Empty, Cement, Butterfly, Brick, Butterfly), (Cement, Chair, Cement, End, Wall, End)]
+.....for Thing(dist='2:', value=Position, type='Struct', side=[Front])
+03-24 16:15:06 INFO     .....Recognized Thing(dist='2:', value=Position, type='Struct', side=[Front])
+03-24 16:15:06 INFO     .....Recognized entire description!
+03-24 16:15:06 INFO     After Faced Distance 0 []
+03-24 16:15:06 INFO     Traveling forward.
+03-24 16:15:06 INFO     travel observing...
+03-24 16:15:06 INFO     post travel obs: [(Rose, Easel, Rose, Fish, Brick, Fish), (Wood, Lamp, Wood, Eiffel, Brick, Eiffel), (Stone, Empty, Stone, Butterfly, Brick, Butterfly), (Cement, Empty, Cement, Butterfly, Brick, Butterfly), (Cement, Chair, Cement, End, Wall, End)]; viewCache: ViewCache([[(Rose, Easel, Rose, Fish, Brick, Fish), (Wood, Lamp, Wood, Eiffel, Brick, Eiffel), (Stone, Empty, Stone, Butterfly, Brick, Butterfly), (Cement, Empty, Cement, Butterfly, Brick, Butterfly), (Cement, Chair, Cement, End, Wall, End)], [(Brick, Easel, Brick, Unknown, Rose, Unknown)], [(Rose, Easel, Rose, Fish, Brick, Fish), (Rose, Easel, Rose, Unknown, Unknown, Unknown)], [(Brick, Easel, Brick, Unknown, Rose, Unknown)]])
+03-24 16:15:06 INFO     After distance 1 [(Wood, Lamp, Wood, Eiffel, Brick, Eiffel)]...
+03-24 16:15:06 INFO     Travel Distance: None Count is 1 of 2
+03-24 16:15:06 INFO     Traveling forward.
+03-24 16:15:06 INFO     travel observing...
+03-24 16:15:06 INFO     post travel obs: [(Wood, Lamp, Wood, Eiffel, Brick, Eiffel), (Stone, Empty, Stone, Butterfly, Brick, Butterfly), (Cement, Empty, Cement, Butterfly, Brick, Butterfly), (Cement, Chair, Cement, End, Wall, End)]; viewCache: ViewCache([[(Wood, Lamp, Wood, Eiffel, Brick, Eiffel), (Stone, Empty, Stone, Butterfly, Brick, Butterfly), (Cement, Empty, Cement, Butterfly, Brick, Butterfly), (Cement, Chair, Cement, End, Wall, End)], [(Brick, Lamp, Brick, Unknown, Wood, Unknown)], [(Wood, Lamp, Wood, Fish, Brick, Fish), (Rose, Easel, Rose, Fish, Brick, Fish), (Rose, Easel, Rose, Unknown, Unknown, Unknown)], [(Brick, Lamp, Brick, Unknown, Wood, Unknown)]])
+03-24 16:15:06 INFO     After distance 1 [(Stone, Empty, Stone, Butterfly, Brick, Butterfly)]...
+03-24 16:15:06 INFO     Travel Distance: None Count is 2 of 2
+03-24 16:15:06 INFO     frame2action [Travel_v=[MEAN='walk_V_1'], Dir=[MEAN='forward_ADV_1'], Dist=[Count=[MEAN='twice_ADV_1']]]
+03-24 16:15:06 INFO     <0> Travel(distance=[Distance(count=2)])
+03-24 16:15:06 INFO     Facing the Distance conditions in the distance [Thing(dist='2:', value=Position, type='Struct', side=[Front])]
+03-24 16:15:06 INFO     Recognizing [Thing(dist='0', value=Path, type='Path', side=[Left])].
+03-24 16:15:06 INFO     recognize observing...
+03-24 16:15:06 INFO     Observed [(Cement, Empty, Cement, Butterfly, Brick, Butterfly), (Stone, Empty, Stone, Eiffel, Brick, Eiffel), (Wood, Lamp, Wood, Fish, Brick, Fish), (Rose, Easel, Rose, Fish, Brick, Fish), (Grass, Hatrack, Grass, End, Wall, End)]
+03-24 16:15:06 INFO     .....Examining [(Cement, Empty, Cement, Butterfly, Brick, Butterfly), (Stone, Empty, Stone, Eiffel, Brick, Eiffel), (Wood, Lamp, Wood, Fish, Brick, Fish), (Rose, Easel, Rose, Fish, Brick, Fish), (Grass, Hatrack, Grass, End, Wall, End)]
+.....for Thing(dist='0', value=Path, type='Path', side=[Left])
+03-24 16:15:06 INFO     .....Recognized Thing(dist='0', value=Path, type='Path', side=[Left])
+03-24 16:15:06 INFO     .....Recognized entire description!
+03-24 16:15:06 INFO     Recognizing [Thing(dist='2:', value=Position, type='Struct', side=[Front])].
+03-24 16:15:06 INFO     .....Examining [(Cement, Empty, Cement, Butterfly, Brick, Butterfly), (Stone, Empty, Stone, Eiffel, Brick, Eiffel), (Wood, Lamp, Wood, Fish, Brick, Fish), (Rose, Easel, Rose, Fish, Brick, Fish), (Grass, Hatrack, Grass, End, Wall, End)]
+.....for Thing(dist='2:', value=Position, type='Struct', side=[Front])
+03-24 16:15:06 INFO     .....Recognized Thing(dist='2:', value=Position, type='Struct', side=[Front])
+03-24 16:15:06 INFO     .....Recognized entire description!
+03-24 16:15:06 INFO     After Faced Distance 0 []
+03-24 16:15:06 INFO     Traveling forward.
+03-24 16:15:06 INFO     travel observing...
+03-24 16:15:06 INFO     post travel obs: [(Cement, Empty, Cement, Butterfly, Brick, Butterfly), (Stone, Empty, Stone, Eiffel, Brick, Eiffel), (Wood, Lamp, Wood, Fish, Brick, Fish), (Rose, Easel, Rose, Fish, Brick, Fish), (Grass, Hatrack, Grass, End, Wall, End)]; viewCache: ViewCache([[(Cement, Empty, Cement, Butterfly, Brick, Butterfly), (Stone, Empty, Stone, Eiffel, Brick, Eiffel), (Wood, Lamp, Wood, Fish, Brick, Fish), (Rose, Easel, Rose, Fish, Brick, Fish), (Grass, Hatrack, Grass, End, Wall, End)], [(Brick, Empty, Brick, Unknown, Cement, Unknown)], [(Cement, Empty, Cement, Butterfly, Brick, Butterfly), (Cement, Empty, Cement, Unknown, Unknown, Unknown)], [(Brick, Empty, Brick, Unknown, Cement, Unknown)]])
+03-24 16:15:06 INFO     After distance 1 [(Stone, Empty, Stone, Eiffel, Brick, Eiffel)]...
+03-24 16:15:06 INFO     Travel Distance: None Count is 1 of 2
+03-24 16:15:06 INFO     Traveling forward.
+03-24 16:15:06 INFO     travel observing...
+03-24 16:15:06 INFO     post travel obs: [(Stone, Empty, Stone, Eiffel, Brick, Eiffel), (Wood, Lamp, Wood, Fish, Brick, Fish), (Rose, Easel, Rose, Fish, Brick, Fish), (Grass, Hatrack, Grass, End, Wall, End)]; viewCache: ViewCache([[(Stone, Empty, Stone, Eiffel, Brick, Eiffel), (Wood, Lamp, Wood, Fish, Brick, Fish), (Rose, Easel, Rose, Fish, Brick, Fish), (Grass, Hatrack, Grass, End, Wall, End)], [(Brick, Empty, Brick, Unknown, Stone, Unknown)], [(Stone, Empty, Stone, Butterfly, Brick, Butterfly), (Cement, Empty, Cement, Butterfly, Brick, Butterfly), (Cement, Empty, Cement, Unknown, Unknown, Unknown)], [(Brick, Empty, Brick, Unknown, Stone, Unknown)]])
+03-24 16:15:06 INFO     After distance 1 [(Wood, Lamp, Wood, Fish, Brick, Fish)]...
+03-24 16:15:06 INFO     Travel Distance: None Count is 2 of 2

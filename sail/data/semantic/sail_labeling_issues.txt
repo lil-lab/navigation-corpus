@@ -1,0 +1,19 @@
+Collection of issues found in the data (line numbers refer to SingleSentences-sail.xml):
+line 173 -- lacking proper annotation. possibly because the system just can't handle this kind of instruction. So what should happen there? just turn and turn forever?
+ - Agree. Probably should leave stuff we can't parse empty... 
+line 194 -- sounds like moving to the second junction to me, not two steps. What do you think?
+ - Agree. I assume an alley is basically a junction.
+line 241 -- the prefix "is position 3" is quite common, but is almsot always ignored
+ - I think the original directions were specified as a list of positions, so the person is just saying a bit more than strictly necessary. We should both go back and re-read the original paper (http://www.aaai.org/Papers/AAAI/2006/AAAI06-232.pdf) to see if we can congirm what is actually going on.
+line 266 -- requires walking, but it's not mentioned. Not sure it should be mentioned
+ - Right, it is obvious from the context so they dropped it. I guess we will need some way of deal with this type of stuff...
+line 274 -- there's definitely a verify here, but it's completely ignored
+ - Agreed. Maybe they didn't have a notion of "furniture" only lamp, etc?
+line 352 -- where does the first turn() is coming from?
+ - Probably another implicit thing. I am guessing the user was facing a wall at the begining and there is only one way to turn to a yellow path...
+line 448 -- is there a meaning of alley that I am missing here?
+ - my guess is one user is just using alley to mean room? 
+line 10259 -- it's not clear to me why it's null
+ - maybe there is no intersection red brick? or there is no "brick"? would have to look at a map?
+line 12016 -- again, turn() seems to be used to sync the agent sometimes
+- again somewhat implicit, but i think "with your back to the wall" mean basically "turn so you back is to the wall"?

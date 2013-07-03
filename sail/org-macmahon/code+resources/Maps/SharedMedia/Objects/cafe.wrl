@@ -1,0 +1,297 @@
+#VRML V2.0 utf8
+
+Background {               #remove these lines
+skyColor 0 1 0            #
+}                         # when placing this
+Viewpoint {               #
+position 0 -.5 3         # object in a VRML world
+}                       #
+NavigationInfo {           # or apartment.
+type "EXAMINE"            #
+}                         #
+
+WorldInfo {
+title "Animated Coffee machine"
+info [ "Copyright Geometrek 1988 modeled by Andrew Reitemeyer kiwano@t-online.de "
+"This model is freeware for non commercial users " 
+"http://www.geometrek.com"
+"This node must remain unaltered in this code"
+]
+}    
+
+Transform {         # main grouping node
+translation 0 0 0     # controls position
+scale 1 1 1           # controls size
+rotation 0 1 0 3.14   # controls orientation
+children [
+Transform {
+children [ 
+DEF Disc  Shape {
+appearance DEF Plastic Appearance {
+material Material {
+diffuseColor 1 1 .5   # controls object color
+shininess 1
+ambientIntensity .6
+specularColor 1 1 1
+}
+}
+geometry Cylinder {
+radius .5
+height .7
+}
+}
+]
+}
+
+Transform {
+scale 1 .3 1
+translation 0 -1.3 0
+children [ 
+USE Disc  
+]
+}
+Transform {
+translation 0 -1.2 0
+children [  
+Shape {
+appearance  DEF Coffee Appearance {
+material Material {
+diffuseColor 0 0 0
+shininess .5
+ambientIntensity .6
+specularColor 0 0 0
+}
+}
+geometry DEF Plate  Cylinder {
+radius .45
+height .1
+}
+}
+]
+}  
+Transform {
+children [
+Shape {
+appearance  USE Plastic
+geometry Extrusion {
+creaseAngle 1.3
+crossSection [ -.5 .1, -.4 .3  -.2 .45, .2 .45, .4 .3, .5 .1, .45 .35,
+.3 .55, .1 .59, 0 .6, -.1 .59, -.3 .55,-.45 .25 -.5 .1 
+]
+spine [ 0 .35 0, 0 -1.4 0 ]
+solid TRUE
+}
+}
+]
+},                  
+
+Transform {
+children [
+Shape {
+appearance  USE Plastic
+geometry Extrusion {
+creaseAngle 1.3
+crossSection [ -.5 .1, -.4 .3 , -.2 .45, .2 .45, .4 .3, .5 .1, .45 .35,
+.3 .55, .1 .59, 0 .6, -.1 .59, -.3 .55,-.45 .25 -.5 .1 
+]
+spine [ 0 .35 0, 0 -1.4 0 ]
+solid FALSE
+}
+}
+]
+},                                
+
+Transform {
+children [
+Shape {
+appearance  USE Plastic
+geometry Extrusion {
+creaseAngle 1.3
+crossSection [ -.5 0, -.5 .1, -.4 .3,  -.2 .45, .2 .45, .4 .3, .5 .1, .5 0,
+.5 -.1, .4 -.3, .2 -.45, -.2 -.45, -.4 -.3, -.5 -.1, -.5 0
+
+]
+spine [ 0 -.55 0, 0 -.35 0  ]
+scale [.3 .3 , .95 .95  ]
+solid TRUE
+}
+}
+]
+}
+
+Transform {
+translation 0 -1.3 -.45
+children [
+Shape {
+appearance  USE Plastic
+geometry Box {
+size .3 .15 .1
+}
+}
+]
+}
+Transform {
+translation 0 -1.3 -.5
+children [
+DEF Push TouchSensor { }
+Shape {
+appearance  Appearance  {
+material DEF Light Material {
+diffuseColor 0 0 .3
+shininess 1
+}
+}
+geometry Box {
+size .2 .11 .075
+}
+}
+]
+}
+
+DEF Spurt Transform {
+translation 0 -.1 0     #-.8
+children [  
+Shape {
+appearance  USE Coffee 
+geometry  Cylinder {
+radius .02
+height .7
+}
+}
+]
+}   
+
+
+
+
+
+DEF Pot  Transform {
+center 0 0 0
+children [
+DEF Hold PlaneSensor {
+minPosition  -2 -.3
+maxPosition 2 0
+}
+Transform {
+scale .98 1 .98
+children [
+Shape {
+appearance Appearance {
+material Material {
+diffuseColor 1 1 1
+transparency  .8
+}
+}  
+geometry Extrusion {
+creaseAngle 1.3
+crossSection [ -.5 0, -.49 .1, -.4 .3,  -.2 .45, 0 .5, .2 .45, .4 .3, .49 .1, .5 0,
+.49 -.1, .4 -.3, .2 -.45, 0 -.5, -.2 -.45, -.4 -.3, -.49 -.1, -.5 0
+
+]
+spine [ 0 -1.15 0, 0 -.55 0 ]
+endCap FALSE
+}
+}
+]
+} 
+
+
+Transform {
+scale 1 1 1
+children [
+Shape {
+appearance Appearance {
+material Material {
+diffuseColor 0 0 0
+transparency 0
+}
+}  
+geometry DEF Brew Extrusion {
+creaseAngle 1.3
+crossSection [ -.5 0, -.49 .1, -.4 .3,  -.2 .45, 0 .5, .2 .45, .4 .3, .49 .1, .5 0,
+.49 -.1, .4 -.3, .2 -.45, 0 -.5, -.2 -.45, -.4 -.3, -.49 -.1, -.5 0
+
+]
+spine [ 0 -1.15 0, 0 -1.15 0 ]
+solid FALSE
+}
+}
+]
+} 
+
+Transform {
+scale .96 1 .96
+children [
+Shape {
+appearance USE Plastic
+geometry Extrusion {
+creaseAngle 1.3
+crossSection [ -.42 0, -.45 .1, -.4 .3,  -.2 .45, 0 .5, .2 .45, .4 .3, .49 .1, .5 0,
+.49 -.1, .4 -.3, .2 -.45, 0 -.5, -.2 -.45, -.4 -.3, -.45 -.1, -.42 0
+
+]
+spine [ 0 -.5 0, 0 -.55 0 ]
+solid FALSE
+}
+}
+]
+}  
+Transform {
+translation -.48 0 0 
+rotation 0 1 0 1.3
+children [
+
+Shape {
+appearance  USE Plastic
+geometry Extrusion {
+creaseAngle 1.3
+crossSection [-.05 0, -.1 -.05, -.1 -.1, -.05 -.15, .05 -.15, .1 -.1, .1 -.05,
+.05 0, -.05 0 
+]
+spine [0 -.55 0, 0 -.53 -.2, 0 -.95 -.2, 0 -.97 0  ]
+scale [ .2 1, .5 .5, .5 .5, .2 1]
+solid FALSE
+convex FALSE
+}
+}
+]
+},                   
+
+]
+}#end Pot 
+
+]
+}#end maschine  
+
+DEF Timer TimeSensor {
+cycleInterval 15
+}
+DEF On ColorInterpolator {
+key [0 .001, .95 1]
+keyValue [ 0 0 .3, 1 0 0, 1 0 0, 0 0 .3]
+}
+DEF Make PositionInterpolator {
+key [0, .05 .1 .95  1]
+keyValue [ 0 -.1 0, 0 -.1 0, 0 -.8 0, 0 -.8 0, 0 -.1 0]
+} 
+DEF Cook CoordinateInterpolator {
+key [0, .1 .95  1]
+keyValue [ 0 -1.15 0, 0 -1.15 0
+0 -1.15 0, 0 -1.15 0
+0 -1.15 0,  0 -.65 0
+0 -1.15 0,  0 -.65 0
+
+]
+}    
+
+ROUTE Push.touchTime TO Timer.set_startTime
+ROUTE Timer.fraction_changed TO On.set_fraction
+ROUTE On.value_changed TO Light.set_diffuseColor
+ROUTE Timer.fraction_changed TO Make.set_fraction
+ROUTE Make.value_changed TO Spurt.set_translation
+ROUTE Timer.fraction_changed TO Cook.set_fraction
+ROUTE Cook.value_changed TO Brew.set_spine
+
+ROUTE Hold.translation_changed TO Pot.set_translation
+
+

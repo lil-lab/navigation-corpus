@@ -1,0 +1,1178 @@
+WLH_Grid0_3_6_Dirs_1
+{'numFollowers': 4, 'confidence': (2.0, 0.7071067811865476), 'directionRating': (2.5, 0.8660254037844386), 'map': 'grid', 'correct': False, 'targetFound': (0.0, 0.0), 'efficiency': (0.0, 0.0), 'valid': False, 'implicit': 'partial'}
+with your back to the wall, move forward one alley
+turn right
+you should see wood flooring
+move one block
+pX should have two alleys of wood floor and one of gray
+
+WLH_L0_7_3_Dirs_1
+{'numFollowers': 6, 'confidence': (6.0, 0.0), 'directionRating': (5.5, 0.7637626158259733), 'map': 'l', 'correct': True, 'targetFound': (1.0, 0.0), 'efficiency': (1.0, 0.0), 'valid': True, 'implicit': 'partial'}
+with your back to the wall move forward along the octagon flooring to the end of the alley
+## (do_if:<a,<t,a>> (do_until:<a,<t,a>> (do_if:<a,<t,a>> (do:<m,a> travel:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (hall:<c,<p,t>> honeycomb:c)))) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (end:<<p,t>,<p,t>> (hall:<c,<p,t>> any:c))))) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> (behind:<<p,t>,<p,t>> at:<p,t>) (definite:<<p,t>,<p,t>> wall:<p,t>))))
+%% FORWARD(21,21,180)
+%% FORWARD(21,22,180)
+%% FORWARD(21,23,180)
+%% NULL(21,24,180)
+turn right
+## (do_until:<a,<t,a>> (do:<m,a> turn:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (right:<<p,t>,<p,t>> at0:<p,t>))))
+%% RIGHT(21,24,180)
+%% NULL(21,24,270)
+move past the chair to the stool
+## (do_until:<a,<t,a>> (do:<m,a> travel:m) (and:<t*,t> (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (past:<<p,t>,<p,t>> chair:<p,t>))) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> barstool:<p,t>))))
+%% FORWARD(21,24,270)
+%% FORWARD(20,24,270)
+%% NULL(19,24,270)
+turn and walk to the dead end
+## (do_seq:<a+,a> (do_until:<a,<t,a>> (do:<m,a> turn:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> (front:<<p,t>,<p,t>> at:<p,t>) deadend:<p,t>))) (do_until:<a,<t,a>> (do:<m,a> travel:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> deadend:<p,t>))))
+%% RIGHT(19,24,270)
+%% FORWARD(19,24,0)
+%% NULL(19,23,0)
+this is X
+## (do:<m,a> goal:m)
+%% GOAL(19,24,0)
+
+WLH_Jelly0_6_4_Dirs_2
+{'numFollowers': 7, 'confidence': (5.142857142857143, 1.7261494247992246), 'directionRating': (4.857142857142857, 1.4568627181693672), 'valid': True, 'map': 'jelly', 'targetFound': (0.8571428571428571, 0.3499271061118826), 'efficiency': (0.7333334285714287, 0.3304638202707812), 'correct': True, 'implicit': 'partial'}
+move to the flowered carpet and turn left
+## (do_seq:<a+,a> (do_until:<a,<t,a>> (do:<m,a> travel:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (intersection:<<p,t>*1,<p,t>> (hall:<c,<p,t>> rose:c))))) (do_until:<a,<t,a>> (do:<m,a> turn:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (left:<<p,t>,<p,t>> at0:<p,t>)))))
+%% FORWARD(18,19,90)
+%% LEFT(19,19,90)
+%% NULL(19,19,0)
+again move forward to the blue carpet and turn left
+## (do_seq:<a+,a> (do_until:<a,<t,a>> (do:<m,a> travel:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (intersection:<<p,t>*1,<p,t>> (hall:<c,<p,t>> blue:c))))) (do_until:<a,<t,a>> (do:<m,a> turn:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (left:<<p,t>,<p,t>> at0:<p,t>)))))
+%% FORWARD(19,19,0)
+%% LEFT(19,18,0)
+%% NULL(19,18,270)
+move forward past the chair to the hatrack
+## (do_until:<a,<t,a>> (do:<m,a> travel:m) (and:<t*,t> (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (past:<<p,t>,<p,t>> chair:<p,t>))) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> hatrack:<p,t>))))
+%% FORWARD(19,18,270)
+%% FORWARD(18,18,270)
+%% FORWARD(17,18,270)
+%% FORWARD(16,18,270)
+%% NULL(15,18,270)
+turn left and move straight to the end of the green octagon alley
+## (do_seq:<a+,a> (do_until:<a,<t,a>> (do:<m,a> turn:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (left:<<p,t>,<p,t>> at0:<p,t>)))) (do_until:<a,<t,a>> (do:<m,a> travel:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (end:<<p,t>,<p,t>> (hall:<c,<p,t>> honeycomb:c))))))
+%% LEFT(15,18,270)
+%% FORWARD(15,18,180)
+%% FORWARD(15,19,180)
+%% NULL(15,20,180)
+this is X
+## (do:<m,a> goal:m)
+%% GOAL(15,20,180)
+
+WLH_Jelly0_7_4_Dirs_2
+{'numFollowers': 4, 'confidence': (4.5, 2.0615528128088303), 'directionRating': (5.0, 0.7071067811865476), 'map': 'jelly', 'correct': True, 'targetFound': (0.75, 0.4330127018922193), 'efficiency': (0.75, 0.4330127018922193), 'valid': True, 'implicit': 'partial'}
+with your back to the wall turn right and move to the end
+## (do_seq:<a+,a> (do_if:<a,<t,a>> (do_until:<a,<t,a>> (do:<m,a> turn:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (right:<<p,t>,<p,t>> at0:<p,t>)))) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> (behind:<<p,t>,<p,t>> at:<p,t>) (definite:<<p,t>,<p,t>> wall:<p,t>)))) (do_until:<a,<t,a>> (do:<m,a> travel:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (end:<<p,t>,<p,t>> (hall:<c,<p,t>> any:c))))))
+%% RIGHT(17,17,180)
+%% FORWARD(17,17,270)
+%% FORWARD(16,17,270)
+%% NULL(15,17,270)
+here turn left and move past the hatrack to the end of the green octagon floored alley
+## (do_seq:<a+,a> (do_until:<a,<t,a>> (do:<m,a> turn:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (left:<<p,t>,<p,t>> at0:<p,t>)))) (do_until:<a,<t,a>> (do:<m,a> travel:m) (and:<t*,t> (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (past:<<p,t>,<p,t>> hatrack:<p,t>))) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (end:<<p,t>,<p,t>> (hall:<c,<p,t>> honeycomb:c)))))))
+%% LEFT(15,17,270)
+%% FORWARD(15,17,180)
+%% FORWARD(15,18,180)
+%% FORWARD(15,19,180)
+%% NULL(15,20,180)
+this is X
+## (do:<m,a> goal:m)
+%% GOAL(15,20,180)
+
+WLH_L0_4_6_Dirs_1
+{'numFollowers': 4, 'confidence': (4.75, 1.0897247358851685), 'directionRating': (4.25, 1.479019945774904), 'map': 'l', 'correct': True, 'targetFound': (0.25, 0.4330127018922193), 'efficiency': (0.25, 0.4330127018922193), 'valid': True, 'implicit': 'partial'}
+with your back to the wall turn left and move two alleys to the side alley with stone flooring
+## (do_seq:<a+,a> (do_if:<a,<t,a>> (do_until:<a,<t,a>> (do:<m,a> turn:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (left:<<p,t>,<p,t>> at0:<p,t>)))) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> (behind:<<p,t>,<p,t>> at:<p,t>) (definite:<<p,t>,<p,t>> wall:<p,t>)))) (do_until:<a,<t,a>> (do:<m,a> travel:m) (and:<t*,t> (steps:<n,t> 2:n) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (intersection:<<p,t>*1,<p,t>> (hall:<c,<p,t>> stone:c))))))
+%% LEFT(24,21,270)
+%% FORWARD(24,21,180)
+%% FORWARD(24,22,180)
+%% NULL(24,23,180)
+turn right onto the stone and move to the second alley
+## (do_seq:<a+,a> (do_until:<a,<t,a>> (do:<m,a> turn:m) (and:<t*,t> (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (right:<<p,t>,<p,t>> at0:<p,t>))) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (hall:<c,<p,t>> stone:c))))) (do_until:<a,<t,a>> (do:<m,a> travel:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (order:<<p,t>,<<e,n>,<n,<p,t>>>> intersection:<p,t> frontdist:<e,n> 2:n)))))
+%% RIGHT(24,23,180)
+%% FORWARD(24,23,270)
+%% FORWARD(23,23,270)
+%% NULL(22,23,270)
+to your left you see a chair and grey carpet
+## (verify:<t,a> (and:<t*,t> (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> (left:<<p,t>,<p,t>> at:<p,t>) sofa:<p,t>)) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> (left:<<p,t>,<p,t>> at:<p,t>) (hall:<c,<p,t>> cement:c)))))
+%% VERIFY(22,23,270)
+this is X
+## (do:<m,a> goal:m)
+%% GOAL(22,23,270)
+
+WLH_Jelly0_1_5_Dirs_1
+{'numFollowers': 5, 'confidence': (6.0, 0.0), 'directionRating': (5.2, 0.7483314773547882), 'map': 'jelly', 'correct': True, 'targetFound': (1.0, 0.0), 'efficiency': (0.9199999999999999, 0.16), 'valid': True, 'implicit': 'partial'}
+with your back to the wall turn right
+## (do_if:<a,<t,a>> (do_until:<a,<t,a>> (do:<m,a> turn:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (right:<<p,t>,<p,t>> at0:<p,t>)))) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> (behind:<<p,t>,<p,t>> at:<p,t>) (definite:<<p,t>,<p,t>> wall:<p,t>))))
+%% RIGHT(19,16,0)
+%% NULL(19,16,90)
+move to the corner and turn right again
+## (do_seq:<a+,a> (do_until:<a,<t,a>> (do:<m,a> travel:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> corner:<p,t>))) (do_until:<a,<t,a>> (do:<m,a> turn:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (right:<<p,t>,<p,t>> at0:<p,t>)))))
+%% FORWARD(19,16,90)
+%% RIGHT(20,16,90)
+%% NULL(20,16,180)
+move to the easel and turn left
+## (do_seq:<a+,a> (do_until:<a,<t,a>> (do:<m,a> travel:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> easel:<p,t>))) (do_until:<a,<t,a>> (do:<m,a> turn:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (left:<<p,t>,<p,t>> at0:<p,t>)))))
+%% FORWARD(20,16,180)
+%% LEFT(20,17,180)
+%% NULL(20,17,90)
+you should be facing the longer alley of wooden flooring and butterfly pictures on the side
+## (verify:<t,a> (and:<t*,t> (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> (front:<<p,t>,<p,t>> at:<p,t>) (hall:<c,<p,t>> wood:c))) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> (front:<<p,t>,<p,t>> at:<p,t>) butterfly_w:<p,t>))))
+%% VERIFY(20,17,90)
+move one block
+## (do_until:<a,<t,a>> (do:<m,a> travel:m) (steps:<n,t> 1:n))
+%% FORWARD(20,17,90)
+%% NULL(21,17,90)
+this is X
+## (do:<m,a> goal:m)
+%% GOAL(21,17,90)
+
+WLH_Jelly0_6_7_Dirs_1
+{'numFollowers': 0, 'confidence': (0.0, 0.0), 'directionRating': (0.0, 0.0), 'valid': True, 'map': 'jelly', 'targetFound': (0.0, 0.0), 'efficiency': (0.0, 0.0), 'correct': True, 'implicit': True}
+go forward and turn left at the rose carpet
+## (do_seq:<a+,a> (do:<m,a> travel:m) (do_if:<a,<t,a>> (do_until:<a,<t,a>> (do:<m,a> turn:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (left:<<p,t>,<p,t>> at0:<p,t>)))) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (intersection:<<p,t>*1,<p,t>> (hall:<c,<p,t>> rose:c))))))
+%% FORWARD(18,19,90)
+%% LEFT(19,19,90)
+%% NULL(19,19,0)
+move forward to the blue carpet
+## (do_until:<a,<t,a>> (do:<m,a> travel:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (intersection:<<p,t>*1,<p,t>> (hall:<c,<p,t>> blue:c)))))
+%% FORWARD(19,19,0)
+%% NULL(19,18,0)
+walk forward on the blue carpet till you get to a chair
+## (do_until:<a,<t,a>> (do_if:<a,<t,a>> (do:<m,a> travel:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (hall:<c,<p,t>> blue:c)))) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> chair:<p,t>)))
+%% LEFT[I](19,18,0)
+%% FORWARD(19,18,270)
+%% FORWARD(18,18,270)
+%% NULL(17,18,270)
+turn right
+## (do_until:<a,<t,a>> (do:<m,a> turn:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (right:<<p,t>,<p,t>> at0:<p,t>))))
+%% RIGHT(17,18,270)
+%% NULL(17,18,0)
+there should be another chair
+## (verify:<t,a> (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> (front:<<p,t>,<p,t>> at:<p,t>) barstool:<p,t>)))
+%% VERIFY(17,18,0)
+walk forward
+## (do:<m,a> travel:m)
+%% FORWARD(17,18,0)
+%% NULL(17,17,0)
+this is p-X
+## (do:<m,a> goal:m)
+%% GOAL(17,17,0)
+
+WLH_Jelly0_5_2_Dirs_1
+{'numFollowers': 7, 'confidence': (5.0, 1.6903085094570331), 'directionRating': (4.857142857142857, 1.6413036132965795), 'valid': True, 'map': 'jelly', 'targetFound': (0.7142857142857143, 0.45175395145262565), 'efficiency': (0.6571428571428571, 0.43705881545081016), 'correct': True, 'implicit': True}
+with your back to the easel move into the corner and turn left
+## (do_seq:<a+,a> (do_if:<a,<t,a>> (do_until:<a,<t,a>> (do:<m,a> travel:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> corner:<p,t>))) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> (behind:<<p,t>,<p,t>> at:<p,t>) easel:<p,t>))) (do_until:<a,<t,a>> (do:<m,a> turn:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (left:<<p,t>,<p,t>> at0:<p,t>)))))
+%% FORWARD(21,17,90)
+%% LEFT(22,17,90)
+%% NULL(22,17,0)
+at the lamp turn right
+## (do_if:<a,<t,a>> (do_until:<a,<t,a>> (do:<m,a> turn:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (right:<<p,t>,<p,t>> at0:<p,t>)))) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> lamp:<p,t>)))
+%% FORWARD[I](22,17,0)
+%% RIGHT(22,16,0)
+%% NULL(22,16,90)
+move into the corner and turn left
+## (do_seq:<a+,a> (do_until:<a,<t,a>> (do:<m,a> travel:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> corner:<p,t>))) (do_until:<a,<t,a>> (do:<m,a> turn:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (left:<<p,t>,<p,t>> at0:<p,t>)))))
+%% FORWARD(22,16,90)
+%% LEFT(23,16,90)
+%% NULL(23,16,0)
+you see a hatrack
+## (verify:<t,a> (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> (front:<<p,t>,<p,t>> at:<p,t>) hatrack:<p,t>)))
+%% VERIFY(23,16,0)
+this is X
+## (do:<m,a> goal:m)
+%% GOAL(23,16,0)
+
+WLH_Jelly0_6_5_Dirs_1
+{'numFollowers': 7, 'confidence': (5.285714285714286, 0.8806305718527109), 'directionRating': (5.142857142857143, 0.8329931278350429), 'valid': True, 'map': 'jelly', 'targetFound': (0.7142857142857143, 0.45175395145262565), 'efficiency': (0.7142857142857143, 0.45175395145262565), 'correct': True, 'implicit': 'partial'}
+move to the flowered carpet and turn left
+## (do_seq:<a+,a> (do_until:<a,<t,a>> (do:<m,a> travel:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (intersection:<<p,t>*1,<p,t>> (hall:<c,<p,t>> rose:c))))) (do_until:<a,<t,a>> (do:<m,a> turn:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (left:<<p,t>,<p,t>> at0:<p,t>)))))
+%% FORWARD(18,19,90)
+%% LEFT(19,19,90)
+%% NULL(19,19,0)
+move to the blue carpet and turn right
+## (do_seq:<a+,a> (do_until:<a,<t,a>> (do:<m,a> travel:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (intersection:<<p,t>*1,<p,t>> (hall:<c,<p,t>> blue:c))))) (do_until:<a,<t,a>> (do:<m,a> turn:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (right:<<p,t>,<p,t>> at0:<p,t>)))))
+%% FORWARD(19,19,0)
+%% RIGHT(19,18,0)
+%% NULL(19,18,90)
+move to the corner and turn left
+## (do_seq:<a+,a> (do_until:<a,<t,a>> (do:<m,a> travel:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> corner:<p,t>))) (do_until:<a,<t,a>> (do:<m,a> turn:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (left:<<p,t>,<p,t>> at0:<p,t>)))))
+%% FORWARD(19,18,90)
+%% LEFT(20,18,90)
+%% NULL(20,18,0)
+move to the easel and turn right
+## (do_seq:<a+,a> (do_until:<a,<t,a>> (do:<m,a> travel:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> easel:<p,t>))) (do_until:<a,<t,a>> (do:<m,a> turn:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (right:<<p,t>,<p,t>> at0:<p,t>)))))
+%% FORWARD(20,18,0)
+%% RIGHT(20,17,0)
+%% NULL(20,17,90)
+you should be facing wooden floor and butterflies on the walls
+## (verify:<t,a> (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> (front:<<p,t>,<p,t>> at:<p,t>) (hall:<c,<p,t>> wood:c) butterfly_w:<p,t>)))
+%% VERIFY(20,17,90)
+move between the butterfly pictures
+## (do_until:<a,<t,a>> (do:<m,a> travel:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (middle:<<p,t>,<p,t>> butterfly_w:<p,t>))))
+%% FORWARD(20,17,90)
+%% NULL(21,17,90)
+this is X
+## (do:<m,a> goal:m)
+%% GOAL(21,17,90)
+
+WLH_L0_6_1_Dirs_1
+{'numFollowers': 5, 'confidence': (5.0, 2.0), 'directionRating': (4.8, 1.9390719429665317), 'map': 'l', 'correct': True, 'targetFound': (0.8, 0.4), 'efficiency': (0.8, 0.4), 'valid': True, 'implicit': 'partial'}
+with your back to the easel and the chair to your right move one alley
+## (do_if:<a,<t,a>> (do_until:<a,<t,a>> (do:<m,a> travel:m) (steps:<n,t> 1:n)) (and:<t*,t> (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> (behind:<<p,t>,<p,t>> at:<p,t>) easel:<p,t>)) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> (right:<<p,t>,<p,t>> at:<p,t>) sofa:<p,t>))))
+%% FORWARD(22,23,90)
+%% NULL(23,23,90)
+turn left and move onto the brick floor
+## (do_seq:<a+,a> (do_until:<a,<t,a>> (do:<m,a> turn:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (left:<<p,t>,<p,t>> at0:<p,t>)))) (do_if:<a,<t,a>> (do:<m,a> travel:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (hall:<c,<p,t>> brick:c)))))
+%% LEFT(23,23,90)
+%% FORWARD(23,23,0)
+%% NULL(23,22,0)
+walk past the hatrack and the lamp to the wooden flooring
+## (do_until:<a,<t,a>> (do:<m,a> travel:m) (and:<t*,t> (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (past:<<p,t>,<p,t>> hatrack:<p,t>))) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (past:<<p,t>,<p,t>> lamp:<p,t>))) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (intersection:<<p,t>*1,<p,t>> (hall:<c,<p,t>> wood:c))))))
+%% FORWARD(23,22,0)
+%% FORWARD(23,21,0)
+%% FORWARD(23,20,0)
+%% FORWARD(23,19,0)
+%% FORWARD(23,18,0)
+%% NULL(23,17,0)
+turn left and move to the chair
+## (do_seq:<a+,a> (do_until:<a,<t,a>> (do:<m,a> turn:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (left:<<p,t>,<p,t>> at0:<p,t>)))) (do_until:<a,<t,a>> (do:<m,a> travel:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> sofa:<p,t>))))
+%% LEFT(23,17,0)
+%% FORWARD(23,17,270)
+%% NULL(22,17,270)
+this is X
+## (do:<m,a> goal:m)
+%% GOAL(22,17,270)
+
+WLH_L0_7_6_Dirs_1
+{'numFollowers': 6, 'confidence': (5.333333333333333, 0.7453559924999298), 'directionRating': (5.0, 0.5773502691896257), 'map': 'l', 'correct': True, 'targetFound': (1.0, 0.0), 'efficiency': (0.8666666666666667, 0.1885618083164127), 'valid': True, 'implicit': 'partial'}
+with your back to the wall move along the green octagon carpet two alleys to the grey stone carpet
+## (do_if:<a,<t,a>> (do_until:<a,<t,a>> (do_if:<a,<t,a>> (do:<m,a> travel:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (hall:<c,<p,t>> honeycomb:c)))) (and:<t*,t> (steps:<n,t> 2:n) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (intersection:<<p,t>*1,<p,t>> (hall:<c,<p,t>> stone:c)))))) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> (behind:<<p,t>,<p,t>> at:<p,t>) (definite:<<p,t>,<p,t>> wall:<p,t>))))
+%% FORWARD(21,21,180)
+%% FORWARD(21,22,180)
+%% NULL(21,23,180)
+turn left
+## (do_until:<a,<t,a>> (do:<m,a> turn:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (left:<<p,t>,<p,t>> at0:<p,t>))))
+%% LEFT(21,23,180)
+%% NULL(21,23,90)
+there should be an easel behind you
+## (verify:<t,a> (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> (behind:<<p,t>,<p,t>> at:<p,t>) easel:<p,t>)))
+%% VERIFY(21,23,90)
+move forward one alley
+## (do_until:<a,<t,a>> (do:<m,a> travel:m) (steps:<n,t> 1:n))
+%% FORWARD(21,23,90)
+%% NULL(22,23,90)
+the side alleys have grey floor and to your right is a sofa
+## (verify:<t,a> (and:<t*,t> (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> (side:<<p,t>,<p,t>> at:<p,t>) (hall:<c,<p,t>> cement:c))) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> (right:<<p,t>,<p,t>> at:<p,t>) sofa:<p,t>))))
+%% VERIFY(22,23,90)
+this is X
+## (do:<m,a> goal:m)
+%% GOAL(22,23,90)
+
+WLH_L0_7_2_Dirs_1
+{'numFollowers': 5, 'confidence': (5.0, 1.2649110640673518), 'directionRating': (5.2, 0.9797958971132712), 'map': 'l', 'correct': True, 'targetFound': (0.6, 0.48989794855663565), 'efficiency': (0.6, 0.48989794855663565), 'valid': True, 'implicit': 'partial'}
+with your back to the wall move forward to the second alley
+## (do_if:<a,<t,a>> (do_until:<a,<t,a>> (do:<m,a> travel:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (order:<<p,t>,<<e,n>,<n,<p,t>>>> intersection:<p,t> frontdist:<e,n> 2:n)))) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> (behind:<<p,t>,<p,t>> at:<p,t>) (definite:<<p,t>,<p,t>> wall:<p,t>))))
+%% FORWARD(21,21,180)
+%% FORWARD(21,22,180)
+%% NULL(21,23,180)
+the side alleys have stone flooring and there is an easel to your right
+## (verify:<t,a> (and:<t*,t> (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> (side:<<p,t>,<p,t>> at:<p,t>) (hall:<c,<p,t>> stone:c))) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> (right:<<p,t>,<p,t>> at:<p,t>) easel:<p,t>))))
+%% VERIFY(21,23,180)
+this is X
+## (do:<m,a> goal:m)
+%% GOAL(21,23,180)
+
+WLH_Grid0_3_1_Dirs_1
+{'numFollowers': 7, 'confidence': (5.857142857142857, 0.3499271061118826), 'directionRating': (5.714285714285714, 0.45175395145262554), 'map': 'grid', 'correct': True, 'targetFound': (1.0, 0.0), 'efficiency': (0.9285714285714286, 0.17496355305594133), 'valid': True, 'implicit': 'partial'}
+with your back to the sofa, move past the stool and chair to the flowered carpet
+## (do_if:<a,<t,a>> (do_until:<a,<t,a>> (do:<m,a> travel:m) (and:<t*,t> (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (past:<<p,t>,<p,t>> barstool:<p,t>))) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (past:<<p,t>,<p,t>> chair:<p,t>))) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (intersection:<<p,t>*1,<p,t>> (hall:<c,<p,t>> rose:c)))))) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> (behind:<<p,t>,<p,t>> at:<p,t>) sofa:<p,t>)))
+%% FORWARD(0,9,0)
+%% FORWARD(0,8,0)
+%% FORWARD(0,7,0)
+%% NULL(0,6,0)
+turn right
+## (do_until:<a,<t,a>> (do:<m,a> turn:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (right:<<p,t>,<p,t>> at0:<p,t>))))
+%% RIGHT(0,6,0)
+%% NULL(0,6,90)
+walk to the easel
+## (do_until:<a,<t,a>> (do:<m,a> travel:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> easel:<p,t>)))
+%% FORWARD(0,6,90)
+%% NULL(1,6,90)
+this is X
+## (do:<m,a> goal:m)
+%% GOAL(1,6,90)
+
+WLH_L0_1_5_Dirs_1
+{'numFollowers': 7, 'confidence': (5.428571428571429, 0.7284313590846836), 'directionRating': (5.0, 0.9258200997725514), 'map': 'l', 'correct': True, 'targetFound': (0.7142857142857143, 0.45175395145262565), 'efficiency': (0.5, 0.3779644730092272), 'valid': True, 'implicit': 'partial'}
+with your back to the wall turn left
+## (do_if:<a,<t,a>> (do_until:<a,<t,a>> (do:<m,a> turn:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (left:<<p,t>,<p,t>> at0:<p,t>)))) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> (behind:<<p,t>,<p,t>> at:<p,t>) (definite:<<p,t>,<p,t>> wall:<p,t>))))
+%% LEFT(22,17,180)
+%% NULL(22,17,90)
+move to the brick floor and turn right
+## (do_seq:<a+,a> (do_until:<a,<t,a>> (do:<m,a> travel:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (intersection:<<p,t>*1,<p,t>> (hall:<c,<p,t>> brick:c))))) (do_until:<a,<t,a>> (do:<m,a> turn:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (right:<<p,t>,<p,t>> at0:<p,t>)))))
+%% FORWARD(22,17,90)
+%% RIGHT(23,17,90)
+%% NULL(23,17,180)
+move forward one alley
+## (do_until:<a,<t,a>> (do:<m,a> travel:m) (steps:<n,t> 1:n))
+%% FORWARD(23,17,180)
+%% NULL(23,18,180)
+the alley to your left has grey floor and you see a lamp in front of you
+## (verify:<t,a> (and:<t*,t> (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> (left:<<p,t>,<p,t>> at:<p,t>) (hall:<c,<p,t>> cement:c))) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> (front:<<p,t>,<p,t>> at:<p,t>) lamp:<p,t>))))
+%% VERIFY(23,18,180)
+this is X
+## (do:<m,a> goal:m)
+%% GOAL(23,18,180)
+
+WLH_Grid0_7_5_Dirs_1
+{'numFollowers': 6, 'confidence': (5.0, 1.1547005383792515), 'directionRating': (4.0, 1.1547005383792515), 'valid': True, 'map': 'grid', 'targetFound': (0.5, 0.5), 'efficiency': (0.5, 0.5), 'correct': True, 'implicit': 'partial'}
+at Y face, from looking at the long alley turn left
+## (do_if:<a,<t,a>> (do_if:<a,<t,a>> (do:<m,a> turn:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (left:<<p,t>,<p,t>> at0:<p,t>)))) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (hall:<c,<p,t>> any:c))))
+%% LEFT(1,9,0)
+%% NULL(1,9,270)
+move to the blue carpet
+## (do_until:<a,<t,a>> (do:<m,a> travel:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (intersection:<<p,t>*1,<p,t>> (hall:<c,<p,t>> blue:c)))))
+%% FORWARD(1,9,270)
+%% NULL(0,9,270)
+turn left
+## (do_until:<a,<t,a>> (do:<m,a> turn:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (left:<<p,t>,<p,t>> at0:<p,t>))))
+%% LEFT(0,9,270)
+%% NULL(0,9,180)
+you should see a chair and then a hat rack
+## (verify:<t,a> (and:<t*,t> (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> (front:<<p,t>,<p,t>> at:<p,t>) sofa:<p,t>)) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> (front:<<p,t>,<p,t>> at:<p,t>) hatrack:<p,t>))))
+%% VERIFY(0,9,180)
+move to the hat rack
+## (do_until:<a,<t,a>> (do:<m,a> travel:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> hatrack:<p,t>)))
+%% FORWARD(0,9,180)
+%% FORWARD(0,10,180)
+%% NULL(0,11,180)
+turn left at the hat rack
+## (do_if:<a,<t,a>> (do_until:<a,<t,a>> (do:<m,a> turn:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (left:<<p,t>,<p,t>> at0:<p,t>)))) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> hatrack:<p,t>)))
+%% LEFT(0,11,180)
+%% NULL(0,11,90)
+move to the corner
+## (do_until:<a,<t,a>> (do:<m,a> travel:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> corner:<p,t>)))
+%% FORWARD(0,11,90)
+%% NULL(1,11,90)
+you should see gray floor to your right
+## (verify:<t,a> (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> (right:<<p,t>,<p,t>> at:<p,t>) (hall:<c,<p,t>> cement:c))))
+%% VERIFY(1,11,90)
+
+WLH_Grid0_6_3_Dirs_1
+{'numFollowers': 5, 'confidence': (3.6, 1.624807680927192), 'directionRating': (2.2, 1.1661903789690602), 'map': 'grid', 'correct': False, 'targetFound': (0.2, 0.4000000000000001), 'efficiency': (0.05, 0.10000000000000002), 'valid': False, 'implicit': 'partial'}
+with your back to the wall, turn right
+move to the blue carpet
+turn left
+move past the stool until you get to the intersection where gray floor is to your right
+there should be a sofa in front of you and a hat rack beyond that
+this is X
+
+WLH_Jelly0_1_6_Dirs_1
+{'numFollowers': 5, 'confidence': (5.8, 0.39999999999999997), 'directionRating': (5.2, 0.7483314773547882), 'map': 'jelly', 'correct': True, 'targetFound': (1.0, 0.0), 'efficiency': (1.0, 0.0), 'valid': True, 'implicit': 'partial'}
+with your back to the wall turn right and move into the corner
+## (do_seq:<a+,a> (do_if:<a,<t,a>> (do_until:<a,<t,a>> (do:<m,a> turn:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (right:<<p,t>,<p,t>> at0:<p,t>)))) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> (behind:<<p,t>,<p,t>> at:<p,t>) (definite:<<p,t>,<p,t>> wall:<p,t>)))) (do_until:<a,<t,a>> (do:<m,a> travel:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> corner:<p,t>))))
+%% RIGHT(19,16,0)
+%% FORWARD(19,16,90)
+%% NULL(20,16,90)
+turn right again and walk past the easel to the blue carpeted side alley
+## (do_seq:<a+,a> (do_until:<a,<t,a>> (do:<m,a> turn:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (right:<<p,t>,<p,t>> at0:<p,t>)))) (do_until:<a,<t,a>> (do:<m,a> travel:m) (and:<t*,t> (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (past:<<p,t>,<p,t>> easel:<p,t>))) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (intersection:<<p,t>*1,<p,t>> (hall:<c,<p,t>> blue:c)))))))
+%% RIGHT(20,16,90)
+%% FORWARD(20,16,180)
+%% FORWARD(20,17,180)
+%% NULL(20,18,180)
+turn right and move to the next side alley
+## (do_seq:<a+,a> (do_until:<a,<t,a>> (do:<m,a> turn:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (right:<<p,t>,<p,t>> at0:<p,t>)))) (do_until:<a,<t,a>> (do:<m,a> travel:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (order:<<p,t>,<<e,n>,<n,<p,t>>>> intersection:<p,t> frontdist:<e,n> 1:n)))))
+%% RIGHT(20,18,180)
+%% FORWARD(20,18,270)
+%% NULL(19,18,270)
+turning left you see flowered carpet
+## (do_until:<a,<t,a>> (do:<m,a> turn:m) (and:<t*,t> (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (left:<<p,t>,<p,t>> at0:<p,t>))) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> (front:<<p,t>,<p,t>> at:<p,t>) (hall:<c,<p,t>> rose:c)))))
+%% LEFT(19,18,270)
+%% NULL(19,18,180)
+move forward and turn right at the first alley
+## (do_seq:<a+,a> (do_until:<a,<t,a>> (do:<m,a> travel:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (order:<<p,t>,<<e,n>,<n,<p,t>>>> intersection:<p,t> frontdist:<e,n> 1:n)))) (do_until:<a,<t,a>> (do:<m,a> turn:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (right:<<p,t>,<p,t>> at0:<p,t>)))))
+%% FORWARD(19,18,180)
+%% RIGHT(19,19,180)
+%% NULL(19,19,270)
+move to the deadend
+## (do_until:<a,<t,a>> (do:<m,a> travel:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> deadend:<p,t>)))
+%% FORWARD(19,19,270)
+%% NULL(18,19,270)
+this is X
+## (do:<m,a> goal:m)
+%% GOAL(18,19,270)
+
+WLH_Jelly0_6_4_Dirs_1
+{'numFollowers': 0, 'confidence': (0.0, 0.0), 'directionRating': (0.0, 0.0), 'valid': True, 'map': 'jelly', 'targetFound': (0.0, 0.0), 'efficiency': (0.0, 0.0), 'correct': True, 'implicit': True}
+from Y walk forward and move out to the blue carpet
+## (do_seq:<a+,a> (do:<m,a> travel:m) (do_until:<a,<t,a>> (do:<m,a> travel:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (intersection:<<p,t>*1,<p,t>> (hall:<c,<p,t>> blue:c))))))
+%% FORWARD(18,19,90)
+%% LEFT[I](19,19,90)
+%% FORWARD(19,19,0)
+%% NULL(19,18,0)
+turn left
+## (do_until:<a,<t,a>> (do:<m,a> turn:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (left:<<p,t>,<p,t>> at0:<p,t>))))
+%% LEFT(19,18,0)
+%% NULL(19,18,270)
+walk until you are in the same square as the hatrack
+## (do_until:<a,<t,a>> (do:<m,a> travel:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> hatrack:<p,t>)))
+%% FORWARD(19,18,270)
+%% FORWARD(18,18,270)
+%% FORWARD(17,18,270)
+%% FORWARD(16,18,270)
+%% NULL(15,18,270)
+turn left
+## (do_until:<a,<t,a>> (do:<m,a> turn:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (left:<<p,t>,<p,t>> at0:<p,t>))))
+%% LEFT(15,18,270)
+%% NULL(15,18,180)
+walk to the wall
+## (do_until:<a,<t,a>> (do:<m,a> travel:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (definite:<<p,t>,<p,t>> wall:<p,t>))))
+%% FORWARD(15,18,180)
+%% FORWARD(15,19,180)
+%% NULL(15,20,180)
+this is p-X
+## (do:<m,a> goal:m)
+%% GOAL(15,20,180)
+
+WLH_L0_2_3_Dirs_1
+{'numFollowers': 4, 'confidence': (4.0, 2.1213203435596424), 'directionRating': (4.25, 1.479019945774904), 'map': 'l', 'correct': True, 'targetFound': (0.75, 0.4330127018922193), 'efficiency': (0.75, 0.4330127018922193), 'valid': True, 'implicit': 'partial'}
+with your back to the easel turn right
+## (do_if:<a,<t,a>> (do_until:<a,<t,a>> (do:<m,a> turn:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (right:<<p,t>,<p,t>> at0:<p,t>)))) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> (behind:<<p,t>,<p,t>> at:<p,t>) easel:<p,t>)))
+%% RIGHT(21,23,90)
+%% NULL(21,23,180)
+walk to the corner of the green octagon carpet
+## (do_until:<a,<t,a>> (do:<m,a> travel:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (corner:<<p,t>*1,<p,t>> (hall:<c,<p,t>> honeycomb:c)))))
+%% FORWARD(21,23,180)
+%% NULL(21,24,180)
+turn and move past the chair to the stool
+## (do_seq:<a+,a> (do_until:<a,<t,a>> (do:<m,a> turn:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> (front:<<p,t>,<p,t>> at:<p,t>) chair:<p,t>))) (do_until:<a,<t,a>> (do:<m,a> travel:m) (and:<t*,t> (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (past:<<p,t>,<p,t>> chair:<p,t>))) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> barstool:<p,t>)))))
+%% RIGHT(21,24,180)
+%% FORWARD(21,24,270)
+%% FORWARD(20,24,270)
+%% NULL(19,24,270)
+turn right and move to the dead end
+## (do_seq:<a+,a> (do_until:<a,<t,a>> (do:<m,a> turn:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (right:<<p,t>,<p,t>> at0:<p,t>)))) (do_until:<a,<t,a>> (do:<m,a> travel:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> deadend:<p,t>))))
+%% RIGHT(19,24,270)
+%% FORWARD(19,24,0)
+%% NULL(19,23,0)
+this is X
+## (do:<m,a> goal:m)
+%% GOAL(19,23,0)
+
+WLH_L0_4_1_Dirs_1
+{'numFollowers': 6, 'confidence': (4.666666666666667, 0.9428090415820634), 'directionRating': (4.5, 0.9574271077563381), 'map': 'l', 'correct': True, 'targetFound': (1.0, 0.0), 'efficiency': (0.9166666666666666, 0.18633899812498247), 'valid': True, 'implicit': 'partial'}
+with your back to the wall move to the hatrack
+## (do_if:<a,<t,a>> (do_until:<a,<t,a>> (do:<m,a> travel:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> hatrack:<p,t>))) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> (behind:<<p,t>,<p,t>> at:<p,t>) (definite:<<p,t>,<p,t>> wall:<p,t>))))
+%% FORWARD(24,21,270)
+%% NULL(23,21,270)
+turn right and move along the brick floor two alleys past the lamp
+## (do_seq:<a+,a> (do_until:<a,<t,a>> (do:<m,a> turn:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (right:<<p,t>,<p,t>> at0:<p,t>)))) (do_until:<a,<t,a>> (do_if:<a,<t,a>> (do:<m,a> travel:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (hall:<c,<p,t>> brick:c)))) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> (behind:<<p,t>,<p,t>> at:<p,t>) (distance:<<p,t>,<n,<p,t>>> lamp:<p,t> 2:n)))))
+%% RIGHT(23,21,270)
+%% FORWARD(23,21,0)
+%% FORWARD(23,20,0)
+%% FORWARD(23,19,0)
+%% FORWARD(23,18,0)
+%% NULL(23,17,0)
+turn left
+## (do_until:<a,<t,a>> (do:<m,a> turn:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (left:<<p,t>,<p,t>> at0:<p,t>))))
+%% LEFT(23,17,0)
+%% NULL(23,17,270)
+you should be facing a chair and an alley with wooden flooring
+## (verify:<t,a> (and:<t*,t> (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> (front:<<p,t>,<p,t>> at:<p,t>) sofa:<p,t>)) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> (front:<<p,t>,<p,t>> at:<p,t>) (hall:<c,<p,t>> wood:c)))))
+%% VERIFY(23,17,270)
+move to the chair
+## (do_until:<a,<t,a>> (do:<m,a> travel:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> sofa:<p,t>)))
+%% FORWARD(23,17,270)
+%% NULL(22,17,270)
+this is X
+## (do:<m,a> goal:m)
+%% GOAL(22,17,270)
+
+WLH_Jelly0_2_1_Dirs_2
+{'numFollowers': 6, 'confidence': (4.5, 2.140872096444188), 'directionRating': (3.3333333333333335, 1.3743685418725538), 'valid': True, 'map': 'jelly', 'targetFound': (0.6666666666666666, 0.4714045207910317), 'efficiency': (0.5625, 0.4550068680800324), 'correct': True, 'implicit': True}
+face and move to the lamp
+## (do_seq:<a+,a> (do_until:<a,<t,a>> (do:<m,a> turn:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> (front:<<p,t>,<p,t>> at:<p,t>) lamp:<p,t>))) (do_until:<a,<t,a>> (do:<m,a> travel:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> lamp:<p,t>))))
+%% LEFT(23,16,90)
+%% LEFT(23,16,0)
+%% FORWARD(23,16,270)
+%% NULL(22,16,270)
+turn left and move along the wooden flooring to the easel
+## (do_seq:<a+,a> (do_until:<a,<t,a>> (do:<m,a> turn:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (left:<<p,t>,<p,t>> at0:<p,t>)))) (do_until:<a,<t,a>> (do_if:<a,<t,a>> (do:<m,a> travel:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (hall:<c,<p,t>> wood:c)))) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> easel:<p,t>))))
+%% LEFT(22,16,270)
+%% FORWARD[I](22,16,180)
+%% RIGHT[I](22,17,180)
+%% FORWARD(22,17,270)
+%% FORWARD(21,17,270)
+%% NULL(20,17,270)
+turn right
+## (do_until:<a,<t,a>> (do:<m,a> turn:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (right:<<p,t>,<p,t>> at0:<p,t>))))
+%% RIGHT(20,17,270)
+%% NULL(20,17,0)
+the side alley to the left has stone flooring
+## (verify:<t,a> (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> (left:<<p,t>,<p,t>> (front:<<p,t>,<p,t>> at:<p,t>)) (hall:<c,<p,t>> brick:c))))
+%% VERIFY(20,17,0)
+move to it
+## (do_until:<a,<t,a>> (do:<m,a> travel:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (intersection:<<p,t>*1,<p,t>> (hall:<c,<p,t>> brick:c)))))
+%% FORWARD(20,17,0)
+%% NULL(20,16,0)
+move one block down this alley
+## (do_until:<a,<t,a>> (do_if:<a,<t,a>> (do:<m,a> travel:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (hall:<c,<p,t>> brick:c)))) (steps:<n,t> 1:n))
+%% LEFT[I](20,16,0)
+%% FORWARD(20,16,270)
+%% NULL(19,16,270)
+you should see a sofa chair in front of you and a wooden chair to your right
+## (verify:<t,a> (and:<t*,t> (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> (front:<<p,t>,<p,t>> at:<p,t>) sofa:<p,t>)) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> (right:<<p,t>,<p,t>> at:<p,t>) chair:<p,t>))))
+%% VERIFY(19,16,270)
+this is X
+## (do:<m,a> goal:m)
+%% GOAL(19,16,270)
+
+WLH_Jelly0_7_6_Dirs_1
+{'numFollowers': 4, 'confidence': (6.0, 0.0), 'directionRating': (5.25, 0.82915619758885), 'valid': True, 'map': 'jelly', 'targetFound': (1.0, 0.0), 'efficiency': (1.0, 0.0), 'correct': True, 'implicit': True}
+with your back to the wall move forward to the chair and turn left
+## (do_seq:<a+,a> (do_if:<a,<t,a>> (do_until:<a,<t,a>> (do:<m,a> travel:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> chair:<p,t>))) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> (behind:<<p,t>,<p,t>> at:<p,t>) (definite:<<p,t>,<p,t>> wall:<p,t>)))) (do_until:<a,<t,a>> (do:<m,a> turn:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (left:<<p,t>,<p,t>> at0:<p,t>)))))
+%% FORWARD(17,17,180)
+%% LEFT(17,18,180)
+%% NULL(17,18,90)
+move to the right side alley with flowered carpet
+## (do_until:<a,<t,a>> (do:<m,a> travel:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> (right:<<p,t>,<p,t>> at:<p,t>) (hall:<c,<p,t>> rose:c))))
+%% FORWARD(17,18,90)
+%% FORWARD(18,18,90)
+%% NULL(19,18,90)
+move down this and stop at the first alley
+## (do_until:<a,<t,a>> (do_if:<a,<t,a>> (do:<m,a> travel:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (hall:<c,<p,t>> rose:c)))) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (order:<<p,t>,<<e,n>,<n,<p,t>>>> intersection:<p,t> frontdist:<e,n> 1:n))))
+%% RIGHT[I](19,18,90)
+%% FORWARD(19,18,180)
+%% NULL(19,19,180)
+turn right
+## (do_until:<a,<t,a>> (do:<m,a> turn:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (right:<<p,t>,<p,t>> at0:<p,t>))))
+%% RIGHT(19,19,180)
+%% NULL(19,19,270)
+move into the deadend
+## (do_until:<a,<t,a>> (do:<m,a> travel:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> deadend:<p,t>)))
+%% FORWARD(19,19,270)
+%% NULL(18,19,270)
+this is X
+## (do:<m,a> goal:m)
+%% GOAL(18,19,270)
+
+WLH_L0_1_2_Dirs_1
+{'numFollowers': 4, 'confidence': (6.0, 0.0), 'directionRating': (5.5, 0.5), 'valid': True, 'map': 'l', 'targetFound': (0.75, 0.4330127018922193), 'efficiency': (0.7045455, 0.4134864988252337), 'correct': True, 'implicit': True}
+with your back to the wall turn left
+## (do_if:<a,<t,a>> (do_until:<a,<t,a>> (do:<m,a> turn:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (left:<<p,t>,<p,t>> at0:<p,t>)))) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> (behind:<<p,t>,<p,t>> at:<p,t>) (definite:<<p,t>,<p,t>> wall:<p,t>))))
+%% LEFT(22,17,180)
+%% NULL(22,17,90)
+move to the brick alley and turn right
+## (do_seq:<a+,a> (do_until:<a,<t,a>> (do:<m,a> travel:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (intersection:<<p,t>*1,<p,t>> (hall:<c,<p,t>> brick:c))))) (do_until:<a,<t,a>> (do:<m,a> turn:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (right:<<p,t>,<p,t>> at0:<p,t>)))))
+%% FORWARD(22,17,90)
+%% RIGHT(23,17,90)
+%% NULL(23,17,180)
+move forward past the lamp and hatrack
+## (do_until:<a,<t,a>> (do:<m,a> travel:m) (and:<t*,t> (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (past:<<p,t>,<p,t>> hatrack:<p,t>))) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (past:<<p,t>,<p,t>> lamp:<p,t>)))))
+%% FORWARD(23,17,180)
+%% FORWARD(23,18,180)
+%% FORWARD(23,19,180)
+%% FORWARD(23,20,180)
+%% FORWARD(23,21,180)
+%% NULL(23,22,180)
+turn right at the stone floor
+## (do_if:<a,<t,a>> (do_until:<a,<t,a>> (do:<m,a> turn:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (right:<<p,t>,<p,t>> at0:<p,t>)))) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (intersection:<<p,t>*1,<p,t>> (hall:<c,<p,t>> stone:c)))))
+%% FORWARD[I](23,22,180)
+%% RIGHT(23,23,180)
+%% NULL(23,23,270)
+move forward two alleys
+## (do_until:<a,<t,a>> (do:<m,a> travel:m) (steps:<n,t> 2:n))
+%% FORWARD(23,23,270)
+%% FORWARD(22,23,270)
+%% NULL(21,23,270)
+to your left and right is green octagon flooring and an easel is in front of you
+## (verify:<t,a> (and:<t*,t> (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> (side:<<p,t>,<p,t>> at:<p,t>) (hall:<c,<p,t>> honeycomb:c))) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> (front:<<p,t>,<p,t>> at:<p,t>) easel:<p,t>))))
+%% VERIFY(21,23,270)
+this is X
+## (do:<m,a> goal:m)
+%% GOAL(21,23,270)
+
+WLH_L0_2_6_Dirs_1
+{'numFollowers': 7, 'confidence': (4.428571428571429, 1.3997084244475304), 'directionRating': (4.0, 1.3093073414159542), 'map': 'l', 'correct': True, 'targetFound': (0.8571428571428571, 0.3499271061118826), 'efficiency': (0.5061224285714286, 0.432152210871473), 'valid': True, 'implicit': 'partial'}
+with your back to the easel walk along the stone flooring to the next alley
+## (do_if:<a,<t,a>> (do_until:<a,<t,a>> (do_if:<a,<t,a>> (do:<m,a> travel:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (hall:<c,<p,t>> stone:c)))) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (order:<<p,t>,<<e,n>,<n,<p,t>>>> intersection:<p,t> frontdist:<e,n> 1:n)))) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> (behind:<<p,t>,<p,t>> at:<p,t>) easel:<p,t>)))
+%% FORWARD(21,23,90)
+%% NULL(22,23,90)
+the alley to your left has grey floor
+## (verify:<t,a> (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> (left:<<p,t>,<p,t>> at:<p,t>) (hall:<c,<p,t>> cement:c))))
+%% VERIFY(22,23,90)
+this is X
+## (do:<m,a> goal:m)
+%% GOAL(22,23,90)
+
+WLH_L0_4_5_Dirs_1
+{'numFollowers': 4, 'confidence': (4.25, 1.299038105676658), 'directionRating': (3.0, 1.5811388300841898), 'map': 'l', 'correct': False, 'targetFound': (0.0, 0.0), 'efficiency': (0.0, 0.0), 'valid': False, 'implicit': 'partial'}
+with your back to the wall turn left
+move down two blocks til you get to the alley with flowered carpet
+turn right
+move forward three or four blocks til you get to the green octagon carpet
+turn left and move forward one block
+this is X
+
+WLH_L0_1_6_Dirs_1
+{'numFollowers': 4, 'confidence': (2.25, 0.82915619758885), 'directionRating': (3.5, 1.118033988749895), 'map': 'l', 'correct': False, 'targetFound': (0.0, 0.0), 'efficiency': (0.0, 0.0), 'valid': True, 'implicit': 'partial'}
+with your back to the wall turn left and move one block
+## (do_seq:<a+,a> (do_if:<a,<t,a>> (do_until:<a,<t,a>> (do:<m,a> turn:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (left:<<p,t>,<p,t>> at0:<p,t>)))) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> (behind:<<p,t>,<p,t>> at:<p,t>) (definite:<<p,t>,<p,t>> wall:<p,t>)))) (do_until:<a,<t,a>> (do:<m,a> travel:m) (steps:<n,t> 1:n)))
+%% LEFT(22,17,180)
+%% FORWARD(22,17,90)
+%% NULL(23,17,90)
+turn right
+## (do_until:<a,<t,a>> (do:<m,a> turn:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (right:<<p,t>,<p,t>> at0:<p,t>))))
+%% RIGHT(23,17,90)
+%% NULL(23,17,180)
+
+WLH_L0_5_7_Dirs_1
+{'numFollowers': 4, 'confidence': (5.75, 0.4330127018922193), 'directionRating': (5.5, 0.8660254037844386), 'map': 'l', 'correct': True, 'targetFound': (1.0, 0.0), 'efficiency': (1.0, 0.0), 'valid': True, 'implicit': 'partial'}
+with your back to the wall turn right
+## (do_if:<a,<t,a>> (do_until:<a,<t,a>> (do:<m,a> turn:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (right:<<p,t>,<p,t>> at0:<p,t>)))) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> (behind:<<p,t>,<p,t>> at:<p,t>) (definite:<<p,t>,<p,t>> wall:<p,t>))))
+%% RIGHT(23,18,90)
+%% NULL(23,18,180)
+move along the brick floor past the lamp to the hatrack
+## (do_until:<a,<t,a>> (do_if:<a,<t,a>> (do:<m,a> travel:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (hall:<c,<p,t>> brick:c)))) (and:<t*,t> (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (past:<<p,t>,<p,t>> lamp:<p,t>))) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> hatrack:<p,t>))))
+%% FORWARD(23,18,180)
+%% FORWARD(23,19,180)
+%% FORWARD(23,20,180)
+%% NULL(23,21,180)
+at the hatrack turn right
+## (do_if:<a,<t,a>> (do_until:<a,<t,a>> (do:<m,a> turn:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (right:<<p,t>,<p,t>> at0:<p,t>)))) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> hatrack:<p,t>)))
+%% RIGHT(23,21,180)
+%% NULL(23,21,270)
+move along the flowered carpet two blocks
+## (do_until:<a,<t,a>> (do_if:<a,<t,a>> (do:<m,a> travel:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (hall:<c,<p,t>> rose:c)))) (steps:<n,t> 2:n))
+%% FORWARD(23,21,270)
+%% FORWARD(22,21,270)
+%% NULL(21,21,270)
+the alley to your left should have green octagon carpet
+## (verify:<t,a> (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> (left:<<p,t>,<p,t>> at:<p,t>) (hall:<c,<p,t>> honeycomb:c))))
+%% VERIFY(21,21,270)
+this is X
+## (do:<m,a> goal:m)
+%% GOAL(21,21,270)
+
+WLH_Grid0_2_6_Dirs_1
+{'numFollowers': 5, 'confidence': (4.8, 1.6), 'directionRating': (4.2, 0.4), 'map': 'grid', 'correct': False, 'targetFound': (0.8, 0.4), 'efficiency': (0.6666666, 0.4216370740604294), 'valid': False, 'implicit': 'partial'}
+with your back to the wall move forward along the octagon carpet one alley
+turn left
+you should be facing wood flooring
+move one alley
+to your left is gray floor
+
+WLH_Jelly0_5_4_Dirs_1
+{'numFollowers': 5, 'confidence': (4.2, 1.7204650534085255), 'directionRating': (3.2, 1.6), 'valid': True, 'map': 'jelly', 'targetFound': (0.6, 0.48989794855663565), 'efficiency': (0.47692320000000005, 0.40529052301695884), 'correct': True, 'implicit': True}
+face and move to the easel
+## (do_seq:<a+,a> (do_until:<a,<t,a>> (do:<m,a> turn:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> (front:<<p,t>,<p,t>> at:<p,t>) easel:<p,t>))) (do_until:<a,<t,a>> (do:<m,a> travel:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> easel:<p,t>))))
+%% LEFT(21,17,90)
+%% LEFT(21,17,0)
+%% FORWARD(21,17,270)
+%% NULL(20,17,270)
+turn left
+## (do_until:<a,<t,a>> (do:<m,a> turn:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (left:<<p,t>,<p,t>> at0:<p,t>))))
+%% LEFT(20,17,270)
+%% NULL(20,17,180)
+the side alley to your right should be blue, if not turn around
+## (verify:<t,a> (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> (right:<<p,t>,<p,t>> at:<p,t>) (hall:<c,<p,t>> blue:c))))
+%% FORWARD[I](20,17,180)
+%% VERIFY(20,18,180)
+move along the blue floored alley past the chair to the hatrack
+## (do_until:<a,<t,a>> (do_if:<a,<t,a>> (do:<m,a> travel:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (hall:<c,<p,t>> blue:c)))) (and:<t*,t> (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (past:<<p,t>,<p,t>> chair:<p,t>))) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> hatrack:<p,t>))))
+%% RIGHT[I](20,18,180)
+%% FORWARD(20,18,270)
+%% FORWARD(19,18,270)
+%% FORWARD(18,18,270)
+%% FORWARD(17,18,270)
+%% FORWARD(16,18,270)
+%% NULL(15,18,270)
+turn left
+## (do_until:<a,<t,a>> (do:<m,a> turn:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (left:<<p,t>,<p,t>> at0:<p,t>))))
+%% LEFT(15,18,270)
+%% NULL(15,18,180)
+pX is at the end of the alley with the green octagon floor
+## (do_if:<a,<t,a>> (do:<m,a> goal:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (end:<<p,t>,<p,t>> (hall:<c,<p,t>> honeycomb:c)))))
+%% FORWARD[I](15,18,180)
+%% FORWARD[I](15,19,180)
+%% GOAL(15,20,180)
+
+WLH_Grid0_3_5_Dirs_1
+{'numFollowers': 4, 'confidence': (6.0, 0.0), 'directionRating': (5.75, 0.4330127018922193), 'map': 'grid', 'correct': True, 'targetFound': (1.0, 0.0), 'efficiency': (1.0, 0.0), 'valid': True, 'implicit': 'partial'}
+with your back to the wall turn right
+## (do_if:<a,<t,a>> (do_until:<a,<t,a>> (do:<m,a> turn:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (right:<<p,t>,<p,t>> at0:<p,t>)))) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> (behind:<<p,t>,<p,t>> at:<p,t>) (definite:<<p,t>,<p,t>> wall:<p,t>))))
+%% RIGHT(0,9,90)
+%% NULL(0,9,180)
+you see a sofa and then a hat rack
+## (verify:<t,a> (and:<t*,t> (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> (front:<<p,t>,<p,t>> at:<p,t>) sofa:<p,t>)) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> (front:<<p,t>,<p,t>> at:<p,t>) hatrack:<p,t>))))
+%% VERIFY(0,9,180)
+move to the hat rack and turn left
+## (do_seq:<a+,a> (do_until:<a,<t,a>> (do:<m,a> travel:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> hatrack:<p,t>))) (do_until:<a,<t,a>> (do:<m,a> turn:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (left:<<p,t>,<p,t>> at0:<p,t>)))))
+%% FORWARD(0,9,180)
+%% FORWARD(0,10,180)
+%% LEFT(0,11,180)
+%% NULL(0,11,90)
+move to the corner you see in front of you
+## (do_until:<a,<t,a>> (do:<m,a> travel:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> corner:<p,t>)))
+%% FORWARD(0,11,90)
+%% NULL(1,11,90)
+
+WLH_L0_7_1_Dirs_1
+{'numFollowers': 7, 'confidence': (5.428571428571429, 1.0497813183356477), 'directionRating': (4.571428571428571, 0.9035079029052513), 'map': 'l', 'correct': True, 'targetFound': (0.42857142857142855, 0.49487165930539345), 'efficiency': (0.3968254285714286, 0.4633181060810495), 'valid': True, 'implicit': 'partial'}
+with your back to the wall turn left
+## (do_if:<a,<t,a>> (do_until:<a,<t,a>> (do:<m,a> turn:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (left:<<p,t>,<p,t>> at0:<p,t>)))) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> (behind:<<p,t>,<p,t>> at:<p,t>) (definite:<<p,t>,<p,t>> wall:<p,t>))))
+%% LEFT(21,21,180)
+%% NULL(21,21,90)
+walk along the flowers to the hatrack
+## (do_until:<a,<t,a>> (do_if:<a,<t,a>> (do:<m,a> travel:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (hall:<c,<p,t>> rose:c)))) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> hatrack:<p,t>)))
+%% FORWARD(21,21,90)
+%% FORWARD(22,21,90)
+%% NULL(23,21,90)
+turn left
+## (do_until:<a,<t,a>> (do:<m,a> turn:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (left:<<p,t>,<p,t>> at0:<p,t>))))
+%% LEFT(23,21,90)
+%% NULL(23,21,0)
+walk along the brick two alleys past the lamp
+## (do_until:<a,<t,a>> (do_if:<a,<t,a>> (do:<m,a> travel:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (hall:<c,<p,t>> brick:c)))) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> (behind:<<p,t>,<p,t>> at:<p,t>) (distance:<<p,t>,<n,<p,t>>> lamp:<p,t> 2:n))))
+%% FORWARD(23,21,0)
+%% FORWARD(23,20,0)
+%% FORWARD(23,19,0)
+%% FORWARD(23,18,0)
+%% NULL(23,17,0)
+turn left
+## (do_until:<a,<t,a>> (do:<m,a> turn:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (left:<<p,t>,<p,t>> at0:<p,t>))))
+%% LEFT(23,17,0)
+%% NULL(23,17,270)
+move along the wooden floor to the chair
+## (do_until:<a,<t,a>> (do_if:<a,<t,a>> (do:<m,a> travel:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (hall:<c,<p,t>> wood:c)))) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> sofa:<p,t>)))
+%% FORWARD(23,17,270)
+%% NULL(22,17,270)
+in the next block is a hatrack
+## (verify:<t,a> (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> (front:<<p,t>,<p,t>> at:<p,t>) (distance:<<p,t>,<n,<p,t>>> hatrack:<p,t> 1:n))))
+%% VERIFY(22,17,270)
+this is X
+## (do:<m,a> goal:m)
+%% GOAL(22,17,270)
+
+WLH_Jelly0_6_2_Dirs_2
+{'numFollowers': 7, 'confidence': (6.0, 0.0), 'directionRating': (6.0, 0.0), 'valid': True, 'map': 'jelly', 'targetFound': (1.0, 0.0), 'efficiency': (1.0, 0.0), 'correct': True, 'implicit': True}
+move onto the flowered carpet and turn left
+## (do_seq:<a+,a> (do_until:<a,<t,a>> (do:<m,a> travel:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (intersection:<<p,t>*1,<p,t>> (hall:<c,<p,t>> rose:c))))) (do_until:<a,<t,a>> (do:<m,a> turn:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (left:<<p,t>,<p,t>> at0:<p,t>)))))
+%% FORWARD(18,19,90)
+%% LEFT(19,19,90)
+%% NULL(19,19,0)
+move to the blue carpet and turn right
+## (do_seq:<a+,a> (do_until:<a,<t,a>> (do:<m,a> travel:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (intersection:<<p,t>*1,<p,t>> (hall:<c,<p,t>> blue:c))))) (do_until:<a,<t,a>> (do:<m,a> turn:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (right:<<p,t>,<p,t>> at0:<p,t>)))))
+%% FORWARD(19,19,0)
+%% RIGHT(19,18,0)
+%% NULL(19,18,90)
+move to the corner and turn left
+## (do_seq:<a+,a> (do_until:<a,<t,a>> (do:<m,a> travel:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> corner:<p,t>))) (do_until:<a,<t,a>> (do:<m,a> turn:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (left:<<p,t>,<p,t>> at0:<p,t>)))))
+%% FORWARD(19,18,90)
+%% LEFT(20,18,90)
+%% NULL(20,18,0)
+move to the easel and turn right
+## (do_seq:<a+,a> (do_until:<a,<t,a>> (do:<m,a> travel:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> easel:<p,t>))) (do_until:<a,<t,a>> (do:<m,a> turn:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (right:<<p,t>,<p,t>> at0:<p,t>)))))
+%% FORWARD(20,18,0)
+%% RIGHT(20,17,0)
+%% NULL(20,17,90)
+move along the wooden flooring and turn left
+## (do_seq:<a+,a> (do_if:<a,<t,a>> (do:<m,a> travel:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (hall:<c,<p,t>> wood:c)))) (do_until:<a,<t,a>> (do:<m,a> turn:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (left:<<p,t>,<p,t>> at0:<p,t>)))))
+%% FORWARD(20,17,90)
+%% FORWARD[I](21,17,90)
+%% LEFT(22,17,90)
+%% NULL(22,17,0)
+move to the lamp and turn right
+## (do_seq:<a+,a> (do_until:<a,<t,a>> (do:<m,a> travel:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> lamp:<p,t>))) (do_until:<a,<t,a>> (do:<m,a> turn:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (right:<<p,t>,<p,t>> at0:<p,t>)))))
+%% FORWARD(22,17,0)
+%% RIGHT(22,16,0)
+%% NULL(22,16,90)
+move to the corner
+## (do_until:<a,<t,a>> (do:<m,a> travel:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> corner:<p,t>)))
+%% FORWARD(22,16,90)
+%% NULL(23,16,90)
+this is X
+## (do:<m,a> goal:m)
+%% GOAL(23,16,90)
+turning left you see a hatrack
+## (verify:<t,a> (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> (left:<<p,t>,<p,t>> at:<p,t>) hatrack:<p,t>)))
+%% VERIFY(23,16,90)
+
+WLH_Grid0_3_4_Dirs_1
+{'numFollowers': 5, 'confidence': (5.4, 0.4898979485566356), 'directionRating': (4.6, 0.48989794855663565), 'valid': True, 'map': 'grid', 'targetFound': (0.8, 0.4), 'efficiency': (0.8, 0.4), 'correct': True, 'implicit': True}
+with your back to the wall turn left
+## (do_if:<a,<t,a>> (do_until:<a,<t,a>> (do:<m,a> turn:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (left:<<p,t>,<p,t>> at0:<p,t>)))) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> (behind:<<p,t>,<p,t>> at:<p,t>) (definite:<<p,t>,<p,t>> wall:<p,t>))))
+%% LEFT(0,9,90)
+%% NULL(0,9,0)
+walk down the blue carpet, past a stool and a chair to the end
+## (do_until:<a,<t,a>> (do_if:<a,<t,a>> (do:<m,a> travel:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (hall:<c,<p,t>> blue:c)))) (and:<t*,t> (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (past:<<p,t>,<p,t>> barstool:<p,t>))) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (past:<<p,t>,<p,t>> chair:<p,t>))) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (end:<<p,t>,<p,t>> (hall:<c,<p,t>> any:c))))))
+%% FORWARD(0,9,0)
+%% FORWARD(0,8,0)
+%% FORWARD(0,7,0)
+%% FORWARD(0,6,0)
+%% NULL(0,5,0)
+to your right should be grass
+## (verify:<t,a> (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> (right:<<p,t>,<p,t>> at:<p,t>) (hall:<c,<p,t>> grass:c))))
+%% VERIFY(0,5,0)
+walk down the grass
+## (do_if:<a,<t,a>> (do:<m,a> travel:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (hall:<c,<p,t>> grass:c))))
+%% RIGHT[I](0,5,0)
+%% FORWARD(0,5,90)
+%% NULL(1,5,90)
+at the end of the grass there should be green octagon carpet to your right
+## (verify:<t,a> (and:<t*,t> (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (end:<<p,t>,<p,t>> (hall:<c,<p,t>> grass:c)))) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> (right:<<p,t>,<p,t>> at:<p,t>) (hall:<c,<p,t>> honeycomb:c)))))
+%% FORWARD[I](1,5,90)
+%% FORWARD[I](2,5,90)
+%% VERIFY(3,5,90)
+
+WLH_Grid0_6_2_Dirs_1
+{'numFollowers': 5, 'confidence': (3.2, 1.8330302779823358), 'directionRating': (2.6, 1.019803902718557), 'map': 'grid', 'correct': False, 'targetFound': (0.0, 0.0), 'efficiency': (0.0, 0.0), 'valid': False, 'implicit': 'partial'}
+with your back to the wall at Y turn left
+walk to the second alley
+turn right
+you should see an easel on dark gray carpet
+walk to it
+the alleys on either side should be red brick
+this is p-X
+
+WLH_Jelly0_7_4_Dirs_1
+{'numFollowers': 0, 'confidence': (0.0, 0.0), 'directionRating': (0.0, 0.0), 'valid': True, 'map': 'jelly', 'targetFound': (0.0, 0.0), 'efficiency': (0.0, 0.0), 'correct': True, 'implicit': True}
+with your back to the wall, turn right
+## (do_if:<a,<t,a>> (do_until:<a,<t,a>> (do:<m,a> turn:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (right:<<p,t>,<p,t>> at0:<p,t>)))) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> (behind:<<p,t>,<p,t>> at:<p,t>) (definite:<<p,t>,<p,t>> wall:<p,t>))))
+%% RIGHT(17,17,180)
+%% NULL(17,17,270)
+you see green carpet w/ octagons
+## (verify:<t,a> (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> (front:<<p,t>,<p,t>> at:<p,t>) (intersection:<<p,t>*1,<p,t>> (hall:<c,<p,t>> honeycomb:c)))))
+%% VERIFY(17,17,270)
+turn onto this carpet and move forward as far as you can
+## (do_seq:<a+,a> (do_until:<a,<t,a>> (do:<m,a> turn:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (hall:<c,<p,t>> honeycomb:c)))) (do_until:<a,<t,a>> (do:<m,a> travel:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (end:<<p,t>,<p,t>> (hall:<c,<p,t>> any:c))))))
+%% FORWARD[I](17,17,270)
+%% FORWARD[I](16,17,270)
+%% LEFT(15,17,270)
+%% FORWARD(15,17,180)
+%% FORWARD(15,18,180)
+%% FORWARD(15,19,180)
+%% NULL(15,20,180)
+this is p-X
+## (do:<m,a> goal:m)
+%% GOAL(15,20,180)
+
+WLH_L0_3_4_Dirs_1
+{'numFollowers': 4, 'confidence': (6.0, 0.0), 'directionRating': (5.25, 1.299038105676658), 'valid': True, 'map': 'l', 'targetFound': (1.0, 0.0), 'efficiency': (1.0, 0.0), 'correct': True, 'implicit': 'partial'}
+move to the stool
+## (do_until:<a,<t,a>> (do:<m,a> travel:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> barstool:<p,t>)))
+%% FORWARD(19,23,180)
+%% NULL(19,24,180)
+turn and move past the chair to the octagon carpet
+## (do_seq:<a+,a> (do_until:<a,<t,a>> (do:<m,a> turn:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> (front:<<p,t>,<p,t>> at:<p,t>) chair:<p,t>))) (do_until:<a,<t,a>> (do:<m,a> travel:m) (and:<t*,t> (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (past:<<p,t>,<p,t>> chair:<p,t>))) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (intersection:<<p,t>*1,<p,t>> (hall:<c,<p,t>> honeycomb:c)))))))
+%% LEFT(19,24,180)
+%% FORWARD(19,24,90)
+%% FORWARD(20,24,90)
+%% NULL(21,24,90)
+turn and move to the end of the octagon carpet
+## (do_seq:<a+,a> (do_until:<a,<t,a>> (do:<m,a> turn:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (hall:<c,<p,t>> honeycomb:c)))) (do_until:<a,<t,a>> (do:<m,a> travel:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (end:<<p,t>,<p,t>> (hall:<c,<p,t>> honeycomb:c))))))
+%% LEFT(21,24,90)
+%% FORWARD(21,24,0)
+%% FORWARD(21,23,0)
+%% FORWARD(21,22,0)
+%% NULL(21,21,0)
+turn right
+## (do_until:<a,<t,a>> (do:<m,a> turn:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (right:<<p,t>,<p,t>> at0:<p,t>))))
+%% RIGHT(21,21,0)
+%% NULL(21,21,90)
+you should see flowered carpet
+## (verify:<t,a> (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> (front:<<p,t>,<p,t>> at:<p,t>) (hall:<c,<p,t>> rose:c))))
+%% VERIFY(21,21,90)
+move past the hatrack to the end of this flowered carpet
+## (do_until:<a,<t,a>> (do:<m,a> travel:m) (and:<t*,t> (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (past:<<p,t>,<p,t>> hatrack:<p,t>))) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (end:<<p,t>,<p,t>> (hall:<c,<p,t>> rose:c))))))
+%% FORWARD(21,21,90)
+%% FORWARD(22,21,90)
+%% FORWARD(23,21,90)
+%% NULL(24,21,90)
+the side alleys have blue carpet
+## (verify:<t,a> (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> (side:<<p,t>,<p,t>> at:<p,t>) (hall:<c,<p,t>> blue:c))))
+%% VERIFY(24,21,90)
+this is X
+## (do:<m,a> goal:m)
+%% GOAL(24,21,90)
+
+WLH_Jelly0_6_7_Dirs_2
+{'numFollowers': 7, 'confidence': (5.857142857142857, 0.3499271061118826), 'directionRating': (5.0, 0.9258200997725514), 'valid': True, 'map': 'jelly', 'targetFound': (0.8571428571428571, 0.3499271061118826), 'efficiency': (0.8571428571428571, 0.3499271061118826), 'correct': True, 'implicit': True}
+move to the flowered carpet and turn left
+## (do_seq:<a+,a> (do_until:<a,<t,a>> (do:<m,a> travel:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (intersection:<<p,t>*1,<p,t>> (hall:<c,<p,t>> rose:c))))) (do_until:<a,<t,a>> (do:<m,a> turn:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (left:<<p,t>,<p,t>> at0:<p,t>)))))
+%% FORWARD(18,19,90)
+%% LEFT(19,19,90)
+%% NULL(19,19,0)
+move along the blue carpet to the chair
+## (do_until:<a,<t,a>> (do_if:<a,<t,a>> (do:<m,a> travel:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (hall:<c,<p,t>> blue:c)))) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> chair:<p,t>)))
+%% FORWARD[I](19,19,0)
+%% LEFT[I](19,18,0)
+%% FORWARD(19,18,270)
+%% FORWARD(18,18,270)
+%% NULL(17,18,270)
+turn right and move forward to the stool
+## (do_seq:<a+,a> (do_until:<a,<t,a>> (do:<m,a> turn:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (right:<<p,t>,<p,t>> at0:<p,t>)))) (do_until:<a,<t,a>> (do:<m,a> travel:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> barstool:<p,t>))))
+%% RIGHT(17,18,270)
+%% FORWARD(17,18,0)
+%% NULL(17,17,0)
+the side alleys are stone
+## (verify:<t,a> (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> (side:<<p,t>,<p,t>> at:<p,t>) (hall:<c,<p,t>> stone:c))))
+%% VERIFY(17,17,0)
+this is X
+## (do:<m,a> goal:m)
+%% GOAL(17,17,0)
+
+WLH_L0_7_4_Dirs_1
+{'numFollowers': 5, 'confidence': (5.0, 2.0), 'directionRating': (4.8, 1.1661903789690602), 'map': 'l', 'correct': True, 'targetFound': (0.8, 0.4), 'efficiency': (0.8, 0.4), 'valid': True, 'implicit': 'partial'}
+with your back to the wall turn left
+## (do_if:<a,<t,a>> (do_until:<a,<t,a>> (do:<m,a> turn:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (left:<<p,t>,<p,t>> at0:<p,t>)))) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> (behind:<<p,t>,<p,t>> at:<p,t>) (definite:<<p,t>,<p,t>> wall:<p,t>))))
+%% LEFT(21,21,180)
+%% NULL(21,21,90)
+you are facing flowered carpet
+## (verify:<t,a> (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> (front:<<p,t>,<p,t>> at:<p,t>) (hall:<c,<p,t>> rose:c))))
+%% VERIFY(21,21,90)
+move along it to the end till you reach the blue carpet alley, which should be to your left and right
+## (do_until:<a,<t,a>> (do_if:<a,<t,a>> (do:<m,a> travel:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (hall:<c,<p,t>> rose:c)))) (and:<t*,t> (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> (left:<<p,t>,<p,t>> at:<p,t>) (hall:<c,<p,t>> blue:c))) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> (right:<<p,t>,<p,t>> at:<p,t>) (hall:<c,<p,t>> blue:c)))))
+%% FORWARD(21,21,90)
+%% FORWARD(22,21,90)
+%% FORWARD(23,21,90)
+%% NULL(24,21,90)
+
+WLH_Grid0_2_5_Dirs_1
+{'numFollowers': 7, 'confidence': (5.285714285714286, 1.3850513878332367), 'directionRating': (4.857142857142857, 1.355261854357877), 'map': 'grid', 'correct': True, 'targetFound': (0.7142857142857143, 0.45175395145262565), 'efficiency': (0.7142857142857143, 0.45175395145262565), 'valid': True, 'implicit': 'partial'}
+with your back to the wall turn left
+## (do_if:<a,<t,a>> (do_until:<a,<t,a>> (do:<m,a> turn:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (left:<<p,t>,<p,t>> at0:<p,t>)))) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> (behind:<<p,t>,<p,t>> at:<p,t>) (definite:<<p,t>,<p,t>> wall:<p,t>))))
+%% LEFT(3,8,0)
+%% NULL(3,8,270)
+move forward along the rock floor to the end
+## (do_until:<a,<t,a>> (do_if:<a,<t,a>> (do:<m,a> travel:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (hall:<c,<p,t>> stone:c)))) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (end:<<p,t>,<p,t>> (hall:<c,<p,t>> any:c)))))
+%% FORWARD(3,8,270)
+%% FORWARD(2,8,270)
+%% FORWARD(1,8,270)
+%% NULL(0,8,270)
+turn left at the stool
+## (do_if:<a,<t,a>> (do_until:<a,<t,a>> (do:<m,a> turn:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (left:<<p,t>,<p,t>> at0:<p,t>)))) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> barstool:<p,t>)))
+%% LEFT(0,8,270)
+%% NULL(0,8,180)
+move along the blue carpet past the sofa to the hat rack
+## (do_until:<a,<t,a>> (do_if:<a,<t,a>> (do:<m,a> travel:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (hall:<c,<p,t>> blue:c)))) (and:<t*,t> (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (past:<<p,t>,<p,t>> sofa:<p,t>))) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> hatrack:<p,t>))))
+%% FORWARD(0,8,180)
+%% FORWARD(0,9,180)
+%% FORWARD(0,10,180)
+%% NULL(0,11,180)
+turn left
+## (do_until:<a,<t,a>> (do:<m,a> turn:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (left:<<p,t>,<p,t>> at0:<p,t>))))
+%% LEFT(0,11,180)
+%% NULL(0,11,90)
+move into the corner
+## (do_until:<a,<t,a>> (do:<m,a> travel:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> corner:<p,t>)))
+%% FORWARD(0,11,90)
+%% NULL(1,11,90)
+this is X
+## (do:<m,a> goal:m)
+%% GOAL(1,11,90)
+
+WLH_Jelly0_3_5_Dirs_2
+{'numFollowers': 5, 'confidence': (6.0, 0.0), 'directionRating': (5.0, 0.6324555320336759), 'valid': True, 'map': 'jelly', 'targetFound': (1.0, 0.0), 'efficiency': (1.0, 0.0), 'correct': True, 'implicit': True}
+face and move past the chair
+## (do_seq:<a+,a> (do_until:<a,<t,a>> (do:<m,a> turn:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> (front:<<p,t>,<p,t>> at:<p,t>) chair:<p,t>))) (do_until:<a,<t,a>> (do:<m,a> travel:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (past:<<p,t>,<p,t>> chair:<p,t>)))))
+%% LEFT(16,18,270)
+%% LEFT(16,18,180)
+%% FORWARD(16,18,90)
+%% FORWARD(17,18,90)
+%% NULL(18,18,90)
+at the end of the blue flooring turn left
+## (do_if:<a,<t,a>> (do_until:<a,<t,a>> (do:<m,a> turn:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (left:<<p,t>,<p,t>> at0:<p,t>)))) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (end:<<p,t>,<p,t>> (hall:<c,<p,t>> blue:c)))))
+%% FORWARD[I](18,18,90)
+%% FORWARD[I](19,18,90)
+%% LEFT(20,18,90)
+%% NULL(20,18,0)
+move to the easel and turn right
+## (do_seq:<a+,a> (do_until:<a,<t,a>> (do:<m,a> travel:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> easel:<p,t>))) (do_until:<a,<t,a>> (do:<m,a> turn:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (right:<<p,t>,<p,t>> at0:<p,t>)))))
+%% FORWARD(20,18,0)
+%% RIGHT(20,17,0)
+%% NULL(20,17,90)
+you should be facing the longer wooden floored alley, if not turn around
+## (verify:<t,a> (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (hall:<c,<p,t>> wood:c))))
+%% VERIFY(20,17,90)
+from the easel, move one block and place yourself between butterfly pictures
+## (do_if:<a,<t,a>> (do_until:<a,<t,a>> (do:<m,a> travel:m) (and:<t*,t> (steps:<n,t> 1:n) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (middle:<<p,t>,<p,t>> butterfly_w:<p,t>))))) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> easel:<p,t>)))
+%% FORWARD(20,17,90)
+%% NULL(21,17,90)
+this is X
+## (do:<m,a> goal:m)
+%% GOAL(21,17,90)
+
+WLH_Grid0_3_7_Dirs_1
+{'numFollowers': 7, 'confidence': (5.571428571428571, 1.0497813183356477), 'directionRating': (4.571428571428571, 1.4982983545287878), 'map': 'grid', 'correct': True, 'targetFound': (0.7142857142857143, 0.45175395145262565), 'efficiency': (0.47755100000000006, 0.45732505152118785), 'valid': True, 'implicit': 'partial'}
+with your back to the wall at Y move forward one alley
+## (do_if:<a,<t,a>> (do_until:<a,<t,a>> (do:<m,a> travel:m) (steps:<n,t> 1:n)) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> (behind:<<p,t>,<p,t>> at:<p,t>) (definite:<<p,t>,<p,t>> wall:<p,t>))))
+%% FORWARD(0,9,90)
+%% NULL(1,9,90)
+you should see red brick to your right and left and a lamp two alleys over to your left and an easel beyond that
+## (verify:<t,a> (and:<t*,t> (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> (left:<<p,t>,<p,t>> at:<p,t>) (hall:<c,<p,t>> brick:c))) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> (right:<<p,t>,<p,t>> at:<p,t>) (hall:<c,<p,t>> brick:c))) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> (left:<<p,t>,<p,t>> at:<p,t>) (distance:<<p,t>,<n,<p,t>>> lamp:<p,t> 2:n))) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> (left:<<p,t>,<p,t>> at:<p,t>) easel:<p,t>))))
+%% VERIFY(1,9,90)
+this is X
+## (do:<m,a> goal:m)
+%% GOAL(1,9,90)
+
+WLH_L0_1_7_Dirs_1
+{'numFollowers': 4, 'confidence': (4.0, 1.8708286933869707), 'directionRating': (5.0, 0.7071067811865476), 'map': 'l', 'correct': False, 'targetFound': (0.0, 0.0), 'efficiency': (0.0, 0.0), 'valid': True, 'implicit': 'partial'}
+with your back to the wall, turn left
+## (do_if:<a,<t,a>> (do_until:<a,<t,a>> (do:<m,a> turn:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (left:<<p,t>,<p,t>> at0:<p,t>)))) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> (behind:<<p,t>,<p,t>> at:<p,t>) (definite:<<p,t>,<p,t>> wall:<p,t>))))
+%% LEFT(22,17,180)
+%% NULL(22,17,90)
+move forward one block and turn right
+## (do_seq:<a+,a> (do_until:<a,<t,a>> (do:<m,a> travel:m) (steps:<n,t> 1:n)) (do_until:<a,<t,a>> (do:<m,a> turn:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (right:<<p,t>,<p,t>> at0:<p,t>)))))
+%% FORWARD(22,17,90)
+%% RIGHT(23,17,90)
+%% NULL(23,17,180)
+move past the lamp and one block past the hatrack
+## (do_until:<a,<t,a>> (do:<m,a> travel:m) (and:<t*,t> (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (past:<<p,t>,<p,t>> lamp:<p,t>))) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> (behind:<<p,t>,<p,t>> at:<p,t>) (distance:<<p,t>,<n,<p,t>>> hatrack:<p,t> 1:n)))))
+%% FORWARD(23,17,180)
+%% FORWARD(23,18,180)
+%% FORWARD(23,19,180)
+%% FORWARD(23,20,180)
+%% FORWARD(23,21,180)
+%% NULL(23,22,180)
+turn right
+## (do_until:<a,<t,a>> (do:<m,a> turn:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (right:<<p,t>,<p,t>> at0:<p,t>))))
+%% RIGHT(23,22,180)
+%% NULL(23,22,270)
+move forward two blocks
+## (do_until:<a,<t,a>> (do:<m,a> travel:m) (steps:<n,t> 2:n))
+%% FORWARD(23,22,270)
+%% FORWARD(22,22,270)
+%% NULL(21,22,270)
+this is X
+## (do:<m,a> goal:m)
+%% GOAL(21,22,270)
+
+WLH_L0_1_4_Dirs_1
+{'numFollowers': 5, 'confidence': (5.8, 0.4), 'directionRating': (4.8, 1.1661903789690602), 'map': 'l', 'correct': False, 'targetFound': (1.0, 0.0), 'efficiency': (1.0, 0.0), 'valid': False, 'implicit': 'partial'}
+with your back to the wall turn left
+move forward one alley and turn right
+now walk along the brick floor past a lamp, stop one alley past the lamp
+the carpet is flowers
+turn left and move forward one block to the wall
+this is X
+
+WLH_Jelly0_5_1_Dirs_1
+{'numFollowers': 4, 'confidence': (2.0, 1.224744871391589), 'directionRating': (2.0, 1.224744871391589), 'valid': True, 'map': 'jelly', 'targetFound': (0.0, 0.0), 'efficiency': (0.0, 0.0), 'correct': False, 'implicit': True}
+move to the easel and turn right
+## (do_seq:<a+,a> (do_until:<a,<t,a>> (do:<m,a> travel:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> easel:<p,t>))) (do_until:<a,<t,a>> (do:<m,a> turn:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (right:<<p,t>,<p,t>> at0:<p,t>)))))
+%% FORWARD(21,17,270)
+%% RIGHT(20,17,270)
+%% NULL(20,17,0)
+the left side alley should be stone, if not turn around
+## (verify:<t,a> (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> (left:<<p,t>,<p,t>> at:<p,t>) (hall:<c,<p,t>> brick:c))))
+%% FORWARD[I](20,17,0)
+%% VERIFY(20,16,0)
+move along the stone alley past the sofa chair
+## (do_until:<a,<t,a>> (do_if:<a,<t,a>> (do:<m,a> travel:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (hall:<c,<p,t>> brick:c)))) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (past:<<p,t>,<p,t>> sofa:<p,t>))))
+%% LEFT[I](20,16,0)
+%% FORWARD(20,16,270)
+%% FORWARD(19,16,270)
+%% FORWARD(18,16,270)
+%% NULL(17,16,270)
+one alley past this chair
+## (verify:<t,a> (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> (behind:<<p,t>,<p,t>> at:<p,t>) (distance:<<p,t>,<n,<p,t>>> sofa:<p,t> 1:n))))
+%% VERIFY(17,16,270)
+
+WLH_L0_7_5_Dirs_1
+{'numFollowers': 5, 'confidence': (3.4, 1.7435595774162693), 'directionRating': (4.0, 1.0954451150103324), 'map': 'l', 'correct': False, 'targetFound': (0.2, 0.4000000000000001), 'efficiency': (0.2, 0.4000000000000001), 'valid': False, 'implicit': 'partial'}
+with your back to the wall turn left
+walk along the flowered carpet to the red brick side alleys
+it is one block before the end
+turn left and walk one block past the lamp
+to your right you should see an alley with grey carpet
+this is X
+
+WLH_Jelly0_7_3_Dirs_1
+{'numFollowers': 5, 'confidence': (4.6, 1.9595917942265424), 'directionRating': (4.6, 1.4966629547095764), 'map': 'jelly', 'correct': True, 'targetFound': (0.8, 0.4), 'efficiency': (0.6, 0.37416573867739417), 'valid': True, 'implicit': 'partial'}
+with your back to the wall move to the chair and turn right
+## (do_seq:<a+,a> (do_if:<a,<t,a>> (do_until:<a,<t,a>> (do:<m,a> travel:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> chair:<p,t>))) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> (behind:<<p,t>,<p,t>> at:<p,t>) (definite:<<p,t>,<p,t>> wall:<p,t>)))) (do_until:<a,<t,a>> (do:<m,a> turn:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (right:<<p,t>,<p,t>> at0:<p,t>)))))
+%% FORWARD(17,17,180)
+%% RIGHT(17,18,180)
+%% NULL(17,18,270)
+move to the next alley
+## (do_until:<a,<t,a>> (do:<m,a> travel:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (order:<<p,t>,<<e,n>,<n,<p,t>>>> intersection:<p,t> frontdist:<e,n> 1:n))))
+%% FORWARD(17,18,270)
+%% NULL(16,18,270)
+in front is a hatrack and left is grey flooring
+## (verify:<t,a> (and:<t*,t> (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> (front:<<p,t>,<p,t>> at:<p,t>) hatrack:<p,t>)) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> (left:<<p,t>,<p,t>> at:<p,t>) (hall:<c,<p,t>> cement:c)))))
+%% VERIFY(16,18,270)
+
+WLH_Grid0_6_7_Dirs_1
+{'numFollowers': 5, 'confidence': (4.4, 1.3564659966250536), 'directionRating': (3.2, 1.7204650534085255), 'map': 'grid', 'correct': False, 'targetFound': (0.0, 0.0), 'efficiency': (0.0, 0.0), 'valid': False, 'implicit': 'partial'}
+with your back to the wall move forward until the brick alley is to your left and right
+turn right and move one alley
+this is X
+
+WLH_Grid0_6_4_Dirs_1
+{'numFollowers': 5, 'confidence': (5.0, 0.6324555320336759), 'directionRating': (4.6, 0.8), 'map': 'grid', 'correct': True, 'targetFound': (1.0, 0.0), 'efficiency': (0.7257142, 0.23253713752121405), 'valid': True, 'implicit': 'partial'}
+with your back to the wall move forward to the wall
+## (do_if:<a,<t,a>> (do_until:<a,<t,a>> (do:<m,a> travel:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (definite:<<p,t>,<p,t>> wall:<p,t>)))) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> (behind:<<p,t>,<p,t>> at:<p,t>) (definite:<<p,t>,<p,t>> wall:<p,t>))))
+%% FORWARD(2,7,0)
+%% FORWARD(2,6,0)
+%% NULL(2,5,0)
+turn right and you see grass carpet in front of you and green octagon carpet down the next alley
+## (do_seq:<a+,a> (do_until:<a,<t,a>> (do:<m,a> turn:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (right:<<p,t>,<p,t>> at0:<p,t>)))) (verify:<t,a> (and:<t*,t> (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> (front:<<p,t>,<p,t>> at:<p,t>) (hall:<c,<p,t>> grass:c))) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> (front:<<p,t>,<p,t>> at:<p,t>) (distance:<<p,t>,<n,<p,t>>> (intersection:<<p,t>*1,<p,t>> (hall:<c,<p,t>> honeycomb:c)) 1:n))))))
+%% RIGHT(2,5,0)
+%% VERIFY(2,5,90)
+move to this spot
+## (do_until:<a,<t,a>> (do:<m,a> travel:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (intersection:<<p,t>*1,<p,t>> (hall:<c,<p,t>> honeycomb:c)))))
+%% FORWARD(2,5,90)
+%% NULL(3,5,90)
+this is X
+## (do:<m,a> goal:m)
+%% GOAL(3,5,90)
+
+WLH_Jelly0_2_7_Dirs_1
+{'numFollowers': 5, 'confidence': (4.0, 2.449489742783178), 'directionRating': (3.2, 2.039607805437114), 'valid': True, 'map': 'jelly', 'targetFound': (0.6, 0.48989794855663565), 'efficiency': (0.6, 0.48989794855663565), 'correct': True, 'implicit': True}
+face and move to the lamp
+## (do_seq:<a+,a> (do_until:<a,<t,a>> (do:<m,a> turn:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> (front:<<p,t>,<p,t>> at:<p,t>) lamp:<p,t>))) (do_until:<a,<t,a>> (do:<m,a> travel:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> lamp:<p,t>))))
+%% LEFT(23,16,90)
+%% LEFT(23,16,0)
+%% FORWARD(23,16,270)
+%% NULL(22,16,270)
+turn left and move to the easel
+## (do_seq:<a+,a> (do_until:<a,<t,a>> (do:<m,a> turn:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (left:<<p,t>,<p,t>> at0:<p,t>)))) (do_until:<a,<t,a>> (do:<m,a> travel:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> easel:<p,t>))))
+%% LEFT(22,16,270)
+%% FORWARD[I](22,16,180)
+%% RIGHT[I](22,17,180)
+%% FORWARD(22,17,270)
+%% FORWARD(21,17,270)
+%% NULL(20,17,270)
+turn left
+## (do_until:<a,<t,a>> (do:<m,a> turn:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (left:<<p,t>,<p,t>> at0:<p,t>))))
+%% LEFT(20,17,270)
+%% NULL(20,17,180)
+you should see a side alley to the right with blue flooring
+## (verify:<t,a> (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> (right:<<p,t>,<p,t>> (front:<<p,t>,<p,t>> at:<p,t>)) (hall:<c,<p,t>> blue:c))))
+%% VERIFY(20,17,180)
+move to it and turn right
+## (do_seq:<a+,a> (do_until:<a,<t,a>> (do:<m,a> travel:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (intersection:<<p,t>*1,<p,t>> (hall:<c,<p,t>> blue:c))))) (do_until:<a,<t,a>> (do:<m,a> turn:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (right:<<p,t>,<p,t>> at0:<p,t>)))))
+%% FORWARD(20,17,180)
+%% RIGHT(20,18,180)
+%% NULL(20,18,270)
+walk to the chair and turn right
+## (do_seq:<a+,a> (do_until:<a,<t,a>> (do:<m,a> travel:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> chair:<p,t>))) (do_until:<a,<t,a>> (do:<m,a> turn:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (right:<<p,t>,<p,t>> at0:<p,t>)))))
+%% FORWARD(20,18,270)
+%% FORWARD(19,18,270)
+%% FORWARD(18,18,270)
+%% RIGHT(17,18,270)
+%% NULL(17,18,0)
+move to the stool
+## (do_until:<a,<t,a>> (do:<m,a> travel:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> barstool:<p,t>)))
+%% FORWARD(17,18,0)
+%% NULL(17,17,0)
+the side alleys have stone flooring
+## (verify:<t,a> (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> (side:<<p,t>,<p,t>> at:<p,t>) (hall:<c,<p,t>> stone:c))))
+%% VERIFY(17,17,0)
+this is X
+## (do:<m,a> goal:m)
+%% GOAL(17,17,0)
+

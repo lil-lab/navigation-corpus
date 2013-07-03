@@ -1,0 +1,11 @@
+EMWC_L0_2_7_Dirs_1
+{'numFollowers': 4, 'confidence': (5.75, 0.4330127018922193), 'directionRating': (5.5, 0.5), 'targetFound': (0.0, 0.0), 'efficiency': (0.0, 0.0), 'implicit': False}
+Orient yourself along the yellow-tiled hallway with the easel in the stone hall to your left
+## (do_until:<a,<t,a>> (do:<m,a> turn:m) (and:<t*,t> (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (hall:<c,<p,t>> honeycomb:c))) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> (left:<<p,t>,<p,t>> at:<p,t>) easel:<p,t> (hall:<c,<p,t>> stone:c)))))
+Go forward two segments to the intersection with the pink-flowered carpet hall
+## (do_until:<a,<t,a>> (do:<m,a> travel:m) (and:<t*,t> (steps:<n,t> 2:n) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (intersection:<<p,t>*1,<p,t>> (hall:<c,<p,t>> rose:c))))))
+There is a hatrack  two segments to your right
+## (verify:<t,a> (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> (right:<<p,t>,<p,t>> at:<p,t>) (distance:<<p,t>,<n,<p,t>>> hatrack:<p,t> 2:n))))
+This is Position X
+## (do:<m,a> goal:m)
+

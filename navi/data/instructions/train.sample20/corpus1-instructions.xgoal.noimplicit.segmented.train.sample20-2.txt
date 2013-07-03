@@ -1,0 +1,19 @@
+EMWC_Grid0_6_5_Dirs_1
+{'numFollowers': 4, 'confidence': (5.5, 0.8660254037844386), 'directionRating': (4.75, 1.6393596310755), 'targetFound': (0.75, 0.4330127018922193), 'efficiency': (0.75, 0.4330127018922193), 'implicit': False}
+Place your back to the 'T' intersection
+## (do_until:<a,<t,a>> (do:<m,a> turn:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> (behind:<<p,t>,<p,t>> at:<p,t>) (t_intersection:<<p,t>*1,<p,t>> visible:<p,t>) (definite:<<p,t>,<p,t>> wall:<p,t>))))
+Turn to the left
+## (do_until:<a,<t,a>> (do:<m,a> turn:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (left:<<p,t>,<p,t>> at0:<p,t>))))
+Go forward two segments down the wooden hall to the chair in the blue-tiled hall, passing the lamp
+## (do_until:<a,<t,a>> (do_if:<a,<t,a>> (do:<m,a> travel:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (hall:<c,<p,t>> wood:c)))) (and:<t*,t> (steps:<n,t> 2:n) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> chair:<p,t> (hall:<c,<p,t>> blue:c))) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (past:<<p,t>,<p,t>> lamp:<p,t>)))))
+Turn left
+## (do_until:<a,<t,a>> (do:<m,a> turn:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (left:<<p,t>,<p,t>> at0:<p,t>))))
+Go forward four segments, passing the bench to the intersection containing the hatrack
+## (do_until:<a,<t,a>> (do:<m,a> travel:m) (and:<t*,t> (steps:<n,t> 4:n) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (intersection:<<p,t>*1,<p,t>> visible:<p,t>) hatrack:<p,t>)) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (past:<<p,t>,<p,t>> sofa:<p,t>)))))
+Turn left
+## (do_until:<a,<t,a>> (do:<m,a> turn:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (left:<<p,t>,<p,t>> at0:<p,t>))))
+Go forward one segment to the corner
+## (do_until:<a,<t,a>> (do:<m,a> travel:m) (and:<t*,t> (steps:<n,t> 1:n) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (corner:<<p,t>*1,<p,t>> visible:<p,t>)))))
+This is Position X
+## (do:<m,a> goal:m)
+

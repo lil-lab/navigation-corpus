@@ -1,0 +1,17 @@
+EDA_Grid0_5_2_Dirs_1
+{'numFollowers': 4, 'confidence': (5.5, 0.5), 'directionRating': (4.25, 1.0897247358851685), 'targetFound': (1.0, 0.0), 'efficiency': (0.85294125, 0.25471322669756963), 'implicit': False}
+turn so that the wall is on your right and back
+## (do_until:<a,<t,a>> (do:<m,a> turn:m) (and:<t*,t> (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> (right:<<p,t>,<p,t>> at:<p,t>) (definite:<<p,t>,<p,t>> wall:<p,t>))) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> (behind:<<p,t>,<p,t>> at:<p,t>) (definite:<<p,t>,<p,t>> wall:<p,t>)))))
+walk forward once
+## (do_until:<a,<t,a>> (do:<m,a> travel:m) (steps:<n,t> 1:n))
+turn right
+## (do_until:<a,<t,a>> (do:<m,a> turn:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (right:<<p,t>,<p,t>> at0:<p,t>))))
+walk forward three times
+## (do_until:<a,<t,a>> (do:<m,a> travel:m) (steps:<n,t> 3:n))
+turn right to face the black hallway
+## (do_until:<a,<t,a>> (do:<m,a> turn:m) (and:<t*,t> (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (right:<<p,t>,<p,t>> at0:<p,t>))) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> (front:<<p,t>,<p,t>> at:<p,t>) (hall:<c,<p,t>> stone:c)))))
+walk forward three times
+## (do_until:<a,<t,a>> (do:<m,a> travel:m) (steps:<n,t> 3:n))
+if you are in the right place you should be at the intersection of black and yellow
+## (do_if:<a,<t,a>> (do:<m,a> goal:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (intersection:<<p,t>*1,<p,t>> (hall:<c,<p,t>> stone:c) (hall:<c,<p,t>> honeycomb:c)))))
+

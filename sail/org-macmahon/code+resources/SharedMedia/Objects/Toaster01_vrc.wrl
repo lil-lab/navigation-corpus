@@ -1,0 +1,292 @@
+#VRML V2.0 utf8
+# Converted by Michael Dana Murphy
+# http://www.ktb.net/~pacranch or pacranch@ktb.net
+
+Background {
+	skyColor 0 0.50196 0.74902
+}
+
+WorldInfo {
+	title "Toaster01"
+	info "Converted by Michael Dana Murphy"
+}
+DEF Default Viewpoint { position 0 1 10 orientation 0 0 -1 0 description "Default" }
+
+DEF Toaster01 Transform {
+	translation 0 1 16
+	rotation 0 0 -1 0
+	scale 1 1 1
+	children [
+		Transform {
+			translation 0 0 0
+			rotation 0 0 -1 0
+			scale 1 1 1
+			children [
+				Shape {
+					appearance Appearance {
+						material DEF mat9 Material {
+							specularColor 0 0 0
+							diffuseColor 0.78431 0.71373 0.48627
+							ambientIntensity 0
+							transparency 0
+							shininess 0.2
+						}
+					}
+					geometry IndexedFaceSet {
+						ccw FALSE
+						solid TRUE
+						creaseAngle 3.14
+						coord DEF c4 Coordinate {
+							point [ 0.04282 0.08136 -7.90932,0.04282 0.1795 -7.90932,0.04282 0.2075 -7.92669,
+								0.04282 0.2161 -7.96632,0.04283 0.2172 -8.01915,0.04283 0.205 -8.04963,0.04283 0.1893 -8.05649,
+								0.04283 0.08136 -8.05649,0.06096 0.08136 -8.05649,0.06096 0.1893 -8.05649,0.06096 0.205 -8.04963,
+								0.06096 0.2172 -8.01915,0.06095 0.2161 -7.96632,0.06095 0.2075 -7.92669,0.06095 0.1795 -7.90932,
+								0.06095 0.08136 -7.90932, ]
+						}
+						coordIndex [ 2,1,0,-1,3,2,0,-1,4,3,0,-1,5,4,0,-1,6,5,0,-1,7,6,0,-1,10,9,8,-1,
+							11,10,8,-1,12,11,8,-1,13,12,8,-1,14,13,8,-1,15,14,8,-1, ]
+					}
+				}
+			]
+		}
+		Transform {
+			translation 0 0 0
+			rotation 0 0 -1 0
+			scale 1 1 1
+			children [
+				Shape {
+					appearance Appearance {
+						material DEF mat8 Material {
+							specularColor 0 0 0
+							diffuseColor 0.59216 0.33725 0.19216
+							ambientIntensity 0
+							transparency 0
+							shininess 0.2
+						}
+					}
+					geometry IndexedFaceSet {
+						ccw FALSE
+						solid TRUE
+						creaseAngle 3.14
+						coord DEF c3 Coordinate {
+							point [ 0.04282 0.1795 -7.90932,0.04282 0.08136 -7.90932,0.06095 0.08136 -7.90932,
+								0.06095 0.1795 -7.90932,0.04282 0.2075 -7.92669,0.06095 0.2075 -7.92669,0.04282 0.2161 -7.96632,
+								0.06095 0.2161 -7.96632,0.04283 0.2172 -8.01915,0.06096 0.2172 -8.01915,0.04283 0.205 -8.04963,
+								0.06096 0.205 -8.04963,0.04283 0.1893 -8.05649,0.06096 0.1893 -8.05649,0.04283 0.08136 -8.05649,
+								0.06096 0.08136 -8.05649, ]
+						}
+						coordIndex [ 2,1,0,-1,3,2,0,-1,3,0,4,-1,5,3,4,-1,5,4,6,-1,7,5,6,-1,7,6,8,-1,9,7,8,-1,
+							9,8,10,-1,11,9,10,-1,11,10,12,-1,13,11,12,-1,13,12,14,-1,15,13,14,-1, ]
+					}
+				}
+			]
+		}
+		Transform {
+			translation 0 0 0
+			rotation 0 0 -1 0
+			scale 1 1 1
+			children [
+				Transform {
+					translation 0 0 0
+					rotation 0 0 -1 0
+					scale 1 1 1
+					children [
+						Shape {
+							appearance Appearance {
+								material DEF mat6 Material {
+									specularColor 0 0 0
+									diffuseColor 0.78431 0.71373 0.48627
+									ambientIntensity 0
+									transparency 0
+									shininess 0.1
+								}
+							}
+							geometry IndexedFaceSet {
+								ccw FALSE
+								solid TRUE
+								creaseAngle 3.14
+								coord DEF c2 Coordinate {
+									point [ 0.11343 0.08136 -8.04668,0.11343 0.1795 -8.04668,0.11343 0.2075 -8.02931,
+										0.11343 0.2161 -7.98968,0.11343 0.2172 -7.93685,0.11343 0.205 -7.90637,0.11343 0.1893 -7.89951,
+										0.11343 0.08136 -7.89951,0.09529 0.08136 -7.89951,0.09529 0.1893 -7.89951,0.09529 0.205 -7.90637,
+										0.09529 0.2172 -7.93685,0.09529 0.2161 -7.98968,0.09529 0.2075 -8.02931,0.09529 0.1795 -8.04668,
+										0.09529 0.08136 -8.04668, ]
+								}
+								coordIndex [ 2,1,0,-1,3,2,0,-1,4,3,0,-1,5,4,0,-1,6,5,0,-1,7,6,0,-1,10,9,8,-1,
+									11,10,8,-1,12,11,8,-1,13,12,8,-1,14,13,8,-1,15,14,8,-1, ]
+							}
+						}
+					]
+				}
+				Transform {
+					translation 0 0 0
+					rotation 0 0 -1 0
+					scale 1 1 1
+					children [
+						Shape {
+							appearance Appearance {
+								material DEF mat7 Material {
+									specularColor 0 0 0
+									diffuseColor 0.59216 0.33725 0.19216
+									ambientIntensity 0
+									transparency 0
+									shininess 0.1
+								}
+							}
+							geometry IndexedFaceSet {
+								ccw FALSE
+								solid TRUE
+								creaseAngle 3.14
+								coord DEF c2 Coordinate {
+									point [ 0.11343 0.1795 -8.04668,0.11343 0.08136 -8.04668,0.09529 0.08136 -8.04668,
+										0.09529 0.1795 -8.04668,0.11343 0.2075 -8.02931,0.09529 0.2075 -8.02931,0.11343 0.2161 -7.98968,
+										0.09529 0.2161 -7.98968,0.11343 0.2172 -7.93685,0.09529 0.2172 -7.93685,0.11343 0.205 -7.90637,
+										0.09529 0.205 -7.90637,0.11343 0.1893 -7.89951,0.09529 0.1893 -7.89951,0.11343 0.08136 -7.89951,
+										0.09529 0.08136 -7.89951, ]
+								}
+								coordIndex [ 2,1,0,-1,3,2,0,-1,3,0,4,-1,5,3,4,-1,5,4,6,-1,7,5,6,-1,7,6,8,-1,9,7,8,-1,
+									9,8,10,-1,11,9,10,-1,11,10,12,-1,13,11,12,-1,13,12,14,-1,15,13,14,-1, ]
+							}
+						}
+					]
+				}
+			]
+		}
+		Transform {
+			translation 0 0 0
+			rotation 0 0 -1 0
+			scale 1 1 1
+			children [
+				Shape {
+					appearance Appearance {
+						material DEF mat5 Material {
+							specularColor 0 0 0
+							diffuseColor 0.14118 0.14902 0.14902
+							ambientIntensity 0
+							transparency 0
+							shininess 0.2
+						}
+					}
+					geometry IndexedFaceSet {
+						ccw FALSE
+						solid TRUE
+						creaseAngle 3.14
+						coord DEF c1 Coordinate {
+							point [ 0.10181 0.1432 -7.8329,0.10734 0.1447 -7.856,0.04891 0.1447 -7.856,0.05444 0.1432 -7.8329,
+								0.05444 0.1361 -7.8325,0.10181 0.1361 -7.8325,0.10734 0.1321 -7.8553,0.04891 0.1321 -7.8553,
+								 ]
+						}
+						coordIndex [ 2,1,0,-1,3,2,0,-1,5,4,3,-1,0,5,3,-1,0,1,6,-1,5,0,6,-1,7,2,3,-1,4,7,3,-1,
+							6,7,4,-1,5,6,4,-1, ]
+					}
+				}
+			]
+		}
+		Transform {
+			translation 0 0 0
+			rotation 0 0 -1 0
+			scale 1 1 1
+			children [
+				Transform {
+					translation 0 0 0
+					rotation 0 0 -1 0
+					scale 1 1 1
+					children [
+						Shape {
+							appearance Appearance {
+								material DEF mat2 Material {
+									specularColor 0 0 0
+									diffuseColor 0.55686 0.56863 0.56863
+									ambientIntensity 0
+									transparency 0
+									shininess 0.1
+								}
+							}
+							geometry IndexedFaceSet {
+								ccw FALSE
+								solid TRUE
+								creaseAngle 3.14
+								coord DEF c0 Coordinate {
+									point [ 4.365000e-003 0.05077 -8.105,0.0188 0.1752 -8.0976,0.13746 0.1752 -8.0976,
+										0.15189 0.05077 -8.105,0.0188 0.1752 -7.8584,4.365000e-003 0.05077 -7.851,4.365000e-003 0 -8.105,
+										0.15189 0 -8.105,4.365000e-003 0 -7.851,0.08872 0.1752 -7.88766,0.06753 0.1752 -7.88766,
+										0.03765 0.1752 -7.88766,0.08872 0.1752 -8.06834,0.06753 0.1752 -8.06834,0.11861 0.1752 -8.06834,
+										0.15189 0 -7.851,0.15189 0.05077 -7.851,0.13746 0.1752 -7.8584,0.07344 0.07086 -7.8522,
+										0.08281 0.07086 -7.8522,0.08281 0.1551 -7.8572,0.07344 0.1551 -7.8572,0.11861 0.1752 -7.88766,
+										0.03765 0.1752 -8.06834, ]
+								}
+								coordIndex [ 2,1,0,-1,3,2,0,-1,0,1,4,-1,5,0,4,-1,3,0,6,-1,7,3,6,-1,6,0,5,-1,8,6,5,-1,
+									10,9,4,-1,11,10,4,-1,13,2,12,-1,2,14,12,-1,16,15,8,-1,5,16,8,-1,7,15,16,-1,3,7,16,-1,
+									3,16,17,-1,2,3,17,-1,16,5,18,-1,19,16,18,-1,17,16,19,-1,20,17,19,-1,4,17,20,-1,
+									21,4,20,-1,18,5,4,-1,21,18,4,-1,10,13,12,-1,9,10,12,-1,2,17,22,-1,14,2,22,-1,
+									4,1,23,-1,11,4,23,-1,1,2,13,-1,23,1,13,-1,17,4,9,-1,22,17,9,-1, ]
+							}
+						}
+					]
+				}
+				Transform {
+					translation 0 0 0
+					rotation 0 0 -1 0
+					scale 1 1 1
+					children [
+						Shape {
+							appearance Appearance {
+								material DEF mat3 Material {
+									specularColor 0 0 0
+									diffuseColor 0.0549 0.0549 0.0549
+									ambientIntensity 0
+									transparency 0
+									shininess 0.1
+								}
+							}
+							geometry IndexedFaceSet {
+								ccw FALSE
+								solid TRUE
+								creaseAngle 3.14
+								coord DEF c0 Coordinate {
+									point [ 0.07344 0.07086 -7.8522,0.08281 0.07086 -7.8522,0.08281 0.1551 -7.8572,
+										0.07344 0.1551 -7.8572, ]
+								}
+								coordIndex [ 2,1,0,-1,3,2,0,-1, ]
+							}
+						}
+					]
+				}
+				Transform {
+					translation 0 0 0
+					rotation 0 0 -1 0
+					scale 1 1 1
+					children [
+						Shape {
+							appearance Appearance {
+								material DEF mat4 Material {
+									specularColor 0 0 0
+									diffuseColor 0.09412 0.09412 0.09412
+									ambientIntensity 0
+									transparency 0
+									shininess 0.1
+								}
+							}
+							geometry IndexedFaceSet {
+								ccw FALSE
+								solid TRUE
+								creaseAngle 3.14
+								coord DEF c0 Coordinate {
+									point [ 0.11861 0.0319 -8.06834,0.11861 0.0319 -7.88766,0.11861 0.1752 -7.88766,
+										0.11861 0.1752 -8.06834,0.08872 0.0319 -7.88766,0.08872 0.0319 -8.06834,0.08872 0.1752 -8.06834,
+										0.08872 0.1752 -7.88766,0.03765 0.1752 -7.88766,0.06753 0.1752 -7.88766,0.06753 0.0319 -7.88766,
+										0.03765 0.0319 -7.88766,0.03765 0.0319 -8.06834,0.03765 0.1752 -8.06834,0.06753 0.0319 -8.06834,
+										0.06753 0.1752 -8.06834, ]
+								}
+								coordIndex [ 2,1,0,-1,3,2,0,-1,6,5,4,-1,7,6,4,-1,3,0,5,-1,6,3,5,-1,1,2,7,-1,4,1,7,-1,
+									10,9,8,-1,11,10,8,-1,13,12,11,-1,8,13,11,-1,15,14,12,-1,13,15,12,-1,9,10,14,-1,
+									15,9,14,-1,14,10,11,-1,12,14,11,-1,0,1,4,-1,5,0,4,-1, ]
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}
+DEF aDirectionalLight DirectionalLight { direction 0 0 -1 color 1 1 1 intensity 1 on TRUE }

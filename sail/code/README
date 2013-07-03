@@ -1,0 +1,40 @@
+The original MARCO code was written by Matt MacMahon (matt@macmahon.org) so please direct any question about the MARCO system to Matt or refer to his PhD dissertation
+
+http://robotics.csres.utexas.edu/~adastra/papers/b2hd-macmahon-phd-07.html
+
+The code has been modified slightly to run on newer versions of Python2.  The additional MarcoUtil module allows for a simpler interface to the MARCO system if the user only wants to use the MARCO parser and executor as black boxes.
+
+-----------------------------------------
+
+To get the code running, you need to make sure the following modules are installed:
+
+PyEnchant 
+http://packages.python.org/pyenchant/
+
+SciPy/NumPy
+http://www.scipy.org/
+
+-----------------------------------------
+
+Example usage:
+
+>>> from MarcoUtil import *
+>>> actions = parse("turn left")
+[Turn(direction=[Left])]
+>>> execute("grid", (1,5,270), parse("turn left"))
+[(1, 5, 270), (1, 5, 180)]
+
+
+The parse function takes an English sentence and produces a Compound Action that represents the parsed plan.
+
+The execute function takes 3 arguments, the name of the map (grid, l, or jelly), the starting location (x, y, orientation), and a Compound Action to execute.
+
+------------------------------------------
+
+This modified version of the MARCO code has been released as is in August, 2011 with the permission of Matt MacMahon.  While we hope you find the code to be useful, we do not make any guarantees about its functionality.  We do not assume any responsibilities in maintaining and updating this code.
+
+David Chen (dlcc@cs.utexas.edu)
+The University of Texas at Austin
+
+Project website:
+http://www.cs.utexas.edu/~ml/clamp/navigation/

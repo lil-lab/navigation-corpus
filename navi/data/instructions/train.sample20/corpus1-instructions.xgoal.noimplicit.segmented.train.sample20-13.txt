@@ -1,0 +1,11 @@
+EDA_L0_7_1_Dirs_1
+{'numFollowers': 5, 'confidence': (5.4, 0.8), 'directionRating': (5.4, 0.8), 'targetFound': (1.0, 0.0), 'efficiency': (1.0, 0.0), 'implicit': False}
+turn so that the wall is on your left side
+## (do_until:<a,<t,a>> (do:<m,a> turn:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> (left:<<p,t>,<p,t>> at:<p,t>) (definite:<<p,t>,<p,t>> wall:<p,t>))))
+walk forward twice
+## (do_until:<a,<t,a>> (do:<m,a> travel:m) (steps:<n,t> 2:n))
+turn left and walk down the red hallway four times
+## (do_seq:<a+,a> (do_until:<a,<t,a>> (do:<m,a> turn:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (left:<<p,t>,<p,t>> at0:<p,t>)))) (do_until:<a,<t,a>> (do_if:<a,<t,a>> (do:<m,a> travel:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (hall:<c,<p,t>> brick:c)))) (steps:<n,t> 4:n)))
+turn left and walk forward once
+## (do_seq:<a+,a> (do_until:<a,<t,a>> (do:<m,a> turn:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (left:<<p,t>,<p,t>> at0:<p,t>)))) (do_until:<a,<t,a>> (do:<m,a> travel:m) (steps:<n,t> 1:n)))
+

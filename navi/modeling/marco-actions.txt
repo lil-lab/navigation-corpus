@@ -1,0 +1,63 @@
+=== MARCO actions as used in SingleSentence-marco.xml
+
+Travel
+	until		// Usually takes a Verify action
+	distance	// Takes a Distance number, for some reason wrapped in a list
+
+Verify
+	desc		// Takes a list of Thing that
+
+Thing			// See below for what stuff Thing might take
+	dist		// Take a number, mostly '0'
+	Appear		// The appearance of the item, e.g. Honeycomb, Brick, Stone
+	value		// The item itself, e.g. Sofa, Path
+	type		// The type of the item, e.g. Obj, Struct, Path
+	side		// Whre this item should be, e.g. Back, Sides, At
+	Structural	// The structure. This one is used for T intersections only, but can actually take many more interesting values
+
+Face
+	faced		// Takes a Verify action
+	direction	// Takes Right/Left
+
+Distance
+	count		// Takes a number between '1' to '7'	
+
+
+
+
+
+----------------------------------------
+Thing dict:
+----------------------------------------
+[('dist', set(["'0'"])),
+ ('Appear',
+  set(['[ Brick ]',
+       '[ Honeycomb ]',
+       '[ Cement ]',
+       '[ Wood ]',
+       '[ Stone ]',
+       '[ Rose ]',
+       '[ BlueTile ]',
+       '[ Grass ]'])),
+ ('value',
+  set(['Butterfly',
+       'Easel',
+       'Wall',
+       'Sofa',
+       'Fish',
+       'Eiffel',
+       'Barstool',
+       'Lamp',
+       'GenChair',
+       'Path',
+       'Intersection',
+       'Hatrack'])),
+ ('type', set(["'Obj'", "'Struct'", "'Path'"])),
+ ('side',
+  set(['[ Back ]',
+       '[ Sides ]',
+       '[ At ]',
+       '[ Right ]',
+       '[ Front ]',
+       '[ Left ]'])),
+ ('Structural', set(['[ T_Int ]']))]

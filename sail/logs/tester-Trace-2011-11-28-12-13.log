@@ -1,0 +1,8 @@
+11-28 12:27:31 INFO     frame2action [Turn_v=[MEAN='turn_V_1'], Dir=[MEAN='left_ADV_1']]
+11-28 12:27:31 INFO     <0> Turn(direction=[Left])
+11-28 12:28:08 INFO     Turning Left.
+11-28 12:28:08 INFO     After turn 1 [(Cement, Empty, Cement, Fish, Stone, Fish)]...
+11-28 12:28:23 INFO     Turning Left.
+11-28 12:28:23 INFO     After turn 1 [(Stone, Empty, Stone, Fish, Cement, Fish), (Wall, Sofa, Wall, End, Wall, End)]
+11-28 12:28:24 INFO     Turning Left.
+11-28 12:28:24 INFO     After turn 1 [(Cement, Empty, Cement, Fish, Stone, Fish)]...

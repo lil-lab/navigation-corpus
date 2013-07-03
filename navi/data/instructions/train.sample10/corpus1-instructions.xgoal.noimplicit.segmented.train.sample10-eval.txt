@@ -1,0 +1,156 @@
+EMWC_Grid0_6_5_Dirs_1
+{'numFollowers': 4, 'confidence': (5.5, 0.8660254037844386), 'directionRating': (4.75, 1.6393596310755), 'targetFound': (0.75, 0.4330127018922193), 'efficiency': (0.75, 0.4330127018922193), 'implicit': False}
+Place your back to the 'T' intersection
+## (do_until:<a,<t,a>> (do:<m,a> turn:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> (behind:<<p,t>,<p,t>> at:<p,t>) (t_intersection:<<p,t>*1,<p,t>> visible:<p,t>) (definite:<<p,t>,<p,t>> wall:<p,t>))))
+Turn to the left
+## (do_until:<a,<t,a>> (do:<m,a> turn:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (left:<<p,t>,<p,t>> at0:<p,t>))))
+Go forward two segments down the wooden hall to the chair in the blue-tiled hall, passing the lamp
+## (do_until:<a,<t,a>> (do_if:<a,<t,a>> (do:<m,a> travel:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (hall:<c,<p,t>> wood:c)))) (and:<t*,t> (steps:<n,t> 2:n) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> chair:<p,t> (hall:<c,<p,t>> blue:c))) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (past:<<p,t>,<p,t>> lamp:<p,t>)))))
+Turn left
+## (do_until:<a,<t,a>> (do:<m,a> turn:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (left:<<p,t>,<p,t>> at0:<p,t>))))
+Go forward four segments, passing the bench to the intersection containing the hatrack
+## (do_until:<a,<t,a>> (do:<m,a> travel:m) (and:<t*,t> (steps:<n,t> 4:n) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (intersection:<<p,t>*1,<p,t>> visible:<p,t>) hatrack:<p,t>)) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (past:<<p,t>,<p,t>> sofa:<p,t>)))))
+Turn left
+## (do_until:<a,<t,a>> (do:<m,a> turn:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (left:<<p,t>,<p,t>> at0:<p,t>))))
+Go forward one segment to the corner
+## (do_until:<a,<t,a>> (do:<m,a> travel:m) (and:<t*,t> (steps:<n,t> 1:n) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (corner:<<p,t>*1,<p,t>> visible:<p,t>)))))
+This is Position X
+## (do:<m,a> goal:m)
+
+EMWC_L0_7_1_Dirs_1
+{'numFollowers': 5, 'confidence': (6.0, 0.0), 'directionRating': (6.0, 0.0), 'targetFound': (1.0, 0.0), 'efficiency': (1.0, 0.0), 'implicit': False}
+Place your back against the wall of the 'T' intersection
+## (do_until:<a,<t,a>> (do:<m,a> turn:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> (behind:<<p,t>,<p,t>> at:<p,t>) (t_intersection:<<p,t>*1,<p,t>> visible:<p,t>) (definite:<<p,t>,<p,t>> wall:<p,t>))))
+Turn left
+## (do_until:<a,<t,a>> (do:<m,a> turn:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (left:<<p,t>,<p,t>> at0:<p,t>))))
+Follow the pink-flowered carpet hall two segments to the intersection with the brick hall
+## (do_until:<a,<t,a>> (do_if:<a,<t,a>> (do:<m,a> travel:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (hall:<c,<p,t>> rose:c)))) (and:<t*,t> (steps:<n,t> 2:n) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (intersection:<<p,t>*1,<p,t>> (hall:<c,<p,t>> brick:c))))))
+This intersection contains a hatrack
+## (verify:<t,a> (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (intersection:<<p,t>*1,<p,t>> visible:<p,t>) hatrack:<p,t>)))
+Turn left
+## (do_until:<a,<t,a>> (do:<m,a> turn:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (left:<<p,t>,<p,t>> at0:<p,t>))))
+Go forward four segments, passing a lamp, to the intersection with the wooden-floored hall
+## (do_until:<a,<t,a>> (do:<m,a> travel:m) (and:<t*,t> (steps:<n,t> 4:n) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (past:<<p,t>,<p,t>> lamp:<p,t>))) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (intersection:<<p,t>*1,<p,t>> (hall:<c,<p,t>> wood:c))))))
+Turn left
+## (do_until:<a,<t,a>> (do:<m,a> turn:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (left:<<p,t>,<p,t>> at0:<p,t>))))
+Go forward one segment to the intersection with a bare concrete hall
+## (do_until:<a,<t,a>> (do:<m,a> travel:m) (and:<t*,t> (steps:<n,t> 1:n) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (intersection:<<p,t>*1,<p,t>> (hall:<c,<p,t>> cement:c))))))
+This intersection contains a bench
+## (verify:<t,a> (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> sofa:<p,t> (intersection:<<p,t>*1,<p,t>> visible:<p,t>))))
+This is Position X
+## (do:<m,a> goal:m)
+
+EDA_Jelly0_3_6_Dirs_1
+{'numFollowers': 7, 'confidence': (5.428571428571429, 0.7284313590846834), 'directionRating': (4.714285714285714, 1.1605769149479943), 'targetFound': (1.0, 0.0), 'efficiency': (0.9591837142857143, 0.09997907319565043), 'implicit': False}
+turn so that the wall is on your left
+## (do_until:<a,<t,a>> (do:<m,a> turn:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> (left:<<p,t>,<p,t>> at:<p,t>) (definite:<<p,t>,<p,t>> wall:<p,t>))))
+walk forward twice
+## (do_until:<a,<t,a>> (do:<m,a> travel:m) (steps:<n,t> 2:n))
+turn right onto the pink hallway
+## (do_until:<a,<t,a>> (do:<m,a> turn:m) (and:<t*,t> (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (right:<<p,t>,<p,t>> at0:<p,t>))) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (hall:<c,<p,t>> rose:c)))))
+walk forward once
+## (do_until:<a,<t,a>> (do:<m,a> travel:m) (steps:<n,t> 1:n))
+turn right
+## (do_until:<a,<t,a>> (do:<m,a> turn:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (right:<<p,t>,<p,t>> at0:<p,t>))))
+walk forward once
+## (do_until:<a,<t,a>> (do:<m,a> travel:m) (steps:<n,t> 1:n))
+
+WLH_Grid0_7_6_Dirs_1
+{'numFollowers': 4, 'confidence': (5.25, 1.299038105676658), 'directionRating': (5.0, 1.0), 'targetFound': (1.0, 0.0), 'efficiency': (0.9, 0.17320508075688773), 'implicit': False}
+face the long alley
+## (do_until:<a,<t,a>> (do:<m,a> turn:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> (front:<<p,t>,<p,t>> at:<p,t>) (hall:<c,<p,t>> any:c))))
+move down it until you get to the wood flooring
+## (do_until:<a,<t,a>> (do_if:<a,<t,a>> (do:<m,a> travel:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (hall:<c,<p,t>> any:c)))) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (intersection:<<p,t>*1,<p,t>> (hall:<c,<p,t>> wood:c)))))
+turn right and move one block
+## (do_seq:<a+,a> (do_until:<a,<t,a>> (do:<m,a> turn:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (right:<<p,t>,<p,t>> at0:<p,t>)))) (do_until:<a,<t,a>> (do:<m,a> travel:m) (steps:<n,t> 1:n)))
+
+EDA_L0_6_1_Dirs_1
+{'numFollowers': 4, 'confidence': (4.5, 1.6583123951777), 'directionRating': (4.25, 0.82915619758885), 'targetFound': (0.75, 0.4330127018922193), 'efficiency': (0.561111, 0.38018030322861285), 'implicit': False}
+turn to face the black hallway with the pictures of towers on either side, and a lamp down in the distance
+## (do_until:<a,<t,a>> (do:<m,a> turn:m) (and:<t*,t> (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> (front:<<p,t>,<p,t>> at:<p,t>) (hall:<c,<p,t>> stone:c) eiffel_w:<p,t>)) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> (front:<<p,t>,<p,t>> at:<p,t>) lamp:<p,t>))))
+walk forward once
+## (do_until:<a,<t,a>> (do:<m,a> travel:m) (steps:<n,t> 1:n))
+turn left to face the red hallway
+## (do_until:<a,<t,a>> (do:<m,a> turn:m) (and:<t*,t> (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (left:<<p,t>,<p,t>> at0:<p,t>))) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> (front:<<p,t>,<p,t>> at:<p,t>) (hall:<c,<p,t>> brick:c)))))
+walk forward five times
+## (do_until:<a,<t,a>> (do:<m,a> travel:m) (steps:<n,t> 5:n))
+turn left
+## (do_until:<a,<t,a>> (do:<m,a> turn:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (left:<<p,t>,<p,t>> at0:<p,t>))))
+walk forward once
+## (do_until:<a,<t,a>> (do:<m,a> travel:m) (steps:<n,t> 1:n))
+
+EDA_L0_2_5_Dirs_1
+{'numFollowers': 4, 'confidence': (5.75, 0.4330127018922193), 'directionRating': (5.25, 0.82915619758885), 'targetFound': (1.0, 0.0), 'efficiency': (0.9444445, 0.09622494863989278), 'implicit': False}
+turn to face the short black hallway with the easel at the end
+## (do_until:<a,<t,a>> (do:<m,a> turn:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> (front:<<p,t>,<p,t>> at:<p,t>) (hall:<c,<p,t>> stone:c) easel:<p,t>)))
+from here turn to the right 
+## (do_until:<a,<t,a>> (do:<m,a> turn:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (right:<<p,t>,<p,t>> at0:<p,t>))))
+walk down the yellow corridor twice
+## (do_until:<a,<t,a>> (do_if:<a,<t,a>> (do:<m,a> travel:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (hall:<c,<p,t>> honeycomb:c)))) (steps:<n,t> 2:n))
+turn right
+## (do_until:<a,<t,a>> (do:<m,a> turn:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (right:<<p,t>,<p,t>> at0:<p,t>))))
+walk down the pink corridor to the intersection of the red one (2 steps)
+## (do_until:<a,<t,a>> (do_if:<a,<t,a>> (do:<m,a> travel:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (hall:<c,<p,t>> rose:c)))) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (intersection:<<p,t>*1,<p,t>> (hall:<c,<p,t>> brick:c)))))
+turn left 
+## (do_until:<a,<t,a>> (do:<m,a> turn:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (left:<<p,t>,<p,t>> at0:<p,t>))))
+walk forward three times
+## (do_until:<a,<t,a>> (do:<m,a> travel:m) (steps:<n,t> 3:n))
+
+WLH_L0_2_1_Dirs_1
+{'numFollowers': 4, 'confidence': (1.0, 0.0), 'directionRating': (1.25, 0.4330127018922193), 'targetFound': (0.0, 0.0), 'efficiency': (0.0, 0.0), 'implicit': False}
+with your back to the easel turn left and move forward one block
+## (do_seq:<a+,a> (verify:<t,a> (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> (behind:<<p,t>,<p,t>> at:<p,t>) easel:<p,t>))) (do_until:<a,<t,a>> (do:<m,a> turn:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (left:<<p,t>,<p,t>> at0:<p,t>)))) (do_until:<a,<t,a>> (do:<m,a> travel:m) (steps:<n,t> 1:n)))
+turn right
+## (do_until:<a,<t,a>> (do:<m,a> turn:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (right:<<p,t>,<p,t>> at0:<p,t>))))
+you are facing wooden flooring
+## (verify:<t,a> (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (hall:<c,<p,t>> wood:c))))
+move along this til you get to the side alley that has gray floor
+## (do_until:<a,<t,a>> (do_if:<a,<t,a>> (do:<m,a> travel:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (hall:<c,<p,t>> any:c)))) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (intersection:<<p,t>*1,<p,t>> (hall:<c,<p,t>> cement:c)))))
+this is X
+## (do:<m,a> goal:m)
+
+EDA_Grid0_7_5_Dirs_1
+{'numFollowers': 4, 'confidence': (4.0, 1.8708286933869707), 'directionRating': (4.0, 1.8708286933869707), 'targetFound': (0.5, 0.5), 'efficiency': (0.5, 0.5), 'implicit': False}
+this one is a little tricky to get oriented, look at the closest pictures on the walls for each hallway, turn so that you are facing the butterflys, and the towers are on the walls behind you
+## (do_until:<a,<t,a>> (do:<m,a> turn:m) (and:<t*,t> (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> (front:<<p,t>,<p,t>> at:<p,t>) butterfly_w:<p,t>)) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> (behind:<<p,t>,<p,t>> at:<p,t>) eiffel_w:<p,t>))))
+walk forward once 
+## (do_until:<a,<t,a>> (do:<m,a> travel:m) (steps:<n,t> 1:n))
+turn to the left 
+## (do_until:<a,<t,a>> (do:<m,a> turn:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (left:<<p,t>,<p,t>> at0:<p,t>))))
+you should be looking at the blue hallway
+## (verify:<t,a> (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (hall:<c,<p,t>> blue:c))))
+walk forward twice
+## (do_until:<a,<t,a>> (do:<m,a> travel:m) (steps:<n,t> 2:n))
+turn left 
+## (do_until:<a,<t,a>> (do:<m,a> turn:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (left:<<p,t>,<p,t>> at0:<p,t>))))
+walk forward once 
+## (do_until:<a,<t,a>> (do:<m,a> travel:m) (steps:<n,t> 1:n))
+
+EDA_Grid0_5_2_Dirs_1
+{'numFollowers': 4, 'confidence': (5.5, 0.5), 'directionRating': (4.25, 1.0897247358851685), 'targetFound': (1.0, 0.0), 'efficiency': (0.85294125, 0.25471322669756963), 'implicit': False}
+turn so that the wall is on your right and back
+## (do_until:<a,<t,a>> (do:<m,a> turn:m) (and:<t*,t> (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> (right:<<p,t>,<p,t>> at:<p,t>) (definite:<<p,t>,<p,t>> wall:<p,t>))) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> (behind:<<p,t>,<p,t>> at:<p,t>) (definite:<<p,t>,<p,t>> wall:<p,t>)))))
+walk forward once
+## (do_until:<a,<t,a>> (do:<m,a> travel:m) (steps:<n,t> 1:n))
+turn right
+## (do_until:<a,<t,a>> (do:<m,a> turn:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (right:<<p,t>,<p,t>> at0:<p,t>))))
+walk forward three times
+## (do_until:<a,<t,a>> (do:<m,a> travel:m) (steps:<n,t> 3:n))
+turn right to face the black hallway
+## (do_until:<a,<t,a>> (do:<m,a> turn:m) (and:<t*,t> (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (right:<<p,t>,<p,t>> at0:<p,t>))) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> (front:<<p,t>,<p,t>> at:<p,t>) (hall:<c,<p,t>> stone:c)))))
+walk forward three times
+## (do_until:<a,<t,a>> (do:<m,a> travel:m) (steps:<n,t> 3:n))
+if you are in the right place you should be at the intersection of black and yellow
+## (do_if:<a,<t,a>> (do:<m,a> goal:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (intersection:<<p,t>*1,<p,t>> (hall:<c,<p,t>> stone:c) (hall:<c,<p,t>> honeycomb:c)))))
+
+EDA_L0_5_1_Dirs_1
+{'numFollowers': 6, 'confidence': (1.8333333333333333, 0.8975274678557507), 'directionRating': (1.5, 0.5), 'targetFound': (0.0, 0.0), 'efficiency': (0.0, 0.0), 'implicit': False}
+turn so the wall is on your left
+## (do_until:<a,<t,a>> (do:<m,a> turn:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> (left:<<p,t>,<p,t>> at:<p,t>) (definite:<<p,t>,<p,t>> wall:<p,t>))))
+walk forward twice
+## (do_until:<a,<t,a>> (do:<m,a> travel:m) (steps:<n,t> 2:n))
+turn left
+## (do_until:<a,<t,a>> (do:<m,a> turn:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (left:<<p,t>,<p,t>> at0:<p,t>))))
+walk forward once
+## (do_until:<a,<t,a>> (do:<m,a> travel:m) (steps:<n,t> 1:n))
+

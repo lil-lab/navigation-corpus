@@ -1,0 +1,27 @@
+#VRML V2.0 utf8
+DEF Eiffel_Metal_Hall Group {
+   children [
+      Transform {
+	 translation -5.000000 0 0
+	 children DEF EiffelHallWall Inline{
+	    url "SharedMedia/Objects/EiffelHallWall.wrl"
+	 }
+      },
+      Transform {
+	 translation 5.000000 0 0
+	 children USE EiffelHallWall
+      },
+      Transform {
+	 translation 0 -5.000000 0
+	 children Inline {
+	    url "SharedMedia/Objects/Metal.wrl"
+	 }
+      },
+      Transform {
+	 translation 0 5.000000 0
+	 children Inline {
+	    url "SharedMedia/Objects/Cement.wrl"
+	 }
+      }
+     ]
+}

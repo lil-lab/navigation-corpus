@@ -1,0 +1,56 @@
+*n:Num -> ({ *t:Num })
+
+*n:S -> ({ NULL })
+*n:S -> ({ *n:Action })
+
+*n:Action -> ({ *n:Action , *n:Action })
+*n:Action -> ({ *n:Travel }) 
+*n:Action -> ({ *n:Turn }) 
+*n:Action -> ({ Verify ( *n:Condition ) })
+
+*n:Travel -> ({ Travel ( ) })
+*n:Travel -> ({ Travel ( steps: *n:Num ) })
+
+*n:Turn -> ({ Turn ( ) })
+*n:Turn -> ({ Turn ( LEFT ) })
+*n:Turn -> ({ Turn ( RIGHT ) })
+
+*n:Condition ->ac ({ *n:Condition , *n:Condition })
+*n:Condition -> ({ *n:Direction *n:Object }) 
+
+*n:Direction -> ({ at: })
+*n:Direction -> ({ left: })
+*n:Direction -> ({ right: })
+*n:Direction -> ({ front: })
+*n:Direction -> ({ back: })
+*n:Direction -> ({ side: })
+
+*n:Object -> ({ CHAIR })
+*n:Object -> ({ BARSTOOL })
+*n:Object -> ({ SOFA })
+*n:Object -> ({ LAMP })
+*n:Object -> ({ HATRACK })
+*n:Object -> ({ EASEL })
+*n:Object -> ({ 4-INTERSECTION })
+*n:Object -> ({ 3-INTERSECTION })
+*n:Object -> ({ *n:Wall }) 
+*n:Object -> ({ *n:Hallway }) 
+
+*n:Wall -> ({ WALL })
+*n:Wall -> ({ *n:WallPaintings WALL }) 
+
+*n:WallPaintings -> ({ FISH })
+*n:WallPaintings -> ({ TOWER })
+*n:WallPaintings -> ({ BUTTERFLY })
+
+*n:Hallway -> ({ HALLWAY })
+*n:Hallway -> ({ *n:HallwayTiles HALLWAY }) 
+
+*n:HallwayTiles -> ({ GRASS })
+*n:HallwayTiles -> ({ FLOWER })
+*n:HallwayTiles -> ({ BLUE })
+*n:HallwayTiles -> ({ WOOD })
+*n:HallwayTiles -> ({ YELLOW })
+*n:HallwayTiles -> ({ BRICK })
+*n:HallwayTiles -> ({ GRAVEL })
+*n:HallwayTiles -> ({ CONCRETE })

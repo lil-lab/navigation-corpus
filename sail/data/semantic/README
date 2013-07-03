@@ -1,0 +1,5 @@
+This directory contains human annotated semantics of the instructions.  The annotations were used for evaluating the outputs of the plan construction as well as for comparing system performances (for details, see our AAAI paper: http://www.cs.utexas.edu/users/ai-lab/pub-view.php?PubID=127067)
+
+The sentences were annotated in a language we invented called SAIL (Steering Action Instruction Language).  The CFG for SAIL is included.
+
+We have also converted from SAIL to the language used by the MARCO system for easy execution.

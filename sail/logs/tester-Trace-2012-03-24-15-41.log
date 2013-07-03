@@ -1,0 +1,2 @@
+03-24 15:41:28 INFO     frame2action [Turn_v=[MEAN='turn_V_1'], Purpose=[Purpose_p=[MEAN='SO THAT'], S=[Side=[Dir=[MEAN='back_ADV_1,2'], Side_n=[MEAN='side_N_1']], Orient_v=[MEAN="faces_V_('face', [5])"], Obj=[Det=[MEAN='THE'], Obj_n=[MEAN='easel_N_1']]]]]
+03-24 15:41:28 INFO     <0> Turn(face=Face(faced=Verify(desc=[Thing(dist='0:', value=Easel, type='Obj', side=[Back])])))

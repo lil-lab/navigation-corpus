@@ -1,0 +1,15 @@
+EDA_L0_6_1_Dirs_1
+{'numFollowers': 4, 'confidence': (4.5, 1.6583123951777), 'directionRating': (4.25, 0.82915619758885), 'targetFound': (0.75, 0.4330127018922193), 'efficiency': (0.561111, 0.38018030322861285), 'implicit': False}
+turn to face the black hallway with the pictures of towers on either side, and a lamp down in the distance
+## (do_until:<a,<t,a>> (do:<m,a> turn:m) (and:<t*,t> (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> (front:<<p,t>,<p,t>> at:<p,t>) (hall:<c,<p,t>> stone:c) eiffel_w:<p,t>)) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> (front:<<p,t>,<p,t>> at:<p,t>) lamp:<p,t>))))
+walk forward once
+## (do_until:<a,<t,a>> (do:<m,a> travel:m) (steps:<n,t> 1:n))
+turn left to face the red hallway
+## (do_until:<a,<t,a>> (do:<m,a> turn:m) (and:<t*,t> (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (left:<<p,t>,<p,t>> at0:<p,t>))) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> (front:<<p,t>,<p,t>> at:<p,t>) (hall:<c,<p,t>> brick:c)))))
+walk forward five times
+## (do_until:<a,<t,a>> (do:<m,a> travel:m) (steps:<n,t> 5:n))
+turn left
+## (do_until:<a,<t,a>> (do:<m,a> turn:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (left:<<p,t>,<p,t>> at0:<p,t>))))
+walk forward once
+## (do_until:<a,<t,a>> (do:<m,a> travel:m) (steps:<n,t> 1:n))
+

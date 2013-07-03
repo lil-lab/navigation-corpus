@@ -1,0 +1,18 @@
+#!/usr/bin/python2.3
+import sys,os
+from nltk.tokenreader.treebank import TreebankTokenReader
+from DirectionCorpus import DirectionCorpusReader, printDirs
+
+if __name__ == '__main__':
+    files = []
+    #print sys.argv
+    if len(sys.argv)==2 and sys.argv[1]: Files = [sys.argv[1]]
+    elif len(sys.argv)>2 and sys.argv[1]: Files = sys.argv[1:]
+    reader = TreebankTokenReader(SUBTOKENS='WORDS')
+    reader.parse_iter = DirectionCorpusReader.parse_iter
+    for file in Files:
+        print file
+        text = open(file).read()
+        tree = reader.read_token(text)
+        os.rename(file,file+'.bak')
+        open(file,'w').write(printDirs(tree['TREE']))

@@ -1,0 +1,716 @@
+KLS_L0_1_4_Dirs_1
+{'numFollowers': 6, 'confidence': (5.666666666666667, 0.4714045207910317), 'directionRating': (5.5, 0.5), 'targetFound': (1.0, 0.0), 'efficiency': (1.0, 0.0), 'implicit': True}
+go towards the intersection of the red brick path
+take a right onto the red brick
+follow it until the intersection of the pink flowered path
+take a left onto it
+go all the way until you can either go right or left on a blue path
+this is position X
+
+TJS_Grid0_3_7_Dirs_1
+{'numFollowers': 6, 'confidence': (4.666666666666667, 1.1055415967851332), 'directionRating': (4.666666666666667, 1.1055415967851332), 'targetFound': (1.0, 0.0), 'efficiency': (1.0, 0.0), 'implicit': True}
+go forward one movement in the direction of the red floor
+
+KLS_Jelly0_3_1_Dirs_1
+{'numFollowers': 4, 'confidence': (5.0, 1.0), 'directionRating': (4.5, 1.118033988749895), 'targetFound': (1.0, 0.0), 'efficiency': (0.29618175, 0.02489629273983377), 'implicit': True}
+take the blue path towards the chair to the very end of the hall
+here, go left
+at the easel, take a right onto the wood path
+go to the end of the hall
+take a left, follow the path, and then take a right at the lamp
+again, follow the path and take a left at the corner, at the end of this hall, take a left onto the green path
+go several intersections down to the plain cement intersection and take a left
+the very next intersection with the wood path is position X
+
+KLS_Jelly0_4_7_Dirs_1
+{'numFollowers': 4, 'confidence': (5.5, 0.5), 'directionRating': (5.5, 0.5), 'targetFound': (1.0, 0.0), 'efficiency': (1.0, 0.0), 'implicit': True}
+take the yellow path all the way to the other end of the hall
+here, take a right onto the black path
+follow the black path all the way until you reach a black stool
+at the stool, you are at X
+
+EDA_Grid0_6_5_Dirs_1
+{'numFollowers': 6, 'confidence': (5.0, 1.1547005383792515), 'directionRating': (5.166666666666667, 0.6871842709362768), 'targetFound': (1.0, 0.0), 'efficiency': (1.0, 0.0), 'implicit': False}
+turn so that the wall is on your left
+walk forward twice
+turn left
+walk forward four times
+turn left
+walk forward once
+
+TJS_L0_7_1_Dirs_1
+{'numFollowers': 4, 'confidence': (5.5, 0.8660254037844386), 'directionRating': (3.0, 1.224744871391589), 'targetFound': (1.0, 0.0), 'efficiency': (1.0, 0.0), 'implicit': True}
+go down the rose hall until you reach the red hall, then take a left onto the wood hall, position X has a bench
+
+KLS_Grid0_4_1_Dirs_1
+{'numFollowers': 6, 'confidence': (5.833333333333333, 0.37267799624996495), 'directionRating': (5.5, 0.7637626158259733), 'targetFound': (1.0, 0.0), 'efficiency': (1.0, 0.0), 'implicit': True}
+take the yellow path to the pink path intersection
+go right onto the pink path all the way to the black easel
+at this intersection of pink path and red brick, you are at position X
+
+WLH_Grid0_4_1_Dirs_1
+{'numFollowers': 4, 'confidence': (5.0, 1.0), 'directionRating': (5.0, 0.7071067811865476), 'targetFound': (1.0, 0.0), 'efficiency': (1.0, 0.0), 'implicit': False}
+from Y face the octagon carpet and move forward one alley
+turn right
+you should be facing flowered carpet and an easel
+move to it
+this is X
+
+EDA_Jelly0_4_1_Dirs_1
+{'numFollowers': 5, 'confidence': (5.8, 0.39999999999999997), 'directionRating': (5.6, 0.4898979485566356), 'map': 'jelly', 'targetFound': (1.0, 0.0), 'efficiency': (1.0, 0.0), 'implicit': 'partial', 'valid': True, 'correct': True}
+only one way to go
+## (verify:<t,a> (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> deadend:<p,t>)))
+%% VERIFY(15,20,0)
+walk to the end of the yellow hall (3 steps)
+## (do_until:<a,<t,a>> (do:<m,a> travel:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (end:<<p,t>,<p,t>> (hall:<c,<p,t>> honeycomb:c)))))
+%% FORWARD(15,20,0)
+%% FORWARD(15,19,0)
+%% FORWARD(15,18,0)
+%% NULL(15,17,0)
+turn right
+## (do_until:<a,<t,a>> (do:<m,a> turn:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (right:<<p,t>,<p,t>> at0:<p,t>))))
+%% RIGHT(15,17,0)
+%% NULL(15,17,90)
+walk to the end of the black hall (3 steps)
+## (do_until:<a,<t,a>> (do:<m,a> travel:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (end:<<p,t>,<p,t>> (hall:<c,<p,t>> stone:c)))))
+%% FORWARD(15,17,90)
+%% FORWARD(16,17,90)
+%% FORWARD(17,17,90)
+%% NULL(18,17,90)
+turn left
+## (do_until:<a,<t,a>> (do:<m,a> turn:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (left:<<p,t>,<p,t>> at0:<p,t>))))
+%% LEFT(18,17,90)
+%% NULL(18,17,0)
+walk forward once
+## (do_until:<a,<t,a>> (do:<m,a> travel:m) (steps:<n,t> 1:n))
+%% FOWARD(18,17,0)
+%% NULL(18,16,0)
+turn right
+## (do_until:<a,<t,a>> (do:<m,a> turn:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (right:<<p,t>,<p,t>> at0:<p,t>))))
+%% RIGHT(18,16,0)
+%% NULL(18,16,90)
+walk forward once
+## (do_until:<a,<t,a>> (do:<m,a> travel:m) (steps:<n,t> 1:n))
+%% FORWARD(18,16,90)
+%% NULL(19,16,90)
+
+EDA_Jelly0_2_5_Dirs_1
+{'numFollowers': 6, 'confidence': (4.833333333333333, 1.8633899812498247), 'directionRating': (5.333333333333333, 0.7453559924999298), 'targetFound': (1.0, 0.0), 'efficiency': (1.0, 0.0), 'implicit': False}
+turn so that the wall is facing your left and back
+walk forward once
+turn left
+walk forward once
+turn right
+walk forward once
+
+KLS_Jelly0_3_6_Dirs_1
+{'numFollowers': 6, 'confidence': (5.5, 1.118033988749895), 'directionRating': (5.166666666666667, 1.0671873729054748), 'targetFound': (0.8333333333333334, 0.37267799624996495), 'efficiency': (0.8333333333333334, 0.37267799624996495), 'implicit': True}
+take the blue path towards the chair and at the pink path intersection, take a right onto the pink path
+at the very first intersection on this path, take a right and go to the end of the hall
+this is X
+
+TJS_Grid0_6_4_Dirs_1
+{'numFollowers': 5, 'confidence': (5.4, 1.2), 'directionRating': (2.8, 1.1661903789690602), 'targetFound': (0.8, 0.4), 'efficiency': (0.72, 0.3919183588453085), 'implicit': True}
+it's at the corner of the yellow floor and the grassy floor
+
+EDA_Jelly0_1_2_Dirs_2
+{'numFollowers': 7, 'confidence': (5.857142857142857, 0.3499271061118826), 'directionRating': (5.428571428571429, 0.49487165930539345), 'targetFound': (1.0, 0.0), 'efficiency': (1.0, 0.0), 'implicit': False}
+turn so the wall is on your back
+walk forward once
+turn right onto the green hallway
+walk to the end (maybe four spaces)
+turn right and walk forward once
+
+WLH_L0_1_5_Dirs_1
+{'numFollowers': 7, 'confidence': (5.428571428571429, 0.7284313590846836), 'directionRating': (5.0, 0.9258200997725514), 'targetFound': (0.7142857142857143, 0.45175395145262565), 'efficiency': (0.5, 0.3779644730092272), 'implicit': 'partial'}
+with your back to the wall turn left
+move to the brick floor and turn right
+move forward one alley
+the alley to your left has grey floor and you see a lamp in front of you
+this is X
+
+EDA_Grid0_1_2_Dirs_1
+{'numFollowers': 5, 'confidence': (5.0, 0.8944271909999159), 'directionRating': (5.0, 0.6324555320336759), 'targetFound': (1.0, 0.0), 'efficiency': (1.0, 0.0), 'implicit': False}
+turn to face the long red hallway
+walk forward twice
+turn left
+walk forward twice
+
+EDA_L0_7_2_Dirs_1
+{'numFollowers': 7, 'confidence': (5.857142857142857, 0.3499271061118826), 'directionRating': (5.857142857142857, 0.3499271061118826), 'targetFound': (0.0, 0.0), 'efficiency': (0.0, 0.0), 'implicit': False}
+turn to face the honeycomb yellow hallway
+walk forward once
+
+EMWC_Jelly0_6_4_Dirs_1
+{'numFollowers': 5, 'confidence': (6.0, 0.0), 'directionRating': (6.0, 0.0), 'map': 'jelly', 'targetFound': (1.0, 0.0), 'efficiency': (1.0, 0.0), 'implicit': True}
+Go forward one segment to the intersection with the pink-flowered carpet hall
+Turn left
+## (do_until:<a,<t,a>> (do:<m,a> turn:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (left:<<p,t>,<p,t>> at0:<p,t>))))
+Go forward one segment to the intersection with the blue-tiled hall
+Turn left
+## (do_until:<a,<t,a>> (do:<m,a> turn:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (left:<<p,t>,<p,t>> at0:<p,t>))))
+Go to the intersection with the yellow-tiled hall, passing a chair
+This intersection contains a hatrack
+Turn left
+## (do_until:<a,<t,a>> (do:<m,a> turn:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (left:<<p,t>,<p,t>> at0:<p,t>))))
+Go forward two segments
+This is Position X
+## (do:<m,a> goal:m)
+
+KXP_Jelly0_6_4_Dirs_1
+{'numFollowers': 6, 'confidence': (5.166666666666667, 0.8975274678557507), 'directionRating': (3.8333333333333335, 0.6871842709362768), 'targetFound': (0.6666666666666666, 0.4714045207910317), 'efficiency': (0.6111111666666666, 0.44790321512964404), 'implicit': True}
+foward, left, left, all the way till almost the end, make a laft into fishy area, go to end
+
+EDA_L0_4_7_Dirs_1
+{'numFollowers': 5, 'confidence': (5.6, 0.8), 'directionRating': (5.2, 1.1661903789690602), 'targetFound': (1.0, 0.0), 'efficiency': (1.0, 0.0), 'implicit': False}
+turn to face the pink hallway
+walk forward 3 times
+
+EMWC_Jelly0_6_1_Dirs_1
+{'numFollowers': 7, 'confidence': (5.571428571428571, 0.7284313590846834), 'directionRating': (5.142857142857143, 0.6388765649999399), 'valid': True, 'map': 'jelly', 'targetFound': (1.0, 0.0), 'efficiency': (0.7999999999999999, 0.19086270308410552), 'correct': True, 'implicit': 'partial'}
+Go forward one segment to the intersection with the pink-flowered carpet hall
+## (do_until:<a,<t,a>> (do:<m,a> travel:m) (and:<t*,t> (steps:<n,t> 1:n) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (intersection:<<p,t>*1,<p,t>> (hall:<c,<p,t>> rose:c))))))
+%% FORWARD(18,19,90)
+%% NULL(19,19,90)
+Turn left
+## (do_until:<a,<t,a>> (do:<m,a> turn:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (left:<<p,t>,<p,t>> at0:<p,t>))))
+%% LEFT(19,19,90)
+%% NULL(19,19,0)
+Go forward one segment to the blue-tiled hall
+## (do_until:<a,<t,a>> (do:<m,a> travel:m) (and:<t*,t> (steps:<n,t> 1:n) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (intersection:<<p,t>*1,<p,t>> (hall:<c,<p,t>> blue:c))))))
+%% FORWARD(19,19,0)
+%% NULL(19,18,0)
+Turn right
+## (do_until:<a,<t,a>> (do:<m,a> turn:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (right:<<p,t>,<p,t>> at0:<p,t>))))
+%% RIGHT(19,18,0)
+%% NULL(19,18,90)
+Go to the end of the hall (one segment?)
+## (do_until:<a,<t,a>> (do:<m,a> travel:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (end:<<p,t>,<p,t>> (hall:<c,<p,t>> any:c)))))
+%% FORWARD(19,18,90)
+%% NULL(20,18,90)
+Turn left
+## (do_until:<a,<t,a>> (do:<m,a> turn:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (left:<<p,t>,<p,t>> at0:<p,t>))))
+%% LEFT(20,18,90)
+%% NULL(20,18,0)
+Go forward, passing the easel
+## (do_until:<a,<t,a>> (do:<m,a> travel:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (past:<<p,t>,<p,t>> easel:<p,t>))))
+%% FORWARD(20,18,0)
+%% FORWARD(20,17,0)
+%% NULL(20,16,0)
+Follow the bare concrete hall to the intersection with the brick hall
+## (do_until:<a,<t,a>> (do_if:<a,<t,a>> (do:<m,a> travel:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (hall:<c,<p,t>> cement:c)))) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (intersection:<<p,t>*1,<p,t>> (hall:<c,<p,t>> brick:c)))))
+%% NULL(20,16,0)
+LSZ: not the last two sentences are redundant (Based on my inperpretation). not sure what to do in this case
+Turn into the brick hall
+## (do_until:<a,<t,a>> (do:<m,a> turn:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (hall:<c,<p,t>> brick:c))))
+%% LEFT(20,16,0)
+%% NULL(20,16,270)
+Go forward to the intersection which has butterfly pictures on one side and Eiffel Tower pictures on the other
+## (do_until:<a,<t,a>> (do:<m,a> travel:m) (and:<t*,t> (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> intersection:<p,t> butterfly_w:<p,t>)) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> (side:<<p,t>,<p,t>> at:<p,t>) intersection:<p,t> eiffel_w:<p,t>))))
+%% FORWARD(20,16,270)
+%% NULL(19,16,270)
+
+WLH_L0_4_1_Dirs_1
+{'numFollowers': 6, 'confidence': (4.666666666666667, 0.9428090415820634), 'directionRating': (4.5, 0.9574271077563381), 'targetFound': (1.0, 0.0), 'efficiency': (0.9166666666666666, 0.18633899812498247), 'implicit': 'partial'}
+with your back to the wall move to the hatrack
+turn right and move along the brick floor two alleys past the lamp
+turn left
+you should be facing a chair and an alley with wooden flooring
+move to the chair
+this is X
+
+EDA_L0_2_1_Dirs_1
+{'numFollowers': 5, 'confidence': (2.0, 1.5491933384829668), 'directionRating': (2.8, 1.8330302779823362), 'targetFound': (0.2, 0.4000000000000001), 'efficiency': (0.1636364, 0.3272728), 'implicit': False}
+turn to face the short black hallway with the easel at the end
+from this point, turn right
+walk down the yellow floored hallway twice
+turn to the right and walk forward three times
+you should be at the interection of the pink and red floors
+turn left and walk forward four times
+turn left and walk forward once
+
+EDA_Jelly0_6_2_Dirs_1
+{'numFollowers': 5, 'confidence': (5.4, 0.8), 'directionRating': (5.2, 0.9797958971132712), 'map': 'jelly', 'targetFound': (0.8, 0.4000000000000001), 'efficiency': (0.8, 0.4000000000000001), 'implicit': True}
+only one way to go
+walk forward once
+## (do_until:<a,<t,a>> (do:<m,a> travel:m) (steps:<n,t> 1:n))
+turn left
+## (do_until:<a,<t,a>> (do:<m,a> turn:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (left:<<p,t>,<p,t>> at0:<p,t>))))
+walk forward once
+## (do_until:<a,<t,a>> (do:<m,a> travel:m) (steps:<n,t> 1:n))
+turn right
+## (do_until:<a,<t,a>> (do:<m,a> turn:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (right:<<p,t>,<p,t>> at0:<p,t>))))
+walk forward once
+## (do_until:<a,<t,a>> (do:<m,a> travel:m) (steps:<n,t> 1:n))
+turn left
+## (do_until:<a,<t,a>> (do:<m,a> turn:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (left:<<p,t>,<p,t>> at0:<p,t>))))
+walk forward once
+## (do_until:<a,<t,a>> (do:<m,a> travel:m) (steps:<n,t> 1:n))
+turn right
+## (do_until:<a,<t,a>> (do:<m,a> turn:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (right:<<p,t>,<p,t>> at0:<p,t>))))
+walk forward twice
+## (do_until:<a,<t,a>> (do:<m,a> travel:m) (steps:<n,t> 2:n))
+turn left
+## (do_until:<a,<t,a>> (do:<m,a> turn:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (left:<<p,t>,<p,t>> at0:<p,t>))))
+walk forward once
+## (do_until:<a,<t,a>> (do:<m,a> travel:m) (steps:<n,t> 1:n))
+turn right
+## (do_until:<a,<t,a>> (do:<m,a> turn:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (right:<<p,t>,<p,t>> at0:<p,t>))))
+walk forward once
+## (do_until:<a,<t,a>> (do:<m,a> travel:m) (steps:<n,t> 1:n))
+
+KLS_Jelly0_5_2_Dirs_1
+{'numFollowers': 5, 'confidence': (5.8, 0.4), 'directionRating': (5.4, 1.2000000000000002), 'targetFound': (1.0, 0.0), 'efficiency': (1.0, 0.0), 'implicit': True}
+take the wood path away from the easel
+at the corner, take a left
+follow the path to the next corner and take a right at the lamp
+go straight to the very next corner and this is X
+
+TJS_Jelly0_4_2_Dirs_1
+{'numFollowers': 5, 'confidence': (3.6, 2.244994432064365), 'directionRating': (2.6, 1.8547236990991407), 'targetFound': (0.0, 0.0), 'efficiency': (0.0, 0.0), 'implicit': True}
+Position X is at the corner of two halls with no tiles on the floor but with butterflies on the wall
+
+EMWC_Grid0_2_7_Dirs_1
+{'numFollowers': 6, 'confidence': (5.166666666666667, 0.6871842709362768), 'directionRating': (4.166666666666667, 1.0671873729054748), 'valid': False, 'map': 'grid', 'targetFound': (0.8333333333333334, 0.37267799624996495), 'efficiency': (0.2670993333333333, 0.14609010572094042), 'correct': False, 'implicit': True}
+Follow the hall with the yellow-tiled floor to the hall with pink-flowered carpet on the floor
+Turn left into this hall
+Follow this hall until you reach the hall with a brown stone floor,one previous to the blue-tiled hall
+Turn left
+Follow the hall until you reach a concrete hall with butterflies to the side the blue tile is on (the right side) and nothing in the intersection at that end of the hall
+The intersection you are standing in should also be empty
+This is position X
+
+EMWC_Jelly0_6_2_Dirs_1
+{'numFollowers': 5, 'confidence': (5.0, 2.0), 'directionRating': (5.6, 0.48989794855663565), 'map': 'jelly', 'targetFound': (0.8, 0.4), 'efficiency': (0.6888888, 0.406125984223812), 'implicit': True}
+Go forward one segment to the pink-flowered carpet hall
+Turn left
+## (do_until:<a,<t,a>> (do:<m,a> turn:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (left:<<p,t>,<p,t>> at0:<p,t>))))
+Go forward one segment to the blue-tiled hall
+Turn right
+## (do_until:<a,<t,a>> (do:<m,a> turn:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (right:<<p,t>,<p,t>> at0:<p,t>))))
+Go to the end of the hall (one segment?)
+Turn left
+## (do_until:<a,<t,a>> (do:<m,a> turn:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (left:<<p,t>,<p,t>> at0:<p,t>))))
+Follow this hall to the wooden-floored hall
+This intersection will contain an easel
+Turn right
+## (do_until:<a,<t,a>> (do:<m,a> turn:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (right:<<p,t>,<p,t>> at0:<p,t>))))
+Go forward two segments to a bare concrete hall
+Turn left
+## (do_until:<a,<t,a>> (do:<m,a> turn:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (left:<<p,t>,<p,t>> at0:<p,t>))))
+Go forward one segment to the intersection containing the lamp
+Turn right
+## (do_until:<a,<t,a>> (do:<m,a> turn:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (right:<<p,t>,<p,t>> at0:<p,t>))))
+Go forward one segment
+This is Position X
+## (do:<m,a> goal:m)
+
+EMWC_Jelly0_5_4_Dirs_1
+{'numFollowers': 6, 'confidence': (5.833333333333333, 0.37267799624996495), 'directionRating': (5.0, 0.816496580927726), 'valid': True, 'map': 'jelly', 'targetFound': (0.8333333333333334, 0.37267799624996495), 'efficiency': (0.7727273333333334, 0.3550113566646691), 'correct': True, 'implicit': True}
+Face the easel
+## (do_until:<a,<t,a>> (do:<m,a> turn:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> (front:<<p,t>,<p,t>> at:<p,t>) easel:<p,t>)))
+%% LEFT(21,17,90)
+%% LEFT(21,17,0)
+%% NULL(21,17,270)
+Go forward one segment
+## (do_until:<a,<t,a>> (do:<m,a> travel:m) (steps:<n,t> 1:n))
+%% FORWARD(21,17,270)
+%% NULL(20,17,270)
+Turn left
+## (do_until:<a,<t,a>> (do:<m,a> turn:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (left:<<p,t>,<p,t>> at0:<p,t>))))
+%% LEFT(20,17,270)
+%% NULL(20,17,180)
+Go forward one segment to the intersection with the blue-tiled hall
+## (do_until:<a,<t,a>> (do:<m,a> travel:m) (and:<t*,t> (steps:<n,t> 1:n) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (intersection:<<p,t>*1,<p,t>> (hall:<c,<p,t>> blue:c))))))
+%% FORWARD(20,17,180)
+%% NULL(20,18,180)
+Follow this hall to its opposite end(about seven segments)
+## (do_if:<a,<t,a>> (do:<m,a> travel:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (hall:<c,<p,t>> blue:c))))
+%% RIGHT[I](20,18,180)
+%% FORWARD(20,18,270)
+%% FORWARD(19,18,270)
+%% FORWARD(18,18,270)
+%% FORWARD(17,18,270)
+%% FORWARD(16,18,270)
+%% NULL(15,18,270)
+LSZ: here I have annotated the correct execution, even though the instructions are wrong. this and the next few setnences are messy...
+You will pass a chair and a hatrack
+## (verify:<t,a> (and:<t*,t> (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> (behind:<<p,t>,<p,t>> at:<p,t>) chair:<p,t>)) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> (behind:<<p,t>,<p,t>> at:<p,t>) hatrack:<p,t>))))
+%% VERIFY(15,18,270)
+At the far end, you will reach the intersection with the yellow-tiled hall
+## (verify:<t,a> (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (intersection:<<p,t>*1,<p,t>> (hall:<c,<p,t>> honeycomb:c)))))
+%% VERIFY(15,18,270)
+Turn left
+## (do_until:<a,<t,a>> (do:<m,a> turn:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (left:<<p,t>,<p,t>> at0:<p,t>))))
+%% LEFT(15,18,270)
+%% NULL(15,18,180)
+Go forward two segments to the end of the hall
+## (do_until:<a,<t,a>> (do:<m,a> travel:m) (and:<t*,t> (steps:<n,t> 2:n) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (end:<<p,t>,<p,t>> (hall:<c,<p,t>> any:c))))))
+%% FORWARD(15,18,180)
+%% FORWARD(15,19,180)
+%% NULL(15,20,180)
+This is Position X
+## (do:<m,a> goal:m)
+%% GOAL(15,20,180)
+
+KLS_Jelly0_6_7_Dirs_1
+{'numFollowers': 5, 'confidence': (5.6, 0.48989794855663565), 'directionRating': (5.0, 0.6324555320336759), 'targetFound': (1.0, 0.0), 'efficiency': (1.0, 0.0), 'implicit': True}
+go towards the pink path intersection
+once here, take a left onto the pink path
+at the next intersection, take a left onto the blue path
+take the blue path towards teh chair
+at the chair, take a right
+the next intersection is X
+
+EMWC_Jelly0_4_3_Dirs_1
+{'numFollowers': 4, 'confidence': (3.25, 1.479019945774904), 'directionRating': (2.75, 1.479019945774904), 'valid': True, 'map': 'jelly', 'targetFound': (0.5, 0.5), 'efficiency': (0.33333325, 0.40824829046388855), 'correct': True, 'implicit': 'partial'}
+Go forward two segments to the intersection with the blue-tiled hall
+## (do_until:<a,<t,a>> (do:<m,a> travel:m) (and:<t*,t> (steps:<n,t> 2:n) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (intersection:<<p,t>*1,<p,t>> (hall:<c,<p,t>> blue:c))))))
+Turn right
+## (do_until:<a,<t,a>> (do:<m,a> turn:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (right:<<p,t>,<p,t>> at0:<p,t>))))
+Go forward to the bare concrete intersection between two intersections containing furniture
+## (do_until:<a,<t,a>> (do:<m,a> travel:m) (and:<t*,t> (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (intersection:<<p,t>*1,<p,t>> (hall:<c,<p,t>> cement:c)))) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> (front:<<p,t>,<p,t>> at:<p,t>) (distance:<<p,t>,<n,<p,t>>> furniture:<p,t> 1:n))) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> (behind:<<p,t>,<p,t>> at:<p,t>) (distance:<<p,t>,<n,<p,t>>> furniture:<p,t> 1:n)))))
+This is Position X
+## (do:<m,a> goal:m)
+If the yellow-tiled hall does not intersect the blue-tiled hall as I recall it doing, it wil intersect the stone hall
+Follow the stone hall right and, looking to your right, you should see the blue-tiled hall
+The above description of the intersection which is Position X is accurate
+
+WLH_Grid0_1_5_Dirs_1
+{'numFollowers': 4, 'confidence': (4.0, 1.8708286933869707), 'directionRating': (3.5, 1.5), 'targetFound': (0.5, 0.5), 'efficiency': (0.34210525, 0.40853091221190047), 'implicit': False}
+from one turn until you can see a corner of blue carpet on the side alleys move to this, turn left, you should see a chair and a hatrack in front of you, move to the hatrack, turn left, go to the corner, this is X
+
+EDA_Jelly0_2_3_Dirs_1
+{'numFollowers': 4, 'confidence': (5.25, 1.299038105676658), 'directionRating': (4.75, 0.4330127018922193), 'targetFound': (0.75, 0.4330127018922193), 'efficiency': (0.75, 0.4330127018922193), 'implicit': False}
+turn so the wall is on your left and back
+walk forward once
+turn left
+walk forward once
+turn right
+walk forward twice
+turn left
+walk forward once
+turn right onto the blue hallway and walk forward four times
+if you are standing at the intersection of the blue and yellow floors, back up once
+
+KLS_Jelly0_2_6_Dirs_1
+{'numFollowers': 5, 'confidence': (4.0, 2.449489742783178), 'directionRating': (2.4, 1.019803902718557), 'targetFound': (0.6, 0.48989794855663565), 'efficiency': (0.2993938, 0.2950114546904239), 'implicit': True}
+Take the path towards the lamp
+at the lamp, follow the path to the left, and then right at the next corner
+when you come to a red brick path path, go left
+when you reach the blue path, take a right onto it
+follow it until you can take a left onto the pink path
+once on the pink path, take a right at the first intersection and go all the way to the end of the hall
+this is X
+
+KLS_L0_6_4_Dirs_1
+{'numFollowers': 5, 'confidence': (5.6, 0.4898979485566356), 'directionRating': (5.0, 0.8944271909999159), 'targetFound': (1.0, 0.0), 'efficiency': (1.0, 0.0), 'implicit': True}
+take the black path and turn left on the red path at that intersection
+next when you come to a pink flowered path intersection, take a right
+the next intersection and last of that hall is X
+
+EDA_Grid0_3_4_Dirs_1
+{'numFollowers': 7, 'confidence': (5.571428571428571, 0.7284313590846834), 'directionRating': (5.714285714285714, 0.6998542122237653), 'targetFound': (1.0, 0.0), 'efficiency': (1.0, 0.0), 'implicit': False}
+turn so the wall is on your left
+walk forward four times
+turn right
+walk forward three times, or until you are at the intersection of green and yellow
+
+TJS_Jelly0_6_4_Dirs_1
+{'numFollowers': 5, 'confidence': (4.6, 1.4966629547095764), 'directionRating': (2.4, 1.019803902718557), 'targetFound': (0.8, 0.4000000000000001), 'efficiency': (0.6933334, 0.3690227285984428), 'implicit': True}
+find the fish hallways, then find the fish hallways with yellow floors
+position X is a dead end of the yellow floored fish hallway
+
+EMWC_L0_6_7_Dirs_1
+{'numFollowers': 7, 'confidence': (5.857142857142857, 0.3499271061118826), 'directionRating': (5.714285714285714, 0.6998542122237652), 'map': 'l', 'targetFound': (1.0, 0.0), 'efficiency': (1.0, 0.0), 'implicit': True}
+Orient yourself along the stone hall
+There should be a bare concrete hall to each side of you
+The end containing the bench should be to your left
+Go forward one segment to the intersection with the yellow-tiled hall
+Turn right
+## (do_until:<a,<t,a>> (do:<m,a> turn:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (right:<<p,t>,<p,t>> at0:<p,t>))))
+Go forward two segments to the intersection with the pink-flowered carpet hall
+This is Position X
+## (do:<m,a> goal:m)
+
+EMWC_Jelly0_1_5_Dirs_1
+{'numFollowers': 6, 'confidence': (6.0, 0.0), 'directionRating': (5.666666666666667, 0.4714045207910317), 'targetFound': (1.0, 0.0), 'efficiency': (1.0, 0.0), 'implicit': False}
+Place your back against the wall of the 'T' intersection
+Turn to the right
+Go forward one segment to the end of the hall
+Turn right
+Go forward one segment to the intersection with the wooden-floored hall
+This intersection contains an easel
+Turn left
+Go forward one segment
+This is Position X
+
+TJS_L0_2_4_Dirs_1
+{'numFollowers': 4, 'confidence': (5.0, 1.7320508075688772), 'directionRating': (4.25, 1.299038105676658), 'targetFound': (0.75, 0.4330127018922193), 'efficiency': (0.75, 0.4330127018922193), 'implicit': True}
+down the grey hall until you reach the blue hall, at the intersection of the blue hall and the rose floored hall
+
+KXP_Grid0_6_2_Dirs_1
+{'numFollowers': 6, 'confidence': (3.6666666666666665, 1.5986105077709065), 'directionRating': (1.8333333333333333, 0.6871842709362768), 'targetFound': (0.5, 0.5), 'efficiency': (0.088889, 0.08958073811930777), 'implicit': True}
+find the aesal in the fish area with black floors near it
+
+EMWC_Grid0_4_5_Dirs_1
+{'numFollowers': 5, 'confidence': (6.0, 0.0), 'directionRating': (6.0, 0.0), 'map': 'grid', 'targetFound': (1.0, 0.0), 'efficiency': (1.0, 0.0), 'implicit': 'partial', 'valid': True, 'correct': True}
+Follow the grassy hall three segments to the blue-tiled hall
+## (do_until:<a,<t,a>> (do_if:<a,<t,a>> (do:<m,a> travel:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (hall:<c,<p,t>> grass:c)))) (and:<t*,t> (steps:<n,t> 3:n) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (intersection:<<p,t>*1,<p,t>> (hall:<c,<p,t>> blue:c))))))
+%% FORWARD(3,5,270)
+%% FORWARD(2,5,270)
+%% FORWARD(1,5,270)
+%% NULL(0,5,270)
+Turn left
+## (do_until:<a,<t,a>> (do:<m,a> turn:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (left:<<p,t>,<p,t>> at0:<p,t>))))
+%% LEFT(0,5,270)
+%% NULL(0,5,180)
+Follow the blue-tiled hall six segments, passing the chair, stool and bench, to the intersection containing the hatrack
+## (do_until:<a,<t,a>> (do_if:<a,<t,a>> (do:<m,a> travel:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (hall:<c,<p,t>> blue:c)))) (and:<t*,t> (steps:<n,t> 6:n) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (past:<<p,t>,<p,t>> chair:<p,t>))) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (past:<<p,t>,<p,t>> barstool:<p,t>))) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (past:<<p,t>,<p,t>> sofa:<p,t>))) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> intersection:<p,t> hatrack:<p,t>))))
+%% FORWARD(0,5,180)
+%% FORWARD(0,6,180)
+%% FORWARD(0,7,180)
+%% FORWARD(0,8,180)
+%% FORWARD(0,9,180)
+%% FORWARD(0,10,180)
+%% NULL(0,11,180)
+Turn left
+## (do_until:<a,<t,a>> (do:<m,a> turn:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (left:<<p,t>,<p,t>> at0:<p,t>))))
+%% LEFT(0,11,180)
+%% NULL(0,11,90)
+Go one segment forward to the corner
+## (do_until:<a,<t,a>> (do:<m,a> travel:m) (and:<t*,t> (steps:<n,t> 1:n) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> corner:<p,t>))))
+%% FORWARD(0,11,90)
+%% NULL(1,11,90)
+This is Position X
+## (do:<m,a> goal:m)
+%% GOAL(1,11,90)
+
+KLS_Grid0_4_7_Dirs_1
+{'numFollowers': 7, 'confidence': (5.857142857142857, 0.3499271061118826), 'directionRating': (5.142857142857143, 0.6388765649999399), 'targetFound': (0.0, 0.0), 'efficiency': (0.0, 0.0), 'implicit': True}
+take the green path to the red brick intersection
+go right onto the red brick towards the lamp
+one intersection past the lamp is X
+
+KLS_Jelly0_2_5_Dirs_1
+{'numFollowers': 7, 'confidence': (6.0, 0.0), 'directionRating': (5.285714285714286, 0.6998542122237652), 'targetFound': (0.42857142857142855, 0.49487165930539345), 'efficiency': (0.42857142857142855, 0.49487165930539345), 'implicit': True}
+take the path towards the lamp
+at the lamp, take a left
+at the next corner, take a right onto the wood path
+the very next intersection will be X
+
+KLS_Grid0_2_7_Dirs_1
+{'numFollowers': 5, 'confidence': (5.8, 0.4), 'directionRating': (5.4, 0.8), 'targetFound': (0.0, 0.0), 'efficiency': (0.0, 0.0), 'implicit': True}
+take the black path towards the intersection with the red brick path
+go right onto the red brick path towards the lamp
+the second intersection after the lamp will be position X
+
+KLS_Grid0_5_1_Dirs_1
+{'numFollowers': 5, 'confidence': (5.2, 0.9797958971132712), 'directionRating': (4.8, 1.6), 'targetFound': (0.8, 0.4000000000000001), 'efficiency': (0.8, 0.4000000000000001), 'implicit': True}
+go towards the coat rack
+at the rack, go right onto the blue path
+take the blue path all the way down to the pink path intersection
+go right onto the pink path
+when you reach the black easel, you are at position X
+
+EMWC_Jelly0_7_5_Dirs_1
+{'numFollowers': 7, 'confidence': (5.142857142857143, 1.355261854357877), 'directionRating': (4.714285714285714, 1.1605769149479943), 'targetFound': (0.7142857142857143, 0.45175395145262565), 'efficiency': (0.6071428571428571, 0.4601463830973259), 'implicit': False}
+Place your back to the wall of the 'T' intersection
+Go forward one segment to the intersection with the blue-tiled hall
+This contains a chair
+Turn left
+Go forward three segments to the end of the hall
+Turn left
+Go forward one segment to the blue-tiled hall intersection
+This intersection contains an easel
+Turn right
+Go forward one segment this is Position X
+Position X is in the wooden-floored hall
+It is a hall section between the two sections of butterfly pictures
+
+KXP_L0_1_4_Dirs_1
+{'numFollowers': 4, 'confidence': (2.75, 1.479019945774904), 'directionRating': (3.25, 1.0897247358851685), 'targetFound': (0.25, 0.4330127018922193), 'efficiency': (0.08333325, 0.14433742295983915), 'implicit': True}
+go down toward the longer end of the hallway
+1st rt
+1st lft
+1st right
+keep going till the pink floored area is on your right
+
+KXP_Grid0_5_3_Dirs_1
+{'numFollowers': 5, 'confidence': (1.6, 1.2000000000000002), 'directionRating': (1.4, 0.8), 'targetFound': (0.2, 0.4000000000000001), 'efficiency': (0.08571419999999999, 0.1714284), 'implicit': True}
+go down 1 block
+turn left, keep going  (looking  down each of the streets on the right)  until you see the street with no furniture do not go down it
+stay on the butterfly street
+the T intersection is the position X, you should see blue on the floors perpendicular to the street w/ no furniture
+
+KLS_Grid0_2_1_Dirs_1
+{'numFollowers': 6, 'confidence': (4.5, 1.707825127659933), 'directionRating': (2.8333333333333335, 1.0671873729054748), 'targetFound': (0.5, 0.5), 'efficiency': (0.15, 0.15811388300841897), 'implicit': True}
+take the black path towards the pink flowered path intersection
+once here, go right onto the pink path until you reach a black easel
+this is X
+
+TJS_L0_3_5_Dirs_1
+{'numFollowers': 5, 'confidence': (3.6, 1.854723699099141), 'directionRating': (3.2, 1.32664991614216), 'targetFound': (0.0, 0.0), 'efficiency': (0.0, 0.0), 'implicit': True}
+all the way down the winding hall, then a right at the intersection of the yellow and grey halls, then all the way down the grey hall, then a left onto a red hall, past a lamp, until you reach an intersection with a dead end with blank floors and walls
+
+WLH_L0_7_6_Dirs_1
+{'numFollowers': 6, 'confidence': (5.333333333333333, 0.7453559924999298), 'directionRating': (5.0, 0.5773502691896257), 'targetFound': (1.0, 0.0), 'efficiency': (0.8666666666666667, 0.1885618083164127), 'implicit': 'partial'}
+with your back to the wall move along the green octagon carpet two alleys to the grey stone carpet
+turn left
+there should be an easel behind you
+move forward one alley
+the side alleys have grey floor and to your right is a sofa
+this is X
+
+KLS_Jelly0_3_2_Dirs_1
+{'numFollowers': 5, 'confidence': (5.2, 0.7483314773547882), 'directionRating': (5.0, 0.6324555320336759), 'targetFound': (1.0, 0.0), 'efficiency': (0.9058824, 0.1882352), 'implicit': True}
+take the blue path towards the chair all the way to the end of the hall
+here, take a left
+next, at the easel, take a right to the end of the hall
+at the corner, take a left and at the next corner, take a right at the lamp
+the end of this hall is X
+
+KLS_Grid0_6_7_Dirs_1
+{'numFollowers': 5, 'confidence': (5.8, 0.4), 'directionRating': (5.6, 0.4898979485566356), 'targetFound': (0.0, 0.0), 'efficiency': (0.0, 0.0), 'implicit': True}
+follow the wood path towards red brick path intersection
+take a left onto the red brick towards the lamp
+on intersection past the lamp will be X
+
+EDA_Jelly0_6_3_Dirs_1
+{'numFollowers': 6, 'confidence': (5.833333333333333, 0.37267799624996495), 'directionRating': (5.333333333333333, 0.7453559924999298), 'map': 'jelly', 'targetFound': (0.8333333333333334, 0.37267799624996495), 'efficiency': (0.8333333333333334, 0.37267799624996495), 'implicit': 'partial', 'valid': True, 'correct': True}
+only one way to go
+## (verify:<t,a> (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> deadend:<p,t>)))
+%% VERIFY(18,19,90)
+walk forward once
+## (do_until:<a,<t,a>> (do:<m,a> travel:m) (steps:<n,t> 1:n))
+%% FORWARD(18,19,90)
+%% NULL(19,19,90)
+turn left
+## (do_until:<a,<t,a>> (do:<m,a> turn:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (left:<<p,t>,<p,t>> at0:<p,t>))))
+%% LEFT(19,19,90)
+%% NULL(19,19,0)
+walk forward once
+## (do_until:<a,<t,a>> (do:<m,a> travel:m) (steps:<n,t> 1:n))
+%% FORWARD(19,19,0)
+%% NULL(19,18,0)
+turn left
+## (do_until:<a,<t,a>> (do:<m,a> turn:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (left:<<p,t>,<p,t>> at0:<p,t>))))
+%% LEFT(19,18,0)
+%% NULL(19,18,270)
+walk forward three times
+## (do_until:<a,<t,a>> (do:<m,a> travel:m) (steps:<n,t> 3:n))
+%% FORWARD(19,18,270)
+%% FORWARD(18,18,270)
+%% FORWARD(17,18,270)
+%% NULL(16,18,270)
+
+WLH_Grid0_4_7_Dirs_1
+{'numFollowers': 4, 'confidence': (3.75, 1.6393596310755), 'directionRating': (2.75, 1.7853571071357126), 'targetFound': (0.0, 0.0), 'efficiency': (0.0, 0.0), 'implicit': False}
+face the octagon carpet
+move until you see red brick floor to your right
+turn and walk down the red brick until you get to an alley with grey floor
+you should be two alleys away from a lamp, and then an easel beyond that
+
+KLS_Grid0_7_2_Dirs_1
+{'numFollowers': 6, 'confidence': (5.333333333333333, 1.1055415967851332), 'directionRating': (4.333333333333333, 0.9428090415820632), 'targetFound': (1.0, 0.0), 'efficiency': (0.7142854999999999, 0.2857145), 'implicit': True}
+go towards the easel on the red brick road
+take a right at the black road intersection and follow it until you come to a black easel
+this is X
+
+WLH_Jelly0_3_4_Dirs_2
+{'numFollowers': 7, 'confidence': (5.714285714285714, 0.6998542122237653), 'directionRating': (4.714285714285714, 1.979486637221574), 'map': 'jelly', 'targetFound': (0.8571428571428571, 0.3499271061118826), 'efficiency': (0.7755101428571428, 0.3729728504713096), 'implicit': True}
+face and move to the hatrack
+turn left and move forward along the green octagon flooring
+pX is at the end of this alley
+
+EDA_Grid0_2_6_Dirs_1
+{'numFollowers': 5, 'confidence': (5.2, 0.7483314773547882), 'directionRating': (4.6, 0.4898979485566356), 'targetFound': (1.0, 0.0), 'efficiency': (1.0, 0.0), 'implicit': False}
+turn to face the yellow hallway
+walk forward once
+turn left
+walk forward once
+
+EDA_Grid0_3_7_Dirs_1
+{'numFollowers': 5, 'confidence': (6.0, 0.0), 'directionRating': (5.8, 0.4), 'targetFound': (1.0, 0.0), 'efficiency': (1.0, 0.0), 'implicit': False}
+turn so the wall is on your back
+walk forward once
+
+TJS_Jelly0_5_4_Dirs_1
+{'numFollowers': 5, 'confidence': (5.0, 2.0), 'directionRating': (2.0, 0.8944271909999159), 'targetFound': (0.8, 0.4000000000000001), 'efficiency': (0.40086560000000004, 0.22905847599388243), 'implicit': True}
+it's at the end of the yellow fish hall, with yellow floors
+dead end
+
+EMWC_Jelly0_7_1_Dirs_1
+{'numFollowers': 4, 'confidence': (5.0, 1.7320508075688772), 'directionRating': (5.0, 1.224744871391589), 'targetFound': (0.75, 0.4330127018922193), 'efficiency': (0.29761875, 0.17617421176547804), 'implicit': False}
+Place your back to the wall of the 'T' intersection
+Go forward one segment to the blue-tiled hall
+Turn left
+Go forward to the end of the hall
+Turn left
+Go forward two segments, passing the easel
+Turn left
+Go forward one segment
+This is Position X
+
+TJS_Grid0_4_6_Dirs_1
+{'numFollowers': 6, 'confidence': (4.166666666666667, 1.3437096247164249), 'directionRating': (3.3333333333333335, 1.2472191289246473), 'targetFound': (0.5, 0.5), 'efficiency': (0.5, 0.5), 'implicit': True}
+yellow hall down to the wooden floor intersection, then one movement forward
+
+TJS_L0_4_5_Dirs_1
+{'numFollowers': 4, 'confidence': (5.25, 1.299038105676658), 'directionRating': (4.5, 1.118033988749895), 'targetFound': (0.5, 0.5), 'efficiency': (0.2, 0.2), 'implicit': True}
+left down the blue hall, till you get to a grey hall, then a left onto the red hall, it's one movement after a lamp pole
+
+TJS_Grid0_6_2_Dirs_1
+{'numFollowers': 7, 'confidence': (4.714285714285714, 1.3850513878332367), 'directionRating': (3.857142857142857, 0.9897433186107869), 'targetFound': (0.7142857142857143, 0.4517539514526257), 'efficiency': (0.4132652857142857, 0.4030935282844113), 'implicit': True}
+it's at a spot between the yellow floor and the grey floor, with an easel
+
+KLS_L0_5_6_Dirs_1
+{'numFollowers': 4, 'confidence': (5.5, 0.8660254037844386), 'directionRating': (5.0, 1.0), 'targetFound': (1.0, 0.0), 'efficiency': (0.9375, 0.10825317547305482), 'implicit': True}
+take the red brick path towards the lamp all the way down to the intersectino of the black path
+take this black path until you reach the intersection with the white cement
+this is position X
+
+WLH_Jelly0_2_6_Dirs_1
+{'numFollowers': 0, 'confidence': (0.0, 0.0), 'directionRating': (0.0, 0.0), 'map': 'jelly', 'targetFound': (0.0, 0.0), 'efficiency': (0.0, 0.0), 'implicit': True}
+face the lamp
+step forward and follow the alley around
+you are placed where you can see an easel
+move to this easel and turn left
+the carpet should be blue
+walk until there is an opening on you right
+upon turning right you should see an alley with rose carpet
+p-X is at the end of this alley
+
+WLH_L0_7_3_Dirs_1
+{'numFollowers': 6, 'confidence': (6.0, 0.0), 'directionRating': (5.5, 0.7637626158259733), 'targetFound': (1.0, 0.0), 'efficiency': (1.0, 0.0), 'implicit': 'partial'}
+with your back to the wall move forward along the octagon flooring to the end of the alley
+turn right
+move past the chair to the stool
+turn and walk to the dead end
+this is X
+
+WLH_Grid0_5_6_Dirs_1
+{'numFollowers': 4, 'confidence': (3.0, 1.5811388300841898), 'directionRating': (2.0, 0.7071067811865476), 'targetFound': (0.25, 0.4330127018922193), 'efficiency': (0.11666675, 0.20207273855393634), 'implicit': False}
+face the lamp and move to it
+turn right
+move to the alley with the brown wooden floor
+turn right
+move forward one block
+this is X,
+
+EMWC_L0_2_5_Dirs_1
+{'numFollowers': 5, 'confidence': (5.4, 0.8), 'directionRating': (5.4, 0.48989794855663565), 'targetFound': (0.8, 0.4000000000000001), 'efficiency': (0.7272727999999999, 0.38995653921861606), 'implicit': False}
+Orient yourself along the stone hall with your back facing the easel
+Go forward two segments to intersection with the brick hall
+Turn left
+Go forward five segments to the second intersection with a bare concrete floor
+You will pass a hatrack and a lamp
+This is Position X
+
+WLH_Grid0_5_3_Dirs_1
+{'numFollowers': 4, 'confidence': (5.0, 1.224744871391589), 'directionRating': (4.5, 1.6583123951777), 'targetFound': (0.75, 0.4330127018922193), 'efficiency': (0.75, 0.4330127018922193), 'implicit': False}
+face the hat rack and move to it
+turn right
+walk one alley past the chair
+you should see gray floor to your right and a stool in front of you
+

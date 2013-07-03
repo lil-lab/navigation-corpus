@@ -1,0 +1,52 @@
+// Action attributes
+method:<a,<m,t>>
+until:<a,<t,t>>
+maintain:<a,<t,t>>
+pre:<a,<t,t>>
+num:<a,<n,t>>
+position:<a,<n,t>>
+dir:<a,<dir,t>>
+
+// Set functions
+intersect:<<e,t>*,<e,t>>
+notempty:<<e,t>,t>
+
+// Location modifiers
+past:<<e,t>,<e,t>>
+left:<<e,t>,<e,t>>
+right:<<e,t>,<e,t>>
+front:<<e,t>,<e,t>>
+back:<<e,t>,<e,t>>
+beyond:<<e,t>,<<e,t>,<e,t>>>
+beyond:<<e,t>,<<e,t>,<e,t>>>
+distance:<<e,t>,<n,<e,t>>>
+
+// Action order predicates
+after:<e,<e,t>>
+
+// Methods
+turn:m
+travel:m
+goal:m
+
+// Turning direction
+left:dir
+right:dir
+
+// Agent
+at:<e,t>
+
+// Objects
+yellow_hallway:<e,t>
+brick_hallway:<e,t>
+concrete_hallway:<e,t>
+wood_hallway:<e,t>
+gravel_hallway:<e,t>
+hatrack:<e,t>
+lamp:<e,t>
+sofa:<e,t>
+chair:<e,t>
+easel:<e,t>
+intersection:<e,t>
+
+

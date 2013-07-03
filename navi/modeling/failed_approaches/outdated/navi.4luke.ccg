@@ -1,0 +1,56 @@
+EDA_Grid0_2_1_Dirs_1
+{'numFollowers': 5, 'confidence': (5.4, 1.2), 'directionRating': (5.4, 0.8), 'targetFound': (1.0, 0.0), 'efficiency': (0.0, 0.0)}
+turn to face the yellow hallway , 
+## (do_until:<a,<t,a>> (do:<m,a> turn:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> (front:<<e,t>,<e,t>> at:<e,t>) honeycomb_h:<e,t>))) 
+walk forward twice , 
+## (do_until:<a,<t,a>> (do:<m,a> travel:m) (=:<e,<e,t>> steps:n 2:n))
+turn onto the pink hallway , 
+## (do_until:<a,<t,a>> (do:<m,a> turn:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> (front:<<e,t>,<e,t>> at:<e,t>) rose_h:<e,t>))) 
+walk forward once
+## (do_until:<a,<t,a>> (do:<m,a> travel:m) (=:<e,<e,t>> steps:n 1:n))
+
+WLH_L0_2_3_Dirs_1
+{'numFollowers': 4, 'confidence': (4.0, 2.1213203435596424), 'directionRating': (4.25, 1.479019945774904), 'targetFound': (1.0, 0.0), 'efficiency': (0.75, 0.4330127018922193)}
+// XXX : I think the first and second should be a single do_if action, see the first action in WLH_Jelly0_7_6_Dirs_1 in the sample10 file. What do you think?
+with your back to the easel 
+## (do_until:<a,<t,a>> (do:<m,a> turn:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> (back:<<e,t>,<e,t>> at:<e,t>) easel:<e,t>))) 
+turn right , 
+## (do_until:<a,<t,a>> (do:<m,a> turn:m) (=:<<e,t>,<<e,t>,t>> (front:<<e,t>,<e,t>> at:<e,t>) (right:<<e,t>,<e,t>> at0:<e,t>)))
+walk to the corner of the green octagon carpet , 
+// XXX : missing a corner:<e,t> position set in the interection. 
+## (do_until:<a,<t,a>> (do:<m,a> travel:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<e,t> (side:<<e,t>,<e,t>> greenish_h:<e,t>))))
+turn and move past the chair to the stool , 
+## (do_seq:<a+,a> (do:<m,a> turn:m) (do_until:<a,<t,a>> (do:<m,a> travel:m) (and:<t*,t> (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<e,t> barstool:<e,t>)) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<e,t> (past:<<e,t>,<e,t>> chair:<e,t>))))))
+turn right and move to the dead end , 
+## (do_seq:<a+,a> (do_until:<a,<t,a>> (do:<m,a> turn:m) (=:<<e,t>,<<e,t>,t>> (front:<<e,t>,<e,t>> at:<e,t>) (right:<<e,t>,<e,t>> at0:<e,t>))) (do_until:<a,<t,a>> (do:<m,a> travel:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<e,t> deadend:<e,t>))))
+this is 3
+## (do:<m,<arg,a>> goal:m 3:n)
+
+WLH_Jelly0_3_4_Dirs_2
+{'numFollowers': 7, 'confidence': (5.714285714285714, 0.6998542122237653), 'directionRating': (4.714285714285714, 1.979486637221574), 'targetFound': (1.0, 0.0), 'efficiency': (0.7755101428571428, 0.3729728504713096)}
+face and move to the hatrack , 
+## (do_seq<a*,a> (do_until:<a,<t,a>> (do:<m,a> turn:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> (front:<<e,t>,<e,t>> at:<e,t>) hatrack:<e,t>))) (do_until:<a,<t,a>> (do:<m,a> travel:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<e,t> hatrack:<e,t>))))
+turn left and move forward along the green octagon flooring , 
+// XXX : Do you think this refers to the greenish hallways? Or is since it includes the octagon word it refers to the honeycomb hallway, which is included in the greenish hallways? I am actually not sure if copying this modeling of supersets is the right way. What do you think? 
+## (do_seq:<a+,a> (do_until:<a,<t,a>> (do:<m,a> turn:m) (=:<<e,t>,<<e,t>,t>> (front:<<e,t>,<e,t>> at:<e,t>) (left:<<e,t>,<e,t>> at0:<e,t>))) (do_if:<a,<t,a>> (do:<m,a> travel:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> (front:<<e,t>,<e,t>> at:<e,t>) greenish_h:<e,t>))))
+p4 is at the end of this alley
+// XXX : I understand we need something new here, I am just not sure I understand the semantics of the 'end' predicate. In this case we can say that back==honeycomb_h and front==wall, but I am not sure it generalizes.
+## (do_if:<a,<t,a>> (do:<m,<arg,a>> goal:m 4:n) (and:<t*,t> (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<e,t> (end:<<e,t>,<e,t>> greenish_h:<e,t>))))) -- not sure here, requires new pedicate, refers back to greenish, etc. Maybe I could use recent:<e,t> instead of greenish_h ?
+
+EMWC_L0_2_4_Dirs_1
+{'numFollowers': 5, 'confidence': (5.0, 2.0), 'directionRating': (5.0, 2.0), 'targetFound': (1.0, 0.0), 'efficiency': (0.4, 0.48989794855663565)}
+orient yourself along the stone hall with your back away from the end of the hall containing the easel
+// XXX : missed this one. We have the 'end' here as well, but I am not sure it contirbutes much to the meaning
+## (do_until:<a,<t,a>> (do:<m,a> turn:m) (and:<t*,t> (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> (front:<<e,t>,<e,t>> at:<e,t>) stone_h:<e,t>)) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> (back:<<e,t>,<e,t>> at:<e,t>) easel:<e,t>))))
+go forward three segments to the intersection with the blue - tiled hall
+## (do_until:<a,<t,a>> (do:<m,a> travel:m) (and:<t*,t> (=:<e,<e,t>> steps:n 3:n) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<e,t> intersection:<e,t> (side:<<e,t>,<e,t>> blue_h:<e,t>)))))
+there is a lamp in this interesection
+## (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<e,t> lamp:<e,t> intersection:<e,t>))
+turn left
+## (do_until:<a,<t,a>> (do:<m,a> turn:m) (=:<<e,t>,<<e,t>,t>> (front:<<e,t>,<e,t>> at:<e,t>) (left:<<e,t>,<e,t>> at0:<e,t>)))
+go forward two segments , passing the chair , to the intersection with the pink - flowered carpet hall
+## (do_until:<a,<t,a>> (do:<m,a> travel:m) (and:<t*,t> (=:<e,<e,t>> steps:n 2:n) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<e,t> intersection:<e,t> (side:<<e,t>,<e,t>> rose_h:<e,t>))) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<e,t> (past:<<e,t>,<e,t>> chair:<e,t>)))))
+there is a bench two segments farther down the hall
+## (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<e,t> (distance:<<e,t>,<n,<e,t>>> bench:<e,t> 2:n)))
+this is position 4
+## (do:<m,<arg,a>> goal:m 4:n)

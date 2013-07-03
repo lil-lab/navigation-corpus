@@ -1,0 +1,285 @@
+face the octagon carpet
+//(turn:a (=:t front:e honeycomb_h:e)) 
+(do_until:<a,<t,a>> (do:<m,a> turn:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> (front:<<e,t>,<e,t>> at:<e,t>) honeycomb_h:<e,t>)))
+face :- S/N : (lambda $0:<e,t> (do_until:<a,<t,a>> (do:<m,a> turn:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> (front:<<e,t>,<e,t>> at:<e,t>) $0))))
+the :- N : (lambda $0:<e,t> $0)
+octagon carpet :- N : honeycomb_h:<e,t>
+
+
+move until you see red brick floor to your right
+// (travel:a (=:t right:e brick_h:e)) 
+(do_until:<a,<t,a>> (do:<m,a> travel:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> (right:<<e,t>,<e,t>> at:<e,t>) brick_h:<e,t>)))
+move :- S : (do:<m,a> travel:m)
+until :- S\S/S : (lambda $0:t (lambda $1:e (do_until:<a,<t,a>> $1 $0)))
+you see :- S/N : (lambda $0:<e,t> (notempty:<<e,t>,t> $0))
+red brick floor :- N : brick_h:<e,t>
+to :- N\N/N : (lambda $0:<e,t> (lambda $1:<e,t> (intersect:<<e,t>*,<e,t>> $0 $1)))
+your :- N : at:<e,t>
+right :- N\N : (lambda $0:<e,t> (right:<<e,t>,<e,t>> $0))
+
+
+turn and walk down the red brick until you get to an alley with grey floor
+// (do-seq:a (turn:a (=:t front:e brick_h:e)) (travel:a true:t) 	 (verify:a (=:t side:e cement_h:e)))
+(do_seq:<a+,a> (do:<m,a> turn:m) (do_until:<a,<t,a>> (do_if:<a,<t,a>> (do:<m,a> travel:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> (front:<<e,t>,<e,t>> at:<e,t>) brick_h:<e,t>))) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> (side:<<e,t>,<e,t>> at:<e,t>) cement_h:<e,t>))))
+turn :- S : (do:<m,a> turn:m)
+and :- S\S/S : (lambda $0:e (lambda $1:e (do_seq:<a+,a> $1 $0)))
+walk :- S : (do:<m,a> travel:m)
+down :- S\S/N : (lambda $0:<e,t> (lambda $1:e (do_if:<a,<t,a>> $1 (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> (front:<<e,t>,<e,t>> at:<e,t>) $0)))))
+the :- N/N : (lmabda $0:<e,t> $0)
+red brick :- brick_h:<e,t>
+until :- S\S/S : (lambda $0:t (lambda $1:e (do_until:<a,<t,a>> $1 $0)))
+you get to :- S/N : (lambda $0:<e,t> (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> (side:<<e,t>,<e,t>> at:<e,t>) $0)))
+an :- N/N : (lambda $0:<e,t> $0)
+alley with grey floor :- N : cement_h:<e,t>
+
+
+you should be two alleys away from a lamp and then an easel beyond that
+// (verify:a (and:t (=:t front:e lamp:e) (=:t front:e easel:e))) 
+(notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<e,t> (distance:<<e,t>,<n,<e,t>>> (intersect:<<e,t>*,<e,t>> lamp:<e,t> (beyond:<<e,t>,<<e,t>,<e,t>>> lamp:<e,t> easel:<e,t>))  2:n)))
+you should :- S/N/N : (lambda $0:<e,t> (notempty:<<e,t>,t> $0)) 
+be :- N : at:<e,t>
+two alleys :- NP : 2:n
+away from :- N\N/N\NP : (lambda $0:e (lambda $1:<e,t> (lambda $2:<e,t> (intersect:<<e,t>*,<e,t>> $2 (distance:<<e,t>,<n,<e,t>>> $1 $0)))))
+a :- N/N :- (lambda $0:<e,t> $0)
+lamp :- N : lamp:<e,t>
+and then :- N\N/N : (lambda $0:<e,t> (lambda $1:<e,t> (intersect:<<e,t>*,<e,t>> $1 (beyond:<<e,t>,<<e,t>,<e,t>>> $1 $0))))
+an :- N/N : (lambda $0:<e,t> $0)
+easel :- N : easel:<e,t>
+beyond that :- EMPTY
+
+
+position 7 is at the intersection of the honeycomb and grey floored halls
+// (verify:a (and:t (=:t side:e cement_h:e) (=:t back:e honeycomb_h:e) (=:t front:e honeycomb_h:e))) 
+(do_if:<a,<t,a>> (do:<m,<arg,a>> goal:m 7:n) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<e,t> intersection:<e,t> honeycomb_h:<e,t> cement_h:<e,t>)))
+position :- S/NP : (lambda $0:e (do:<m,<arg,a>> goal:m $0))
+7 :- NP : 7:n
+is at :- S\S/N : (lambda $0:<e,t> (lambda $1:e (do_if:<a,<t,a>> $1 (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<e,t> $0)))))
+the :- N/N : (lambda $0:<e,t> $0)
+intersection :- N : intersection:<e,t>
+of :- N\N/N : (lambda $0:<e,t> (lambda $1:<e,t> (intersect:<<e,t>*,<e,t>> $1 $0)))
+the :- N/N : (lambda $0:<e,t> $0)
+honeycomb :- N : honeycomb_h:<e,t>
+and :- N\N/N : (lambda $0:<e,t> (lambda $1:<e,t> (intersect:<<e,t>*,<e,t>> $1 $0)))
+gray floored halls :- N : cement_h:<e,t>
+
+
+move forward past the lamp and hatrack
+// (do-seq:a (verify:a (and:t (=:t front:e lamp:e) (=:t front:e hatrack:e))) (travel:a (and:t (=:t back:e hatrack:e) (=:t back:e lamp:e))))
+(do_until:<a,<t,a>> (do:<m,a> travel:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<e,t> (past:<<e,t>,<e,t>> lamp:<e,t>) (past:<<e,t>,<e,t>> hatrack:<e,t>))))
+move forward :- S/N : (lambda $0:<e,t> (do_until:<a,<t,a>> (do:<m,a> travel:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<e,t> $0))))
+past :- N/N : (lambda $0:<e,t> (past:<<e,t>,<e,t>> $0))
+the :- N/N : (lambda $0:<e,t> $0)
+lamp :- N : lamp:<e,t>
+and :- N\(N/N)\N/N : (lambda $0:<e,t> (lambda $1:<e,t> (lambda $2:<<e,t>,<e,t>> (intersect:<<e,t>*,<e,t>> ($2 $1) ($2 $0)))))
+hatrack :- N : hatrack:<e,t>
+
+
+orient yourself along the stone hallway with the end containing the easel to your back
+// (turn:a (and:t (=:t front:e gravel_h:e) (=:t back:e easel:e))) 
+(do_until:<a,<t,a>> (do:<m,a> turn:m) (and:<t*,t> (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> (front:<<e,t>,<e,t>> at:<e,t>) gravel_h:<e,t>)) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> (back:<<e,t>,<e,t>> at:<e,t>) easel:<e,t>))))
+orient yourself :- S/S : (lambda $0:t (do_until:<a,<t,a>> (do:<m,a> turn:m) $0))
+along :- N/N : (lambda $0:<e,t> (intersect:<<e,t>*,<e,t>> (front:<<e,t>,<e,t>> at:<e,t>) $0))
+the :- N/N : (lambda $0:<e,t> $0)
+stone hallway :- N : gravel_h:<e,t>
+with :- S\N/N (lambda $0:<e,t> (lambda $1:<e,t> (and:<t*,t> (notempty:<<e,t>,t> $1) (notempty:<<e,t>,t> $0))))
+the end containing :- EMPTY
+the :- N/N : (lambda $0:<e,t> $0)
+easel :- N : easel:<e,t>
+to :- N\N/N : (lambda $0:<e,t> (lambda $1:<e,t> (intersect:<<e,t>*,<e,t>> $1 $0)))
+your :- N : at:<e,t>
+back :- N\N : (lambda $0:<e,t> (back:<<e,t>,<e,t>> $0))
+
+
+the bench in the bare cement hall should be to your right
+// (verify:a (and:t (=:t right:e cement_h:e) (=:t right:e sofa:e))) 
+(notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> (right:<<e,t>,<e,t>> at:<e,t>) cement_h:<e,t> sofa:<e,t>))
+the :- N/N : (lambda $0:<e,t> $0)
+bench :- N : sofa:<e,t>
+in :- N\N/N : (lambda $0:<e,t> (lambda $1:<e,t> (intersect:<<e,t>*,<e,t>> $1 $0)))
+the :- N/N : (lambda $0:<e,t> $0)
+bare cement hall :- N : cement_h:<e,t>
+should be to :- S/N\N : (lambda $0:<e,t> (lambda $1:<e,t> (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> $1 $0))))
+your :- N : at:<e,t>
+right :- N\N : (lambda $0:<e,t> (right:<<e,t>,<e,t>> $0))
+
+
+go forward along the stone hall one segment to the intersection with the brick hall
+// (do-seq:a (verify:a (=:t front:e gravel_h:e)) (travel:a (and:t (=:t steps:e 1:e) (=:t side:e brick_h:e))))
+(do_until:<a,<t,a>> (do_if:<a,<t,a>> (do:<m,a> travel:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> (front:<<e,t>,<e,t>> at:<e,t>) brick_h:<e,t>))) (and:<t*,t> (=:<e,<e,t>> steps:n 1:n) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<e,t> intersection:<e,t> brick_h:<e,t>))))
+go forward :- S : (do:<m,a> travel:m)
+along :- S\S/N/N : (lambda $0:<e,t> (lambda $1:t (lambda $2:e (do_until:<a,<t,a>> (do_if:<a,<t,a>> $2 (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> (front:<<e,t>,<e,t>> at:<e,t>) $0))) $1))))
+the :- N/N : (lambda $0:<e,t> $0)
+stone hall : N : gravel_h:<e,t>
+one :- NP : 1:n
+segment :- N\NP/N : (lambda $0:t (lambda $1:e (and:<t*,t> (=:<e,<e,t>> steps:n $1) $0)))
+to :- N\N/N : (lambda $0:<e,t> (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<e,t> $0)))
+the :- N/N : (lambda $0:<e,t> $0)
+intersection :- N : intersection:<e,t>
+with :- N\N/N : (lambda $0:<e,t> (lambda $1:<e,t> (intersect:<<e,t>*,<e,t>> $1 $0)))
+the :- N/N : (lambda $0:<e,t> $0)
+brick hall :- N : brick_h:<e,t>
+
+
+turn left
+// (turn:a (=:t heading:e left:e)) 
+(do_until:<a,<t,t>> (do:<m,<arg,a>> turn:m) (=:<<e,t>,<<e,t>,t>> (front:<<e,t>,<e,t>> at:<e,t>) (left:<<e,t>,<e,t>> at0:<e,t>)))
+turn :- S/(N\N) : (lambda $0:<<e,t>,<e,t>> (do_until:<a,<t,t>> (do:<m,<arg,a>> turn:m) (=:<<e,t>,<<e,t>,t>> (front:<<e,t>,<e,t>> at:<e,t>) ($0 at0:<e,t>))))
+left :- N\N : (lambda $0:<e,t> (left:<<e,t>,<e,t>> $0))
+
+
+go forward along the brick hall six segments to the intersection with the wooden-floored hall, passing a hatrack and a lamp
+// (do-seq:a (verify:a (and:t (=:t front:e brick_h:e) (=:t front:e hatrack:e) (=:t front:e lamp:e))) (travel:a (and:t (=:t steps:e 6:e) (=:t side:e wood_h:e) (=:t back:e lamp:e) (=:t back:e hatrack:e))))
+(do_until:<a,<t,a>> (do_if:<a,<t,a>> (do:<m,a> travel:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> (front:<<e,t>,<e,t>> at:<e,t>) brick_h:<e,t>))) (and:<t*,t> (=:<e,<e,t>> steps:n 6:n) (notempty:<<e,t>,t> at:<e,t> intersection:<e,t> wood_h:<e,t> (past:<<e,t>,<e,t>> lamp:<e,t>) (past:<<e,t>,<e,t>> hatrack:<e,t>))))
+go forward :- S : (do:<m,a> travel:m)
+along :- S\S/S/N : (lambda $0:<e,t> (lambda $1:t (lambda $2:e (do_until:<a,<t,a>> (do_if:<a,<t,a>> $2 (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> (front:<<e,t>,<e,t>> at:<e,t>) $0))) $1))))
+the :- N/N : (lambda $0:<e,t> $0)
+brick hall :- N : brick_h:<e,t>
+six :- NP : 6:n
+segments :- S\NP : (lambda $0:e (=:<e,<e,t>> steps:n $0))
+to :- S\S/N : (lambda $0:<e,t> (and:<t*,t> $1 (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<e,t> $0))))
+the :- N/N : (lambda $0:<e,t> $0)
+intersection :- N : intersection:<e,t>
+with :- N\N/N : (lambda $0:<e,t> (lambda $1:<e,t> (intersect:<<e,t>*,<e,t>> $1 $0)))
+the :- N/N : (lambda $0:<e,t> $0)
+wooden-floored hall
+, :- N\N/N : (lambda $0:<e,t> (lambda $1:<e,t> (intersect:<<e,t>*,<e,t>> $1 $0)))
+passing :- N/N : (lambda $0:<e,t> (past:<<e,t>,<e,t>> $0))
+a :- N/N : (lambda $0:<e,t> $0)
+hatrack :- N : hatrack:<e,t>
+and :- N\(N/N)\N/N : (lambda $0:<e,t> (lambda $1:<e,t> (lambda $2:<<e,t>,<e,t>> (intersect:<<e,t>*,<e,t>> ($2 $1) ($2 $0)))))
+a :- N/N : (lambda $0:<e,t> $0)
+lamp :- N : lamp:<e,t> 
+
+
+turn left
+// (turn:a (=:t heading:e left:e)) 
+(do_until:<a,<t,t>> (do:<m,<arg,a>> turn:m) (=:<<e,t>,<<e,t>,t>> (front:<<e,t>,<e,t>> at:<e,t>) (left:<<e,t>,<e,t>> at0:<e,t>)))
+turn :- S/(N\N) : (lambda $0:<<e,t>,<e,t>> (do_until:<a,<t,t>> (do:<m,<arg,a>> turn:m) (=:<<e,t>,<<e,t>,t>> (front:<<e,t>,<e,t>> at:<e,t>) ($0 at0:<e,t>))))
+left :- N\N : (lambda $0:<e,t> (left:<<e,t>,<e,t>> $0))
+
+
+go forward one segment to the intersection with a bare cement hall
+// (do-seq:a (travel:a (and:t (=:t steps:e 1:e) (=:t side:e cement_h:e))))
+(do_until:<a,<t,a>> (do:<m,a> travel:m) (and:<t*,t> (=:<e,<e,t>> steps:n 1:n) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<e,t> intersection:<e,t> cement_h:<e,t>))))
+go forward :- S/S : (lambda $0:t (do_until:<a,<t,a>> (do:<m,a> travel:m) $0))
+one :- NP : 1:n
+segument :- S\NP : (lambda $0:e (=:<e,<e,t>> steps:n $0))
+to :- S\S\N : (lambda $0:<e,t> (lambda $1:t (and:<t*,t> $1 (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<e,t> $0)))))
+the :- N/N : (lambda $0:<e,t> $0)
+intersection :- N : intersection:<e,t>
+with :- N\N/N : (lambda $0:<e,t> (lambda $1:<e,t> (intersect:<<e,t>*,<e,t>> $1 $0)))
+a :- N/N : (lambda $0:<e,t> $0)
+bare cement hall :- N : cement_h:<e,t>
+
+
+there is a bench in this intersection
+// (verify:a (=:t at:e sofa:e)) 
+(notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<e,t> sofa:<e,t> intersection:<e,t>))
+there is :- S/N : (lambda $0:<e,t> (notempty:<<e,t>,t> $0))
+a :- N/N : (lambda $0:<e,t> $0)
+bench :- N : sofa:<e,t>
+in :- N\N/N : (lambda $0:<e,t> (lambda $1:<e,t> (intersect:<<e,t>*,<e,t>> $1 $0)))
+this :- N/N : (lambda $0:<e,t> (intersect:<<e,t>*,<e,t>> at:<e,t> $0))
+intersection :- N : intersection:<e,t>
+
+
+this is position 1
+// skipped by Chen
+(do:<m,<arg,a>> goal:m 1:n)
+this is position :- S/NP : (lambda $0:e (do:<m,<arg,a>> goal:m $0))
+1 :- NP : 1:n
+
+
+go forward to the intersection which has butterfly pictures on one side and eiffel tower pictures on the other
+// (travel:a (and:t (=:t front:e tower_wall:e) (=:t right:e butterfly_wall:e)))
+(do_until:<a,<t,t>> (do:<m,a> travel:m) (and:<t*,t> (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<e,t> intersection:<e,t>)) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> (side:<<e,t>,<e,t>> at:<e,t>) butterfly_wall:<e,t>)) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> (side:<<e,t>,<e,t>> at:<e,t>) tower_wall:<e,t>))))
+go forward :- S : (do:<m,a> travel:m)
+to :- S\S/(S/N) : (lambda $0:t (lambda $1:e (do_until:<a,<t,t>> $1 ($0 at:<e,t>))))
+the :- N/N : (lambda $0:<e,t> $0)
+intersection :- N : intersection:<e,t>
+which has :- (S/N)/(S\N)\N : (lambda $0:<e,t> (lambda $1:<<e,t>,t> (lambda $2:<e,t> (and:<t*,t> (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> $2 $0)) ($1 $2)))))
+butterfly pictures :- N : butterfly_wall:<e,t>
+on one side :- (S\N)\N : (lambda $0:<e,t> (lambda $1:<e,t> (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> (side:<<e,t>,<e,t>> $1) $0))))
+and :- (S\N)\(S\N)/(S\N) : (lambda $0:<<e,t>,t> (lambda $1:<<e,t>,t> (lambda $2:<e,t> (and:<t*,t> ($1 $2) ($0 $2)))))
+eiffel tower pictures :- N : tower_wall:<e,t>
+on the other :- (S\N)\N : (lambda $0:<e,t> (lambda $1:<e,t> (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> (side:<<e,t>,<e,t>> $1) $0))))
+
+
+you should see gray floor to your right and a chair in front of you
+// (verify:a (and:t (=:t right:e cement_h:e) (=:t front:e chair:e))) 
+(and:<t*,t> (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> (right:<<e,t>,<e,t>> at:<e,t>) cement_h:<e,t>)) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> (front:<<e,t>,<e,t>> at:<e,t>) chair:<e,t>)))
+you should see :- S/N : (lambda $0:<e,t> (notempty:<<e,t>,t> $0))
+gray floor :- N : cement_h:<e,t>
+to your :- N\N/N : (lambda $0:<e,t> (lambda $1:<e,t> (intersect:<<e,t>*,<e,t>> $0 $1)))
+your :- N : at:<e,t>
+right :- N\N : (lambda $0:<e,t> (right:<<e,t>,<e,t>> $0))
+and :- S\(S/N)\N/N : (lambda $0:<e,t> (lambda $1:<e,t> (lambda $2:<<e,t>,t> (and:<t*,t> ($2 $1) ($2 $0)))))
+a :- N/N : (lambda $0:<e,t> $0)
+chair :- N : chair:<e,t>
+in front of :- N\N/N : (lambda $0:<e,t> (lambda $1:<e,t> (intersect:<<e,t>*,<e,t>> (front:<<e,t>,<e,t>> $0) $1)))
+you :- N : at:<e,t>
+
+
+to your left and right should be brick and in front of you the stool where you just came from
+// (verify:a (and:t (=:t right:e brick_h:e) (=:t left:e brick_h:e) (=:t front:e chair:e))) 
+(and:<t*,t> (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> (right:<<e,t>,<e,t>> at:<e,t>) brick_h:<e,t>)) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> (left:<<e,t>,<e,t>> at:<e,t>) brick_h:<e,t>)) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> (front:<<e,t>,<e,t>> at:<e,t>) chair:<e,t>)))
+to your :- N : at:<e,t>
+left :- N\N : (lambda $0:<e,t> (left:<<e,t>,<e,t>> $0))
+and :- S\(S\N)\N\(N\N)/(N\N) : (lambda $0:<<e,t>,<e,t>> (lambda $1:<<e,t>,<e,t>> (lambda $2:<e,t> (lambda $3:<<e,t>,t> (and:<t*,t> ($3 ($1 $2)) ($3 ($0 $2)))))))
+right :- N\N : (lambda $0:<e,t> (right:<<e,t>,<e,t>> $0))
+should be :- S\N/N : (lambda $0:<e,t> (lambda $1:<e,t> (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> $1 $0))))
+brick :- N : brick_h:<e,t>
+and :- N\N/N : (lambda $0:t (lambda $1:t (and:<t*,t> $1 $0)))
+in :- N/N/N : (lambda $0:<e,t> (lambda $1:<e,t> (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> $0 $1))))
+front of :- N/N : (lambda $0:<e,t> (front:<<e,t>,<e,t>> $0))
+you :- N : at:<e,t>
+the :- N/N : (lambda $0:<e,t> $0)
+stool :- N : chair:<e,t>
+where you just came from :- EMPTY
+
+
+move forward until you see an easel on your right and a sofa on your left
+(do_until:<a,<t,a>> (do:<m,a> travel:m) (and:<t*,t> (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> (left:<<e,t>,<e,t>> at:<e,t>) sofa:<e,t>)) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> (right:<<e,t>,<e,t>> at:<e,t>) easel:<e,t>))))
+move forward :- S : (do:<m,a> travel:m)
+until :- S\S/S : (lambda $0:t (lambda $1:e (do_until:<a,<t,a>> $1 $0)))
+you see :- S/N : (lambda $0:<e,t> (notempty:<<e,t>,t> $0))
+an :- N/N : (lambda $0:<e,t> $0)
+easel :- N : easel:<e,t>
+on :- N\N/N : (lambda $0:<e,t> (lambda $1:<e,t> (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> $1 $0))))
+your :- N : at:<e,t>
+right :- N\N : (lambda $0:<e,t> (right:<<e,t>,<e,t>> $0))
+and :- N\N/N : (lambda $0:t (lambda $1:t (and:<t*,t> $1 $0)))
+a :- N/N : (lambda $0:<e,t> $0)
+sofa :- N : sofa:<e,t>
+on :- N\N/N : (lambda $0:<e,t> (lambda $1:<e,t> (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> $1 $0))))
+your :- N : at:<e,t>
+left :- N\N : (lambda $0:<e,t> (left:<<e,t>,<e,t>> $0))
+
+
+the third intersection
+(order:<<e,t>,<n,<e,t>>> 3:n intersection:<e,t>)
+the :- N/N :- (lambda $0:<e,t> $0)
+third :- N/N : (lambda $0:<e,t> (order:<<e,t>,<n,<e,t>>> 3:n $0))
+intersection :- N : intersection:<e,t>
+
+
+turn left at the third intersection
+(do_if:<a,<t,t>> (do_until:<a,<t,t>> (do:<m,a> turn:m) (:=<<e,t>,<<e,t>,t>> at:<e,t> (left:<<e,t>,<e,t>> at0:<e,t>))) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<e,t> (order:<<e,t>,<n,<e,t>>> 3:n intersection:<e,t>))))
+turn :- S/(N\N) : (lambda $0:<<e,t>,<e,t>> (do_until:<a,<t,t>> (do:<m,<arg,a>> turn:m) (=:<<e,t>,<<e,t>,t>> (front:<<e,t>,<e,t>> at:<e,t>) ($0 at0:<e,t>))))
+left :- N\N : (lambda $0:<e,t> (left:<<e,t>,<e,t>> $0))
+at :- S\S/N : (lambda $0:<e,t> (lambda $1:e (do_if:<a,<t,t>> $1 (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<e,t> $0)))))
+the :- N/N :- (lambda $0:<e,t> $0)
+third :- N/N : (lambda $0:<e,t> (order:<<e,t>,<n,<e,t>>> 3:n $0))
+intersection :- N : intersection:<e,t>
+
+
+turn on the third left
+(do_if:<a,<t,t>> (do:<m,a> turn:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<e,t> (order:<<e,t>,<n,<e,t>>> 3:n (intersect:<<e,t>*,<e,t>> (left:<<e,t>,<e,t>> intersection:<e,t>) hallway:<e,t>))))) 
+// XXX : notice that it's not explicitly mentioned where to turn
+turn :- S : (do:<m,a> turn:m)
+on :- S\S/N : (lambda $0:<e,t> (lambda $1:e (do_if:<a,<t,t>> $1 (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<e,t> $0)))))
+the :- N/N :- (lambda $0:<e,t> $0)
+third :- N/N : (lambda $0:<e,t> (order:<<e,t>,<n,<e,t>>> 3:n $0))
+left :- N : (intersect:<<e,t>*,<e,t>> (left:<<e,t>,<e,t>> intersection:<e,t>) hallway:<e,t>)
+
+

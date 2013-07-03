@@ -1,0 +1,46 @@
+10-20 16:50:03 INFO     frame2action [Position=[Pos_n=[MEAN='position_N_1'], P_name=[MEAN='X']], Is_v=[MEAN="is_V_('be', [1, 2, 3, 4, 5])"], Loc=[Loc_p=[MEAN='AT'], Obj=[Det=[MEAN='THE'], Obj_n=[MEAN='chair_N_1']]]]
+10-20 16:50:03 INFO     <0> Verify(goal=DeclareGoal(cond=Travel(until=Verify(desc=[Thing(dist='0', value=GenChair, type='Obj')])), goal=['X']))
+10-20 16:50:13 INFO     frame2action [Position=[Pos_n=[MEAN='position_N_1'], P_name=[MEAN='X']], Is_v=[MEAN="is_V_('be', [1, 2, 3, 4, 5])"], Loc=[Loc_p=[MEAN='AT'], Obj=[Det=[MEAN='THE'], Obj_n=[MEAN='chair_N_1']]]]
+10-20 16:50:13 INFO     <0> Verify(goal=DeclareGoal(cond=Travel(until=Verify(desc=[Thing(dist='0', value=GenChair, type='Obj')])), goal=['X']))
+10-20 16:50:17 INFO     frame2action [Position=[Pos_n=[MEAN='position_N_1'], P_name=[MEAN='X']], Is_v=[MEAN="is_V_('be', [1, 2, 3, 4, 5])"], Loc=[Loc_p=[MEAN='AT'], Obj=[Det=[MEAN='THE'], Obj_n=[MEAN='chair_N_1']]]]
+10-20 16:50:17 INFO     <0> Verify(goal=DeclareGoal(cond=Travel(until=Verify(desc=[Thing(dist='0', value=GenChair, type='Obj')])), goal=['X']))
+10-20 16:50:17 INFO     Recognizing [Thing(dist='0', value=GenChair, type='Obj')].
+10-20 16:50:17 INFO     .....Examining [(Wall, Empty, Cement, Butterfly, BlueTile, Butterfly), (Wall, Barstool, Stone, Butterfly, BlueTile, Butterfly), (Wall, Chair, Wood, Fish, BlueTile, Fish), (Wall, Empty, Rose, Fish, BlueTile, Fish), (Wall, Empty, Grass, End, Wall, End)]
+.....for Thing(dist='0', value=GenChair, type='Obj')
+10-20 16:50:17 INFO     .....Did NOT recognize Thing(dist='0', value=GenChair, type='Obj', side=[At])
+10-20 16:50:17 INFO     Facing the Until conditions in the distance [Thing(dist='0:', value=GenChair, type='Obj', side=[Front])]
+10-20 16:50:17 INFO     Recognizing [Thing(dist='0', value=Path, type='Path', side=[Right])].
+10-20 16:50:17 INFO     .....Examining [(Wall, Empty, Cement, Butterfly, BlueTile, Butterfly), (Wall, Barstool, Stone, Butterfly, BlueTile, Butterfly), (Wall, Chair, Wood, Fish, BlueTile, Fish), (Wall, Empty, Rose, Fish, BlueTile, Fish), (Wall, Empty, Grass, End, Wall, End)]
+.....for Thing(dist='0', value=Path, type='Path', side=[Right])
+10-20 16:50:17 INFO     .....Recognized Thing(dist='0', value=Path, type='Path', side=[Right])
+10-20 16:50:17 INFO     .....Recognized entire description!
+10-20 16:50:17 INFO     Recognizing [Thing(dist='0:', value=GenChair, type='Obj', side=[Front])].
+10-20 16:50:17 INFO     .....Examining [(Wall, Empty, Cement, Butterfly, BlueTile, Butterfly), (Wall, Barstool, Stone, Butterfly, BlueTile, Butterfly), (Wall, Chair, Wood, Fish, BlueTile, Fish), (Wall, Empty, Rose, Fish, BlueTile, Fish), (Wall, Empty, Grass, End, Wall, End)]
+.....for Thing(dist='0:', value=GenChair, type='Obj', side=[Front])
+10-20 16:50:17 INFO     .....Recognized Thing(dist='0:', value=GenChair, type='Obj', side=[Front])
+10-20 16:50:17 INFO     .....Recognized entire description!
+10-20 16:50:17 INFO     After Faced Until 0 []
+10-20 16:50:17 INFO     Recognizing [Thing(dist='0', value=GenChair, type='Obj', side=[At])].
+10-20 16:50:17 INFO     .....Examining [(Wall, Empty, Cement, Butterfly, BlueTile, Butterfly), (Wall, Barstool, Stone, Butterfly, BlueTile, Butterfly), (Wall, Chair, Wood, Fish, BlueTile, Fish), (Wall, Empty, Rose, Fish, BlueTile, Fish), (Wall, Empty, Grass, End, Wall, End)]
+.....for Thing(dist='0', value=GenChair, type='Obj', side=[At])
+10-20 16:50:17 INFO     .....Did NOT recognize Thing(dist='0', value=GenChair, type='Obj', side=[At])
+10-20 16:50:17 INFO     Traveling forward.
+10-20 16:50:17 INFO     travel observing...
+10-20 16:50:17 INFO     post travel obs: [(Wall, Empty, Cement, Butterfly, BlueTile, Butterfly), (Wall, Barstool, Stone, Butterfly, BlueTile, Butterfly), (Wall, Chair, Wood, Fish, BlueTile, Fish), (Wall, Empty, Rose, Fish, BlueTile, Fish), (Wall, Empty, Grass, End, Wall, End)]; viewCache: ViewCache([[(Wall, Empty, Cement, Butterfly, BlueTile, Butterfly), (Wall, Barstool, Stone, Butterfly, BlueTile, Butterfly), (Wall, Chair, Wood, Fish, BlueTile, Fish), (Wall, Empty, Rose, Fish, BlueTile, Fish), (Wall, Empty, Grass, End, Wall, End)], [(BlueTile, Empty, BlueTile, Unknown, Cement, Unknown)], [(Cement, Empty, Wall, Butterfly, BlueTile, Butterfly), (Cement, Empty, Wall, Unknown, Unknown, Unknown)], [(BlueTile, Empty, BlueTile, End, Wall, End)]])
+10-20 16:50:17 INFO     After until 1 [(Wall, Barstool, Stone, Butterfly, BlueTile, Butterfly)]...
+10-20 16:50:17 INFO     Recognizing [Thing(dist='0', value=GenChair, type='Obj', side=[At])].
+10-20 16:50:17 INFO     .....Examining [(Wall, Barstool, Stone, Butterfly, BlueTile, Butterfly), (Wall, Chair, Wood, Fish, BlueTile, Fish), (Wall, Empty, Rose, Fish, BlueTile, Fish), (Wall, Empty, Grass, End, Wall, End)]
+.....for Thing(dist='0', value=GenChair, type='Obj', side=[At])
+10-20 16:50:17 INFO     .....Did NOT recognize Thing(dist='0', value=GenChair, type='Obj', side=[At])
+10-20 16:50:17 INFO     Traveling forward.
+10-20 16:50:17 INFO     travel observing...
+10-20 16:50:17 INFO     post travel obs: [(Wall, Barstool, Stone, Butterfly, BlueTile, Butterfly), (Wall, Chair, Wood, Fish, BlueTile, Fish), (Wall, Empty, Rose, Fish, BlueTile, Fish), (Wall, Empty, Grass, End, Wall, End)]; viewCache: ViewCache([[(Wall, Barstool, Stone, Butterfly, BlueTile, Butterfly), (Wall, Chair, Wood, Fish, BlueTile, Fish), (Wall, Empty, Rose, Fish, BlueTile, Fish), (Wall, Empty, Grass, End, Wall, End)], [(BlueTile, Barstool, BlueTile, Unknown, Stone, Unknown)], [(Stone, Barstool, Wall, Butterfly, BlueTile, Butterfly), (Stone, Barstool, Wall, Butterfly, BlueTile, Butterfly), (Cement, Empty, Wall, Unknown, Unknown, Unknown)], [(BlueTile, Barstool, BlueTile, End, Wall, End)]])
+10-20 16:50:17 INFO     After until 1 [(Wall, Chair, Wood, Fish, BlueTile, Fish)]...
+10-20 16:50:17 INFO     Recognizing [Thing(dist='0', value=GenChair, type='Obj', side=[At])].
+10-20 16:50:17 INFO     .....Examining [(Wall, Chair, Wood, Fish, BlueTile, Fish), (Wall, Empty, Rose, Fish, BlueTile, Fish), (Wall, Empty, Grass, End, Wall, End)]
+.....for Thing(dist='0', value=GenChair, type='Obj', side=[At])
+10-20 16:50:17 INFO     .....Recognized Thing(dist='0', value=GenChair, type='Obj', side=[At])
+10-20 16:50:17 INFO     .....Recognized entire description!
+10-20 16:50:17 INFO     After Travelling to goal description 2 [(Wall, Chair, Wood, Fish, BlueTile, Fish)]...
+10-20 16:50:17 INFO     Declaring at Position ['X']
+10-20 16:50:17 INFO     After declareGoal 0 []

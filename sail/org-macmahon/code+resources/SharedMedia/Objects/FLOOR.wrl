@@ -1,0 +1,35 @@
+#VRML V2.0 utf8
+DEF FLOOR Group {
+	children [
+	Transform {
+		translation 0 -5.000000 0
+		children [
+			Shape {
+				appearance Appearance {
+					texture ImageTexture {
+						url "SharedMedia/Textures/Burlap.JPG"
+					}
+				}
+				geometry Box {
+					size 10.000000 0.500000 10.000000
+				}
+			}
+		]
+	},
+	Transform {
+		translation 0 5.000000 0
+		children [
+			Shape {
+				appearance Appearance {
+					texture ImageTexture {
+						url "SharedMedia/Textures/Cement1.JPG"
+					}
+				}
+				geometry Box {
+					size 10.000000 0.500000 10.000000
+				}
+			}
+		]
+	}
+]
+}

@@ -1,0 +1,426 @@
+#VRML V2.0 utf8
+
+WorldInfo {
+info               
+[
+"This VRML microworld is freeware and may be redistrubuted as is. "
+"Commercial use must be licenced." 
+"To find more examples of this new art form"
+"visit http://home.t-online.de/home/kiwano4 " 
+"Copyright Andrew Reitemeyer 1998"
+]
+title "New-chick"
+}
+NavigationInfo {
+headlight        FALSE          
+type             "EXAMINE"       
+}
+Viewpoint {
+# set_bind eventIn SFBool
+fieldOfView    0.785398    # exposedField SFFloat
+jump           TRUE        # exposedField SFBool
+orientation    0 0 1.2,   0    # exposedField SFRotation
+position       0 1 4      # exposedField SFVec3f
+description    ""          # field        SFString
+# bindTime eventOut SFTime
+# isBound eventOut SFBool
+}
+DEF All Transform  {
+translation .5 0 0
+children [
+DEF Turn SphereSensor {
+autoOffset         FALSE      
+}
+
+DirectionalLight { }
+Transform {
+children [
+Transform {
+scale 1 1 1
+children [
+Shape {
+appearance DEF Shell  Appearance {
+
+texture         PixelTexture {
+image  3 3 3      0xFF00FF 0xFF00FF 0xFF00FF
+0xFF0000 0xFF0000 0xFF0000
+0xFF00FF 0xFF00FF 0xFF00FF
+}
+textureTransform TextureTransform {
+scale       1 1  
+}
+}
+geometry DEF Brew Extrusion {
+creaseAngle 1.3
+crossSection [ -.5 0, -.49 .1, -.4 .3,  -.2 .45, 0 .5, .2 .45, .4 .3, .49 .1, .5 0,
+.49 -.1, .4 -.3, .2 -.45, 0 -.5, -.2 -.45, -.4 -.3, -.49 -.1, -.5 0
+
+]
+spine [ 0 0 0, 0 .04 0, 0 .07 0, 0 .2 0, ,0 .4 0, 0 .6 0 ]
+scale [ .001 .001, .45 .45, .57 .57, .78 .78, .9 .9, .96 .96]
+solid FALSE
+endCap FALSE
+}
+}
+]
+} 
+
+DEF Shard  Transform {
+rotation         0  1  0  1.57    
+scale            1  1  1     
+translation      .47  .59  0       
+children
+[
+Shape {
+appearance USE Shell
+geometry  IndexedFaceSet {                               
+coord             Coordinate {
+point                  
+[
+-.08 0 0, .08 0 0, 0 .1 0
+]
+}
+coordIndex                 
+[
+0,1,2,-1
+]
+creaseAngle       0    
+solid             FALSE
+}
+} 
+]
+}
+Transform {
+rotation         0  1  0  .3              
+children
+[
+USE Shard 
+]
+}
+Transform {
+rotation         0  1  0  .6              
+children
+[
+USE Shard 
+]
+}
+Transform {
+rotation         0  1  0  .9             
+children
+[
+USE Shard 
+]
+}
+Transform {
+rotation         0  1  0  1.2              
+children
+[
+USE Shard 
+]
+} 
+Transform {
+rotation         0  1  0  1.5              
+children
+[
+USE Shard 
+]
+}
+Transform {
+rotation         0  1  0  1.8              
+children
+[
+USE Shard 
+]
+}
+Transform {
+rotation         0  1  0  2.1             
+children
+[
+USE Shard 
+]
+}
+Transform {
+rotation         0  1  0  2.4             
+children
+[
+USE Shard 
+]
+}
+Transform {
+rotation         0  1  0  2.7              
+children
+[
+USE Shard 
+]
+}
+Transform {
+rotation         0  1  0  3              
+children
+[
+USE Shard 
+]
+}
+Transform {
+rotation         0  1  0  3.3              
+children
+[
+USE Shard 
+]
+}
+Transform {
+rotation         0  1  0  3.6              
+children
+[
+USE Shard 
+]
+}
+Transform {
+rotation         0  1  0  3.9              
+children
+[
+USE Shard 
+]
+}
+Transform {
+rotation         0  1  0  4.2              
+children
+[
+USE Shard 
+]
+}
+Transform {
+rotation         0  1  0  4.5              
+children
+[
+USE Shard 
+]
+}
+Transform {
+rotation         0  1  0  4.8              
+children
+[
+USE Shard 
+]
+}
+Transform {
+rotation         0  1  0  5.1              
+children
+[
+USE Shard 
+]
+}
+Transform {
+rotation         0  1  0  5.4              
+children
+[
+USE Shard 
+]
+}
+Transform {
+rotation         0  1  0  5.7              
+children
+[
+USE Shard 
+]
+}
+Transform {
+rotation         0  1  0  6              
+children
+[
+USE Shard 
+]
+}
+]
+} 
+
+Transform {
+scale            1  1.2  1      
+translation      0  .5  0       
+children
+[
+DEF Fluff Shape {
+appearance Appearance {
+material   Material {
+diffuseColor      1 1 0   
+emissiveColor     1 1 0         
+transparency      .01           
+}  
+}
+geometry   Sphere {
+radius  .4        
+} 
+}
+]
+}
+DEF Head Transform  {
+children [
+Transform {
+scale            .6 .6 .6     
+translation      0  .98  0       
+children
+[
+USE Fluff 
+]
+}
+
+Transform {
+scale            1  1.2  1      
+translation      .09  1.05  .19       
+children
+[
+DEF EYE Shape {
+appearance Appearance {
+material   Material {
+diffuseColor      0 0 0   
+shininess 1       
+
+}  
+}
+geometry   Sphere {
+radius  .03        
+} 
+}
+]
+}
+Transform {
+scale            1  1.2  1      
+translation      -.09  1.05  .19       
+children
+[
+USE EYE 
+]
+}
+Transform {
+rotation         1  1  0  -.15    
+scale            1  1  1     
+translation      0  1  .24       
+children
+[
+Shape {
+appearance Appearance {
+material        Material {
+ambientIntensity  0.4           
+diffuseColor      1 .8 0     
+emissiveColor     0 0 0        
+shininess         0.8          
+specularColor     1 .8 0          
+}
+
+}
+
+geometry  IndexedFaceSet {                               
+coord     DEF Beak Coordinate {
+point                  
+[
+-.05 0 0, .05 0 0, 0 .05 0, 0 -.05 0, 0 0 .1, 0 0 .1
+]
+}
+coordIndex                 
+[
+0,2,4,-1
+2,1,4,-1
+3,5,1,-1
+0,5,3,-1
+3,1,0,-1
+1,2,0,-1
+]
+creaseAngle       .3    
+solid             FALSE
+color Color {
+color           
+[
+1 .8 0 
+.5 0 0 
+]
+}
+colorIndex
+[
+0,0,0,0,1,1
+]
+colorPerVertex FALSE
+}
+} 
+]
+}
+]
+}
+]
+}
+Transform { 
+translation      0 0 0    
+children
+[
+Shape {
+appearance Appearance {
+material DEF Ink Material { 
+emissiveColor     0 1 1  
+transparency 0
+}
+}
+geometry   Text {
+string              
+[
+"NEW"
+]
+fontStyle FontStyle {
+# family       "COMIC SANS MS"            
+justify      "MIDDLE"      
+size         3.0         
+}
+}
+}
+]
+}
+########################## ANIMATIONS #############################
+
+
+
+DEF Tocker TimeSensor {
+cycleInterval 6
+loop TRUE 
+}
+
+DEF Cheep CoordinateInterpolator {
+key                  
+[
+0 .2 .4 .6 .8 .9        1
+]
+keyValue              
+[
+#F0
+-.05 0 0, .05 0 0, 0 .05 0, 0 -.05 0, 0 0 .1, 0 0 .1
+#F1
+-.05 0 0, .05 0 0, 0 .05 0, 0 -.05 0, 0 0 .1, 0 0 .1
+#F2
+-.05 0 0, .05 0 0, 0 .05 0, 0 -.05 0, 0 .1 .1, 0 -.1 .1
+#F3
+-.05 0 0, .05 0 0, 0 .05 0, 0 -.05 0, 0 0 .1, 0 0 .1
+#F4
+-.05 0 0, .05 0 0, 0 .05 0, 0 -.05 0, 0 .1 .1, 0 -.1 .1
+#F5
+-.05 0 0, .05 0 0, 0 .05 0, 0 -.05 0, 0 0 .1, 0 0 .1
+#F10
+-.05 0 0, .05 0 0, 0 .05 0, 0 -.05 0, 0 0 .1, 0 0 .1
+
+]                    
+}
+
+ROUTE Tocker.fraction_changed TO Cheep.set_fraction
+ROUTE Cheep.value_changed TO Beak.set_point
+
+DEF Nod OrientationInterpolator {
+key               
+[
+0 .15 .25 .65, .75 1
+]
+keyValue           
+[
+0 1 0 0 , 0 1 0 .4 ,  0 1 0 .4 , 0 1 0 -.4, 0 1 0 -.4, 0 1 0 0
+]
+
+}
+ROUTE Tocker.fraction_changed TO Nod.set_fraction
+ROUTE Nod.value_changed TO Head.set_rotation
+
+ROUTE Turn.rotation_changed TO All.set_rotation
+

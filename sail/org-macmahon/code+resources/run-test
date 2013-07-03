@@ -1,0 +1,9 @@
+#!/bin/sh
+DIR_PRE='.*(KLS|TJS|WLH|KXP|EDA|EMWC)+_(Jelly|Grid|L)0_'
+DIR_POST='_[1-7]_Dirs_[12]\.txt$'
+python ParseDirections.py "${DIR_PRE}[12]${DIR_POST}" > Parse_12.out 2>&1 & 
+python ParseDirections.py "${DIR_PRE}[34]${DIR_POST}" > Parse_34.out 2>&1 & 
+python ParseDirections.py "${DIR_PRE}[56]${DIR_POST}" > Parse_56.out 2>&1 & 
+python ParseDirections.py "${DIR_PRE}[7]${DIR_POST}" > Parse_7.out 2>&1 & 
+#watch  --interval=15 ls -lt Parse_*out
+#tail -f Parse*.out

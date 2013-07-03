@@ -1,0 +1,125 @@
+02-02 10:50:15 INFO     frame2action [Turn_v=[MEAN='turn_V_1'], Cond=[Cond_p=[MEAN='WITH'], Obj=[Det=[MEAN='YOUR'], Obj_n=[MEAN='back_N_1']], Against=[Against_p=[MEAN='TO'], Obj=[Det=[MEAN='THE'], Obj_n=[MEAN='wall_N_1']]]]]
+02-02 10:50:15 INFO     <0> Turn(precond=Face(faced=Verify(desc=[Thing(dist='0', value=Wall, type='Obj', side=[Back])])))
+02-02 10:50:43 WARNING  extractSurfaceSemantics : Text not in tagged senses: barstool
+02-02 10:50:43 WARNING  extractSurfaceSemantics : Inflected version of WordNet word? barstool
+02-02 10:50:43 WARNING  extractSurfaceSemantics : Misspelling / typo of WordNet word? barstool
+02-02 10:50:50 INFO     frame2action [Turn_v=[MEAN='turn_V_1'], Cond=[Cond_p=[MEAN='WITH'], Obj=[Det=[MEAN='YOUR'], Obj_n=[MEAN='back_N_1']], Against=[Against_p=[MEAN='TO'], Obj=[Det=[MEAN='THE'], Appear=[MEAN='bare_ADJ_4'], Obj_n=[MEAN='stool_N_1']]]]]
+02-02 10:50:50 INFO     <0> Turn(precond=Face(faced=Verify(desc=[Thing(dist='0:', Appear=[Cement], value=Barstool, type='Obj', side=[Back])])))
+02-02 10:51:12 INFO     frame2action [Turn_v=[MEAN='turn_V_1'], Cond=[Cond_p=[MEAN='WITH'], Obj=[Det=[MEAN='YOUR'], Obj_n=[MEAN='back_N_1']], Against=[Against_p=[MEAN='TO'], Obj=[Det=[MEAN='THE'], Obj_n=[MEAN='chair_N_1']]]]]
+02-02 10:51:12 INFO     <0> Turn(precond=Face(faced=Verify(desc=[Thing(dist='0:', value=GenChair, type='Obj', side=[Back])])))
+02-02 10:51:41 INFO     frame2action [Turn_v=[MEAN='turn_V_1'], Cond=[Cond_p=[MEAN='WITH'], Obj=[Det=[MEAN='YOUR'], Obj_n=[MEAN='back_N_1']], Against=[Against_p=[MEAN='TO'], Obj=[Det=[MEAN='THE'], Obj_n=[MEAN='hatrack_N_1']]]]]
+02-02 10:51:41 INFO     <0> Turn(precond=Face(faced=Verify(desc=[Thing(dist='0:', value=Hatrack, type='Obj', side=[Back])])))
+02-02 10:51:58 INFO     frame2action [Turn_v=[MEAN='turn_V_1'], Cond=[Cond_p=[MEAN='WITH'], Obj=[Det=[MEAN='YOUR'], Obj_n=[MEAN='back_N_1']], Against=[Against_p=[MEAN='TO'], Obj=[Det=[MEAN='THE'], Obj_n=[MEAN='wall_N_1']]]]]
+02-02 10:51:58 INFO     <0> Turn(precond=Face(faced=Verify(desc=[Thing(dist='0', value=Wall, type='Obj', side=[Back])])))
+02-02 10:52:02 INFO     frame2action [Turn_v=[MEAN='turn_V_1'], Cond=[Cond_p=[MEAN='WITH'], Obj=[Det=[MEAN='YOUR'], Obj_n=[MEAN='back_N_1']], Against=[Against_p=[MEAN='TO'], Obj=[Det=[MEAN='THE'], Obj_n=[MEAN='wall_N_1']]]]]
+02-02 10:52:02 INFO     <0> Turn(precond=Face(faced=Verify(desc=[Thing(dist='0', value=Wall, type='Obj', side=[Back])])))
+02-02 10:52:10 INFO     frame2action [Turn_v=[MEAN='turn_V_1'], Cond=[Cond_p=[MEAN='WITH'], Obj=[Det=[MEAN='YOUR'], Obj_n=[MEAN='back_N_1']], Against=[Against_p=[MEAN='TO'], Obj=[Det=[MEAN='THE'], Obj_n=[MEAN='wall_N_1']]]]]
+02-02 10:52:10 INFO     <0> Turn(precond=Face(faced=Verify(desc=[Thing(dist='0', value=Wall, type='Obj', side=[Back])])))
+02-02 10:52:28 INFO     Recognizing [Thing(dist='0', value=Path, type='Path', side=[Right])].
+02-02 10:52:28 INFO     recognize observing...
+02-02 10:52:28 INFO     Observed [(Wall, Empty, Cement, Butterfly, BlueTile, Butterfly), (Wall, Barstool, Stone, Butterfly, BlueTile, Butterfly), (Wall, Chair, Wood, Fish, BlueTile, Fish), (Wall, Empty, Rose, Fish, BlueTile, Fish), (Wall, Empty, Grass, End, Wall, End)]
+02-02 10:52:28 INFO     .....Examining [(Wall, Empty, Cement, Butterfly, BlueTile, Butterfly), (Wall, Barstool, Stone, Butterfly, BlueTile, Butterfly), (Wall, Chair, Wood, Fish, BlueTile, Fish), (Wall, Empty, Rose, Fish, BlueTile, Fish), (Wall, Empty, Grass, End, Wall, End)]
+.....for Thing(dist='0', value=Path, type='Path', side=[Right])
+02-02 10:52:28 INFO     .....Recognized Thing(dist='0', value=Path, type='Path', side=[Right])
+02-02 10:52:28 INFO     .....Recognized entire description!
+02-02 10:52:28 INFO     Recognizing [Thing(dist='0', value=Wall, type='Obj', side=[Back])].
+02-02 10:52:28 INFO     .....Examining [(Wall, Empty, Cement, Butterfly, BlueTile, Butterfly), (Wall, Barstool, Stone, Butterfly, BlueTile, Butterfly), (Wall, Chair, Wood, Fish, BlueTile, Fish), (Wall, Empty, Rose, Fish, BlueTile, Fish), (Wall, Empty, Grass, End, Wall, End)]
+.....for Thing(dist='0', value=Wall, type='Obj', side=[Back])
+02-02 10:52:28 INFO     .....Did NOT recognize Thing(dist='0', value=Wall, type='Obj', side=[Back])
+02-02 10:52:28 INFO     Turning Right.
+02-02 10:52:28 INFO     After face 1 [(BlueTile, Empty, BlueTile, Butterfly, Cement, Butterfly)]...
+02-02 10:52:28 INFO     Recognizing [Thing(dist='0', value=Wall, type='Obj', side=[Back])].
+02-02 10:52:28 INFO     .....Examining [(BlueTile, Empty, BlueTile, Butterfly, Cement, Butterfly), (Brick, Empty, Brick, Eiffel, Cement, Eiffel), (Cement, Empty, Cement, End, Wall, End)]
+.....for Thing(dist='0', value=Wall, type='Obj', side=[Back])
+02-02 10:52:28 INFO     .....Recognized Thing(dist='0', value=Wall, type='Obj', side=[Back])
+02-02 10:52:28 INFO     .....Recognized entire description!
+02-02 10:52:28 INFO     After precond 1 []
+02-02 10:52:28 INFO     Recognizing [Thing(dist='0', value=Path, type='Path', side=[Right])].
+02-02 10:52:28 INFO     .....Examining [(BlueTile, Empty, BlueTile, Butterfly, Cement, Butterfly), (Brick, Empty, Brick, Eiffel, Cement, Eiffel), (Cement, Empty, Cement, End, Wall, End)]
+.....for Thing(dist='0', value=Path, type='Path', side=[Right])
+02-02 10:52:28 INFO     .....Recognized Thing(dist='0', value=Path, type='Path', side=[Right])
+02-02 10:52:28 INFO     .....Recognized entire description!
+02-02 10:52:28 INFO     Turning Right.
+02-02 10:52:28 INFO     After turn 1 [(Cement, Empty, Wall, Butterfly, BlueTile, Butterfly)]...
+02-02 10:54:22 INFO     frame2action [Turn_v=[MEAN='turn_V_1'], Cond=[Cond_p=[MEAN='WITH'], Obj=[Det=[MEAN='YOUR'], Obj_n=[MEAN='back_N_1']], Against=[Against_p=[MEAN='TO'], Obj=[Det=[MEAN='THE'], Obj_n=[MEAN='hatrack_N_1']]]]]
+02-02 10:54:22 INFO     <0> Turn(precond=Face(faced=Verify(desc=[Thing(dist='0:', value=Hatrack, type='Obj', side=[Back])])))
+02-02 10:54:25 INFO     Recognizing [Thing(dist='0', value=Path, type='Path', side=[Left])].
+02-02 10:54:25 INFO     .....Examining [(Cement, Empty, Wall, Butterfly, BlueTile, Butterfly), (Cement, Sofa, Wall, Butterfly, BlueTile, Butterfly), (Cement, Hatrack, Wall, Butterfly, BlueTile, Butterfly), (Cement, Empty, Wall, End, Wall, End)]
+.....for Thing(dist='0', value=Path, type='Path', side=[Left])
+02-02 10:54:25 INFO     .....Recognized Thing(dist='0', value=Path, type='Path', side=[Left])
+02-02 10:54:25 INFO     .....Recognized entire description!
+02-02 10:54:25 INFO     Recognizing [Thing(dist='0:', value=Hatrack, type='Obj', side=[Back])].
+02-02 10:54:25 INFO     .....Examining [(Cement, Empty, Wall, Butterfly, BlueTile, Butterfly), (Cement, Sofa, Wall, Butterfly, BlueTile, Butterfly), (Cement, Hatrack, Wall, Butterfly, BlueTile, Butterfly), (Cement, Empty, Wall, End, Wall, End)]
+.....for Thing(dist='0:', value=Hatrack, type='Obj', side=[Back])
+02-02 10:54:25 INFO     .....Did NOT recognize Thing(dist='0:', value=Hatrack, type='Obj', side=[Back])
+02-02 10:54:25 INFO     Turning Left.
+02-02 10:54:25 INFO     After face 1 [(BlueTile, Empty, BlueTile, Butterfly, Cement, Butterfly)]...
+02-02 10:54:25 INFO     Recognizing [Thing(dist='0:', value=Hatrack, type='Obj', side=[Back])].
+02-02 10:54:25 INFO     .....Examining [(BlueTile, Empty, BlueTile, Butterfly, Cement, Butterfly), (Brick, Empty, Brick, Eiffel, Cement, Eiffel), (Cement, Empty, Cement, End, Wall, End)]
+.....for Thing(dist='0:', value=Hatrack, type='Obj', side=[Back])
+02-02 10:54:25 INFO     .....Did NOT recognize Thing(dist='0:', value=Hatrack, type='Obj', side=[Back])
+02-02 10:54:25 INFO     Turning Left.
+02-02 10:54:25 INFO     After face 1 [(Wall, Empty, Cement, Butterfly, BlueTile, Butterfly)]...
+02-02 10:54:25 INFO     Recognizing [Thing(dist='0:', value=Hatrack, type='Obj', side=[Back])].
+02-02 10:54:25 INFO     .....Examining [(Wall, Empty, Cement, Butterfly, BlueTile, Butterfly), (Wall, Barstool, Stone, Butterfly, BlueTile, Butterfly), (Wall, Chair, Wood, Fish, BlueTile, Fish), (Wall, Empty, Rose, Fish, BlueTile, Fish), (Wall, Empty, Grass, End, Wall, End)]
+.....for Thing(dist='0:', value=Hatrack, type='Obj', side=[Back])
+02-02 10:54:25 INFO     .....Recognized Thing(dist='0:', value=Hatrack, type='Obj', side=[Back])
+02-02 10:54:25 INFO     .....Recognized entire description!
+02-02 10:54:25 INFO     After precond 2 [(Wall, Empty, Cement, Butterfly, BlueTile, Butterfly)]...
+02-02 10:54:25 INFO     Recognizing [Thing(dist='0', value=Path, type='Path', side=[Left])].
+02-02 10:54:25 INFO     .....Examining [(Wall, Empty, Cement, Butterfly, BlueTile, Butterfly), (Wall, Barstool, Stone, Butterfly, BlueTile, Butterfly), (Wall, Chair, Wood, Fish, BlueTile, Fish), (Wall, Empty, Rose, Fish, BlueTile, Fish), (Wall, Empty, Grass, End, Wall, End)]
+.....for Thing(dist='0', value=Path, type='Path', side=[Left])
+02-02 10:54:25 INFO     .....Did NOT recognize Thing(dist='0', value=Path, type='Path', side=[Left])
+02-02 10:54:25 INFO     Turning Right.
+02-02 10:54:25 INFO     After turn 1 [(BlueTile, Empty, BlueTile, Butterfly, Cement, Butterfly)]...
+02-02 10:56:30 INFO     frame2action [Turn_v=[MEAN='turn_V_1'], Purpose=[Purpose_p=[MEAN='SO'], S=[Obj=[Det=[MEAN='THE'], Obj_n=[MEAN='hatrack_N_1']], Is_v=[MEAN="is_V_('be', [1, 2, 3, 4, 5])"], Side=[Side_p=[MEAN='BEHIND'], Agent=[MEAN='YOU']]]]]
+02-02 10:56:30 INFO     <0> Turn(face=Face(faced=Verify(desc=[Thing(dist='0:', value=Hatrack, type='Obj', side=[Back])])))
+02-02 10:56:41 INFO     frame2action [Turn_v=[MEAN='turn_V_1'], Cond=[Cond_p=[MEAN='WITH'], Obj=[Det=[MEAN='YOUR'], Obj_n=[MEAN='back_N_1']], Against=[Against_p=[MEAN='TO'], Obj=[Det=[MEAN='THE'], Obj_n=[MEAN='hatrack_N_1']]]]]
+02-02 10:56:41 INFO     <0> Turn(precond=Face(faced=Verify(desc=[Thing(dist='0:', value=Hatrack, type='Obj', side=[Back])])))
+02-02 10:56:53 INFO     frame2action [Turn_v=[MEAN='turn_V_1'], Purpose=[Purpose_p=[MEAN='SO'], S=[Obj=[Det=[MEAN='THE'], Obj_n=[MEAN='hatrack_N_1']], Is_v=[MEAN="is_V_('be', [1, 2, 3, 4, 5])"], Side=[Side_p=[MEAN='BEHIND'], Agent=[MEAN='YOU']]]]]
+02-02 10:56:53 INFO     <0> Turn(face=Face(faced=Verify(desc=[Thing(dist='0:', value=Hatrack, type='Obj', side=[Back])])))
+02-02 10:57:00 INFO     Recognizing [Thing(dist='0', value=Path, type='Path', side=[Right])].
+02-02 10:57:00 INFO     .....Examining [(BlueTile, Empty, BlueTile, Butterfly, Cement, Butterfly), (Brick, Empty, Brick, Eiffel, Cement, Eiffel), (Cement, Empty, Cement, End, Wall, End)]
+.....for Thing(dist='0', value=Path, type='Path', side=[Right])
+02-02 10:57:00 INFO     .....Recognized Thing(dist='0', value=Path, type='Path', side=[Right])
+02-02 10:57:00 INFO     .....Recognized entire description!
+02-02 10:57:00 INFO     Recognizing [Thing(dist='0:', value=Hatrack, type='Obj', side=[Back])].
+02-02 10:57:00 INFO     .....Examining [(BlueTile, Empty, BlueTile, Butterfly, Cement, Butterfly), (Brick, Empty, Brick, Eiffel, Cement, Eiffel), (Cement, Empty, Cement, End, Wall, End)]
+.....for Thing(dist='0:', value=Hatrack, type='Obj', side=[Back])
+02-02 10:57:00 INFO     .....Did NOT recognize Thing(dist='0:', value=Hatrack, type='Obj', side=[Back])
+02-02 10:57:00 INFO     Turning Right.
+02-02 10:57:00 INFO     After face 1 [(Cement, Empty, Wall, Butterfly, BlueTile, Butterfly)]...
+02-02 10:57:00 INFO     Recognizing [Thing(dist='0:', value=Hatrack, type='Obj', side=[Back])].
+02-02 10:57:00 INFO     .....Examining [(Cement, Empty, Wall, Butterfly, BlueTile, Butterfly), (Cement, Sofa, Wall, Butterfly, BlueTile, Butterfly), (Cement, Hatrack, Wall, Butterfly, BlueTile, Butterfly), (Cement, Empty, Wall, End, Wall, End)]
+.....for Thing(dist='0:', value=Hatrack, type='Obj', side=[Back])
+02-02 10:57:00 INFO     .....Did NOT recognize Thing(dist='0:', value=Hatrack, type='Obj', side=[Back])
+02-02 10:57:00 INFO     Turning Right.
+02-02 10:57:00 INFO     After face 1 [(BlueTile, Empty, BlueTile, End, Wall, End)]
+02-02 10:57:00 INFO     Recognizing [Thing(dist='0:', value=Hatrack, type='Obj', side=[Back])].
+02-02 10:57:00 INFO     .....Examining [(BlueTile, Empty, BlueTile, End, Wall, End)]
+.....for Thing(dist='0:', value=Hatrack, type='Obj', side=[Back])
+02-02 10:57:00 INFO     .....Did NOT recognize Thing(dist='0:', value=Hatrack, type='Obj', side=[Back])
+02-02 10:57:00 INFO     Turning Right.
+02-02 10:57:00 INFO     After face 1 [(Wall, Empty, Cement, Butterfly, BlueTile, Butterfly)]...
+02-02 10:57:00 INFO     Recognizing [Thing(dist='0:', value=Hatrack, type='Obj', side=[Back])].
+02-02 10:57:00 INFO     .....Examining [(Wall, Empty, Cement, Butterfly, BlueTile, Butterfly), (Wall, Barstool, Stone, Butterfly, BlueTile, Butterfly), (Wall, Chair, Wood, Fish, BlueTile, Fish), (Wall, Empty, Rose, Fish, BlueTile, Fish), (Wall, Empty, Grass, End, Wall, End)]
+.....for Thing(dist='0:', value=Hatrack, type='Obj', side=[Back])
+02-02 10:57:00 INFO     .....Recognized Thing(dist='0:', value=Hatrack, type='Obj', side=[Back])
+02-02 10:57:00 INFO     .....Recognized entire description!
+02-02 10:57:00 INFO     After face 3 [(Wall, Empty, Cement, Butterfly, BlueTile, Butterfly)]...
+02-02 11:16:12 INFO     frame2action [Turn_v=[MEAN='turn_V_1'], Cond=[Cond_p=[MEAN='WITH'], Obj=[Det=[MEAN='YOUR'], Obj_n=[MEAN='back_N_1']], Against=[Against_p=[MEAN='TO'], Obj=[Det=[MEAN='THE'], Obj_n=[MEAN='hatrack_N_1']]]]]
+02-02 11:16:12 INFO     <0> Turn(precond=Face(faced=Verify(desc=[Thing(dist='0:', value=Hatrack, type='Obj', side=[Back])])))
+02-02 11:16:42 INFO     frame2action [Turn_v=[MEAN='turn_V_1'], Dir=[MEAN='back_ADV_1,2'], Toward=[Toward_p=[MEAN='TO'], Obj=[Det=[MEAN='THE'], Obj_n=[MEAN='hatrack_N_1']]]]
+02-02 11:16:42 INFO     <0> Turn(face=Face(faced=Verify(desc=[Thing(dist='1:', value=Hatrack, type='Obj', side=[Front])]), direction=[Back]))
+02-02 11:16:55 INFO     frame2action [Turn_v=[MEAN='turn_V_1'], Dir=[MEAN='back_ADV_1,2'], Toward=[Toward_p=[MEAN='TO'], Obj=[Det=[MEAN='THE'], Obj_n=[MEAN='wall_N_1']]]]
+02-02 11:16:55 INFO     <0> Turn(face=Face(faced=Verify(desc=[Thing(dist='0', value=Wall, type='Obj', side=[Front])]), direction=[Back]))
+02-02 11:17:35 INFO     frame2action [Turn_v=[MEAN='turn_V_1'], Dir=[MEAN='back_ADV_1,2'], Toward=[Toward_p=[MEAN='TO'], Path=[Det=[MEAN='THE'], Appear=[MEAN='blue_ADJ_1'], Path_n=[MEAN='hallway_N_1']]]]
+02-02 11:17:35 INFO     <0> Turn(face=Face(faced=Verify(desc=[Thing(dist='1:', Appear=[BlueTile], value=Path, type='Path', side=[Front])]), direction=[Back]))
+02-02 11:17:49 INFO     frame2action [Turn_v=[MEAN='turn_V_1'], Dir=[MEAN='back_ADV_1,2'], Toward=[Toward_p=[MEAN='TO'], Path=[Det=[MEAN='THE'], Path_n=[MEAN='hallway_N_1']]]]
+02-02 11:17:49 INFO     <0> Turn(face=Face(faced=Verify(desc=[Thing(dist='1:', value=Path, type='Path', side=[Front])]), direction=[Back]))
+02-02 11:28:12 INFO     frame2action [Turn_v=[MEAN='turn_V_1'], Dir=[MEAN='back_ADV_1,2'], Toward=[Toward_p=[MEAN='TO'], Path=[Det=[MEAN='THE'], Appear=[MEAN='blue_ADJ_1'], Path_n=[MEAN='hallway_N_1']]]]
+02-02 11:28:12 INFO     <0> Turn(face=Face(faced=Verify(desc=[Thing(dist='1:', Appear=[BlueTile], value=Path, type='Path', side=[Front])]), direction=[Back]))
+02-02 11:28:35 INFO     frame2action [Turn_v=[MEAN='turn_V_1'], Purpose=[Purpose_p=[MEAN='SO'], S=[Obj=[Det=[MEAN='THE'], Obj_n=[MEAN='wall_N_1']], Is_v=[MEAN="is_V_('be', [1, 2, 3, 4, 5])"], Side=[Side_p=[MEAN='ON'], Dir=[MEAN='left_ADV_1']]]]]
+02-02 11:28:35 INFO     <0> Turn(face=Face(faced=Verify(desc=[Thing(dist='0', value=Wall, type='Obj', side=[Left])])))
+02-02 11:28:48 INFO     frame2action [Turn_v=[MEAN='turn_V_1'], Purpose=[Purpose_p=[MEAN='SO'], S=[Obj=[Det=[MEAN='THE'], Obj_n=[MEAN='chair_N_1']], Is_v=[MEAN="is_V_('be', [1, 2, 3, 4, 5])"], Side=[Side_p=[MEAN='ON'], Dir=[MEAN='left_ADV_1']]]]]
+02-02 11:28:48 INFO     <0> Turn(face=Face(faced=Verify(desc=[Thing(dist='0:', value=GenChair, type='Obj', side=[Left])])))

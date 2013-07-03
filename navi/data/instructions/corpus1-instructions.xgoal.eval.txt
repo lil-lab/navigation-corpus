@@ -1,0 +1,3993 @@
+EDA_Grid0_2_1_Dirs_1
+{'map': 'grid', 'efficiency': (0.0, 0.0), 'xalt': (2, 6, 270), 'implicit': False, 'numFollowers': 5, 'confidence': (5.4, 1.2), 'directionRating': (5.4, 0.8), 'x': 1, 'annotated': True, 'targetFound': (0.0, 0.0), 'y': 2, 'valid': True, 'correct': False}
+turn to face the yellow hallway
+%% LEFT(3,8,0)
+%% LEFT(3,8,270)
+%% LEFT(3,8,180)
+%% LEFT(3,8,90)
+%% NULL(3,8,0)
+walk forward twice
+%% FORWARD(3,8,0)
+%% FORWARD(3,7,0)
+%% NULL(3,6,0)
+turn onto the pink hallway
+%% LEFT(3,6,0)
+%% NULL(3,6,270)
+walk forward once
+%% FORWARD(3,6,270)
+%% NULL(2,6,270)
+
+EDA_Grid0_3_1_Dirs_1
+{'map': 'grid', 'efficiency': (1.0, 0.0), 'implicit': False, 'numFollowers': 5, 'confidence': (6.0, 0.0), 'directionRating': (5.2, 0.7483314773547882), 'x': 1, 'annotated': True, 'targetFound': (1.0, 0.0), 'y': 3, 'valid': True, 'correct': True}
+turn so the wall is on your left
+%% LEFT(0,9,0)
+%% LEFT(0,9,270)
+%% LEFT(0,9,180)
+%% LEFT(0,9,90)
+%% NULL(0,9,0)
+walk forward three times, or until you reach the pink walkway
+%% FORWARD(0,9,0)
+%% FORWARD(0,8,0)
+%% FORWARD(0,7,0)
+%% NULL(0,6,0)
+turn right
+%% RIGHT(0,6,0)
+%% NULL(0,6,90)
+walk forward until you reach the red walkway
+%% FORWARD(0,6,90)
+%% NULL(1,6,90)
+there should be a painting easel there too
+%% NULL(1,6,90)
+
+EDA_Grid0_3_5_Dirs_1
+{'map': 'grid', 'efficiency': (1.0, 0.0), 'implicit': False, 'numFollowers': 6, 'confidence': (5.333333333333333, 1.1055415967851332), 'directionRating': (5.5, 0.7637626158259733), 'x': 5, 'annotated': True, 'targetFound': (1.0, 0.0), 'y': 3, 'valid': True, 'correct': True}
+turn so the wall is on your right
+%% LEFT(0,9,0)
+%% LEFT(0,9,270)
+%% NULL(0,9,180)
+walk forward twice
+%% FORWARD(0,9,180)
+%% FORWARD(0,10,180)
+%% NULL(0,11,180)
+turn left
+%% LEFT(0,11,180)
+%% NULL(0,11,90)
+walk forward once
+%% FORWARD(0,11,90)
+%% NULL(1,11,90)
+
+EDA_Grid0_3_6_Dirs_1
+{'map': 'grid', 'efficiency': (0.8333333333333334, 0.37267799624996495), 'implicit': False, 'numFollowers': 6, 'confidence': (5.166666666666667, 1.8633899812498247), 'directionRating': (5.5, 1.118033988749895), 'x': 6, 'annotated': True, 'targetFound': (0.8333333333333334, 0.37267799624996495), 'y': 3, 'valid': True, 'correct': True}
+turn so that the wall is on your left
+%% LEFT(0,9,0)
+%% LEFT(0,9,270)
+%% LEFT(0,9,180)
+%% LEFT(0,9,90)
+%% NULL(0,9,0)
+walk forward twice
+%% FORWARD(0,9,0)
+%% FORWARD(0,8,0)
+%% NULL(0,7,0)
+you should be at the intersection of blue and brown
+%% NULL(0,7,0)
+turn right
+%% RIGHT(0,7,0)
+%% NULL(0,7,90)
+walk forward twice
+%% FORWARD(0,7,90)
+%% FORWARD(1,7,90)
+%% NULL(2,7,90)
+if there is a solid wall on your right then you are at position X
+%% X(2,7,90)
+%% NULL(2,7,90)
+
+EDA_Grid0_4_7_Dirs_1
+{'map': 'grid', 'efficiency': (1.0, 0.0), 'implicit': False, 'numFollowers': 6, 'confidence': (4.5, 1.8929694486000912), 'directionRating': (4.666666666666667, 1.247219128924647), 'x': 7, 'annotated': True, 'targetFound': (1.0, 0.0), 'y': 4, 'valid': True, 'correct': True}
+turn to face the green hallway
+%% LEFT(3,5,0)
+%% NULL(3,5,270)
+walk forward twice
+%% FORWARD(3,5,270)
+%% FORWARD(2,5,270)
+%% NULL(1,5,270)
+turn left
+%% LEFT(1,5,270)
+%% NULL(1,5,180)
+walk forward four times
+%% FORWARD(1,5,180)
+%% FORWARD(1,6,180)
+%% FORWARD(1,7,180)
+%% FORWARD(1,8,180)
+%% NULL(1,9,180)
+
+EDA_Grid0_5_1_Dirs_1
+{'map': 'grid', 'efficiency': (1.0, 0.0), 'implicit': False, 'numFollowers': 4, 'confidence': (6.0, 0.0), 'directionRating': (5.5, 0.5), 'x': 1, 'annotated': True, 'targetFound': (1.0, 0.0), 'y': 5, 'valid': True, 'correct': True}
+turn so the walls are on your right and back
+%% LEFT(1,11,0)
+%% NULL(1,11,270)
+walk forward once
+%% FORWARD(1,11,270)
+%% NULL(0,11,270)
+turn right
+%% RIGHT(0,11,270)
+%% NULL(0,11,0)
+walk forward five times
+%% FORWARD(0,11,0)
+%% FORWARD(0,10,0)
+%% FORWARD(0,9,0)
+%% FORWARD(0,8,0)
+%% FORWARD(0,7,0)
+%% NULL(0,6,0)
+turn onto the pink hallway, and walk forward once
+%% RIGHT(0,6,0)
+%% FORWARD(0,6,90)
+%% NULL(1,6,90)
+
+EDA_Grid0_5_6_Dirs_1
+{'map': 'grid', 'efficiency': (0.7727273333333334, 0.37020578746001376), 'implicit': False, 'numFollowers': 6, 'confidence': (5.0, 1.8257418583505536), 'directionRating': (4.166666666666667, 2.034425935955617), 'x': 6, 'annotated': True, 'targetFound': (0.8333333333333334, 0.37267799624996495), 'y': 5, 'valid': True, 'correct': True}
+turn so that the wall is on your right and back
+%% LEFT(1,11,0)
+%% NULL(1,11,270)
+walk forward once
+%% FORWARD(1,11,270)
+%% NULL(0,11,270)
+turn right
+%% RIGHT(0,11,270)
+%% NULL(0,11,0)
+walk forward maybe four times and you should be at the intersection of blue and brown
+%% FORWARD(0,11,0)
+%% FORWARD(0,10,0)
+%% FORWARD(0,9,0)
+%% FORWARD(0,8,0)
+%% NULL(0,7,0)
+turn right
+%% RIGHT(0,7,0)
+%% NULL(0,7,90)
+walk forward twice
+%% FORWARD(0,7,90)
+%% FORWARD(1,7,90)
+%% NULL(2,7,90)
+if there is a wall on your right side then you are there
+%% NULL(2,7,90)
+
+EDA_Grid0_6_2_Dirs_1
+{'map': 'grid', 'efficiency': (0.85, 0.30000000000000004), 'implicit': False, 'numFollowers': 5, 'confidence': (5.8, 0.4), 'directionRating': (5.0, 0.8944271909999159), 'x': 2, 'annotated': True, 'targetFound': (1.0, 0.0), 'y': 6, 'valid': True, 'correct': True}
+turn so the wall is on your right
+%% RIGHT(2,7,0)
+%% NULL(2,7,90)
+walk forward once
+%% FORWARD(2,7,90)
+%% NULL(3,7,90)
+turn right
+%% RIGHT(3,7,90)
+%% NULL(3,7,180)
+walk forward once
+%% FORWARD(3,7,180)
+%% NULL(3,8,180)
+
+EDA_Grid0_6_4_Dirs_1
+{'map': 'grid', 'efficiency': (1.0, 0.0), 'implicit': False, 'numFollowers': 6, 'confidence': (5.5, 0.5), 'directionRating': (5.0, 0.5773502691896257), 'x': 4, 'annotated': True, 'targetFound': (1.0, 0.0), 'y': 6, 'valid': True, 'correct': True}
+turn so the wall is on your back
+%% LEFT(2,7,0)
+%% LEFT(2,7,270)
+%% LEFT(2,7,180)
+%% LEFT(2,7,90)
+%% NULL(2,7,0)
+walk forward twice
+%% FORWARD(2,7,0)
+%% FORWARD(2,6,0)
+%% NULL(2,5,0)
+turn right
+%% RIGHT(2,5,0)
+%% NULL(2,5,90)
+walk forward once
+%% FORWARD(2,5,90)
+%% NULL(3,5,90)
+
+EDA_Grid0_6_7_Dirs_1
+{'map': 'grid', 'efficiency': (1.0, 0.0), 'implicit': False, 'numFollowers': 6, 'confidence': (5.166666666666667, 0.8975274678557507), 'directionRating': (5.166666666666667, 0.6871842709362768), 'x': 7, 'annotated': True, 'targetFound': (1.0, 0.0), 'y': 6, 'valid': True, 'correct': True}
+turn so the wall is on your left
+%% LEFT(2,7,0)
+%% NULL(2,7,270)
+walk forward once
+%% FORWARD(2,7,270)
+%% NULL(1,7,270)
+turn left
+%% LEFT(1,7,270)
+%% NULL(1,7,180)
+walk forward twice
+%% FORWARD(1,7,180)
+%% FORWARD(1,8,180)
+%% NULL(1,9,180)
+
+EDA_Grid0_7_1_Dirs_1
+{'map': 'grid', 'efficiency': (0.75, 0.4330127018922193), 'implicit': False, 'numFollowers': 4, 'confidence': (5.0, 1.224744871391589), 'directionRating': (5.25, 0.4330127018922193), 'x': 1, 'annotated': True, 'targetFound': (0.75, 0.4330127018922193), 'y': 7, 'valid': True, 'correct': True}
+turn to face the long red hallway
+%% LEFT(1,9,0)
+%% LEFT(1,9,270)
+%% LEFT(1,9,180)
+%% LEFT(1,9,90)
+%% NULL(1,9,0)
+you should be able to see a painting easel in the far distance
+%% NULL(1,9,0)
+walk forward three times and stop
+%% FORWARD(1,9,0)
+%% FORWARD(1,8,0)
+%% FORWARD(1,7,0)
+%% NULL(1,6,0)
+
+EDA_Jelly0_1_3_Dirs_1
+{'map': 'jelly', 'efficiency': (1.0, 0.0), 'implicit': False, 'numFollowers': 5, 'confidence': (4.8, 1.6), 'directionRating': (4.8, 1.6), 'x': 3, 'annotated': True, 'targetFound': (1.0, 0.0), 'y': 1, 'valid': True, 'correct': True}
+turn so that the wall is on your left side
+%% LEFT(19,16,0)
+%% NULL(19,16,270)
+walk forward once
+%% FORWARD(19,16,270)
+%% NULL(18,16,270)
+turn left
+%% LEFT(18,16,270)
+%% NULL(18,16,180)
+walk forward once
+%% FORWARD(18,16,180)
+%% NULL(18,17,180)
+turn right
+%% RIGHT(18,17,180)
+%% NULL(18,17,270)
+walk forward once
+%% FORWARD(18,17,270)
+%% NULL(17,17,270)
+turn left
+%% LEFT(17,17,270)
+%% NULL(17,17,180)
+walk forward once
+%% FORWARD(17,17,180)
+%% NULL(17,18,180)
+turn right
+%% RIGHT(17,18,180)
+%% NULL(17,18,270)
+walk forward once
+%% FORWARD(17,18,270)
+%% NULL(16,18,270)
+
+EDA_Jelly0_1_5_Dirs_1
+{'map': 'jelly', 'efficiency': (0.8, 0.4), 'implicit': False, 'numFollowers': 5, 'confidence': (4.8, 1.469693845669907), 'directionRating': (4.8, 1.1661903789690602), 'x': 5, 'annotated': True, 'targetFound': (0.8, 0.4), 'y': 1, 'valid': True, 'correct': True}
+turn so that the wall is on your right
+%% RIGHT(19,16,0)
+%% NULL(19,16,90)
+walk forward once
+%% FORWARD(19,16,90)
+%% NULL(20,16,90)
+turn right
+%% RIGHT(20,16,90)
+%% NULL(20,16,180)
+walk forward once
+%% FORWARD(20,16,180)
+%% NULL(20,17,180)
+turn left
+%% LEFT(20,17,180)
+%% NULL(20,17,90)
+walk forward once
+%% FORWARD(20,17,90)
+%% NULL(21,17,90)
+
+EDA_Jelly0_3_1_Dirs_1
+{'map': 'jelly', 'efficiency': (0.7142860000000001, 1.1102230246251565e-16), 'implicit': False, 'numFollowers': 7, 'confidence': (5.857142857142857, 0.3499271061118826), 'directionRating': (5.428571428571429, 0.49487165930539345), 'x': 1, 'annotated': True, 'targetFound': (1.0, 0.0), 'y': 3, 'valid': True, 'correct': True}
+turn so that the wall is on your left
+%% RIGHT(16,18,0)
+%% NULL(16,18,90)
+walk forward to the end of the hallway
+%% FORWARD(16,18,90)
+%% FORWARD(17,18,90)
+%% FORWARD(18,18,90)
+%% FORWARD(19,18,90)
+%% NULL(20,18,90)
+turn left
+%% LEFT(20,18,90)
+%% NULL(20,18,0)
+walk forward twice
+%% FORWARD(20,18,0)
+%% FORWARD(20,17,0)
+%% NULL(20,16,0)
+turn left
+%% LEFT(20,16,0)
+%% NULL(20,16,270)
+walk forward once
+%% FORWARD(20,16,270)
+%% NULL(19,16,270)
+
+EDA_Jelly0_3_4_Dirs_1
+{'map': 'jelly', 'efficiency': (1.0, 0.0), 'implicit': False, 'numFollowers': 4, 'confidence': (5.5, 0.8660254037844386), 'directionRating': (5.25, 0.82915619758885), 'x': 4, 'annotated': True, 'targetFound': (1.0, 0.0), 'y': 3, 'valid': True, 'correct': True}
+turn so that the wall is on your right side
+%% LEFT(16,18,0)
+%% NULL(16,18,270)
+walk forward once
+%% FORWARD(16,18,270)
+%% NULL(15,18,270)
+turn left
+%% LEFT(15,18,270)
+%% NULL(15,18,180)
+walk forward twice
+%% FORWARD(15,18,180)
+%% FORWARD(15,19,180)
+%% NULL(15,20,180)
+
+EDA_Jelly0_3_7_Dirs_1
+{'map': 'jelly', 'efficiency': (0.75, 0.4330127018922193), 'implicit': False, 'numFollowers': 4, 'confidence': (4.75, 1.0897247358851685), 'directionRating': (4.5, 0.8660254037844386), 'x': 7, 'annotated': True, 'targetFound': (0.75, 0.4330127018922193), 'y': 3, 'valid': True, 'correct': True}
+turn so the wall is on your left
+%% RIGHT(16,18,0)
+%% NULL(16,18,90)
+walk forward once
+%% FORWARD(16,18,90)
+%% NULL(17,18,90)
+turn left
+%% LEFT(17,18,90)
+%% NULL(17,18,0)
+walk forward once
+%% FORWARD(17,18,0)
+%% NULL(17,17,0)
+
+EDA_Jelly0_4_6_Dirs_1
+{'map': 'jelly', 'efficiency': (1.0, 0.0), 'implicit': False, 'numFollowers': 4, 'confidence': (6.0, 0.0), 'directionRating': (4.5, 1.5), 'x': 6, 'annotated': True, 'targetFound': (1.0, 0.0), 'y': 4, 'valid': True, 'correct': True}
+only one way to go
+%% NULL(15,20,0)
+walk forward twice
+%% FORWARD(15,20,0)
+%% FORWARD(15,19,0)
+%% NULL(15,18,0)
+turn right
+%% RIGHT(15,18,0)
+%% NULL(15,18,90)
+walk forward four times
+%% FORWARD(15,18,90)
+%% FORWARD(16,18,90)
+%% FORWARD(17,18,90)
+%% FORWARD(18,18,90)
+%% NULL(19,18,90)
+turn right
+%% RIGHT(19,18,90)
+%% NULL(19,18,180)
+walk forward once
+%% FORWARD(19,18,180)
+%% NULL(19,19,180)
+turn right
+%% RIGHT(19,19,180)
+%% NULL(19,19,270)
+walk forward once
+%% FORWARD(19,19,270)
+%% NULL(18,19,270)
+
+EDA_Jelly0_6_5_Dirs_1
+{'map': 'jelly', 'efficiency': (0.5, 0.5), 'implicit': True, 'numFollowers': 4, 'confidence': (2.5, 1.118033988749895), 'directionRating': (3.75, 1.299038105676658), 'x': 5, 'annotated': True, 'targetFound': (0.5, 0.5), 'y': 6, 'valid': True, 'correct': True}
+only one way to go
+%% NULL(18,19,0)
+walk forward once
+%% RIGHT[I](18,19,0)
+%% FORWARD(18,19,90)
+%% NULL(19,19,90)
+turn left
+%% LEFT(19,19,90)
+%% NULL(19,19,0)
+walk forward once
+%% FORWARD(19,19,0)
+%% NULL(19,18,0)
+turn right
+%% RIGHT(19,18,0)
+%% NULL(19,18,90)
+walk forward once
+%% FORWARD(19,18,90)
+%% NULL(20,18,90)
+turn left
+%% LEFT(20,18,90)
+%% NULL(20,18,0)
+walk forward once
+%% FORWARD(20,18,0)
+%% NULL(20,17,0)
+turn right
+%% RIGHT(20,17,0)
+%% NULL(20,17,90)
+walk forward once
+%% FORWARD(20,17,90)
+%% NULL(21,17,90)
+
+EDA_Jelly0_7_1_Dirs_1
+{'map': 'jelly', 'efficiency': (0.0, 0.0), 'implicit': False, 'numFollowers': 5, 'confidence': (5.2, 1.6), 'directionRating': (5.6, 0.48989794855663565), 'x': 1, 'annotated': True, 'targetFound': (0.0, 0.0), 'y': 7, 'valid': True, 'correct': False, 'xalt': (17,16,270)}
+turn so that the wall is on your left
+%% RIGHT(17,17,0)
+%% NULL(17,17,90)
+walk forward once
+%% FORWARD(17,17,90)
+%% NULL(18,17,90)
+turn left
+%% LEFT(18,17,90)
+%% NULL(18,17,0)
+walk forward once
+%% FORWARD(18,17,0)
+%% NULL(18,16,0)
+turn left
+%% LEFT(18,16,0)
+%% NULL(18,16,270)
+walk forward once
+%% FORWARD(18,16,270)
+%% NULL(17,16,270)
+
+EDA_Jelly0_7_3_Dirs_1
+{'map': 'jelly', 'efficiency': (1.0, 0.0), 'implicit': False, 'numFollowers': 4, 'confidence': (6.0, 0.0), 'directionRating': (5.25, 0.4330127018922193), 'x': 3, 'annotated': True, 'targetFound': (1.0, 0.0), 'y': 7, 'valid': True, 'correct': True}
+turn so the wall is to your back
+%% LEFT(17,17,0)
+%% LEFT(17,17,270)
+%% NULL(17,17,180)
+walk forward once
+%% FORWARD(17,17,180)
+%% NULL(17,18,180)
+turn right
+%% RIGHT(17,18,180)
+%% NULL(17,18,270)
+walk forward once
+%% FORWARD(17,18,270)
+%% NULL(16,18,270)
+
+EDA_Jelly0_7_4_Dirs_1
+{'map': 'jelly', 'efficiency': (1.0, 0.0), 'implicit': True, 'numFollowers': 6, 'confidence': (5.5, 0.7637626158259733), 'directionRating': (3.6666666666666665, 0.4714045207910317), 'x': 4, 'annotated': True, 'targetFound': (1.0, 0.0), 'y': 7, 'valid': True, 'correct': True}
+turn so that the wall is on your right
+%% LEFT(17,17,0)
+%% NULL(17,17,270)
+walk forward once
+%% FORWARD(17,17,270)
+%% NULL(16,17,270)
+turn left to face the yellow hallway
+%% FORWARD[I](16,17,270)
+%% LEFT(15,17,270)
+%% NULL(15,17,180)
+walk forward to the far end
+%% FORWARD(15,17,180)
+%% FORWARD(15,18,180)
+%% FORWARD(15,19,180)
+%% NULL(15,20,180)
+
+EDA_Jelly0_7_6_Dirs_1
+{'map': 'jelly', 'efficiency': (1.0, 0.0), 'implicit': True, 'numFollowers': 6, 'confidence': (5.5, 0.5), 'directionRating': (4.833333333333333, 0.6871842709362768), 'x': 6, 'annotated': True, 'targetFound': (1.0, 0.0), 'y': 7, 'valid': True, 'correct': True}
+turn so that the wall is to your back
+%% LEFT(17,17,0)
+%% LEFT(17,17,270)
+%% NULL(17,17,180)
+walk forward once
+%% FORWARD(17,17,180)
+%% NULL(17,18,180)
+turn left
+%% LEFT(17,18,180)
+%% NULL(17,18,90)
+walk forward once (or until the pink hallway is on your right)
+%% FORWARD(17,18,90)
+%% NULL(18,18,90)
+turn right
+%% FORWARD[I](18,18,90)
+%% RIGHT(19,18,90)
+%% NULL(19,18,180)
+walk forward once
+%% FORWARD(19,18,180)
+%% NULL(19,19,180)
+turn right and walk forward once
+%% RIGHT(19,19,180)
+%% FORWARD(19,19,270)
+%% NULL(18,19,270)
+
+EDA_L0_1_7_Dirs_1
+{'map': 'l', 'efficiency': (0.8, 0.4), 'implicit': False, 'numFollowers': 5, 'confidence': (6.0, 0.0), 'directionRating': (5.6, 0.4898979485566356), 'x': 7, 'annotated': True, 'targetFound': (0.8, 0.4), 'y': 1, 'valid': True, 'correct': True}
+turn so the wall is on your left
+%% RIGHT(22,17,0)
+%% NULL(22,17,90)
+walk forward once
+%% FORWARD(22,17,90)
+%% NULL(23,17,90)
+turn right
+%% RIGHT(23,17,90)
+%% NULL(23,17,180)
+walk forward four times
+%% FORWARD(23,17,180)
+%% FORWARD(23,18,180)
+%% FORWARD(23,19,180)
+%% FORWARD(23,20,180)
+%% NULL(23,21,180)
+turn right on the pink hallway
+%% RIGHT(23,21,180)
+%% NULL(23,21,270)
+walk forward twice
+%% FORWARD(23,21,270)
+%% FORWARD(22,21,270)
+%% NULL(21,21,270)
+
+EDA_L0_2_3_Dirs_1
+{'map': 'l', 'efficiency': (0.8, 0.4), 'implicit': False, 'numFollowers': 5, 'confidence': (5.0, 2.0), 'directionRating': (4.8, 1.9390719429665317), 'x': 3, 'annotated': True, 'targetFound': (0.8, 0.4), 'y': 2, 'valid': True, 'correct': True}
+turn so to face the short yellow floored hallway (one has 2 segments the other has only one)
+%% LEFT(21,23,0)
+%% LEFT(21,23,270)
+%% NULL(21,23,180)
+walk forward once
+%% FORWARD(21,23,180)
+%% NULL(21,24,180)
+there should be only once choice, to turn right, do so and walk forward twice
+%% RIGHT(21,24,180)
+%% FORWARD(21,24,270)
+%% FORWARD(20,24,270)
+%% NULL(19,24,270)
+again no choice but to turn right, do so and walk forward once
+%% RIGHT(19,24,270)
+%% FORWARD(19,24,0)
+%% NULL(19,23,0)
+
+EDA_L0_2_6_Dirs_1
+{'map': 'l', 'efficiency': (0.75, 0.4330127018922193), 'implicit': False, 'numFollowers': 4, 'confidence': (4.5, 2.0615528128088303), 'directionRating': (5.25, 1.299038105676658), 'x': 6, 'annotated': True, 'targetFound': (0.75, 0.4330127018922193), 'y': 2, 'valid': True, 'correct': True}
+turn to face the long black hallway with the lamp at the end
+%% RIGHT(21,23,0)
+%% NULL(21,23,90)
+walk forward once
+%% FORWARD(21,23,90)
+%% NULL(22,23,90)
+
+EDA_L0_3_4_Dirs_1
+{'map': 'l', 'efficiency': (0.9333333333333332, 0.14907119849998596), 'implicit': True, 'numFollowers': 6, 'confidence': (5.5, 0.7637626158259733), 'directionRating': (5.0, 0.816496580927726), 'x': 4, 'annotated': True, 'targetFound': (1.0, 0.0), 'y': 3, 'valid': True, 'correct': True}
+only one direction to go
+%% NULL(19,23,0)
+walk forward once
+%% LEFT[I](19,23,0)
+%% LEFT[I](19,23,270)
+%% FORWARD(19,23,180)
+%% NULL(19,24,180)
+turn left
+%% LEFT(19,24,180)
+%% NULL(19,24,90)
+walk forward twice
+%% FORWARD(19,24,90)
+%% FORWARD(20,24,90)
+%% NULL(21,24,90)
+turn left
+%% LEFT(21,24,90)
+%% NULL(21,24,0)
+walk forward three times
+%% FORWARD(21,24,0)
+%% FORWARD(21,23,0)
+%% FORWARD(21,22,0)
+%% NULL(21,21,0)
+turn right
+%% RIGHT(21,21,0)
+%% NULL(21,21,90)
+walk forward three times
+%% FORWARD(21,21,90)
+%% FORWARD(22,21,90)
+%% FORWARD(23,21,90)
+%% NULL(24,21,90)
+
+EDA_L0_4_2_Dirs_1
+{'map': 'l', 'efficiency': (1.0, 0.0), 'implicit': False, 'numFollowers': 6, 'confidence': (4.5, 1.607275126832159), 'directionRating': (4.333333333333333, 1.3743685418725535), 'x': 2, 'annotated': True, 'targetFound': (1.0, 0.0), 'y': 4, 'valid': False, 'correct': False}
+turn so that there is a wall to your left, blue floor to the front, and pink floor to your right
+go forward twice or until you come upon a charred black floor to your right
+turn to face the black floor
+you will see pictures on the wall up ahead of towers then butterflys
+walk forward twice
+you should now have butterfly pictures infront of you, and tower pictures behind you
+resume your forward course along the black floor for one more click
+
+EDA_L0_6_3_Dirs_1
+{'map': 'l', 'efficiency': (1.0, 0.0), 'implicit': False, 'numFollowers': 7, 'confidence': (5.857142857142857, 0.3499271061118826), 'directionRating': (5.857142857142857, 0.3499271061118826), 'x': 3, 'annotated': True, 'targetFound': (1.0, 0.0), 'y': 6, 'valid': True, 'correct': True}
+turn to face the black corridor with the fish on either sides of the walls and an easel at the end
+%% LEFT(22,23,0)
+%% NULL(22,23,270)
+walk forward once
+%% FORWARD(22,23,270)
+%% NULL(21,23,270)
+turn left
+%% LEFT(21,23,270)
+%% NULL(21,23,180)
+walk forward once
+%% FORWARD(21,23,180)
+%% NULL(21,24,180)
+turn right
+%% RIGHT(21,24,180)
+%% NULL(21,24,270)
+walk forward twice
+%% FORWARD(21,24,270)
+%% FORWARD(20,24,270)
+%% NULL(19,24,270)
+turn right
+%% RIGHT(19,24,270)
+%% NULL(19,24,0)
+walk forward once
+%% FORWARD(19,24,0)
+%% NULL(19,23,0)
+
+EDA_L0_6_5_Dirs_1
+{'map': 'l', 'efficiency': (0.0, 0.0), 'implicit': False, 'numFollowers': 4, 'confidence': (5.25, 0.82915619758885), 'directionRating': (5.0, 0.7071067811865476), 'x': 5, 'annotated': True, 'targetFound': (0.0, 0.0), 'y': 6, 'valid': True, 'correct': False, 'xalt': (23, 19, 0)}
+turn to face the black hallway with the pictures of towers on the walls
+%% RIGHT(22,23,0)
+%% NULL(22,23,90)
+walk forward once
+%% FORWARD(22,23,90)
+%% NULL(23,23,90)
+turn left and walk forward four times
+%% LEFT(23,23,90)
+%% FORWARD(23,23,0)
+%% FORWARD(23,22,0)
+%% FORWARD(23,21,0)
+%% FORWARD(23,20,0)
+%% NULL(23,19,0)
+
+EMWC_Grid0_1_2_Dirs_1
+{'map': 'grid', 'efficiency': (0.8571428571428571, 0.3499271061118826), 'implicit': True, 'numFollowers': 7, 'confidence': (5.285714285714286, 1.7496355305594131), 'directionRating': (5.142857142857143, 1.355261854357877), 'x': 2, 'annotated': True, 'targetFound': (0.8571428571428571, 0.3499271061118826), 'y': 1, 'valid': True, 'correct': True}
+Go toward the bench at the end of the hall with pink-flowered carpet
+%% RIGHT[I](1,6,0)
+%% FORWARD(1,6,90)
+%% NULL(1,6,90)
+Turn right at the bench into the yellow tiled hall
+%% FORWARD[I](2,6,90)
+%% RIGHT(3,6,90)
+%% NULL(3,6,180)
+Go two segments to the intesection with the stone-floored hallway This intersection contains an easel
+%% FORWARD(3,6,180)
+%% FORWARD(3,7,180)
+%% NULL(3,8,180)
+This is Position X
+%% X(3,8,180)
+%% NULL(3,8,180)
+
+EMWC_Grid0_1_3_Dirs_1
+{'map': 'grid', 'efficiency': (0.7333334, 0.38873011488980375), 'implicit': False, 'numFollowers': 5, 'confidence': (5.0, 2.0), 'directionRating': (4.2, 1.32664991614216), 'x': 3, 'annotated': True, 'targetFound': (0.8, 0.4), 'y': 1, 'valid': True, 'correct': True}
+Face the shorter portion of the pink-flowered carpet hall, where it interesects the blue-tiled hall
+%% LEFT(1,6,0)
+%% NULL(1,6,270)
+Your back should be away from the bench at the opposite end, where the pink-flowered carpet hall meets the yellow-tiled hall two segments away
+%% NULL(1,6,270)
+Go forward one segment to the blue-tiled hall
+%% FORWARD(1,6,270)
+%% NULL(0,6,270)
+Turn left into the blue-tiled hall
+%% LEFT(0,6,270)
+%% NULL(0,6,180)
+Go forward three segments, past the stool, to the intersection of the bare concrete hall
+%% FORWARD(0,6,180)
+%% FORWARD(0,7,180)
+%% FORWARD(0,8,180)
+%% NULL(0,9,180)
+There should be a bench and a hatrack ahead of you in the blue-tiled hall and no objects in either of the intersections to your left
+%% NULL(0,9,180)
+This is Position X
+%% X(0,9,180)
+%% NULL(0,9,180)
+
+EMWC_Grid0_1_4_Dirs_1
+{'map': 'grid', 'efficiency': (0.75, 0.4330127018922193), 'implicit': False, 'numFollowers': 4, 'confidence': (4.5, 1.6583123951777), 'directionRating': (5.0, 0.7071067811865476), 'x': 4, 'annotated': True, 'targetFound': (0.75, 0.4330127018922193), 'y': 1, 'valid': True, 'correct': True}
+Face the shorter portion of the brick hall
+%% LEFT(1,6,0)
+%% LEFT(1,6,270)
+%% LEFT(1,6,180)
+%% LEFT(1,6,90)
+%% NULL(1,6,0)
+There should be a hatrack in the intersection you are facing and a lamp in the intersection behind you
+%% NULL(1,6,0)
+Go forward one segment to the grassy hall
+%% FORWARD(1,6,0)
+%% NULL(1,5,0)
+Turn right
+%% RIGHT(1,5,0)
+%% NULL(1,5,90)
+Go forward two segments to the intersection of the yellow-tiled hall
+%% FORWARD(1,5,90)
+%% FORWARD(2,5,90)
+%% NULL(3,5,90)
+This is Position X
+%% X(3,5,90)
+%% NULL(3,5,90)
+
+EMWC_Grid0_1_5_Dirs_1
+{'map': 'grid', 'efficiency': (0.7111112, 0.3691832988478217), 'implicit': False, 'numFollowers': 5, 'confidence': (5.0, 2.0), 'directionRating': (3.6, 1.4966629547095767), 'x': 5, 'annotated': True, 'targetFound': (0.8, 0.4), 'y': 1, 'valid': True, 'correct': True}
+Face the pink-flowered carpet hall with your back to the bench at the intersection of the it and the yellow-tiled hall
+%% LEFT(1,6,0)
+%% NULL(1,6,270)
+The longer side of the wooden hall should be to your left, the shorter to the right
+%% NULL(1,6,270)
+Go forward one segment to the blue-tiled hall
+%% FORWARD(1,6,270)
+%% NULL(0,6,270)
+Turn left in the blue-tiled hall, away from the intersection with the grassy hall
+%% LEFT(0,6,270)
+%% NULL(0,6,180)
+Follow the blue-tiled hall five segments, past the stool and bench, to the intersection containing the hatrack
+%% FORWARD(0,6,180)
+%% FORWARD(0,7,180)
+%% FORWARD(0,8,180)
+%% FORWARD(0,9,180)
+%% FORWARD(0,10,180)
+%% NULL(0,11,180)
+Turn left at this intersection
+%% LEFT(0,11,180)
+%% NULL(0,11,90)
+Go forward one segment
+%% FORWARD(0,11,90)
+%% NULL(1,11,90)
+This corner is Position X
+%% X(1,11,90)
+%% NULL(1,11,90)
+
+EMWC_Grid0_1_7_Dirs_1
+{'map': 'grid', 'efficiency': (0.6857142857142857, 0.33563828927059225), 'implicit': False, 'numFollowers': 7, 'confidence': (5.142857142857143, 1.7261494247992246), 'directionRating': (4.285714285714286, 1.9059520091609048), 'x': 7, 'annotated': True, 'targetFound': (0.8571428571428571, 0.3499271061118826), 'y': 1, 'valid': True, 'correct': True}
+Orient yourself to face the longer portion of the brick hall
+%% LEFT(1,6,0)
+%% LEFT(1,6,270)
+%% NULL(1,6,180)
+The hatrack in the brick hall should be one segment behind you
+%% NULL(1,6,180)
+The bench at the intersection of the pink-flowered carpet  hall and the yellow-tiled hall at your left; the intersection of the blue-tiled hall the the pink-flowered carpet hall to your right
+%% NULL(1,6,180)
+Go forward three segments
+%% FORWARD(1,6,180)
+%% FORWARD(1,7,180)
+%% FORWARD(1,8,180)
+%% NULL(1,9,180)
+You are now in Position X
+%% X(1,9,180)
+%% NULL(1,9,180)
+There should be a bare concrete floored hall at the this intersection; pictures of butterflies in the hall to the right, leading to an empty 'T' intersection with the blue-tiled hall and pictures of the Eiffel tower leading to an empty 'T' intersection to your left
+%% NULL(1,9,180)
+
+EMWC_Grid0_2_5_Dirs_1
+{'map': 'grid', 'efficiency': (0.638889, 0.37985543871451943), 'implicit': True, 'numFollowers': 4, 'confidence': (4.5, 1.6583123951777), 'directionRating': (4.75, 1.0897247358851685), 'x': 5, 'annotated': True, 'targetFound': (0.75, 0.4330127018922193), 'y': 2, 'valid': True, 'correct': True}
+Place your back against the wall of the 'T' intersection
+%% LEFT(3,8,0)
+%% LEFT(3,8,270)
+%% LEFT(3,8,180)
+%% LEFT(3,8,90)
+%% NULL(3,8,0)
+Follow the stone hall to your left three segments to the blue-tiled hallway
+%% LEFT[I](3,8,0)
+%% FORWARD(3,8,270)
+%% FORWARD(2,8,270)
+%% FORWARD(1,8,270)
+%% NULL(0,8,270)
+Turn left at the stool in the blue-tiled hall
+%% LEFT(0,8,270)
+%% NULL(0,8,180)
+Follow this hall past the bench to the hatrack (four segments?)
+%% FORWARD(0,8,180)
+%% FORWARD(0,9,180)
+%% FORWARD(0,10,180)
+%% NULL(0,11,180)
+Turn left into the bare concrete floored hall whose intersection with the blue-tiled hall contains the hatrack
+%% LEFT(0,11,180)
+%% NULL(0,11,90)
+Go forward one segment to the corner
+%% FORWARD(0,11,90)
+%% NULL(1,11,90)
+This is Position X
+%% X(1,11,90)
+%% NULL(1,11,90)
+
+EMWC_Grid0_3_1_Dirs_1
+{'map': 'grid', 'efficiency': (0.8, 0.4), 'implicit': True, 'numFollowers': 5, 'confidence': (4.8, 1.9390719429665317), 'directionRating': (4.6, 1.8547236990991407), 'x': 1, 'annotated': True, 'targetFound': (0.8, 0.4), 'y': 3, 'valid': True, 'correct': True}
+Follow the blue-tiled hallway away from the bench and hatrack toward the pictures of not-butterflies (I believe they are those lovely yellow fish)
+%% FORWARD(0,9,0)
+%% NULL(0,8,0)
+Turn right into the hall with pink-flowered carpet
+%% FORWARD[I](0,8,0)
+%% FORWARD[I](0,7,0)
+%% RIGHT(0,6,0)
+%% NULL(0,6,90)
+Position X is the intersection containing the easel
+%% X(0,6,90)
+%% FORWARD[I](0,6,90)
+%% NULL(1,6,90)
+
+EMWC_Grid0_3_4_Dirs_1
+{'map': 'grid', 'efficiency': (0.7727273333333334, 0.37020578746001376), 'implicit': False, 'numFollowers': 6, 'confidence': (5.833333333333333, 0.37267799624996495), 'directionRating': (5.5, 0.5), 'x': 4, 'annotated': True, 'targetFound': (0.8333333333333334, 0.37267799624996495), 'y': 3, 'valid': True, 'correct': True}
+Place your back to the wall of the 'T' intersection
+%% RIGHT(0,9,0)
+%% NULL(0,9,90)
+Turn to the left
+%% LEFT(0,9,90)
+%% NULL(0,9,0)
+Go forward four segments, passing the stool and chair, to the grassy hallway
+%% FORWARD(0,9,0)
+%% FORWARD(0,8,0)
+%% FORWARD(0,7,0)
+%% FORWARD(0,6,0)
+%% NULL(0,5,0)
+Turn right
+%% RIGHT(0,5,0)
+%% NULL(0,5,90)
+Go forward three segments to the intersection of the grassy and yellow-tiled hallways, passing the hatrack
+%% FORWARD(0,5,90)
+%% FORWARD(1,5,90)
+%% FORWARD(2,5,90)
+%% NULL(3,5,90)
+This is Position X
+%% X(3,5,90)
+%% NULL(3,5,90)
+
+EMWC_Grid0_3_7_Dirs_1
+{'map': 'grid', 'efficiency': (1.0, 0.0), 'implicit': False, 'numFollowers': 4, 'confidence': (6.0, 0.0), 'directionRating': (5.75, 0.4330127018922193), 'x': 7, 'annotated': True, 'targetFound': (1.0, 0.0), 'y': 3, 'valid': True, 'correct': True}
+Place your back against the wall of the 'T' intersection
+%% RIGHT(0,9,0)
+%% NULL(0,9,90)
+Go forward one segment
+%% FORWARD(0,9,90)
+%% NULL(1,9,90)
+There should be a brick floor in the hall to either side of you
+%% NULL(1,9,90)
+This is Position X
+%% X(1,9,90)
+%% NULL(1,9,90)
+
+EMWC_Grid0_4_1_Dirs_1
+{'map': 'grid', 'efficiency': (1.0, 0.0), 'implicit': True, 'numFollowers': 5, 'confidence': (6.0, 0.0), 'directionRating': (5.8, 0.4), 'x': 1, 'annotated': True, 'targetFound': (1.0, 0.0), 'y': 4, 'valid': True, 'correct': True}
+Go two segments down the grassy hall to the hat rack
+%% LEFT[I](3,5,0)
+%% FORWARD(3,5,270)
+%% FORWARD(2,5,270)
+%% NULL(1,5,270)
+Turn left
+%% LEFT(1,5,270)
+%% NULL(1,5,180)
+Go one segment forward to the intersection with the hall with pink-flowered carpet
+%% FORWARD(1,5,180)
+%% NULL(1,6,180)
+In this intersection is an easel
+%% NULL(1,6,180)
+This is Position X
+%% X(1,6,180)
+%% NULL(1,6,180)
+
+EMWC_Grid0_4_2_Dirs_1
+{'numFollowers': 4, 'confidence': (5.5, 0.5), 'directionRating': (5.75, 0.4330127018922193), 'x': 2, 'annotated': True, 'map': 'grid', 'targetFound': (1.0, 0.0), 'efficiency': (1.0, 0.0), 'y': 4, 'implicit': True, 'correct': True, 'valid': True}
+Go forward three segments down the  yellow-tiled hall, passing the bench
+%% LEFT[I](3,5,0)
+%% LEFT[I](3,5,270)
+%% FORWARD(3,5,180)
+%% FORWARD(3,6,180)
+%% FORWARD(3,7,180)
+%% NULL(3,8,180)
+There is an easel in this intersection
+%% NULL(3,8,180)
+This is Position X
+%% X(3,8,180)
+%% NULL(3,8,180)
+
+EMWC_Grid0_5_1_Dirs_1
+{'map': 'grid', 'efficiency': (1.0, 0.0), 'implicit': False, 'numFollowers': 6, 'confidence': (6.0, 0.0), 'directionRating': (6.0, 0.0), 'x': 1, 'annotated': True, 'targetFound': (1.0, 0.0), 'y': 5, 'valid': True, 'correct': True}
+Face toward the blue-tiled hall containing the hatrack
+%% LEFT(1,11,0)
+%% NULL(1,11,270)
+Go forward one segment to  the hatrack
+%% FORWARD(1,11,270)
+%% NULL(0,11,270)
+Turn right
+%% RIGHT(0,11,270)
+%% NULL(0,11,0)
+Follow the blue-tiled hall five segments to the pink-flowered carpet hall
+%% FORWARD(0,11,0)
+%% FORWARD(0,10,0)
+%% FORWARD(0,9,0)
+%% FORWARD(0,8,0)
+%% FORWARD(0,7,0)
+%% NULL(0,6,0)
+Turn right
+%% RIGHT(0,6,0)
+%% NULL(0,6,90)
+Follow this hall one segment forward to the intersection with the brick hall
+%% FORWARD(0,6,90)
+%% NULL(1,6,90)
+THis intersection should contain an easel
+%% NULL(1,6,90)
+This is Position X
+%% X(1,6,90)
+%% NULL(1,6,90)
+
+EMWC_Grid0_5_2_Dirs_1
+{'map': 'grid', 'efficiency': (0.636364, 0.0), 'implicit': True, 'numFollowers': 5, 'confidence': (6.0, 0.0), 'directionRating': (5.8, 0.4), 'x': 2, 'annotated': True, 'targetFound': (1.0, 0.0), 'y': 5, 'valid': True, 'correct': True}
+Face toward the hatrack
+%% LEFT(1,11,0)
+%% NULL(1,11,270)
+Walk the one segment to it
+%% FORWARD(1,11,270)
+%% NULL(0,11,270)
+Turn right in the blue-tiled hall
+%% RIGHT(0,11,270)
+%% NULL(0,11,0)
+Go forward until you reach a hall with pink flowered carpet
+%% FORWARD(0,11,0)
+%% FORWARD(0,10,0)
+%% FORWARD(0,9,0)
+%% FORWARD(0,8,0)
+%% FORWARD(0,7,0)
+%% NULL(0,6,0)
+Turn right
+%% RIGHT(0,6,0)
+%% NULL(0,6,90)
+Follow this hall until it 'T's with the yellow-tiled hall
+%% FORWARD(0,6,90)
+%% FORWARD(1,6,90)
+%% FORWARD(2,6,90)
+%% NULL(3,6,90)
+Turn right
+%% RIGHT(3,6,90)
+%% NULL(3,6,180)
+Position X is the intersection at the end of the hall containing the easel
+%% X(3,6,180)
+%% FORWARD[I](3,6,180)
+%% FORWARD[I](3,7,180)
+%% NULL(3,8,180)
+
+EMWC_Grid0_5_4_Dirs_1
+{'map': 'grid', 'efficiency': (1.0, 0.0), 'implicit': True, 'numFollowers': 4, 'confidence': (5.25, 0.82915619758885), 'directionRating': (5.25, 0.82915619758885), 'x': 4, 'annotated': True, 'targetFound': (1.0, 0.0), 'y': 5, 'valid': True, 'correct': True}
+Face the hatrack in the blue-tiled hallway
+%% LEFT(1,11,0)
+%% NULL(1,11,270)
+Walk the one segment toward it
+%% FORWARD(1,11,270)
+%% NULL(0,11,270)
+Turn right
+%% RIGHT(0,11,270)
+%% NULL(0,11,0)
+Follow the blue-tiled hallway to the grass floored hallway at the far end
+%% FORWARD(0,11,0)
+%% FORWARD(0,10,0)
+%% FORWARD(0,9,0)
+%% FORWARD(0,8,0)
+%% FORWARD(0,7,0)
+%% FORWARD(0,6,0)
+%% NULL(0,5,0)
+Turn right
+%% RIGHT(0,5,0)
+%% NULL(0,5,90)
+Where this hall intersects the yellow-tiled hall, there should be an empty intersection
+%% NULL(0,5,90)
+This is Position X
+%% X(0,5,90)
+%% FORWARD[I](0,5,90)
+%% FORWARD[I](1,5,90)
+%% FORWARD[I](2,5,90)
+%% NULL(3,5,90)
+
+EMWC_Grid0_6_7_Dirs_1
+{'numFollowers': 4, 'confidence': (6.0, 0.0), 'directionRating': (5.25, 0.4330127018922193), 'x': 7, 'annotated': True, 'map': 'grid', 'targetFound': (0.25, 0.4330127018922193), 'efficiency': (0.25, 0.4330127018922193), 'y': 6, 'implicit': True, 'valid': True}
+Stand with your back to the wall of the 'T' intersection
+%% LEFT(2,7,0)
+%% LEFT(2,7,270)
+%% LEFT(2,7,180)
+%% LEFT(2,7,90)
+%% NULL(2,7,0)
+Turn to the left into the wooden-floored hallway
+%% LEFT(2,7,0)
+%% NULL(2,7,270)
+One segment down this hall, a brick-floored hallway intersects it
+%% NULL(2,7,270)
+Turn left into this hallway
+%% FORWARD[I](2,7,270)
+%% LEFT(1,7,270)
+%% NULL(1,7,180)
+Follow this hallway until you reach the bare concrete hall one segment away from the last intersection, which contains a chair
+%% FORWARD(1,7,180)
+%% FORWARD(1,8,180)
+%% NULL(1,9,180)
+The walls to your left should have pictures of the Eiffel tower
+%% NULL(1,9,180)
+Those to your right will have butterflies
+%% NULL(1,9,180)
+The intersection to your right will be vacant, though blue tile will be visible to each side
+%% NULL(1,9,180)
+This is position X
+%% X(1,9,180)
+%% NULL(1,9,180)
+
+EMWC_Grid0_7_1_Dirs_1
+{'map': 'grid', 'efficiency': (1.0, 0.0), 'implicit': False, 'numFollowers': 6, 'confidence': (6.0, 0.0), 'directionRating': (5.166666666666667, 1.2133516482134197), 'x': 1, 'annotated': True, 'targetFound': (1.0, 0.0), 'y': 7, 'valid': True, 'correct': True}
+Orient yourself to face the hall with brown brick
+%% LEFT(1,9,0)
+%% LEFT(1,9,270)
+%% LEFT(1,9,180)
+%% LEFT(1,9,90)
+%% NULL(1,9,0)
+Blue-tiled hall should be to your left, the intersection with the chair behind you
+%% NULL(1,9,0)
+Go forward in the brown brick-floored hall until you reach the intersection with the hall with the pink-flowered carpet
+%% FORWARD(1,9,0)
+%% FORWARD(1,8,0)
+%% FORWARD(1,7,0)
+%% NULL(1,6,0)
+This will contain an easel
+%% NULL(1,6,0)
+This intersection is Position X
+%% X(1,6,0)
+%% NULL(1,6,0)
+
+EMWC_Jelly0_1_4_Dirs_1
+{'map': 'jelly', 'efficiency': (0.8, 0.0), 'implicit': False, 'numFollowers': 5, 'confidence': (6.0, 0.0), 'directionRating': (5.6, 0.4898979485566356), 'x': 4, 'annotated': True, 'targetFound': (1.0, 0.0), 'y': 1, 'valid': True, 'correct': True}
+Place your back to the wall of the 'T' intersection
+%% LEFT(19,16,0)
+%% LEFT(19,16,270)
+%% LEFT(19,16,180)
+%% LEFT(19,16,90)
+%% NULL(19,16,0)
+Turn right
+%% RIGHT(19,16,0)
+%% NULL(19,16,90)
+Go forward one segment to the end of the hall
+%% FORWARD(19,16,90)
+%% NULL(20,16,90)
+Turn right
+%% RIGHT(20,16,90)
+%% NULL(20,16,180)
+Go forward two segments to the blue-tiled hall
+%% FORWARD(20,16,180)
+%% FORWARD(20,17,180)
+%% NULL(20,18,180)
+Turn right
+%% RIGHT(20,18,180)
+%% NULL(20,18,270)
+Go forward to the intersection with the yellow-tiled hall
+%% FORWARD(20,18,270)
+%% FORWARD(19,18,270)
+%% FORWARD(18,18,270)
+%% FORWARD(17,18,270)
+%% FORWARD(16,18,270)
+%% NULL(15,18,270)
+This intersection contains a hatrack
+%% NULL(15,18,270)
+Turn left
+%% LEFT(15,18,270)
+%% NULL(15,18,180)
+Go forward two segments to the end of the hall
+%% FORWARD(15,18,180)
+%% FORWARD(15,19,180)
+%% NULL(15,20,180)
+This is Position X
+%% X(15,20,180)
+%% NULL(15,20,180)
+
+EMWC_Jelly0_2_1_Dirs_1
+{'map': 'jelly', 'efficiency': (0.9, 0.1224744871391589), 'implicit': True, 'numFollowers': 5, 'confidence': (6.0, 0.0), 'directionRating': (6.0, 0.0), 'x': 1, 'annotated': True, 'targetFound': (1.0, 0.0), 'y': 2, 'valid': True, 'correct': True}
+Face the hatrack
+%% LEFT(23,16,0)
+%% LEFT(23,16,270)
+%% LEFT(23,16,180)
+%% LEFT(23,16,90)
+%% NULL(23,16,0)
+Go forward one segment to the intersection with the grassy hall
+%% FORWARD(23,16,0)
+%% NULL(23,15,0)
+Turn left
+%% LEFT(23,15,0)
+%% NULL(23,15,270)
+Go forward down the hall until a hall opens to your left
+%% FORWARD(23,15,270)
+%% FORWARD(22,15,270)
+%% FORWARD(21,15,270)
+%% FORWARD(20,15,270)
+%% NULL(19,15,270)
+Go forward one segment
+%% LEFT[I](19,15,270)
+%% FORWARD(19,15,180)
+%% NULL(19,16,180)
+There will be butterfly pictures to your left and Eiffel Tower pictures to your right
+%% NULL(19,16,180)
+This is Position X
+%% X(19,16,180)
+%% NULL(19,16,180)
+
+EMWC_Jelly0_2_7_Dirs_1
+{'map': 'jelly', 'efficiency': (0.5082832857142857, 0.3808799732254297), 'implicit': True, 'numFollowers': 7, 'confidence': (4.428571428571429, 1.6781914463529617), 'directionRating': (4.0, 1.4142135623730951), 'x': 7, 'annotated': True, 'targetFound': (0.7142857142857143, 0.45175395145262565), 'y': 2, 'valid': False, 'correct': True}
+Go toward the lamp
+Having covered that one segment, turn left
+Go forward one segment
+Turn right
+Go forward two segments to the intersection with the easel
+Directions after this point are uncertain until the new paragraph begins
+Turn left
+Go forward one segment
+Turn right into the blue-tiled hall
+Pass the pink-flowered carpet hall
+To your left look for Position X
+The stool is key
+Position X is the intersection of the stone hall with a bare concrete hall
+It contains a stool
+At the other end of the bare concrete hall is the blue-tiled hall
+The stone and blue-tiled halls intersect the yellow-tiled hall
+
+EMWC_Jelly0_5_1_Dirs_1
+{'map': 'jelly', 'efficiency': (0.73333325, 0.28284283032576146), 'implicit': True, 'numFollowers': 4, 'confidence': (5.5, 0.5), 'directionRating': (4.75, 1.299038105676658), 'x': 1, 'annotated': True, 'targetFound': (1.0, 0.0), 'y': 5, 'valid': True, 'correct': True}
+Face the easel
+%% LEFT(21,17,0)
+%% NULL(21,17,270)
+Go forward one segment to the intersection containing the easel
+%% FORWARD(21,17,270)
+%% NULL(20,17,270)
+Turn right
+%% RIGHT(20,17,270)
+%% NULL(20,17,0)
+Go forward one segment to the intersection with the brick hall
+%% FORWARD(20,17,0)
+%% NULL(20,16,0)
+Go forward one segment to the intersection which has Eiffel Tower pictures ahead and butterfly pictures behind
+%% LEFT[I](20,16,0)
+%% FORWARD(20,16,270)
+%% NULL(19,16,270)
+This is Position X
+%% X(19,16,270)
+%% NULL(19,16,270)
+
+EMWC_Jelly0_5_2_Dirs_1
+{'map': 'jelly', 'efficiency': (1.0, 0.0), 'implicit': False, 'numFollowers': 6, 'confidence': (6.0, 0.0), 'directionRating': (6.0, 0.0), 'x': 2, 'annotated': True, 'targetFound': (1.0, 0.0), 'y': 5, 'valid': True, 'correct': True}
+Face away from the easel
+%% RIGHT(21,17,0)
+%% NULL(21,17,90)
+Go forward one segment to the end of the hall
+%% FORWARD(21,17,90)
+%% NULL(22,17,90)
+Turn left
+%% LEFT(22,17,90)
+%% NULL(22,17,0)
+Go forward one segment to the intersection with the lamp
+%% FORWARD(22,17,0)
+%% NULL(22,16,0)
+Turn right
+%% RIGHT(22,16,0)
+%% NULL(22,16,90)
+Go forward one segment to the empty corner
+%% FORWARD(22,16,90)
+%% NULL(23,16,90)
+This is Position X
+%% X(23,16,90)
+%% NULL(23,16,90)
+
+EMWC_Jelly0_5_6_Dirs_1
+{'map': 'jelly', 'efficiency': (1.0, 0.0), 'implicit': False, 'numFollowers': 6, 'confidence': (6.0, 0.0), 'directionRating': (5.833333333333333, 0.37267799624996495), 'x': 6, 'annotated': True, 'targetFound': (1.0, 0.0), 'y': 5, 'valid': True, 'correct': True}
+Face the easel
+%% LEFT(21,17,0)
+%% NULL(21,17,270)
+Go forward one segment to the intersection containing the easel
+%% FORWARD(21,17,270)
+%% NULL(20,17,270)
+Turn left
+%% LEFT(20,17,270)
+%% NULL(20,17,180)
+Go forward one segment to the intersection with the the blue-tiled floor
+%% FORWARD(20,17,180)
+%% NULL(20,18,180)
+Turn right
+%% RIGHT(20,18,180)
+%% NULL(20,18,270)
+Go forward one segment to the intersection with the pink-flowered carpet hall
+%% FORWARD(20,18,270)
+%% NULL(19,18,270)
+Turn left
+%% LEFT(19,18,270)
+%% NULL(19,18,180)
+Go forward one segment
+%% FORWARD(19,18,180)
+%% NULL(19,19,180)
+Turn right
+%% RIGHT(19,19,180)
+%% NULL(19,19,270)
+Go forward one segment
+%% FORWARD(19,19,270)
+%% NULL(18,19,270)
+This is Position X
+%% X(18,19,270)
+%% NULL(18,19,270)
+
+EMWC_Jelly0_5_7_Dirs_1
+{'map': 'jelly', 'efficiency': (0.8, 0.4), 'implicit': True, 'numFollowers': 5, 'confidence': (4.2, 1.9390719429665317), 'directionRating': (3.6, 1.4966629547095764), 'x': 7, 'annotated': True, 'targetFound': (0.8, 0.4), 'y': 5, 'valid': True, 'correct': True}
+Face  the easel
+%% LEFT(21,17,0)
+%% NULL(21,17,270)
+Go forward one segment
+%% FORWARD(21,17,270)
+%% NULL(20,17,270)
+Turn left
+%% LEFT(20,17,270)
+%% NULL(20,17,180)
+Go forward one segment to the intersection with the blue-tiled hall
+%% FORWARD(20,17,180)
+%% NULL(20,18,180)
+Turn right
+%% RIGHT(20,18,180)
+%% NULL(20,18,270)
+You will follow the blue-tiled hall past the intersection with the pink-flowered carpet hall (on your left)
+%% FORWARD(20,18,270)
+%% FORWARD(19,18,270)
+%% NULL(18,18,270)
+To your right(?) there will be a bare concrete hall
+%% FORWARD[I](18,18,270)
+%% NULL(17,18,270)
+One segment away there will be an intersection containing a stool in a stone hall
+%% NULL(17,18,270)
+This is Position X
+%% X(17,18,270)
+%% RIGHT[I](17,18,270)
+%% FORWARD[I](17,18,0)
+%% NULL(17,17,0)
+
+EMWC_Jelly0_6_7_Dirs_1
+{'map': 'jelly', 'efficiency': (1.0, 0.0), 'implicit': True, 'numFollowers': 6, 'confidence': (6.0, 0.0), 'directionRating': (5.333333333333333, 0.7453559924999298), 'x': 7, 'annotated': True, 'targetFound': (1.0, 0.0), 'y': 6, 'valid': True, 'correct': True}
+Go forward one segment to the intersection with the pink-flowered carpet
+%% RIGHT[I](18,19,0)
+%% FORWARD(18,19,90)
+%% NULL(19,19,90)
+Turn left
+%% LEFT(19,19,90)
+%% NULL(19,19,0)
+Go forward one segment to the blue-tiled hall
+%% FORWARD(19,19,0)
+%% NULL(19,18,0)
+Turn left
+%% LEFT(19,18,0)
+%% NULL(19,18,270)
+Go forward two(?) segments to the intersection containing the chair
+%% FORWARD(19,18,270)
+%% FORWARD(18,18,270)
+%% NULL(17,18,270)
+To one side you will see an intersection with the stone hall containing a stool
+%% NULL(17,18,270)
+Go forward one segment to this intersection
+%% RIGHT[I](17,18,270)
+%% FORWARD(17,18,0)
+%% NULL(17,17,0)
+This is Position X
+%% X(17,17,0)
+%% NULL(17,17,0)
+
+EMWC_Jelly0_7_3_Dirs_1
+{'map': 'jelly', 'efficiency': (1.0, 0.0), 'implicit': False, 'numFollowers': 6, 'confidence': (5.833333333333333, 0.37267799624996495), 'directionRating': (5.333333333333333, 0.7453559924999298), 'x': 3, 'annotated': True, 'targetFound': (1.0, 0.0), 'y': 7, 'valid': True, 'correct': True}
+Place your back to the wall of the 'T' intersection
+%% LEFT(17,17,0)
+%% LEFT(17,17,270)
+%% NULL(17,17,180)
+Go forward one segment to the intersection with the blue-tiled hall
+%% FORWARD(17,17,180)
+%% NULL(17,18,180)
+This contains a chair
+%% NULL(17,18,180)
+Turn right
+%% RIGHT(17,18,180)
+%% NULL(17,18,270)
+Go forward one segment
+%% FORWARD(17,18,270)
+%% NULL(16,18,270)
+This is Position X
+%% X(16,18,270)
+%% NULL(16,18,270)
+
+EMWC_Jelly0_7_4_Dirs_1
+{'map': 'jelly', 'efficiency': (1.0, 0.0), 'implicit': False, 'numFollowers': 4, 'confidence': (6.0, 0.0), 'directionRating': (5.5, 0.8660254037844386), 'x': 4, 'annotated': True, 'targetFound': (1.0, 0.0), 'y': 7, 'valid': True, 'correct': True}
+Place your back against the wall of the 'T' intersection
+%% LEFT(17,17,0)
+%% LEFT(17,17,270)
+%% NULL(17,17,180)
+Turn right
+%% RIGHT(17,17,180)
+%% NULL(17,17,270)
+Go forward two segments to the intersection of the yellow-tiled hall
+%% FORWARD(17,17,270)
+%% FORWARD(16,17,270)
+%% NULL(15,17,270)
+Turn left
+%% LEFT(15,17,270)
+%% NULL(15,17,180)
+Go forward three segments to the end of the hall
+%% FORWARD(15,17,180)
+%% FORWARD(15,18,180)
+%% FORWARD(15,19,180)
+%% NULL(15,20,180)
+This is Position X
+%% X(15,20,180)
+%% NULL(15,20,180)
+
+EMWC_Jelly0_7_6_Dirs_1
+{'map': 'jelly', 'efficiency': (0.5, 0.5), 'implicit': False, 'numFollowers': 4, 'confidence': (4.5, 1.118033988749895), 'directionRating': (4.75, 0.82915619758885), 'x': 6, 'annotated': True, 'targetFound': (0.5, 0.5), 'y': 7, 'valid': True, 'correct': True}
+Place your back to the wall of the 'T' intersection
+%% LEFT(17,17,0)
+%% LEFT(17,17,270)
+%% NULL(17,17,180)
+Walk forward one segment to the intersection with the blue-tiled hall
+%% FORWARD(17,17,180)
+%% NULL(17,18,180)
+This intersection contains a chair
+%% NULL(17,18,180)
+Turn left
+%% LEFT(17,18,180)
+%% NULL(17,18,90)
+Go forward until you reach the intersection with the pink-flowered carpet hall to your right
+%% FORWARD(17,18,90)
+%% FORWARD(18,18,90)
+%% NULL(19,18,90)
+Turn right
+%% RIGHT(19,18,90)
+%% NULL(19,18,180)
+Go forward one segment
+%% FORWARD(19,18,180)
+%% NULL(19,19,180)
+Turn right
+%% RIGHT(19,19,180)
+%% NULL(19,19,270)
+Go forward one segment
+%% FORWARD(19,19,270)
+%% NULL(18,19,270)
+This is Position X
+%% X(18,19,270)
+%% NULL(18,19,270)
+
+EMWC_L0_1_2_Dirs_1
+{'map': 'l', 'efficiency': (0.8461538000000001, 0.30769240000000003), 'implicit': False, 'numFollowers': 5, 'confidence': (6.0, 0.0), 'directionRating': (5.0, 1.0954451150103324), 'x': 2, 'annotated': True, 'targetFound': (1.0, 0.0), 'y': 1, 'valid': True, 'correct': True}
+Orient yourself along the wooden-floored hall
+%% RIGHT(22,17,0)
+%% NULL(22,17,90)
+The bare concrete hall should be to your right
+%% NULL(22,17,90)
+Go forward one segment
+%% FORWARD(22,17,90)
+%% NULL(23,17,90)
+Turn right into the brick hall
+%% RIGHT(23,17,90)
+%% NULL(23,17,180)
+Go forward until you reach the intersection with the stone floor
+%% FORWARD(23,17,180)
+%% FORWARD(23,18,180)
+%% FORWARD(23,19,180)
+%% FORWARD(23,20,180)
+%% FORWARD(23,21,180)
+%% FORWARD(23,22,180)
+%% NULL(23,23,180)
+You will pass a lamp
+%% NULL(23,23,180)
+I believe it is six segments forward
+%% NULL(23,23,180)
+At the stone-floored hall, turn right
+%% RIGHT(23,23,180)
+%% NULL(23,23,270)
+Go forward two (?) segments to the intersection of the stone floor and the yellow-tiled floor
+%% FORWARD(23,23,270)
+%% FORWARD(22,23,270)
+%% NULL(21,23,270)
+You should be facing an easel one segment away
+%% NULL(21,23,270)
+This is Position X
+%% X(21,23,270)
+%% NULL(21,23,270)
+
+EMWC_L0_1_7_Dirs_1
+{'map': 'l', 'efficiency': (1.0, 0.0), 'implicit': False, 'numFollowers': 5, 'confidence': (5.8, 0.39999999999999997), 'directionRating': (5.0, 0.6324555320336759), 'x': 7, 'annotated': True, 'targetFound': (1.0, 0.0), 'y': 1, 'valid': False, 'correct': False}
+Orient yourself along the wooden hall with the hatrack behind you
+Go forward one segment to the intersection of the brick hall
+Turn right
+Go forward three segments to the intersection with the pink-flowered carpet hall
+This interesection contains a hatrack
+Turn right along the pink-flowered carpet hall
+Go forward two segments to the 'T' intersection with the yellow-tiled hall
+This is Position X
+
+EMWC_L0_2_4_Dirs_1
+{'map': 'l', 'efficiency': (0.4, 0.48989794855663565), 'implicit': False, 'numFollowers': 5, 'confidence': (5.0, 2.0), 'directionRating': (5.0, 2.0), 'x': 4, 'annotated': True, 'targetFound': (0.4, 0.48989794855663565), 'y': 2, 'valid': True, 'correct': True}
+Orient yourself along the stone hall with your back away from the end of the hall containing the easel
+%% RIGHT(21,23,0)
+%% NULL(21,23,90)
+Go forward three segments to the intersection with the blue-tiled hall
+%% FORWARD(21,23,90)
+%% FORWARD(22,23,90)
+%% FORWARD(23,23,90)
+%% NULL(24,23,90)
+There is a lamp in this interesection
+%% NULL(24,23,90)
+Turn left
+%% LEFT(24,23,90)
+%% NULL(24,23,0)
+Go forward two segments, passing the chair, to the intersection with the pink-flowered carpet hall
+%% FORWARD(24,23,0)
+%% FORWARD(24,22,0)
+%% NULL(24,21,0)
+There is a bench two segments farther down the hall
+%% NULL(24,21,0)
+This is Position X
+%% X(24,21,0)
+%% NULL(24,21,0)
+
+EMWC_L0_3_5_Dirs_1
+{'map': 'l', 'efficiency': (0.6666666666666666, 0.4714045207910317), 'implicit': True, 'numFollowers': 6, 'confidence': (5.166666666666667, 0.8975274678557507), 'directionRating': (5.333333333333333, 0.7453559924999298), 'x': 5, 'annotated': True, 'targetFound': (0.6666666666666666, 0.4714045207910317), 'y': 3, 'valid': True, 'correct': True}
+Go forward one segment to the stool
+%% LEFT[I](19,23,0)
+%% LEFT[I](19,23,270)
+%% FORWARD(19,23,180)
+%% NULL(19,24,180)
+Turn left
+%% LEFT(19,24,180)
+%% NULL(19,24,90)
+Go forward two segments, passing the chair
+%% FORWARD(19,24,90)
+%% FORWARD(20,24,90)
+%% NULL(21,24,90)
+Turn left
+%% LEFT(21,24,90)
+%% NULL(21,24,0)
+You will now be facing the yellow-tiled hall
+%% NULL(21,24,0)
+Go forward three segments to the pink-flowered carpet hall
+%% FORWARD(21,24,0)
+%% FORWARD(21,23,0)
+%% FORWARD(21,22,0)
+%% NULL(21,21,0)
+Turn right toward the hatrack visible ahead
+%% RIGHT(21,21,0)
+%% NULL(21,21,90)
+Go forward two (?) segments to the intersection containing the hatrack
+%% FORWARD(21,21,90)
+%% FORWARD(22,21,90)
+%% NULL(23,21,90)
+The floor of this hall is brick
+%% NULL(23,21,90)
+Turn left into this hall
+%% LEFT(23,21,90)
+%% NULL(23,21,0)
+Go forward three segments, passing the lamp
+%% FORWARD(23,21,0)
+%% FORWARD(23,20,0)
+%% FORWARD(23,19,0)
+%% NULL(23,18,0)
+One section past the lamp, you will reach a 'T' intersection with a bare concrete hall
+%% NULL(23,18,0)
+This hall will be empty
+%% NULL(23,18,0)
+This is Position X
+%% X(23,18,0)
+%% NULL(23,18,0)
+
+EMWC_L0_4_1_Dirs_1
+{'map': 'l', 'efficiency': (0.8, 0.4), 'implicit': False, 'numFollowers': 5, 'confidence': (5.0, 2.0), 'directionRating': (4.8, 1.9390719429665317), 'x': 1, 'annotated': True, 'targetFound': (0.8, 0.4), 'y': 4, 'valid': True, 'correct': True}
+Face the pink-flowered carpet hall
+%% LEFT(24,21,0)
+%% NULL(24,21,270)
+Go forward one segment to the intersection with the brick hall
+%% FORWARD(24,21,270)
+%% NULL(23,21,270)
+This intersection contains a hatrack
+%% NULL(23,21,270)
+Turn right
+%% RIGHT(23,21,270)
+%% NULL(23,21,0)
+Go forward four segments, passing a lamp, to the intersection with the wood hall
+%% FORWARD(23,21,0)
+%% FORWARD(23,20,0)
+%% FORWARD(23,19,0)
+%% FORWARD(23,18,0)
+%% NULL(23,17,0)
+Turn left
+%% LEFT(23,17,0)
+%% NULL(23,17,270)
+Go forward one segment to the intersection with a bare concrete floor
+%% FORWARD(23,17,270)
+%% NULL(22,17,270)
+This intersection contains a bench
+%% NULL(22,17,270)
+You will be facing a hatrack farther down the hall
+%% NULL(22,17,270)
+This is Position X
+%% X(22,17,270)
+%% NULL(22,17,270)
+
+EMWC_L0_5_3_Dirs_1
+{'map': 'l', 'efficiency': (1.0, 0.0), 'implicit': False, 'numFollowers': 6, 'confidence': (6.0, 0.0), 'directionRating': (5.833333333333333, 0.37267799624996495), 'x': 3, 'annotated': True, 'targetFound': (1.0, 0.0), 'y': 5, 'valid': True, 'correct': True}
+Place your back to the wall of the 'T' intersection
+%% RIGHT(23,18,0)
+%% NULL(23,18,90)
+Turn right
+%% RIGHT(23,18,90)
+%% NULL(23,18,180)
+Go forward along the brick hall five segments to the intersection with the stone hall
+%% FORWARD(23,18,180)
+%% FORWARD(23,19,180)
+%% FORWARD(23,20,180)
+%% FORWARD(23,21,180)
+%% FORWARD(23,22,180)
+%% NULL(23,23,180)
+Turn right
+%% RIGHT(23,23,180)
+%% NULL(23,23,270)
+Go forward along the stone hall to the intersection with the yellow-tiled hall
+%% FORWARD(23,23,270)
+%% FORWARD(22,23,270)
+%% NULL(21,23,270)
+Turn left
+%% LEFT(21,23,270)
+%% NULL(21,23,180)
+Go forward one segment to the intersection with a bare concrete hall
+%% FORWARD(21,23,180)
+%% NULL(21,24,180)
+Turn right
+%% RIGHT(21,24,180)
+%% NULL(21,24,270)
+Go forward two segments, passing the chair, to the intersection containing the stool
+%% FORWARD(21,24,270)
+%% FORWARD(20,24,270)
+%% NULL(19,24,270)
+Turn right
+%% RIGHT(19,24,270)
+%% NULL(19,24,0)
+Go forward one segment to the dead end
+%% FORWARD(19,24,0)
+%% NULL(19,23,0)
+This is Position X
+%% X(19,23,0)
+%% NULL(19,23,0)
+
+EMWC_L0_5_7_Dirs_1
+{'map': 'l', 'efficiency': (0.75, 0.4330127018922193), 'implicit': False, 'numFollowers': 4, 'confidence': (5.25, 1.299038105676658), 'directionRating': (5.5, 0.5), 'x': 7, 'annotated': True, 'targetFound': (0.75, 0.4330127018922193), 'y': 5, 'valid': True, 'correct': True}
+Place your back against the wall of the 'T' intersection
+%% RIGHT(23,18,0)
+%% NULL(23,18,90)
+Turn to the right
+%% RIGHT(23,18,90)
+%% NULL(23,18,180)
+Go forward three segments along the brick hall to the intersection with the pink-flowered carpet hall, passing a lamp
+%% FORWARD(23,18,180)
+%% FORWARD(23,19,180)
+%% FORWARD(23,20,180)
+%% NULL(23,21,180)
+This intersection contains a hatrack
+%% NULL(23,21,180)
+Turn right
+%% RIGHT(23,21,180)
+%% NULL(23,21,270)
+Go forward two segments to the intersection with the yellow-tiled hall
+%% FORWARD(23,21,270)
+%% FORWARD(22,21,270)
+%% NULL(21,21,270)
+This is Position X
+%% X(21,21,270)
+%% NULL(21,21,270)
+
+EMWC_L0_6_2_Dirs_1
+{'map': 'l', 'efficiency': (0.6, 0.48989794855663565), 'implicit': False, 'numFollowers': 5, 'confidence': (4.4, 1.8547236990991407), 'directionRating': (4.0, 1.6733200530681511), 'x': 2, 'annotated': True, 'targetFound': (0.6, 0.48989794855663565), 'y': 6, 'valid': True, 'correct': True}
+Orient yourself along the stone hall facing the end of the hall containing the easel
+%% LEFT(22,23,0)
+%% NULL(22,23,270)
+The bench in the bare concrete hall should be to your left
+%% NULL(22,23,270)
+Go forward one segment to the intersection with the yellow-tiled floor
+%% FORWARD(22,23,270)
+%% NULL(21,23,270)
+This is Position X
+%% X(21,23,270)
+%% NULL(21,23,270)
+
+EMWC_L0_6_4_Dirs_1
+{'map': 'l', 'efficiency': (0.297619, 0.3651871836994466), 'implicit': False, 'numFollowers': 6, 'confidence': (5.5, 0.7637626158259733), 'directionRating': (4.666666666666667, 0.7453559924999298), 'x': 4, 'annotated': True, 'targetFound': (0.5, 0.5), 'y': 6, 'valid': True, 'correct': True}
+Orient yourself along the stone hall with the end of the hall containing the easel at your back
+%% RIGHT(22,23,0)
+%% NULL(22,23,90)
+The bench in the bare concrete hall should be to your right
+%% NULL(22,23,90)
+Go forward two segments to the intersection with the blue-tiled hall
+%% FORWARD(22,23,90)
+%% FORWARD(23,23,90)
+%% NULL(24,23,90)
+Turn left
+%% LEFT(24,23,90)
+%% NULL(24,23,0)
+Go forward two segments along the blue-tiled hall to the intersection with the the pink-flowered carpet hall
+%% FORWARD(24,23,0)
+%% FORWARD(24,22,0)
+%% NULL(24,21,0)
+There is a bench two segments farther down the hall in front of you
+%% NULL(24,21,0)
+This is Position X
+%% X(24,21,0)
+%% NULL(24,21,0)
+
+KLS_Grid0_1_2_Dirs_1
+{'map': 'grid', 'efficiency': (0.8333335, 0.1666665), 'implicit': True, 'numFollowers': 4, 'confidence': (5.0, 1.0), 'directionRating': (4.75, 1.299038105676658), 'x': 2, 'annotated': True, 'targetFound': (1.0, 0.0), 'y': 1, 'valid': True, 'correct': True}
+take the red brick path towards the lamp
+%% LEFT[I](1,6,0)
+%% LEFT[I](1,6,270)
+%% FORWARD(1,6,180)
+%% NULL(1,7,180)
+at the black road intersection, take a left
+%% FORWARD[I](1,7,180)
+%% LEFT(1,8,180)
+%% NULL(1,8,90)
+follow the black until you meet up with a black easel
+%% FORWARD(1,8,90)
+%% FORWARD(2,8,90)
+%% NULL(3,8,90)
+this is X
+%% X(3,8,90)
+%% NULL(3,8,90)
+
+KLS_Grid0_1_5_Dirs_1
+{'map': 'grid', 'efficiency': (0.5871460000000001, 0.36904321551411834), 'implicit': True, 'numFollowers': 6, 'confidence': (5.333333333333333, 0.7453559924999298), 'directionRating': (4.666666666666667, 1.3743685418725535), 'x': 5, 'annotated': True, 'targetFound': (0.8333333333333334, 0.37267799624996495), 'y': 1, 'valid': True, 'correct': True}
+take the red brick path towards the lamp
+%% LEFT[I](1,6,0)
+%% LEFT[I](1,6,270)
+%% FORWARD(1,6,180)
+%% NULL(1,7,180)
+at the end of the hall at the chair, take a right
+%% FORWARD[I](1,7,180)
+%% FORWARD[I](1,8,180)
+%% FORWARD[I](1,9,180)
+%% RIGHT(1,10,180)
+%% NULL(1,10,270)
+go straight to the black bench
+%% FORWARD(1,10,270)
+%% NULL(0,10,270)
+here, take a left onto the blue path and another left at the coat rack
+%% LEFT(0,10,270)
+%% FORWARD[I](0,10,180)
+%% LEFT(0,11,180)
+%% NULL(0,11,90)
+the end of this hall will be X
+%% X(0,11,90)
+%% FORWARD[I](0,11,90)
+%% NULL(1,11,90)
+
+KLS_Grid0_2_3_Dirs_1
+{'map': 'grid', 'efficiency': (0.041666666666666664, 0.09316949906249124), 'implicit': True, 'numFollowers': 6, 'confidence': (2.5, 1.8027756377319946), 'directionRating': (2.3333333333333335, 0.9428090415820634), 'x': 3, 'annotated': True, 'targetFound': (0.16666666666666666, 0.37267799624996495), 'y': 2, 'valid': False, 'correct': False}
+take the black path towards the red brick intersection
+at the red brick intersection, go right towards the lamp
+at the first intersection after the lamp, take a right onto the plain cement path
+the next intersection will be X where the plain cement meets the blue path
+
+KLS_Grid0_2_4_Dirs_1
+{'map': 'grid', 'efficiency': (1.0, 0.0), 'implicit': False, 'numFollowers': 6, 'confidence': (6.0, 0.0), 'directionRating': (6.0, 0.0), 'x': 4, 'annotated': True, 'targetFound': (1.0, 0.0), 'y': 2, 'valid': True, 'correct': True}
+take the yellow path all the way to the end of the hall where the corner brings the yellow and green path together
+%% FORWARD(3,8,0)
+%% FORWARD(3,7,0)
+%% FORWARD(3,6,0)
+%% NULL(3,5,0)
+this is X
+%% X(3,5,0)
+%% NULL(3,5,0)
+
+KLS_Grid0_2_6_Dirs_1
+{'map': 'grid', 'efficiency': (0.5, 0.5), 'implicit': True, 'numFollowers': 4, 'confidence': (4.5, 1.5), 'directionRating': (4.25, 0.82915619758885), 'x': 6, 'annotated': True, 'targetFound': (0.5, 0.5), 'y': 2, 'valid': True, 'correct': True}
+take the yellow path to the wood path intersection
+%% FORWARD(3,8,0)
+%% NULL(3,7,0)
+here, go left onto the wood path
+%% LEFT(3,7,0)
+%% NULL(3,7,270)
+when you reach an intersection with plain cement and their are eiffel towers on the walls of the wood path and fish on the walls of the plain path, you are at X
+%% FORWARD[I](3,7,270)
+%% X(2,7,270)
+%% NULL(2,7,270)
+
+KLS_Grid0_3_4_Dirs_1
+{'map': 'grid', 'efficiency': (0.5230772, 0.3167886331713308), 'implicit': False, 'numFollowers': 5, 'confidence': (4.8, 1.9390719429665317), 'directionRating': (4.6, 1.8547236990991407), 'x': 4, 'annotated': True, 'targetFound': (0.8, 0.4), 'y': 3, 'valid': True, 'correct': True}
+take the blue path all the way to the end of the hall
+%% FORWARD(0,9,0)
+%% FORWARD(0,8,0)
+%% FORWARD(0,7,0)
+%% FORWARD(0,6,0)
+%% NULL(0,5,0)
+at the corner here, turn right onto the green path
+%% RIGHT(0,5,0)
+%% NULL(0,5,90)
+once again, go to the very end of the hall and at the corner of the green path and the yellow path
+%% FORWARD(0,5,90)
+%% FORWARD(1,5,90)
+%% FORWARD(2,5,90)
+%% NULL(3,5,90)
+you are at X
+%% X(3,5,90)
+%% NULL(3,5,90)
+
+KLS_Grid0_3_7_Dirs_1
+{'map': 'grid', 'efficiency': (1.0, 0.0), 'implicit': True, 'numFollowers': 4, 'confidence': (5.5, 0.5), 'directionRating': (5.0, 0.7071067811865476), 'x': 7, 'annotated': True, 'targetFound': (1.0, 0.0), 'y': 3, 'valid': True, 'correct': True}
+go straight on the plain cement path
+%% RIGHT[I](0,9,0)
+%% FORWARD(0,9,90)
+%% NULL(1,9,90)
+the very first intersection will be position X
+%% X(1,9,90)
+%% NULL(1,9,90)
+
+KLS_Grid0_4_2_Dirs_1
+{'map': 'grid', 'efficiency': (1.0, 0.0), 'implicit': True, 'numFollowers': 5, 'confidence': (5.8, 0.39999999999999997), 'directionRating': (5.2, 0.7483314773547882), 'x': 2, 'annotated': True, 'targetFound': (1.0, 0.0), 'y': 4, 'valid': True, 'correct': True}
+Take the yellow path all the way to the end of the hall until you can only either go right or left
+%% LEFT[I](3,5,0)
+%% LEFT[I](3,5,270)
+%% FORWARD(3,5,180)
+%% FORWARD(3,6,180)
+%% FORWARD(3,7,180)
+%% NULL(3,8,180)
+There will be black easel here
+%% NULL(3,8,180)
+This is position X
+%% X(3,8,180)
+%% NULL(3,8,180)
+
+KLS_Grid0_4_3_Dirs_1
+{'map': 'grid', 'efficiency': (0.5, 0.5), 'implicit': True, 'numFollowers': 4, 'confidence': (3.0, 2.1213203435596424), 'directionRating': (4.0, 1.8708286933869707), 'x': 3, 'annotated': True, 'targetFound': (0.5, 0.5), 'y': 4, 'valid': True, 'correct': True}
+take the green path to the red brick intersection
+%% LEFT[I](3,5,0)
+%% FORWARD(3,5,270)
+%% FORWARD(2,5,270)
+%% NULL(1,5,270)
+go left onto the red brick path
+%% LEFT(1,5,270)
+%% NULL(1,5,180)
+go towards the lamp and two intersections after the lamp
+%% FORWARD(1,5,180)
+%% FORWARD(1,6,180)
+%% FORWARD(1,7,180)
+%% FORWARD(1,8,180)
+%% NULL(1,9,180)
+turn right and when you can only go right or left, you are at X
+%% RIGHT(1,9,180)
+%% FORWARD[I](1,9,270)
+%% X(0,9,270)
+%% NULL(0,9,270)
+
+KLS_Grid0_4_5_Dirs_1
+{'map': 'grid', 'efficiency': (0.90625, 0.16237976320958225), 'implicit': True, 'numFollowers': 4, 'confidence': (5.75, 0.4330127018922193), 'directionRating': (5.75, 0.4330127018922193), 'x': 5, 'annotated': True, 'targetFound': (1.0, 0.0), 'y': 4, 'valid': True, 'correct': True}
+take the green path to the red brick intersection
+%% LEFT[I](3,5,0)
+%% FORWARD(3,5,270)
+%% FORWARD(2,5,270)
+%% NULL(1,5,270)
+go left towards the lamp to the very end of the hall
+%% LEFT(1,5,270)
+%% FORWARD(1,5,180)
+%% FORWARD(1,6,180)
+%% FORWARD(1,7,180)
+%% FORWARD(1,8,180)
+%% FORWARD(1,9,180)
+%% NULL(1,10,180)
+at the chair, take a right
+%% RIGHT(1,10,180)
+%% NULL(1,10,270)
+at the blue path intersection, take a left onto the blue path
+%% FORWARD[I](1,10,270)
+%% LEFT(0,10,270)
+%% NULL(0,10,180)
+at the coat rack, take another left onto the plain cement
+%% FORWARD[I](0,10,180)
+%% LEFT(0,11,180)
+%% NULL(0,11,90)
+at the end of this hall at the corner, you are at position X
+%% FORWARD[I](0,11,90)
+%% X(1,11,90)
+%% NULL(1,11,90)
+
+KLS_Grid0_4_6_Dirs_1
+{'map': 'grid', 'efficiency': (0.9, 0.17320508075688773), 'implicit': True, 'numFollowers': 4, 'confidence': (5.25, 0.4330127018922193), 'directionRating': (4.5, 0.5), 'x': 6, 'annotated': True, 'targetFound': (1.0, 0.0), 'y': 4, 'valid': True, 'correct': True}
+take the yellow path all the way down to the wood path intersection
+%% LEFT[I](3,5,0)
+%% LEFT[I](3,5,270)
+%% FORWARD(3,5,180)
+%% FORWARD(3,6,180)
+%% NULL(3,7,180)
+here, take a right onto the wood path
+%% RIGHT(3,7,180)
+%% NULL(3,7,270)
+go to the intersection of plain cement and wood path
+%% FORWARD(3,7,270)
+%% NULL(2,7,270)
+this is position X
+%% X(2,7,270)
+%% NULL(2,7,270)
+
+KLS_Grid0_5_2_Dirs_1
+{'map': 'grid', 'efficiency': (0.968254, 0.07776150137439478), 'implicit': True, 'numFollowers': 7, 'confidence': (5.428571428571429, 1.3997084244475304), 'directionRating': (5.285714285714286, 0.8806305718527109), 'x': 2, 'annotated': True, 'targetFound': (1.0, 0.0), 'y': 5, 'valid': True, 'correct': True}
+go towards the coat rack
+%% LEFT[I](1,11,0)
+%% FORWARD(1,11,270)
+%% NULL(0,11,270)
+at the coat rack, take a right onto the blue path
+%% RIGHT(0,11,270)
+%% NULL(0,11,0)
+follow the blue path to the black path intersection and go right onto the black path
+%% FORWARD(0,11,0)
+%% FORWARD(0,10,0)
+%% FORWARD(0,9,0)
+%% RIGHT(0,8,0)
+%% NULL(0,8,90)
+go all the way down until you get to a black easel
+%% FORWARD(0,8,90)
+%% FORWARD(1,8,90)
+%% FORWARD(2,8,90)
+%% NULL(3,8,90)
+this is X
+%% X(3,8,90)
+%% NULL(3,8,90)
+
+KLS_Grid0_5_4_Dirs_1
+{'map': 'grid', 'efficiency': (1.0, 0.0), 'implicit': True, 'numFollowers': 5, 'confidence': (6.0, 0.0), 'directionRating': (5.4, 0.8), 'x': 4, 'annotated': True, 'targetFound': (1.0, 0.0), 'y': 5, 'valid': True, 'correct': True}
+go straight towards the coat rack
+%% LEFT[I](1,11,0)
+%% FORWARD(1,11,270)
+%% NULL(0,11,270)
+take a right onto the blue path
+%% RIGHT(0,11,270)
+%% NULL(0,11,0)
+take the blue path all the way to the end of the hall
+%% FORWARD(0,11,0)
+%% FORWARD(0,10,0)
+%% FORWARD(0,9,0)
+%% FORWARD(0,8,0)
+%% FORWARD(0,7,0)
+%% FORWARD(0,6,0)
+%% NULL(0,5,0)
+once here, take a right on the green path
+%% RIGHT(0,5,0)
+%% NULL(0,5,90)
+follow the green path all the way to the end of the hall as well
+%% FORWARD(0,5,90)
+%% FORWARD(1,5,90)
+%% FORWARD(2,5,90)
+%% NULL(3,5,90)
+here, the green meets the yellow path and you are at position X
+%% X(3,5,90)
+%% NULL(3,5,90)
+
+KLS_Grid0_5_6_Dirs_1
+{'map': 'grid', 'efficiency': (0.5272728, 0.45052771555073057), 'implicit': True, 'numFollowers': 5, 'confidence': (5.8, 0.4), 'directionRating': (5.2, 0.4), 'x': 6, 'annotated': True, 'targetFound': (0.6, 0.48989794855663565), 'y': 5, 'valid': True, 'correct': True}
+go towards the coat rack
+%% LEFT[I](1,11,0)
+%% FORWARD(1,11,270)
+%% NULL(0,11,270)
+take a right onto the blue path
+%% RIGHT(0,11,270)
+%% NULL(0,11,0)
+go past the black bench and all of the way down until you reach the wood path intersection
+%% FORWARD(0,11,0)
+%% FORWARD(0,10,0)
+%% FORWARD(0,9,0)
+%% FORWARD(0,8,0)
+%% NULL(0,7,0)
+take a right onto the wood path
+%% RIGHT(0,7,0)
+%% NULL(0,7,90)
+at the intersection with plain cement, you are at X
+%% FORWARD[I](0,7,90)
+%% FORWARD[I](1,7,90)
+%% X(2,7,90)
+%% NULL(2,7,90)
+
+KLS_Grid0_5_7_Dirs_1
+{'map': 'grid', 'efficiency': (0.79166675, 0.21650630283363), 'implicit': True, 'numFollowers': 4, 'confidence': (3.5, 1.5), 'directionRating': (3.5, 0.8660254037844386), 'x': 7, 'annotated': True, 'targetFound': (1.0, 0.0), 'y': 5, 'valid': True, 'correct': True}
+Go straight towards the coat rack and take a right at this junction
+%% LEFT[I](1,11,0)
+%% FORWARD(1,11,270)
+%% RIGHT(0,11,270)
+%% NULL(0,11,0)
+stay on the blue patch for about two sections
+%% FORWARD(0,11,0)
+%% FORWARD(0,10,0)
+%% NULL(0,9,0)
+At the third, take a right onto the white cement path
+%% RIGHT(0,9,0)
+%% NULL(0,9,90)
+the very next intersection will be position X
+%% X(0,9,90)
+%% FORWARD[I](0,9,90)
+%% NULL(1,9,90)
+
+KLS_Grid0_6_3_Dirs_1
+{'map': 'grid', 'efficiency': (0.79166675, 0.21650630283363), 'implicit': True, 'numFollowers': 4, 'confidence': (5.75, 0.4330127018922193), 'directionRating': (4.75, 0.82915619758885), 'x': 3, 'annotated': True, 'targetFound': (1.0, 0.0), 'y': 6, 'valid': True, 'correct': True}
+take the wood path towards the chair
+%% LEFT[I](2,7,0)
+%% FORWARD(2,7,270)
+%% NULL(1,7,270)
+at the red brick intersection, take a left
+%% LEFT(1,7,270)
+%% NULL(1,7,180)
+at the second intersection down, take a right
+%% FORWARD[I](1,7,180)
+%% FORWARD[I](1,8,180)
+%% RIGHT(1,9,180)
+%% NULL(1,9,270)
+at the end of this hall, you can either only go right or left
+%% FORWARD[I](1,9,270)
+%% NULL(0,9,270)
+this is X
+%% X(0,9,270)
+%% NULL(0,9,270)
+
+KLS_Grid0_7_3_Dirs_1
+{'map': 'grid', 'efficiency': (0.64, 0.4454211490264018), 'implicit': True, 'numFollowers': 5, 'confidence': (5.6, 0.8), 'directionRating': (5.2, 0.7483314773547882), 'x': 3, 'annotated': True, 'targetFound': (0.8, 0.4), 'y': 7, 'valid': True, 'correct': True}
+follow the plain cement towards the blue path intersection
+%% LEFT[I](1,9,0)
+%% FORWARD(1,9,270)
+%% NULL(0,9,270)
+this will be position X
+%% X(0,9,270)
+%% NULL(0,9,270)
+
+KLS_Grid0_7_4_Dirs_1
+{'map': 'grid', 'efficiency': (0.8, 0.4000000000000001), 'implicit': False, 'numFollowers': 5, 'confidence': (5.6, 0.7999999999999999), 'directionRating': (5.6, 0.7999999999999999), 'x': 4, 'annotated': True, 'targetFound': (0.8, 0.4000000000000001), 'y': 7, 'valid': True, 'correct': True}
+Take the red brick path straight towards the lamp and all the way until the end of the hall
+%% FORWARD(1,9,0)
+%% FORWARD(1,8,0)
+%% FORWARD(1,7,0)
+%% FORWARD(1,6,0)
+%% NULL(1,5,0)
+at the intersection with the green path, take a right and again, go to the end of the hall where the corner meets with the yellow path
+%% RIGHT(1,5,0)
+%% FORWARD(1,5,90)
+%% FORWARD(2,5,90)
+%% NULL(3,5,90)
+this is position X
+%% X(3,5,90)
+%% NULL(3,5,90)
+
+KLS_Grid0_7_5_Dirs_1
+{'map': 'grid', 'efficiency': (0.875, 0.21650635094610965), 'implicit': True, 'numFollowers': 4, 'confidence': (4.25, 1.479019945774904), 'directionRating': (4.0, 0.7071067811865476), 'x': 5, 'annotated': True, 'targetFound': (1.0, 0.0), 'y': 7, 'valid': False, 'correct': False}
+take the red brick path towards the chair
+here, at the end of the hall, take a right to the blue path
+at the blue path, take a left towards the coat rack
+at the coat rack, take a right onto the plain cement path
+at the end of the hall in the corner, you are at position X
+
+KLS_Jelly0_1_5_Dirs_1
+{'map': 'jelly', 'efficiency': (0.5755101428571427, 0.41836239081188537), 'implicit': True, 'numFollowers': 7, 'confidence': (5.428571428571429, 0.7284313590846836), 'directionRating': (5.0, 0.9258200997725514), 'x': 5, 'annotated': True, 'targetFound': (0.7142857142857143, 0.45175395145262554), 'y': 1, 'valid': True, 'correct': True}
+take the red brick path away from the bench and at the corner, go right towards the easel
+%% RIGHT[I](19,16,0)
+%% FORWARD(19,16,90)
+%% RIGHT(20,16,90)
+%% NULL(20,16,180)
+at the easel, take a left onto the wood path and the very first section you come to, you will be at X
+%% FORWARD[I](20,16,180)
+%% LEFT(20,17,180)
+%% FORWARD[I](20,17,90)
+%% X(21,17,90)
+%% NULL(21,17,90)
+
+KLS_Jelly0_1_7_Dirs_1
+{'map': 'jelly', 'efficiency': (0.15887020000000002, 0.14430252404084967), 'implicit': True, 'numFollowers': 5, 'confidence': (4.8, 1.6), 'directionRating': (3.0, 1.2649110640673518), 'x': 7, 'annotated': True, 'targetFound': (0.8, 0.4), 'y': 1, 'valid': False, 'correct': False}
+take the red brick path towards the butterflies
+at the corner, take a right
+at the next corner, take a left
+follow the path until the blue path intersection
+here, take a right onto the blue path and follow it towards the coat rack
+at the intersection of plain cement, you will go right towards the black stool
+once you reach the black stool, you are at X
+
+KLS_Jelly0_2_3_Dirs_1
+{'map': 'jelly', 'efficiency': (0.8051948571428572, 0.3381614712493885), 'implicit': True, 'numFollowers': 7, 'confidence': (5.857142857142857, 0.3499271061118826), 'directionRating': (5.571428571428571, 0.7284313590846834), 'x': 3, 'annotated': True, 'targetFound': (0.8571428571428571, 0.3499271061118826), 'y': 2, 'valid': True, 'correct': True}
+go towards the lamp and at the corner, take a left
+%% LEFT[I](23,16,0)
+%% FORWARD(23,16,270)
+%% LEFT(22,16,270)
+%% NULL(22,16,180)
+go straight again, and at the next corner, take a right onto the wood path
+%% FORWARD(22,16,180)
+%% RIGHT(22,17,180)
+%% NULL(22,17,270)
+go down to the easel, and take a left
+%% FORWARD(22,17,270)
+%% FORWARD(21,17,270)
+%% LEFT(20,17,270)
+%% NULL(20,17,180)
+follow this path straight until you see the blue path
+%% FORWARD(20,17,180)
+%% NULL(20,18,180)
+take a right onto the blue path and go straight towards the coat rack
+%% RIGHT(20,18,180)
+%% FORWARD(20,18,270)
+%% NULL(19,18,270)
+one intersection before the coat rack will be X
+%% X(19,18,270)
+%% FORWARD[I](19,18,270)
+%% FORWARD[I](18,18,270)
+%% FORWARD[I](17,18,270)
+%% NULL(16,18,270)
+
+KLS_Jelly0_2_4_Dirs_1
+{'map': 'jelly', 'efficiency': (0.0, 0.0), 'implicit': True, 'numFollowers': 4, 'confidence': (6.0, 0.0), 'directionRating': (5.5, 0.5), 'x': 4, 'annotated': True, 'targetFound': (0.0, 0.0), 'y': 2, 'valid': True, 'correct': True}
+go on the path towards the lamp
+%% LEFT[I](23,16,0)
+%% FORWARD(23,16,270)
+%% NULL(22,16,270)
+at the lamp, take a left and at the next corner, go right onto the wood path
+%% LEFT(22,16,270)
+%% FORWARD[I](22,16,180)
+%% RIGHT(22,17,180)
+%% NULL(22,17,270)
+follow it towards the easel and at the easel take a left
+%% FORWARD(22,17,270)
+%% FORWARD[I](21,17,270)
+%% LEFT(20,17,270)
+%% NULL(20,17,180)
+at the intersection with the blue path, take a right onto the blue path and follow it towards the chair and past the coat rack
+%% FORWARD[I](20,17,180)
+%% RIGHT(20,18,180)
+%% FORWARD(20,18,270)
+%% FORWARD(19,18,270)
+%% FORWARD(18,18,270)
+%% FORWARD(17,18,270)
+%% FORWARD(16,18,270)
+%% FORWARD(15,18,270)
+%% NULL(14,18,270)
+at the intersection with the yellow path, take a right onto the yellow path and go all the way to the end of the hall
+%% LEFT[I](14,18,270)
+%% LEFT[I](14,18,180)
+%% FORWARD[I](14,18,90)
+%% RIGHT(15,18,90)
+%% FORWARD(15,18,180)
+%% FORWARD(15,19,180)
+%% NULL(15,20,180)
+this is X
+%% X(15,20,180)
+%% NULL(15,20,180)
+
+KLS_Jelly0_2_7_Dirs_1
+{'map': 'jelly', 'efficiency': (1.0, 0.0), 'implicit': True, 'numFollowers': 6, 'confidence': (6.0, 0.0), 'directionRating': (6.0, 0.0), 'x': 7, 'annotated': True, 'targetFound': (1.0, 0.0), 'y': 2, 'valid': True, 'correct': True}
+go on the path towards the lamp
+%% LEFT[I](23,16,0)
+%% FORWARD(23,16,270)
+%% NULL(22,16,270)
+at the lamp, go left
+%% LEFT(22,16,270)
+%% NULL(22,16,180)
+at the next corner, go right onto the wood path
+%% FORWARD[I](22,16,180)
+%% RIGHT(22,17,180)
+%% NULL(22,17,270)
+at the easel, go left on the plain path until it intersects with the blue path
+%% FORWARD[I](22,17,270)
+%% FORWARD[I](21,17,270)
+%% LEFT(20,17,270)
+%% FORWARD(20,17,180)
+%% NULL(20,18,180)
+go right onto the blue path and follow it towards the chair
+%% RIGHT(20,18,180)
+%% FORWARD(20,18,270)
+%% NULL(19,18,270)
+at the chair, go right and the very next intersection where there is also a stool is X
+%% FORWARD[I](19,18,270)
+%% FORWARD[I](18,18,270)
+%% RIGHT(17,18,270)
+%% X(17,18,0)
+%% FORWARD[I](17,18,0)
+%% NULL(17,17,0)
+
+KLS_Jelly0_3_4_Dirs_1
+{'map': 'jelly', 'efficiency': (0.72, 0.3919183588453085), 'implicit': True, 'numFollowers': 5, 'confidence': (5.4, 0.8), 'directionRating': (4.6, 0.48989794855663565), 'x': 4, 'annotated': True, 'targetFound': (0.8, 0.4000000000000001), 'y': 3, 'valid': True, 'correct': True}
+Go towards the coat rack and take a left at the coat rack
+%% LEFT[I](16,18,0)
+%% FORWARD(16,18,270)
+%% LEFT(15,18,270)
+%% NULL(15,18,180)
+go all the way to the end of the hall and this is X
+%% FORWARD(15,18,180)
+%% FORWARD(15,19,180)
+%% X(15,20,180)
+%% NULL(15,20,180)
+
+KLS_Jelly0_3_7_Dirs_1
+{'map': 'jelly', 'efficiency': (0.8, 0.4), 'implicit': True, 'numFollowers': 5, 'confidence': (5.0, 2.0), 'directionRating': (4.2, 1.6), 'x': 7, 'annotated': True, 'targetFound': (0.8, 0.4), 'y': 3, 'valid': True, 'correct': True}
+go towards the chair on the blue path
+%% RIGHT[I](16,18,0)
+%% FORWARD(16,18,90)
+%% NULL(17,18,90)
+at the chair, go left towards the stool
+%% LEFT(17,18,90)
+%% NULL(17,18,0)
+when you reach the stool, you are at position X
+%% FORWARD[I](17,18,0)
+%% X(17,17,0)
+%% NULL(17,17,0)
+
+KLS_Jelly0_4_1_Dirs_1
+{'map': 'jelly', 'efficiency': (0.6000000000000001, 0.34641016151377546), 'implicit': True, 'numFollowers': 4, 'confidence': (4.25, 2.0463381929681126), 'directionRating': (4.25, 1.920286436967152), 'x': 1, 'annotated': True, 'targetFound': (0.75, 0.4330127018922193), 'y': 4, 'valid': True, 'correct': True}
+take the yellow path away from the end of the hall and at the blue path intersection, go right onto the blue path
+%% FORWARD(15,20,0)
+%% FORWARD[I](15,19,0)
+%% RIGHT(15,18,0)
+%% NULL(15,18,90)
+follow it all the way to the other end of the hall
+%% FORWARD(15,18,90)
+%% FORWARD(16,18,90)
+%% FORWARD(17,18,90)
+%% FORWARD(18,18,90)
+%% FORWARD(19,18,90)
+%% NULL(20,18,90)
+here, take a left towards the easel
+%% LEFT(20,18,90)
+%% NULL(20,18,0)
+go past the easel to the end of this hall and take a left onto the red brick at the corner
+%% FORWARD(20,18,0)
+%% FORWARD(20,17,0)
+%% LEFT(20,16,0)
+%% NULL(20,16,270)
+the very next intersection is X
+%% X(20,16,270)
+%% FORWARD[I](20,16,270)
+%% NULL(19,16,270)
+
+KLS_Jelly0_4_3_Dirs_1
+{'map': 'jelly', 'efficiency': (0.0, 0.0), 'implicit': True, 'numFollowers': 4, 'confidence': (5.5, 0.5), 'directionRating': (5.25, 0.4330127018922193), 'x': 3, 'annotated': True, 'targetFound': (0.0, 0.0), 'y': 4, 'valid': True, 'correct': False, 'xalt': (17, 18, 90)}
+take the yellow path towards the coat rack
+%% FORWARD(15,20,0)
+%% NULL(15,19,0)
+at the coat rack, take a right onto the blue path
+%% FORWARD[I](15,19,0)
+%% RIGHT(15,18,0)
+%% NULL(15,18,90)
+go 2 intersections down and you'll be at X
+%% FORWARD(15,18,90)
+%% FORWARD(16,18,90)
+%% X(17,18,90)
+%% NULL(17,18,90)
+
+KLS_Jelly0_5_3_Dirs_1
+{'map': 'jelly', 'efficiency': (1.0, 0.0), 'implicit': True, 'numFollowers': 4, 'confidence': (5.25, 0.82915619758885), 'directionRating': (5.0, 1.224744871391589), 'x': 3, 'annotated': True, 'targetFound': (1.0, 0.0), 'y': 5, 'valid': True, 'correct': True}
+take the wood path towards the easel and at the easel, go left
+%% LEFT[I](21,17,0)
+%% FORWARD(21,17,270)
+%% LEFT(20,17,270)
+%% NULL(20,17,180)
+at the next corner, take a right onto the blue path and follow it towards the chair
+%% FORWARD[I](20,17,180)
+%% RIGHT(20,18,180)
+%% FORWARD(20,18,270)
+%% NULL(19,18,270)
+one intersection past the chair is position X
+%% X(19,18,270)
+%% FORWARD[I](19,18,270)
+%% FORWARD[I](18,18,270)
+%% FORWARD[I](17,18,270)
+%% NULL(16,18,270)
+
+KLS_Jelly0_5_7_Dirs_1
+{'map': 'jelly', 'efficiency': (1.0, 0.0), 'implicit': True, 'numFollowers': 6, 'confidence': (5.833333333333333, 0.37267799624996495), 'directionRating': (5.833333333333333, 0.37267799624996495), 'x': 7, 'annotated': True, 'targetFound': (1.0, 0.0), 'y': 5, 'valid': True, 'correct': True}
+take the wood path towards the easel
+%% LEFT[I](21,17,0)
+%% FORWARD(21,17,270)
+%% NULL(20,17,270)
+at the easel, go left and then take a right onto the blue path at the corner
+%% LEFT(20,17,270)
+%% FORWARD[I](20,17,180)
+%% RIGHT(20,18,180)
+%% NULL(20,18,270)
+follow the blue path towards the chair and at the chair, take a right towards the stool
+%% FORWARD(20,18,270)
+%% FORWARD[I](19,18,270)
+%% FORWARD[I](18,18,270)
+%% RIGHT(17,18,270)
+%% NULL(17,18,0)
+when you reach the stool, you are at X
+%% FORWARD[I](17,18,0)
+%% X(17,17,0)
+%% NULL(17,17,0)
+
+KLS_Jelly0_6_3_Dirs_1
+{'map': 'jelly', 'efficiency': (1.0, 0.0), 'implicit': True, 'numFollowers': 5, 'confidence': (5.8, 0.4), 'directionRating': (5.4, 0.48989794855663565), 'x': 3, 'annotated': True, 'targetFound': (1.0, 0.0), 'y': 6, 'valid': True, 'correct': True}
+go towards the pink path
+%% RIGHT[I](18,19,0)
+%% FORWARD(18,19,90)
+%% NULL(19,19,90)
+once at this intersection, go left onto the pink path
+%% LEFT(19,19,90)
+%% NULL(19,19,0)
+at the very next intersection, take a left onto the blue path
+%% FORWARD[I](19,19,0)
+%% LEFT(19,18,0)
+%% NULL(19,18,270)
+follow the blue path towards the chair and one intersection after the chair will be X
+%% FORWARD(19,18,270)
+%% X(18,18,270)
+%% FORWARD[I](18,18,270)
+%% FORWARD[I](17,18,270)
+%% NULL(16,18,270)
+
+KLS_Jelly0_6_5_Dirs_1
+{'map': 'jelly', 'efficiency': (0.8, 0.4000000000000001), 'implicit': True, 'numFollowers': 5, 'confidence': (4.8, 0.9797958971132712), 'directionRating': (5.2, 0.4), 'x': 5, 'annotated': True, 'targetFound': (0.8, 0.4000000000000001), 'y': 6, 'valid': True, 'correct': True}
+go straight towards the pink path
+%% RIGHT[I](18,19,0)
+%% FORWARD(18,19,90)
+%% NULL(19,19,90)
+at this intersection, go left onto the pink path
+%% LEFT(19,19,90)
+%% NULL(19,19,0)
+at the very next intersection, go right onto the blue path
+%% FORWARD[I](19,19,0)
+%% RIGHT(19,18,0)
+%% NULL(19,18,90)
+at the end of this hall at the corner, go left towards the easel
+%% FORWARD[I](19,18,90)
+%% LEFT(20,18,90)
+%% NULL(20,18,0)
+take a right at the easel onto the wood path and the first section you come to will be X
+%% FORWARD[I](20,18,0)
+%% RIGHT(20,17,0)
+%% FORWARD[I](20,17,90)
+%% X(21,17,90)
+%% NULL(21,17,90)
+
+KLS_Jelly0_7_4_Dirs_1
+{'map': 'jelly', 'efficiency': (1.0, 0.0), 'implicit': True, 'numFollowers': 5, 'confidence': (5.8, 0.4), 'directionRating': (5.6, 0.4898979485566356), 'x': 4, 'annotated': True, 'targetFound': (1.0, 0.0), 'y': 7, 'valid': True, 'correct': True}
+take the black path away from the bench to the very end of the hall
+%% LEFT[I](17,17,0)
+%% FORWARD(17,17,270)
+%% FORWARD(16,17,270)
+%% NULL(15,17,270)
+here, take a left onto the yellow path
+%% LEFT(15,17,270)
+%% NULL(15,17,180)
+follow the path to the opposite end of the hall and here is X
+%% FORWARD(15,17,180)
+%% FORWARD(15,18,180)
+%% FORWARD(15,19,180)
+%% X(15,20,180)
+%% NULL(15,20,180)
+
+KLS_Jelly0_7_5_Dirs_1
+{'map': 'jelly', 'efficiency': (0.9583333333333334, 0.09316949906249122), 'implicit': True, 'numFollowers': 6, 'confidence': (5.5, 0.7637626158259733), 'directionRating': (5.333333333333333, 0.7453559924999298), 'x': 5, 'annotated': True, 'targetFound': (1.0, 0.0), 'y': 7, 'valid': True, 'correct': True}
+take the path towards the chair
+%% LEFT[I](17,17,0)
+%% LEFT[I](17,17,270)
+%% FORWARD(17,17,180)
+%% NULL(17,18,180)
+at the chair, go left onto the blue path
+%% LEFT(17,18,180)
+%% NULL(17,18,90)
+at the end of the hall, take a left towards the easel
+%% FORWARD[I](17,18,90)
+%% FORWARD[I](18,18,90)
+%% FORWARD[I](19,18,90)
+%% LEFT(20,18,90)
+%% NULL(20,18,0)
+at the easel, go right onto the wood path and the very first section will be X
+%% FORWARD[I](20,18,0)
+%% RIGHT(20,17,0)
+%% X(20,17,90)
+%% FORWARD[I](20,17,90)
+%% NULL(21,17,90)
+
+KLS_L0_1_6_Dirs_1
+{'map': 'l', 'efficiency': (0.76, 0.3878143885933063), 'implicit': True, 'numFollowers': 5, 'confidence': (5.8, 0.4), 'directionRating': (5.2, 0.9797958971132712), 'x': 6, 'annotated': True, 'targetFound': (0.8, 0.4), 'y': 1, 'valid': True, 'correct': True}
+Go towards the red brick intersection
+%% RIGHT[I](22,17,0)
+%% FORWARD(22,17,90)
+%% NULL(23,17,90)
+take a right onto the red brick
+%% RIGHT(23,17,90)
+%% NULL(23,17,180)
+go all the way down until you reach the black intersection
+%% FORWARD(23,17,180)
+%% FORWARD(23,18,180)
+%% FORWARD(23,19,180)
+%% FORWARD(23,20,180)
+%% FORWARD(23,21,180)
+%% FORWARD(23,22,180)
+%% NULL(23,23,180)
+take a right onto this
+%% RIGHT(23,23,180)
+%% NULL(23,23,270)
+when you reach an intersection with black and normal concrete, you are at X
+%% FORWARD[I](23,23,270)
+%% X(22,23,270)
+%% NULL(22,23,270)
+
+KLS_L0_2_3_Dirs_1
+{'map': 'l', 'efficiency': (0.125, 0.21650635094610965), 'implicit': True, 'numFollowers': 4, 'confidence': (2.5, 1.6583123951777), 'directionRating': (2.25, 1.6393596310755), 'x': 3, 'annotated': True, 'targetFound': (0.25, 0.4330127018922193), 'y': 2, 'valid': True, 'correct': True}
+Follow the yellow path towards the chair
+%% LEFT[I](21,23,0)
+%% LEFT[I](21,23,270)
+%% FORWARD(21,23,180)
+%% NULL(21,24,180)
+when the hall ends, take a right
+%% RIGHT(21,24,180)
+%% NULL(21,24,270)
+go straight
+%% FORWARD(21,24,270)
+%% NULL(20,24,270)
+when the hall ends again, take another right
+%% FORWARD[I](20,24,270)
+%% RIGHT(19,24,270)
+%% NULL(19,24,0)
+at the end of this hall is position X
+%% X(19,24,0)
+%% FORWARD[I](19,24,0)
+%% NULL(19,23,0)
+
+KLS_L0_2_5_Dirs_1
+{'map': 'l', 'efficiency': (0.777778, 0.0), 'implicit': True, 'numFollowers': 4, 'confidence': (5.5, 0.5), 'directionRating': (4.0, 1.5811388300841898), 'x': 5, 'annotated': True, 'targetFound': (1.0, 0.0), 'y': 2, 'valid': True, 'correct': True}
+take the black path towards the end of the hall farthest away
+%% RIGHT[I](21,23,0)
+%% FORWARD(21,23,90)
+%% NULL(22,23,90)
+next, take a left onto the red brick at that intersection
+%% FORWARD[I](22,23,90)
+%% LEFT(23,23,90)
+%% NULL(23,23,0)
+go all the way down until you see butterflies on the wall and one section past the lamp
+%% FORWARD(23,23,0)
+%% FORWARD(23,22,0)
+%% FORWARD(23,21,0)
+%% FORWARD(23,20,0)
+%% FORWARD(23,19,0)
+%% NULL(23,18,0)
+
+KLS_L0_2_6_Dirs_1
+{'map': 'l', 'efficiency': (0.0, 0.0), 'xalt': (21, 21, 0), 'implicit': True, 'numFollowers': 5, 'confidence': (3.6, 1.4966629547095767), 'directionRating': (3.2, 1.6), 'x': 6, 'annotated': True, 'targetFound': (0.0, 0.0), 'y': 2, 'valid': False, 'correct': False}
+Take the yellow path towards the end of the hall that's farthest away
+one intersection down is X
+
+KLS_L0_3_2_Dirs_1
+{'map': 'l', 'efficiency': (0.8571428571428571, 0.3499271061118826), 'implicit': True, 'numFollowers': 7, 'confidence': (5.571428571428571, 1.0497813183356477), 'directionRating': (4.857142857142857, 1.355261854357877), 'x': 2, 'annotated': True, 'targetFound': (0.8571428571428571, 0.3499271061118826), 'y': 3, 'valid': True, 'correct': True}
+go until hall ends
+%% LEFT[I](19,23,0)
+%% LEFT[I](19,23,270)
+%% FORWARD(19,23,180)
+%% NULL(19,24,180)
+take a left
+%% LEFT(19,24,180)
+%% NULL(19,24,90)
+go until hall ends
+%% FORWARD(19,24,90)
+%% FORWARD(20,24,90)
+%% NULL(21,24,90)
+take a left
+%% LEFT(21,24,90)
+%% NULL(21,24,0)
+the next intersection of yellow and black paths is X
+%% X(21,24,0)
+%% FORWARD[I](21,24,0)
+%% NULL(21,23,0)
+
+KLS_L0_3_5_Dirs_1
+{'map': 'l', 'efficiency': (0.7692308, 0.38920341040972395), 'implicit': True, 'numFollowers': 5, 'confidence': (5.8, 0.4), 'directionRating': (5.4, 0.48989794855663565), 'x': 5, 'annotated': True, 'targetFound': (0.8, 0.4), 'y': 3, 'valid': True, 'correct': True}
+Go until hall ends
+%% LEFT[I](19,23,0)
+%% LEFT[I](19,23,270)
+%% FORWARD(19,23,180)
+%% NULL(19,24,180)
+take left
+%% LEFT(19,24,180)
+%% NULL(19,24,90)
+take left again when hall ends
+%% FORWARD[I](19,24,90)
+%% FORWARD[I](20,24,90)
+%% LEFT(21,24,90)
+%% NULL(21,24,0)
+take a right at the first intersection
+%% FORWARD[I](21,24,0)
+%% RIGHT(21,23,0)
+%% NULL(21,23,90)
+Follow the black path until you come to an intersection of the red brick path
+%% FORWARD(21,23,90)
+%% FORWARD(22,23,90)
+%% NULL(23,23,90)
+Take a left onto the red brick and go a ways down until you come to the section with the butterflies on the wall
+%% LEFT(23,23,90)
+%% FORWARD(23,23,0)
+%% FORWARD(23,22,0)
+%% FORWARD(23,21,0)
+%% FORWARD(23,20,0)
+%% NULL(23,19,0)
+Position X is the first section after you pass the lamp
+%% FORWARD[I](23,19,0)
+%% X(23,18,0)
+%% NULL(23,18,0)
+
+KLS_L0_4_1_Dirs_1
+{'map': 'l', 'efficiency': (0.5625, 0.10825317547305482), 'implicit': True, 'numFollowers': 4, 'confidence': (6.0, 0.0), 'directionRating': (3.75, 1.299038105676658), 'x': 1, 'annotated': True, 'targetFound': (1.0, 0.0), 'y': 4, 'valid': True, 'correct': True}
+Go straight on the pink flowered path to the intersection of the red brick
+%% LEFT[I](24,21,0)
+%% FORWARD(24,21,270)
+%% NULL(23,21,270)
+take a left onto the red brick
+%% LEFT(23,21,270)
+%% NULL(23,21,180)
+go all the way down until two sections past the lamp
+%% LEFT[I](23,21,180)
+%% LEFT[I](23,21,90)
+%% FORWARD(23,21,0)
+%% FORWARD(23,20,0)
+%% FORWARD(23,19,0)
+%% FORWARD(23,18,0)
+%% NULL(23,17,0)
+take a left here at the intersection of the wood
+%% LEFT(23,17,0)
+%% NULL(23,17,270)
+go one section down to the bench and you are at position X
+%% FORWARD(23,17,270)
+%% X(22,17,270)
+%% NULL(22,17,270)
+
+KLS_L0_4_7_Dirs_1
+{'map': 'l', 'efficiency': (0.6, 0.4472135954999579), 'implicit': True, 'numFollowers': 6, 'confidence': (4.833333333333333, 1.8633899812498247), 'directionRating': (4.5, 1.707825127659933), 'x': 7, 'annotated': True, 'targetFound': (0.6666666666666666, 0.4714045207910317), 'y': 4, 'valid': True, 'correct': True}
+Follow the pink flowered path all the way until you see fish on the wall
+%% LEFT[I](24,21,0)
+%% FORWARD(24,21,270)
+%% FORWARD(23,21,270)
+%% NULL(22,21,270)
+when you reach an intersection in which you can only turn left and see a dead end in front of you
+%% FORWARD[I](22,21,270)
+%% NULL(21,21,270)
+you are at position X
+%% X(21,21,270)
+%% NULL(21,21,270)
+
+KLS_L0_5_1_Dirs_1
+{'map': 'l', 'efficiency': (0.8, 0.4), 'implicit': True, 'numFollowers': 5, 'confidence': (5.0, 2.0), 'directionRating': (5.0, 2.0), 'x': 1, 'annotated': True, 'targetFound': (0.8, 0.4), 'y': 5, 'valid': True, 'correct': True}
+Go away from the lamp to the intersection of the red brick and wood
+%% FORWARD(23,18,0)
+%% NULL(23,17,0)
+take a left onto the wood
+%% LEFT(23,17,0)
+%% NULL(23,17,270)
+position X is one section down at the bench
+%% X(23,17,270)
+%% FORWARD[I](23,17,270)
+%% NULL(22,17,270)
+
+KLS_L0_5_7_Dirs_1
+{'map': 'l', 'efficiency': (0.24686414285714284, 0.2228708396214072), 'implicit': True, 'numFollowers': 7, 'confidence': (5.0, 1.4142135623730951), 'directionRating': (3.5714285714285716, 1.3997084244475304), 'x': 7, 'annotated': True, 'targetFound': (0.5714285714285714, 0.49487165930539345), 'y': 5, 'valid': False, 'correct': False}
+First go straight until you get to the first intersection
+Take a left here
+You will then be looking for a pink flowered path
+Follow this path up until the last possible intersection
+When you reach this intersection and there are fish pictures on the wall, you have reached position X
+
+KLS_L0_6_3_Dirs_1
+{'map': 'l', 'efficiency': (0.452381, 0.46229735647632686), 'implicit': True, 'numFollowers': 6, 'confidence': (5.333333333333333, 1.4907119849998596), 'directionRating': (4.833333333333333, 1.343709624716425), 'x': 3, 'annotated': True, 'targetFound': (0.5, 0.5), 'y': 6, 'valid': True, 'correct': True}
+go on the black road towards the end with the easel
+%% LEFT[I](22,23,0)
+%% FORWARD(22,23,270)
+%% NULL(21,23,270)
+at the next junction of yellow and black, take a left
+%% LEFT(21,23,270)
+%% NULL(21,23,180)
+when the hall ends, take a right
+%% FORWARD[I](21,23,180)
+%% RIGHT(21,24,180)
+%% NULL(21,24,270)
+when the hall ends again, take another right
+%% FORWARD[I](21,24,270)
+%% FORWARD[I](20,24,270)
+%% RIGHT(19,24,270)
+%% NULL(19,24,0)
+X is at the end of this hall
+%% X(19,24,0)
+%% FORWARD[I](19,24,0)
+%% NULL(19,23,0)
+
+KLS_L0_6_7_Dirs_1
+{'map': 'l', 'efficiency': (0.33260875, 0.27133879510620573), 'implicit': True, 'numFollowers': 4, 'confidence': (3.75, 2.277608394786075), 'directionRating': (4.25, 1.920286436967152), 'x': 7, 'annotated': True, 'targetFound': (0.75, 0.4330127018922193), 'y': 6, 'valid': True, 'correct': True}
+take the black path towards the red brick intersection
+%% RIGHT[I](22,23,0)
+%% FORWARD(22,23,90)
+%% NULL(23,23,90)
+go left onto the red brick
+%% LEFT(23,23,90)
+%% NULL(23,23,0)
+then, take another left at the pink flowered intersection onto the pink path
+%% FORWARD[I](23,23,0)
+%% FORWARD[I](23,22,0)
+%% LEFT(23,21,0)
+%% NULL(23,21,270)
+go until there are fish on the wall and you can either only go left or towards a dead end
+%% FORWARD(23,21,270)
+%% FORWARD(22,21,270)
+%% NULL(21,21,270)
+this is X
+%% X(21,21,270)
+%% NULL(21,21,270)
+
+KLS_L0_7_4_Dirs_1
+{'map': 'l', 'efficiency': (0.7999999999999999, 0.3545621041711673), 'implicit': True, 'numFollowers': 7, 'confidence': (5.571428571428571, 1.0497813183356477), 'directionRating': (5.142857142857143, 1.124858267715973), 'x': 4, 'annotated': True, 'targetFound': (0.8571428571428571, 0.34992710611188255), 'y': 7, 'valid': True, 'correct': True}
+Take the pink flowered path directly to the other end of the hall
+%% RIGHT[I](21,21,0)
+%% FORWARD(21,21,90)
+%% FORWARD(22,21,90)
+%% FORWARD(23,21,90)
+%% NULL(24,21,90)
+at the intersection where you can only either go right or left on a blue path, this is position X
+%% X(24,21,90)
+%% NULL(24,21,90)
+
+KLS_L0_7_5_Dirs_1
+{'map': 'l', 'efficiency': (0.6785715, 0.4087686898928904), 'implicit': True, 'numFollowers': 4, 'confidence': (5.75, 0.4330127018922193), 'directionRating': (5.25, 0.82915619758885), 'x': 5, 'annotated': True, 'targetFound': (0.75, 0.4330127018922193), 'y': 7, 'valid': True, 'correct': True}
+take the pink path to the red brick juncture
+%% RIGHT[I](21,21,0)
+%% FORWARD(21,21,90)
+%% FORWARD(22,21,90)
+%% NULL(23,21,90)
+go left onto the red brick
+%% LEFT(23,21,90)
+%% NULL(23,21,0)
+postition X is one section past the lamp
+%% X(23,21,0)
+%% FORWARD[I](23,21,0)
+%% FORWARD[I](23,20,0)
+%% FORWARD[I](23,19,0)
+%% NULL(23,18,0)
+
+KLS_L0_7_6_Dirs_1
+{'map': 'l', 'efficiency': (0.8571428571428571, 0.3499271061118826), 'implicit': True, 'numFollowers': 7, 'confidence': (5.142857142857143, 1.1248582677159729), 'directionRating': (5.142857142857143, 0.8329931278350429), 'x': 6, 'annotated': True, 'targetFound': (0.8571428571428571, 0.3499271061118826), 'y': 7, 'valid': True, 'correct': True}
+Follow the yellow path until it crosses the black
+%% LEFT[I](21,21,0)
+%% LEFT[I](21,21,270)
+%% FORWARD(21,21,180)
+%% FORWARD(21,22,180)
+%% NULL(21,23,180)
+take a left onto the black path and the next intersection should be position X
+%% LEFT(21,23,180)
+%% X(21,23,90)
+%% FORWARD[I](21,23,90)
+%% NULL(22,23,90)
+
+KXP_Grid0_2_1_Dirs_1
+{'map': 'grid', 'efficiency': (0.91666675, 0.14433742295983915), 'implicit': True, 'numFollowers': 4, 'confidence': (5.75, 0.4330127018922193), 'directionRating': (4.5, 1.118033988749895), 'x': 1, 'annotated': True, 'targetFound': (1.0, 0.0), 'y': 2, 'valid': True, 'correct': True}
+go to the pink flowered floored area
+%% FORWARD(3,8,0)
+%% FORWARD(3,7,0)
+%% NULL(3,6,0)
+it is at the easel
+%% X(3,6,0)
+%% LEFT[I](3,6,0)
+%% FORWARD[I](3,6,270)
+%% FORWARD[I](2,6,270)
+%% NULL(1,6,270)
+
+KXP_Grid0_2_3_Dirs_1
+{'map': 'grid', 'efficiency': (0.0, 0.0), 'implicit': True, 'numFollowers': 4, 'confidence': (2.5, 1.6583123951777), 'directionRating': (1.5, 0.8660254037844386), 'x': 3, 'annotated': True, 'targetFound': (0.0, 0.0), 'y': 2, 'valid': False, 'correct': False}
+position X is located in the butterfly area
+
+KXP_Grid0_3_1_Dirs_1
+{'map': 'grid', 'efficiency': (0.7, 0.3), 'implicit': True, 'numFollowers': 4, 'confidence': (6.0, 0.0), 'directionRating': (4.75, 1.299038105676658), 'x': 1, 'annotated': True, 'targetFound': (1.0, 0.0), 'y': 3, 'valid': True, 'correct': True}
+find the pink flowered floored area
+%% FORWARD(0,9,0)
+%% FORWARD(0,8,0)
+%% FORWARD(0,7,0)
+%% NULL(0,6,0)
+pos X is on the easel
+%% X(0,6,0)
+%% RIGHT[I](0,6,0)
+%% FORWARD[I](0,6,90)
+%% NULL(1,6,90)
+
+KXP_Grid0_3_2_Dirs_1
+{'map': 'grid', 'efficiency': (0.21901700000000002, 0.18109212009637526), 'implicit': True, 'numFollowers': 4, 'confidence': (4.5, 2.0615528128088303), 'directionRating': (2.25, 1.6393596310755), 'x': 2, 'annotated': True, 'targetFound': (0.75, 0.4330127018922193), 'y': 3, 'valid': False, 'correct': True}
+X is on an easel, not in the pink floored area, the other one
+
+KXP_Grid0_3_5_Dirs_1
+{'map': 'grid', 'efficiency': (0.8, 0.4), 'implicit': True, 'numFollowers': 5, 'confidence': (4.8, 1.9390719429665317), 'directionRating': (4.6, 1.4966629547095764), 'x': 5, 'annotated': True, 'targetFound': (0.8, 0.4), 'y': 3, 'valid': True, 'correct': True}
+head down toward the futon/bench
+%% LEFT[I](0,9,0)
+%% LEFT[I](0,9,270)
+%% FORWARD(0,9,180)
+%% NULL(0,10,180)
+keep going, till you are at the hat rack
+%% FORWARD(0,10,180)
+%% NULL(0,11,180)
+make a left
+%% LEFT(0,11,180)
+%% NULL(0,11,90)
+pos X is in that corner
+%% X(0,11,90)
+%% FORWARD[I](0,11,90)
+%% NULL(1,11,90)
+
+KXP_Grid0_4_3_Dirs_1
+{'map': 'grid', 'efficiency': (0.3199592857142857, 0.3565240823293365), 'implicit': True, 'numFollowers': 7, 'confidence': (3.7142857142857144, 1.9794866372215738), 'directionRating': (3.0, 1.6903085094570331), 'x': 3, 'annotated': True, 'targetFound': (0.5714285714285714, 0.49487165930539345), 'y': 4, 'valid': False, 'correct': True}
+X is in the long butterfly hallway, with blue floors, at the intersection where the street with no furniture is at
+
+KXP_Grid0_5_1_Dirs_1
+{'map': 'grid', 'efficiency': (0.2833788, 0.23484126899282418), 'implicit': True, 'numFollowers': 5, 'confidence': (4.2, 1.32664991614216), 'directionRating': (2.8, 1.1661903789690602), 'x': 1, 'annotated': True, 'targetFound': (0.6, 0.48989794855663565), 'y': 5, 'valid': True, 'correct': True}
+go forward
+%% LEFT[I](1,11,0)
+%% FORWARD(1,11,270)
+%% NULL(0,11,270)
+turn left
+%% LEFT(0,11,270)
+%% NULL(0,11,180)
+go down this hallway until you see the fish hallways
+%% LEFT[I](0,11,180)
+%% LEFT[I](0,11,90)
+%% FORWARD(0,11,0)
+%% FORWARD(0,10,0)
+%% FORWARD(0,9,0)
+%% FORWARD(0,8,0)
+%% NULL(0,7,0)
+find the easel in this area, that is pos X
+%% FORWARD[I](0,7,0)
+%% RIGHT[I](0,6,0)
+%% FORWARD[I](0,6,90)
+%% X(1,6,90)
+%% NULL(1,6,90)
+
+KXP_Grid0_6_1_Dirs_1
+{'map': 'grid', 'efficiency': (1.0, 0.0), 'implicit': True, 'numFollowers': 4, 'confidence': (5.75, 0.4330127018922193), 'directionRating': (3.5, 1.6583123951777), 'x': 1, 'annotated': True, 'targetFound': (1.0, 0.0), 'y': 6, 'valid': False, 'correct': True}
+pos X is in the area with the pink floors, on the easel
+
+KXP_Jelly0_1_3_Dirs_1
+{'map': 'jelly', 'efficiency': (0.179487, 0.18040042574644882), 'implicit': True, 'numFollowers': 4, 'confidence': (4.75, 2.165063509461097), 'directionRating': (3.5, 1.8027756377319946), 'x': 3, 'annotated': True, 'targetFound': (0.5, 0.5), 'y': 1, 'valid': False, 'correct': True}
+go to the blue flooored area
+pos X is in between the two pieces of furniture in this hallway
+
+KXP_Jelly0_1_4_Dirs_1
+{'map': 'jelly', 'efficiency': (0.2380952857142857, 0.3868590244028416), 'implicit': True, 'numFollowers': 7, 'confidence': (3.142857142857143, 1.7261494247992246), 'directionRating': (2.142857142857143, 1.6413036132965797), 'x': 4, 'annotated': True, 'targetFound': (0.2857142857142857, 0.45175395145262565), 'y': 1, 'valid': False, 'correct': True}
+end of the fish area, make a left into dead end
+
+KXP_Jelly0_1_6_Dirs_1
+{'map': 'jelly', 'efficiency': (0.3434065, 0.3879272988721598), 'implicit': True, 'numFollowers': 4, 'confidence': (3.75, 1.7853571071357126), 'directionRating': (2.0, 1.224744871391589), 'x': 6, 'annotated': True, 'targetFound': (0.75, 0.4330127018922193), 'y': 1, 'valid': False, 'correct': True}
+go to the blue floored area, then go to the pink floored area make the first left into a dead ended street
+pos X is at the end
+
+KXP_Jelly0_2_4_Dirs_1
+{'map': 'jelly', 'efficiency': (0.14285716666666667, 0.31943833573968367), 'implicit': True, 'numFollowers': 6, 'confidence': (5.5, 0.7637626158259733), 'directionRating': (3.1666666666666665, 1.4624940645653537), 'x': 4, 'annotated': True, 'targetFound': (0.16666666666666666, 0.37267799624996495), 'y': 2, 'valid': False, 'correct': False}
+dead end of the fish area
+
+KXP_Jelly0_2_6_Dirs_1
+{'map': 'jelly', 'efficiency': (0.75, 0.4330127018922193), 'implicit': True, 'numFollowers': 4, 'confidence': (3.5, 2.0615528128088303), 'directionRating': (2.5, 1.118033988749895), 'x': 6, 'annotated': True, 'targetFound': (0.75, 0.4330127018922193), 'y': 2, 'valid': False, 'correct': True}
+go to blue floored area, then pink floored area
+make the 1st right
+
+KXP_Jelly0_3_4_Dirs_1
+{'map': 'jelly', 'efficiency': (0.16666666666666666, 0.37267799624996495), 'implicit': True, 'numFollowers': 6, 'confidence': (3.6666666666666665, 1.4907119849998598), 'directionRating': (3.1666666666666665, 1.0671873729054748), 'x': 4, 'annotated': True, 'targetFound': (0.16666666666666666, 0.37267799624996495), 'y': 3, 'valid': False, 'correct': False}
+forward to the fish
+first left
+go to the end
+
+KXP_Jelly0_4_3_Dirs_1
+{'map': 'jelly', 'efficiency': (0.0, 0.0), 'implicit': True, 'numFollowers': 5, 'confidence': (6.0, 0.0), 'directionRating': (5.4, 0.8), 'x': 3, 'annotated': True, 'targetFound': (0.0, 0.0), 'y': 4, 'valid': True, 'correct': False, 'xalt': (18, 19, 270)}
+forward
+%% FORWARD(15,20,0)
+%% NULL(15,19,0)
+right into blue floored hallway
+%% FORWARD[I](15,19,0)
+%% RIGHT(15,18,0)
+%% NULL(15,18,90)
+keep going
+%% FORWARD(15,18,90)
+%% NULL(16,18,90)
+make a rt into the pink flowered floor hallway
+%% FORWARD[I](16,18,90)
+%% FORWARD[I](17,18,90)
+%% FORWARD[I](18,18,90)
+%% RIGHT(19,18,90)
+%% NULL(19,18,180)
+make 1st rt into dead end
+%% FORWARD[I](19,18,180)
+%% RIGHT(19,19,180)
+%% FORWARD(19,19,270)
+%% NULL(18,19,270)
+
+KXP_Jelly0_5_3_Dirs_1
+{'map': 'jelly', 'efficiency': (0.3404761428571429, 0.3299659856723021), 'implicit': True, 'numFollowers': 7, 'confidence': (4.571428571428571, 2.2587697572631282), 'directionRating': (2.7142857142857144, 1.8294640678379568), 'x': 3, 'annotated': True, 'targetFound': (0.7142857142857143, 0.45175395145262565), 'y': 5, 'valid': False, 'correct': True}
+blue floored area
+pos X is inbetween the two pieaces of furniture
+
+KXP_Jelly0_6_7_Dirs_1
+{'map': 'jelly', 'efficiency': (0.8, 0.4), 'implicit': True, 'numFollowers': 5, 'confidence': (5.0, 1.2649110640673518), 'directionRating': (4.6, 1.7435595774162693), 'x': 7, 'annotated': True, 'targetFound': (0.8, 0.4), 'y': 6, 'valid': True, 'correct': True}
+rorward 1
+%% RIGHT[I](18,19,0)
+%% FORWARD(18,19,90)
+%% NULL(19,19,90)
+left
+%% LEFT(19,19,90)
+%% NULL(19,19,0)
+fwd 1
+%% FORWARD(19,19,0)
+%% NULL(19,18,0)
+left
+%% LEFT(19,18,0)
+%% NULL(19,18,270)
+forward till 1st right turn
+%% FORWARD(19,18,270)
+%% FORWARD(18,18,270)
+%% NULL(17,18,270)
+make a right
+%% RIGHT(17,18,270)
+%% NULL(17,18,0)
+forward 1 space
+%% FORWARD(17,18,0)
+%% NULL(17,17,0)
+
+KXP_Jelly0_7_3_Dirs_1
+{'map': 'jelly', 'efficiency': (0.75, 0.2988071523335984), 'implicit': True, 'numFollowers': 7, 'confidence': (5.428571428571429, 1.0497813183356477), 'directionRating': (4.857142857142857, 1.355261854357877), 'x': 3, 'annotated': True, 'targetFound': (1.0, 0.0), 'y': 7, 'valid': True, 'correct': True}
+go to the blue floored area
+%% LEFT[I](17,17,0)
+%% LEFT[I](17,17,270)
+%% FORWARD(17,17,180)
+%% NULL(17,18,180)
+pos X is inbetween the two pieces of furnitute in this hallway
+%% X(17,18,180)
+%% RIGHT[I](17,18,180)
+%% FORWARD[I](17,18,270)
+%% NULL(16,18,270)
+
+KXP_L0_1_7_Dirs_1
+{'map': 'l', 'efficiency': (0.0, 0.0), 'implicit': True, 'numFollowers': 4, 'confidence': (3.25, 1.0897247358851685), 'directionRating': (2.25, 0.4330127018922193), 'x': 7, 'annotated': True, 'targetFound': (0.0, 0.0), 'y': 1, 'valid': False, 'correct': True}
+head away form the bench
+make the first rt
+then first rt again
+keep goin till there is a hallway on the left
+
+KXP_L0_3_2_Dirs_1
+{'map': 'l', 'efficiency': (0.5, 0.5), 'implicit': True, 'numFollowers': 4, 'confidence': (5.25, 0.82915619758885), 'directionRating': (4.75, 1.299038105676658), 'x': 2, 'annotated': True, 'targetFound': (0.5, 0.5), 'y': 3, 'valid': True, 'correct': True}
+follow this hallway out
+%% LEFT[I](19,23,0)
+%% LEFT[I](19,23,270)
+%% FORWARD(19,23,180)
+%% NULL(19,24,180)
+keep going until you see a easel on the left
+%% LEFT[I](19,24,180)
+%% FORWARD[I](19,24,90)
+%% FORWARD[I](20,24,90)
+%% LEFT[I](21,24,90)
+%% FORWARD(21,24,0)
+%% NULL(21,23,0)
+
+KXP_L0_3_4_Dirs_1
+{'map': 'l', 'efficiency': (1.0, 0.0), 'implicit': True, 'numFollowers': 4, 'confidence': (6.0, 0.0), 'directionRating': (5.0, 1.0), 'x': 4, 'annotated': True, 'targetFound': (1.0, 0.0), 'y': 3, 'valid': True, 'correct': True}
+go down till you can make a right in to another hallway
+%% LEFT[I](19,23,0)
+%% LEFT[I](19,23,270)
+%% FORWARD[I](19,23,180)
+%% LEFT[I](19,24,180)
+%% FORWARD[I](19,24,90)
+%% FORWARD[I](20,24,90)
+%% LEFT[I](21,24,90)
+%% FORWARD(21,24,0)
+%% NULL(21,23,0)
+go to the end of this
+%% RIGHT[I](21,23,0)
+%% FORWARD(21,23,90)
+%% FORWARD(22,23,90)
+%% FORWARD(23,23,90)
+%% NULL(24,23,90)
+till you reach the blue floored area
+%% NULL(24,23,90)
+make a left
+%% LEFT(24,23,90)
+%% NULL(24,23,0)
+keep going till the pink floor is on your left
+%% FORWARD(24,23,0)
+%% FORWARD(24,22,0)
+%% NULL(24,21,0)
+
+KXP_L0_4_1_Dirs_1
+{'map': 'l', 'efficiency': (0.26666666666666666, 0.39440531887330776), 'implicit': True, 'numFollowers': 6, 'confidence': (4.0, 1.632993161855452), 'directionRating': (3.0, 0.816496580927726), 'x': 1, 'annotated': True, 'targetFound': (0.3333333333333333, 0.4714045207910317), 'y': 4, 'valid': False, 'correct': False}
+make a right, then go forward
+make a right
+go to the end
+make a left
+go to the bench
+
+KXP_L0_4_3_Dirs_1
+{'map': 'l', 'efficiency': (0.6, 0.48989794855663565), 'xalt': (21, 24, 180), 'implicit': True, 'numFollowers': 5, 'confidence': (5.6, 0.48989794855663565), 'directionRating': (4.6, 0.8), 'x': 3, 'annotated': True, 'targetFound': (0.6, 0.48989794855663565), 'y': 4, 'valid': True, 'correct': False}
+make a right toward the pink floored area
+%% LEFT[I](24,21,0)
+%% LEFT[I](24,21,270)
+%% RIGHT(24,21,180)
+%% NULL(24,21,270)
+go down till the fish are on the walls
+%% FORWARD(24,21,270)
+%% FORWARD(23,21,270)
+%% NULL(22,21,270)
+make the first left in to the fish hallways
+%% FORWARD[I](22,21,270)
+%% LEFT(21,21,270)
+%% NULL(21,21,180)
+follow this for as far as it will go
+%% FORWARD(21,21,180)
+%% FORWARD(21,22,180)
+%% FORWARD(21,23,180)
+%% NULL(21,24,180)
+
+KXP_L0_4_7_Dirs_1
+{'map': 'l', 'efficiency': (0.8, 0.4), 'implicit': True, 'numFollowers': 5, 'confidence': (4.8, 0.9797958971132712), 'directionRating': (4.4, 0.8), 'x': 7, 'annotated': True, 'targetFound': (0.8, 0.4), 'y': 4, 'valid': True, 'correct': True}
+Follow the pink floored area toward the fish walled area
+%% LEFT[I](24,21,0)
+%% FORWARD(24,21,270)
+%% NULL(23,21,270)
+stop when the first fish hallway to your left appears
+%% FORWARD[I](23,21,270)
+%% FORWARD[I](22,21,270)
+%% NULL(21,21,270)
+
+KXP_L0_5_1_Dirs_1
+{'map': 'l', 'efficiency': (0.45833325, 0.36084394711105733), 'implicit': False, 'numFollowers': 4, 'confidence': (4.25, 1.920286436967152), 'directionRating': (2.0, 0.7071067811865476), 'x': 1, 'annotated': True, 'targetFound': (0.75, 0.4330127018922193), 'y': 5, 'valid': True, 'correct': True}
+go to the shorter end of the hallway
+%% FORWARD(23,18,0)
+%% NULL(23,17,0)
+make a left
+%% LEFT(23,17,0)
+%% NULL(23,17,270)
+go till the bench
+%% FORWARD(23,17,270)
+%% NULL(22,17,270)
+
+KXP_L0_5_3_Dirs_1
+{'map': 'l', 'efficiency': (0.0, 0.0), 'xalt': (21, 24, 180), 'implicit': True, 'numFollowers': 5, 'confidence': (3.8, 1.9390719429665317), 'directionRating': (3.2, 1.7204650534085255), 'x': 3, 'annotated': True, 'targetFound': (0.0, 0.0), 'y': 5, 'valid': True, 'correct': False}
+make a left toward the longer end of the hallway
+%% LEFT(23,18,0)
+%% LEFT(23,18,270)
+%% NULL(23,18,180)
+make a right at the pink floored area to your right
+%% FORWARD(23,18,180)
+%% FORWARD(23,19,180)
+%% FORWARD(23,20,180)
+%% RIGHT(23,21,180)
+%% NULL(23,21,270)
+go forward then make a left
+%% FORWARD(23,21,270)
+%% FORWARD[I](22,21,270)
+%% LEFT(21,21,270)
+%% NULL(21,21,180)
+keep going down this hallway to you get to the end
+%% FORWARD(21,21,180)
+%% FORWARD(21,22,180)
+%% FORWARD(21,23,180)
+%% NULL(21,24,180)
+
+KXP_L0_5_6_Dirs_1
+{'map': 'l', 'efficiency': (0.125, 0.2795084971874737), 'implicit': True, 'numFollowers': 6, 'confidence': (3.0, 1.2909944487358056), 'directionRating': (2.5, 1.118033988749895), 'x': 6, 'annotated': True, 'targetFound': (0.16666666666666666, 0.37267799624996495), 'y': 5, 'valid': True, 'correct': True}
+go toward the lamp
+%% LEFT[I](23,18,0)
+%% LEFT[I](23,18,270)
+%% FORWARD(23,18,180)
+%% NULL(23,19,180)
+1st right
+%% FORWARD[I](23,19,180)
+%% FORWARD[I](23,20,180)
+%% RIGHT(23,21,180)
+%% NULL(23,21,270)
+1st left
+%% FORWARD[I](23,21,270)
+%% FORWARD[I](22,21,270)
+%% LEFT(21,21,270)
+%% NULL(21,21,180)
+two spaces forward
+%% FORWARD(21,21,180)
+%% FORWARD(21,22,180)
+%% NULL(21,23,180)
+make a left
+%% LEFT(21,23,180)
+%% NULL(21,23,90)
+one space forward
+%% FORWARD(21,23,90)
+%% NULL(22,23,90)
+
+KXP_L0_6_2_Dirs_1
+{'map': 'l', 'efficiency': (1.0, 0.0), 'implicit': True, 'numFollowers': 5, 'confidence': (6.0, 0.0), 'directionRating': (5.8, 0.4), 'x': 2, 'annotated': True, 'targetFound': (1.0, 0.0), 'y': 6, 'valid': True, 'correct': True}
+move one space toward the easel
+%% LEFT[I](22,23,0)
+%% FORWARD(22,23,270)
+%% NULL(21,23,270)
+
+KXP_L0_6_7_Dirs_1
+{'map': 'l', 'efficiency': (0.5, 0.5), 'implicit': True, 'numFollowers': 6, 'confidence': (3.6666666666666665, 1.9720265943665387), 'directionRating': (3.3333333333333335, 1.4907119849998598), 'x': 7, 'annotated': True, 'targetFound': (0.5, 0.5), 'y': 6, 'valid': False, 'correct': False}
+head toward the easel
+make a rt just before the easel
+go down until the pink floored area
+
+KXP_L0_7_1_Dirs_1
+{'map': 'l', 'efficiency': (0.75, 0.4330127018922193), 'implicit': True, 'numFollowers': 4, 'confidence': (6.0, 0.0), 'directionRating': (4.75, 1.299038105676658), 'x': 1, 'annotated': True, 'targetFound': (0.75, 0.4330127018922193), 'y': 7, 'valid': True, 'correct': True}
+go down the longer end of the pink floored area
+%% RIGHT[I](21,21,0)
+%% FORWARD(21,21,90)
+%% NULL(22,21,90)
+make the first left
+%% FORWARD[I](22,21,90)
+%% LEFT(23,21,90)
+%% NULL(23,21,0)
+go down
+%% FORWARD(23,21,0)
+%% NULL(23,20,0)
+first left
+%% FORWARD[I](23,20,0)
+%% FORWARD[I](23,19,0)
+%% FORWARD[I](23,18,0)
+%% LEFT(23,17,0)
+%% NULL(23,17,270)
+go down till the bench
+%% FORWARD(23,17,270)
+%% NULL(22,17,270)
+
+KXP_L0_7_4_Dirs_1
+{'map': 'l', 'efficiency': (1.0, 0.0), 'implicit': True, 'numFollowers': 4, 'confidence': (5.75, 0.4330127018922193), 'directionRating': (4.75, 1.0897247358851685), 'x': 4, 'annotated': True, 'targetFound': (1.0, 0.0), 'y': 7, 'valid': True, 'correct': True}
+go to the longer end of the pink floored area
+%% RIGHT[I](21,21,0)
+%% FORWARD(21,21,90)
+%% NULL(22,21,90)
+go to the end of this hallway, till you get to blue floored area
+%% FORWARD(22,21,90)
+%% FORWARD(23,21,90)
+%% NULL(24,21,90)
+
+TJS_Grid0_1_2_Dirs_1
+{'map': 'grid', 'efficiency': (0.35, 0.40926763859362253), 'implicit': True, 'numFollowers': 4, 'confidence': (3.5, 1.5), 'directionRating': (2.0, 1.224744871391589), 'x': 2, 'annotated': True, 'targetFound': (0.5, 0.5), 'y': 1, 'valid': False, 'correct': True}
+position X is located where the yellow floors and the grey floors intersect
+there is an easel there
+
+TJS_Grid0_1_6_Dirs_1
+{'map': 'grid', 'efficiency': (0.0, 0.0), 'implicit': True, 'numFollowers': 4, 'confidence': (6.0, 0.0), 'directionRating': (3.25, 1.299038105676658), 'x': 6, 'annotated': True, 'targetFound': (0.0, 0.0), 'y': 1, 'valid': False, 'correct': False}
+it's at the corner of the yellow floor and the grass floor
+
+TJS_Grid0_2_4_Dirs_1
+{'map': 'grid', 'efficiency': (1.0, 0.0), 'implicit': False, 'numFollowers': 5, 'confidence': (5.6, 0.8), 'directionRating': (5.0, 1.0954451150103324), 'x': 4, 'annotated': True, 'targetFound': (1.0, 0.0), 'y': 2, 'valid': True, 'correct': True}
+go straight down the yellow hall until you hit a corner that intersects with the grass hall
+%% FORWARD(3,8,0)
+%% FORWARD(3,7,0)
+%% FORWARD(3,6,0)
+%% NULL(3,5,0)
+
+TJS_Grid0_2_5_Dirs_1
+{'map': 'grid', 'efficiency': (0.1832728, 0.2511631120992094), 'implicit': True, 'numFollowers': 5, 'confidence': (4.4, 1.624807680927192), 'directionRating': (2.6, 1.8547236990991407), 'x': 5, 'annotated': True, 'targetFound': (0.4, 0.48989794855663565), 'y': 2, 'valid': True, 'correct': True}
+go all the way down the blue floor until you see a coat rack, then take an immediate left
+%% LEFT[I](3,8,0)
+%% FORWARD[I](3,8,270)
+%% FORWARD[I](2,8,270)
+%% FORWARD[I](1,8,270)
+%% LEFT[I](0,8,270)
+%% FORWARD(0,8,180)
+%% FORWARD(0,9,180)
+%% FORWARD(0,10,180)
+%% LEFT(0,11,180)
+%% FORWARD(0,11,90)
+%% NULL(1,11,90)
+
+TJS_Grid0_3_1_Dirs_1
+{'map': 'grid', 'efficiency': (0.91666675, 0.14433742295983915), 'implicit': True, 'numFollowers': 4, 'confidence': (4.75, 2.165063509461097), 'directionRating': (5.0, 1.0), 'x': 1, 'annotated': True, 'targetFound': (1.0, 0.0), 'y': 3, 'valid': True, 'correct': True}
+forward one space, then a left down the red hall until it intersects with the rose hall and has an easel
+%% FORWARD(0,9,0)
+%% RIGHT[I](0,8,0)
+%% FORWARD[I](0,8,90)
+%% LEFT(1,8,90)
+%% FORWARD(1,8,0)
+%% FORWARD(1,7,0)
+%% NULL(1,6,0)
+
+TJS_Grid0_4_1_Dirs_1
+{'map': 'grid', 'efficiency': (1.0, 0.0), 'implicit': True, 'numFollowers': 7, 'confidence': (5.857142857142857, 0.3499271061118826), 'directionRating': (5.0, 0.9258200997725514), 'x': 1, 'annotated': True, 'targetFound': (1.0, 0.0), 'y': 4, 'valid': True, 'correct': True}
+go straight
+%% LEFT[I](3,5,0)
+%% FORWARD(3,5,270)
+%% NULL(2,5,270)
+turn right at the rose hallway
+%% LEFT[I](2,5,270)
+%% FORWARD[I](2,5,180)
+%% RIGHT(2,6,180)
+%% NULL(2,6,270)
+keep going until it intersects with the red hallway and has an easel
+%% FORWARD(2,6,270)
+%% NULL(1,6,270)
+
+TJS_Grid0_4_3_Dirs_1
+{'map': 'grid', 'efficiency': (0.0, 0.0), 'implicit': True, 'numFollowers': 5, 'confidence': (5.6, 0.48989794855663565), 'directionRating': (5.6, 0.48989794855663565), 'x': 3, 'annotated': True, 'targetFound': (0.0, 0.0), 'y': 4, 'valid': False, 'correct': False}
+grassy hall to blue hall
+left, then all the way down until you get between the bench and coat rack, then stop
+
+TJS_Grid0_5_6_Dirs_1
+{'map': 'grid', 'efficiency': (0.18970199999999998, 0.3013814158464321), 'implicit': True, 'numFollowers': 5, 'confidence': (3.6, 1.3564659966250536), 'directionRating': (3.2, 1.1661903789690602), 'x': 6, 'annotated': True, 'targetFound': (0.4, 0.48989794855663565), 'y': 5, 'valid': False, 'correct': False}
+go all the way down the blue hall
+then find where the wooden floor and the yellow floor doesn't quite intersect, but one movement forward and it will
+
+TJS_Grid0_5_7_Dirs_1
+{'map': 'grid', 'efficiency': (0.60416675, 0.27243120308930746), 'implicit': True, 'numFollowers': 4, 'confidence': (5.5, 0.5), 'directionRating': (2.75, 0.82915619758885), 'x': 7, 'annotated': True, 'targetFound': (1.0, 0.0), 'y': 5, 'valid': False, 'correct': False}
+one space forward
+a left at the blue hall, then two spaces forward, and a right when you see the red hall, then stop
+
+TJS_Grid0_6_7_Dirs_1
+{'map': 'grid', 'efficiency': (0.0, 0.0), 'implicit': True, 'numFollowers': 7, 'confidence': (3.4285714285714284, 1.5907898179514348), 'directionRating': (2.7142857142857144, 1.4846149779161804), 'x': 7, 'annotated': True, 'targetFound': (0.0, 0.0), 'y': 6, 'valid': False, 'correct': False}
+go straight a few movements, then go to the red floor until you can look to the left and see a blue corridor
+
+TJS_Grid0_7_1_Dirs_1
+{'map': 'grid', 'efficiency': (0.7523808, 0.30476208750000383), 'implicit': True, 'numFollowers': 5, 'confidence': (5.8, 0.39999999999999997), 'directionRating': (3.4, 1.3564659966250536), 'x': 1, 'annotated': True, 'targetFound': (1.0, 0.0), 'y': 7, 'valid': True, 'correct': True}
+go left until you come to the four way intersection of the red and rose floors, with an easel
+%% RIGHT[I](1,9,0)
+%% LEFT(1,9,90)
+%% FORWARD(1,9,0)
+%% FORWARD(1,8,0)
+%% FORWARD(1,7,0)
+%% NULL(1,6,0)
+
+TJS_Grid0_7_2_Dirs_1
+{'map': 'grid', 'efficiency': (0.21969675, 0.12923261401901417), 'implicit': True, 'numFollowers': 4, 'confidence': (4.0, 1.0), 'directionRating': (2.25, 0.82915619758885), 'x': 2, 'annotated': True, 'targetFound': (0.75, 0.4330127018922193), 'y': 7, 'valid': False, 'correct': True}
+it's at the intersection of the yellow and grey halls, with an easel
+
+TJS_Grid0_7_4_Dirs_1
+{'map': 'grid', 'efficiency': (0.44464275, 0.2807776707337809), 'implicit': True, 'numFollowers': 4, 'confidence': (5.0, 1.7320508075688772), 'directionRating': (3.75, 1.299038105676658), 'x': 4, 'annotated': True, 'targetFound': (0.75, 0.4330127018922193), 'y': 7, 'valid': True, 'correct': True}
+take a left
+%% LEFT(1,9,0)
+%% NULL(1,9,270)
+take the blue hall to the grassy hall
+%% FORWARD[I](1,9,270)
+%% RIGHT[I](0,9,270)
+%% FORWARD(0,9,0)
+%% FORWARD(0,8,0)
+%% FORWARD(0,7,0)
+%% FORWARD(0,6,0)
+%% NULL(0,5,0)
+then the grassy hall to the yellow hall until they intersect
+%% RIGHT[I](0,5,0)
+%% FORWARD(0,5,90)
+%% FORWARD(1,5,90)
+%% FORWARD(2,5,90)
+%% NULL(3,5,90)
+
+TJS_Grid0_7_6_Dirs_1
+{'map': 'grid', 'efficiency': (0.13852799999999998, 0.1113824022994656), 'implicit': True, 'numFollowers': 6, 'confidence': (4.666666666666667, 0.7453559924999298), 'directionRating': (3.6666666666666665, 0.4714045207910317), 'x': 6, 'annotated': True, 'targetFound': (0.6666666666666666, 0.4714045207910317), 'y': 7, 'valid': False, 'correct': False}
+blue hall to grassy hall
+grassy hall to yellow hall
+yellow hall to wooden hall
+then one space forward
+
+TJS_Jelly0_1_7_Dirs_1
+{'map': 'jelly', 'efficiency': (0.17895899999999998, 0.16454711015693954), 'implicit': True, 'numFollowers': 6, 'confidence': (3.8333333333333335, 1.5723301886761007), 'directionRating': (3.1666666666666665, 1.5723301886761007), 'x': 7, 'annotated': True, 'targetFound': (0.6666666666666666, 0.4714045207910317), 'y': 1, 'valid': False, 'correct': True}
+Look for grey tiled hall
+Position X is in the middle of the hall, with a stool
+
+TJS_Jelly0_2_6_Dirs_1
+{'map': 'jelly', 'efficiency': (0.0, 0.0), 'implicit': True, 'numFollowers': 4, 'confidence': (3.5, 2.0615528128088303), 'directionRating': (2.5, 2.0615528128088303), 'x': 6, 'annotated': True, 'targetFound': (0.0, 0.0), 'y': 2, 'valid': False, 'correct': True}
+Look for the rose floors
+Position X is at a dead end, a branch off from the rose floors
+There are two pictures of the eiffel tower on the walls
+
+TJS_Jelly0_2_7_Dirs_1
+{'map': 'jelly', 'efficiency': (0.0, 0.0), 'implicit': True, 'numFollowers': 4, 'confidence': (4.5, 2.0615528128088303), 'directionRating': (3.0, 1.8708286933869707), 'x': 7, 'annotated': True, 'targetFound': (0.0, 0.0), 'y': 2, 'valid': False, 'correct': True}
+position X is in the middle of the grey floored hall with a coat rack or something
+
+TJS_Jelly0_3_1_Dirs_1
+{'map': 'jelly', 'efficiency': (0.1552795, 0.26229531637561376), 'implicit': True, 'numFollowers': 6, 'confidence': (2.6666666666666665, 1.1055415967851334), 'directionRating': (2.3333333333333335, 0.9428090415820635), 'x': 1, 'annotated': True, 'targetFound': (0.3333333333333333, 0.4714045207910317), 'y': 3, 'valid': False, 'correct': False}
+position X is in the middle of the red brick floored hall
+
+TJS_Jelly0_3_4_Dirs_1
+{'map': 'jelly', 'efficiency': (0.5661538, 0.4026421997478158), 'implicit': True, 'numFollowers': 5, 'confidence': (5.6, 0.8), 'directionRating': (3.0, 1.7888543819998317), 'x': 4, 'annotated': True, 'targetFound': (0.8, 0.4), 'y': 3, 'valid': False, 'correct': True}
+Position X is a dead end of the yellow floored hall with fish on the walls
+
+TJS_Jelly0_3_6_Dirs_1
+{'map': 'jelly', 'efficiency': (0.25, 0.4330127018922193), 'implicit': True, 'numFollowers': 4, 'confidence': (5.25, 0.82915619758885), 'directionRating': (4.0, 0.7071067811865476), 'x': 6, 'annotated': True, 'targetFound': (0.25, 0.4330127018922193), 'y': 3, 'valid': False, 'correct': True}
+position X is in the hall with the rose floors
+it is a dead end which branches off and has two pictures of the eiffel tower on the walls
+
+TJS_Jelly0_4_1_Dirs_1
+{'map': 'jelly', 'efficiency': (0.25, 0.4330127018922193), 'implicit': True, 'numFollowers': 4, 'confidence': (2.5, 2.0615528128088303), 'directionRating': (2.5, 2.0615528128088303), 'x': 1, 'annotated': True, 'targetFound': (0.25, 0.4330127018922193), 'y': 4, 'valid': False, 'correct': False}
+position X is in the middle of the hall with the red brick floor
+
+TJS_Jelly0_4_3_Dirs_1
+{'map': 'jelly', 'efficiency': (0.3333333333333333, 0.4714045207910317), 'implicit': True, 'numFollowers': 6, 'confidence': (4.166666666666667, 1.3437096247164249), 'directionRating': (3.8333333333333335, 1.0671873729054748), 'x': 3, 'annotated': True, 'targetFound': (0.3333333333333333, 0.4714045207910317), 'y': 4, 'valid': False, 'correct': False}
+position X is in the middle of the blue hall
+
+TJS_Jelly0_4_6_Dirs_1
+{'map': 'jelly', 'efficiency': (0.16666675, 0.2886752789323802), 'implicit': True, 'numFollowers': 4, 'confidence': (4.75, 2.165063509461097), 'directionRating': (2.75, 1.7853571071357126), 'x': 6, 'annotated': True, 'targetFound': (0.25, 0.4330127018922193), 'y': 4, 'valid': False, 'correct': True}
+position X is a dead end of a branch of the rose colored hall, with two pictures of the eiffel tower on the walls
+
+TJS_Jelly0_4_7_Dirs_1
+{'map': 'jelly', 'efficiency': (0.3985492857142857, 0.32509961163957746), 'implicit': True, 'numFollowers': 7, 'confidence': (4.428571428571429, 1.590789817951435), 'directionRating': (2.857142857142857, 1.2453996981544782), 'x': 7, 'annotated': True, 'targetFound': (0.7142857142857143, 0.45175395145262565), 'y': 4, 'valid': False, 'correct': True}
+it's in the middle of a grey floored hall with a stool
+
+TJS_Jelly0_5_2_Dirs_1
+{'map': 'jelly', 'efficiency': (0.08571419999999999, 0.1714284), 'implicit': True, 'numFollowers': 5, 'confidence': (3.4, 1.7435595774162695), 'directionRating': (2.2, 1.6), 'x': 2, 'annotated': True, 'targetFound': (0.2, 0.4000000000000001), 'y': 5, 'valid': False, 'correct': False}
+Position X is at a corner between two halls with no tiles on the floor, but butterflies on the wall
+
+TJS_Jelly0_5_3_Dirs_1
+{'map': 'jelly', 'efficiency': (0.0, 0.0), 'implicit': True, 'numFollowers': 4, 'confidence': (5.0, 0.7071067811865476), 'directionRating': (4.0, 1.224744871391589), 'x': 3, 'annotated': True, 'targetFound': (0.0, 0.0), 'y': 5, 'valid': False, 'correct': False}
+position X is in the middle of the blue hall
+
+TJS_Jelly0_5_6_Dirs_1
+{'map': 'jelly', 'efficiency': (0.046917600000000004, 0.057874966548932025), 'implicit': True, 'numFollowers': 5, 'confidence': (4.2, 2.227105745132009), 'directionRating': (2.2, 0.7483314773547882), 'x': 6, 'annotated': True, 'targetFound': (0.4, 0.48989794855663565), 'y': 5, 'valid': False, 'correct': True}
+Look for the rose floors
+Position X is at a dead end, a branch off from the rose floors, and has two pictures of the Eiffel tower on it
+
+TJS_Jelly0_6_3_Dirs_1
+{'map': 'jelly', 'efficiency': (0.6326531428571428, 0.4172458996499473), 'implicit': True, 'numFollowers': 7, 'confidence': (4.285714285714286, 1.9059520091609048), 'directionRating': (3.5714285714285716, 1.3997084244475302), 'x': 3, 'annotated': True, 'targetFound': (0.7142857142857143, 0.45175395145262565), 'y': 6, 'valid': False, 'correct': True}
+it's in the middle of the blue hall with two objects at either side
+
+TJS_Jelly0_7_1_Dirs_1
+{'map': 'jelly', 'efficiency': (0.018633571428571426, 0.045642742085703396), 'implicit': True, 'numFollowers': 7, 'confidence': (2.5714285714285716, 1.5907898179514348), 'directionRating': (2.0, 1.3093073414159542), 'x': 1, 'annotated': True, 'targetFound': (0.14285714285714285, 0.34992710611188266), 'y': 7, 'valid': False, 'correct': False}
+position X is in the red brick hall
+
+TJS_Jelly0_7_4_Dirs_1
+{'map': 'jelly', 'efficiency': (0.4857144, 0.4100772092558181), 'implicit': True, 'numFollowers': 5, 'confidence': (4.8, 1.9390719429665317), 'directionRating': (2.2, 1.1661903789690602), 'x': 4, 'annotated': True, 'targetFound': (0.6, 0.48989794855663565), 'y': 7, 'valid': False, 'correct': True}
+position X is at the dead end of the yellow fish hall with yellow floors
+
+TJS_L0_1_2_Dirs_1
+{'map': 'l', 'efficiency': (0.10914385714285714, 0.17939473846435372), 'implicit': True, 'numFollowers': 7, 'confidence': (3.142857142857143, 1.958758457257441), 'directionRating': (1.2857142857142858, 0.45175395145262565), 'x': 2, 'annotated': True, 'targetFound': (0.2857142857142857, 0.45175395145262565), 'y': 1, 'valid': False, 'correct': True}
+one movement to the right
+take a left down the hallway
+from there not completely sure, but X is at the grey hallway and yellow hallway
+
+TJS_L0_1_3_Dirs_1
+{'map': 'l', 'efficiency': (0.4, 0.48989794855663565), 'implicit': True, 'numFollowers': 5, 'confidence': (3.4, 2.244994432064365), 'directionRating': (3.6, 2.154065922853802), 'x': 3, 'annotated': True, 'targetFound': (0.4, 0.48989794855663565), 'y': 1, 'valid': True, 'correct': True}
+one movement forward until you reach the red hall, then a right
+%% RIGHT[I](22,17,0)
+%% FORWARD(22,17,90)
+%% RIGHT(23,17,90)
+%% NULL(23,17,180)
+take the red hall until you get ot the grey hall, then take the grey hall until it intersects with the yellow hall, then take a left and go all the way down the winding hall till you hit a dead end
+%% FORWARD(23,17,180)
+%% FORWARD(23,18,180)
+%% FORWARD(23,19,180)
+%% FORWARD(23,20,180)
+%% FORWARD(23,21,180)
+%% FORWARD(23,22,180)
+%% RIGHT(23,23,180)
+%% FORWARD(23,23,270)
+%% FORWARD(22,23,270)
+%% LEFT(21,23,270)
+%% FORWARD(21,23,180)
+%% RIGHT(21,24,180)
+%% FORWARD(21,24,270)
+%% FORWARD(20,24,270)
+%% RIGHT(19,24,270)
+%% FORWARD(19,24,0)
+%% NULL(19,23,0)
+
+TJS_L0_1_5_Dirs_1
+{'map': 'l', 'efficiency': (0.0, 0.0), 'implicit': True, 'numFollowers': 6, 'confidence': (2.5, 1.118033988749895), 'directionRating': (2.6666666666666665, 0.9428090415820634), 'x': 5, 'annotated': True, 'targetFound': (0.0, 0.0), 'y': 1, 'valid': False, 'correct': False}
+take a left
+a right at the red hall
+position X is in the middle, with a dead end branch to the left, and nothing on the walls
+
+TJS_L0_1_6_Dirs_1
+{'map': 'l', 'efficiency': (0.2804233333333333, 0.28771600140860354), 'implicit': True, 'numFollowers': 6, 'confidence': (2.8333333333333335, 1.6749792701868151), 'directionRating': (1.5, 0.5), 'x': 6, 'annotated': True, 'targetFound': (0.5, 0.5), 'y': 1, 'valid': False, 'correct': False}
+go straight one movement
+take a left, then go down the hall until the grey floor intersects with a blank floor
+
+TJS_L0_2_3_Dirs_1
+{'map': 'l', 'efficiency': (0.16666666666666666, 0.37267799624996495), 'implicit': True, 'numFollowers': 6, 'confidence': (2.5, 1.707825127659933), 'directionRating': (2.3333333333333335, 1.247219128924647), 'x': 3, 'annotated': True, 'targetFound': (0.16666666666666666, 0.37267799624996495), 'y': 2, 'valid': False, 'correct': True}
+go straight and all the way down the hall
+it was turn a few times and then dead end
+the very last end is position X
+
+TJS_L0_2_5_Dirs_1
+{'map': 'l', 'efficiency': (0.825396857142857, 0.34558001240458197), 'implicit': True, 'numFollowers': 7, 'confidence': (4.714285714285714, 1.577908716741037), 'directionRating': (4.0, 1.3093073414159542), 'x': 5, 'annotated': True, 'targetFound': (0.8571428571428571, 0.3499271061118826), 'y': 2, 'valid': True, 'correct': True}
+go straight down the grey hall
+%% LEFT[I](21,23,0)
+%% FORWARD(21,23,270)
+%% NULL(20,23,270)
+a left at the red hall
+%% LEFT[I](20,23,270)
+%% LEFT[I](20,23,180)
+%% FORWARD(20,23,90)
+%% FORWARD(21,23,90)
+%% FORWARD(22,23,90)
+%% LEFT(23,23,90)
+%% NULL(23,23,0)
+continue one movement past a lamp pole
+%% FORWARD(23,23,0)
+%% FORWARD(23,22,0)
+%% FORWARD(23,21,0)
+%% FORWARD(23,20,0)
+%% FORWARD(23,19,0)
+%% NULL(23,18,0)
+
+TJS_L0_2_6_Dirs_1
+{'map': 'l', 'efficiency': (0.22222219999999998, 0.3912626032364453), 'implicit': False, 'numFollowers': 5, 'confidence': (4.0, 1.6733200530681511), 'directionRating': (3.6, 2.0591260281974004), 'x': 6, 'annotated': True, 'targetFound': (0.4, 0.48989794855663565), 'y': 2, 'valid': True, 'correct': True}
+go right one move
+%% RIGHT(21,23,0)
+%% FORWARD(21,23,90)
+%% NULL(22,23,90)
+intersection of the gray hallway
+%% NULL(22,23,90)
+
+TJS_L0_2_7_Dirs_1
+{'map': 'l', 'efficiency': (0.8666666, 0.26666680000000004), 'implicit': False, 'numFollowers': 5, 'confidence': (4.8, 1.9390719429665317), 'directionRating': (4.6, 1.3564659966250536), 'x': 7, 'annotated': True, 'targetFound': (1.0, 0.0), 'y': 2, 'valid': True, 'correct': True}
+take the yellow hall until you get to the intersection of it and the rose floored hall
+%% FORWARD(21,23,0)
+%% FORWARD(21,22,0)
+%% NULL(21,21,0)
+
+TJS_L0_3_1_Dirs_1
+{'map': 'l', 'efficiency': (0.21666675, 0.37527781931082405), 'implicit': True, 'numFollowers': 4, 'confidence': (3.25, 2.277608394786075), 'directionRating': (3.25, 1.479019945774904), 'x': 1, 'annotated': True, 'targetFound': (0.25, 0.4330127018922193), 'y': 3, 'valid': True, 'correct': True}
+all the way down the winding hall, then a right at the grey hall
+%% LEFT[I](19,23,0)
+%% LEFT[I](19,23,270)
+%% FORWARD(19,23,180)
+%% LEFT(19,24,180)
+%% FORWARD(19,24,90)
+%% FORWARD(20,24,90)
+%% LEFT(21,24,90)
+%% FORWARD[I](21,24,0)
+%% RIGHT(21,23,0)
+%% NULL(21,23,90)
+continuing until you reach the red hall
+%% FORWARD(21,23,90)
+%% FORWARD(22,23,90)
+%% NULL(23,23,90)
+a left at the red hall, then another left onto a wood hall
+%% LEFT(23,23,90)
+%% FORWARD[I](23,23,0)
+%% FORWARD[I](23,22,0)
+%% FORWARD[I](23,21,0)
+%% FORWARD[I](23,20,0)
+%% FORWARD[I](23,19,0)
+%% FORWARD[I](23,18,0)
+%% LEFT(23,17,0)
+%% NULL(23,17,270)
+position X has a bench
+%% X(23,17,270)
+%% FORWARD[I](23,17,270)
+%% NULL(22,17,270)
+
+TJS_L0_4_6_Dirs_1
+{'map': 'l', 'efficiency': (0.1571428, 0.1289675864989339), 'implicit': True, 'numFollowers': 5, 'confidence': (4.2, 1.469693845669907), 'directionRating': (2.6, 1.7435595774162693), 'x': 6, 'annotated': True, 'targetFound': (0.6, 0.48989794855663565), 'y': 4, 'valid': True, 'correct': True}
+continue until you get to the grey floor
+%% LEFT[I](24,21,0)
+%% LEFT[I](24,21,270)
+%% FORWARD(24,21,180)
+%% FORWARD(24,22,180)
+%% NULL(24,23,180)
+continue down the grey floor until you get to the intersection one movement before the yellow and grey floors intersect
+%% RIGHT[I](24,23,180)
+%% FORWARD(24,23,270)
+%% FORWARD(23,23,270)
+%% NULL(22,23,270)
+
+TJS_L0_5_4_Dirs_1
+{'map': 'l', 'efficiency': (0.6031745714285714, 0.3784641277505164), 'implicit': True, 'numFollowers': 7, 'confidence': (5.0, 1.6903085094570331), 'directionRating': (3.5714285714285716, 1.4982983545287878), 'x': 4, 'annotated': True, 'targetFound': (0.8571428571428571, 0.3499271061118826), 'y': 5, 'valid': False, 'correct': True}
+X is at the intersection of the blue and rose hallways
+
+TJS_L0_6_2_Dirs_1
+{'map': 'l', 'efficiency': (0.3333333333333333, 0.4714045207910317), 'xalt': (22, 22, 0), 'implicit': False, 'numFollowers': 6, 'confidence': (4.5, 1.8027756377319946), 'directionRating': (4.666666666666667, 1.7950549357115013), 'x': 2, 'annotated': True, 'targetFound': (0.3333333333333333, 0.4714045207910317), 'y': 6, 'valid': True, 'correct': False}
+go straight one movement
+%% FORWARD(22,23,0)
+%% NULL(22,22,0)
+
+TJS_L0_6_4_Dirs_1
+{'map': 'l', 'efficiency': (0.37083325, 0.09157195485893867), 'implicit': True, 'numFollowers': 4, 'confidence': (6.0, 0.0), 'directionRating': (3.5, 1.118033988749895), 'x': 4, 'annotated': True, 'targetFound': (1.0, 0.0), 'y': 6, 'valid': False, 'correct': True}
+down the grey hall, at the intersection of the blue and rose floored halls
+
+TJS_L0_6_5_Dirs_1
+{'map': 'l', 'efficiency': (0.0, 0.0), 'implicit': True, 'numFollowers': 5, 'confidence': (2.8, 0.9797958971132712), 'directionRating': (2.2, 0.39999999999999997), 'x': 5, 'annotated': True, 'targetFound': (0.0, 0.0), 'y': 6, 'valid': False, 'correct': False}
+go down grey hall until you get to the red hall
+spot is near the end of the red hall, with a branch to the side with a blank walled dead end
+
+TJS_L0_7_3_Dirs_1
+{'map': 'l', 'efficiency': (0.5, 0.5), 'implicit': True, 'numFollowers': 4, 'confidence': (3.75, 2.277608394786075), 'directionRating': (2.5, 2.0615528128088303), 'x': 3, 'annotated': True, 'targetFound': (0.5, 0.5), 'y': 7, 'valid': False, 'correct': False}
+go straight, all the way down to a winding hall, until you get to a dead end
+
+TJS_L0_7_4_Dirs_1
+{'map': 'l', 'efficiency': (0.0, 0.0), 'xalt': (21, 23, 180), 'implicit': True, 'numFollowers': 5, 'confidence': (2.8, 1.32664991614216), 'directionRating': (1.8, 0.7483314773547883), 'x': 4, 'annotated': True, 'targetFound': (0.0, 0.0), 'y': 7, 'valid': True, 'correct': False}
+go straight until you get to the intersection with the grey floor
+%% LEFT[I](21,21,0)
+%% LEFT[I](21,21,270)
+%% FORWARD(21,21,180)
+%% FORWARD(21,22,180)
+%% NULL(21,23,180)
+
+TJS_L0_7_6_Dirs_1
+{'map': 'l', 'efficiency': (0.0, 0.0), 'implicit': True, 'numFollowers': 4, 'confidence': (4.75, 1.6393596310755), 'directionRating': (3.25, 1.479019945774904), 'x': 6, 'annotated': True, 'targetFound': (0.0, 0.0), 'y': 7, 'valid': False, 'correct': False}
+one movement forward, then one movement to the left
+
+WLH_Grid0_2_1_Dirs_1
+{'map': 'grid', 'efficiency': (0.5904762, 0.39566821071519004), 'implicit': False, 'numFollowers': 5, 'confidence': (4.6, 1.8547236990991407), 'directionRating': (4.6, 1.3564659966250536), 'x': 1, 'annotated': True, 'targetFound': (0.8, 0.4), 'y': 2, 'valid': True, 'correct': True}
+face the octagon carpet
+%% LEFT(3,8,0)
+%% LEFT(3,8,270)
+%% LEFT(3,8,180)
+%% LEFT(3,8,90)
+%% NULL(3,8,0)
+move forward one alley to the wooden flooring
+%% FORWARD(3,8,0)
+%% NULL(3,7,0)
+turn left
+%% LEFT(3,7,0)
+%% NULL(3,7,270)
+walk along the wooden floor until you see red brick floor
+%% FORWARD(3,7,270)
+%% FORWARD(2,7,270)
+%% NULL(1,7,270)
+at this intersection look for flowered carpet and an easel
+%% RIGHT(1,7,270)
+%% NULL(1,7,0)
+move to the easel
+%% FORWARD(1,7,0)
+%% NULL(1,6,0)
+this is X
+%% X(1,6,0)
+%% NULL(1,6,0)
+
+WLH_Grid0_2_3_Dirs_1
+{'map': 'grid', 'efficiency': (0.08, 0.16), 'implicit': True, 'numFollowers': 5, 'confidence': (2.6, 2.0591260281974004), 'directionRating': (2.2, 1.6), 'x': 3, 'annotated': True, 'targetFound': (0.2, 0.4000000000000001), 'y': 2, 'valid': False, 'correct': False}
+with your back to the wall at Y turn right
+at the end of the aisle you should see grass carpet to your left
+walk down this
+at the end of the grass alley turn right
+you should see blue carpet
+walk to the alley (fourth) where there is gray carpet on the left alley
+
+WLH_Grid0_2_4_Dirs_1
+{'map': 'grid', 'efficiency': (0.35714275, 0.41032588467300907), 'implicit': False, 'numFollowers': 4, 'confidence': (3.5, 1.5), 'directionRating': (3.0, 1.0), 'x': 4, 'annotated': True, 'targetFound': (0.5, 0.5), 'y': 2, 'valid': False, 'correct': False}
+at Y place your back to the wall
+turn right
+walk to the corner
+at your left you should see grass
+this is X
+
+WLH_Grid0_2_7_Dirs_1
+{'map': 'grid', 'efficiency': (0.30249228571428566, 0.16282095052165585), 'implicit': 'partial', 'numFollowers': 7, 'confidence': (4.571428571428571, 1.498298354528788), 'directionRating': (3.857142857142857, 0.9897433186107869), 'x': 7, 'annotated': True, 'targetFound': (0.8571428571428571, 0.3499271061118826), 'y': 2, 'valid': False, 'correct': False}
+with your back to the wall move to the end of the rock floor alley
+to your left and right should be blue carpet
+turn left
+move past the stool to the alley before the sofa
+turn right you should see gray floor with the red brick on the next alley
+move to the where the red brick alley is on your right and left
+this is X
+
+WLH_Grid0_4_2_Dirs_1
+{'map': 'grid', 'efficiency': (1.0, 0.0), 'implicit': False, 'numFollowers': 5, 'confidence': (6.0, 0.0), 'directionRating': (5.8, 0.4), 'x': 2, 'annotated': True, 'targetFound': (1.0, 0.0), 'y': 4, 'valid': True, 'correct': True}
+at Y face the octagon carpet
+%% LEFT(3,5,0)
+%% LEFT(3,5,270)
+%% NULL(3,5,180)
+move to the end
+%% FORWARD(3,5,180)
+%% FORWARD(3,6,180)
+%% FORWARD(3,7,180)
+%% NULL(3,8,180)
+you should be in the same square as an easel and rock flooring to your right and left
+%% NULL(3,8,180)
+this is X
+%% X(3,8,180)
+%% NULL(3,8,180)
+
+WLH_Grid0_4_6_Dirs_1
+{'map': 'grid', 'efficiency': (0.0789475, 0.0789475), 'implicit': True, 'numFollowers': 4, 'confidence': (3.25, 1.479019945774904), 'directionRating': (2.75, 1.0897247358851685), 'x': 6, 'annotated': True, 'targetFound': (0.5, 0.5), 'y': 4, 'valid': True, 'correct': True}
+face the green carpeting
+%% LEFT(3,5,0)
+%% NULL(3,5,270)
+move to the wall and turn left
+%% FORWARD(3,5,270)
+%% FORWARD(2,5,270)
+%% FORWARD(1,5,270)
+%% LEFT(0,5,270)
+%% NULL(0,5,180)
+move along the blue carpeting until you get to wooden flooring
+%% FORWARD(0,5,180)
+%% FORWARD(0,6,180)
+%% NULL(0,7,180)
+turn left
+%% LEFT(0,7,180)
+%% NULL(0,7,90)
+move forward one alley
+%% FORWARD(0,7,90)
+%% NULL(1,7,90)
+you should see gray floor to your right
+%% FORWARD[I](1,7,90)
+%% NULL(2,7,90)
+
+WLH_Grid0_5_4_Dirs_1
+{'map': 'grid', 'efficiency': (0.625, 0.414578098794425), 'implicit': True, 'numFollowers': 4, 'confidence': (5.25, 0.82915619758885), 'directionRating': (5.0, 1.224744871391589), 'x': 4, 'annotated': True, 'targetFound': (0.75, 0.4330127018922193), 'y': 5, 'valid': True, 'correct': True}
+move to the hat rack and turn right
+%% LEFT[I](1,11,0)
+%% FORWARD(1,11,270)
+%% RIGHT(0,11,270)
+%% NULL(0,11,0)
+walk down to the end of the blue carpet
+%% FORWARD(0,11,0)
+%% FORWARD(0,10,0)
+%% FORWARD(0,9,0)
+%% FORWARD(0,8,0)
+%% FORWARD(0,7,0)
+%% FORWARD(0,6,0)
+%% NULL(0,5,0)
+turn right
+%% RIGHT(0,5,0)
+%% NULL(0,5,90)
+walk along the grass carpet to the wall
+%% FORWARD(0,5,90)
+%% FORWARD(1,5,90)
+%% FORWARD(2,5,90)
+%% NULL(3,5,90)
+to your right should be green octagon flooring
+%% NULL(3,5,90)
+this is X
+%% X(3,5,90)
+%% NULL(3,5,90)
+
+WLH_Grid0_5_7_Dirs_1
+{'map': 'grid', 'efficiency': (0.0, 0.0), 'implicit': False, 'numFollowers': 6, 'confidence': (2.6666666666666665, 1.3743685418725535), 'directionRating': (2.6666666666666665, 1.3743685418725535), 'x': 7, 'annotated': True, 'targetFound': (0.0, 0.0), 'y': 5, 'valid': False, 'correct': False}
+face the hat rack and move to it
+turn right
+move one alley past the chair and turn right
+move one alley
+to the left and right you should see flowered carpet
+this is X
+
+WLH_Grid0_7_1_Dirs_1
+{'map': 'grid', 'efficiency': (0.48, 0.24), 'implicit': False, 'numFollowers': 5, 'confidence': (5.0, 2.0), 'directionRating': (4.8, 1.9390719429665317), 'x': 1, 'annotated': True, 'targetFound': (0.8, 0.4), 'y': 7, 'valid': True, 'correct': True}
+facing the long aisle turn left
+%% LEFT(1,9,0)
+%% NULL(1,9,270)
+walk to the blue carpet and turn right
+%% FORWARD(1,9,270)
+%% RIGHT(0,9,270)
+%% NULL(0,9,0)
+walk down this aisle to the flowered carpet
+%% FORWARD(0,9,0)
+%% FORWARD(0,8,0)
+%% FORWARD(0,7,0)
+%% NULL(0,6,0)
+turn right
+%% RIGHT(0,6,0)
+%% NULL(0,6,90)
+there is an easel in front of you
+%% NULL(0,6,90)
+walk to it
+%% FORWARD(0,6,90)
+%% NULL(1,6,90)
+this is X
+%% X(1,6,90)
+%% NULL(1,6,90)
+
+WLH_Jelly0_1_4_Dirs_1
+{'map': 'jelly', 'efficiency': (0.56868675, 0.17362892905471572), 'implicit': False, 'numFollowers': 4, 'confidence': (4.5, 1.118033988749895), 'directionRating': (3.25, 1.479019945774904), 'x': 4, 'annotated': True, 'targetFound': (1.0, 0.0), 'y': 1, 'valid': True, 'correct': True}
+face and move to the chair
+%% LEFT(19,16,0)
+%% FORWARD(19,16,270)
+%% NULL(18,16,270)
+turn left and move to the next chair
+%% LEFT(18,16,270)
+%% FORWARD(18,16,180)
+%% NULL(18,17,180)
+face the stone floored alley and move to the end of it
+%% RIGHT(18,17,180)
+%% FORWARD(18,17,270)
+%% FORWARD(17,17,270)
+%% FORWARD(16,17,270)
+%% NULL(15,17,270)
+turn left and move down the octagon flooring to the end
+%% LEFT(15,17,270)
+%% FORWARD(15,17,180)
+%% FORWARD(15,18,180)
+%% FORWARD(15,19,180)
+%% NULL(15,20,180)
+this is X
+%% X(15,20,180)
+%% NULL(15,20,180)
+
+WLH_Jelly0_2_5_Dirs_1
+{'map': 'jelly', 'efficiency': (1.0, 0.0), 'implicit': False, 'numFollowers': 4, 'confidence': (5.75, 0.4330127018922193), 'directionRating': (5.5, 0.8660254037844386), 'x': 5, 'annotated': True, 'targetFound': (1.0, 0.0), 'y': 2, 'valid': True, 'correct': True}
+face and move towards the lamp
+%% LEFT(23,16,0)
+%% FORWARD(23,16,270)
+%% NULL(22,16,270)
+turn left
+%% LEFT(22,16,270)
+%% NULL(22,16,180)
+move forward
+%% FORWARD(22,16,180)
+%% NULL(22,17,180)
+turn right
+%% RIGHT(22,17,180)
+%% NULL(22,17,270)
+move one block towards the easel
+%% FORWARD(22,17,270)
+%% NULL(21,17,270)
+you see butterflies on the walls
+%% NULL(21,17,270)
+this is X
+%% X(21,17,270)
+%% NULL(21,17,270)
+
+WLH_Jelly0_2_6_Dirs_2
+{'map': 'jelly', 'efficiency': (0.6488887999999999, 0.38268710333869366), 'implicit': True, 'numFollowers': 5, 'confidence': (5.8, 0.39999999999999997), 'directionRating': (4.6, 0.48989794855663565), 'x': 6, 'annotated': True, 'targetFound': (0.8, 0.4), 'y': 2, 'valid': True, 'correct': True}
+face and move to the lamp
+%% LEFT(23,16,0)
+%% FORWARD(23,16,270)
+%% NULL(22,16,270)
+turn left
+%% LEFT(22,16,270)
+%% NULL(22,16,180)
+move forward
+%% FORWARD(22,16,180)
+%% NULL(22,17,180)
+turn right
+%% RIGHT(22,17,180)
+%% NULL(22,17,270)
+move to the easel and turn left
+%% FORWARD(22,17,270)
+%% FORWARD(21,17,270)
+%% LEFT(20,17,270)
+%% NULL(20,17,180)
+move forward and turn right
+%% FORWARD(20,17,180)
+%% RIGHT(20,18,180)
+%% NULL(20,18,270)
+move along the blue and turn left at the first alley
+%% FORWARD(20,18,270)
+%% LEFT(19,18,270)
+%% NULL(19,18,180)
+move towards the easel and turn right at the first alley
+%% FORWARD(19,18,180)
+%% RIGHT(19,19,180)
+%% NULL(19,19,270)
+the end of this alley is X
+%% X(19,19,270)
+%% FORWARD[I](19,19,270)
+%% NULL(18,19,270)
+
+WLH_Jelly0_3_1_Dirs_1
+{'map': 'jelly', 'efficiency': (0.75, 0.4330127018922193), 'implicit': True, 'numFollowers': 4, 'confidence': (4.75, 1.6393596310755), 'directionRating': (4.25, 1.479019945774904), 'x': 1, 'annotated': True, 'targetFound': (0.75, 0.4330127018922193), 'y': 3, 'valid': True, 'correct': True}
+move to the chair and turn left
+%% RIGHT[I](16,18,0)
+%% FORWARD(16,18,90)
+%% LEFT(17,18,90)
+%% NULL(17,18,0)
+move forward to the stool and turn right
+%% FORWARD(17,18,0)
+%% RIGHT(17,17,0)
+%% NULL(17,17,90)
+turn left at the chair and face another chair
+%% FORWARD[I](17,17,90)
+%% LEFT(18,17,90)
+%% NULL(18,17,0)
+turn right at this second chair and move along brick to the next alley
+%% FORWARD[I](18,17,0)
+%% RIGHT(18,16,0)
+%% FORWARD(18,16,90)
+%% NULL(19,16,90)
+to your left is grey flooring
+%% NULL(19,16,90)
+this is X
+%% X(19,16,90)
+%% NULL(19,16,90)
+
+WLH_Jelly0_3_2_Dirs_1
+{'map': 'jelly', 'efficiency': (0.7142857142857143, 0.45175395145262554), 'implicit': True, 'numFollowers': 7, 'confidence': (4.857142857142857, 1.7261494247992246), 'directionRating': (4.0, 1.5118578920369088), 'x': 2, 'annotated': True, 'targetFound': (0.7142857142857143, 0.45175395145262554), 'y': 3, 'valid': True, 'correct': True}
+face and move past the chair to the end of the blue flooring
+%% RIGHT(16,18,0)
+%% FORWARD(16,18,90)
+%% FORWARD(17,18,90)
+%% FORWARD(18,18,90)
+%% FORWARD(19,18,90)
+%% NULL(20,18,90)
+turn left and move to the easel
+%% LEFT(20,18,90)
+%% FORWARD(20,18,0)
+%% NULL(20,17,0)
+at the easel turn right and walk down the longer alley
+%% RIGHT(20,17,0)
+%% FORWARD(20,17,90)
+%% NULL(21,17,90)
+turn left
+%% FORWARD[I](21,17,90)
+%% LEFT(22,17,90)
+%% NULL(22,17,0)
+move past the lamp into the corner
+%% FORWARD[I](22,17,0)
+%% RIGHT[I](22,16,0)
+%% FORWARD(22,16,90)
+%% NULL(23,16,90)
+from X you should be able to look left and see a hatrack
+%% X(23,16,90)
+%% NULL(23,16,90)
+
+WLH_Jelly0_3_4_Dirs_1
+{'map': 'jelly', 'efficiency': (0.0, 0.0), 'implicit': True, 'numFollowers': 0, 'confidence': (0.0, 0.0), 'directionRating': (0.0, 0.0), 'x': 4, 'annotated': True, 'targetFound': (0.0, 0.0), 'y': 3, 'valid': True, 'correct': True}
+with your back to the wall at Y you see an alley in front and blue carpet to each side
+%% LEFT[I](16,18,0)
+%% LEFT[I](16,18,270)
+%% NULL(16,18,180)
+turn right and walk to the hat rack
+%% RIGHT(16,18,180)
+%% FORWARD(16,18,270)
+%% NULL(15,18,270)
+turn left
+%% LEFT(15,18,270)
+%% NULL(15,18,180)
+the carpet should have green octagons
+%% NULL(15,18,180)
+go to the end of this alley
+%% FORWARD(15,18,180)
+%% FORWARD(15,19,180)
+%% NULL(15,20,180)
+this is p-X
+%% X(15,20,180)
+%% NULL(15,20,180)
+
+WLH_Jelly0_3_5_Dirs_1
+{'map': 'jelly', 'efficiency': (0.0, 0.0), 'implicit': True, 'numFollowers': 0, 'confidence': (0.0, 0.0), 'directionRating': (0.0, 0.0), 'x': 5, 'annotated': True, 'targetFound': (0.0, 0.0), 'y': 3, 'valid': True, 'correct': True}
+with your back to the wall at Y turn left
+%% LEFT[I](16,18,0)
+%% LEFT[I](16,18,270)
+%% LEFT(16,18,180)
+%% NULL(16,18,90)
+go all the way to end of the blue carpet
+%% FORWARD(16,18,90)
+%% FORWARD(17,18,90)
+%% FORWARD(18,18,90)
+%% FORWARD(19,18,90)
+%% NULL(20,18,90)
+turn left
+%% LEFT(20,18,90)
+%% NULL(20,18,0)
+walk until you see an easel
+%% FORWARD(20,18,0)
+%% NULL(20,17,0)
+the left alley at the easel has the eiffel tower and the right has butterflies
+%% NULL(20,17,0)
+take the alley w/ butterflies on the wall and stop when the butterflies are not on the wall
+%% RIGHT(20,17,0)
+%% FORWARD(20,17,90)
+%% NULL(21,17,90)
+you should be two blocks in front of the corner
+%% NULL(21,17,90)
+
+WLH_Jelly0_3_7_Dirs_1
+{'map': 'jelly', 'efficiency': (0.6, 0.48989794855663565), 'implicit': False, 'numFollowers': 5, 'confidence': (4.0, 2.449489742783178), 'directionRating': (5.4, 0.8), 'x': 7, 'annotated': True, 'targetFound': (0.6, 0.48989794855663565), 'y': 3, 'valid': True, 'correct': True}
+face and move to the chair
+%% RIGHT(16,18,0)
+%% FORWARD(16,18,90)
+%% NULL(17,18,90)
+turn left and move to the stool
+%% LEFT(17,18,90)
+%% FORWARD(17,18,0)
+%% NULL(17,17,0)
+this is X
+%% X(17,17,0)
+%% NULL(17,17,0)
+
+WLH_Jelly0_4_1_Dirs_1
+{'map': 'jelly', 'efficiency': (0.7999999999999999, 0.3651483716701107), 'implicit': False, 'numFollowers': 6, 'confidence': (5.666666666666667, 0.7453559924999298), 'directionRating': (5.166666666666667, 0.6871842709362768), 'x': 1, 'annotated': True, 'targetFound': (0.8333333333333334, 0.37267799624996495), 'y': 4, 'valid': True, 'correct': True}
+move to the other end of the alley and turn right
+%% FORWARD(15,20,0)
+%% FORWARD(15,19,0)
+%% FORWARD(15,18,0)
+%% RIGHT(15,17,0)
+%% NULL(15,17,90)
+move along the stone floor to the sofa chair
+%% FORWARD(15,17,90)
+%% FORWARD(16,17,90)
+%% FORWARD(17,17,90)
+%% NULL(18,17,90)
+turn left
+%% LEFT(18,17,90)
+%% NULL(18,17,0)
+move to this sofa chair and turn right
+%% FORWARD(18,17,0)
+%% RIGHT(18,16,0)
+%% NULL(18,16,90)
+move to the next alley
+%% FORWARD(18,16,90)
+%% NULL(19,16,90)
+to your left is grey flooring and in front of you is brick
+%% NULL(19,16,90)
+this is X
+%% X(19,16,90)
+%% NULL(19,16,90)
+
+WLH_Jelly0_4_3_Dirs_1
+{'numFollowers': 7, 'confidence': (5.857142857142857, 0.3499271061118826), 'directionRating': (5.571428571428571, 0.49487165930539345), 'x': 3, 'annotated': True, 'map': 'jelly', 'targetFound': (0.7142857142857143, 0.45175395145262565), 'y': 4, 'correct': True, 'efficiency': (0.7142857142857143, 0.45175395145262565), 'valid': True, 'implicit': False}
+move forward to the hatrack and turn right
+%% FORWARD(15,20,0)
+%% FORWARD(15,19,0)
+%% RIGHT(15,18,0)
+%% NULL(15,18,90)
+move to the next alley
+%% FORWARD(15,18,90)
+%% NULL(16,18,90)
+to your right is grey flooring and in front is a chair
+%% NULL(16,18,90)
+this is X
+%% X(16,18,90)
+%% NULL(16,18,90)
+
+WLH_Jelly0_4_7_Dirs_1
+{'numFollowers': 0, 'confidence': (0.0, 0.0), 'directionRating': (0.0, 0.0), 'x': 7, 'annotated': True, 'map': 'jelly', 'targetFound': (0.0, 0.0), 'y': 4, 'correct': True, 'efficiency': (0.0, 0.0), 'valid': True, 'implicit': True}
+from Y walk as far as you can
+%% FORWARD(15,20,0)
+%% FORWARD(15,19,0)
+%% FORWARD(15,18,0)
+%% NULL(15,17,0)
+turn right
+%% RIGHT(15,17,0)
+%% NULL(15,17,90)
+the chair about halfway down is on p-X
+%% X(15,17,90)
+%% FORWARD[I](15,17,90)
+%% FORWARD[I](16,17,90)
+%% NULL(17,17,90)
+
+WLH_Jelly0_5_3_Dirs_1
+{'numFollowers': 6, 'confidence': (5.166666666666667, 1.4624940645653537), 'directionRating': (5.5, 0.5), 'x': 3, 'annotated': True, 'map': 'jelly', 'targetFound': (1.0, 0.0), 'y': 5, 'correct': True, 'efficiency': (1.0, 0.0), 'valid': True, 'implicit': True}
+face and move to the easel
+%% LEFT(21,17,0)
+%% FORWARD(21,17,270)
+%% NULL(20,17,270)
+turn left
+%% LEFT(20,17,270)
+%% NULL(20,17,180)
+the right side alley should have blue flooring
+%% NULL(20,17,180)
+move to it and down the alley
+%% FORWARD(20,17,180)
+%% RIGHT[I](20,18,180)
+%% FORWARD(20,18,270)
+%% NULL(19,18,270)
+move one alley past the chair
+%% FORWARD(19,18,270)
+%% FORWARD(18,18,270)
+%% FORWARD(17,18,270)
+%% NULL(16,18,270)
+in front of you is a hatrack and to your left is grey flooring
+%% NULL(16,18,270)
+
+WLH_Jelly0_5_6_Dirs_1
+{'numFollowers': 0, 'confidence': (0.0, 0.0), 'directionRating': (0.0, 0.0), 'x': 6, 'annotated': True, 'map': 'jelly', 'targetFound': (0.0, 0.0), 'y': 5, 'correct': True, 'efficiency': (0.0, 0.0), 'valid': True, 'implicit': True}
+start facing the easel
+%% LEFT[I](21,17,0)
+%% NULL(21,17,270)
+walk forward and turn left at the easel
+%% FORWARD(21,17,270)
+%% LEFT(20,17,270)
+%% NULL(20,17,180)
+there should be blue carpet on the first alley
+%% NULL(20,17,180)
+walk to that and turn right
+%% FORWARD(20,17,180)
+%% RIGHT(20,18,180)
+%% NULL(20,18,270)
+you should see an alley to your left
+%% NULL(20,18,270)
+take it
+%% FORWARD(20,18,270)
+%% LEFT(19,18,270)
+%% NULL(19,18,180)
+the carpet has roses
+%% NULL(19,18,180)
+go down the first alley to your right and stop at the end
+%% FORWARD[I](19,18,180)
+%% RIGHT(19,19,180)
+%% FORWARD(19,19,270)
+%% NULL(18,19,270)
+this is p-X
+%% X(18,19,270)
+%% NULL(18,19,270)
+
+WLH_Jelly0_5_6_Dirs_2
+{'numFollowers': 5, 'confidence': (5.0, 2.0), 'directionRating': (4.8, 0.4), 'x': 6, 'annotated': True, 'map': 'jelly', 'targetFound': (0.6, 0.48989794855663565), 'y': 5, 'correct': True, 'efficiency': (0.5428572, 0.45535366295590507), 'valid': True, 'implicit': True}
+face and move to the easel
+%% LEFT(21,17,0)
+%% FORWARD(21,17,270)
+%% NULL(20,17,270)
+turn left and move down the aisle with blue flooring
+%% LEFT(20,17,270)
+%% FORWARD[I](20,17,180)
+%% RIGHT[I](20,18,180)
+%% FORWARD(20,18,270)
+%% NULL(19,18,270)
+turn left at the first alley
+%% LEFT(19,18,270)
+%% NULL(19,18,180)
+it has flowered carpet
+%% NULL(19,18,180)
+turn right from the flowered carpet to face a dead end w/ grey floor
+%% FORWARD[I](19,18,180)
+%% RIGHT(19,19,180)
+%% NULL(19,19,270)
+move to the dead end
+%% FORWARD(19,19,270)
+%% NULL(18,19,270)
+this is X
+%% X(18,19,270)
+%% NULL(18,19,270)
+
+WLH_Jelly0_5_7_Dirs_1
+{'numFollowers': 4, 'confidence': (5.25, 1.299038105676658), 'directionRating': (5.25, 0.82915619758885), 'x': 7, 'annotated': True, 'map': 'jelly', 'targetFound': (1.0, 0.0), 'y': 5, 'correct': True, 'efficiency': (1.0, 0.0), 'valid': True, 'implicit': True}
+move to the easel and turn left, the side alley has blue floor
+%% LEFT[I](21,17,0)
+%% FORWARD(21,17,270)
+%% LEFT(20,17,270)
+%% NULL(20,17,180)
+move onto this and stop at the chair
+%% FORWARD(20,17,180)
+%% RIGHT[I](20,18,180)
+%% FORWARD(20,18,270)
+%% FORWARD(19,18,270)
+%% FORWARD(18,18,270)
+%% NULL(17,18,270)
+turn right
+%% RIGHT(17,18,270)
+%% NULL(17,18,0)
+move to the stool
+%% FORWARD(17,18,0)
+%% NULL(17,17,0)
+the side alley has stone flooring
+%% NULL(17,17,0)
+
+WLH_Jelly0_6_3_Dirs_1
+{'numFollowers': 5, 'confidence': (5.2, 1.1661903789690602), 'directionRating': (4.8, 1.1661903789690602), 'x': 3, 'annotated': True, 'map': 'jelly', 'targetFound': (1.0, 0.0), 'y': 6, 'correct': True, 'efficiency': (0.9428572, 0.11428560000000001), 'valid': True, 'implicit': True}
+move to the flowered carpet and turn left
+%% RIGHT[I](18,19,0)
+%% FORWARD(18,19,90)
+%% LEFT(19,19,90)
+%% NULL(19,19,0)
+move to the blue carpet and turn left
+%% FORWARD(19,19,0)
+%% LEFT(19,18,0)
+%% NULL(19,18,270)
+move along the blue one alley past the chair
+%% FORWARD(19,18,270)
+%% FORWARD(18,18,270)
+%% FORWARD(17,18,270)
+%% NULL(16,18,270)
+in front is a hatrack and left is grey flooring
+%% NULL(16,18,270)
+
+WLH_Jelly0_7_5_Dirs_1
+{'numFollowers': 0, 'confidence': (0.0, 0.0), 'directionRating': (0.0, 0.0), 'x': 5, 'annotated': True, 'map': 'jelly', 'targetFound': (0.0, 0.0), 'y': 7, 'correct': False, 'efficiency': (0.0, 0.0), 'valid': False, 'implicit': True}
+with your back to the wall turn left
+walk to the chair and turn left
+follow the alley
+you should see an easel after you turn the corner
+walk toward the easel and stop on the block where there are no butterflies on the sides
+you should be two blocks in front of the easel
+this is p X
+
+WLH_L0_1_3_Dirs_1
+{'numFollowers': 5, 'confidence': (1.4, 0.4898979485566356), 'directionRating': (2.0, 0.6324555320336759), 'x': 3, 'annotated': True, 'map': 'l', 'targetFound': (0.0, 0.0), 'y': 1, 'correct': False, 'efficiency': (0.0, 0.0), 'valid': False, 'implicit': 'partial'}
+with your back to the wall turn left
+move forward to the next block and turn right
+move forward along the brick floor until you get to
+
+WLH_L0_2_1_Dirs_1
+{'numFollowers': 4, 'confidence': (1.0, 0.0), 'directionRating': (1.25, 0.4330127018922193), 'x': 1, 'annotated': True, 'map': 'l', 'targetFound': (0.0, 0.0), 'y': 2, 'correct': False, 'efficiency': (0.0, 0.0), 'valid': False, 'implicit': 'partial'}
+with your back to the easel turn left and move forward one block
+turn right
+you are facing wooden flooring
+move along this til you get to the side alley that has gray floor
+this is X
+
+WLH_L0_2_4_Dirs_1
+{'numFollowers': 6, 'confidence': (5.0, 0.816496580927726), 'directionRating': (3.1666666666666665, 1.3437096247164249), 'x': 4, 'annotated': True, 'map': 'l', 'targetFound': (0.6666666666666666, 0.4714045207910317), 'y': 2, 'correct': False, 'efficiency': (0.4010026666666667, 0.3253323352894527), 'valid': False, 'implicit': 'partial'}
+with your back to the easel walk forward two blocks until you get to the blue carpet
+turn right
+move forward one block until you get to the flower carpeted side alley
+this is X
+
+WLH_L0_3_7_Dirs_1
+{'numFollowers': 5, 'confidence': (5.4, 1.2), 'directionRating': (5.0, 0.8944271909999159), 'x': 7, 'annotated': True, 'map': 'l', 'targetFound': (0.8, 0.4000000000000001), 'y': 3, 'correct': True, 'efficiency': (0.7, 0.4), 'valid': True, 'implicit': True}
+move to the stool
+%% LEFT[I](19,23,0)
+%% LEFT[I](19,23,270)
+%% FORWARD(19,23,180)
+%% NULL(19,24,180)
+turn and move past the chair to the octagon carpet
+%% LEFT(19,24,180)
+%% FORWARD(19,24,90)
+%% FORWARD(20,24,90)
+%% NULL(21,24,90)
+move along the octagon carpet to the wall
+%% LEFT[I](21,24,90)
+%% FORWARD(21,24,0)
+%% FORWARD(21,23,0)
+%% FORWARD(21,22,0)
+%% NULL(21,21,0)
+to your left and right is flowered carpet
+%% NULL(21,21,0)
+this is X
+%% X(21,21,0)
+%% NULL(21,21,0)
+
+WLH_L0_4_2_Dirs_1
+{'numFollowers': 4, 'confidence': (5.75, 0.4330127018922193), 'directionRating': (3.5, 0.8660254037844386), 'x': 2, 'annotated': True, 'map': 'l', 'targetFound': (1.0, 0.0), 'y': 4, 'correct': True, 'efficiency': (0.66361425, 0.2265171990957585), 'valid': True, 'implicit': True}
+with your back to the wall move forward to the hatrack
+%% LEFT[I](24,21,0)
+%% FORWARD(24,21,270)
+%% NULL(23,21,270)
+turn left
+%% LEFT(23,21,270)
+%% NULL(23,21,180)
+move along the brick alley til you reach the alley with the stone floor
+%% FORWARD(23,21,180)
+%% FORWARD(23,22,180)
+%% NULL(23,23,180)
+turn left
+%% LEFT(23,23,180)
+%% NULL(23,23,90)
+move along the stone floor till you reach the alley with green octagon carpet
+%% LEFT[I](23,23,90)
+%% LEFT[I](23,23,0)
+%% FORWARD(23,23,270)
+%% FORWARD(22,23,270)
+%% NULL(21,23,270)
+there should be an easel one block in front of you
+%% NULL(21,23,270)
+this is X
+%% X(21,23,270)
+%% NULL(21,23,270)
+
+WLH_L0_4_3_Dirs_1
+{'numFollowers': 4, 'confidence': (3.5, 2.5), 'directionRating': (4.5, 1.5), 'x': 3, 'annotated': True, 'map': 'l', 'targetFound': (0.5, 0.5), 'y': 4, 'correct': False, 'efficiency': (0.409091, 0.409091), 'valid': False, 'implicit': 'partial'}
+with your back to the wall move along the flowered carpet one block
+turn left at the hatrack and move to the end of the aisle
+turn left at the gray stone carpet and move to the alley with octagon flooring on either side
+you are looking at an easel
+turn left
+move forward and turn right at the corner
+move past the chair to the stool
+turn right and go to the dead end
+this is X
+
+WLH_L0_4_7_Dirs_1
+{'numFollowers': 4, 'confidence': (5.25, 0.82915619758885), 'directionRating': (4.75, 1.299038105676658), 'x': 7, 'annotated': True, 'map': 'l', 'targetFound': (0.75, 0.4330127018922193), 'y': 4, 'efficiency': (0.56818175, 0.4424528258460867), 'implicit': True, 'valid': True, 'correct': True}
+with your back to the wall move forward past the hatrack
+%% LEFT[I](24,21,0)
+%% FORWARD(24,21,270)
+%% FORWARD(23,21,270)
+%% NULL(22,21,270)
+stop at the alley where there is green octagon floor to your left
+%% FORWARD[I](22,21,270)
+%% NULL(21,21,270)
+this is X
+%% X(21,21,270)
+%% NULL(21,21,270)
+
+WLH_L0_5_1_Dirs_1
+{'numFollowers': 5, 'confidence': (5.6, 0.8), 'directionRating': (5.0, 0.6324555320336759), 'x': 1, 'annotated': True, 'map': 'l', 'targetFound': (0.6, 0.48989794855663565), 'y': 5, 'correct': True, 'efficiency': (0.5, 0.4472135954999579), 'valid': True, 'implicit': True}
+with your back to the wall turn left
+%% RIGHT[I](23,18,0)
+%% LEFT(23,18,90)
+%% NULL(23,18,0)
+move to the next alley and turn left
+%% FORWARD(23,18,0)
+%% LEFT(23,17,0)
+%% NULL(23,17,270)
+move along the wooden floor to the chair
+%% FORWARD(23,17,270)
+%% NULL(22,17,270)
+in front of you is a hatrack
+%% NULL(22,17,270)
+this is X
+%% X(22,17,270)
+%% NULL(22,17,270)
+
+WLH_L0_5_2_Dirs_1
+{'numFollowers': 4, 'confidence': (4.75, 2.165063509461097), 'directionRating': (5.0, 1.224744871391589), 'x': 2, 'annotated': True, 'map': 'l', 'targetFound': (0.5, 0.5), 'y': 5, 'correct': True, 'efficiency': (0.5, 0.5), 'valid': True, 'implicit': True}
+with your back to the wall turn right
+%% RIGHT[I](23,18,0)
+%% RIGHT(23,18,90)
+%% NULL(23,18,180)
+move forward past the lamp and the hatrack until you get to the stone floor
+%% FORWARD(23,18,180)
+%% FORWARD(23,19,180)
+%% FORWARD(23,20,180)
+%% FORWARD(23,21,180)
+%% FORWARD(23,22,180)
+%% NULL(23,23,180)
+turn right
+%% RIGHT(23,23,180)
+%% NULL(23,23,270)
+move along the stone floor until you get to the octagon side alleys
+%% FORWARD(23,23,270)
+%% FORWARD(22,23,270)
+%% NULL(21,23,270)
+you are one block away from an easel
+%% NULL(21,23,270)
+this is X
+%% X(21,23,270)
+%% NULL(21,23,270)
+
+WLH_L0_5_4_Dirs_1
+{'numFollowers': 5, 'confidence': (5.2, 1.1661903789690602), 'directionRating': (5.2, 1.1661903789690602), 'x': 4, 'annotated': True, 'map': 'l', 'targetFound': (1.0, 0.0), 'y': 5, 'correct': True, 'efficiency': (1.0, 0.0), 'valid': True, 'implicit': True}
+with your back to the wall turn right
+%% RIGHT[I](23,18,0)
+%% RIGHT(23,18,90)
+%% NULL(23,18,180)
+move along the brick past the lamp to the hatrack
+%% FORWARD(23,18,180)
+%% FORWARD(23,19,180)
+%% FORWARD(23,20,180)
+%% NULL(23,21,180)
+turn left
+%% LEFT(23,21,180)
+%% NULL(23,21,90)
+move along the flowers to the blue carpeted side alleys
+%% FORWARD(23,21,90)
+%% NULL(24,21,90)
+this is X
+%% X(24,21,90)
+%% NULL(24,21,90)
+
+WLH_L0_6_5_Dirs_1
+{'numFollowers': 5, 'confidence': (4.0, 1.8973665961010275), 'directionRating': (3.2, 1.1661903789690602), 'x': 5, 'annotated': True, 'map': 'l', 'targetFound': (0.0, 0.0), 'y': 6, 'correct': False, 'efficiency': (0.0, 0.0), 'valid': False, 'implicit': False}
+at Y put your back to the easel
+walk forward one alley and turn left
+the carpet should be flowers
+move along the flowers past the hatrack and one alley past the lamp
+the alley to the right has grey floor
+this is X
+

@@ -1,0 +1,9 @@
+All the data used for:
+Weakly Supervised Learning of Semantic Parsers for Mapping Instructions to Actions
+Yoav Artzi and Luke Zettlemoyer
+In Transactions of the Association for Computational Linguistics (TACL), 2013.
+
+Two corpora where used: 
+1. Oracle - a cleaned up version of the SAIL corpus from Chen and Mooney 2011. The above TACL paper discusses the cleanup procedure.
+2. SAIL - a segmented version of MacMahon et al. 2006, which was created by Chen and Mooney 2011.
+

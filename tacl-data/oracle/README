@@ -1,0 +1,7 @@
+A cleaned up version of the original Chen and Mooney 2011 corpus. See Artzi and Zettlemoyer 2013 for details of the cleanup process.
+
+Content:
+dev/
+	Cross validation over a random split of the training data in 'test'. 
+test/
+	Training-testing split with help-out data.

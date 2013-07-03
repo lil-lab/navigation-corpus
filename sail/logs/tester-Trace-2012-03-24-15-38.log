@@ -1,0 +1,98 @@
+03-24 15:38:14 INFO     frame2action [Turn_v=[MEAN='turn_V_1'], Purpose=[Purpose_p=[MEAN='SO THAT'], S=[Side=[Dir=[MEAN='back_ADV_1,2'], Side_n=[MEAN='side_N_1']], Orient_v=[MEAN="faces_V_('face', [5])"], Obj=[Det=[MEAN='THE'], Obj_n=[MEAN='easel_N_1']]]]]
+03-24 15:38:14 INFO     <0> Turn(face=Face(faced=Verify(desc=[Thing(dist='0:', value=Easel, type='Obj', side=[Back])])))
+03-24 15:38:15 INFO     frame2action [Travel_v=[MEAN='walk_V_1'], Dir=[MEAN='forward_ADV_1'], Dist=[Count=[MEAN='four_ADJ_1'], Dist_unit=[MEAN="times_N_('time', [1])"]]]
+03-24 15:38:15 INFO     <0> Travel(distance=[Distance(count=4)])
+03-24 15:38:15 INFO     frame2action [Travel_v=[MEAN='walk_V_1'], Dir=[MEAN='forward_ADV_1'], Dist=[Count=[MEAN='four_ADJ_1'], Dist_unit=[MEAN="times_N_('time', [1])"]]]
+03-24 15:38:15 INFO     <0> Travel(distance=[Distance(count=4)])
+03-24 15:38:16 INFO     frame2action [Travel_v=[MEAN='walk_V_1'], Dir=[MEAN='forward_ADV_1'], Dist=[Count=[MEAN='four_ADJ_1'], Dist_unit=[MEAN="times_N_('time', [1])"]]]
+03-24 15:38:16 INFO     <0> Travel(distance=[Distance(count=4)])
+03-24 15:38:16 INFO     frame2action [Travel_v=[MEAN='walk_V_1'], Dir=[MEAN='forward_ADV_1'], Dist=[Count=[MEAN='four_ADJ_1'], Dist_unit=[MEAN="times_N_('time', [1])"]]]
+03-24 15:38:16 INFO     <0> Travel(distance=[Distance(count=4)])
+03-24 15:38:17 INFO     frame2action [Travel_v=[MEAN='walk_V_1'], Dir=[MEAN='forward_ADV_1'], Dist=[Count=[MEAN='four_ADJ_1'], Dist_unit=[MEAN="times_N_('time', [1])"]]]
+03-24 15:38:17 INFO     <0> Travel(distance=[Distance(count=4)])
+03-24 15:38:17 INFO     frame2action [Travel_v=[MEAN='walk_V_1'], Dir=[MEAN='forward_ADV_1'], Dist=[Count=[MEAN='four_ADJ_1'], Dist_unit=[MEAN="times_N_('time', [1])"]]]
+03-24 15:38:17 INFO     <0> Travel(distance=[Distance(count=4)])
+03-24 15:38:19 INFO     frame2action [Turn_v=[MEAN='turn_V_1'], Purpose=[Purpose_p=[MEAN='SO THAT'], S=[Obj=[Det=[MEAN='THE'], Obj_n=[MEAN='wall_N_1']], Is_v=[MEAN="is_V_('be', [1, 2, 3, 4, 5])"], Side=[Side=[Side_p=[MEAN='ON'], Dir=[MEAN='left_ADV_1']], Cc=[MEAN='AND'], Side_2=[Side_p=[MEAN='TO'], Dir=[MEAN='back_ADV_1,2']]]]]]
+03-24 15:38:19 INFO     <0> Turn(face=Face(faced=Verify(desc=[Thing(dist='0', value=Wall, type='Obj', side=[Back, Left])])))
+03-24 15:38:21 INFO     frame2action [Travel_v=[MEAN='walk_V_1'], Dir=[MEAN='forward_ADV_1'], Dist=[Count=[MEAN='twice_ADV_1']], ,=[MEAN=','], Cc=[MEAN='OR'], Until=[Until_p=[MEAN='UNTIL'], Arrive=[Agent=[MEAN='YOU'], Arrive_v=[MEAN='reach_V_1'], Path=[Det=[MEAN='THE'], Appear=[MEAN='blue_ADJ_1'], Path_n=[MEAN='hallway_N_1']]]]]
+03-24 15:38:21 INFO     <0> Travel(distance=[Distance(count=2)], until=Verify(desc=[Thing(dist='0', Appear=[BlueTile], value=Path, type='Path', side=[At])]))
+03-24 15:38:22 INFO     frame2action [Turn_v=[MEAN='turn_V_1'], Purpose=[Purpose_p=[MEAN='TO'], S=[Loc=[Loc_p=[MEAN='WHERE'], S=[Obj=[Det=[MEAN='THE'], Obj_n=[MEAN='wall_N_1']], Is_v=[MEAN="is_V_('be', [1, 2, 3, 4, 5])"], Side=[Side_p=[MEAN='ON'], Dir=[MEAN='left_ADV_1'], Side_n=[MEAN='side_N_1']]]]]]]
+03-24 15:38:22 INFO     <0> Turn(face=Face(faced=Verify(desc=[Thing(dist='0', value=Wall, type='Obj', side=[Left])])))
+03-24 15:38:24 INFO     frame2action [Turn_v=[MEAN='turn_V_1'], Purpose=[Purpose_p=[MEAN='SO THAT'], S=[Obj=[Det=[MEAN='THE'], Obj_n=[MEAN="walls_N_('wall', [1])"]], Is_v=[MEAN="are_V_('be', [1, 2, 3, 4, 5])"], Side=[Side_p=[MEAN='ON'], Dir=[Det=[MEAN='YOUR'], Dir=[MEAN='right_ADV_4'], Cc=[MEAN='AND'], Dir_3=[MEAN='back_ADV_1,2']]]]]]
+03-24 15:38:24 INFO     <0> Turn(face=Face(faced=Verify(desc=[Thing(dist='0', value=Wall, type='Obj', side=[Back, Right])])))
+03-24 15:38:25 INFO     frame2action [Travel_v=[MEAN='walk_V_1'], Dir=[MEAN='forward_ADV_1'], Dist=[Count=[MEAN='five_ADJ_1'], Dist_unit=[MEAN="times_N_('time', [1])"]]]
+03-24 15:38:25 INFO     <0> Travel(distance=[Distance(count=5)])
+03-24 15:38:25 INFO     frame2action [Travel_v=[MEAN='walk_V_1'], Dir=[MEAN='forward_ADV_1'], Dist=[Count=[MEAN='five_ADJ_1'], Dist_unit=[MEAN="times_N_('time', [1])"]]]
+03-24 15:38:25 INFO     <0> Travel(distance=[Distance(count=5)])
+03-24 15:38:26 INFO     frame2action [Travel_v=[MEAN='walk_V_1'], Dir=[MEAN='forward_ADV_1'], Dist=[Count=[MEAN='six_ADJ_1'], Dist_unit=[MEAN="times_N_('time', [1])"]]]
+03-24 15:38:26 INFO     <0> Travel(distance=[Distance(count=6)])
+03-24 15:38:26 INFO     frame2action [Travel_v=[MEAN='walk_V_1'], Dir=[MEAN='forward_ADV_1'], Dist=[Count=[MEAN='six_ADJ_1'], Dist_unit=[MEAN="times_N_('time', [1])"]]]
+03-24 15:38:26 INFO     <0> Travel(distance=[Distance(count=6)])
+03-24 15:38:27 INFO     frame2action [Travel_v=[MEAN='walk_V_1'], Dir=[MEAN='forward_ADV_1'], Dist=[Count=[MEAN='twice_ADV_1']]]
+03-24 15:38:27 INFO     <0> Travel(distance=[Distance(count=2)])
+03-24 15:38:27 INFO     frame2action [Travel_v=[MEAN='walk_V_1'], Dir=[MEAN='forward_ADV_1'], Dist=[Count=[MEAN='twice_ADV_1']]]
+03-24 15:38:27 INFO     <0> Travel(distance=[Distance(count=2)])
+03-24 15:38:27 INFO     frame2action [Travel_v=[MEAN='walk_V_1'], Dir=[MEAN='forward_ADV_1'], Dist=[Count=[MEAN='twice_ADV_1']]]
+03-24 15:38:27 INFO     <0> Travel(distance=[Distance(count=2)])
+03-24 15:38:28 INFO     frame2action [Travel_v=[MEAN='walk_V_1'], Dir=[MEAN='forward_ADV_1'], Dist=[Count=[MEAN='twice_ADV_1']]]
+03-24 15:38:28 INFO     <0> Travel(distance=[Distance(count=2)])
+03-24 15:38:28 INFO     frame2action [Travel_v=[MEAN='walk_V_1'], Dir=[MEAN='forward_ADV_1'], Dist=[Count=[MEAN='twice_ADV_1']]]
+03-24 15:38:28 INFO     <0> Travel(distance=[Distance(count=2)])
+03-24 15:38:29 INFO     frame2action [Travel_v=[MEAN='walk_V_1'], Dir=[MEAN='forward_ADV_1'], Dist=[Count=[MEAN='twice_ADV_1']]]
+03-24 15:38:29 INFO     <0> Travel(distance=[Distance(count=2)])
+03-24 15:38:29 INFO     frame2action [Travel_v=[MEAN='walk_V_1'], Dir=[MEAN='forward_ADV_1'], Dist=[Count=[MEAN='twice_ADV_1']]]
+03-24 15:38:29 INFO     <0> Travel(distance=[Distance(count=2)])
+03-24 15:38:30 INFO     frame2action [Travel_v=[MEAN='walk_V_1'], Dir=[MEAN='forward_ADV_1'], Dist=[Count=[MEAN='twice_ADV_1']]]
+03-24 15:38:30 INFO     <0> Travel(distance=[Distance(count=2)])
+03-24 15:38:30 INFO     frame2action [Travel_v=[MEAN='walk_V_1'], Dir=[MEAN='forward_ADV_1'], Dist=[Count=[MEAN='twice_ADV_1']]]
+03-24 15:38:30 INFO     <0> Travel(distance=[Distance(count=2)])
+03-24 15:38:31 INFO     frame2action [Travel_v=[MEAN='walk_V_1'], Dir=[MEAN='forward_ADV_1'], Dist=[Count=[MEAN='twice_ADV_1']]]
+03-24 15:38:31 INFO     <0> Travel(distance=[Distance(count=2)])
+03-24 15:38:31 INFO     frame2action [Travel_v=[MEAN='walk_V_1'], Dir=[MEAN='forward_ADV_1'], Dist=[Count=[MEAN='twice_ADV_1']]]
+03-24 15:38:31 INFO     <0> Travel(distance=[Distance(count=2)])
+03-24 15:38:31 INFO     frame2action [Travel_v=[MEAN='walk_V_1'], Dir=[MEAN='forward_ADV_1'], Dist=[Count=[MEAN='twice_ADV_1']]]
+03-24 15:38:31 INFO     <0> Travel(distance=[Distance(count=2)])
+03-24 15:38:32 INFO     frame2action [Travel_v=[MEAN='walk_V_1'], Dir=[MEAN='forward_ADV_1'], Dist=[Count=[MEAN='twice_ADV_1']]]
+03-24 15:38:32 INFO     <0> Travel(distance=[Distance(count=2)])
+03-24 15:38:32 INFO     frame2action [Travel_v=[MEAN='walk_V_1'], Dir=[MEAN='forward_ADV_1'], Dist=[Count=[MEAN='twice_ADV_1']]]
+03-24 15:38:32 INFO     <0> Travel(distance=[Distance(count=2)])
+03-24 15:38:33 INFO     frame2action [Travel_v=[MEAN='walk_V_1'], Dir=[MEAN='forward_ADV_1'], Dist=[Count=[MEAN='twice_ADV_1']]]
+03-24 15:38:33 INFO     <0> Travel(distance=[Distance(count=2)])
+03-24 15:38:33 INFO     frame2action [Travel_v=[MEAN='walk_V_1'], Dir=[MEAN='forward_ADV_1'], Dist=[Count=[MEAN='twice_ADV_1']]]
+03-24 15:38:33 INFO     <0> Travel(distance=[Distance(count=2)])
+03-24 15:38:34 INFO     frame2action [Travel_v=[MEAN='walk_V_1'], Dir=[MEAN='forward_ADV_1'], Dist=[Count=[MEAN='twice_ADV_1']]]
+03-24 15:38:34 INFO     <0> Travel(distance=[Distance(count=2)])
+03-24 15:38:34 INFO     frame2action [Travel_v=[MEAN='walk_V_1'], Dir=[MEAN='forward_ADV_1'], Dist=[Count=[MEAN='twice_ADV_1']]]
+03-24 15:38:34 INFO     <0> Travel(distance=[Distance(count=2)])
+03-24 15:38:35 INFO     frame2action [Travel_v=[MEAN='walk_V_1'], Dir=[MEAN='forward_ADV_1'], Dist=[Count=[MEAN='twice_ADV_1']]]
+03-24 15:38:35 INFO     <0> Travel(distance=[Distance(count=2)])
+03-24 15:38:35 INFO     frame2action [Travel_v=[MEAN='walk_V_1'], Dir=[MEAN='forward_ADV_1'], Dist=[Count=[MEAN='twice_ADV_1']]]
+03-24 15:38:35 INFO     <0> Travel(distance=[Distance(count=2)])
+03-24 15:38:35 INFO     frame2action [Travel_v=[MEAN='walk_V_1'], Dir=[MEAN='forward_ADV_1'], Dist=[Count=[MEAN='twice_ADV_1']]]
+03-24 15:38:35 INFO     <0> Travel(distance=[Distance(count=2)])
+03-24 15:38:36 INFO     frame2action [Turn_v=[MEAN='turn_V_1'], Dir=[MEAN='right_ADV_4']]
+03-24 15:38:36 INFO     <0> Turn(direction=[Right])
+03-24 15:38:36 INFO     frame2action [Travel_v=[MEAN='walk_V_1'], Dir=[MEAN='forward_ADV_1'], Dist=[Count=[MEAN='once_ADV_1,2']]]
+03-24 15:38:36 INFO     <1> Travel(distance=[Distance(count=1)])
+03-24 15:38:37 INFO     frame2action [Turn_v=[MEAN='turn_V_1'], Dir=[MEAN='right_ADV_4']]
+03-24 15:38:37 INFO     <0> Turn(direction=[Right])
+03-24 15:38:37 INFO     frame2action [Travel_v=[MEAN='walk_V_1'], Dir=[MEAN='forward_ADV_1'], Dist=[Count=[MEAN='once_ADV_1,2']]]
+03-24 15:38:37 INFO     <1> Travel(distance=[Distance(count=1)])
+03-24 15:38:37 INFO     frame2action [Turn_v=[MEAN='turn_V_1'], Dir=[MEAN='right_ADV_4']]
+03-24 15:38:37 INFO     <0> Turn(direction=[Right])
+03-24 15:38:37 INFO     frame2action [Travel_v=[MEAN='walk_V_1'], Dir=[MEAN='forward_ADV_1'], Dist=[Count=[MEAN='once_ADV_1,2']]]
+03-24 15:38:37 INFO     <1> Travel(distance=[Distance(count=1)])
+03-24 15:38:38 INFO     frame2action [Travel_v=[MEAN='walk_V_1'], Along=[Along_p=[MEAN='DOWN'], Path=[Det=[MEAN='THE'], Appear=[MEAN='yellow_ADJ_1'], Path_n=[MEAN='hallway_N_1']]], Dist=[Count=[MEAN='twice_ADV_1']]]
+03-24 15:38:38 INFO     <0> Travel(distance=[Distance(count=2)], face=Face(faced=Verify(desc=[Thing(dist='0', Appear=[Honeycomb], value=Path, type='Path', side=[Front])])))
+03-24 15:38:39 INFO     frame2action [Turn_v=[MEAN='turn_V_1'], Purpose=[Purpose_p=[MEAN='TO'], Orient_v=[MEAN='face_V_5'], Obj=[Det=[MEAN='THE'], Obj_n=[MEAN='easel_N_1']]]]
+03-24 15:38:39 INFO     <0> Turn(face=Face(faced=Verify(desc=[Thing(value=Easel, type='Obj', side=[Front])])))
+03-24 15:38:40 INFO     frame2action [Turn_v=[MEAN='turn_V_1'], Purpose=[Purpose_p=[MEAN='SO THAT'], S=[Obj=[Det=[MEAN='THE'], Obj_n=[MEAN="pics_N_('pic', [2])"], Type=[Type_p=[MEAN='OF'], Obj_n=[MEAN="towers_N_('tower', [1])"]]], Is_v=[MEAN="are_V_('be', [1, 2, 3, 4, 5])"], Side=[Side_p=[MEAN='TO'], Dir=[MEAN='back_ADV_1,2']]]]]
+03-24 15:38:40 INFO     <0> Turn(face=Face(faced=Verify(desc=[Thing(dist='0:', value=Pic, type='Obj', side=[Back])])))
+03-24 15:38:42 INFO     frame2action [Turn_v=[MEAN='turn_V_1'], Dir=[MEAN='left_ADV_1']]
+03-24 15:38:42 INFO     <0> Turn(direction=[Left])
+03-24 15:38:42 INFO     frame2action [Travel_v=[MEAN='walk_V_1'], Along=[Along_p=[MEAN='DOWN'], Path=[Det=[MEAN='THE'], Appear=[MEAN='red_ADJ_1'], Path_n=[MEAN='hallway_N_1']]], Dist=[Count=[MEAN='four_ADJ_1'], Dist_unit=[MEAN="times_N_('time', [1])"]]]
+03-24 15:38:42 INFO     <1> Travel(distance=[Distance(count=4)], face=Face(faced=Verify(desc=[Thing(dist='0', Appear=[Brick], value=Path, type='Path', side=[Front])])))
+03-24 15:38:43 INFO     frame2action [Turn_v=[MEAN='turn_V_1'], Dir=[MEAN='right_ADV_4']]
+03-24 15:38:43 INFO     <0> Turn(direction=[Right])
+03-24 15:38:43 INFO     frame2action [Travel_v=[MEAN='walk_V_1'], Along=[Along_p=[MEAN='DOWN'], Path=[Det=[MEAN='THE'], Appear=[MEAN='blue_ADJ_1'], Path_n=[MEAN='hallway_N_1']]], Dist=[Count=[MEAN='twice_ADV_1']]]
+03-24 15:38:43 INFO     <1> Travel(distance=[Distance(count=2)], face=Face(faced=Verify(desc=[Thing(dist='0', Appear=[BlueTile], value=Path, type='Path', side=[Front])])))

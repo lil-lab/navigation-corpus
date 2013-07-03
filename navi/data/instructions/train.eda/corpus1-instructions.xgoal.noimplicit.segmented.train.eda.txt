@@ -1,0 +1,2449 @@
+EDA_Grid0_1_4_Dirs_1
+{'numFollowers': 7, 'confidence': (5.142857142857143, 1.1248582677159729), 'directionRating': (4.571428571428571, 1.1780301787479033), 'valid': True, 'map': 'grid', 'targetFound': (1.0, 0.0), 'efficiency': (0.9428571428571428, 0.13997084244475308), 'correct': True, 'implicit': False}
+turn to face the short red hallway
+## (do_until:<a,<t,a>> (do:<m,a> turn:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> (front:<<p,t>,<p,t>> at:<p,t>) (hall:<c,<p,t>> brick:c))))
+%% LEFT(1,6,180)
+%% LEFT(1,6,90)
+%% NULL(1,6,0)
+walk forward once
+## (do_until:<a,<t,a>> (do:<m,a> travel:m) (steps:<n,t> 1:n))
+%% FORWARD(1,6,0)
+%% NULL(1,5,0)
+turn right
+## (do_until:<a,<t,a>> (do:<m,a> turn:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (right:<<p,t>,<p,t>> at0:<p,t>))))
+%% RIGHT(1,5,0)
+%% NULL(1,5,90)
+walk forward twice
+## (do_until:<a,<t,a>> (do:<m,a> travel:m) (steps:<n,t> 2:n))
+%% FORWARD(1,5,90)
+%% FORWARD(2,5,90)
+%% NULL(3,5,90)
+
+EDA_L0_5_1_Dirs_1
+{'numFollowers': 6, 'confidence': (1.8333333333333333, 0.8975274678557507), 'directionRating': (1.5, 0.5), 'valid': False, 'map': 'l', 'targetFound': (0.0, 0.0), 'efficiency': (0.0, 0.0), 'correct': False, 'implicit': False}
+turn so the wall is on your left
+walk forward twice
+turn left
+walk forward once
+
+EDA_Jelly0_1_4_Dirs_1
+{'numFollowers': 5, 'confidence': (5.0, 2.0), 'directionRating': (4.8, 1.9390719429665317), 'valid': True, 'map': 'jelly', 'targetFound': (0.8, 0.4), 'efficiency': (0.8, 0.4), 'correct': True, 'implicit': False}
+turn so that the wall is on your left
+## (do_until:<a,<t,a>> (do:<m,a> turn:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> (left:<<p,t>,<p,t>> at:<p,t>) (definite:<<p,t>,<p,t>> wall:<p,t>))))
+%% LEFT(19,16,90)
+%% LEFT(19,16,0)
+%% NULL(19,16,270)
+walk forward once
+## (do_until:<a,<t,a>> (do:<m,a> travel:m) (steps:<n,t> 1:n))
+%% FORWARD(19,16,270)
+%% NULL(18,16,270)
+turn left
+## (do_until:<a,<t,a>> (do:<m,a> turn:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (left:<<p,t>,<p,t>> at0:<p,t>))))
+%% LEFT(18,16,270)
+%% NULL(18,16,180)
+walk forward once
+## (do_until:<a,<t,a>> (do:<m,a> travel:m) (steps:<n,t> 1:n))
+%% FORWARD(18,16,180)
+%% NULL(18,17,180)
+turn right
+## (do_until:<a,<t,a>> (do:<m,a> turn:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (right:<<p,t>,<p,t>> at0:<p,t>))))
+%% RIGHT(18,17,180)
+%% NULL(18,17,270)
+walk forward three times
+## (do_until:<a,<t,a>> (do:<m,a> travel:m) (steps:<n,t> 3:n))
+%% FORWARD(18,17,270)
+%% FORWARD(17,17,270)
+%% FORWARD(16,17,270)
+%% NULL(15,17,270)
+turn left
+## (do_until:<a,<t,a>> (do:<m,a> turn:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (left:<<p,t>,<p,t>> at0:<p,t>))))
+%% LEFT(15,17,270)
+%% NULL(15,17,180)
+walk forward three times
+## (do_until:<a,<t,a>> (do:<m,a> travel:m) (steps:<n,t> 3:n))
+%% FORWARD(15,17,180)
+%% FORWARD(15,18,180)
+%% FORWARD(15,19,180)
+%% NULL(15,20,180)
+
+EDA_L0_1_3_Dirs_1
+{'numFollowers': 6, 'confidence': (5.666666666666667, 0.4714045207910317), 'directionRating': (4.333333333333333, 0.7453559924999298), 'valid': False, 'map': 'l', 'targetFound': (0.0, 0.0), 'efficiency': (0.0, 0.0), 'correct': False, 'implicit': False}
+turn so that the chair is on your right side
+walk forward once
+turn right
+you should be facing a long red floored hallway
+walk forward five times
+turn to the right
+you should now be facing a black floored hallway
+walk forward twice
+
+EDA_Grid0_7_5_Dirs_1
+{'numFollowers': 4, 'confidence': (4.0, 1.8708286933869707), 'directionRating': (4.0, 1.8708286933869707), 'valid': True, 'map': 'grid', 'targetFound': (0.5, 0.5), 'efficiency': (0.5, 0.5), 'correct': True, 'implicit': False}
+this one is a little tricky to get oriented, look at the closest pictures on the walls for each hallway, turn so that you are facing the butterflys, and the towers are on the walls behind you
+## (do_until:<a,<t,a>> (do:<m,a> turn:m) (and:<t*,t> (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> (front:<<p,t>,<p,t>> at:<p,t>) butterfly_w:<p,t>)) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> (behind:<<p,t>,<p,t>> at:<p,t>) eiffel_w:<p,t>))))
+%% LEFT(1,9,90)
+%% LEFT(1,9,0)
+%% NULL(1,9,270)
+walk forward once 
+## (do_until:<a,<t,a>> (do:<m,a> travel:m) (steps:<n,t> 1:n))
+%% FORWARD(1,9,270)
+%% NULL(0,9,270)
+turn to the left 
+## (do_until:<a,<t,a>> (do:<m,a> turn:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (left:<<p,t>,<p,t>> at0:<p,t>))))
+%% LEFT(0,9,270)
+%% NULL(0,9,180)
+you should be looking at the blue hallway
+## (verify:<t,a> (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (hall:<c,<p,t>> blue:c))))
+%% VERIFY(0,9,180)
+walk forward twice
+## (do_until:<a,<t,a>> (do:<m,a> travel:m) (steps:<n,t> 2:n))
+%% FORWARD(0,9,180)
+%% FORWARD(0,10,180)
+%% NULL(0,11,180)
+turn left 
+## (do_until:<a,<t,a>> (do:<m,a> turn:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (left:<<p,t>,<p,t>> at0:<p,t>))))
+%% LEFT(0,11,180)
+%% NULL(0,11,90)
+walk forward once 
+## (do_until:<a,<t,a>> (do:<m,a> travel:m) (steps:<n,t> 1:n))
+%% FORWARD(0,11,90)
+%% NULL(1,11,90)
+
+EDA_L0_2_5_Dirs_1
+{'numFollowers': 4, 'confidence': (5.75, 0.4330127018922193), 'directionRating': (5.25, 0.82915619758885), 'valid': True, 'map': 'l', 'targetFound': (1.0, 0.0), 'efficiency': (0.9444445, 0.09622494863989278), 'correct': True, 'implicit': False}
+turn to face the short black hallway with the easel at the end
+## (do_until:<a,<t,a>> (do:<m,a> turn:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> (front:<<p,t>,<p,t>> at:<p,t>) (end:<<p,t>,<p,t>> (hall:<c,<p,t>> stone:c)) easel:<p,t>)))
+%% LEFT(21,23,90)
+%% LEFT(21,23,0)
+%% NULL(21,23,270)
+from here turn to the right 
+## (do_until:<a,<t,a>> (do:<m,a> turn:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (right:<<p,t>,<p,t>> at0:<p,t>))))
+%% RIGHT(21,23,270)
+%% NULL(21,23,0)
+walk down the yellow corridor twice
+## (do_until:<a,<t,a>> (do_if:<a,<t,a>> (do:<m,a> travel:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (hall:<c,<p,t>> honeycomb:c)))) (steps:<n,t> 2:n))
+%% FORWARD(21,23,0)
+%% FORWARD(21,22,0)
+%% NULL(21,21,0)
+turn right
+## (do_until:<a,<t,a>> (do:<m,a> turn:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (right:<<p,t>,<p,t>> at0:<p,t>))))
+%% RIGHT(21,21,0)
+%% NULL(21,21,90)
+walk down the pink corridor to the intersection of the red one (2 steps)
+## (do_until:<a,<t,a>> (do_if:<a,<t,a>> (do:<m,a> travel:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (hall:<c,<p,t>> rose:c)))) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (intersection:<<p,t>*1,<p,t>> (hall:<c,<p,t>> brick:c)))))
+%% FORWARD(21,21,90)
+%% FORWARD(22,21,90)
+%% NULL(23,21,90)
+turn left 
+## (do_until:<a,<t,a>> (do:<m,a> turn:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (left:<<p,t>,<p,t>> at0:<p,t>))))
+%% LEFT(23,21,90)
+%% NULL(23,21,0)
+walk forward three times
+## (do_until:<a,<t,a>> (do:<m,a> travel:m) (steps:<n,t> 3:n))
+%% FORWARD(23,21,0)
+%% FORWARD(23,20,0)
+%% FORWARD(23,19,0)
+%% NULL(23,18,0)
+
+EDA_Jelly0_3_2_Dirs_1
+{'numFollowers': 4, 'confidence': (5.5, 0.5), 'directionRating': (5.25, 0.4330127018922193), 'valid': True, 'map': 'jelly', 'targetFound': (1.0, 0.0), 'efficiency': (1.0, 0.0), 'correct': True, 'implicit': False}
+turn so that the wall is on your left
+## (do_until:<a,<t,a>> (do:<m,a> turn:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> (left:<<p,t>,<p,t>> at:<p,t>) (definite:<<p,t>,<p,t>> wall:<p,t>))))
+%% LEFT(16,18,270)
+%% LEFT(16,18,180)
+%% NULL(16,18,90)
+walk forward four times
+## (do_until:<a,<t,a>> (do:<m,a> travel:m) (steps:<n,t> 4:n))
+%% FORWARD(16,18,90)
+%% FORWARD(17,18,90)
+%% FORWARD(18,18,90)
+%% FORWARD(19,18,90)
+%% NULL(20,18,90)
+turn left
+## (do_until:<a,<t,a>> (do:<m,a> turn:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (left:<<p,t>,<p,t>> at0:<p,t>))))
+%% LEFT(20,18,90)
+%% NULL(20,18,0)
+walk forward once
+## (do_until:<a,<t,a>> (do:<m,a> travel:m) (steps:<n,t> 1:n))
+%% FORWARD(20,18,0)
+%% NULL(20,17,0)
+turn right
+## (do_until:<a,<t,a>> (do:<m,a> turn:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (right:<<p,t>,<p,t>> at0:<p,t>))))
+%% RIGHT(20,17,0)
+%% NULL(20,17,90)
+walk forward twice
+## (do_until:<a,<t,a>> (do:<m,a> travel:m) (steps:<n,t> 2:n))
+%% FORWARD(20,17,90)
+%% FORWARD(21,17,90)
+%% NULL(22,17,90)
+turn left
+## (do_until:<a,<t,a>> (do:<m,a> turn:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (left:<<p,t>,<p,t>> at0:<p,t>))))
+%% LEFT(22,17,90)
+%% NULL(22,17,0)
+walk forward once
+## (do_until:<a,<t,a>> (do:<m,a> travel:m) (steps:<n,t> 1:n))
+%% FORWARD(22,17,0)
+%% NULL(22,16,0)
+turn right
+## (do_until:<a,<t,a>> (do:<m,a> turn:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (right:<<p,t>,<p,t>> at0:<p,t>))))
+%% RIGHT(22,16,0)
+%% NULL(22,16,90)
+walk forward once
+## (do_until:<a,<t,a>> (do:<m,a> travel:m) (steps:<n,t> 1:n))
+%% FORWARD(22,16,90)
+%% NULL(23,16,90)
+
+EDA_L0_5_3_Dirs_1
+{'numFollowers': 4, 'confidence': (5.0, 1.224744871391589), 'directionRating': (5.5, 0.5), 'valid': True, 'map': 'l', 'targetFound': (0.0, 0.0), 'efficiency': (0.0, 0.0), 'correct': False, 'implicit': False}
+turn so that the wall is on your right
+## (do_until:<a,<t,a>> (do:<m,a> turn:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> (right:<<p,t>,<p,t>> at:<p,t>) (definite:<<p,t>,<p,t>> wall:<p,t>))))
+%% LEFT(23,18,0)
+%% LEFT(23,18,270)
+%% NULL(23,18,180)
+walk forward five times
+## (do_until:<a,<t,a>> (do:<m,a> travel:m) (steps:<n,t> 5:n))
+%% FORWARD(23,18,180)
+%% FORWARD(23,19,180)
+%% FORWARD(23,20,180)
+%% FORWARD(23,21,180)
+%% FORWARD(23,22,180)
+%% NULL(23,23,180)
+turn right
+## (do_until:<a,<t,a>> (do:<m,a> turn:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (right:<<p,t>,<p,t>> at0:<p,t>))))
+%% RIGHT(23,23,180)
+%% NULL(23,23,270)
+the black hallway should be in front of you
+## (verify:<t,a> (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> (front:<<p,t>,<p,t>> at:<p,t>) (hall:<c,<p,t>> stone:c))))
+%% VERIFY(23,23,270)
+walk forward once
+## (do_until:<a,<t,a>> (do:<m,a> travel:m) (steps:<n,t> 1:n))
+%% FORWARD(23,23,270)
+%% NULL(22,23,270)
+
+EDA_L0_7_1_Dirs_1
+{'numFollowers': 5, 'confidence': (5.4, 0.8), 'directionRating': (5.4, 0.8), 'valid': True, 'map': 'l', 'targetFound': (1.0, 0.0), 'efficiency': (1.0, 0.0), 'correct': True, 'implicit': False}
+turn so that the wall is on your left side
+## (do_until:<a,<t,a>> (do:<m,a> turn:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> (left:<<p,t>,<p,t>> at:<p,t>) (definite:<<p,t>,<p,t>> wall:<p,t>))))
+%% LEFT(21,21,270)
+%% LEFT(21,21,180)
+%% NULL(21,21,90)
+walk forward twice
+## (do_until:<a,<t,a>> (do:<m,a> travel:m) (steps:<n,t> 2:n))
+%% FORWARD(21,21,90)
+%% FORWARD(22,21,90)
+%% NULL(23,21,90)
+turn left and walk down the red hallway four times
+## (do_seq:<a+,a> (do_until:<a,<t,a>> (do:<m,a> turn:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (left:<<p,t>,<p,t>> at0:<p,t>)))) (do_until:<a,<t,a>> (do_if:<a,<t,a>> (do:<m,a> travel:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (hall:<c,<p,t>> brick:c)))) (steps:<n,t> 4:n)))
+%% LEFT(23,21,90)
+%% FORWARD(23,21,0)
+%% FORWARD(23,20,0)
+%% FORWARD(23,19,0)
+%% FORWARD(23,18,0)
+%% NULL(23,17,0)
+turn left and walk forward once
+## (do_seq:<a+,a> (do_until:<a,<t,a>> (do:<m,a> turn:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (left:<<p,t>,<p,t>> at0:<p,t>)))) (do_until:<a,<t,a>> (do:<m,a> travel:m) (steps:<n,t> 1:n)))
+%% LEFT(23,17,0)
+%% FORWARD(23,17,270)
+%% NULL(22,17,270)
+
+EDA_L0_5_4_Dirs_1
+{'numFollowers': 5, 'confidence': (5.8, 0.4), 'directionRating': (5.4, 0.8), 'valid': True, 'map': 'l', 'targetFound': (1.0, 0.0), 'efficiency': (0.9, 0.20000000000000004), 'correct': True, 'implicit': False}
+turn so that the wall is on your right
+## (do_until:<a,<t,a>> (do:<m,a> turn:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> (right:<<p,t>,<p,t>> at:<p,t>) (definite:<<p,t>,<p,t>> wall:<p,t>))))
+%% LEFT(23,18,0)
+%% LEFT(23,18,270)
+%% NULL(23,18,180)
+walk forward once
+## (do_until:<a,<t,a>> (do:<m,a> travel:m) (steps:<n,t> 1:n))
+%% FORWARD(23,18,180)
+%% NULL(23,19,180)
+turn to the left
+## (do_until:<a,<t,a>> (do:<m,a> turn:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (left:<<p,t>,<p,t>> at0:<p,t>))))
+%% LEFT(23,19,180)
+%% NULL(23,19,90)
+walk forward once
+## (do_until:<a,<t,a>> (do:<m,a> travel:m) (steps:<n,t> 1:n))
+%% FORWARD(23,19,90)
+%% NULL(24,19,90)
+you should have the blue hallway on your right now
+## (verify:<t,a> (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> (right:<<p,t>,<p,t>> at:<p,t>) (hall:<c,<p,t>> blue:c))))
+%% VERIFY(24,19,90)
+turn right and walk down the blue hallway twice
+## (do_seq:<a+,a> (do_until:<a,<t,a>> (do:<m,a> turn:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (right:<<p,t>,<p,t>> at0:<p,t>)))) (do_until:<a,<t,a>> (do_if:<a,<t,a>> (do:<m,a> travel:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (hall:<c,<p,t>> blue:c)))) (steps:<n,t> 2:n)))
+%% RIGHT(24,19,90)
+%% FORWARD(24,19,180)
+%% FORWARD(24,20,180)
+%% NULL(24,21,180)
+
+EDA_L0_5_6_Dirs_1
+{'numFollowers': 5, 'confidence': (5.6, 0.8), 'directionRating': (5.2, 0.9797958971132712), 'valid': True, 'map': 'l', 'targetFound': (1.0, 0.0), 'efficiency': (0.825, 0.2449489742783178), 'correct': True, 'implicit': False}
+turn so that the wall is on your right
+## (do_until:<a,<t,a>> (do:<m,a> turn:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> (right:<<p,t>,<p,t>> at:<p,t>) (definite:<<p,t>,<p,t>> wall:<p,t>))))
+%% LEFT(23,18,0)
+%% LEFT(23,18,270)
+%% NULL(23,18,180)
+walk forward five times
+## (do_until:<a,<t,a>> (do:<m,a> travel:m) (steps:<n,t> 5:n))
+%% FORWARD(23,18,180)
+%% FORWARD(23,19,180)
+%% FORWARD(23,20,180)
+%% FORWARD(23,21,180)
+%% FORWARD(23,22,180)
+%% NULL(23,23,180)
+turn right
+## (do_until:<a,<t,a>> (do:<m,a> turn:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (right:<<p,t>,<p,t>> at0:<p,t>))))
+%% RIGHT(23,23,180)
+%% NULL(23,23,270)
+walk forward once
+## (do_until:<a,<t,a>> (do:<m,a> travel:m) (steps:<n,t> 1:n))
+%% FORWARD(23,23,270)
+%% NULL(22,23,270)
+
+EDA_Grid0_6_3_Dirs_1
+{'numFollowers': 4, 'confidence': (5.5, 0.5), 'directionRating': (5.25, 0.82915619758885), 'valid': True, 'map': 'grid', 'targetFound': (1.0, 0.0), 'efficiency': (1.0, 0.0), 'correct': True, 'implicit': False}
+turn so that the wall is on your left
+## (do_until:<a,<t,a>> (do:<m,a> turn:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> (left:<<p,t>,<p,t>> at:<p,t>) (definite:<<p,t>,<p,t>> wall:<p,t>))))
+%% LEFT(2,7,90)
+%% LEFT(2,7,0)
+%% NULL(2,7,270)
+walk forward twice
+## (do_until:<a,<t,a>> (do:<m,a> travel:m) (steps:<n,t> 2:n))
+%% FORWARD(2,7,270)
+%% FORWARD(1,7,270)
+%% NULL(0,7,270)
+turn left
+## (do_until:<a,<t,a>> (do:<m,a> turn:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (left:<<p,t>,<p,t>> at0:<p,t>))))
+%% LEFT(0,7,270)
+%% NULL(0,7,180)
+walk forward twice
+## (do_until:<a,<t,a>> (do:<m,a> travel:m) (steps:<n,t> 2:n))
+%% FORWARD(0,7,180)
+%% FORWARD(0,8,180)
+%% NULL(0,9,180)
+
+EDA_L0_4_1_Dirs_1
+{'numFollowers': 4, 'confidence': (5.0, 1.224744871391589), 'directionRating': (5.5, 0.5), 'valid': True, 'map': 'l', 'targetFound': (0.75, 0.4330127018922193), 'efficiency': (0.575, 0.4380353866983808), 'correct': True, 'implicit': False}
+turn to face the pink hallway
+## (do_until:<a,<t,a>> (do:<m,a> turn:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> (front:<<p,t>,<p,t>> at:<p,t>) (hall:<c,<p,t>> rose:c))))
+%% LEFT(24,21,90)
+%% LEFT(24,21,0)
+%% NULL(24,21,270)
+walk forward once
+## (do_until:<a,<t,a>> (do:<m,a> travel:m) (steps:<n,t> 1:n))
+%% FORWARD(24,21,270)
+%% NULL(23,21,270)
+turn to the right
+## (do_until:<a,<t,a>> (do:<m,a> turn:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (right:<<p,t>,<p,t>> at0:<p,t>))))
+%% RIGHT(23,21,270)
+%% NULL(23,21,0)
+walk forward four times
+## (do_until:<a,<t,a>> (do:<m,a> travel:m) (steps:<n,t> 4:n))
+%% FORWARD(23,21,0)
+%% FORWARD(23,20,0)
+%% FORWARD(23,19,0)
+%% FORWARD(23,18,0)
+%% NULL(23,17,0)
+turn left
+## (do_until:<a,<t,a>> (do:<m,a> turn:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (left:<<p,t>,<p,t>> at0:<p,t>))))
+%% LEFT(23,17,0)
+%% NULL(23,17,270)
+walk forward once
+## (do_until:<a,<t,a>> (do:<m,a> travel:m) (steps:<n,t> 1:n))
+%% FORWARD(23,17,270)
+%% NULL(22,17,270)
+
+EDA_Grid0_2_6_Dirs_1
+{'numFollowers': 5, 'confidence': (5.2, 0.7483314773547882), 'directionRating': (4.6, 0.4898979485566356), 'valid': True, 'map': 'grid', 'targetFound': (1.0, 0.0), 'efficiency': (1.0, 0.0), 'correct': True, 'implicit': False}
+turn to face the yellow hallway
+## (do_until:<a,<t,a>> (do:<m,a> turn:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> (front:<<p,t>,<p,t>> at:<p,t>) (hall:<c,<p,t>> honeycomb:c))))
+%% LEFT(3,8,180)
+%% LEFT(3,8,90)
+%% NULL(3,8,0)
+walk forward once
+## (do_until:<a,<t,a>> (do:<m,a> travel:m) (steps:<n,t> 1:n))
+%% FORWARD(3,8,0)
+%% NULL(3,7,0)
+turn left
+## (do_until:<a,<t,a>> (do:<m,a> turn:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (left:<<p,t>,<p,t>> at0:<p,t>))))
+%% LEFT(3,7,0)
+%% NULL(3,7,270)
+walk forward once
+## (do_until:<a,<t,a>> (do:<m,a> travel:m) (steps:<n,t> 1:n))
+%% FORWARD(3,7,270)
+%% NULL(2,7,270)
+
+EDA_Grid0_7_3_Dirs_1
+{'numFollowers': 7, 'confidence': (5.857142857142857, 0.3499271061118826), 'directionRating': (5.0, 1.3093073414159542), 'valid': True, 'map': 'grid', 'targetFound': (1.0, 0.0), 'efficiency': (1.0, 0.0), 'correct': True, 'implicit': False}
+look at the pictures on all of the immediate walls
+## (verify:<t,a> (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> wallpaper:<p,t>)))
+%% VERIFY(1,9,90)
+turn so that the pics of towers are to your back
+## (do_until:<a,<t,a>> (do:<m,a> turn:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> (behind:<<p,t>,<p,t>> at:<p,t>) eiffel_w:<p,t>)))
+%% LEFT(1,9,90)
+%% LEFT(1,9,0)
+%% NULL(1,9,270)
+walk forward once
+## (do_until:<a,<t,a>> (do:<m,a> travel:m) (steps:<n,t> 1:n))
+%% FORWARD(1,9,270)
+%% NULL(0,9,270)
+
+EDA_L0_7_2_Dirs_1
+{'numFollowers': 7, 'confidence': (5.857142857142857, 0.3499271061118826), 'directionRating': (5.857142857142857, 0.3499271061118826), 'valid': True, 'map': 'l', 'targetFound': (0.0, 0.0), 'efficiency': (0.0, 0.0), 'correct': False, 'implicit': False}
+turn to face the honeycomb yellow hallway
+## (do_until:<a,<t,a>> (do:<m,a> turn:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> (front:<<p,t>,<p,t>> at:<p,t>) (hall:<c,<p,t>> honeycomb:c))))
+%% LEFT(21,21,0)
+%% LEFT(21,21,270)
+%% NULL(21,21,180)
+walk forward once
+## (do_until:<a,<t,a>> (do:<m,a> travel:m) (steps:<n,t> 1:n))
+%% FORWARD(21,21,180)
+%% NULL(21,22,180)
+
+EDA_Grid0_5_7_Dirs_1
+{'numFollowers': 5, 'confidence': (5.4, 0.8), 'directionRating': (5.2, 0.7483314773547882), 'valid': True, 'map': 'grid', 'targetFound': (1.0, 0.0), 'efficiency': (1.0, 0.0), 'correct': True, 'implicit': False}
+turn so the wall is on your right and back
+## (do_until:<a,<t,a>> (do:<m,a> turn:m) (and:<t*,t> (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> (behind:<<p,t>,<p,t>> at:<p,t>) (definite:<<p,t>,<p,t>> wall:<p,t>))) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> (right:<<p,t>,<p,t>> at:<p,t>) (definite:<<p,t>,<p,t>> wall:<p,t>)))))
+%% LEFT(1,11,90)
+%% LEFT(1,11,0)
+%% NULL(1,11,270)
+walk forward once
+## (do_until:<a,<t,a>> (do:<m,a> travel:m) (steps:<n,t> 1:n))
+%% FORWARD(1,11,270)
+%% NULL(0,11,270)
+turn right
+## (do_until:<a,<t,a>> (do:<m,a> turn:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (right:<<p,t>,<p,t>> at0:<p,t>))))
+%% RIGHT(0,11,270)
+%% NULL(0,11,0)
+walk forward twice
+## (do_until:<a,<t,a>> (do:<m,a> travel:m) (steps:<n,t> 2:n))
+%% FORWARD(0,11,0)
+%% FORWARD(0,10,0)
+%% NULL(0,9,0)
+turn right
+## (do_until:<a,<t,a>> (do:<m,a> turn:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (right:<<p,t>,<p,t>> at0:<p,t>))))
+%% RIGHT(0,9,0)
+%% NULL(0,9,90)
+walk forward once
+## (do_until:<a,<t,a>> (do:<m,a> travel:m) (steps:<n,t> 1:n))
+%% FORWARD(0,9,90)
+%% NULL(1,9,90)
+
+EDA_L0_6_4_Dirs_1
+{'numFollowers': 4, 'confidence': (4.25, 2.0463381929681126), 'directionRating': (4.75, 0.82915619758885), 'valid': True, 'map': 'l', 'targetFound': (1.0, 0.0), 'efficiency': (1.0, 0.0), 'correct': True, 'implicit': False}
+turn to face the black corridor with the towers on both sides of the walls
+## (do_until:<a,<t,a>> (do:<m,a> turn:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> (front:<<p,t>,<p,t>> at:<p,t>) (hall:<c,<p,t>> stone:c) eiffel_w:<p,t>)))
+%% LEFT(22,23,270)
+%% LEFT(22,23,180)
+%% NULL(22,23,90)
+walk forward once
+## (do_until:<a,<t,a>> (do:<m,a> travel:m) (steps:<n,t> 1:n))
+%% FORWARD(22,23,90)
+%% NULL(23,23,90)
+turn left
+## (do_until:<a,<t,a>> (do:<m,a> turn:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (left:<<p,t>,<p,t>> at0:<p,t>))))
+%% LEFT(23,23,90)
+%% NULL(23,23,0)
+walk forward twice
+## (do_until:<a,<t,a>> (do:<m,a> travel:m) (steps:<n,t> 2:n))
+%% FORWARD(23,23,0)
+%% FORWARD(23,22,0)
+%% NULL(23,21,0)
+turn right
+## (do_until:<a,<t,a>> (do:<m,a> turn:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (right:<<p,t>,<p,t>> at0:<p,t>))))
+%% RIGHT(23,21,0)
+%% NULL(23,21,90)
+walk forward once
+## (do_until:<a,<t,a>> (do:<m,a> travel:m) (steps:<n,t> 1:n))
+%% FORWARD(23,21,90)
+%% NULL(24,21,90)
+
+EDA_Grid0_7_6_Dirs_1
+{'numFollowers': 5, 'confidence': (5.0, 1.2649110640673518), 'directionRating': (4.6, 1.3564659966250536), 'valid': True, 'map': 'grid', 'targetFound': (1.0, 0.0), 'efficiency': (0.8400000000000001, 0.19595917942265426), 'correct': True, 'implicit': False}
+turn to face the long red hallway
+## (do_until:<a,<t,a>> (do:<m,a> turn:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> (front:<<p,t>,<p,t>> at:<p,t>) (hall:<c,<p,t>> brick:c))))
+%% LEFT(1,9,180)
+%% LEFT(1,9,90)
+%% NULL(1,9,0)
+walk forward twice
+## (do_until:<a,<t,a>> (do:<m,a> travel:m) (steps:<n,t> 2:n))
+%% FORWARD(1,9,0)
+%% FORWARD(1,8,0)
+%% NULL(1,7,0)
+turn right
+## (do_until:<a,<t,a>> (do:<m,a> turn:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (right:<<p,t>,<p,t>> at0:<p,t>))))
+%% RIGHT(1,7,0)
+%% NULL(1,7,90)
+walk forward once
+## (do_until:<a,<t,a>> (do:<m,a> travel:m) (steps:<n,t> 1:n))
+%% FORWARD(1,7,90)
+%% NULL(2,7,90)
+
+EDA_Jelly0_1_2_Dirs_1
+{'numFollowers': 0, 'confidence': (0.0, 0.0), 'directionRating': (0.0, 0.0), 'valid': False, 'map': 'jelly', 'targetFound': (0.0, 0.0), 'efficiency': (0.0, 0.0), 'correct': False, 'implicit': False}
+turn so that the wall is on your right
+walk forward once
+turn right
+walk forward once
+the hallway to the right should be black
+turn right
+walk forward once
+turn left
+walk forward once
+turn left
+walk forward three times
+turn left
+walk forward once
+turn right
+walk forward once
+turn left
+walk forward once
+turn right and walk forward once
+
+EDA_Jelly0_2_4_Dirs_2
+{'numFollowers': 4, 'confidence': (6.0, 0.0), 'directionRating': (5.5, 0.5), 'valid': True, 'map': 'jelly', 'targetFound': (1.0, 0.0), 'efficiency': (0.88636375, 0.19682375858159884), 'correct': True, 'implicit': False}
+turn so that the wall is on your left and to your back
+## (do_until:<a,<t,a>> (do:<m,a> turn:m) (and:<t*,t> (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> (left:<<p,t>,<p,t>> at:<p,t>) (definite:<<p,t>,<p,t>> wall:<p,t>))) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> (behind:<<p,t>,<p,t>> at:<p,t>) (definite:<<p,t>,<p,t>> wall:<p,t>)))))
+%% LEFT(23,16,90)
+%% LEFT(23,16,0)
+%% NULL(23,16,270)
+walk forward once
+## (do_until:<a,<t,a>> (do:<m,a> travel:m) (steps:<n,t> 1:n))
+%% FORWARD(23,16,270)
+%% NULL(22,16,270)
+turn left
+## (do_until:<a,<t,a>> (do:<m,a> turn:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (left:<<p,t>,<p,t>> at0:<p,t>))))
+%% LEFT(22,16,270)
+%% NULL(22,16,180)
+walk forward once
+## (do_until:<a,<t,a>> (do:<m,a> travel:m) (steps:<n,t> 1:n))
+%% FORWARD(22,16,180)
+%% NULL(22,17,180)
+turn right
+## (do_until:<a,<t,a>> (do:<m,a> turn:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (right:<<p,t>,<p,t>> at0:<p,t>))))
+%% RIGHT(22,17,180)
+%% NULL(22,17,270)
+walk forward twice
+## (do_until:<a,<t,a>> (do:<m,a> travel:m) (steps:<n,t> 2:n))
+%% FORWARD(22,17,270)
+%% FORWARD(21,17,270)
+%% NULL(20,17,270)
+turn left
+## (do_until:<a,<t,a>> (do:<m,a> turn:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (left:<<p,t>,<p,t>> at0:<p,t>))))
+%% LEFT(20,17,270)
+%% NULL(20,17,180)
+walk forward once
+## (do_until:<a,<t,a>> (do:<m,a> travel:m) (steps:<n,t> 1:n))
+%% FORWARD(20,17,180)
+%% NULL(20,18,180)
+turn right
+## (do_until:<a,<t,a>> (do:<m,a> turn:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (right:<<p,t>,<p,t>> at0:<p,t>))))
+%% RIGHT(20,18,180)
+%% NULL(20,18,270)
+walk forward five times (or until you reach the yellow walkway)
+## (do_until:<a,<t,a>> (do:<m,a> travel:m) (steps:<n,t> 5:n))
+%% FORWARD(20,18,270)
+%% FORWARD(19,18,270)
+%% FORWARD(18,18,270)
+%% FORWARD(17,18,270)
+%% FORWARD(16,18,270)
+%% NULL(15,18,270)
+turn left and continue to the end of the yellow hallway
+## (do_seq:<a+,a> (do_until:<a,<t,a>> (do:<m,a> turn:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (left:<<p,t>,<p,t>> at0:<p,t>)))) (do_until:<a,<t,a>> (do:<m,a> travel:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (end:<<p,t>,<p,t>> (hall:<c,<p,t>> honeycomb:c))))))
+%% LEFT(15,18,270)
+%% FORWARD(15,18,180)
+%% FORWARD(15,19,180)
+%% NULL(15,20,180)
+
+EDA_L0_3_5_Dirs_1
+{'numFollowers': 4, 'confidence': (5.0, 1.0), 'directionRating': (5.0, 0.7071067811865476), 'valid': True, 'map': 'l', 'targetFound': (1.0, 0.0), 'efficiency': (1.0, 0.0), 'correct': True, 'implicit': 'partial'}
+only one way to go
+## (verify:<t,a> (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> deadend:<p,t>)))
+%% VERIFY(19,23,180)
+walk forward once
+## (do_until:<a,<t,a>> (do:<m,a> travel:m) (steps:<n,t> 1:n))
+%% FORWARD(19,23,180)
+%% NULL(19,24,180)
+turn left
+## (do_until:<a,<t,a>> (do:<m,a> turn:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (left:<<p,t>,<p,t>> at0:<p,t>))))
+%% LEFT(19,24,180)
+%% NULL(19,24,90)
+walk forward twice
+## (do_until:<a,<t,a>> (do:<m,a> travel:m) (steps:<n,t> 2:n))
+%% FORWARD(19,24,90)
+%% FORWARD(20,24,90)
+%% NULL(21,24,90)
+turn left
+## (do_until:<a,<t,a>> (do:<m,a> turn:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (left:<<p,t>,<p,t>> at0:<p,t>))))
+%% LEFT(21,24,90)
+%% NULL(21,24,0)
+walk forward three times
+## (do_until:<a,<t,a>> (do:<m,a> travel:m) (steps:<n,t> 3:n))
+%% FORWARD(21,24,0)
+%% FORWARD(21,23,0)
+%% FORWARD(21,22,0)
+%% NULL(21,21,0)
+turn right
+## (do_until:<a,<t,a>> (do:<m,a> turn:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (right:<<p,t>,<p,t>> at0:<p,t>))))
+%% RIGHT(21,21,0)
+%% NULL(21,21,90)
+walk forward twice
+## (do_until:<a,<t,a>> (do:<m,a> travel:m) (steps:<n,t> 2:n))
+%% FORWARD(21,21,90)
+%% FORWARD(22,21,90)
+%% NULL(23,21,90)
+turn left
+## (do_until:<a,<t,a>> (do:<m,a> turn:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (left:<<p,t>,<p,t>> at0:<p,t>))))
+%% LEFT(23,21,90)
+%% NULL(23,21,0)
+walk forward three times
+## (do_until:<a,<t,a>> (do:<m,a> travel:m) (steps:<n,t> 3:n))
+%% FORWARD(23,21,0)
+%% FORWARD(23,20,0)
+%% FORWARD(23,19,0)
+%% NULL(23,18,0)
+
+EDA_L0_5_7_Dirs_1
+{'numFollowers': 5, 'confidence': (6.0, 0.0), 'directionRating': (5.4, 0.8), 'valid': True, 'map': 'l', 'targetFound': (0.8, 0.4), 'efficiency': (0.8, 0.4), 'correct': True, 'implicit': False}
+turn so that the wall is on your right side
+## (do_until:<a,<t,a>> (do:<m,a> turn:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> (right:<<p,t>,<p,t>> at:<p,t>) (definite:<<p,t>,<p,t>> wall:<p,t>))))
+%% LEFT(23,18,0)
+%% LEFT(23,18,270)
+%% NULL(23,18,180)
+walk forward three times
+## (do_until:<a,<t,a>> (do:<m,a> travel:m) (steps:<n,t> 3:n))
+%% FORWARD(23,18,180)
+%% FORWARD(23,19,180)
+%% FORWARD(23,20,180)
+%% NULL(23,21,180)
+turn right
+## (do_until:<a,<t,a>> (do:<m,a> turn:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (right:<<p,t>,<p,t>> at0:<p,t>))))
+%% RIGHT(23,21,180)
+%% NULL(23,21,270)
+walk forward twice
+## (do_until:<a,<t,a>> (do:<m,a> travel:m) (steps:<n,t> 2:n))
+%% FORWARD(23,21,270)
+%% FORWARD(22,21,270)
+%% NULL(21,21,270)
+
+EDA_L0_1_4_Dirs_1
+{'numFollowers': 5, 'confidence': (2.6, 0.4898979485566356), 'directionRating': (3.0, 0.6324555320336759), 'valid': False, 'map': 'l', 'targetFound': (0.6, 0.48989794855663565), 'efficiency': (0.45, 0.36742346141747667), 'correct': False, 'implicit': False}
+turn so that the chair is on the right and you are facing the brown floor
+walk forward once
+turn right
+walk forward once
+turn left
+walk forward once
+turn right
+walk forward twice
+
+EDA_L0_6_7_Dirs_1
+{'numFollowers': 4, 'confidence': (4.75, 1.6393596310755), 'directionRating': (4.25, 1.299038105676658), 'valid': False, 'map': 'l', 'targetFound': (1.0, 0.0), 'efficiency': (0.80769225, 0.33308679368925376), 'correct': False, 'implicit': False}
+turn to face the black hallway with the easel at the end of it
+there should be pictures of butterflys on the walls in front of you, and towers in the back
+walk forward once
+turn right
+walk forward twice
+
+EDA_Grid0_3_2_Dirs_1
+{'numFollowers': 7, 'confidence': (4.857142857142857, 2.030381486221699), 'directionRating': (4.714285714285714, 2.0503857277724746), 'valid': True, 'map': 'grid', 'targetFound': (0.8571428571428571, 0.3499271061118826), 'efficiency': (0.8571428571428571, 0.3499271061118826), 'correct': True, 'implicit': False}
+turn so the wall is on your back
+## (do_until:<a,<t,a>> (do:<m,a> turn:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> (behind:<<p,t>,<p,t>> at:<p,t>) (definite:<<p,t>,<p,t>> wall:<p,t>))))
+%% LEFT(0,9,270)
+%% LEFT(0,9,180)
+%% NULL(0,9,90)
+walk forward once
+## (do_until:<a,<t,a>> (do:<m,a> travel:m) (steps:<n,t> 1:n))
+%% FORWARD(0,9,90)
+%% NULL(1,9,90)
+turn left
+## (do_until:<a,<t,a>> (do:<m,a> turn:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (left:<<p,t>,<p,t>> at0:<p,t>))))
+%% LEFT(1,9,90)
+%% NULL(1,9,0)
+walk forward once
+## (do_until:<a,<t,a>> (do:<m,a> travel:m) (steps:<n,t> 1:n))
+%% FORWARD(1,9,0)
+%% NULL(1,8,0)
+turn right
+## (do_until:<a,<t,a>> (do:<m,a> turn:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (right:<<p,t>,<p,t>> at0:<p,t>))))
+%% RIGHT(1,8,0)
+%% NULL(1,8,90)
+walk forward twice
+## (do_until:<a,<t,a>> (do:<m,a> travel:m) (steps:<n,t> 2:n))
+%% FORWARD(1,8,90)
+%% FORWARD(2,8,90)
+%% NULL(3,8,90)
+
+EDA_Grid0_3_4_Dirs_1
+{'numFollowers': 7, 'confidence': (5.571428571428571, 0.7284313590846834), 'directionRating': (5.714285714285714, 0.6998542122237653), 'valid': True, 'map': 'grid', 'targetFound': (1.0, 0.0), 'efficiency': (1.0, 0.0), 'correct': True, 'implicit': False}
+turn so the wall is on your left
+## (do_until:<a,<t,a>> (do:<m,a> turn:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> (left:<<p,t>,<p,t>> at:<p,t>) (definite:<<p,t>,<p,t>> wall:<p,t>))))
+%% LEFT(0,9,180)
+%% LEFT(0,9,90)
+%% NULL(0,9,0)
+walk forward four times
+## (do_until:<a,<t,a>> (do:<m,a> travel:m) (steps:<n,t> 4:n))
+%% FORWARD(0,9,0)
+%% FORWARD(0,8,0)
+%% FORWARD(0,7,0)
+%% FORWARD(0,6,0)
+%% NULL(0,5,0)
+turn right
+## (do_until:<a,<t,a>> (do:<m,a> turn:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (right:<<p,t>,<p,t>> at0:<p,t>))))
+%% RIGHT(0,5,0)
+%% NULL(0,5,90)
+walk forward three times, or until you are at the intersection of green and yellow
+## (do_until:<a,<t,a>> (do:<m,a> travel:m) (or:<t*,t> (steps:<n,t> 3:n) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (intersection:<<p,t>*1,<p,t>> (hall:<c,<p,t>> grass:c) (hall:<c,<p,t>> honeycomb:c))))))
+%% FORWARD(0,5,90)
+%% FORWARD(1,5,90)
+%% FORWARD(2,5,90)
+%% NULL(3,5,90)
+
+EDA_Jelly0_2_4_Dirs_1
+{'numFollowers': 0, 'confidence': (0.0, 0.0), 'directionRating': (0.0, 0.0), 'valid': False, 'map': 'jelly', 'targetFound': (0.0, 0.0), 'efficiency': (0.0, 0.0), 'correct': False, 'implicit': False}
+turn so that the wall is on your left and to your back
+walk forward once
+turn left
+walk forward once
+turn to the right
+walk forward once
+turn left
+you should be facing down a brown hallway
+walk to the blue interseciton one space
+turn right
+walk forward five times
+turn left and walk forward once
+
+EDA_Grid0_6_1_Dirs_1
+{'numFollowers': 5, 'confidence': (5.4, 1.2), 'directionRating': (5.4, 1.2), 'valid': True, 'map': 'grid', 'targetFound': (1.0, 0.0), 'efficiency': (1.0, 0.0), 'correct': True, 'implicit': False}
+turn so that the wall is on your back
+## (do_until:<a,<t,a>> (do:<m,a> turn:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> (behind:<<p,t>,<p,t>> at:<p,t>) (definite:<<p,t>,<p,t>> wall:<p,t>))))
+%% LEFT(2,7,180)
+%% LEFT(2,7,90)
+%% NULL(2,7,0)
+walk forward once
+## (do_until:<a,<t,a>> (do:<m,a> travel:m) (steps:<n,t> 1:n))
+%% FORWARD(2,7,0)
+%% NULL(2,6,0)
+turn left
+## (do_until:<a,<t,a>> (do:<m,a> turn:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (left:<<p,t>,<p,t>> at0:<p,t>))))
+%% LEFT(2,6,0)
+%% NULL(2,6,270)
+walk forward once
+## (do_until:<a,<t,a>> (do:<m,a> travel:m) (steps:<n,t> 1:n))
+%% FORWARD(2,6,270)
+%% NULL(1,6,270)
+if you are at the intersection of red and pink, and there is a painting thing you are there
+## (do_if:<a,<t,a>> (do:<m,a> goal:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (intersection:<<p,t>*1,<p,t>> (hall:<c,<p,t>> brick:c) (hall:<c,<p,t>> rose:c)) easel:<p,t>)))
+%% GOAL(1,6,270)
+
+EDA_Jelly0_1_6_Dirs_1
+{'numFollowers': 6, 'confidence': (5.833333333333333, 0.37267799624996495), 'directionRating': (5.5, 0.5), 'valid': True, 'map': 'jelly', 'targetFound': (1.0, 0.0), 'efficiency': (1.0, 0.0), 'correct': True, 'implicit': False}
+turn so the wall is on your right side
+## (do_until:<a,<t,a>> (do:<m,a> turn:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> (right:<<p,t>,<p,t>> at:<p,t>) (definite:<<p,t>,<p,t>> wall:<p,t>))))
+%% LEFT(19,16,270)
+%% LEFT(19,16,180)
+%% NULL(19,16,90)
+walk forward once
+## (do_until:<a,<t,a>> (do:<m,a> travel:m) (steps:<n,t> 1:n))
+%% FORWARD(19,16,90)
+%% NULL(20,16,90)
+turn right
+## (do_until:<a,<t,a>> (do:<m,a> turn:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (right:<<p,t>,<p,t>> at0:<p,t>))))
+%% RIGHT(20,16,90)
+%% NULL(20,16,180)
+walk forward twice
+## (do_until:<a,<t,a>> (do:<m,a> travel:m) (steps:<n,t> 2:n))
+%% FORWARD(20,16,180)
+%% FORWARD(20,17,180)
+%% NULL(20,18,180)
+turn right
+## (do_until:<a,<t,a>> (do:<m,a> turn:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (right:<<p,t>,<p,t>> at0:<p,t>))))
+%% RIGHT(20,18,180)
+%% NULL(20,18,270)
+walk forward once
+## (do_until:<a,<t,a>> (do:<m,a> travel:m) (steps:<n,t> 1:n))
+%% FORWARD(20,18,270)
+%% NULL(19,18,270)
+turn left
+## (do_until:<a,<t,a>> (do:<m,a> turn:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (left:<<p,t>,<p,t>> at0:<p,t>))))
+%% LEFT(19,18,270)
+%% NULL(19,18,180)
+walk forward once
+## (do_until:<a,<t,a>> (do:<m,a> travel:m) (steps:<n,t> 1:n))
+%% FORWARD(19,18,180)
+%% NULL(19,19,180)
+turn right
+## (do_until:<a,<t,a>> (do:<m,a> turn:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (right:<<p,t>,<p,t>> at0:<p,t>))))
+%% RIGHT(19,19,180)
+%% NULL(19,19,270)
+walk forward once
+## (do_until:<a,<t,a>> (do:<m,a> travel:m) (steps:<n,t> 1:n))
+%% FORWARD(19,19,270)
+%% NULL(18,19,270)
+
+EDA_Jelly0_5_7_Dirs_1
+{'numFollowers': 7, 'confidence': (4.571428571428571, 1.7612611437054218), 'directionRating': (5.0, 1.4142135623730951), 'valid': True, 'map': 'jelly', 'targetFound': (0.8571428571428571, 0.3499271061118826), 'efficiency': (0.8571428571428571, 0.3499271061118826), 'correct': True, 'implicit': False}
+turn to face the easel
+## (do_until:<a,<t,a>> (do:<m,a> turn:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> (front:<<p,t>,<p,t>> at:<p,t>) easel:<p,t>)))
+%% LEFT(21,17,90)
+%% LEFT(21,17,0)
+%% NULL(21,17,270)
+walk forward once
+## (do_until:<a,<t,a>> (do:<m,a> travel:m) (steps:<n,t> 1:n))
+%% FORWARD(21,17,270)
+%% NULL(20,17,270)
+turn left
+## (do_until:<a,<t,a>> (do:<m,a> turn:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (left:<<p,t>,<p,t>> at0:<p,t>))))
+%% LEFT(20,17,270)
+%% NULL(20,17,180)
+walk forward once
+## (do_until:<a,<t,a>> (do:<m,a> travel:m) (steps:<n,t> 1:n))
+%% FORWARD(20,17,180)
+%% NULL(20,18,180)
+turn right
+## (do_until:<a,<t,a>> (do:<m,a> turn:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (right:<<p,t>,<p,t>> at0:<p,t>))))
+%% RIGHT(20,18,180)
+%% NULL(20,18,270)
+walk forward three times
+## (do_until:<a,<t,a>> (do:<m,a> travel:m) (steps:<n,t> 3:n))
+%% FORWARD(20,18,270)
+%% FORWARD(19,18,270)
+%% FORWARD(18,18,270)
+%% NULL(17,18,270)
+turn right, and walk forward once
+## (do_seq:<a+,a> (do_until:<a,<t,a>> (do:<m,a> turn:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (right:<<p,t>,<p,t>> at0:<p,t>)))) (do_until:<a,<t,a>> (do:<m,a> travel:m) (steps:<n,t> 1:n)))
+%% RIGHT(17,18,270)
+%% FORWARD(17,18,0)
+%% NULL(17,17,0)
+
+EDA_Grid0_4_1_Dirs_1
+{'numFollowers': 5, 'confidence': (5.0, 2.0), 'directionRating': (4.6, 1.9595917942265424), 'valid': True, 'map': 'grid', 'targetFound': (0.8, 0.4), 'efficiency': (0.8, 0.4), 'correct': True, 'implicit': False}
+turn to face the green hallway
+## (do_until:<a,<t,a>> (do:<m,a> turn:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> (front:<<p,t>,<p,t>> at:<p,t>) (hall:<c,<p,t>> grass:c))))
+%% LEFT(3,5,90)
+%% LEFT(3,5,0)
+%% NULL(3,5,270)
+walk forward twice
+## (do_until:<a,<t,a>> (do:<m,a> travel:m) (steps:<n,t> 2:n))
+%% FORWARD(3,5,270)
+%% FORWARD(2,5,270)
+%% NULL(1,5,270)
+turn left
+## (do_until:<a,<t,a>> (do:<m,a> turn:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (left:<<p,t>,<p,t>> at0:<p,t>))))
+%% LEFT(1,5,270)
+%% NULL(1,5,180)
+you should be facing the red hallway
+## (verify:<t,a> (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> (front:<<p,t>,<p,t>> at:<p,t>) (hall:<c,<p,t>> brick:c))))
+%% VERIFY(1,5,180)
+walk forward once
+## (do_until:<a,<t,a>> (do:<m,a> travel:m) (steps:<n,t> 1:n))
+%% FORWARD(1,5,180)
+%% NULL(1,6,180)
+
+EDA_L0_7_6_Dirs_1
+{'numFollowers': 4, 'confidence': (5.25, 0.4330127018922193), 'directionRating': (5.0, 0.7071067811865476), 'valid': True, 'map': 'l', 'targetFound': (0.0, 0.0), 'efficiency': (0.0, 0.0), 'correct': False, 'implicit': False}
+turn to face the honeycomb yellow floor
+## (do_until:<a,<t,a>> (do:<m,a> turn:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> (front:<<p,t>,<p,t>> at:<p,t>) (hall:<c,<p,t>> honeycomb:c))))
+%% LEFT(21,21,0)
+%% LEFT(21,21,270)
+%% NULL(21,21,180)
+walk forward once
+## (do_until:<a,<t,a>> (do:<m,a> travel:m) (steps:<n,t> 1:n))
+%% FORWARD(21,21,180)
+%% NULL(21,22,180)
+turn left
+## (do_until:<a,<t,a>> (do:<m,a> turn:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (left:<<p,t>,<p,t>> at0:<p,t>))))
+%% LEFT(21,22,180)
+%% NULL(21,22,90)
+walk forward once
+## (do_until:<a,<t,a>> (do:<m,a> travel:m) (steps:<n,t> 1:n))
+%% FORWARD(21,22,90)
+%% NULL(22,22,90)
+
+EDA_Jelly0_4_5_Dirs_1
+{'numFollowers': 5, 'confidence': (5.2, 0.9797958971132712), 'directionRating': (5.0, 0.8944271909999159), 'valid': True, 'map': 'jelly', 'targetFound': (1.0, 0.0), 'efficiency': (1.0, 0.0), 'correct': True, 'implicit': 'partial'}
+only one way to go
+## (verify:<t,a> (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> deadend:<p,t>)))
+%% VERIFY(15,20,0)
+walk forward twice
+## (do_until:<a,<t,a>> (do:<m,a> travel:m) (steps:<n,t> 2:n))
+%% FORWARD(15,20,0)
+%% FORWARD(15,19,0)
+%% NULL(15,18,0)
+turn right onto the blue hallway
+## (do_until:<a,<t,a>> (do:<m,a> turn:m) (and:<t*,t> (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (right:<<p,t>,<p,t>> at0:<p,t>))) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (hall:<c,<p,t>> blue:c)))))
+%% RIGHT(15,18,0)
+%% NULL(15,18,90)
+walk to the far end (maybe 5 spaces)
+## (do_until:<a,<t,a>> (do:<m,a> travel:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (end:<<p,t>,<p,t>> (hall:<c,<p,t>> any:c)))))
+%% FORWARD(15,18,90)
+%% FORWARD(16,18,90)
+%% FORWARD(17,18,90)
+%% FORWARD(18,18,90)
+%% FORWARD(19,18,90)
+%% NULL(20,18,90)
+turn left and walk forward once
+## (do_seq:<a+,a> (do_until:<a,<t,a>> (do:<m,a> turn:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (left:<<p,t>,<p,t>> at0:<p,t>)))) (do_until:<a,<t,a>> (do:<m,a> travel:m) (steps:<n,t> 1:n)))
+%% LEFT(20,18,90)
+%% FORWARD(20,18,0)
+%% NULL(20,17,0)
+turn right and walk forward once
+## (do_seq:<a+,a> (do_until:<a,<t,a>> (do:<m,a> turn:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (right:<<p,t>,<p,t>> at0:<p,t>)))) (do_until:<a,<t,a>> (do:<m,a> travel:m) (steps:<n,t> 1:n)))
+%% RIGHT(20,17,0)
+%% FORWARD(20,17,90)
+%% NULL(21,17,90)
+
+EDA_Jelly0_6_3_Dirs_1
+{'numFollowers': 6, 'confidence': (5.833333333333333, 0.37267799624996495), 'directionRating': (5.333333333333333, 0.7453559924999298), 'valid': True, 'map': 'jelly', 'targetFound': (0.8333333333333334, 0.37267799624996495), 'efficiency': (0.8333333333333334, 0.37267799624996495), 'correct': True, 'implicit': 'partial'}
+only one way to go
+## (verify:<t,a> (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> deadend:<p,t>)))
+%% VERIFY(18,19,90)
+walk forward once
+## (do_until:<a,<t,a>> (do:<m,a> travel:m) (steps:<n,t> 1:n))
+%% FORWARD(18,19,90)
+%% NULL(19,19,90)
+turn left
+## (do_until:<a,<t,a>> (do:<m,a> turn:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (left:<<p,t>,<p,t>> at0:<p,t>))))
+%% LEFT(19,19,90)
+%% NULL(19,19,0)
+walk forward once
+## (do_until:<a,<t,a>> (do:<m,a> travel:m) (steps:<n,t> 1:n))
+%% FORWARD(19,19,0)
+%% NULL(19,18,0)
+turn left
+## (do_until:<a,<t,a>> (do:<m,a> turn:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (left:<<p,t>,<p,t>> at0:<p,t>))))
+%% LEFT(19,18,0)
+%% NULL(19,18,270)
+walk forward three times
+## (do_until:<a,<t,a>> (do:<m,a> travel:m) (steps:<n,t> 3:n))
+%% FORWARD(19,18,270)
+%% FORWARD(18,18,270)
+%% FORWARD(17,18,270)
+%% NULL(16,18,270)
+
+EDA_Grid0_2_3_Dirs_1
+{'numFollowers': 5, 'confidence': (5.2, 0.7483314773547882), 'directionRating': (5.0, 0.8944271909999159), 'valid': True, 'map': 'grid', 'targetFound': (1.0, 0.0), 'efficiency': (1.0, 0.0), 'correct': True, 'implicit': False}
+turn so the wall is on your left
+## (do_until:<a,<t,a>> (do:<m,a> turn:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> (left:<<p,t>,<p,t>> at:<p,t>) (definite:<<p,t>,<p,t>> wall:<p,t>))))
+%% LEFT(3,8,90)
+%% LEFT(3,8,0)
+%% NULL(3,8,270)
+walk forward three times
+## (do_until:<a,<t,a>> (do:<m,a> travel:m) (steps:<n,t> 3:n))
+%% FORWARD(3,8,270)
+%% FORWARD(2,8,270)
+%% FORWARD(1,8,270)
+%% NULL(0,8,270)
+turn left
+## (do_until:<a,<t,a>> (do:<m,a> turn:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (left:<<p,t>,<p,t>> at0:<p,t>))))
+%% LEFT(0,8,270)
+%% NULL(0,8,180)
+walk forward once
+## (do_until:<a,<t,a>> (do:<m,a> travel:m) (steps:<n,t> 1:n))
+%% FORWARD(0,8,180)
+%% NULL(0,9,180)
+
+EDA_Grid0_2_5_Dirs_1
+{'numFollowers': 4, 'confidence': (4.75, 1.299038105676658), 'directionRating': (4.0, 1.224744871391589), 'valid': True, 'map': 'grid', 'targetFound': (1.0, 0.0), 'efficiency': (0.909091, 0.15745900686527906), 'correct': True, 'implicit': False}
+turn so the wall is on your left
+## (do_until:<a,<t,a>> (do:<m,a> turn:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> (left:<<p,t>,<p,t>> at:<p,t>) (definite:<<p,t>,<p,t>> wall:<p,t>))))
+%% LEFT(3,8,90)
+%% LEFT(3,8,0)
+%% NULL(3,8,270)
+walk forward twice, or until you reach the blue hallway
+## (do_until:<a,<t,a>> (do:<m,a> travel:m) (or:<t*,t> (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (intersection:<<p,t>*1,<p,t>> (hall:<c,<p,t>> blue:c)))) (steps:<n,t> 2:n)))
+%% FORWARD(3,8,270)
+%% FORWARD(2,8,270)
+%% FORWARD(1,8,270)
+%% NULL(0,8,270)
+turn left
+## (do_until:<a,<t,a>> (do:<m,a> turn:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (left:<<p,t>,<p,t>> at0:<p,t>))))
+%% LEFT(0,8,270)
+%% NULL(0,8,180)
+walk forward three times
+## (do_until:<a,<t,a>> (do:<m,a> travel:m) (steps:<n,t> 3:n))
+%% FORWARD(0,8,180)
+%% FORWARD(0,9,180)
+%% FORWARD(0,10,180)
+%% NULL(0,11,180)
+turn left
+## (do_until:<a,<t,a>> (do:<m,a> turn:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (left:<<p,t>,<p,t>> at0:<p,t>))))
+%% LEFT(0,11,180)
+%% NULL(0,11,90)
+walk forward once
+## (do_until:<a,<t,a>> (do:<m,a> travel:m) (steps:<n,t> 1:n))
+%% FORWARD(0,11,90)
+%% NULL(1,11,90)
+
+EDA_Jelly0_1_7_Dirs_1
+{'numFollowers': 7, 'confidence': (5.428571428571429, 0.7284313590846834), 'directionRating': (5.0, 1.1952286093343936), 'valid': True, 'map': 'jelly', 'targetFound': (0.7142857142857143, 0.45175395145262565), 'efficiency': (0.7142857142857143, 0.45175395145262565), 'correct': True, 'implicit': False}
+turn to where the wall is on your left side
+## (do_until:<a,<t,a>> (do:<m,a> turn:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> (left:<<p,t>,<p,t>> at:<p,t>) (definite:<<p,t>,<p,t>> wall:<p,t>))))
+%% LEFT(19,16,90)
+%% LEFT(19,16,0)
+%% NULL(19,16,270)
+walk forward once
+## (do_until:<a,<t,a>> (do:<m,a> travel:m) (steps:<n,t> 1:n))
+%% FORWARD(19,16,270)
+%% NULL(18,16,270)
+turn left
+## (do_until:<a,<t,a>> (do:<m,a> turn:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (left:<<p,t>,<p,t>> at0:<p,t>))))
+%% LEFT(18,16,270)
+%% NULL(18,16,180)
+walk forward once
+## (do_until:<a,<t,a>> (do:<m,a> travel:m) (steps:<n,t> 1:n))
+%% FORWARD(18,16,180)
+%% NULL(18,17,180)
+turn right
+## (do_until:<a,<t,a>> (do:<m,a> turn:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (right:<<p,t>,<p,t>> at0:<p,t>))))
+%% RIGHT(18,17,180)
+%% NULL(18,17,270)
+walk forward once
+## (do_until:<a,<t,a>> (do:<m,a> travel:m) (steps:<n,t> 1:n))
+%% FORWARD(18,17,270)
+%% NULL(17,17,270)
+
+EDA_Grid0_1_2_Dirs_1
+{'numFollowers': 5, 'confidence': (5.0, 0.8944271909999159), 'directionRating': (5.0, 0.6324555320336759), 'valid': True, 'map': 'grid', 'targetFound': (1.0, 0.0), 'efficiency': (1.0, 0.0), 'correct': True, 'implicit': False}
+turn to face the long red hallway
+## (do_until:<a,<t,a>> (do:<m,a> turn:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> (front:<<p,t>,<p,t>> at:<p,t>) (hall:<c,<p,t>> brick:c))))
+%% LEFT(1,6,0)
+%% LEFT(1,6,270)
+%% NULL(1,6,180)
+walk forward twice
+## (do_until:<a,<t,a>> (do:<m,a> travel:m) (steps:<n,t> 2:n))
+%% FORWARD(1,6,180)
+%% FORWARD(1,7,180)
+%% NULL(1,8,180)
+turn left
+## (do_until:<a,<t,a>> (do:<m,a> turn:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (left:<<p,t>,<p,t>> at0:<p,t>))))
+%% LEFT(1,8,180)
+%% NULL(1,8,90)
+walk forward twice
+## (do_until:<a,<t,a>> (do:<m,a> travel:m) (steps:<n,t> 2:n))
+%% FORWARD(1,8,90)
+%% FORWARD(2,8,90)
+%% NULL(3,8,90)
+
+EDA_L0_3_2_Dirs_1
+{'numFollowers': 6, 'confidence': (5.166666666666667, 1.0671873729054748), 'directionRating': (5.0, 1.0), 'valid': True, 'map': 'l', 'targetFound': (0.8333333333333334, 0.37267799624996495), 'efficiency': (0.8333333333333334, 0.37267799624996495), 'correct': True, 'implicit': 'partial'}
+only one direction to go
+## (verify:<t,a> (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> deadend:<p,t>)))
+%% VERIFY(19,23,180)
+walk forward once
+## (do_until:<a,<t,a>> (do:<m,a> travel:m) (steps:<n,t> 1:n))
+%% FORWARD(19,23,180)
+%% NULL(19,24,180)
+turn left
+## (do_until:<a,<t,a>> (do:<m,a> turn:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (left:<<p,t>,<p,t>> at0:<p,t>))))
+%% LEFT(19,24,180)
+%% NULL(19,24,90)
+walk forward twice
+## (do_until:<a,<t,a>> (do:<m,a> travel:m) (steps:<n,t> 2:n))
+%% FORWARD(19,24,90)
+%% FORWARD(20,24,90)
+%% NULL(21,24,90)
+turn left
+## (do_until:<a,<t,a>> (do:<m,a> turn:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (left:<<p,t>,<p,t>> at0:<p,t>))))
+%% LEFT(21,24,90)
+%% NULL(21,24,0)
+walk forward once
+## (do_until:<a,<t,a>> (do:<m,a> travel:m) (steps:<n,t> 1:n))
+%% FORWARD(21,24,0)
+%% NULL(21,23,0)
+
+EDA_L0_4_5_Dirs_1
+{'numFollowers': 7, 'confidence': (6.0, 0.0), 'directionRating': (5.714285714285714, 0.45175395145262554), 'valid': True, 'map': 'l', 'targetFound': (1.0, 0.0), 'efficiency': (1.0, 0.0), 'correct': True, 'implicit': False}
+turn and face the blue floored hallway so that the pink floored hallway is on your left and the wall is on your right
+## (do_until:<a,<t,a>> (do:<m,a> turn:m) (and:<t*,t> (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> (front:<<p,t>,<p,t>> at:<p,t>) (hall:<c,<p,t>> blue:c))) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> (left:<<p,t>,<p,t>> at:<p,t>) (hall:<c,<p,t>> rose:c))) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> (right:<<p,t>,<p,t>> at:<p,t>) (definite:<<p,t>,<p,t>> wall:<p,t>)))))
+%% LEFT(24,21,180)
+%% LEFT(24,21,90)
+%% NULL(24,21,0)
+walk forward twice
+## (do_until:<a,<t,a>> (do:<m,a> travel:m) (steps:<n,t> 2:n))
+%% FORWARD(24,21,0)
+%% FORWARD(24,20,0)
+%% NULL(24,19,0)
+turn left and walk forward once
+## (do_seq:<a+,a> (do_until:<a,<t,a>> (do:<m,a> turn:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (left:<<p,t>,<p,t>> at0:<p,t>)))) (do_until:<a,<t,a>> (do:<m,a> travel:m) (steps:<n,t> 1:n)))
+%% LEFT(24,19,0)
+%% FORWARD(24,19,270)
+%% NULL(23,19,270)
+you should be facing a wall with red floors on both sides
+## (verify:<t,a> (and:<t*,t> (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (definite:<<p,t>,<p,t>> wall:<p,t>))) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> (left:<<p,t>,<p,t>> at:<p,t>) (hall:<c,<p,t>> brick:c))) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> (right:<<p,t>,<p,t>> at:<p,t>) (hall:<c,<p,t>> brick:c)))))
+%% VERIFY(23,19,270)
+turn right and walk forward once
+## (do_seq:<a+,a> (do_until:<a,<t,a>> (do:<m,a> turn:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (right:<<p,t>,<p,t>> at0:<p,t>)))) (do_until:<a,<t,a>> (do:<m,a> travel:m) (steps:<n,t> 1:n)))
+%% RIGHT(23,19,270)
+%% FORWARD(23,19,0)
+%% NULL(23,18,0)
+
+EDA_L0_7_3_Dirs_1
+{'numFollowers': 5, 'confidence': (6.0, 0.0), 'directionRating': (6.0, 0.0), 'valid': True, 'map': 'l', 'targetFound': (1.0, 0.0), 'efficiency': (1.0, 0.0), 'correct': True, 'implicit': False}
+turn to face the yellow hallway
+## (do_until:<a,<t,a>> (do:<m,a> turn:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> (front:<<p,t>,<p,t>> at:<p,t>) (hall:<c,<p,t>> honeycomb:c))))
+%% LEFT(21,21,0)
+%% LEFT(21,21,270)
+%% NULL(21,21,180)
+walk forward three times
+## (do_until:<a,<t,a>> (do:<m,a> travel:m) (steps:<n,t> 3:n))
+%% FORWARD(21,21,180)
+%% FORWARD(21,22,180)
+%% FORWARD(21,23,180)
+%% NULL(21,24,180)
+turn right
+## (do_until:<a,<t,a>> (do:<m,a> turn:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (right:<<p,t>,<p,t>> at0:<p,t>))))
+%% RIGHT(21,24,180)
+%% NULL(21,24,270)
+walk forward twice
+## (do_until:<a,<t,a>> (do:<m,a> travel:m) (steps:<n,t> 2:n))
+%% FORWARD(21,24,270)
+%% FORWARD(20,24,270)
+%% NULL(19,24,270)
+turn right
+## (do_until:<a,<t,a>> (do:<m,a> turn:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (right:<<p,t>,<p,t>> at0:<p,t>))))
+%% RIGHT(19,24,270)
+%% NULL(19,24,0)
+walk forward once
+## (do_until:<a,<t,a>> (do:<m,a> travel:m) (steps:<n,t> 1:n))
+%% FORWARD(19,24,0)
+%% NULL(19,23,0)
+
+EDA_L0_5_2_Dirs_1
+{'numFollowers': 6, 'confidence': (5.166666666666667, 0.8975274678557507), 'directionRating': (5.0, 1.0), 'valid': True, 'map': 'l', 'targetFound': (1.0, 0.0), 'efficiency': (1.0, 0.0), 'correct': True, 'implicit': False}
+turn so that the wall is on your right
+## (do_until:<a,<t,a>> (do:<m,a> turn:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> (right:<<p,t>,<p,t>> at:<p,t>) (definite:<<p,t>,<p,t>> wall:<p,t>))))
+%% LEFT(23,18,0)
+%% LEFT(23,18,270)
+%% NULL(23,18,180)
+walk forward five times
+## (do_until:<a,<t,a>> (do:<m,a> travel:m) (steps:<n,t> 5:n))
+%% FORWARD(23,18,180)
+%% FORWARD(23,19,180)
+%% FORWARD(23,20,180)
+%% FORWARD(23,21,180)
+%% FORWARD(23,22,180)
+%% NULL(23,23,180)
+turn right
+## (do_until:<a,<t,a>> (do:<m,a> turn:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (right:<<p,t>,<p,t>> at0:<p,t>))))
+%% RIGHT(23,23,180)
+%% NULL(23,23,270)
+walk forward twice
+## (do_until:<a,<t,a>> (do:<m,a> travel:m) (steps:<n,t> 2:n))
+%% FORWARD(23,23,270)
+%% FORWARD(22,23,270)
+%% NULL(21,23,270)
+
+EDA_Grid0_4_5_Dirs_1
+{'numFollowers': 4, 'confidence': (5.75, 0.4330127018922193), 'directionRating': (5.75, 0.4330127018922193), 'valid': True, 'map': 'grid', 'targetFound': (1.0, 0.0), 'efficiency': (1.0, 0.0), 'correct': True, 'implicit': False}
+turn to face the green hallway
+## (do_until:<a,<t,a>> (do:<m,a> turn:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> (front:<<p,t>,<p,t>> at:<p,t>) (hall:<c,<p,t>> grass:c))))
+%% LEFT(3,5,90)
+%% LEFT(3,5,0)
+%% NULL(3,5,270)
+walk three times forward
+## (do_until:<a,<t,a>> (do:<m,a> travel:m) (steps:<n,t> 3:n))
+%% FORWARD(3,5,270)
+%% FORWARD(2,5,270)
+%% FORWARD(1,5,270)
+%% NULL(0,5,270)
+turn left
+## (do_until:<a,<t,a>> (do:<m,a> turn:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (left:<<p,t>,<p,t>> at0:<p,t>))))
+%% LEFT(0,5,270)
+%% NULL(0,5,180)
+walk forward six times
+## (do_until:<a,<t,a>> (do:<m,a> travel:m) (steps:<n,t> 6:n))
+%% FORWARD(0,5,180)
+%% FORWARD(0,6,180)
+%% FORWARD(0,7,180)
+%% FORWARD(0,8,180)
+%% FORWARD(0,9,180)
+%% FORWARD(0,10,180)
+%% NULL(0,11,180)
+turn left
+## (do_until:<a,<t,a>> (do:<m,a> turn:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (left:<<p,t>,<p,t>> at0:<p,t>))))
+%% LEFT(0,11,180)
+%% NULL(0,11,90)
+walk forward once
+## (do_until:<a,<t,a>> (do:<m,a> travel:m) (steps:<n,t> 1:n))
+%% FORWARD(0,11,90)
+%% NULL(1,11,90)
+
+EDA_Grid0_5_4_Dirs_1
+{'numFollowers': 6, 'confidence': (5.0, 0.816496580927726), 'directionRating': (4.5, 0.7637626158259733), 'valid': False, 'map': 'grid', 'targetFound': (1.0, 0.0), 'efficiency': (1.0, 0.0), 'correct': False, 'implicit': False}
+turn so that the wall is on your right and back
+walk forward once
+turn right
+walk forward six times
+you should be at the end of the hallway
+turn right
+walk forward four times
+you should be at the end of the hallway again
+
+EDA_Jelly0_6_4_Dirs_1
+{'numFollowers': 4, 'confidence': (6.0, 0.0), 'directionRating': (5.0, 1.224744871391589), 'valid': True, 'map': 'jelly', 'targetFound': (1.0, 0.0), 'efficiency': (1.0, 0.0), 'correct': True, 'implicit': 'partial'}
+only one direction to go
+## (verify:<t,a> (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> deadend:<p,t>)))
+%% VERIFY(18,19,90)
+walk forward once
+## (do_until:<a,<t,a>> (do:<m,a> travel:m) (steps:<n,t> 1:n))
+%% FORWARD(18,19,90)
+%% NULL(19,19,90)
+turn left
+## (do_until:<a,<t,a>> (do:<m,a> turn:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (left:<<p,t>,<p,t>> at0:<p,t>))))
+%% LEFT(19,19,90)
+%% NULL(19,19,0)
+walk forward once
+## (do_until:<a,<t,a>> (do:<m,a> travel:m) (steps:<n,t> 1:n))
+%% FORWARD(19,19,0)
+%% NULL(19,18,0)
+turn left
+## (do_until:<a,<t,a>> (do:<m,a> turn:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (left:<<p,t>,<p,t>> at0:<p,t>))))
+%% LEFT(19,18,0)
+%% NULL(19,18,270)
+walk forward about four times until you reach the yellow floors
+## (do_until:<a,<t,a>> (do:<m,a> travel:m) (and:<t*,t> (steps:<n,t> 4:n) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (intersection:<<p,t>*1,<p,t>> (hall:<c,<p,t>> honeycomb:c))))))
+%% FORWARD(19,18,270)
+%% FORWARD(18,18,270)
+%% FORWARD(17,18,270)
+%% FORWARD(16,18,270)
+%% NULL(15,18,270)
+turn left at the yellow floors and walk to the end of the hall
+## (do_seq:<a+,a> (do_until:<a,<t,a>> (do:<m,a> turn:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (left:<<p,t>,<p,t>> at0:<p,t>)))) (do_until:<a,<t,a>> (do:<m,a> travel:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (end:<<p,t>,<p,t>> (hall:<c,<p,t>> any:c))))))
+%% LEFT(15,18,270)
+%% FORWARD(15,18,180)
+%% FORWARD(15,19,180)
+%% NULL(15,20,180)
+
+EDA_L0_2_1_Dirs_1
+{'numFollowers': 5, 'confidence': (2.0, 1.5491933384829668), 'directionRating': (2.8, 1.8330302779823362), 'valid': False, 'map': 'l', 'targetFound': (0.2, 0.4000000000000001), 'efficiency': (0.1636364, 0.3272728), 'correct': False, 'implicit': False}
+turn to face the short black hallway with the easel at the end
+from this point, turn right
+walk down the yellow floored hallway twice
+turn to the right and walk forward three times
+you should be at the interection of the pink and red floors
+turn left and walk forward four times
+turn left and walk forward once
+
+EDA_L0_1_2_Dirs_1
+{'numFollowers': 5, 'confidence': (3.2, 2.039607805437114), 'directionRating': (3.0, 2.0976176963403033), 'valid': False, 'map': 'l', 'targetFound': (0.0, 0.0), 'efficiency': (0.0, 0.0), 'correct': False, 'implicit': False}
+turn to face the brown floored hallway so that the chair is on your right
+walk forward once
+turn right
+walk forward five times
+turn right
+walk forward three times
+
+EDA_Grid0_4_2_Dirs_1
+{'numFollowers': 4, 'confidence': (5.5, 0.8660254037844386), 'directionRating': (5.25, 0.82915619758885), 'valid': True, 'map': 'grid', 'targetFound': (1.0, 0.0), 'efficiency': (1.0, 0.0), 'correct': True, 'implicit': False}
+turn to face the yellow hallway
+## (do_until:<a,<t,a>> (do:<m,a> turn:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> (front:<<p,t>,<p,t>> at:<p,t>) (hall:<c,<p,t>> honeycomb:c))))
+%% LEFT(3,5,0)
+%% LEFT(3,5,270)
+%% NULL(3,5,180)
+walk forward three times
+## (do_until:<a,<t,a>> (do:<m,a> travel:m) (steps:<n,t> 3:n))
+%% FORWARD(3,5,180)
+%% FORWARD(3,6,180)
+%% FORWARD(3,7,180)
+%% NULL(3,8,180)
+
+EDA_Grid0_1_5_Dirs_1
+{'numFollowers': 7, 'confidence': (5.285714285714286, 0.6998542122237652), 'directionRating': (4.857142857142857, 0.8329931278350429), 'valid': False, 'map': 'grid', 'targetFound': (0.7142857142857143, 0.45175395145262565), 'efficiency': (0.7142857142857143, 0.45175395145262565), 'correct': False, 'implicit': False}
+turn to face the pink hallway so that the painting easel is on your back left side
+walk forward once
+turn left
+you should be facing the blue hallway
+walk forward five times
+turn left
+walk forward once
+
+EDA_Grid0_1_3_Dirs_1
+{'numFollowers': 4, 'confidence': (5.5, 0.5), 'directionRating': (5.25, 0.82915619758885), 'valid': True, 'map': 'grid', 'targetFound': (1.0, 0.0), 'efficiency': (1.0, 0.0), 'correct': True, 'implicit': False}
+turn to face the long red hallway
+## (do_until:<a,<t,a>> (do:<m,a> turn:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> (front:<<p,t>,<p,t>> at:<p,t>) (hall:<c,<p,t>> brick:c))))
+%% LEFT(1,6,0)
+%% LEFT(1,6,270)
+%% NULL(1,6,180)
+walk forward three times
+## (do_until:<a,<t,a>> (do:<m,a> travel:m) (steps:<n,t> 3:n))
+%% FORWARD(1,6,180)
+%% FORWARD(1,7,180)
+%% FORWARD(1,8,180)
+%% NULL(1,9,180)
+turn right
+## (do_until:<a,<t,a>> (do:<m,a> turn:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (right:<<p,t>,<p,t>> at0:<p,t>))))
+%% RIGHT(1,9,180)
+%% NULL(1,9,270)
+walk forward once
+## (do_until:<a,<t,a>> (do:<m,a> travel:m) (steps:<n,t> 1:n))
+%% FORWARD(1,9,270)
+%% NULL(0,9,270)
+
+EDA_Jelly0_7_2_Dirs_2
+{'numFollowers': 5, 'confidence': (4.6, 0.48989794855663565), 'directionRating': (4.0, 0.8944271909999159), 'valid': True, 'map': 'jelly', 'targetFound': (0.8, 0.4000000000000001), 'efficiency': (0.8, 0.4000000000000001), 'correct': True, 'implicit': False}
+turn so that the wall is to your back
+## (do_until:<a,<t,a>> (do:<m,a> turn:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> (behind:<<p,t>,<p,t>> at:<p,t>) (definite:<<p,t>,<p,t>> wall:<p,t>))))
+%% LEFT(17,17,0)
+%% LEFT(17,17,270)
+%% NULL(17,17,180)
+walk forward once
+## (do_until:<a,<t,a>> (do:<m,a> travel:m) (steps:<n,t> 1:n))
+%% FORWARD(17,17,180)
+%% NULL(17,18,180)
+turn left
+## (do_until:<a,<t,a>> (do:<m,a> turn:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (left:<<p,t>,<p,t>> at0:<p,t>))))
+%% LEFT(17,18,180)
+%% NULL(17,18,90)
+walk forward till the end of the hallway (maybe 3 spaces?)
+## (do_until:<a,<t,a>> (do:<m,a> travel:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (end:<<p,t>,<p,t>> (hall:<c,<p,t>> any:c)))))
+%% FORWARD(17,18,90)
+%% FORWARD(18,18,90)
+%% FORWARD(19,18,90)
+%% NULL(20,18,90)
+turn left
+## (do_until:<a,<t,a>> (do:<m,a> turn:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (left:<<p,t>,<p,t>> at0:<p,t>))))
+%% LEFT(20,18,90)
+%% NULL(20,18,0)
+walk forward
+## (do:<m,a> travel:m)
+%% FORWARD(20,18,0)
+%% NULL(20,17,0)
+turn right
+## (do_until:<a,<t,a>> (do:<m,a> turn:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (right:<<p,t>,<p,t>> at0:<p,t>))))
+%% RIGHT(20,17,0)
+%% NULL(20,17,90)
+walk forward twice
+## (do_until:<a,<t,a>> (do:<m,a> travel:m) (steps:<n,t> 2:n))
+%% FORWARD(20,17,90)
+%% FORWARD(21,17,90)
+%% NULL(22,17,90)
+turn left
+## (do_until:<a,<t,a>> (do:<m,a> turn:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (left:<<p,t>,<p,t>> at0:<p,t>))))
+%% LEFT(22,17,90)
+%% NULL(22,17,0)
+walk forward
+## (do:<m,a> travel:m)
+%% FORWARD(22,17,0)
+%% NULL(22,16,0)
+turn right
+## (do_until:<a,<t,a>> (do:<m,a> turn:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (right:<<p,t>,<p,t>> at0:<p,t>))))
+%% RIGHT(22,16,0)
+%% NULL(22,16,90)
+walk forward
+## (do:<m,a> travel:m)
+%% FORWARD(22,16,90)
+%% NULL(23,16,90)
+
+EDA_L0_3_7_Dirs_1
+{'numFollowers': 5, 'confidence': (5.0, 2.0), 'directionRating': (5.0, 1.2649110640673518), 'valid': True, 'map': 'l', 'targetFound': (0.8, 0.4), 'efficiency': (0.8, 0.4), 'correct': True, 'implicit': 'partial'}
+only one direction to go
+## (verify:<t,a> (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> deadend:<p,t>)))
+%% VERIFY(19,23,180)
+walk forward
+## (do:<m,a> travel:m)
+%% FORWARD(19,23,180)
+%% NULL(19,24,180)
+turn left
+## (do_until:<a,<t,a>> (do:<m,a> turn:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (left:<<p,t>,<p,t>> at0:<p,t>))))
+%% LEFT(19,24,180)
+%% NULL(19,24,90)
+walk forward twice
+## (do_until:<a,<t,a>> (do:<m,a> travel:m) (steps:<n,t> 2:n))
+%% FORWARD(19,24,90)
+%% FORWARD(20,24,90)
+%% NULL(21,24,90)
+turn left
+## (do_until:<a,<t,a>> (do:<m,a> turn:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (left:<<p,t>,<p,t>> at0:<p,t>))))
+%% LEFT(21,24,90)
+%% NULL(21,24,0)
+walk forward three times
+## (do_until:<a,<t,a>> (do:<m,a> travel:m) (steps:<n,t> 3:n))
+%% FORWARD(21,24,0)
+%% FORWARD(21,23,0)
+%% FORWARD(21,22,0)
+%% NULL(21,21,0)
+
+EDA_Grid0_5_2_Dirs_1
+{'numFollowers': 4, 'confidence': (5.5, 0.5), 'directionRating': (4.25, 1.0897247358851685), 'valid': True, 'map': 'grid', 'targetFound': (1.0, 0.0), 'efficiency': (0.85294125, 0.25471322669756963), 'correct': True, 'implicit': False}
+turn so that the wall is on your right and back
+## (do_until:<a,<t,a>> (do:<m,a> turn:m) (and:<t*,t> (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> (right:<<p,t>,<p,t>> at:<p,t>) (definite:<<p,t>,<p,t>> wall:<p,t>))) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> (behind:<<p,t>,<p,t>> at:<p,t>) (definite:<<p,t>,<p,t>> wall:<p,t>)))))
+%% LEFT(1,11,90)
+%% LEFT(1,11,0)
+%% NULL(1,11,270)
+walk forward once
+## (do_until:<a,<t,a>> (do:<m,a> travel:m) (steps:<n,t> 1:n))
+%% FORWARD(1,11,270)
+%% NULL(0,11,270)
+turn right
+## (do_until:<a,<t,a>> (do:<m,a> turn:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (right:<<p,t>,<p,t>> at0:<p,t>))))
+%% RIGHT(0,11,270)
+%% NULL(0,11,0)
+walk forward three times
+## (do_until:<a,<t,a>> (do:<m,a> travel:m) (steps:<n,t> 3:n))
+%% FORWARD(0,11,0)
+%% FORWARD(0,10,0)
+%% FORWARD(0,9,0)
+%% NULL(0,8,0)
+turn right to face the black hallway
+## (do_until:<a,<t,a>> (do:<m,a> turn:m) (and:<t*,t> (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (right:<<p,t>,<p,t>> at0:<p,t>))) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> (front:<<p,t>,<p,t>> at:<p,t>) (hall:<c,<p,t>> stone:c)))))
+%% RIGHT(0,8,0)
+%% NULL(0,8,90)
+walk forward three times
+## (do_until:<a,<t,a>> (do:<m,a> travel:m) (steps:<n,t> 3:n))
+%% FORWARD(0,8,90)
+%% FORWARD(1,8,90)
+%% FORWARD(2,8,90)
+%% NULL(3,8,90)
+if you are in the right place you should be at the intersection of black and yellow
+## (do_if:<a,<t,a>> (do:<m,a> goal:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (intersection:<<p,t>*1,<p,t>> (hall:<c,<p,t>> stone:c) (hall:<c,<p,t>> honeycomb:c)))))
+%% GOAL(3,8,90)
+
+EDA_Jelly0_6_1_Dirs_1
+{'numFollowers': 6, 'confidence': (5.666666666666667, 0.4714045207910317), 'directionRating': (5.5, 0.5), 'valid': True, 'map': 'jelly', 'targetFound': (1.0, 0.0), 'efficiency': (1.0, 0.0), 'correct': True, 'implicit': 'partial'}
+only one direction to go
+## (verify:<t,a> (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> deadend:<p,t>)))
+%% VERIFY(18,19,90)
+walk forward once
+## (do_until:<a,<t,a>> (do:<m,a> travel:m) (steps:<n,t> 1:n))
+%% FORWARD(18,19,90)
+%% NULL(19,19,90)
+turn left
+## (do_until:<a,<t,a>> (do:<m,a> turn:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (left:<<p,t>,<p,t>> at0:<p,t>))))
+%% LEFT(19,19,90)
+%% NULL(19,19,0)
+walk forward once
+## (do_until:<a,<t,a>> (do:<m,a> travel:m) (steps:<n,t> 1:n))
+%% FORWARD(19,19,0)
+%% NULL(19,18,0)
+turn right
+## (do_until:<a,<t,a>> (do:<m,a> turn:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (right:<<p,t>,<p,t>> at0:<p,t>))))
+%% RIGHT(19,18,0)
+%% NULL(19,18,90)
+walk forward to the end of the hallway
+## (do_until:<a,<t,a>> (do:<m,a> travel:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (end:<<p,t>,<p,t>> (hall:<c,<p,t>> any:c)))))
+%% FORWARD(19,18,90)
+%% NULL(20,18,90)
+turn left
+## (do_until:<a,<t,a>> (do:<m,a> turn:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (left:<<p,t>,<p,t>> at0:<p,t>))))
+%% LEFT(20,18,90)
+%% NULL(20,18,0)
+walk forward twice
+## (do_until:<a,<t,a>> (do:<m,a> travel:m) (steps:<n,t> 2:n))
+%% FORWARD(20,18,0)
+%% FORWARD(20,17,0)
+%% NULL(20,16,0)
+turn left
+## (do_until:<a,<t,a>> (do:<m,a> turn:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (left:<<p,t>,<p,t>> at0:<p,t>))))
+%% LEFT(20,16,0)
+%% NULL(20,16,270)
+walk forward once
+## (do_until:<a,<t,a>> (do:<m,a> travel:m) (steps:<n,t> 1:n))
+%% FORWARD(20,16,270)
+%% NULL(19,16,270)
+
+EDA_Grid0_2_7_Dirs_1
+{'numFollowers': 4, 'confidence': (5.5, 0.5), 'directionRating': (5.5, 0.5), 'valid': True, 'map': 'grid', 'targetFound': (0.0, 0.0), 'efficiency': (0.0, 0.0), 'correct': False, 'implicit': False}
+turn so the wall is on your left
+## (do_until:<a,<t,a>> (do:<m,a> turn:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> (left:<<p,t>,<p,t>> at:<p,t>) (definite:<<p,t>,<p,t>> wall:<p,t>))))
+%% LEFT(3,8,90)
+%% LEFT(3,8,0)
+%% NULL(3,8,270)
+walk forward once
+## (do_until:<a,<t,a>> (do:<m,a> travel:m) (steps:<n,t> 1:n))
+%% FORWARD(3,8,270)
+%% NULL(2,8,270)
+turn left
+## (do_until:<a,<t,a>> (do:<m,a> turn:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (left:<<p,t>,<p,t>> at0:<p,t>))))
+%% LEFT(2,8,270)
+%% NULL(2,8,180)
+walk forward once
+## (do_until:<a,<t,a>> (do:<m,a> travel:m) (steps:<n,t> 1:n))
+%% FORWARD(2,8,180)
+%% NULL(2,9,180)
+
+EDA_L0_4_3_Dirs_1
+{'numFollowers': 7, 'confidence': (5.857142857142857, 0.3499271061118826), 'directionRating': (5.428571428571429, 0.7284313590846834), 'valid': True, 'map': 'l', 'targetFound': (1.0, 0.0), 'efficiency': (1.0, 0.0), 'correct': True, 'implicit': False}
+turn to face the pink hallway
+## (do_until:<a,<t,a>> (do:<m,a> turn:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> (front:<<p,t>,<p,t>> at:<p,t>) (hall:<c,<p,t>> rose:c))))
+%% LEFT(24,21,90)
+%% LEFT(24,21,0)
+%% NULL(24,21,270)
+walk forward three times
+## (do_until:<a,<t,a>> (do:<m,a> travel:m) (steps:<n,t> 3:n))
+%% FORWARD(24,21,270)
+%% FORWARD(23,21,270)
+%% FORWARD(22,21,270)
+%% NULL(21,21,270)
+turn left
+## (do_until:<a,<t,a>> (do:<m,a> turn:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (left:<<p,t>,<p,t>> at0:<p,t>))))
+%% LEFT(21,21,270)
+%% NULL(21,21,180)
+walk forward three times
+## (do_until:<a,<t,a>> (do:<m,a> travel:m) (steps:<n,t> 3:n))
+%% FORWARD(21,21,180)
+%% FORWARD(21,22,180)
+%% FORWARD(21,23,180)
+%% NULL(21,24,180)
+you should be at the end of this hallway
+## (verify:<t,a> (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (end:<<p,t>,<p,t>> (hall:<c,<p,t>> any:c)))))
+%% VERIFY(21,24,180)
+turn right
+## (do_until:<a,<t,a>> (do:<m,a> turn:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (right:<<p,t>,<p,t>> at0:<p,t>))))
+%% RIGHT(21,24,180)
+%% NULL(21,24,270)
+walk forward twice
+## (do_until:<a,<t,a>> (do:<m,a> travel:m) (steps:<n,t> 2:n))
+%% FORWARD(21,24,270)
+%% FORWARD(20,24,270)
+%% NULL(19,24,270)
+you should be at the end of this hallway
+## (verify:<t,a> (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (end:<<p,t>,<p,t>> (hall:<c,<p,t>> any:c)))))
+%% VERIFY(19,24,270)
+turn right
+## (do_until:<a,<t,a>> (do:<m,a> turn:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (right:<<p,t>,<p,t>> at0:<p,t>))))
+%% RIGHT(19,24,270)
+%% NULL(19,24,0)
+walk forward once
+## (do_until:<a,<t,a>> (do:<m,a> travel:m) (steps:<n,t> 1:n))
+%% FORWARD(19,24,0)
+%% NULL(19,23,0)
+
+EDA_Jelly0_2_5_Dirs_1
+{'numFollowers': 6, 'confidence': (4.833333333333333, 1.8633899812498247), 'directionRating': (5.333333333333333, 0.7453559924999298), 'valid': True, 'map': 'jelly', 'targetFound': (1.0, 0.0), 'efficiency': (1.0, 0.0), 'correct': True, 'implicit': False}
+turn so that the wall is facing your left and back
+## (do_until:<a,<t,a>> (do:<m,a> turn:m) (and:<t*,t> (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> (behind:<<p,t>,<p,t>> at:<p,t>) (definite:<<p,t>,<p,t>> wall:<p,t>))) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> (left:<<p,t>,<p,t>> at:<p,t>) (definite:<<p,t>,<p,t>> wall:<p,t>)))))
+%% LEFT(23,16,90)
+%% LEFT(23,16,0)
+%% NULL(23,16,270)
+walk forward once
+## (do_until:<a,<t,a>> (do:<m,a> travel:m) (steps:<n,t> 1:n))
+%% FORWARD(23,16,270)
+%% NULL(22,16,270)
+turn left
+## (do_until:<a,<t,a>> (do:<m,a> turn:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (left:<<p,t>,<p,t>> at0:<p,t>))))
+%% LEFT(22,16,270)
+%% NULL(22,16,180)
+walk forward once
+## (do_until:<a,<t,a>> (do:<m,a> travel:m) (steps:<n,t> 1:n))
+%% FORWARD(22,16,180)
+%% NULL(22,17,180)
+turn right
+## (do_until:<a,<t,a>> (do:<m,a> turn:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (right:<<p,t>,<p,t>> at0:<p,t>))))
+%% RIGHT(22,17,180)
+%% NULL(22,17,270)
+walk forward once
+## (do_until:<a,<t,a>> (do:<m,a> travel:m) (steps:<n,t> 1:n))
+%% FORWARD(22,17,270)
+%% NULL(21,17,270)
+
+EDA_Jelly0_3_6_Dirs_1
+{'numFollowers': 7, 'confidence': (5.428571428571429, 0.7284313590846834), 'directionRating': (4.714285714285714, 1.1605769149479943), 'valid': False, 'map': 'jelly', 'targetFound': (1.0, 0.0), 'efficiency': (0.9591837142857143, 0.09997907319565043), 'correct': False, 'implicit': False}
+turn so that the wall is on your left
+walk forward twice
+turn right onto the pink hallway
+walk forward once
+turn right
+walk forward once
+
+EDA_Jelly0_4_7_Dirs_1
+{'numFollowers': 4, 'confidence': (4.75, 1.6393596310755), 'directionRating': (5.0, 1.224744871391589), 'valid': True, 'map': 'jelly', 'targetFound': (0.75, 0.4330127018922193), 'efficiency': (0.75, 0.4330127018922193), 'correct': True, 'implicit': 'partial'}
+only one direction to go
+## (verify:<t,a> (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> deadend:<p,t>)))
+%% VERIFY(15,20,0)
+walk to the end of the yellow hallway (3 steps)
+## (do_until:<a,<t,a>> (do:<m,a> travel:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (end:<<p,t>,<p,t>> (hall:<c,<p,t>> honeycomb:c)))))
+%% FORWARD(15,20,0)
+%% FORWARD(15,19,0)
+%% FORWARD(15,18,0)
+%% NULL(15,17,0)
+turn right
+## (do_until:<a,<t,a>> (do:<m,a> turn:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (right:<<p,t>,<p,t>> at0:<p,t>))))
+%% RIGHT(15,17,0)
+%% NULL(15,17,90)
+walk forward twice
+## (do_until:<a,<t,a>> (do:<m,a> travel:m) (steps:<n,t> 2:n))
+%% FORWARD(15,17,90)
+%% FORWARD(16,17,90)
+%% NULL(17,17,90)
+
+EDA_Jelly0_6_7_Dirs_1
+{'numFollowers': 4, 'confidence': (5.25, 0.82915619758885), 'directionRating': (5.25, 0.82915619758885), 'valid': True, 'map': 'jelly', 'targetFound': (1.0, 0.0), 'efficiency': (0.9285715, 0.12371779110843356), 'correct': True, 'implicit': 'partial'}
+only one way to go
+## (verify:<t,a> (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> deadend:<p,t>)))
+%% VERIFY(18,19,90)
+walk forward once
+## (do_until:<a,<t,a>> (do:<m,a> travel:m) (steps:<n,t> 1:n))
+%% FORWARD(18,19,90)
+%% NULL(19,19,90)
+turn left
+## (do_until:<a,<t,a>> (do:<m,a> turn:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (left:<<p,t>,<p,t>> at0:<p,t>))))
+%% LEFT(19,19,90)
+%% NULL(19,19,0)
+walk forward once
+## (do_until:<a,<t,a>> (do:<m,a> travel:m) (steps:<n,t> 1:n))
+%% FORWARD(19,19,0)
+%% NULL(19,18,0)
+turn left
+## (do_until:<a,<t,a>> (do:<m,a> turn:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (left:<<p,t>,<p,t>> at0:<p,t>))))
+%% LEFT(19,18,0)
+%% NULL(19,18,270)
+walk forward twice
+## (do_until:<a,<t,a>> (do:<m,a> travel:m) (steps:<n,t> 2:n))
+%% FORWARD(19,18,270)
+%% FORWARD(18,18,270)
+%% NULL(17,18,270)
+turn right
+## (do_until:<a,<t,a>> (do:<m,a> turn:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (right:<<p,t>,<p,t>> at0:<p,t>))))
+%% RIGHT(17,18,270)
+%% NULL(17,18,0)
+walk forward once
+## (do_until:<a,<t,a>> (do:<m,a> travel:m) (steps:<n,t> 1:n))
+%% FORWARD(17,18,0)
+%% NULL(17,17,0)
+
+EDA_L0_4_6_Dirs_1
+{'numFollowers': 6, 'confidence': (5.5, 1.118033988749895), 'directionRating': (5.833333333333333, 0.37267799624996495), 'valid': True, 'map': 'l', 'targetFound': (1.0, 0.0), 'efficiency': (1.0, 0.0), 'correct': True, 'implicit': False}
+turn so that the wall is on your left and the pink hallway is to the right
+## (do_until:<a,<t,a>> (do:<m,a> turn:m) (and:<t*,t> (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> (left:<<p,t>,<p,t>> at:<p,t>) (definite:<<p,t>,<p,t>> wall:<p,t>))) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> (right:<<p,t>,<p,t>> at:<p,t>) (hall:<c,<p,t>> rose:c)))))
+%% LEFT(24,21,0)
+%% LEFT(24,21,270)
+%% NULL(24,21,180)
+walk forward twice
+## (do_until:<a,<t,a>> (do:<m,a> travel:m) (steps:<n,t> 2:n))
+%% FORWARD(24,21,180)
+%% FORWARD(24,22,180)
+%% NULL(24,23,180)
+turn right
+## (do_until:<a,<t,a>> (do:<m,a> turn:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (right:<<p,t>,<p,t>> at0:<p,t>))))
+%% RIGHT(24,23,180)
+%% NULL(24,23,270)
+you should be facing a black hallway
+## (verify:<t,a> (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> (front:<<p,t>,<p,t>> at:<p,t>) (hall:<c,<p,t>> stone:c))))
+%% VERIFY(24,23,270)
+walk forward twice
+## (do_until:<a,<t,a>> (do:<m,a> travel:m) (steps:<n,t> 2:n))
+%% FORWARD(24,23,270)
+%% FORWARD(23,23,270)
+%% NULL(22,23,270)
+
+EDA_L0_2_4_Dirs_1
+{'numFollowers': 5, 'confidence': (4.4, 1.8547236990991407), 'directionRating': (3.8, 1.469693845669907), 'valid': True, 'map': 'l', 'targetFound': (0.8, 0.4), 'efficiency': (0.8, 0.4), 'correct': True, 'implicit': False}
+turn to face the short black hallway with the easel at the end
+## (do_until:<a,<t,a>> (do:<m,a> turn:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> (front:<<p,t>,<p,t>> at:<p,t>) (end:<<p,t>,<p,t>> (hall:<c,<p,t>> stone:c)) easel:<p,t>)))
+%% LEFT(21,23,90)
+%% LEFT(21,23,0)
+%% NULL(21,23,270)
+from here, turn right
+## (do_until:<a,<t,a>> (do:<m,a> turn:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (right:<<p,t>,<p,t>> at0:<p,t>))))
+%% RIGHT(21,23,270)
+%% NULL(21,23,0)
+walk down the yellow hallway twice
+## (do_until:<a,<t,a>> (do_if:<a,<t,a>> (do:<m,a> travel:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (hall:<c,<p,t>> honeycomb:c)))) (steps:<n,t> 2:n))
+%% FORWARD(21,23,0)
+%% FORWARD(21,22,0)
+%% NULL(21,21,0)
+turn right
+## (do_until:<a,<t,a>> (do:<m,a> turn:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (right:<<p,t>,<p,t>> at0:<p,t>))))
+%% RIGHT(21,21,0)
+%% NULL(21,21,90)
+walk down the pink hallway three times
+## (do_until:<a,<t,a>> (do_if:<a,<t,a>> (do:<m,a> travel:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (hall:<c,<p,t>> rose:c)))) (steps:<n,t> 3:n))
+%% FORWARD(21,21,90)
+%% FORWARD(22,21,90)
+%% FORWARD(23,21,90)
+%% NULL(24,21,90)
+
+EDA_Jelly0_2_6_Dirs_1
+{'numFollowers': 7, 'confidence': (5.142857142857143, 0.6388765649999399), 'directionRating': (4.428571428571429, 1.2936264483053452), 'valid': True, 'map': 'jelly', 'targetFound': (0.8571428571428571, 0.3499271061118826), 'efficiency': (0.8571428571428571, 0.3499271061118826), 'correct': True, 'implicit': False}
+turn so that the wall is facing your left and back
+## (do_until:<a,<t,a>> (do:<m,a> turn:m) (and:<t*,t> (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> (behind:<<p,t>,<p,t>> at:<p,t>) (definite:<<p,t>,<p,t>> wall:<p,t>))) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> (left:<<p,t>,<p,t>> at:<p,t>) (definite:<<p,t>,<p,t>> wall:<p,t>)))))
+%% LEFT(23,16,90)
+%% LEFT(23,16,0)
+%% NULL(23,16,270)
+walk forward once
+## (do_until:<a,<t,a>> (do:<m,a> travel:m) (steps:<n,t> 1:n))
+%% FORWARD(23,16,270)
+%% NULL(22,16,270)
+turn left
+## (do_until:<a,<t,a>> (do:<m,a> turn:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (left:<<p,t>,<p,t>> at0:<p,t>))))
+%% LEFT(22,16,270)
+%% NULL(22,16,180)
+walk forward once
+## (do_until:<a,<t,a>> (do:<m,a> travel:m) (steps:<n,t> 1:n))
+%% FORWARD(22,16,180)
+%% NULL(22,17,180)
+turn right
+## (do_until:<a,<t,a>> (do:<m,a> turn:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (right:<<p,t>,<p,t>> at0:<p,t>))))
+%% RIGHT(22,17,180)
+%% NULL(22,17,270)
+walk forward twice
+## (do_until:<a,<t,a>> (do:<m,a> travel:m) (steps:<n,t> 2:n))
+%% FORWARD(22,17,270)
+%% FORWARD(21,17,270)
+%% NULL(20,17,270)
+turn left
+## (do_until:<a,<t,a>> (do:<m,a> turn:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (left:<<p,t>,<p,t>> at0:<p,t>))))
+%% LEFT(20,17,270)
+%% NULL(20,17,180)
+walk forward once
+## (do_until:<a,<t,a>> (do:<m,a> travel:m) (steps:<n,t> 1:n))
+%% FORWARD(20,17,180)
+%% NULL(20,18,180)
+turn right
+## (do_until:<a,<t,a>> (do:<m,a> turn:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (right:<<p,t>,<p,t>> at0:<p,t>))))
+%% RIGHT(20,18,180)
+%% NULL(20,18,270)
+walk forward once
+## (do_until:<a,<t,a>> (do:<m,a> travel:m) (steps:<n,t> 1:n))
+%% FORWARD(20,18,270)
+%% NULL(19,18,270)
+turn left
+## (do_until:<a,<t,a>> (do:<m,a> turn:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (left:<<p,t>,<p,t>> at0:<p,t>))))
+%% LEFT(19,18,270)
+%% NULL(19,18,180)
+walk forward once, and finally turn right and walk forward once
+## (do_seq:<a+,a> (do_until:<a,<t,a>> (do:<m,a> travel:m) (steps:<n,t> 1:n)) (do_until:<a,<t,a>> (do:<m,a> turn:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (right:<<p,t>,<p,t>> at0:<p,t>)))) (do_until:<a,<t,a>> (do:<m,a> travel:m) (steps:<n,t> 1:n)))
+%% FORWARD(19,18,180)
+%% RIGHT(19,19,180)
+%% FORWARD(19,19,270)
+%% NULL(18,19,270)
+
+EDA_Jelly0_5_3_Dirs_1
+{'numFollowers': 5, 'confidence': (5.4, 0.8), 'directionRating': (5.2, 0.7483314773547882), 'valid': True, 'map': 'jelly', 'targetFound': (1.0, 0.0), 'efficiency': (0.95, 0.09999999999999999), 'correct': True, 'implicit': False}
+turn to face the easel
+## (do_until:<a,<t,a>> (do:<m,a> turn:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> (front:<<p,t>,<p,t>> at:<p,t>) easel:<p,t>)))
+%% LEFT(21,17,90)
+%% LEFT(21,17,0)
+%% NULL(21,17,270)
+walk forward once
+## (do_until:<a,<t,a>> (do:<m,a> travel:m) (steps:<n,t> 1:n))
+%% FORWARD(21,17,270)
+%% NULL(20,17,270)
+turn left
+## (do_until:<a,<t,a>> (do:<m,a> turn:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (left:<<p,t>,<p,t>> at0:<p,t>))))
+%% LEFT(20,17,270)
+%% NULL(20,17,180)
+walk forward once
+## (do_until:<a,<t,a>> (do:<m,a> travel:m) (steps:<n,t> 1:n))
+%% FORWARD(20,17,180)
+%% NULL(20,18,180)
+turn right
+## (do_until:<a,<t,a>> (do:<m,a> turn:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (right:<<p,t>,<p,t>> at0:<p,t>))))
+%% RIGHT(20,18,180)
+%% NULL(20,18,270)
+walk forward four times
+## (do_until:<a,<t,a>> (do:<m,a> travel:m) (steps:<n,t> 4:n))
+%% FORWARD(20,18,270)
+%% FORWARD(19,18,270)
+%% FORWARD(18,18,270)
+%% FORWARD(17,18,270)
+%% NULL(16,18,270)
+
+EDA_Jelly0_5_2_Dirs_1
+{'numFollowers': 4, 'confidence': (5.75, 0.4330127018922193), 'directionRating': (5.25, 0.82915619758885), 'valid': True, 'map': 'jelly', 'targetFound': (1.0, 0.0), 'efficiency': (1.0, 0.0), 'correct': True, 'implicit': False}
+turn so that your back side faces the easel
+## (do_until:<a,<t,a>> (do:<m,a> turn:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> (behind:<<p,t>,<p,t>> at:<p,t>) easel:<p,t>)))
+%% LEFT(21,17,270)
+%% LEFT(21,17,180)
+%% NULL(21,17,90)
+walk forward once
+## (do_until:<a,<t,a>> (do:<m,a> travel:m) (steps:<n,t> 1:n))
+%% FORWARD(21,17,90)
+%% NULL(22,17,90)
+turn left
+## (do_until:<a,<t,a>> (do:<m,a> turn:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (left:<<p,t>,<p,t>> at0:<p,t>))))
+%% LEFT(22,17,90)
+%% NULL(22,17,0)
+walk forward once
+## (do_until:<a,<t,a>> (do:<m,a> travel:m) (steps:<n,t> 1:n))
+%% FORWARD(22,17,0)
+%% NULL(22,16,0)
+turn right
+## (do_until:<a,<t,a>> (do:<m,a> turn:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (right:<<p,t>,<p,t>> at0:<p,t>))))
+%% RIGHT(22,16,0)
+%% NULL(22,16,90)
+walk forward once
+## (do_until:<a,<t,a>> (do:<m,a> travel:m) (steps:<n,t> 1:n))
+%% FORWARD(22,16,90)
+%% NULL(23,16,90)
+
+EDA_Grid0_6_5_Dirs_1
+{'numFollowers': 6, 'confidence': (5.0, 1.1547005383792515), 'directionRating': (5.166666666666667, 0.6871842709362768), 'valid': True, 'map': 'grid', 'targetFound': (1.0, 0.0), 'efficiency': (1.0, 0.0), 'correct': True, 'implicit': False}
+turn so that the wall is on your left
+## (do_until:<a,<t,a>> (do:<m,a> turn:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> (left:<<p,t>,<p,t>> at:<p,t>) (definite:<<p,t>,<p,t>> wall:<p,t>))))
+%% LEFT(2,7,90)
+%% LEFT(2,7,0)
+%% NULL(2,7,270)
+walk forward twice
+## (do_until:<a,<t,a>> (do:<m,a> travel:m) (steps:<n,t> 2:n))
+%% FORWARD(2,7,270)
+%% FORWARD(1,7,270)
+%% NULL(0,7,270)
+turn left
+## (do_until:<a,<t,a>> (do:<m,a> turn:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (left:<<p,t>,<p,t>> at0:<p,t>))))
+%% LEFT(0,7,270)
+%% NULL(0,7,180)
+walk forward four times
+## (do_until:<a,<t,a>> (do:<m,a> travel:m) (steps:<n,t> 4:n))
+%% FORWARD(0,7,180)
+%% FORWARD(0,8,180)
+%% FORWARD(0,9,180)
+%% FORWARD(0,10,180)
+%% NULL(0,11,180)
+turn left
+## (do_until:<a,<t,a>> (do:<m,a> turn:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (left:<<p,t>,<p,t>> at0:<p,t>))))
+%% LEFT(0,11,180)
+%% NULL(0,11,90)
+walk forward once
+## (do_until:<a,<t,a>> (do:<m,a> travel:m) (steps:<n,t> 1:n))
+%% FORWARD(0,11,90)
+%% NULL(1,11,90)
+
+EDA_Jelly0_2_7_Dirs_1
+{'numFollowers': 5, 'confidence': (4.6, 1.8547236990991407), 'directionRating': (4.6, 1.0198039027185568), 'valid': True, 'map': 'jelly', 'targetFound': (0.8, 0.4), 'efficiency': (0.8, 0.4), 'correct': True, 'implicit': False}
+turn so that the wall is on your left and back
+## (do_until:<a,<t,a>> (do:<m,a> turn:m) (and:<t*,t> (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> (behind:<<p,t>,<p,t>> at:<p,t>) (definite:<<p,t>,<p,t>> wall:<p,t>))) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> (left:<<p,t>,<p,t>> at:<p,t>) (definite:<<p,t>,<p,t>> wall:<p,t>)))))
+%% LEFT(23,16,90)
+%% LEFT(23,16,0)
+%% NULL(23,16,270)
+walk forward once
+## (do_until:<a,<t,a>> (do:<m,a> travel:m) (steps:<n,t> 1:n))
+%% FORWARD(23,16,270)
+%% NULL(22,16,270)
+turn left
+## (do_until:<a,<t,a>> (do:<m,a> turn:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (left:<<p,t>,<p,t>> at0:<p,t>))))
+%% LEFT(22,16,270)
+%% NULL(22,16,180)
+walk forward once
+## (do_until:<a,<t,a>> (do:<m,a> travel:m) (steps:<n,t> 1:n))
+%% FORWARD(22,16,180)
+%% NULL(22,17,180)
+turn right
+## (do_until:<a,<t,a>> (do:<m,a> turn:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (right:<<p,t>,<p,t>> at0:<p,t>))))
+%% RIGHT(22,17,180)
+%% NULL(22,17,270)
+walk forward twice
+## (do_until:<a,<t,a>> (do:<m,a> travel:m) (steps:<n,t> 2:n))
+%% FORWARD(22,17,270)
+%% FORWARD(21,17,270)
+%% NULL(20,17,270)
+turn left
+## (do_until:<a,<t,a>> (do:<m,a> turn:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (left:<<p,t>,<p,t>> at0:<p,t>))))
+%% LEFT(20,17,270)
+%% NULL(20,17,180)
+walk forward once
+## (do_until:<a,<t,a>> (do:<m,a> travel:m) (steps:<n,t> 1:n))
+%% FORWARD(20,17,180)
+%% NULL(20,18,180)
+turn right
+## (do_until:<a,<t,a>> (do:<m,a> turn:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (right:<<p,t>,<p,t>> at0:<p,t>))))
+%% RIGHT(20,18,180)
+%% NULL(20,18,270)
+walk forward three times
+## (do_until:<a,<t,a>> (do:<m,a> travel:m) (steps:<n,t> 3:n))
+%% FORWARD(20,18,270)
+%% FORWARD(19,18,270)
+%% FORWARD(18,18,270)
+%% NULL(17,18,270)
+turn right
+## (do_until:<a,<t,a>> (do:<m,a> turn:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (right:<<p,t>,<p,t>> at0:<p,t>))))
+%% RIGHT(17,18,270)
+%% NULL(17,18,0)
+walk forward once
+## (do_until:<a,<t,a>> (do:<m,a> travel:m) (steps:<n,t> 1:n))
+%% FORWARD(17,18,0)
+%% NULL(17,17,0)
+
+EDA_Grid0_4_3_Dirs_1
+{'numFollowers': 4, 'confidence': (3.25, 1.479019945774904), 'directionRating': (1.75, 0.82915619758885), 'valid': False, 'corect': False, 'map': 'grid', 'targetFound': (0.25, 0.4330127018922193), 'efficiency': (0.09210525, 0.1595309726438333), 'implicit': False, 'correct': False}
+turn to face the yellow hallway
+walk forward three times
+turn onto the blue hallway
+walk forward four times
+
+EDA_L0_7_5_Dirs_1
+{'numFollowers': 5, 'confidence': (5.2, 0.7483314773547882), 'directionRating': (4.8, 1.1661903789690602), 'valid': True, 'map': 'l', 'targetFound': (1.0, 0.0), 'efficiency': (1.0, 0.0), 'correct': True, 'implicit': False}
+turn so that the wall is on your left
+## (do_until:<a,<t,a>> (do:<m,a> turn:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> (left:<<p,t>,<p,t>> at:<p,t>) (definite:<<p,t>,<p,t>> wall:<p,t>))))
+%% LEFT(21,21,270)
+%% LEFT(21,21,180)
+%% NULL(21,21,90)
+walk forward twice
+## (do_until:<a,<t,a>> (do:<m,a> travel:m) (steps:<n,t> 2:n))
+%% FORWARD(21,21,90)
+%% FORWARD(22,21,90)
+%% NULL(23,21,90)
+turn left
+## (do_until:<a,<t,a>> (do:<m,a> turn:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (left:<<p,t>,<p,t>> at0:<p,t>))))
+%% LEFT(23,21,90)
+%% NULL(23,21,0)
+walk forward three times
+## (do_until:<a,<t,a>> (do:<m,a> travel:m) (steps:<n,t> 3:n))
+%% FORWARD(23,21,0)
+%% FORWARD(23,20,0)
+%% FORWARD(23,19,0)
+%% NULL(23,18,0)
+
+EDA_Jelly0_3_5_Dirs_1
+{'numFollowers': 7, 'confidence': (5.857142857142857, 0.3499271061118826), 'directionRating': (5.714285714285714, 0.45175395145262554), 'valid': True, 'map': 'jelly', 'targetFound': (1.0, 0.0), 'efficiency': (1.0, 0.0), 'correct': True, 'implicit': False}
+turn so that the wall is on your left
+## (do_until:<a,<t,a>> (do:<m,a> turn:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> (left:<<p,t>,<p,t>> at:<p,t>) (definite:<<p,t>,<p,t>> wall:<p,t>))))
+%% LEFT(16,18,270)
+%% LEFT(16,18,180)
+%% NULL(16,18,90)
+walk forward to the end of the hallway ( four spaces)
+## (do_until:<a,<t,a>> (do:<m,a> travel:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (end:<<p,t>,<p,t>> (hall:<c,<p,t>> any:c)))))
+%% FORWARD(16,18,90)
+%% FORWARD(17,18,90)
+%% FORWARD(18,18,90)
+%% FORWARD(19,18,90)
+%% NULL(20,18,90)
+turn left
+## (do_until:<a,<t,a>> (do:<m,a> turn:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (left:<<p,t>,<p,t>> at0:<p,t>))))
+%% LEFT(20,18,90)
+%% NULL(20,18,0)
+walk forward once
+## (do_until:<a,<t,a>> (do:<m,a> travel:m) (steps:<n,t> 1:n))
+%% FORWARD(20,18,0)
+%% NULL(20,17,0)
+turn right
+## (do_until:<a,<t,a>> (do:<m,a> turn:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (right:<<p,t>,<p,t>> at0:<p,t>))))
+%% RIGHT(20,17,0)
+%% NULL(20,17,90)
+walk forward once
+## (do_until:<a,<t,a>> (do:<m,a> travel:m) (steps:<n,t> 1:n))
+%% FORWARD(20,17,90)
+%% NULL(21,17,90)
+
+EDA_Jelly0_5_4_Dirs_1
+{'numFollowers': 4, 'confidence': (5.25, 1.299038105676658), 'directionRating': (5.25, 0.82915619758885), 'valid': True, 'map': 'jelly', 'targetFound': (0.75, 0.4330127018922193), 'efficiency': (0.75, 0.4330127018922193), 'correct': True, 'implicit': False}
+turn to face the easel
+## (do_until:<a,<t,a>> (do:<m,a> turn:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> (front:<<p,t>,<p,t>> at:<p,t>) easel:<p,t>)))
+%% LEFT(21,17,90)
+%% LEFT(21,17,0)
+%% NULL(21,17,270)
+walk forward once
+## (do_until:<a,<t,a>> (do:<m,a> travel:m) (steps:<n,t> 1:n))
+%% FORWARD(21,17,270)
+%% NULL(20,17,270)
+turn left
+## (do_until:<a,<t,a>> (do:<m,a> turn:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (left:<<p,t>,<p,t>> at0:<p,t>))))
+%% LEFT(20,17,270)
+%% NULL(20,17,180)
+walk forward once
+## (do_until:<a,<t,a>> (do:<m,a> travel:m) (steps:<n,t> 1:n))
+%% FORWARD(20,17,180)
+%% NULL(20,18,180)
+turn right
+## (do_until:<a,<t,a>> (do:<m,a> turn:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (right:<<p,t>,<p,t>> at0:<p,t>))))
+%% RIGHT(20,18,180)
+%% NULL(20,18,270)
+walk down the blue hallway until you intersect the yellow hallway (about 5 steps)
+## (do_until:<a,<t,a>> (do_if:<a,<t,a>> (do:<m,a> travel:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (hall:<c,<p,t>> blue:c)))) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (intersection:<<p,t>*1,<p,t>> (hall:<c,<p,t>> honeycomb:c)))))
+%% FORWARD(20,18,270)
+%% FORWARD(19,18,270)
+%% FORWARD(18,18,270)
+%% FORWARD(17,18,270)
+%% FORWARD(16,18,270)
+%% NULL(15,18,270)
+turn left and go to the end of the yellow hallway(about 2 steps)
+## (do_seq:<a+,a> (do_until:<a,<t,a>> (do:<m,a> turn:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (left:<<p,t>,<p,t>> at0:<p,t>)))) (do_until:<a,<t,a>> (do:<m,a> travel:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (end:<<p,t>,<p,t>> (hall:<c,<p,t>> honeycomb:c))))))
+%% LEFT(15,18,270)
+%% FORWARD(15,18,180)
+%% FORWARD(15,19,180)
+%% NULL(15,20,180)
+
+EDA_Grid0_7_2_Dirs_1
+{'numFollowers': 5, 'confidence': (5.8, 0.4), 'directionRating': (5.4, 0.8), 'valid': True, 'map': 'grid', 'targetFound': (0.8, 0.4), 'efficiency': (0.8, 0.4), 'correct': True, 'implicit': False}
+turn to face the walls with the immediate tower pictures
+## (do_until:<a,<t,a>> (do:<m,a> turn:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> eiffel_w:<p,t>)))
+%% LEFT(1,9,270)
+%% LEFT(1,9,180)
+%% NULL(1,9,90)
+walk forward once
+## (do_until:<a,<t,a>> (do:<m,a> travel:m) (steps:<n,t> 1:n))
+%% FORWARD(1,9,90)
+%% NULL(2,9,90)
+turn left
+## (do_until:<a,<t,a>> (do:<m,a> turn:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (left:<<p,t>,<p,t>> at0:<p,t>))))
+%% LEFT(2,9,90)
+%% NULL(2,9,0)
+walk forward once
+## (do_until:<a,<t,a>> (do:<m,a> travel:m) (steps:<n,t> 1:n))
+%% FORWARD(2,9,0)
+%% NULL(2,8,0)
+turn right
+## (do_until:<a,<t,a>> (do:<m,a> turn:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (right:<<p,t>,<p,t>> at0:<p,t>))))
+%% RIGHT(2,8,0)
+%% NULL(2,8,90)
+walk forward once
+## (do_until:<a,<t,a>> (do:<m,a> travel:m) (steps:<n,t> 1:n))
+%% FORWARD(2,8,90)
+%% NULL(3,8,90)
+
+EDA_Jelly0_5_1_Dirs_1
+{'numFollowers': 5, 'confidence': (6.0, 0.0), 'directionRating': (5.4, 0.8), 'valid': True, 'map': 'jelly', 'targetFound': (1.0, 0.0), 'efficiency': (1.0, 0.0), 'correct': True, 'implicit': False}
+turn to face the easel
+## (do_until:<a,<t,a>> (do:<m,a> turn:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> (front:<<p,t>,<p,t>> at:<p,t>) easel:<p,t>)))
+%% LEFT(21,17,90)
+%% LEFT(21,17,0)
+%% NULL(21,17,270)
+walk forward once
+## (do_until:<a,<t,a>> (do:<m,a> travel:m) (steps:<n,t> 1:n))
+%% FORWARD(21,17,270)
+%% NULL(20,17,270)
+turn right and walk forward once
+## (do_seq:<a+,a> (do_until:<a,<t,a>> (do:<m,a> turn:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (right:<<p,t>,<p,t>> at0:<p,t>)))) (do_until:<a,<t,a>> (do:<m,a> travel:m) (steps:<n,t> 1:n)))
+%% RIGHT(20,17,270)
+%% FORWARD(20,17,0)
+%% NULL(20,16,0)
+turn left and walk forward once
+## (do_seq:<a+,a> (do_until:<a,<t,a>> (do:<m,a> turn:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (left:<<p,t>,<p,t>> at0:<p,t>)))) (do_until:<a,<t,a>> (do:<m,a> travel:m) (steps:<n,t> 1:n)))
+%% LEFT(20,16,0)
+%% FORWARD(20,16,270)
+%% NULL(19,16,270)
+
+EDA_L0_2_7_Dirs_1
+{'numFollowers': 7, 'confidence': (3.857142857142857, 1.8070158058105026), 'directionRating': (2.7142857142857144, 1.0301575072754257), 'valid': False, 'map': 'l', 'targetFound': (0.7142857142857143, 0.45175395145262565), 'efficiency': (0.5714285714285714, 0.41649656391752143), 'correct': False, 'implicit': False}
+turn to face the black floored hallway that is short and has the chair at the end
+from this perspective, turn to your right and walk two spaces
+
+EDA_Grid0_4_6_Dirs_1
+{'numFollowers': 7, 'confidence': (5.714285714285714, 0.6998542122237653), 'directionRating': (5.714285714285714, 0.6998542122237653), 'valid': True, 'map': 'grid', 'targetFound': (0.8571428571428571, 0.3499271061118826), 'efficiency': (0.8571428571428571, 0.3499271061118826), 'correct': True, 'implicit': False}
+turn to face the yellow hallway
+## (do_until:<a,<t,a>> (do:<m,a> turn:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> (front:<<p,t>,<p,t>> at:<p,t>) (hall:<c,<p,t>> honeycomb:c))))
+%% LEFT(3,5,0)
+%% LEFT(3,5,270)
+%% NULL(3,5,180)
+walk forward twice
+## (do_until:<a,<t,a>> (do:<m,a> travel:m) (steps:<n,t> 2:n))
+%% FORWARD(3,5,180)
+%% FORWARD(3,6,180)
+%% NULL(3,7,180)
+turn right
+## (do_until:<a,<t,a>> (do:<m,a> turn:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (right:<<p,t>,<p,t>> at0:<p,t>))))
+%% RIGHT(3,7,180)
+%% NULL(3,7,270)
+walk forward once
+## (do_until:<a,<t,a>> (do:<m,a> travel:m) (steps:<n,t> 1:n))
+%% FORWARD(3,7,270)
+%% NULL(2,7,270)
+
+EDA_Jelly0_2_3_Dirs_1
+{'numFollowers': 4, 'confidence': (5.25, 1.299038105676658), 'directionRating': (4.75, 0.4330127018922193), 'valid': True, 'map': 'jelly', 'targetFound': (0.75, 0.4330127018922193), 'efficiency': (0.75, 0.4330127018922193), 'correct': True, 'implicit': False}
+turn so the wall is on your left and back
+## (do_until:<a,<t,a>> (do:<m,a> turn:m) (and:<t*,t> (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> (behind:<<p,t>,<p,t>> at:<p,t>) (definite:<<p,t>,<p,t>> wall:<p,t>))) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> (left:<<p,t>,<p,t>> at:<p,t>) (definite:<<p,t>,<p,t>> wall:<p,t>)))))
+%% LEFT(23,16,90)
+%% LEFT(23,16,0)
+%% NULL(23,16,270)
+walk forward once
+## (do_until:<a,<t,a>> (do:<m,a> travel:m) (steps:<n,t> 1:n))
+%% FORWARD(23,16,270)
+%% NULL(22,16,270)
+turn left
+## (do_until:<a,<t,a>> (do:<m,a> turn:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (left:<<p,t>,<p,t>> at0:<p,t>))))
+%% LEFT(22,16,270)
+%% NULL(22,16,180)
+walk forward once
+## (do_until:<a,<t,a>> (do:<m,a> travel:m) (steps:<n,t> 1:n))
+%% FORWARD(22,16,180)
+%% NULL(22,17,180)
+turn right
+## (do_until:<a,<t,a>> (do:<m,a> turn:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (right:<<p,t>,<p,t>> at0:<p,t>))))
+%% RIGHT(22,17,180)
+%% NULL(22,17,270)
+walk forward twice
+## (do_until:<a,<t,a>> (do:<m,a> travel:m) (steps:<n,t> 2:n))
+%% FORWARD(22,17,270)
+%% FORWARD(21,17,270)
+%% NULL(20,17,270)
+turn left
+## (do_until:<a,<t,a>> (do:<m,a> turn:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (left:<<p,t>,<p,t>> at0:<p,t>))))
+%% LEFT(20,17,270)
+%% NULL(20,17,180)
+walk forward once
+## (do_until:<a,<t,a>> (do:<m,a> travel:m) (steps:<n,t> 1:n))
+%% FORWARD(20,17,180)
+%% NULL(20,18,180)
+turn right onto the blue hallway and walk forward four times
+## (do_seq:<a+,a> (do_until:<a,<t,a>> (do:<m,a> turn:m) (and:<t*,t> (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (right:<<p,t>,<p,t>> at0:<p,t>))) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (hall:<c,<p,t>> blue:c))))) (do_until:<a,<t,a>> (do:<m,a> travel:m) (steps:<n,t> 4:n)))
+%% RIGHT(20,18,180)
+%% FORWARD(20,18,270)
+%% FORWARD(19,18,270)
+%% FORWARD(18,18,270)
+%% FORWARD(17,18,270)
+%% NULL(16,18,270)
+if you are standing at the intersection of the blue and yellow floors, back up once
+## (do_if:<a,<t,a>> (do_seq:<a+,a> (do_until:<a,<t,a>> (do:<m,a> turn:m) (steps:<n,t> 2:n)) (do_until:<a,<t,a>> (do:<m,a> travel:m) (steps:<n,t> 1:n))) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (intersection:<<p,t>*1,<p,t>> (hall:<c,<p,t>> blue:c) (hall:<c,<p,t>> honeycomb:c)))))
+%% VERIFY(16,18,270)
+
+EDA_L0_4_7_Dirs_1
+{'numFollowers': 5, 'confidence': (5.6, 0.8), 'directionRating': (5.2, 1.1661903789690602), 'valid': True, 'map': 'l', 'targetFound': (1.0, 0.0), 'efficiency': (1.0, 0.0), 'correct': True, 'implicit': False}
+turn to face the pink hallway
+## (do_until:<a,<t,a>> (do:<m,a> turn:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> (front:<<p,t>,<p,t>> at:<p,t>) (hall:<c,<p,t>> rose:c))))
+%% LEFT(24,21,90)
+%% LEFT(24,21,0)
+%% NULL(24,21,270)
+walk forward 3 times
+## (do_until:<a,<t,a>> (do:<m,a> travel:m) (steps:<n,t> 3:n))
+%% FORWARD(24,21,270)
+%% FORWARD(23,21,270)
+%% FORWARD(22,21,270)
+%% NULL(21,21,270)
+
+EDA_Grid0_7_4_Dirs_1
+{'numFollowers': 4, 'confidence': (5.75, 0.4330127018922193), 'directionRating': (5.25, 0.82915619758885), 'valid': True, 'map': 'grid', 'targetFound': (1.0, 0.0), 'efficiency': (1.0, 0.0), 'correct': True, 'implicit': False}
+turn to face the long red hallway
+## (do_until:<a,<t,a>> (do:<m,a> turn:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> (front:<<p,t>,<p,t>> at:<p,t>) (hall:<c,<p,t>> brick:c))))
+%% LEFT(1,9,180)
+%% LEFT(1,9,90)
+%% NULL(1,9,0)
+go to the end
+## (do_until:<a,<t,a>> (do:<m,a> travel:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (end:<<p,t>,<p,t>> (hall:<c,<p,t>> any:c)))))
+%% FORWARD(1,9,0)
+%% FORWARD(1,8,0)
+%% FORWARD(1,7,0)
+%% FORWARD(1,6,0)
+%% NULL(1,5,0)
+turn right
+## (do_until:<a,<t,a>> (do:<m,a> turn:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (right:<<p,t>,<p,t>> at0:<p,t>))))
+%% RIGHT(1,5,0)
+%% NULL(1,5,90)
+go to the end
+## (do_until:<a,<t,a>> (do:<m,a> travel:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (end:<<p,t>,<p,t>> (hall:<c,<p,t>> any:c)))))
+%% FORWARD(1,5,90)
+%% FORWARD(2,5,90)
+%% NULL(3,5,90)
+you should end up at the intersection of yellow and green
+## (verify:<t,a> (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (intersection:<<p,t>*1,<p,t>> (hall:<c,<p,t>> honeycomb:c) (hall:<c,<p,t>> grass:c)))))
+%% VERIFY(3,5,90)
+
+EDA_Jelly0_7_2_Dirs_1
+{'numFollowers': 0, 'confidence': (0.0, 0.0), 'directionRating': (0.0, 0.0), 'valid': False, 'map': 'jelly', 'targetFound': (0.0, 0.0), 'efficiency': (0.0, 0.0), 'correct': False, 'implicit': False}
+turn so that the wall is to your back
+walk forward once
+turn left
+walk forward until you come to the intersection of the brown hallways
+turn left and walk forward twice
+turn right
+walk forward once
+turn left
+walk forward once
+turn right
+walk forward once
+
+EDA_Jelly0_1_2_Dirs_2
+{'numFollowers': 7, 'confidence': (5.857142857142857, 0.3499271061118826), 'directionRating': (5.428571428571429, 0.49487165930539345), 'valid': True, 'map': 'jelly', 'targetFound': (1.0, 0.0), 'efficiency': (1.0, 0.0), 'correct': True, 'implicit': False}
+turn so the wall is on your back
+## (do_until:<a,<t,a>> (do:<m,a> turn:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> (behind:<<p,t>,<p,t>> at:<p,t>) (definite:<<p,t>,<p,t>> wall:<p,t>))))
+%% LEFT(19,16,180)
+%% LEFT(19,16,90)
+%% NULL(19,16,0)
+walk forward once
+## (do_until:<a,<t,a>> (do:<m,a> travel:m) (steps:<n,t> 1:n))
+%% FORWARD(19,16,0)
+%% NULL(19,15,0)
+turn right onto the green hallway
+## (do_until:<a,<t,a>> (do:<m,a> turn:m) (and:<t*,t> (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (right:<<p,t>,<p,t>> at0:<p,t>))) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (hall:<c,<p,t>> grass:c)))))
+%% RIGHT(19,15,0)
+%% NULL(19,15,90)
+walk to the end (maybe four spaces)
+## (do_until:<a,<t,a>> (do:<m,a> travel:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (end:<<p,t>,<p,t>> (hall:<c,<p,t>> any:c)))))
+%% FORWARD(19,15,90)
+%% FORWARD(20,15,90)
+%% FORWARD(21,15,90)
+%% FORWARD(22,15,90)
+%% NULL(23,15,90)
+turn right and walk forward once
+## (do_seq:<a+,a> (do_until:<a,<t,a>> (do:<m,a> turn:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (right:<<p,t>,<p,t>> at0:<p,t>)))) (do_until:<a,<t,a>> (do:<m,a> travel:m) (steps:<n,t> 1:n)))
+%% RIGHT(23,15,90)
+%% FORWARD(23,15,180)
+%% NULL(23,16,180)
+
+EDA_L0_7_4_Dirs_1
+{'numFollowers': 4, 'confidence': (5.25, 0.82915619758885), 'directionRating': (4.5, 1.118033988749895), 'valid': True, 'map': 'l', 'targetFound': (0.75, 0.4330127018922193), 'efficiency': (0.75, 0.4330127018922193), 'correct': True, 'implicit': False}
+turn so that the wall is on your left
+## (do_until:<a,<t,a>> (do:<m,a> turn:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> (left:<<p,t>,<p,t>> at:<p,t>) (definite:<<p,t>,<p,t>> wall:<p,t>))))
+%% LEFT(21,21,270)
+%% LEFT(21,21,180)
+%% NULL(21,21,90)
+walk forward three times
+## (do_until:<a,<t,a>> (do:<m,a> travel:m) (steps:<n,t> 3:n))
+%% FORWARD(21,21,90)
+%% FORWARD(22,21,90)
+%% FORWARD(23,21,90)
+%% NULL(24,21,90)
+
+EDA_Grid0_3_7_Dirs_1
+{'numFollowers': 5, 'confidence': (6.0, 0.0), 'directionRating': (5.8, 0.4), 'valid': True, 'map': 'grid', 'targetFound': (1.0, 0.0), 'efficiency': (1.0, 0.0), 'correct': True, 'implicit': False}
+turn so the wall is on your back
+## (do_until:<a,<t,a>> (do:<m,a> turn:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> (behind:<<p,t>,<p,t>> at:<p,t>) (definite:<<p,t>,<p,t>> wall:<p,t>))))
+%% LEFT(0,9,270)
+%% LEFT(0,9,180)
+%% NULL(0,9,90)
+walk forward once
+## (do_until:<a,<t,a>> (do:<m,a> travel:m) (steps:<n,t> 1:n))
+%% FORWARD(0,9,90)
+%% NULL(1,9,90)
+
+EDA_L0_1_5_Dirs_1
+{'numFollowers': 5, 'confidence': (4.2, 0.9797958971132712), 'directionRating': (4.4, 1.019803902718557), 'valid': False, 'map': 'l', 'targetFound': (1.0, 0.0), 'efficiency': (0.9, 0.2), 'correct': False, 'implicit': False}
+turn so that the chair is on your right
+walk forward once
+turn right
+walk forward once
+
+EDA_L0_1_6_Dirs_1
+{'numFollowers': 7, 'confidence': (5.428571428571429, 0.7284313590846834), 'directionRating': (5.428571428571429, 0.9035079029052511), 'valid': True, 'map': 'l', 'targetFound': (0.8571428571428571, 0.3499271061118826), 'efficiency': (0.8571428571428571, 0.3499271061118826), 'correct': True, 'implicit': False}
+turn so that the wall is on your left
+## (do_until:<a,<t,a>> (do:<m,a> turn:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> (left:<<p,t>,<p,t>> at:<p,t>) (definite:<<p,t>,<p,t>> wall:<p,t>))))
+%% LEFT(22,17,270)
+%% LEFT(22,17,180)
+%% NULL(22,17,90)
+walk forward once
+## (do_until:<a,<t,a>> (do:<m,a> travel:m) (steps:<n,t> 1:n))
+%% FORWARD(22,17,90)
+%% NULL(23,17,90)
+turn right
+## (do_until:<a,<t,a>> (do:<m,a> turn:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (right:<<p,t>,<p,t>> at0:<p,t>))))
+%% RIGHT(23,17,90)
+%% NULL(23,17,180)
+walk forward six times
+## (do_until:<a,<t,a>> (do:<m,a> travel:m) (steps:<n,t> 6:n))
+%% FORWARD(23,17,180)
+%% FORWARD(23,18,180)
+%% FORWARD(23,19,180)
+%% FORWARD(23,20,180)
+%% FORWARD(23,21,180)
+%% FORWARD(23,22,180)
+%% NULL(23,23,180)
+turn right
+## (do_until:<a,<t,a>> (do:<m,a> turn:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (right:<<p,t>,<p,t>> at0:<p,t>))))
+%% RIGHT(23,23,180)
+%% NULL(23,23,270)
+walk forward once
+## (do_until:<a,<t,a>> (do:<m,a> travel:m) (steps:<n,t> 1:n))
+%% FORWARD(23,23,270)
+%% NULL(22,23,270)
+
+EDA_Jelly0_7_5_Dirs_1
+{'numFollowers': 5, 'confidence': (5.4, 0.8), 'directionRating': (5.0, 1.0954451150103324), 'valid': True, 'map': 'jelly', 'targetFound': (1.0, 0.0), 'efficiency': (0.95, 0.1), 'correct': True, 'implicit': False}
+turn so that your back is to the wall
+## (do_until:<a,<t,a>> (do:<m,a> turn:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> (behind:<<p,t>,<p,t>> at:<p,t>) (definite:<<p,t>,<p,t>> wall:<p,t>))))
+%% LEFT(17,17,0)
+%% LEFT(17,17,270)
+%% NULL(17,17,180)
+walk forward once
+## (do_until:<a,<t,a>> (do:<m,a> travel:m) (steps:<n,t> 1:n))
+%% FORWARD(17,17,180)
+%% NULL(17,18,180)
+turn left
+## (do_until:<a,<t,a>> (do:<m,a> turn:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (left:<<p,t>,<p,t>> at0:<p,t>))))
+%% LEFT(17,18,180)
+%% NULL(17,18,90)
+walk forward three times
+## (do_until:<a,<t,a>> (do:<m,a> travel:m) (steps:<n,t> 3:n))
+%% FORWARD(17,18,90)
+%% FORWARD(18,18,90)
+%% FORWARD(19,18,90)
+%% NULL(20,18,90)
+turn left
+## (do_until:<a,<t,a>> (do:<m,a> turn:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (left:<<p,t>,<p,t>> at0:<p,t>))))
+%% LEFT(20,18,90)
+%% NULL(20,18,0)
+walk forward once
+## (do_until:<a,<t,a>> (do:<m,a> travel:m) (steps:<n,t> 1:n))
+%% FORWARD(20,18,0)
+%% NULL(20,17,0)
+turn right
+## (do_until:<a,<t,a>> (do:<m,a> turn:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (right:<<p,t>,<p,t>> at0:<p,t>))))
+%% RIGHT(20,17,0)
+%% NULL(20,17,90)
+walk forward once
+## (do_until:<a,<t,a>> (do:<m,a> travel:m) (steps:<n,t> 1:n))
+%% FORWARD(20,17,90)
+%% NULL(21,17,90)
+
+EDA_L0_6_2_Dirs_1
+{'numFollowers': 7, 'confidence': (3.857142857142857, 1.456862718169367), 'directionRating': (2.857142857142857, 1.6413036132965795), 'valid': False, 'map': 'l', 'targetFound': (0.8571428571428571, 0.3499271061118826), 'efficiency': (0.4828420000000001, 0.45195212816498287), 'correct': False, 'implicit': False}
+turn to face the black corridor where you can see a painting easel at the end, and pictures of butterflys on both sides of the walls
+walk forward once
+
+EDA_Grid0_1_6_Dirs_1
+{'numFollowers': 4, 'confidence': (5.5, 0.8660254037844386), 'directionRating': (5.25, 0.82915619758885), 'valid': True, 'map': 'grid', 'targetFound': (1.0, 0.0), 'efficiency': (1.0, 0.0), 'correct': True, 'implicit': False}
+turn to face the long red hallway
+## (do_until:<a,<t,a>> (do:<m,a> turn:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> (front:<<p,t>,<p,t>> at:<p,t>) (hall:<c,<p,t>> brick:c))))
+%% LEFT(1,6,0)
+%% LEFT(1,6,270)
+%% NULL(1,6,180)
+walk forward once
+## (do_until:<a,<t,a>> (do:<m,a> travel:m) (steps:<n,t> 1:n))
+%% FORWARD(1,6,180)
+%% NULL(1,7,180)
+turn left
+## (do_until:<a,<t,a>> (do:<m,a> turn:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (left:<<p,t>,<p,t>> at0:<p,t>))))
+%% LEFT(1,7,180)
+%% NULL(1,7,90)
+walk forward once
+## (do_until:<a,<t,a>> (do:<m,a> travel:m) (steps:<n,t> 1:n))
+%% FORWARD(1,7,90)
+%% NULL(2,7,90)
+
+EDA_Grid0_5_3_Dirs_1
+{'numFollowers': 5, 'confidence': (5.0, 2.0), 'directionRating': (4.6, 1.8547236990991407), 'valid': True, 'map': 'grid', 'targetFound': (0.8, 0.4), 'efficiency': (0.8, 0.4), 'correct': True, 'implicit': False}
+turn so that the walls are on your right and back
+## (do_until:<a,<t,a>> (do:<m,a> turn:m) (and:<t*,t> (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> (right:<<p,t>,<p,t>> at:<p,t>) (definite:<<p,t>,<p,t>> wall:<p,t>))) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> (behind:<<p,t>,<p,t>> at:<p,t>) (definite:<<p,t>,<p,t>> wall:<p,t>)))))
+%% LEFT(1,11,90)
+%% LEFT(1,11,0)
+%% NULL(1,11,270)
+walk forward once
+## (do_until:<a,<t,a>> (do:<m,a> travel:m) (steps:<n,t> 1:n))
+%% FORWARD(1,11,270)
+%% NULL(0,11,270)
+turn right
+## (do_until:<a,<t,a>> (do:<m,a> turn:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (right:<<p,t>,<p,t>> at0:<p,t>))))
+%% RIGHT(0,11,270)
+%% NULL(0,11,0)
+walk forward twice
+## (do_until:<a,<t,a>> (do:<m,a> travel:m) (steps:<n,t> 2:n))
+%% FORWARD(0,11,0)
+%% FORWARD(0,10,0)
+%% NULL(0,9,0)
+
+EDA_Grid0_1_7_Dirs_1
+{'numFollowers': 5, 'confidence': (5.2, 0.9797958971132712), 'directionRating': (5.2, 0.7483314773547882), 'valid': True, 'map': 'grid', 'targetFound': (1.0, 0.0), 'efficiency': (1.0, 0.0), 'correct': True, 'implicit': False}
+turn to face the long red hallway
+## (do_until:<a,<t,a>> (do:<m,a> turn:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> (front:<<p,t>,<p,t>> at:<p,t>) (hall:<c,<p,t>> brick:c))))
+%% LEFT(1,6,0)
+%% LEFT(1,6,270)
+%% NULL(1,6,180)
+walk forward three times
+## (do_until:<a,<t,a>> (do:<m,a> travel:m) (steps:<n,t> 3:n))
+%% FORWARD(1,6,180)
+%% FORWARD(1,7,180)
+%% FORWARD(1,8,180)
+%% NULL(1,9,180)
+
+EDA_Jelly0_4_1_Dirs_1
+{'numFollowers': 5, 'confidence': (5.8, 0.39999999999999997), 'directionRating': (5.6, 0.4898979485566356), 'valid': True, 'map': 'jelly', 'targetFound': (1.0, 0.0), 'efficiency': (1.0, 0.0), 'correct': True, 'implicit': 'partial'}
+only one way to go
+## (verify:<t,a> (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> deadend:<p,t>)))
+%% VERIFY(15,20,0)
+walk to the end of the yellow hall (3 steps)
+## (do_until:<a,<t,a>> (do:<m,a> travel:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (end:<<p,t>,<p,t>> (hall:<c,<p,t>> honeycomb:c)))))
+%% FORWARD(15,20,0)
+%% FORWARD(15,19,0)
+%% FORWARD(15,18,0)
+%% NULL(15,17,0)
+turn right
+## (do_until:<a,<t,a>> (do:<m,a> turn:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (right:<<p,t>,<p,t>> at0:<p,t>))))
+%% RIGHT(15,17,0)
+%% NULL(15,17,90)
+walk to the end of the black hall (3 steps)
+## (do_until:<a,<t,a>> (do:<m,a> travel:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (end:<<p,t>,<p,t>> (hall:<c,<p,t>> stone:c)))))
+%% FORWARD(15,17,90)
+%% FORWARD(16,17,90)
+%% FORWARD(17,17,90)
+%% NULL(18,17,90)
+turn left
+## (do_until:<a,<t,a>> (do:<m,a> turn:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (left:<<p,t>,<p,t>> at0:<p,t>))))
+%% LEFT(18,17,90)
+%% NULL(18,17,0)
+walk forward once
+## (do_until:<a,<t,a>> (do:<m,a> travel:m) (steps:<n,t> 1:n))
+%% FORWARD(18,17,0)
+%% NULL(18,16,0)
+turn right
+## (do_until:<a,<t,a>> (do:<m,a> turn:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (right:<<p,t>,<p,t>> at0:<p,t>))))
+%% RIGHT(18,16,0)
+%% NULL(18,16,90)
+walk forward once
+## (do_until:<a,<t,a>> (do:<m,a> travel:m) (steps:<n,t> 1:n))
+%% FORWARD(18,16,90)
+%% NULL(19,16,90)
+
+EDA_Jelly0_2_1_Dirs_1
+{'numFollowers': 4, 'confidence': (5.0, 1.224744871391589), 'directionRating': (4.0, 1.8708286933869707), 'valid': True, 'map': 'jelly', 'targetFound': (1.0, 0.0), 'efficiency': (0.9375, 0.10825317547305482), 'correct': True, 'implicit': False}
+turn so that the wall is on your right and back
+## (do_until:<a,<t,a>> (do:<m,a> turn:m) (and:<t*,t> (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> (right:<<p,t>,<p,t>> at:<p,t>) (definite:<<p,t>,<p,t>> wall:<p,t>))) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> (behind:<<p,t>,<p,t>> at:<p,t>) (definite:<<p,t>,<p,t>> wall:<p,t>)))))
+%% LEFT(23,16,180)
+%% LEFT(23,16,90)
+%% NULL(23,16,0)
+walk forward once
+## (do_until:<a,<t,a>> (do:<m,a> travel:m) (steps:<n,t> 1:n))
+%% FORWARD(23,16,0)
+%% NULL(23,15,0)
+turn left
+## (do_until:<a,<t,a>> (do:<m,a> turn:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (left:<<p,t>,<p,t>> at0:<p,t>))))
+%% LEFT(23,15,0)
+%% NULL(23,15,270)
+walk forward four times
+## (do_until:<a,<t,a>> (do:<m,a> travel:m) (steps:<n,t> 4:n))
+%% FORWARD(23,15,270)
+%% FORWARD(22,15,270)
+%% FORWARD(21,15,270)
+%% FORWARD(20,15,270)
+%% NULL(19,15,270)
+turn left
+## (do_until:<a,<t,a>> (do:<m,a> turn:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (left:<<p,t>,<p,t>> at0:<p,t>))))
+%% LEFT(19,15,270)
+%% NULL(19,15,180)
+walk forward once
+## (do_until:<a,<t,a>> (do:<m,a> travel:m) (steps:<n,t> 1:n))
+%% FORWARD(19,15,180)
+%% NULL(19,16,180)
+
+EDA_L0_6_1_Dirs_1
+{'numFollowers': 4, 'confidence': (4.5, 1.6583123951777), 'directionRating': (4.25, 0.82915619758885), 'valid': False, 'map': 'l', 'targetFound': (0.75, 0.4330127018922193), 'efficiency': (0.561111, 0.38018030322861285), 'correct': False, 'implicit': False}
+turn to face the black hallway with the pictures of towers on either side, and a lamp down in the distance
+walk forward once
+turn left to face the red hallway
+walk forward five times
+turn left
+walk forward once
+
+EDA_Jelly0_5_6_Dirs_1
+{'numFollowers': 4, 'confidence': (3.75, 1.920286436967152), 'directionRating': (3.75, 1.7853571071357126), 'valid': True, 'map': 'jelly', 'targetFound': (0.25, 0.4330127018922193), 'efficiency': (0.25, 0.4330127018922193), 'correct': True, 'implicit': False}
+turn to face the easel
+## (do_until:<a,<t,a>> (do:<m,a> turn:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> (front:<<p,t>,<p,t>> at:<p,t>) easel:<p,t>)))
+%% LEFT(21,17,90)
+%% LEFT(21,17,0)
+%% NULL(21,17,270)
+walk forward once
+## (do_until:<a,<t,a>> (do:<m,a> travel:m) (steps:<n,t> 1:n))
+%% FORWARD(21,17,270)
+%% NULL(20,17,270)
+turn left
+## (do_until:<a,<t,a>> (do:<m,a> turn:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (left:<<p,t>,<p,t>> at0:<p,t>))))
+%% LEFT(20,17,270)
+%% NULL(20,17,180)
+walk forward once
+## (do_until:<a,<t,a>> (do:<m,a> travel:m) (steps:<n,t> 1:n))
+%% FORWARD(20,17,180)
+%% NULL(20,18,180)
+turn right
+## (do_until:<a,<t,a>> (do:<m,a> turn:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (right:<<p,t>,<p,t>> at0:<p,t>))))
+%% RIGHT(20,18,180)
+%% NULL(20,18,270)
+walk forward once
+## (do_until:<a,<t,a>> (do:<m,a> travel:m) (steps:<n,t> 1:n))
+%% FORWARD(20,18,270)
+%% NULL(19,18,270)
+turn left
+## (do_until:<a,<t,a>> (do:<m,a> turn:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (left:<<p,t>,<p,t>> at0:<p,t>))))
+%% LEFT(19,18,270)
+%% NULL(19,18,180)
+walk forward once
+## (do_until:<a,<t,a>> (do:<m,a> travel:m) (steps:<n,t> 1:n))
+%% FORWARD(19,18,180)
+%% NULL(19,19,180)
+turn right
+## (do_until:<a,<t,a>> (do:<m,a> turn:m) (notempty:<<e,t>,t> (intersect:<<e,t>*,<e,t>> at:<p,t> (right:<<p,t>,<p,t>> at0:<p,t>))))
+%% RIGHT(19,19,180)
+%% NULL(19,19,270)
+walk forward once
+## (do_until:<a,<t,a>> (do:<m,a> travel:m) (steps:<n,t> 1:n))
+%% FORWARD(19,19,270)
+%% NULL(18,19,270)
+

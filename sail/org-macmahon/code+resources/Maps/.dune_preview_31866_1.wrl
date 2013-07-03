@@ -1,0 +1,644 @@
+#VRML V2.0 utf8
+
+Group 
+  {
+  children 
+    [
+    Transform 
+      {
+      children 	DEF CementFloor Inline 
+	  {
+	  url 	    "SharedMedia/Objects/CementFloor.wrl"
+	  }
+      translation 0 0 200
+      }
+    Transform 
+      {
+      children 	DEF WALL Inline 
+	  {
+	  url 	    "SharedMedia/Objects/WALL.wrl"
+	  }
+      rotation 0 1 0 0
+      translation -5 0 200
+      }
+    Transform 
+      {
+      children 	USE WALL
+      rotation 0 1 0 1.570799
+      translation 0 0 195
+      }
+    Transform 
+      {
+      children 	DEF Fish_Grass_Hall Inline 
+	  {
+	  url 	    "SharedMedia/Objects/Fish_Grass_Hall.wrl"
+	  }
+      rotation 0 1 0 1.570799
+      translation 20 0 200
+      }
+    Transform 
+      {
+      children 	DEF Fish_Bluetile_Hall Inline 
+	  {
+	  url 	    "SharedMedia/Objects/Fish_Bluetile_Hall.wrl"
+	  }
+      rotation 0 1 0 0
+      translation 0 0 220
+      }
+    Transform 
+      {
+      children 	USE CementFloor
+      translation 40 0 200
+      }
+    Transform 
+      {
+      children 	USE WALL
+      rotation 0 1 0 1.570799
+      translation 40 0 195
+      }
+    Transform 
+      {
+      children 	USE Fish_Grass_Hall
+      rotation 0 1 0 1.570799
+      translation 60 0 200
+      }
+    Transform 
+      {
+      children 	DEF Fish_Brick_Hall Inline 
+	  {
+	  url 	    "SharedMedia/Objects/Fish_Brick_Hall.wrl"
+	  }
+      rotation 0 1 0 0
+      translation 40 0 220
+      }
+    Transform 
+      {
+      children 	USE CementFloor
+      translation 80 0 200
+      }
+    Transform 
+      {
+      children 	USE WALL
+      rotation 0 1 0 1.570799
+      translation 80 0 195
+      }
+    Transform 
+      {
+      children 	USE Fish_Grass_Hall
+      rotation 0 1 0 1.570799
+      translation 100 0 200
+      }
+    Transform 
+      {
+      children 	DEF Fish_Cement_Hall Inline 
+	  {
+	  url 	    "SharedMedia/Objects/Fish_Cement_Hall.wrl"
+	  }
+      rotation 0 1 0 0
+      translation 80 0 220
+      }
+    Transform 
+      {
+      children 	USE CementFloor
+      translation 120 0 200
+      }
+    Transform 
+      {
+      children 	USE WALL
+      rotation 0 1 0 0
+      translation 125 0 200
+      }
+    Transform 
+      {
+      children 	USE WALL
+      rotation 0 1 0 1.570799
+      translation 120 0 195
+      }
+    Transform 
+      {
+      children 	DEF Fish_Honeycomb_Hall Inline 
+	  {
+	  url 	    "SharedMedia/Objects/Fish_Honeycomb_Hall.wrl"
+	  }
+      rotation 0 1 0 0
+      translation 120 0 220
+      }
+    Transform 
+      {
+      children 	USE CementFloor
+      translation 0 0 240
+      }
+    Transform 
+      {
+      children 	USE WALL
+      rotation 0 1 0 0
+      translation -5 0 240
+      }
+    Transform 
+      {
+      children 	DEF Fish_Floral_Hall Inline 
+	  {
+	  url 	    "SharedMedia/Objects/Fish_Floral_Hall.wrl"
+	  }
+      rotation 0 1 0 1.570799
+      translation 20 0 240
+      }
+    Transform 
+      {
+      children 	USE Fish_Bluetile_Hall
+      rotation 0 1 0 0
+      translation 0 0 260
+      }
+    Transform 
+      {
+      children 	USE CementFloor
+      translation 40 0 240
+      }
+    Transform 
+      {
+      children 	USE Fish_Floral_Hall
+      rotation 0 1 0 1.570799
+      translation 60 0 240
+      }
+    Transform 
+      {
+      children 	USE Fish_Brick_Hall
+      rotation 0 1 0 0
+      translation 40 0 260
+      }
+    Transform 
+      {
+      children 	USE CementFloor
+      translation 80 0 240
+      }
+    Transform 
+      {
+      children 	USE Fish_Floral_Hall
+      rotation 0 1 0 1.570799
+      translation 100 0 240
+      }
+    Transform 
+      {
+      children 	USE Fish_Cement_Hall
+      rotation 0 1 0 0
+      translation 80 0 260
+      }
+    Transform 
+      {
+      children 	USE CementFloor
+      translation 120 0 240
+      }
+    Transform 
+      {
+      children 	USE WALL
+      rotation 0 1 0 0
+      translation 125 0 240
+      }
+    Transform 
+      {
+      children 	USE Fish_Honeycomb_Hall
+      rotation 0 1 0 0
+      translation 120 0 260
+      }
+    Transform 
+      {
+      children 	USE CementFloor
+      translation 0 0 280
+      }
+    Transform 
+      {
+      children 	USE WALL
+      rotation 0 1 0 0
+      translation -5 0 280
+      }
+    Transform 
+      {
+      children 	DEF Fish_Wood_Hall Inline 
+	  {
+	  url 	    "SharedMedia/Objects/Fish_Wood_Hall.wrl"
+	  }
+      rotation 0 1 0 1.570799
+      translation 20 0 280
+      }
+    Transform 
+      {
+      children 	DEF Butterfly_Bluetile_Hall Inline 
+	  {
+	  url 	    "SharedMedia/Objects/Butterfly_Bluetile_Hall.wrl"
+	  }
+      rotation 0 1 0 0
+      translation 0 0 300
+      }
+    Transform 
+      {
+      children 	USE CementFloor
+      translation 40 0 280
+      }
+    Transform 
+      {
+      children 	DEF Eiffel_Wood_Hall Inline 
+	  {
+	  url 	    "SharedMedia/Objects/Eiffel_Wood_Hall.wrl"
+	  }
+      rotation 0 1 0 1.570799
+      translation 60 0 280
+      }
+    Transform 
+      {
+      children 	DEF Eiffel_Brick_Hall Inline 
+	  {
+	  url 	    "SharedMedia/Objects/Eiffel_Brick_Hall.wrl"
+	  }
+      rotation 0 1 0 0
+      translation 40 0 300
+      }
+    Transform 
+      {
+      children 	USE CementFloor
+      translation 80 0 280
+      }
+    Transform 
+      {
+      children 	USE WALL
+      rotation 0 1 0 1.570799
+      translation 80 0 285
+      }
+    Transform 
+      {
+      children 	USE Eiffel_Wood_Hall
+      rotation 0 1 0 1.570799
+      translation 100 0 280
+      }
+    Transform 
+      {
+      children 	USE CementFloor
+      translation 120 0 280
+      }
+    Transform 
+      {
+      children 	USE WALL
+      rotation 0 1 0 0
+      translation 125 0 280
+      }
+    Transform 
+      {
+      children 	DEF Eiffel_Honeycomb_Hall Inline 
+	  {
+	  url 	    "SharedMedia/Objects/Eiffel_Honeycomb_Hall.wrl"
+	  }
+      rotation 0 1 0 0
+      translation 120 0 300
+      }
+    Transform 
+      {
+      children 	USE CementFloor
+      translation 160 0 280
+      }
+    Transform 
+      {
+      children 	USE WALL
+      rotation 0 1 0 0
+      translation 155 0 280
+      }
+    Transform 
+      {
+      children 	USE WALL
+      rotation 0 1 0 0
+      translation 165 0 280
+      }
+    Transform 
+      {
+      children 	USE WALL
+      rotation 0 1 0 1.570799
+      translation 160 0 275
+      }
+    Transform 
+      {
+      children 	DEF Eiffel_Cement_Hall Inline 
+	  {
+	  url 	    "SharedMedia/Objects/Eiffel_Cement_Hall.wrl"
+	  }
+      rotation 0 1 0 0
+      translation 160 0 300
+      }
+    Transform 
+      {
+      children 	USE CementFloor
+      translation 0 0 320
+      }
+    Transform 
+      {
+      children 	USE WALL
+      rotation 0 1 0 0
+      translation -5 0 320
+      }
+    Transform 
+      {
+      children 	DEF Butterfly_Stone_Hall Inline 
+	  {
+	  url 	    "SharedMedia/Objects/Butterfly_Stone_Hall.wrl"
+	  }
+      rotation 0 1 0 1.570799
+      translation 20 0 320
+      }
+    Transform 
+      {
+      children 	USE Butterfly_Bluetile_Hall
+      rotation 0 1 0 0
+      translation 0 0 340
+      }
+    Transform 
+      {
+      children 	USE CementFloor
+      translation 40 0 320
+      }
+    Transform 
+      {
+      children 	DEF Eiffel_Stone_Hall Inline 
+	  {
+	  url 	    "SharedMedia/Objects/Eiffel_Stone_Hall.wrl"
+	  }
+      rotation 0 1 0 1.570799
+      translation 60 0 320
+      }
+    Transform 
+      {
+      children 	DEF Butterfly_Brick_Hall Inline 
+	  {
+	  url 	    "SharedMedia/Objects/Butterfly_Brick_Hall.wrl"
+	  }
+      rotation 0 1 0 0
+      translation 40 0 340
+      }
+    Transform 
+      {
+      children 	USE CementFloor
+      translation 80 0 320
+      }
+    Transform 
+      {
+      children 	USE WALL
+      rotation 0 1 0 1.570799
+      translation 80 0 315
+      }
+    Transform 
+      {
+      children 	USE Eiffel_Stone_Hall
+      rotation 0 1 0 1.570799
+      translation 100 0 320
+      }
+    Transform 
+      {
+      children 	DEF Eiffel_Cement_Hall_0 Inline 
+	  {
+	  url 	    "SharedMedia/Objects/Eiffel_Cement_Hall.wrl"
+	  }
+      rotation 0 1 0 0
+      translation 80 0 340
+      }
+    Transform 
+      {
+      children 	USE CementFloor
+      translation 120 0 320
+      }
+    Transform 
+      {
+      children 	USE WALL
+      rotation 0 1 0 1.570799
+      translation 120 0 325
+      }
+    Transform 
+      {
+      children 	USE Eiffel_Stone_Hall
+      rotation 0 1 0 1.570799
+      translation 140 0 320
+      }
+    Transform 
+      {
+      children 	USE CementFloor
+      translation 160 0 320
+      }
+    Transform 
+      {
+      children 	USE WALL
+      rotation 0 1 0 0
+      translation 165 0 320
+      }
+    Transform 
+      {
+      children 	USE WALL
+      rotation 0 1 0 1.570799
+      translation 160 0 325
+      }
+    Transform 
+      {
+      children 	USE CementFloor
+      translation 0 0 360
+      }
+    Transform 
+      {
+      children 	USE WALL
+      rotation 0 1 0 0
+      translation -5 0 360
+      }
+    Transform 
+      {
+      children 	DEF Butterfly_Cement_Hall Inline 
+	  {
+	  url 	    "SharedMedia/Objects/Butterfly_Cement_Hall.wrl"
+	  }
+      rotation 0 1 0 1.570799
+      translation 20 0 360
+      }
+    Transform 
+      {
+      children 	USE Butterfly_Bluetile_Hall
+      rotation 0 1 0 0
+      translation 0 0 380
+      }
+    Transform 
+      {
+      children 	USE CementFloor
+      translation 40 0 360
+      }
+    Transform 
+      {
+      children 	DEF Eiffel_Cement_Hall_1 Inline 
+	  {
+	  url 	    "SharedMedia/Objects/Eiffel_Cement_Hall.wrl"
+	  }
+      rotation 0 1 0 1.570799
+      translation 60 0 360
+      }
+    Transform 
+      {
+      children 	USE Butterfly_Brick_Hall
+      rotation 0 1 0 0
+      translation 40 0 380
+      }
+    Transform 
+      {
+      children 	USE CementFloor
+      translation 80 0 360
+      }
+    Transform 
+      {
+      children 	USE WALL
+      rotation 0 1 0 0
+      translation 85 0 360
+      }
+    Transform 
+      {
+      children 	USE Eiffel_Cement_Hall_1
+      rotation 0 1 0 0
+      translation 80 0 380
+      }
+    Transform 
+      {
+      children 	USE CementFloor
+      translation 0 0 400
+      }
+    Transform 
+      {
+      children 	USE WALL
+      rotation 0 1 0 0
+      translation -5 0 400
+      }
+    Transform 
+      {
+      children 	DEF Butterfly_Cement_Hall_0 Inline 
+	  {
+	  url 	    "SharedMedia/Objects/Butterfly_Cement_Hall.wrl"
+	  }
+      rotation 0 1 0 1.570799
+      translation 20 0 400
+      }
+    Transform 
+      {
+      children 	USE Butterfly_Bluetile_Hall
+      rotation 0 1 0 0
+      translation 0 0 420
+      }
+    Transform 
+      {
+      children 	USE CementFloor
+      translation 40 0 400
+      }
+    Transform 
+      {
+      children 	USE WALL
+      rotation 0 1 0 1.570799
+      translation 40 0 405
+      }
+    Transform 
+      {
+      children 	USE Eiffel_Cement_Hall_1
+      rotation 0 1 0 1.570799
+      translation 60 0 400
+      }
+    Transform 
+      {
+      children 	USE CementFloor
+      translation 80 0 400
+      }
+    Transform 
+      {
+      children 	USE WALL
+      rotation 0 1 0 0
+      translation 85 0 400
+      }
+    Transform 
+      {
+      children 	USE WALL
+      rotation 0 1 0 1.570799
+      translation 80 0 405
+      }
+    Transform 
+      {
+      children 	USE CementFloor
+      translation 0 0 440
+      }
+    Transform 
+      {
+      children 	USE WALL
+      rotation 0 1 0 0
+      translation -5 0 440
+      }
+    Transform 
+      {
+      children 	USE Butterfly_Cement_Hall_0
+      rotation 0 1 0 1.570799
+      translation 20 0 440
+      }
+    Transform 
+      {
+      children 	USE Butterfly_Bluetile_Hall
+      rotation 0 1 0 0
+      translation 0 0 460
+      }
+    Transform 
+      {
+      children 	USE CementFloor
+      translation 40 0 440
+      }
+    Transform 
+      {
+      children 	USE WALL
+      rotation 0 1 0 0
+      translation 45 0 440
+      }
+    Transform 
+      {
+      children 	USE WALL
+      rotation 0 1 0 1.570799
+      translation 40 0 435
+      }
+    Transform 
+      {
+      children 	USE Butterfly_Cement_Hall_0
+      rotation 0 1 0 0
+      translation 40 0 460
+      }
+    Transform 
+      {
+      children 	USE CementFloor
+      translation 0 0 480
+      }
+    Transform 
+      {
+      children 	USE WALL
+      rotation 0 1 0 0
+      translation -5 0 480
+      }
+    Transform 
+      {
+      children 	USE WALL
+      rotation 0 1 0 1.570799
+      translation 0 0 485
+      }
+    Transform 
+      {
+      children 	USE Butterfly_Cement_Hall_0
+      rotation 0 1 0 1.570799
+      translation 20 0 480
+      }
+    Transform 
+      {
+      children 	USE CementFloor
+      translation 40 0 480
+      }
+    Transform 
+      {
+      children 	USE WALL
+      rotation 0 1 0 0
+      translation 45 0 480
+      }
+    Transform 
+      {
+      children 	USE WALL
+      rotation 0 1 0 1.570799
+      translation 40 0 485
+      }
+    ]
+  }
+

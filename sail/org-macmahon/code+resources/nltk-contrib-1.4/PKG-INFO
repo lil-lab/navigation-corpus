@@ -1,0 +1,15 @@
+Metadata-Version: 1.0
+Name: nltk-contrib
+Version: 1.4
+Summary: Natural Language Toolkit: Contributions
+Home-page: http://nltk.sourceforge.net/
+Author: Edward Loper
+Author-email: edloper@gradient.cis.upenn.edu
+License: GNU Public License
+Description: Contributed files for the Natural Language Toolkit.  The Natural
+        Langauge Toolkit is a Python package that simplifies the construction
+        of programs that process natural language; and defines standard
+        interfaces between the different components of an NLP system.  NLTK
+        requires Python 2.1 or higher.
+Keywords: NLP,CL,natural language processing,computational linguistics,parsing,tagging,tokenizing,syntax,linguistics,language,natural language
+Platform: UNKNOWN

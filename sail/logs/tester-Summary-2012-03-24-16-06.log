@@ -1,0 +1,2 @@
+Can't interpret Meta = [Meta=[Det=[MEAN='THIS']]]
+in [Meta=[Det=[MEAN='THIS']], Ref=[MEAN='ONE'], Is_v=[MEAN="is_V_('be', [1, 2, 3, 4, 5])"], Turn=[Det=[MEAN='A'], Turn_n=[MEAN='little_N_1']]]

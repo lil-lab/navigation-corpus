@@ -1,0 +1,25 @@
+#VRML V2.0 utf8
+DEF FishHallWall Group {
+   children[
+      Shape {
+	 appearance Appearance {
+	    texture ImageTexture {
+	       url "SharedMedia/Textures/Cement1.JPG"
+	    }
+	 }
+	 geometry Box {
+	    size 0.500000 10.000000 30.000000
+	 }
+      },
+    Shape {
+        appearance Appearance {
+            texture ImageTexture {
+                url "SharedMedia/Textures/fish.jpg"
+            }
+        }
+	 geometry Box {
+	       size 0.750000 10.000000 10.000000
+	 }
+      }
+     ]
+}

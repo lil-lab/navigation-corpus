@@ -1,0 +1,32 @@
+#VRML V2.0 utf8
+
+DEF TARGET_POINTER Transform {
+  translation 0 0 0
+  children [
+      Transform {
+        translation 0 0 0
+      children [
+        Shape {
+            appearance Appearance {
+                material Material {
+                    diffuseColor 0.3 0.3 1
+                }
+            }
+            geometry IndexedFaceSet {
+                coord Coordinate {
+                    point [
+                        -0.125 0 -0.125,
+                        -0.125 0 0.125,
+                        0.125 0 0.125,
+                        0.125 0 -0.125
+                    ]
+                }
+                coordIndex [
+                    0, 1, 2, 3, -1,
+                ]
+            }
+        }
+    ]
+   }
+  ]
+}

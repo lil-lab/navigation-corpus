@@ -1,0 +1,29 @@
+03-24 15:21:16 INFO     frame2action [Orient_v=[MEAN='place_V_1'], Obj=[Det=[MEAN='YOUR'], Obj_n=[MEAN='back_N_1']], Against=[Against_p=[MEAN='TO'], Obj=[Det=[MEAN='THE'], Obj_n=[MEAN='wall_N_1'], Part=[Part_p=[MEAN='OF'], Struct=[Det=[MEAN='THE'], Structural=[MEAN='t_N_5'], Struct_n=[MEAN='intersection_N_2']]]]]]
+03-24 15:21:16 INFO     <0> Face(faced=Verify(desc=[Thing(dist='0', Part=[Thing(value=Intersection, type='Struct', Structural=[T_Int])], value=Wall, type='Obj', side=[Back])]))
+03-24 15:44:35 INFO     frame2action [Orient_v=[MEAN='place_V_1'], Obj=[Det=[MEAN='YOUR'], Obj_n=[MEAN='back_N_1']], Against=[Against_p=[MEAN='TO'], Obj=[Det=[MEAN='THE'], Obj_n=[MEAN='wall_N_1'], Part=[Part_p=[MEAN='OF'], Struct=[Det=[MEAN='THE'], Structural=[MEAN='t_N_5'], Struct_n=[MEAN='intersection_N_2']]]]]]
+03-24 15:44:35 INFO     <0> Face(faced=Verify(desc=[Thing(dist='0', Part=[Thing(value=Intersection, type='Struct', Structural=[T_Int])], value=Wall, type='Obj', side=[Back])]))
+03-24 16:05:05 INFO     Recognizing [Thing(dist='0', value=Path, type='Path', side=[Left])].
+03-24 16:05:05 INFO     recognize observing...
+03-24 16:05:05 INFO     Observed [(Wall, Empty, Cement, Butterfly, BlueTile, Butterfly), (Wall, Barstool, Stone, Butterfly, BlueTile, Butterfly), (Wall, Chair, Wood, Fish, BlueTile, Fish), (Wall, Empty, Rose, Fish, BlueTile, Fish), (Wall, Empty, Grass, End, Wall, End)]
+03-24 16:05:05 INFO     .....Examining [(Wall, Empty, Cement, Butterfly, BlueTile, Butterfly), (Wall, Barstool, Stone, Butterfly, BlueTile, Butterfly), (Wall, Chair, Wood, Fish, BlueTile, Fish), (Wall, Empty, Rose, Fish, BlueTile, Fish), (Wall, Empty, Grass, End, Wall, End)]
+.....for Thing(dist='0', value=Path, type='Path', side=[Left])
+03-24 16:05:05 INFO     .....Did NOT recognize Thing(dist='0', value=Path, type='Path', side=[Left])
+03-24 16:05:05 INFO     Recognizing [Thing(dist='0', Part=[Thing(value=Intersection, type='Struct', Structural=[T_Int])], value=Wall, type='Obj', side=[Back])].
+03-24 16:05:05 INFO     .....Examining [(Wall, Empty, Cement, Butterfly, BlueTile, Butterfly), (Wall, Barstool, Stone, Butterfly, BlueTile, Butterfly), (Wall, Chair, Wood, Fish, BlueTile, Fish), (Wall, Empty, Rose, Fish, BlueTile, Fish), (Wall, Empty, Grass, End, Wall, End)]
+.....for Thing(dist='0', Part=[Thing(value=Intersection, type='Struct', Structural=[T_Int])], value=Wall, type='Obj', side=[Back])
+03-24 16:05:05 INFO     .....Did NOT recognize Thing(dist='0', Part=[Thing(value=Intersection, type='Struct', Structural=[T_Int])], value=Wall, type='Obj', side=[Back])
+03-24 16:05:05 INFO     Turning Right.
+03-24 16:05:05 INFO     After face 1 [(BlueTile, Empty, BlueTile, Butterfly, Cement, Butterfly)]...
+03-24 16:05:05 INFO     Recognizing [Thing(dist='0', Part=[Thing(value=Intersection, type='Struct', Structural=[T_Int])], value=Wall, type='Obj', side=[Back])].
+03-24 16:05:05 INFO     .....Examining [(BlueTile, Empty, BlueTile, Butterfly, Cement, Butterfly), (Brick, Empty, Brick, Eiffel, Cement, Eiffel), (Cement, Empty, Cement, End, Wall, End)]
+.....for Thing(dist='0', Part=[Thing(value=Intersection, type='Struct', Structural=[T_Int])], value=Wall, type='Obj', side=[Back])
+03-24 16:05:05 INFO     .....Recognized Thing(dist='0', Part=[Thing(value=Intersection, type='Struct', Structural=[T_Int])], value=Wall, type='Obj', side=[Back])
+03-24 16:05:05 INFO     .....Recognized entire description!
+03-24 16:05:26 INFO     frame2action [MEAN='BOO']
+03-24 16:05:26 ERROR    Couldn't find head in [MEAN='BOO'], but heuristic is Verify
+03-24 16:05:26 WARNING  Unknown attributes for Verify: ['INDEX', 'TEXT']
+in [MEAN='BOO']
+03-24 16:05:33 INFO     frame2action [MEAN='BOO']
+03-24 16:05:33 ERROR    Couldn't find head in [MEAN='BOO'], but heuristic is Verify
+03-24 16:05:33 WARNING  Unknown attributes for Verify: ['INDEX', 'TEXT']
+in [MEAN='BOO']

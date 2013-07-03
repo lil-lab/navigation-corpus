@@ -1,0 +1,633 @@
+12-01 14:17:06 INFO     frame2action [Turn_v=[MEAN='turn_V_1'], Cond=[Cond_p=[MEAN='WITH'], Obj=[Det=[MEAN='YOUR'], Obj_n=[MEAN='back_N_1']], Against=[Against_p=[MEAN='TO'], Obj=[Obj_n=[MEAN='chair_N_1']]]]]
+12-01 14:17:06 INFO     <0> Turn(precond=Face(faced=Verify(desc=[Thing(dist='0:', value=GenChair, type='Obj', side=[Back])])))
+12-01 14:17:31 INFO     Recognizing [Thing(dist='0', value=Path, type='Path', side=[Right])].
+12-01 14:17:31 INFO     .....Examining [(Cement, Empty, Wall, Butterfly, BlueTile, Butterfly), (Cement, Sofa, Wall, Butterfly, BlueTile, Butterfly), (Cement, Hatrack, Wall, Butterfly, BlueTile, Butterfly), (Cement, Empty, Wall, End, Wall, End)]
+.....for Thing(dist='0', value=Path, type='Path', side=[Right])
+12-01 14:17:31 INFO     .....Did NOT recognize Thing(dist='0', value=Path, type='Path', side=[Right])
+12-01 14:17:31 INFO     Recognizing [Thing(dist='0:', value=GenChair, type='Obj', side=[Back])].
+12-01 14:17:31 INFO     .....Examining [(Cement, Empty, Wall, Butterfly, BlueTile, Butterfly), (Cement, Sofa, Wall, Butterfly, BlueTile, Butterfly), (Cement, Hatrack, Wall, Butterfly, BlueTile, Butterfly), (Cement, Empty, Wall, End, Wall, End)]
+.....for Thing(dist='0:', value=GenChair, type='Obj', side=[Back])
+12-01 14:17:31 INFO     .....Did NOT recognize Thing(dist='0:', value=GenChair, type='Obj', side=[Back])
+12-01 14:17:31 INFO     Turning Left.
+12-01 14:17:31 INFO     After face 1 [(BlueTile, Empty, BlueTile, Butterfly, Cement, Butterfly)]...
+12-01 14:17:31 INFO     Recognizing [Thing(dist='0:', value=GenChair, type='Obj', side=[Back])].
+12-01 14:17:31 INFO     .....Examining [(BlueTile, Empty, BlueTile, Butterfly, Cement, Butterfly), (Brick, Empty, Brick, Eiffel, Cement, Eiffel), (Cement, Empty, Cement, End, Wall, End)]
+.....for Thing(dist='0:', value=GenChair, type='Obj', side=[Back])
+12-01 14:17:31 INFO     .....Did NOT recognize Thing(dist='0:', value=GenChair, type='Obj', side=[Back])
+12-01 14:17:31 INFO     Turning Left.
+12-01 14:17:31 INFO     After face 1 [(Wall, Empty, Cement, Butterfly, BlueTile, Butterfly)]...
+12-01 14:17:31 INFO     Recognizing [Thing(dist='0:', value=GenChair, type='Obj', side=[Back])].
+12-01 14:17:31 INFO     .....Examining [(Wall, Empty, Cement, Butterfly, BlueTile, Butterfly), (Wall, Barstool, Stone, Butterfly, BlueTile, Butterfly), (Wall, Chair, Wood, Fish, BlueTile, Fish), (Wall, Empty, Rose, Fish, BlueTile, Fish), (Wall, Empty, Grass, End, Wall, End)]
+.....for Thing(dist='0:', value=GenChair, type='Obj', side=[Back])
+12-01 14:17:31 INFO     .....Recognized Thing(dist='0:', value=GenChair, type='Obj', side=[Back])
+12-01 14:17:31 INFO     .....Recognized entire description!
+12-01 14:17:31 INFO     After precond 2 [(Wall, Empty, Cement, Butterfly, BlueTile, Butterfly)]...
+12-01 14:17:31 INFO     Recognizing [Thing(dist='0', value=Path, type='Path', side=[Right])].
+12-01 14:17:31 INFO     .....Examining [(Wall, Empty, Cement, Butterfly, BlueTile, Butterfly), (Wall, Barstool, Stone, Butterfly, BlueTile, Butterfly), (Wall, Chair, Wood, Fish, BlueTile, Fish), (Wall, Empty, Rose, Fish, BlueTile, Fish), (Wall, Empty, Grass, End, Wall, End)]
+.....for Thing(dist='0', value=Path, type='Path', side=[Right])
+12-01 14:17:31 INFO     .....Recognized Thing(dist='0', value=Path, type='Path', side=[Right])
+12-01 14:17:31 INFO     .....Recognized entire description!
+12-01 14:17:31 INFO     Turning Right.
+12-01 14:17:31 INFO     After turn 1 [(BlueTile, Empty, BlueTile, Butterfly, Cement, Butterfly)]...
+12-01 14:28:17 INFO     Recognizing [Thing(dist='0', value=Path, type='Path', side=[Left])].
+12-01 14:28:17 INFO     recognize observing...
+12-01 14:28:17 INFO     Observed [(Cement, Empty, Wall, Butterfly, BlueTile, Butterfly), (Cement, Sofa, Wall, Butterfly, BlueTile, Butterfly), (Cement, Hatrack, Wall, Butterfly, BlueTile, Butterfly), (Cement, Empty, Wall, End, Wall, End)]
+12-01 14:28:17 INFO     .....Examining [(Cement, Empty, Wall, Butterfly, BlueTile, Butterfly), (Cement, Sofa, Wall, Butterfly, BlueTile, Butterfly), (Cement, Hatrack, Wall, Butterfly, BlueTile, Butterfly), (Cement, Empty, Wall, End, Wall, End)]
+.....for Thing(dist='0', value=Path, type='Path', side=[Left])
+12-01 14:28:17 INFO     .....Recognized Thing(dist='0', value=Path, type='Path', side=[Left])
+12-01 14:28:17 INFO     .....Recognized entire description!
+12-01 14:28:17 INFO     Recognizing [Thing(dist='0:', value=GenChair, type='Obj', side=[Back])].
+12-01 14:28:17 INFO     .....Examining [(Cement, Empty, Wall, Butterfly, BlueTile, Butterfly), (Cement, Sofa, Wall, Butterfly, BlueTile, Butterfly), (Cement, Hatrack, Wall, Butterfly, BlueTile, Butterfly), (Cement, Empty, Wall, End, Wall, End)]
+.....for Thing(dist='0:', value=GenChair, type='Obj', side=[Back])
+12-01 14:28:17 INFO     .....Did NOT recognize Thing(dist='0:', value=GenChair, type='Obj', side=[Back])
+12-01 14:28:17 INFO     Turning Left.
+12-01 14:28:17 INFO     After face 1 [(BlueTile, Empty, BlueTile, Butterfly, Cement, Butterfly)]...
+12-01 14:28:17 INFO     Recognizing [Thing(dist='0:', value=GenChair, type='Obj', side=[Back])].
+12-01 14:28:17 INFO     .....Examining [(BlueTile, Empty, BlueTile, Butterfly, Cement, Butterfly), (Brick, Empty, Brick, Eiffel, Cement, Eiffel), (Cement, Empty, Cement, End, Wall, End)]
+.....for Thing(dist='0:', value=GenChair, type='Obj', side=[Back])
+12-01 14:28:17 INFO     .....Did NOT recognize Thing(dist='0:', value=GenChair, type='Obj', side=[Back])
+12-01 14:28:17 INFO     Turning Left.
+12-01 14:28:17 INFO     After face 1 [(Wall, Empty, Cement, Butterfly, BlueTile, Butterfly)]...
+12-01 14:28:17 INFO     Recognizing [Thing(dist='0:', value=GenChair, type='Obj', side=[Back])].
+12-01 14:28:17 INFO     .....Examining [(Wall, Empty, Cement, Butterfly, BlueTile, Butterfly), (Wall, Barstool, Stone, Butterfly, BlueTile, Butterfly), (Wall, Chair, Wood, Fish, BlueTile, Fish), (Wall, Empty, Rose, Fish, BlueTile, Fish), (Wall, Empty, Grass, End, Wall, End)]
+.....for Thing(dist='0:', value=GenChair, type='Obj', side=[Back])
+12-01 14:28:17 INFO     .....Recognized Thing(dist='0:', value=GenChair, type='Obj', side=[Back])
+12-01 14:28:17 INFO     .....Recognized entire description!
+12-01 14:28:17 INFO     After precond 4 [(Wall, Empty, Cement, Butterfly, BlueTile, Butterfly)]...
+12-01 14:28:17 INFO     Recognizing [Thing(dist='0', value=Path, type='Path', side=[Left])].
+12-01 14:28:17 INFO     .....Examining [(Wall, Empty, Cement, Butterfly, BlueTile, Butterfly), (Wall, Barstool, Stone, Butterfly, BlueTile, Butterfly), (Wall, Chair, Wood, Fish, BlueTile, Fish), (Wall, Empty, Rose, Fish, BlueTile, Fish), (Wall, Empty, Grass, End, Wall, End)]
+.....for Thing(dist='0', value=Path, type='Path', side=[Left])
+12-01 14:28:17 INFO     .....Did NOT recognize Thing(dist='0', value=Path, type='Path', side=[Left])
+12-01 14:28:17 INFO     Turning Right.
+12-01 14:28:17 INFO     After turn 1 [(BlueTile, Empty, BlueTile, Butterfly, Cement, Butterfly)]...
+12-01 14:29:11 INFO     frame2action [Cond=[Cond_p=[MEAN='WITH'], Obj=[Det=[MEAN='YOUR'], Obj_n=[MEAN='back_N_1']], Against=[Against_p=[MEAN='TO'], Obj=[Det=[MEAN='THE'], Obj_n=[MEAN='chair_N_1']]]], Obj=[Det=[MEAN='THE'], Obj_n=[MEAN='chair_N_1']]]
+12-01 14:29:11 INFO     <0> Verify(desc=[Thing(dist='0:', value=GenChair, type='Obj', side=[Back]), Thing(value=GenChair, type='Obj')])
+12-01 14:29:18 INFO     frame2action [Cond=[Cond_p=[MEAN='WITH'], Obj=[Det=[MEAN='YOUR'], Obj_n=[MEAN='back_N_1']], Against=[Against_p=[MEAN='TO'], Obj=[Det=[MEAN='THE'], Obj_n=[MEAN='chair_N_1']]]], Obj=[Det=[MEAN='THE'], Obj_n=[MEAN='chair_N_1']]]
+12-01 14:29:18 INFO     <0> Verify(desc=[Thing(dist='0:', value=GenChair, type='Obj', side=[Back]), Thing(value=GenChair, type='Obj')])
+12-01 14:29:31 WARNING  extractSurfaceSemantics : Text not in tagged senses: barstool
+12-01 14:29:31 WARNING  extractSurfaceSemantics : Inflected version of WordNet word? barstool
+12-01 14:29:31 WARNING  extractSurfaceSemantics : Misspelling / typo of WordNet word? barstool
+12-01 14:29:38 INFO     frame2action [Cond=[Cond_p=[MEAN='WITH'], Obj=[Det=[MEAN='YOUR'], Obj_n=[MEAN='back_N_1']]], Until=[Until_p=[MEAN='TO'], Obj=[Det=[MEAN='THE'], Appear=[MEAN='bare_ADJ_4'], Obj_n=[MEAN='stool_N_1']]]]
+12-01 14:29:38 INFO     <0> Verify(desc=[Thing(value=Back, type='Obj'), Thing(dist='0', Appear=[Cement], value=Barstool, type='Obj', side=[At])])
+12-01 14:29:56 INFO     Recognizing [Thing(value=Back, type='Obj'), Thing(dist='0', Appear=[Cement], value=Barstool, type='Obj', side=[At])].
+12-01 14:29:56 INFO     .....Examining [(Cement, Empty, Wall, Butterfly, BlueTile, Butterfly), (Cement, Sofa, Wall, Butterfly, BlueTile, Butterfly), (Cement, Hatrack, Wall, Butterfly, BlueTile, Butterfly), (Cement, Empty, Wall, End, Wall, End)]
+.....for Thing(value=Back, type='Obj')
+12-01 14:29:56 INFO     .....Did NOT recognize Thing(value=Back, type='Obj', side=[At])
+12-01 14:31:18 INFO     frame2action [Turn_v=[MEAN='turn_V_1'], Purpose=[Purpose_p=[MEAN='SO'], S=[Dir=[MEAN='back_ADV_1,2'], Until=[Until_p=[MEAN='TO'], Obj=[Det=[MEAN='THE'], Appear=[MEAN='bare_ADJ_4'], Obj_n=[MEAN='stool_N_1']]]]]]
+12-01 14:31:18 INFO     <0> Turn(face=Face(faced=Verify(desc=[Thing(dist='0', Appear=[Cement], value=Barstool, type='Obj', side=[At])])))
+12-01 14:31:51 INFO     frame2action [Turn_v=[MEAN='turn_V_1'], Purpose=[Purpose_p=[MEAN='SO'], S=[Obj=[Det=[MEAN='YOUR'], Obj_n=[MEAN='back_N_1']], Is_v=[MEAN="is_V_('be', [1, 2, 3, 4, 5])"], Against=[Against_p=[MEAN='TO'], Obj=[Det=[MEAN='THE'], Appear=[MEAN='bare_ADJ_4'], Obj_n=[MEAN='stool_N_1']]]]]]
+12-01 14:31:51 INFO     <0> Turn(face=Face(faced=Verify(desc=[Thing(dist='0:', Appear=[Cement], value=Barstool, type='Obj', side=[Back])])))
+12-01 14:32:01 INFO     frame2action [Turn_v=[MEAN='turn_V_1'], Purpose=[Purpose_p=[MEAN='SO'], S=[Obj=[Det=[MEAN='YOUR'], Obj_n=[MEAN='back_N_1']], Is_v=[MEAN="is_V_('be', [1, 2, 3, 4, 5])"], Against=[Against_p=[MEAN='TO'], Obj=[Det=[MEAN='THE'], Appear=[MEAN='bare_ADJ_4'], Obj_n=[MEAN='stool_N_1']]]]]]
+12-01 14:32:01 INFO     <0> Turn(face=Face(faced=Verify(desc=[Thing(dist='0:', Appear=[Cement], value=Barstool, type='Obj', side=[Back])])))
+12-01 14:32:29 INFO     Recognizing [Thing(dist='0', value=Path, type='Path', side=[Left])].
+12-01 14:32:29 INFO     .....Examining [(BlueTile, Empty, BlueTile, Butterfly, Cement, Butterfly), (Brick, Empty, Brick, Eiffel, Cement, Eiffel), (Cement, Empty, Cement, End, Wall, End)]
+.....for Thing(dist='0', value=Path, type='Path', side=[Left])
+12-01 14:32:29 INFO     .....Recognized Thing(dist='0', value=Path, type='Path', side=[Left])
+12-01 14:32:29 INFO     .....Recognized entire description!
+12-01 14:32:29 INFO     Recognizing [Thing(dist='0:', Appear=[Cement], value=Barstool, type='Obj', side=[Back])].
+12-01 14:32:29 INFO     .....Examining [(BlueTile, Empty, BlueTile, Butterfly, Cement, Butterfly), (Brick, Empty, Brick, Eiffel, Cement, Eiffel), (Cement, Empty, Cement, End, Wall, End)]
+.....for Thing(dist='0:', Appear=[Cement], value=Barstool, type='Obj', side=[Back])
+12-01 14:32:29 INFO     .....Did NOT recognize Thing(dist='0:', Appear=[Cement], value=Barstool, type='Obj', side=[Back])
+12-01 14:32:29 INFO     Turning Left.
+12-01 14:32:29 INFO     After face 1 [(Wall, Empty, Cement, Butterfly, BlueTile, Butterfly)]...
+12-01 14:32:29 INFO     Recognizing [Thing(dist='0:', Appear=[Cement], value=Barstool, type='Obj', side=[Back])].
+12-01 14:32:29 INFO     .....Examining [(Wall, Empty, Cement, Butterfly, BlueTile, Butterfly), (Wall, Barstool, Stone, Butterfly, BlueTile, Butterfly), (Wall, Chair, Wood, Fish, BlueTile, Fish), (Wall, Empty, Rose, Fish, BlueTile, Fish), (Wall, Empty, Grass, End, Wall, End)]
+.....for Thing(dist='0:', Appear=[Cement], value=Barstool, type='Obj', side=[Back])
+12-01 14:32:29 INFO     .....Did NOT recognize Thing(dist='0:', Appear=[Cement], value=Barstool, type='Obj', side=[Back])
+12-01 14:32:29 INFO     Turning Left.
+12-01 14:32:29 INFO     After face 1 [(BlueTile, Empty, BlueTile, End, Wall, End)]
+12-01 14:32:29 INFO     Recognizing [Thing(dist='0:', Appear=[Cement], value=Barstool, type='Obj', side=[Back])].
+12-01 14:32:29 INFO     .....Examining [(BlueTile, Empty, BlueTile, End, Wall, End)]
+.....for Thing(dist='0:', Appear=[Cement], value=Barstool, type='Obj', side=[Back])
+12-01 14:32:29 INFO     .....Did NOT recognize Thing(dist='0:', Appear=[Cement], value=Barstool, type='Obj', side=[Back])
+12-01 14:32:29 INFO     Turning Left.
+12-01 14:32:29 INFO     After face 1 [(Cement, Empty, Wall, Butterfly, BlueTile, Butterfly)]...
+12-01 14:32:29 INFO     Recognizing [Thing(dist='0:', Appear=[Cement], value=Barstool, type='Obj', side=[Back])].
+12-01 14:32:29 INFO     .....Examining [(Cement, Empty, Wall, Butterfly, BlueTile, Butterfly), (Cement, Sofa, Wall, Butterfly, BlueTile, Butterfly), (Cement, Hatrack, Wall, Butterfly, BlueTile, Butterfly), (Cement, Empty, Wall, End, Wall, End)]
+.....for Thing(dist='0:', Appear=[Cement], value=Barstool, type='Obj', side=[Back])
+12-01 14:32:29 INFO     .....Recognized Thing(dist='0:', Appear=[Cement], value=Barstool, type='Obj', side=[Back])
+12-01 14:32:29 INFO     .....Recognized entire description!
+12-01 14:32:29 INFO     After face 3 [(Cement, Empty, Wall, Butterfly, BlueTile, Butterfly)]...
+12-01 14:39:13 INFO     frame2action [Travel_v=[MEAN='move_V_1'], Dir=[MEAN='forward_ADV_1'], Until=[Until_p=[MEAN='UNTIL'], S=[Obj=[Det=[MEAN='THE'], Obj_n=[MEAN='lamp_N_2']], Is_v=[MEAN="is_V_('be', [1, 2, 3, 4, 5])"], Side=[Side_p=[MEAN='ON'], Dir=[MEAN='right_ADV_4']]]]]
+12-01 14:39:13 INFO     <0> Travel(until=Verify(desc=[Thing(dist='0', value=Lamp, type='Obj', side=[Right])]))
+12-01 14:39:25 INFO     Recognizing [Thing(dist='0', value=Lamp, type='Obj', side=[Right])].
+12-01 14:39:25 INFO     .....Examining [(Wall, Empty, Cement, Butterfly, BlueTile, Butterfly), (Wall, Barstool, Stone, Butterfly, BlueTile, Butterfly), (Wall, Chair, Wood, Fish, BlueTile, Fish), (Wall, Empty, Rose, Fish, BlueTile, Fish), (Wall, Empty, Grass, End, Wall, End)]
+.....for Thing(dist='0', value=Lamp, type='Obj', side=[Right])
+12-01 14:39:25 INFO     .....Did NOT recognize Thing(dist='0', value=Lamp, type='Obj', side=[Right])
+12-01 14:39:25 INFO     Recognizing [Thing(dist='0', value=Lamp, type='Obj', side=[Right])].
+12-01 14:39:25 INFO     .....Examining [(Wall, Empty, Cement, Butterfly, BlueTile, Butterfly), (Wall, Barstool, Stone, Butterfly, BlueTile, Butterfly), (Wall, Chair, Wood, Fish, BlueTile, Fish), (Wall, Empty, Rose, Fish, BlueTile, Fish), (Wall, Empty, Grass, End, Wall, End)]
+.....for Thing(dist='0', value=Lamp, type='Obj', side=[Right])
+12-01 14:39:25 INFO     .....Did NOT recognize Thing(dist='0', value=Lamp, type='Obj', side=[Right])
+12-01 14:39:25 INFO     Facing the Until conditions in the distance [Thing(dist='0:', value=Lamp, type='Obj', side=[Right])]
+12-01 14:39:25 INFO     Recognizing [Thing(dist='0', value=Path, type='Path', side=[Right])].
+12-01 14:39:25 INFO     .....Examining [(Wall, Empty, Cement, Butterfly, BlueTile, Butterfly), (Wall, Barstool, Stone, Butterfly, BlueTile, Butterfly), (Wall, Chair, Wood, Fish, BlueTile, Fish), (Wall, Empty, Rose, Fish, BlueTile, Fish), (Wall, Empty, Grass, End, Wall, End)]
+.....for Thing(dist='0', value=Path, type='Path', side=[Right])
+12-01 14:39:25 INFO     .....Recognized Thing(dist='0', value=Path, type='Path', side=[Right])
+12-01 14:39:25 INFO     .....Recognized entire description!
+12-01 14:39:25 INFO     Recognizing [Thing(dist='0:', value=Lamp, type='Obj', side=[Right])].
+12-01 14:39:25 INFO     .....Examining [(Wall, Empty, Cement, Butterfly, BlueTile, Butterfly), (Wall, Barstool, Stone, Butterfly, BlueTile, Butterfly), (Wall, Chair, Wood, Fish, BlueTile, Fish), (Wall, Empty, Rose, Fish, BlueTile, Fish), (Wall, Empty, Grass, End, Wall, End)]
+.....for Thing(dist='0:', value=Lamp, type='Obj', side=[Right])
+12-01 14:39:25 INFO     .....Did NOT recognize Thing(dist='0:', value=Lamp, type='Obj', side=[Right])
+12-01 14:39:25 INFO     Turning Right.
+12-01 14:39:25 INFO     After face 1 [(BlueTile, Empty, BlueTile, Butterfly, Cement, Butterfly)]...
+12-01 14:39:25 INFO     Recognizing [Thing(dist='0:', value=Lamp, type='Obj', side=[Right])].
+12-01 14:39:25 INFO     .....Examining [(BlueTile, Empty, BlueTile, Butterfly, Cement, Butterfly), (Brick, Empty, Brick, Eiffel, Cement, Eiffel), (Cement, Empty, Cement, End, Wall, End)]
+.....for Thing(dist='0:', value=Lamp, type='Obj', side=[Right])
+12-01 14:39:25 INFO     .....Did NOT recognize Thing(dist='0:', value=Lamp, type='Obj', side=[Right])
+12-01 14:39:25 INFO     Turning Right.
+12-01 14:39:25 INFO     After face 1 [(Cement, Empty, Wall, Butterfly, BlueTile, Butterfly)]...
+12-01 14:39:25 INFO     Recognizing [Thing(dist='0:', value=Lamp, type='Obj', side=[Right])].
+12-01 14:39:25 INFO     .....Examining [(Cement, Empty, Wall, Butterfly, BlueTile, Butterfly), (Cement, Sofa, Wall, Butterfly, BlueTile, Butterfly), (Cement, Hatrack, Wall, Butterfly, BlueTile, Butterfly), (Cement, Empty, Wall, End, Wall, End)]
+.....for Thing(dist='0:', value=Lamp, type='Obj', side=[Right])
+12-01 14:39:25 INFO     .....Did NOT recognize Thing(dist='0:', value=Lamp, type='Obj', side=[Right])
+12-01 14:39:25 INFO     Turning Right.
+12-01 14:39:25 INFO     After face 1 [(BlueTile, Empty, BlueTile, End, Wall, End)]
+12-01 14:39:25 INFO     Recognizing [Thing(dist='0:', value=Lamp, type='Obj', side=[Right])].
+12-01 14:39:25 INFO     .....Examining [(BlueTile, Empty, BlueTile, End, Wall, End)]
+.....for Thing(dist='0:', value=Lamp, type='Obj', side=[Right])
+12-01 14:39:25 INFO     .....Did NOT recognize Thing(dist='0:', value=Lamp, type='Obj', side=[Right])
+12-01 14:39:25 INFO     Turning Right.
+12-01 14:39:25 INFO     After face 1 [(Wall, Empty, Cement, Butterfly, BlueTile, Butterfly)]...
+12-01 14:39:25 INFO     Recognizing [Thing(dist='0:', value=Lamp, type='Obj', side=[Right])].
+12-01 14:39:25 INFO     .....Examining [(Wall, Empty, Cement, Butterfly, BlueTile, Butterfly), (Wall, Barstool, Stone, Butterfly, BlueTile, Butterfly), (Wall, Chair, Wood, Fish, BlueTile, Fish), (Wall, Empty, Rose, Fish, BlueTile, Fish), (Wall, Empty, Grass, End, Wall, End)]
+.....for Thing(dist='0:', value=Lamp, type='Obj', side=[Right])
+12-01 14:39:25 INFO     .....Did NOT recognize Thing(dist='0:', value=Lamp, type='Obj', side=[Right])
+12-01 14:39:25 INFO     Turning Right.
+12-01 14:39:25 INFO     After face 1 [(BlueTile, Empty, BlueTile, Butterfly, Cement, Butterfly)]...
+12-01 14:39:25 INFO     Recognizing [Thing(dist='0:', value=Lamp, type='Obj', side=[Right])].
+12-01 14:39:25 INFO     .....Examining [(BlueTile, Empty, BlueTile, Butterfly, Cement, Butterfly), (Brick, Empty, Brick, Eiffel, Cement, Eiffel), (Cement, Empty, Cement, End, Wall, End)]
+.....for Thing(dist='0:', value=Lamp, type='Obj', side=[Right])
+12-01 14:39:25 INFO     .....Did NOT recognize Thing(dist='0:', value=Lamp, type='Obj', side=[Right])
+12-01 14:39:25 INFO     Turning Right.
+12-01 14:39:25 INFO     After face 1 [(Cement, Empty, Wall, Butterfly, BlueTile, Butterfly)]...
+12-01 14:39:25 INFO     Recognizing [Thing(dist='0:', value=Lamp, type='Obj', side=[Right])].
+12-01 14:39:25 INFO     .....Examining [(Cement, Empty, Wall, Butterfly, BlueTile, Butterfly), (Cement, Sofa, Wall, Butterfly, BlueTile, Butterfly), (Cement, Hatrack, Wall, Butterfly, BlueTile, Butterfly), (Cement, Empty, Wall, End, Wall, End)]
+.....for Thing(dist='0:', value=Lamp, type='Obj', side=[Right])
+12-01 14:39:25 INFO     .....Did NOT recognize Thing(dist='0:', value=Lamp, type='Obj', side=[Right])
+12-01 14:39:25 INFO     Turning Right.
+12-01 14:39:25 INFO     After face 1 [(BlueTile, Empty, BlueTile, End, Wall, End)]
+12-01 14:39:25 INFO     Recognizing [Thing(dist='0:', value=Lamp, type='Obj', side=[Right])].
+12-01 14:39:25 INFO     .....Examining [(BlueTile, Empty, BlueTile, End, Wall, End)]
+.....for Thing(dist='0:', value=Lamp, type='Obj', side=[Right])
+12-01 14:39:25 INFO     .....Did NOT recognize Thing(dist='0:', value=Lamp, type='Obj', side=[Right])
+12-01 14:39:25 INFO     Turning Right.
+12-01 14:39:25 INFO     After face 1 [(Wall, Empty, Cement, Butterfly, BlueTile, Butterfly)]...
+12-01 14:39:25 INFO     Recognizing [Thing(dist='0:', value=Lamp, type='Obj', side=[Right])].
+12-01 14:39:25 INFO     .....Examining [(Wall, Empty, Cement, Butterfly, BlueTile, Butterfly), (Wall, Barstool, Stone, Butterfly, BlueTile, Butterfly), (Wall, Chair, Wood, Fish, BlueTile, Fish), (Wall, Empty, Rose, Fish, BlueTile, Fish), (Wall, Empty, Grass, End, Wall, End)]
+.....for Thing(dist='0:', value=Lamp, type='Obj', side=[Right])
+12-01 14:39:25 INFO     .....Did NOT recognize Thing(dist='0:', value=Lamp, type='Obj', side=[Right])
+12-01 14:39:25 INFO     Turning Right.
+12-01 14:39:25 INFO     After face 1 [(BlueTile, Empty, BlueTile, Butterfly, Cement, Butterfly)]...
+12-01 14:39:25 INFO     Recognizing [Thing(dist='0:', value=Lamp, type='Obj', side=[Right])].
+12-01 14:39:25 INFO     .....Examining [(BlueTile, Empty, BlueTile, Butterfly, Cement, Butterfly), (Brick, Empty, Brick, Eiffel, Cement, Eiffel), (Cement, Empty, Cement, End, Wall, End)]
+.....for Thing(dist='0:', value=Lamp, type='Obj', side=[Right])
+12-01 14:39:25 INFO     .....Did NOT recognize Thing(dist='0:', value=Lamp, type='Obj', side=[Right])
+12-01 14:39:25 INFO     Recognizing [Thing(dist='0', value=Path, type='Path', side=[Front])].
+12-01 14:39:25 INFO     .....Examining [(BlueTile, Empty, BlueTile, Butterfly, Cement, Butterfly), (Brick, Empty, Brick, Eiffel, Cement, Eiffel), (Cement, Empty, Cement, End, Wall, End)]
+.....for Thing(dist='0', value=Path, type='Path', side=[Front])
+12-01 14:39:25 INFO     .....Recognized Thing(dist='0', value=Path, type='Path', side=[Front])
+12-01 14:39:25 INFO     .....Recognized entire description!
+12-01 14:39:25 INFO     Recognizing [Thing(dist='0', value=Path, type='Path', side=[Left])].
+12-01 14:39:25 INFO     .....Examining [(BlueTile, Empty, BlueTile, Butterfly, Cement, Butterfly), (Brick, Empty, Brick, Eiffel, Cement, Eiffel), (Cement, Empty, Cement, End, Wall, End)]
+.....for Thing(dist='0', value=Path, type='Path', side=[Left])
+12-01 14:39:25 INFO     .....Recognized Thing(dist='0', value=Path, type='Path', side=[Left])
+12-01 14:39:25 INFO     .....Recognized entire description!
+12-01 14:39:25 INFO     Recognizing [Thing(dist='0', value=Path, type='Path', side=[Right])].
+12-01 14:39:25 INFO     .....Examining [(BlueTile, Empty, BlueTile, Butterfly, Cement, Butterfly), (Brick, Empty, Brick, Eiffel, Cement, Eiffel), (Cement, Empty, Cement, End, Wall, End)]
+.....for Thing(dist='0', value=Path, type='Path', side=[Right])
+12-01 14:39:25 INFO     .....Recognized Thing(dist='0', value=Path, type='Path', side=[Right])
+12-01 14:39:25 INFO     .....Recognized entire description!
+12-01 14:39:25 INFO     Recognizing [Thing(dist='1:', value=Intersection, type='Struct', side=[Front])].
+12-01 14:39:25 INFO     .....Examining [(BlueTile, Empty, BlueTile, Butterfly, Cement, Butterfly), (Brick, Empty, Brick, Eiffel, Cement, Eiffel), (Cement, Empty, Cement, End, Wall, End)]
+.....for Thing(dist='1:', value=Intersection, type='Struct', side=[Front])
+12-01 14:39:25 INFO     .....Recognized Thing(dist='1:', value=Intersection, type='Struct', side=[Front])
+12-01 14:39:25 INFO     .....Recognized entire description!
+12-01 14:39:25 INFO     Recognizing [Thing(dist='0:', value=Lamp, type='Obj', side=[Right])].
+12-01 14:39:25 INFO     .....Examining [(BlueTile, Empty, BlueTile, Butterfly, Cement, Butterfly), (Brick, Empty, Brick, Eiffel, Cement, Eiffel), (Cement, Empty, Cement, End, Wall, End)]
+.....for Thing(dist='0:', value=Lamp, type='Obj', side=[Right])
+12-01 14:39:25 INFO     .....Did NOT recognize Thing(dist='0:', value=Lamp, type='Obj', side=[Right])
+12-01 14:39:25 INFO     Facing the Distance conditions in the distance [Thing(dist='1:', value=Position, type='Struct', side=[Front])]
+12-01 14:39:25 INFO     Recognizing [Thing(dist='0', value=Path, type='Path', side=[Right])].
+12-01 14:39:25 INFO     .....Examining [(BlueTile, Empty, BlueTile, Butterfly, Cement, Butterfly), (Brick, Empty, Brick, Eiffel, Cement, Eiffel), (Cement, Empty, Cement, End, Wall, End)]
+.....for Thing(dist='0', value=Path, type='Path', side=[Right])
+12-01 14:39:25 INFO     .....Recognized Thing(dist='0', value=Path, type='Path', side=[Right])
+12-01 14:39:25 INFO     .....Recognized entire description!
+12-01 14:39:25 INFO     Recognizing [Thing(dist='1:', value=Position, type='Struct', side=[Front])].
+12-01 14:39:25 INFO     .....Examining [(BlueTile, Empty, BlueTile, Butterfly, Cement, Butterfly), (Brick, Empty, Brick, Eiffel, Cement, Eiffel), (Cement, Empty, Cement, End, Wall, End)]
+.....for Thing(dist='1:', value=Position, type='Struct', side=[Front])
+12-01 14:39:25 INFO     .....Recognized Thing(dist='1:', value=Position, type='Struct', side=[Front])
+12-01 14:39:25 INFO     .....Recognized entire description!
+12-01 14:39:25 INFO     After Faced Distance 0 []
+12-01 14:39:25 INFO     Traveling forward.
+12-01 14:39:25 INFO     travel observing...
+12-01 14:39:25 INFO     post travel obs: [(BlueTile, Empty, BlueTile, Butterfly, Cement, Butterfly), (Brick, Empty, Brick, Eiffel, Cement, Eiffel), (Cement, Empty, Cement, End, Wall, End)]; viewCache: ViewCache([[(BlueTile, Empty, BlueTile, Butterfly, Cement, Butterfly), (Brick, Empty, Brick, Eiffel, Cement, Eiffel), (Cement, Empty, Cement, End, Wall, End)], [(Cement, Empty, Cement, Unknown, BlueTile, Unknown)], [(BlueTile, Empty, BlueTile, Butterfly, Cement, Butterfly), (BlueTile, Empty, BlueTile, End, Wall, End)], [(Cement, Empty, Cement, Unknown, BlueTile, Unknown)]])
+12-01 14:39:25 INFO     After distance 1 [(Brick, Empty, Brick, Eiffel, Cement, Eiffel), (Cement, Empty, Cement, End, Wall, End)]
+12-01 14:39:25 INFO     Travel Distance: None Count is 1 of 1
+12-01 14:39:25 INFO     Recognizing [Thing(dist='0:', value=Lamp, type='Obj', side=[Right])].
+12-01 14:39:25 INFO     .....Examining [(Brick, Empty, Brick, Eiffel, Cement, Eiffel), (Cement, Empty, Cement, End, Wall, End)]
+.....for Thing(dist='0:', value=Lamp, type='Obj', side=[Right])
+12-01 14:39:25 INFO     .....Did NOT recognize Thing(dist='0:', value=Lamp, type='Obj', side=[Right])
+12-01 14:39:25 INFO     Recognizing [Thing(dist='0', value=Path, type='Path', side=[Front])].
+12-01 14:39:25 INFO     .....Examining [(Brick, Empty, Brick, Eiffel, Cement, Eiffel), (Cement, Empty, Cement, End, Wall, End)]
+.....for Thing(dist='0', value=Path, type='Path', side=[Front])
+12-01 14:39:25 INFO     .....Recognized Thing(dist='0', value=Path, type='Path', side=[Front])
+12-01 14:39:25 INFO     .....Recognized entire description!
+12-01 14:39:25 INFO     Recognizing [Thing(dist='0', value=Path, type='Path', side=[Left])].
+12-01 14:39:25 INFO     .....Examining [(Brick, Empty, Brick, Eiffel, Cement, Eiffel), (Cement, Empty, Cement, End, Wall, End)]
+.....for Thing(dist='0', value=Path, type='Path', side=[Left])
+12-01 14:39:25 INFO     .....Recognized Thing(dist='0', value=Path, type='Path', side=[Left])
+12-01 14:39:25 INFO     .....Recognized entire description!
+12-01 14:39:25 INFO     Recognizing [Thing(dist='0', value=Path, type='Path', side=[Right])].
+12-01 14:39:25 INFO     .....Examining [(Brick, Empty, Brick, Eiffel, Cement, Eiffel), (Cement, Empty, Cement, End, Wall, End)]
+.....for Thing(dist='0', value=Path, type='Path', side=[Right])
+12-01 14:39:25 INFO     .....Recognized Thing(dist='0', value=Path, type='Path', side=[Right])
+12-01 14:39:25 INFO     .....Recognized entire description!
+12-01 14:39:25 INFO     Recognizing [Thing(dist='1:', value=Intersection, type='Struct', side=[Front])].
+12-01 14:39:25 INFO     .....Examining [(Brick, Empty, Brick, Eiffel, Cement, Eiffel), (Cement, Empty, Cement, End, Wall, End)]
+.....for Thing(dist='1:', value=Intersection, type='Struct', side=[Front])
+12-01 14:39:25 INFO     .....Recognized Thing(dist='1:', value=Intersection, type='Struct', side=[Front])
+12-01 14:39:25 INFO     .....Recognized entire description!
+12-01 14:39:25 INFO     Recognizing [Thing(dist='0:', value=Lamp, type='Obj', side=[Right])].
+12-01 14:39:25 INFO     .....Examining [(Brick, Empty, Brick, Eiffel, Cement, Eiffel), (Cement, Empty, Cement, End, Wall, End)]
+.....for Thing(dist='0:', value=Lamp, type='Obj', side=[Right])
+12-01 14:39:25 INFO     .....Did NOT recognize Thing(dist='0:', value=Lamp, type='Obj', side=[Right])
+12-01 14:39:25 INFO     Facing the Distance conditions in the distance [Thing(dist='1:', value=Position, type='Struct', side=[Front])]
+12-01 14:39:25 INFO     Recognizing [Thing(dist='0', value=Path, type='Path', side=[Right])].
+12-01 14:39:25 INFO     .....Examining [(Brick, Empty, Brick, Eiffel, Cement, Eiffel), (Cement, Empty, Cement, End, Wall, End)]
+.....for Thing(dist='0', value=Path, type='Path', side=[Right])
+12-01 14:39:25 INFO     .....Recognized Thing(dist='0', value=Path, type='Path', side=[Right])
+12-01 14:39:25 INFO     .....Recognized entire description!
+12-01 14:39:25 INFO     Recognizing [Thing(dist='1:', value=Position, type='Struct', side=[Front])].
+12-01 14:39:25 INFO     .....Examining [(Brick, Empty, Brick, Eiffel, Cement, Eiffel), (Cement, Empty, Cement, End, Wall, End)]
+.....for Thing(dist='1:', value=Position, type='Struct', side=[Front])
+12-01 14:39:25 INFO     .....Recognized Thing(dist='1:', value=Position, type='Struct', side=[Front])
+12-01 14:39:25 INFO     .....Recognized entire description!
+12-01 14:39:25 INFO     After Faced Distance 0 []
+12-01 14:39:25 INFO     Traveling forward.
+12-01 14:39:25 INFO     travel observing...
+12-01 14:39:25 INFO     post travel obs: [(Brick, Empty, Brick, Eiffel, Cement, Eiffel), (Cement, Empty, Cement, End, Wall, End)]; viewCache: ViewCache([[(Brick, Empty, Brick, Eiffel, Cement, Eiffel), (Cement, Empty, Cement, End, Wall, End)], [(Cement, Empty, Cement, Unknown, Brick, Unknown)], [(Brick, Empty, Brick, Eiffel, Cement, Eiffel), (Brick, Empty, Brick, Butterfly, Cement, Butterfly), (BlueTile, Empty, BlueTile, End, Wall, End)], [(Cement, Empty, Cement, Unknown, Brick, Unknown)]])
+12-01 14:39:25 INFO     After distance 1 [(Cement, Empty, Cement, End, Wall, End)]
+12-01 14:39:25 INFO     Travel Distance: None Count is 1 of 1
+12-01 14:39:25 INFO     Recognizing [Thing(dist='0:', value=Lamp, type='Obj', side=[Right])].
+12-01 14:39:25 INFO     .....Examining [(Cement, Empty, Cement, End, Wall, End)]
+.....for Thing(dist='0:', value=Lamp, type='Obj', side=[Right])
+12-01 14:39:25 INFO     .....Did NOT recognize Thing(dist='0:', value=Lamp, type='Obj', side=[Right])
+12-01 14:39:25 INFO     Recognizing [Thing(dist='0', value=Path, type='Path', side=[Front])].
+12-01 14:39:25 INFO     .....Examining [(Cement, Empty, Cement, End, Wall, End)]
+.....for Thing(dist='0', value=Path, type='Path', side=[Front])
+12-01 14:39:25 INFO     .....Did NOT recognize Thing(dist='0', value=Path, type='Path', side=[Front])
+12-01 14:39:25 INFO     Recognizing [Thing(dist='0', value=Path, type='Path', side=[Left])].
+12-01 14:39:25 INFO     .....Examining [(Cement, Empty, Cement, End, Wall, End)]
+.....for Thing(dist='0', value=Path, type='Path', side=[Left])
+12-01 14:39:25 INFO     .....Recognized Thing(dist='0', value=Path, type='Path', side=[Left])
+12-01 14:39:25 INFO     .....Recognized entire description!
+12-01 14:39:25 INFO     Recognizing [Thing(dist='0', value=Path, type='Path', side=[Right])].
+12-01 14:39:25 INFO     .....Examining [(Cement, Empty, Cement, End, Wall, End)]
+.....for Thing(dist='0', value=Path, type='Path', side=[Right])
+12-01 14:39:25 INFO     .....Recognized Thing(dist='0', value=Path, type='Path', side=[Right])
+12-01 14:39:25 INFO     .....Recognized entire description!
+12-01 14:39:25 INFO     Recognizing [Thing(dist='0:', value=Lamp, type='Obj', side=[Right])].
+12-01 14:39:25 INFO     .....Examining [(Cement, Empty, Cement, End, Wall, End)]
+.....for Thing(dist='0:', value=Lamp, type='Obj', side=[Right])
+12-01 14:39:25 INFO     .....Did NOT recognize Thing(dist='0:', value=Lamp, type='Obj', side=[Right])
+12-01 14:39:25 INFO     Turning Right.
+12-01 14:39:25 INFO     After turn 1 [(Wall, Empty, Cement, Eiffel, Cement, Eiffel), (Wall, Empty, Cement, End, Wall, End)]
+12-01 14:39:25 INFO     Recognizing [Thing(dist='1:', value=Intersection, type='Struct', side=[Front])].
+12-01 14:39:25 INFO     .....Examining [(Wall, Empty, Cement, Eiffel, Cement, Eiffel), (Wall, Empty, Cement, End, Wall, End)]
+.....for Thing(dist='1:', value=Intersection, type='Struct', side=[Front])
+12-01 14:39:25 INFO     .....Recognized Thing(dist='1:', value=Intersection, type='Struct', side=[Front])
+12-01 14:39:25 INFO     .....Recognized entire description!
+12-01 14:39:25 INFO     Recognizing [Thing(dist='0:', value=Lamp, type='Obj', side=[Right])].
+12-01 14:39:25 INFO     .....Examining [(Wall, Empty, Cement, Eiffel, Cement, Eiffel), (Wall, Empty, Cement, End, Wall, End)]
+.....for Thing(dist='0:', value=Lamp, type='Obj', side=[Right])
+12-01 14:39:25 INFO     .....Did NOT recognize Thing(dist='0:', value=Lamp, type='Obj', side=[Right])
+12-01 14:39:25 INFO     Facing the Distance conditions in the distance [Thing(dist='1:', value=Position, type='Struct', side=[Front])]
+12-01 14:39:25 INFO     Recognizing [Thing(dist='0', value=Path, type='Path', side=[Left])].
+12-01 14:39:25 INFO     .....Examining [(Wall, Empty, Cement, Eiffel, Cement, Eiffel), (Wall, Empty, Cement, End, Wall, End)]
+.....for Thing(dist='0', value=Path, type='Path', side=[Left])
+12-01 14:39:25 INFO     .....Did NOT recognize Thing(dist='0', value=Path, type='Path', side=[Left])
+12-01 14:39:25 INFO     Recognizing [Thing(dist='1:', value=Position, type='Struct', side=[Front])].
+12-01 14:39:25 INFO     .....Examining [(Wall, Empty, Cement, Eiffel, Cement, Eiffel), (Wall, Empty, Cement, End, Wall, End)]
+.....for Thing(dist='1:', value=Position, type='Struct', side=[Front])
+12-01 14:39:25 INFO     .....Recognized Thing(dist='1:', value=Position, type='Struct', side=[Front])
+12-01 14:39:25 INFO     .....Recognized entire description!
+12-01 14:39:25 INFO     After Faced Distance 0 []
+12-01 14:39:25 INFO     Traveling forward.
+12-01 14:39:25 INFO     travel observing...
+12-01 14:39:25 INFO     post travel obs: [(Wall, Empty, Cement, Eiffel, Cement, Eiffel), (Wall, Empty, Cement, End, Wall, End)]; viewCache: ViewCache([[(Wall, Empty, Cement, Eiffel, Cement, Eiffel), (Wall, Empty, Cement, End, Wall, End)], [(Cement, Empty, Cement, Unknown, Cement, Unknown)], [(Cement, Empty, Wall, Eiffel, Cement, Eiffel), (Cement, Empty, Wall, Unknown, Cement, Unknown)], [(Cement, Empty, Cement, End, Wall, End)]])
+12-01 14:39:25 INFO     After distance 1 [(Wall, Empty, Cement, End, Wall, End)]
+12-01 14:39:25 INFO     Travel Distance: None Count is 1 of 1
+12-01 14:39:25 INFO     Recognizing [Thing(dist='0:', value=Lamp, type='Obj', side=[Right])].
+12-01 14:39:25 INFO     .....Examining [(Wall, Empty, Cement, End, Wall, End)]
+.....for Thing(dist='0:', value=Lamp, type='Obj', side=[Right])
+12-01 14:39:25 INFO     .....Did NOT recognize Thing(dist='0:', value=Lamp, type='Obj', side=[Right])
+12-01 14:39:25 INFO     Recognizing [Thing(dist='0', value=Path, type='Path', side=[Front])].
+12-01 14:39:25 INFO     .....Examining [(Wall, Empty, Cement, End, Wall, End)]
+.....for Thing(dist='0', value=Path, type='Path', side=[Front])
+12-01 14:39:25 INFO     .....Did NOT recognize Thing(dist='0', value=Path, type='Path', side=[Front])
+12-01 14:39:25 INFO     Recognizing [Thing(dist='0', value=Path, type='Path', side=[Left])].
+12-01 14:39:25 INFO     .....Examining [(Wall, Empty, Cement, End, Wall, End)]
+.....for Thing(dist='0', value=Path, type='Path', side=[Left])
+12-01 14:39:25 INFO     .....Did NOT recognize Thing(dist='0', value=Path, type='Path', side=[Left])
+12-01 14:39:25 INFO     Recognizing [Thing(dist='0', value=Path, type='Path', side=[Right])].
+12-01 14:39:25 INFO     .....Examining [(Wall, Empty, Cement, End, Wall, End)]
+.....for Thing(dist='0', value=Path, type='Path', side=[Right])
+12-01 14:39:25 INFO     .....Recognized Thing(dist='0', value=Path, type='Path', side=[Right])
+12-01 14:39:25 INFO     .....Recognized entire description!
+12-01 14:39:25 INFO     Recognizing [Thing(dist='0:', value=Lamp, type='Obj', side=[Right])].
+12-01 14:39:25 INFO     .....Examining [(Wall, Empty, Cement, End, Wall, End)]
+.....for Thing(dist='0:', value=Lamp, type='Obj', side=[Right])
+12-01 14:39:25 INFO     .....Did NOT recognize Thing(dist='0:', value=Lamp, type='Obj', side=[Right])
+12-01 14:39:25 INFO     Turning Right.
+12-01 14:39:25 INFO     After turn 1 [(Wall, Empty, Cement, Butterfly, Cement, Butterfly)]...
+12-01 14:39:25 INFO     Recognizing [Thing(dist='1:', value=Intersection, type='Struct', side=[Front])].
+12-01 14:39:25 INFO     .....Examining [(Wall, Empty, Cement, Butterfly, Cement, Butterfly), (Wall, Chair, Brick, Butterfly, Cement, Butterfly), (BlueTile, Sofa, BlueTile, End, Wall, End)]
+.....for Thing(dist='1:', value=Intersection, type='Struct', side=[Front])
+12-01 14:39:25 INFO     .....Recognized Thing(dist='1:', value=Intersection, type='Struct', side=[Front])
+12-01 14:39:25 INFO     .....Recognized entire description!
+12-01 14:39:25 INFO     Recognizing [Thing(dist='0:', value=Lamp, type='Obj', side=[Right])].
+12-01 14:39:25 INFO     .....Examining [(Wall, Empty, Cement, Butterfly, Cement, Butterfly), (Wall, Chair, Brick, Butterfly, Cement, Butterfly), (BlueTile, Sofa, BlueTile, End, Wall, End)]
+.....for Thing(dist='0:', value=Lamp, type='Obj', side=[Right])
+12-01 14:39:25 INFO     .....Did NOT recognize Thing(dist='0:', value=Lamp, type='Obj', side=[Right])
+12-01 14:39:25 INFO     Facing the Distance conditions in the distance [Thing(dist='1:', value=Position, type='Struct', side=[Front])]
+12-01 14:39:25 INFO     Recognizing [Thing(dist='0', value=Path, type='Path', side=[Right])].
+12-01 14:39:25 INFO     .....Examining [(Wall, Empty, Cement, Butterfly, Cement, Butterfly), (Wall, Chair, Brick, Butterfly, Cement, Butterfly), (BlueTile, Sofa, BlueTile, End, Wall, End)]
+.....for Thing(dist='0', value=Path, type='Path', side=[Right])
+12-01 14:39:25 INFO     .....Recognized Thing(dist='0', value=Path, type='Path', side=[Right])
+12-01 14:39:25 INFO     .....Recognized entire description!
+12-01 14:39:25 INFO     Recognizing [Thing(dist='1:', value=Position, type='Struct', side=[Front])].
+12-01 14:39:25 INFO     .....Examining [(Wall, Empty, Cement, Butterfly, Cement, Butterfly), (Wall, Chair, Brick, Butterfly, Cement, Butterfly), (BlueTile, Sofa, BlueTile, End, Wall, End)]
+.....for Thing(dist='1:', value=Position, type='Struct', side=[Front])
+12-01 14:39:25 INFO     .....Recognized Thing(dist='1:', value=Position, type='Struct', side=[Front])
+12-01 14:39:25 INFO     .....Recognized entire description!
+12-01 14:39:25 INFO     After Faced Distance 0 []
+12-01 14:39:25 INFO     Traveling forward.
+12-01 14:39:25 INFO     travel observing...
+12-01 14:39:25 INFO     post travel obs: [(Wall, Empty, Cement, Butterfly, Cement, Butterfly), (Wall, Chair, Brick, Butterfly, Cement, Butterfly), (BlueTile, Sofa, BlueTile, End, Wall, End)]; viewCache: ViewCache([[(Wall, Empty, Cement, Butterfly, Cement, Butterfly), (Wall, Chair, Brick, Butterfly, Cement, Butterfly), (BlueTile, Sofa, BlueTile, End, Wall, End)], [(Cement, Empty, Cement, Unknown, Cement, Unknown)], [(Cement, Empty, Wall, Butterfly, Cement, Butterfly), (Cement, Empty, Wall, End, Wall, End)], [(Cement, Empty, Cement, End, Wall, End)]])
+12-01 14:39:25 INFO     After distance 1 [(Wall, Chair, Brick, Butterfly, Cement, Butterfly), (BlueTile, Sofa, BlueTile, End, Wall, End)]
+12-01 14:39:25 INFO     Travel Distance: None Count is 1 of 1
+12-01 14:39:25 INFO     Recognizing [Thing(dist='0:', value=Lamp, type='Obj', side=[Right])].
+12-01 14:39:25 INFO     .....Examining [(Wall, Chair, Brick, Butterfly, Cement, Butterfly), (BlueTile, Sofa, BlueTile, End, Wall, End)]
+.....for Thing(dist='0:', value=Lamp, type='Obj', side=[Right])
+12-01 14:39:25 INFO     .....Did NOT recognize Thing(dist='0:', value=Lamp, type='Obj', side=[Right])
+12-01 14:39:25 INFO     Recognizing [Thing(dist='0', value=Path, type='Path', side=[Front])].
+12-01 14:39:25 INFO     .....Examining [(Wall, Chair, Brick, Butterfly, Cement, Butterfly), (BlueTile, Sofa, BlueTile, End, Wall, End)]
+.....for Thing(dist='0', value=Path, type='Path', side=[Front])
+12-01 14:39:25 INFO     .....Recognized Thing(dist='0', value=Path, type='Path', side=[Front])
+12-01 14:39:25 INFO     .....Recognized entire description!
+12-01 14:39:25 INFO     Recognizing [Thing(dist='0', value=Path, type='Path', side=[Left])].
+12-01 14:39:25 INFO     .....Examining [(Wall, Chair, Brick, Butterfly, Cement, Butterfly), (BlueTile, Sofa, BlueTile, End, Wall, End)]
+.....for Thing(dist='0', value=Path, type='Path', side=[Left])
+12-01 14:39:25 INFO     .....Did NOT recognize Thing(dist='0', value=Path, type='Path', side=[Left])
+12-01 14:39:25 INFO     Recognizing [Thing(dist='0', value=Path, type='Path', side=[Right])].
+12-01 14:39:25 INFO     .....Examining [(Wall, Chair, Brick, Butterfly, Cement, Butterfly), (BlueTile, Sofa, BlueTile, End, Wall, End)]
+.....for Thing(dist='0', value=Path, type='Path', side=[Right])
+12-01 14:39:25 INFO     .....Recognized Thing(dist='0', value=Path, type='Path', side=[Right])
+12-01 14:39:25 INFO     .....Recognized entire description!
+12-01 14:39:25 INFO     Recognizing [Thing(dist='1:', value=Intersection, type='Struct', side=[Front])].
+12-01 14:39:25 INFO     .....Examining [(Wall, Chair, Brick, Butterfly, Cement, Butterfly), (BlueTile, Sofa, BlueTile, End, Wall, End)]
+.....for Thing(dist='1:', value=Intersection, type='Struct', side=[Front])
+12-01 14:39:25 INFO     .....Recognized Thing(dist='1:', value=Intersection, type='Struct', side=[Front])
+12-01 14:39:25 INFO     .....Recognized entire description!
+12-01 14:39:25 INFO     Recognizing [Thing(dist='0:', value=Lamp, type='Obj', side=[Right])].
+12-01 14:39:25 INFO     .....Examining [(Wall, Chair, Brick, Butterfly, Cement, Butterfly), (BlueTile, Sofa, BlueTile, End, Wall, End)]
+.....for Thing(dist='0:', value=Lamp, type='Obj', side=[Right])
+12-01 14:39:25 INFO     .....Did NOT recognize Thing(dist='0:', value=Lamp, type='Obj', side=[Right])
+12-01 14:39:25 INFO     Turning Right.
+12-01 14:39:25 INFO     After turn 1 [(Cement, Chair, Cement, Butterfly, Brick, Butterfly)]...
+12-01 14:39:25 INFO     Recognizing [Thing(dist='1:', value=Intersection, type='Struct', side=[Front])].
+12-01 14:39:25 INFO     .....Examining [(Cement, Chair, Cement, Butterfly, Brick, Butterfly), (Cement, Empty, Cement, Butterfly, Brick, Butterfly), (Stone, Empty, Stone, Eiffel, Brick, Eiffel), (Wood, Lamp, Wood, Fish, Brick, Fish), (Rose, Easel, Rose, Fish, Brick, Fish), (Grass, Hatrack, Grass, End, Wall, End)]
+.....for Thing(dist='1:', value=Intersection, type='Struct', side=[Front])
+12-01 14:39:25 INFO     .....Recognized Thing(dist='1:', value=Intersection, type='Struct', side=[Front])
+12-01 14:39:25 INFO     .....Recognized entire description!
+12-01 14:39:25 INFO     Recognizing [Thing(dist='0:', value=Lamp, type='Obj', side=[Right])].
+12-01 14:39:25 INFO     .....Examining [(Cement, Chair, Cement, Butterfly, Brick, Butterfly), (Cement, Empty, Cement, Butterfly, Brick, Butterfly), (Stone, Empty, Stone, Eiffel, Brick, Eiffel), (Wood, Lamp, Wood, Fish, Brick, Fish), (Rose, Easel, Rose, Fish, Brick, Fish), (Grass, Hatrack, Grass, End, Wall, End)]
+.....for Thing(dist='0:', value=Lamp, type='Obj', side=[Right])
+12-01 14:39:25 INFO     .....Did NOT recognize Thing(dist='0:', value=Lamp, type='Obj', side=[Right])
+12-01 14:39:25 INFO     Facing the Distance conditions in the distance [Thing(dist='1:', value=Position, type='Struct', side=[Front])]
+12-01 14:39:25 INFO     Recognizing [Thing(dist='0', value=Path, type='Path', side=[Left])].
+12-01 14:39:25 INFO     .....Examining [(Cement, Chair, Cement, Butterfly, Brick, Butterfly), (Cement, Empty, Cement, Butterfly, Brick, Butterfly), (Stone, Empty, Stone, Eiffel, Brick, Eiffel), (Wood, Lamp, Wood, Fish, Brick, Fish), (Rose, Easel, Rose, Fish, Brick, Fish), (Grass, Hatrack, Grass, End, Wall, End)]
+.....for Thing(dist='0', value=Path, type='Path', side=[Left])
+12-01 14:39:25 INFO     .....Recognized Thing(dist='0', value=Path, type='Path', side=[Left])
+12-01 14:39:25 INFO     .....Recognized entire description!
+12-01 14:39:25 INFO     Recognizing [Thing(dist='1:', value=Position, type='Struct', side=[Front])].
+12-01 14:39:25 INFO     .....Examining [(Cement, Chair, Cement, Butterfly, Brick, Butterfly), (Cement, Empty, Cement, Butterfly, Brick, Butterfly), (Stone, Empty, Stone, Eiffel, Brick, Eiffel), (Wood, Lamp, Wood, Fish, Brick, Fish), (Rose, Easel, Rose, Fish, Brick, Fish), (Grass, Hatrack, Grass, End, Wall, End)]
+.....for Thing(dist='1:', value=Position, type='Struct', side=[Front])
+12-01 14:39:25 INFO     .....Recognized Thing(dist='1:', value=Position, type='Struct', side=[Front])
+12-01 14:39:25 INFO     .....Recognized entire description!
+12-01 14:39:25 INFO     After Faced Distance 0 []
+12-01 14:39:25 INFO     Traveling forward.
+12-01 14:39:25 INFO     travel observing...
+12-01 14:39:25 INFO     post travel obs: [(Cement, Chair, Cement, Butterfly, Brick, Butterfly), (Cement, Empty, Cement, Butterfly, Brick, Butterfly), (Stone, Empty, Stone, Eiffel, Brick, Eiffel), (Wood, Lamp, Wood, Fish, Brick, Fish), (Rose, Easel, Rose, Fish, Brick, Fish), (Grass, Hatrack, Grass, End, Wall, End)]; viewCache: ViewCache([[(Cement, Chair, Cement, Butterfly, Brick, Butterfly), (Cement, Empty, Cement, Butterfly, Brick, Butterfly), (Stone, Empty, Stone, Eiffel, Brick, Eiffel), (Wood, Lamp, Wood, Fish, Brick, Fish), (Rose, Easel, Rose, Fish, Brick, Fish), (Grass, Hatrack, Grass, End, Wall, End)], [(Brick, Chair, Brick, Unknown, Cement, Unknown)], [(Cement, Chair, Cement, Butterfly, Brick, Butterfly), (Cement, Chair, Cement, End, Wall, End)], [(Brick, Chair, Brick, Unknown, Cement, Unknown)]])
+12-01 14:39:25 INFO     After distance 1 [(Cement, Empty, Cement, Butterfly, Brick, Butterfly)]...
+12-01 14:39:25 INFO     Travel Distance: None Count is 1 of 1
+12-01 14:39:25 INFO     Recognizing [Thing(dist='0:', value=Lamp, type='Obj', side=[Right])].
+12-01 14:39:25 INFO     .....Examining [(Cement, Empty, Cement, Butterfly, Brick, Butterfly), (Stone, Empty, Stone, Eiffel, Brick, Eiffel), (Wood, Lamp, Wood, Fish, Brick, Fish), (Rose, Easel, Rose, Fish, Brick, Fish), (Grass, Hatrack, Grass, End, Wall, End)]
+.....for Thing(dist='0:', value=Lamp, type='Obj', side=[Right])
+12-01 14:39:25 INFO     .....Did NOT recognize Thing(dist='0:', value=Lamp, type='Obj', side=[Right])
+12-01 14:39:25 INFO     Recognizing [Thing(dist='0', value=Path, type='Path', side=[Front])].
+12-01 14:39:25 INFO     .....Examining [(Cement, Empty, Cement, Butterfly, Brick, Butterfly), (Stone, Empty, Stone, Eiffel, Brick, Eiffel), (Wood, Lamp, Wood, Fish, Brick, Fish), (Rose, Easel, Rose, Fish, Brick, Fish), (Grass, Hatrack, Grass, End, Wall, End)]
+.....for Thing(dist='0', value=Path, type='Path', side=[Front])
+12-01 14:39:25 INFO     .....Recognized Thing(dist='0', value=Path, type='Path', side=[Front])
+12-01 14:39:25 INFO     .....Recognized entire description!
+12-01 14:39:25 INFO     Recognizing [Thing(dist='0', value=Path, type='Path', side=[Left])].
+12-01 14:39:25 INFO     .....Examining [(Cement, Empty, Cement, Butterfly, Brick, Butterfly), (Stone, Empty, Stone, Eiffel, Brick, Eiffel), (Wood, Lamp, Wood, Fish, Brick, Fish), (Rose, Easel, Rose, Fish, Brick, Fish), (Grass, Hatrack, Grass, End, Wall, End)]
+.....for Thing(dist='0', value=Path, type='Path', side=[Left])
+12-01 14:39:25 INFO     .....Recognized Thing(dist='0', value=Path, type='Path', side=[Left])
+12-01 14:39:25 INFO     .....Recognized entire description!
+12-01 14:39:25 INFO     Recognizing [Thing(dist='0', value=Path, type='Path', side=[Right])].
+12-01 14:39:25 INFO     .....Examining [(Cement, Empty, Cement, Butterfly, Brick, Butterfly), (Stone, Empty, Stone, Eiffel, Brick, Eiffel), (Wood, Lamp, Wood, Fish, Brick, Fish), (Rose, Easel, Rose, Fish, Brick, Fish), (Grass, Hatrack, Grass, End, Wall, End)]
+.....for Thing(dist='0', value=Path, type='Path', side=[Right])
+12-01 14:39:25 INFO     .....Recognized Thing(dist='0', value=Path, type='Path', side=[Right])
+12-01 14:39:25 INFO     .....Recognized entire description!
+12-01 14:39:25 INFO     Recognizing [Thing(dist='1:', value=Intersection, type='Struct', side=[Front])].
+12-01 14:39:25 INFO     .....Examining [(Cement, Empty, Cement, Butterfly, Brick, Butterfly), (Stone, Empty, Stone, Eiffel, Brick, Eiffel), (Wood, Lamp, Wood, Fish, Brick, Fish), (Rose, Easel, Rose, Fish, Brick, Fish), (Grass, Hatrack, Grass, End, Wall, End)]
+.....for Thing(dist='1:', value=Intersection, type='Struct', side=[Front])
+12-01 14:39:25 INFO     .....Recognized Thing(dist='1:', value=Intersection, type='Struct', side=[Front])
+12-01 14:39:25 INFO     .....Recognized entire description!
+12-01 14:39:25 INFO     Recognizing [Thing(dist='0:', value=Lamp, type='Obj', side=[Right])].
+12-01 14:39:25 INFO     .....Examining [(Cement, Empty, Cement, Butterfly, Brick, Butterfly), (Stone, Empty, Stone, Eiffel, Brick, Eiffel), (Wood, Lamp, Wood, Fish, Brick, Fish), (Rose, Easel, Rose, Fish, Brick, Fish), (Grass, Hatrack, Grass, End, Wall, End)]
+.....for Thing(dist='0:', value=Lamp, type='Obj', side=[Right])
+12-01 14:39:25 INFO     .....Did NOT recognize Thing(dist='0:', value=Lamp, type='Obj', side=[Right])
+12-01 14:39:25 INFO     Facing the Distance conditions in the distance [Thing(dist='1:', value=Position, type='Struct', side=[Front])]
+12-01 14:39:25 INFO     Recognizing [Thing(dist='0', value=Path, type='Path', side=[Left])].
+12-01 14:39:25 INFO     .....Examining [(Cement, Empty, Cement, Butterfly, Brick, Butterfly), (Stone, Empty, Stone, Eiffel, Brick, Eiffel), (Wood, Lamp, Wood, Fish, Brick, Fish), (Rose, Easel, Rose, Fish, Brick, Fish), (Grass, Hatrack, Grass, End, Wall, End)]
+.....for Thing(dist='0', value=Path, type='Path', side=[Left])
+12-01 14:39:25 INFO     .....Recognized Thing(dist='0', value=Path, type='Path', side=[Left])
+12-01 14:39:25 INFO     .....Recognized entire description!
+12-01 14:39:25 INFO     Recognizing [Thing(dist='1:', value=Position, type='Struct', side=[Front])].
+12-01 14:39:25 INFO     .....Examining [(Cement, Empty, Cement, Butterfly, Brick, Butterfly), (Stone, Empty, Stone, Eiffel, Brick, Eiffel), (Wood, Lamp, Wood, Fish, Brick, Fish), (Rose, Easel, Rose, Fish, Brick, Fish), (Grass, Hatrack, Grass, End, Wall, End)]
+.....for Thing(dist='1:', value=Position, type='Struct', side=[Front])
+12-01 14:39:25 INFO     .....Recognized Thing(dist='1:', value=Position, type='Struct', side=[Front])
+12-01 14:39:25 INFO     .....Recognized entire description!
+12-01 14:39:25 INFO     After Faced Distance 0 []
+12-01 14:39:25 INFO     Traveling forward.
+12-01 14:39:25 INFO     travel observing...
+12-01 14:39:25 INFO     post travel obs: [(Cement, Empty, Cement, Butterfly, Brick, Butterfly), (Stone, Empty, Stone, Eiffel, Brick, Eiffel), (Wood, Lamp, Wood, Fish, Brick, Fish), (Rose, Easel, Rose, Fish, Brick, Fish), (Grass, Hatrack, Grass, End, Wall, End)]; viewCache: ViewCache([[(Cement, Empty, Cement, Butterfly, Brick, Butterfly), (Stone, Empty, Stone, Eiffel, Brick, Eiffel), (Wood, Lamp, Wood, Fish, Brick, Fish), (Rose, Easel, Rose, Fish, Brick, Fish), (Grass, Hatrack, Grass, End, Wall, End)], [(Brick, Empty, Brick, Unknown, Cement, Unknown)], [(Cement, Empty, Cement, Butterfly, Brick, Butterfly), (Cement, Empty, Cement, Butterfly, Brick, Butterfly), (Cement, Chair, Cement, End, Wall, End)], [(Brick, Empty, Brick, Unknown, Cement, Unknown)]])
+12-01 14:39:25 INFO     After distance 1 [(Stone, Empty, Stone, Eiffel, Brick, Eiffel)]...
+12-01 14:39:25 INFO     Travel Distance: None Count is 1 of 1
+12-01 14:39:25 INFO     Recognizing [Thing(dist='0:', value=Lamp, type='Obj', side=[Right])].
+12-01 14:39:25 INFO     .....Examining [(Stone, Empty, Stone, Eiffel, Brick, Eiffel), (Wood, Lamp, Wood, Fish, Brick, Fish), (Rose, Easel, Rose, Fish, Brick, Fish), (Grass, Hatrack, Grass, End, Wall, End)]
+.....for Thing(dist='0:', value=Lamp, type='Obj', side=[Right])
+12-01 14:39:25 INFO     .....Did NOT recognize Thing(dist='0:', value=Lamp, type='Obj', side=[Right])
+12-01 14:39:25 INFO     Recognizing [Thing(dist='0', value=Path, type='Path', side=[Front])].
+12-01 14:39:25 INFO     .....Examining [(Stone, Empty, Stone, Eiffel, Brick, Eiffel), (Wood, Lamp, Wood, Fish, Brick, Fish), (Rose, Easel, Rose, Fish, Brick, Fish), (Grass, Hatrack, Grass, End, Wall, End)]
+.....for Thing(dist='0', value=Path, type='Path', side=[Front])
+12-01 14:39:25 INFO     .....Recognized Thing(dist='0', value=Path, type='Path', side=[Front])
+12-01 14:39:25 INFO     .....Recognized entire description!
+12-01 14:39:25 INFO     Recognizing [Thing(dist='0', value=Path, type='Path', side=[Left])].
+12-01 14:39:25 INFO     .....Examining [(Stone, Empty, Stone, Eiffel, Brick, Eiffel), (Wood, Lamp, Wood, Fish, Brick, Fish), (Rose, Easel, Rose, Fish, Brick, Fish), (Grass, Hatrack, Grass, End, Wall, End)]
+.....for Thing(dist='0', value=Path, type='Path', side=[Left])
+12-01 14:39:25 INFO     .....Recognized Thing(dist='0', value=Path, type='Path', side=[Left])
+12-01 14:39:25 INFO     .....Recognized entire description!
+12-01 14:39:25 INFO     Recognizing [Thing(dist='0', value=Path, type='Path', side=[Right])].
+12-01 14:39:25 INFO     .....Examining [(Stone, Empty, Stone, Eiffel, Brick, Eiffel), (Wood, Lamp, Wood, Fish, Brick, Fish), (Rose, Easel, Rose, Fish, Brick, Fish), (Grass, Hatrack, Grass, End, Wall, End)]
+.....for Thing(dist='0', value=Path, type='Path', side=[Right])
+12-01 14:39:25 INFO     .....Recognized Thing(dist='0', value=Path, type='Path', side=[Right])
+12-01 14:39:25 INFO     .....Recognized entire description!
+12-01 14:39:25 INFO     Recognizing [Thing(dist='1:', value=Intersection, type='Struct', side=[Front])].
+12-01 14:39:25 INFO     .....Examining [(Stone, Empty, Stone, Eiffel, Brick, Eiffel), (Wood, Lamp, Wood, Fish, Brick, Fish), (Rose, Easel, Rose, Fish, Brick, Fish), (Grass, Hatrack, Grass, End, Wall, End)]
+.....for Thing(dist='1:', value=Intersection, type='Struct', side=[Front])
+12-01 14:39:25 INFO     .....Recognized Thing(dist='1:', value=Intersection, type='Struct', side=[Front])
+12-01 14:39:25 INFO     .....Recognized entire description!
+12-01 14:39:25 INFO     Recognizing [Thing(dist='0:', value=Lamp, type='Obj', side=[Right])].
+12-01 14:39:25 INFO     .....Examining [(Stone, Empty, Stone, Eiffel, Brick, Eiffel), (Wood, Lamp, Wood, Fish, Brick, Fish), (Rose, Easel, Rose, Fish, Brick, Fish), (Grass, Hatrack, Grass, End, Wall, End)]
+.....for Thing(dist='0:', value=Lamp, type='Obj', side=[Right])
+12-01 14:39:25 INFO     .....Did NOT recognize Thing(dist='0:', value=Lamp, type='Obj', side=[Right])
+12-01 14:39:25 INFO     Turning Left.
+12-01 14:39:25 INFO     After turn 1 [(Brick, Empty, Brick, Butterfly, Stone, Butterfly), (BlueTile, Barstool, BlueTile, End, Wall, End)]
+12-01 14:39:25 INFO     Recognizing [Thing(dist='1:', value=Intersection, type='Struct', side=[Front])].
+12-01 14:39:25 INFO     .....Examining [(Brick, Empty, Brick, Butterfly, Stone, Butterfly), (BlueTile, Barstool, BlueTile, End, Wall, End)]
+.....for Thing(dist='1:', value=Intersection, type='Struct', side=[Front])
+12-01 14:39:25 INFO     .....Recognized Thing(dist='1:', value=Intersection, type='Struct', side=[Front])
+12-01 14:39:25 INFO     .....Recognized entire description!
+12-01 14:39:25 INFO     Recognizing [Thing(dist='0:', value=Lamp, type='Obj', side=[Right])].
+12-01 14:39:25 INFO     .....Examining [(Brick, Empty, Brick, Butterfly, Stone, Butterfly), (BlueTile, Barstool, BlueTile, End, Wall, End)]
+.....for Thing(dist='0:', value=Lamp, type='Obj', side=[Right])
+12-01 14:39:25 INFO     .....Recognized Thing(dist='0:', value=Lamp, type='Obj', side=[Right])
+12-01 14:39:25 INFO     .....Recognized entire description!
+12-01 14:39:25 INFO     After Face: find view 6 []
+12-01 14:39:25 INFO     After Faced Until 15 []
+12-01 14:39:25 INFO     Recognizing [Thing(dist='0', value=Lamp, type='Obj', side=[Right])].
+12-01 14:39:25 INFO     .....Examining [(Brick, Empty, Brick, Butterfly, Stone, Butterfly), (BlueTile, Barstool, BlueTile, End, Wall, End)]
+.....for Thing(dist='0', value=Lamp, type='Obj', side=[Right])
+12-01 14:39:25 INFO     .....Did NOT recognize Thing(dist='0', value=Lamp, type='Obj', side=[Right])
+12-01 14:39:25 INFO     Traveling forward.
+12-01 14:39:25 INFO     travel observing...
+12-01 14:39:25 INFO     post travel obs: [(Brick, Empty, Brick, Butterfly, Stone, Butterfly), (BlueTile, Barstool, BlueTile, End, Wall, End)]; viewCache: ViewCache([[(Brick, Empty, Brick, Butterfly, Stone, Butterfly), (BlueTile, Barstool, BlueTile, End, Wall, End)], [(Stone, Empty, Stone, Unknown, Brick, Unknown)], [(Brick, Empty, Brick, Butterfly, Stone, Butterfly), (Brick, Empty, Brick, Unknown, Stone, Unknown)], [(Stone, Empty, Stone, Unknown, Brick, Unknown)]])
+12-01 14:39:25 INFO     After until 1 [(BlueTile, Barstool, BlueTile, End, Wall, End)]
+12-01 14:39:25 INFO     Recognizing [Thing(dist='0', value=Lamp, type='Obj', side=[Right])].
+12-01 14:39:25 INFO     .....Examining [(BlueTile, Barstool, BlueTile, End, Wall, End)]
+.....for Thing(dist='0', value=Lamp, type='Obj', side=[Right])
+12-01 14:39:25 INFO     .....Did NOT recognize Thing(dist='0', value=Lamp, type='Obj', side=[Right])
+12-01 14:39:25 INFO     Traveling forward.
+12-01 14:39:25 INFO     travel observing...
+12-01 14:39:25 INFO     post travel obs: [(BlueTile, Barstool, BlueTile, End, Wall, End)]; viewCache: ViewCache([[(BlueTile, Barstool, BlueTile, End, Wall, End)], [(Wall, Barstool, Wall, Unknown, BlueTile, Unknown)], [(BlueTile, Barstool, BlueTile, End, Wall, End), (BlueTile, Barstool, BlueTile, Butterfly, Stone, Butterfly), (Brick, Empty, Brick, Unknown, Stone, Unknown)], [(Wall, Barstool, Wall, Unknown, BlueTile, Unknown)]])
+12-01 14:39:25 INFO     After until 10 [(BlueTile, Barstool, BlueTile, End, Wall, End)]
+12-01 14:43:07 INFO     frame2action [Travel_v=[MEAN='move_V_1'], Dir=[MEAN='forward_ADV_1'], Until=[Until_p=[MEAN='UNTIL'], S=[Obj=[Det=[MEAN='THE'], Appear=[MEAN='bare_ADJ_4'], Obj_n=[MEAN='stool_N_1']], Is_v=[MEAN="is_V_('be', [1, 2, 3, 4, 5])"], Side=[Side_p=[MEAN='BEHIND'], Agent=[MEAN='YOU']]]]]
+12-01 14:43:07 INFO     <0> Travel(until=Verify(desc=[Thing(dist='0', Appear=[Cement], value=Barstool, type='Obj', side=[Back])]))
+12-01 14:43:27 INFO     Recognizing [Thing(dist='0', Appear=[Cement], value=Barstool, type='Obj', side=[Back])].
+12-01 14:43:27 INFO     recognize observing...
+12-01 14:43:27 INFO     Observed [(Wall, Empty, Cement, Butterfly, BlueTile, Butterfly), (Wall, Barstool, Stone, Butterfly, BlueTile, Butterfly), (Wall, Chair, Wood, Fish, BlueTile, Fish), (Wall, Empty, Rose, Fish, BlueTile, Fish), (Wall, Empty, Grass, End, Wall, End)]
+12-01 14:43:27 INFO     .....Examining [(Wall, Empty, Cement, Butterfly, BlueTile, Butterfly), (Wall, Barstool, Stone, Butterfly, BlueTile, Butterfly), (Wall, Chair, Wood, Fish, BlueTile, Fish), (Wall, Empty, Rose, Fish, BlueTile, Fish), (Wall, Empty, Grass, End, Wall, End)]
+.....for Thing(dist='0', Appear=[Cement], value=Barstool, type='Obj', side=[Back])
+12-01 14:43:27 INFO     .....Did NOT recognize Thing(dist='0', Appear=[Cement], value=Barstool, type='Obj', side=[Back])
+12-01 14:43:27 INFO     Recognizing [Thing(dist='0', Appear=[Cement], value=Barstool, type='Obj', side=[Back])].
+12-01 14:43:27 INFO     .....Examining [(Wall, Empty, Cement, Butterfly, BlueTile, Butterfly), (Wall, Barstool, Stone, Butterfly, BlueTile, Butterfly), (Wall, Chair, Wood, Fish, BlueTile, Fish), (Wall, Empty, Rose, Fish, BlueTile, Fish), (Wall, Empty, Grass, End, Wall, End)]
+.....for Thing(dist='0', Appear=[Cement], value=Barstool, type='Obj', side=[Back])
+12-01 14:43:27 INFO     .....Did NOT recognize Thing(dist='0', Appear=[Cement], value=Barstool, type='Obj', side=[Back])
+12-01 14:43:27 INFO     Facing the Until conditions in the distance [Thing(dist='0:', Appear=[Cement], value=Barstool, type='Obj', side=[Back])]
+12-01 14:43:27 INFO     Recognizing [Thing(dist='0', value=Path, type='Path', side=[Left])].
+12-01 14:43:27 INFO     .....Examining [(Wall, Empty, Cement, Butterfly, BlueTile, Butterfly), (Wall, Barstool, Stone, Butterfly, BlueTile, Butterfly), (Wall, Chair, Wood, Fish, BlueTile, Fish), (Wall, Empty, Rose, Fish, BlueTile, Fish), (Wall, Empty, Grass, End, Wall, End)]
+.....for Thing(dist='0', value=Path, type='Path', side=[Left])
+12-01 14:43:27 INFO     .....Did NOT recognize Thing(dist='0', value=Path, type='Path', side=[Left])
+12-01 14:43:27 INFO     Recognizing [Thing(dist='0:', Appear=[Cement], value=Barstool, type='Obj', side=[Back])].
+12-01 14:43:27 INFO     .....Examining [(Wall, Empty, Cement, Butterfly, BlueTile, Butterfly), (Wall, Barstool, Stone, Butterfly, BlueTile, Butterfly), (Wall, Chair, Wood, Fish, BlueTile, Fish), (Wall, Empty, Rose, Fish, BlueTile, Fish), (Wall, Empty, Grass, End, Wall, End)]
+.....for Thing(dist='0:', Appear=[Cement], value=Barstool, type='Obj', side=[Back])
+12-01 14:43:27 INFO     .....Did NOT recognize Thing(dist='0:', Appear=[Cement], value=Barstool, type='Obj', side=[Back])
+12-01 14:43:27 INFO     Turning Right.
+12-01 14:43:27 INFO     After face 1 [(BlueTile, Empty, BlueTile, Butterfly, Cement, Butterfly)]...
+12-01 14:43:27 INFO     Recognizing [Thing(dist='0:', Appear=[Cement], value=Barstool, type='Obj', side=[Back])].
+12-01 14:43:27 INFO     .....Examining [(BlueTile, Empty, BlueTile, Butterfly, Cement, Butterfly), (Brick, Empty, Brick, Eiffel, Cement, Eiffel), (Cement, Empty, Cement, End, Wall, End)]
+.....for Thing(dist='0:', Appear=[Cement], value=Barstool, type='Obj', side=[Back])
+12-01 14:43:27 INFO     .....Did NOT recognize Thing(dist='0:', Appear=[Cement], value=Barstool, type='Obj', side=[Back])
+12-01 14:43:27 INFO     Turning Right.
+12-01 14:43:27 INFO     After face 1 [(Cement, Empty, Wall, Butterfly, BlueTile, Butterfly)]...
+12-01 14:43:27 INFO     Recognizing [Thing(dist='0:', Appear=[Cement], value=Barstool, type='Obj', side=[Back])].
+12-01 14:43:27 INFO     .....Examining [(Cement, Empty, Wall, Butterfly, BlueTile, Butterfly), (Cement, Sofa, Wall, Butterfly, BlueTile, Butterfly), (Cement, Hatrack, Wall, Butterfly, BlueTile, Butterfly), (Cement, Empty, Wall, End, Wall, End)]
+.....for Thing(dist='0:', Appear=[Cement], value=Barstool, type='Obj', side=[Back])
+12-01 14:43:27 INFO     .....Recognized Thing(dist='0:', Appear=[Cement], value=Barstool, type='Obj', side=[Back])
+12-01 14:43:27 INFO     .....Recognized entire description!
+12-01 14:43:27 INFO     After Faced Until 2 [(Cement, Empty, Wall, Butterfly, BlueTile, Butterfly)]...
+12-01 14:43:27 INFO     Recognizing [Thing(dist='0', Appear=[Cement], value=Barstool, type='Obj', side=[Back])].
+12-01 14:43:27 INFO     .....Examining [(Cement, Empty, Wall, Butterfly, BlueTile, Butterfly), (Cement, Sofa, Wall, Butterfly, BlueTile, Butterfly), (Cement, Hatrack, Wall, Butterfly, BlueTile, Butterfly), (Cement, Empty, Wall, End, Wall, End)]
+.....for Thing(dist='0', Appear=[Cement], value=Barstool, type='Obj', side=[Back])
+12-01 14:43:27 INFO     .....Did NOT recognize Thing(dist='0', Appear=[Cement], value=Barstool, type='Obj', side=[Back])
+12-01 14:43:27 INFO     Traveling forward.
+12-01 14:43:27 INFO     travel observing...
+12-01 14:43:27 INFO     post travel obs: [(Cement, Empty, Wall, Butterfly, BlueTile, Butterfly), (Cement, Sofa, Wall, Butterfly, BlueTile, Butterfly), (Cement, Hatrack, Wall, Butterfly, BlueTile, Butterfly), (Cement, Empty, Wall, End, Wall, End)]; viewCache: ViewCache([[(Cement, Empty, Wall, Butterfly, BlueTile, Butterfly), (Cement, Sofa, Wall, Butterfly, BlueTile, Butterfly), (Cement, Hatrack, Wall, Butterfly, BlueTile, Butterfly), (Cement, Empty, Wall, End, Wall, End)], [(BlueTile, Empty, BlueTile, End, Wall, End)], [(Wall, Empty, Cement, Butterfly, BlueTile, Butterfly), (Wall, Empty, Cement, Butterfly, BlueTile, Butterfly), (Wall, Barstool, Stone, Butterfly, BlueTile, Butterfly), (Wall, Chair, Wood, Fish, BlueTile, Fish), (Wall, Empty, Rose, Fish, BlueTile, Fish), (Wall, Empty, Grass, End, Wall, End)], [(BlueTile, Empty, BlueTile, Unknown, Cement, Unknown)]])
+12-01 14:43:27 INFO     After until 1 [(Cement, Sofa, Wall, Butterfly, BlueTile, Butterfly)]...
+12-01 14:43:27 INFO     Recognizing [Thing(dist='0', Appear=[Cement], value=Barstool, type='Obj', side=[Back])].
+12-01 14:43:27 INFO     .....Examining [(Cement, Sofa, Wall, Butterfly, BlueTile, Butterfly), (Cement, Hatrack, Wall, Butterfly, BlueTile, Butterfly), (Cement, Empty, Wall, End, Wall, End)]
+.....for Thing(dist='0', Appear=[Cement], value=Barstool, type='Obj', side=[Back])
+12-01 14:43:27 INFO     .....Did NOT recognize Thing(dist='0', Appear=[Cement], value=Barstool, type='Obj', side=[Back])
+12-01 14:43:27 INFO     Traveling forward.
+12-01 14:43:27 INFO     travel observing...
+12-01 14:43:27 INFO     post travel obs: [(Cement, Sofa, Wall, Butterfly, BlueTile, Butterfly), (Cement, Hatrack, Wall, Butterfly, BlueTile, Butterfly), (Cement, Empty, Wall, End, Wall, End)]; viewCache: ViewCache([[(Cement, Sofa, Wall, Butterfly, BlueTile, Butterfly), (Cement, Hatrack, Wall, Butterfly, BlueTile, Butterfly), (Cement, Empty, Wall, End, Wall, End)], [(BlueTile, Sofa, BlueTile, End, Wall, End)], [(Wall, Sofa, Cement, Butterfly, BlueTile, Butterfly), (Wall, Sofa, Cement, Butterfly, BlueTile, Butterfly), (Wall, Empty, Cement, Butterfly, BlueTile, Butterfly), (Wall, Barstool, Stone, Butterfly, BlueTile, Butterfly), (Wall, Chair, Wood, Fish, BlueTile, Fish), (Wall, Empty, Rose, Fish, BlueTile, Fish), (Wall, Empty, Grass, End, Wall, End)], [(BlueTile, Sofa, BlueTile, Unknown, Cement, Unknown)]])
+12-01 14:43:27 INFO     After until 1 [(Cement, Hatrack, Wall, Butterfly, BlueTile, Butterfly), (Cement, Empty, Wall, End, Wall, End)]
+12-01 14:43:27 INFO     Recognizing [Thing(dist='0', Appear=[Cement], value=Barstool, type='Obj', side=[Back])].
+12-01 14:43:27 INFO     .....Examining [(Cement, Hatrack, Wall, Butterfly, BlueTile, Butterfly), (Cement, Empty, Wall, End, Wall, End)]
+.....for Thing(dist='0', Appear=[Cement], value=Barstool, type='Obj', side=[Back])
+12-01 14:43:27 INFO     .....Did NOT recognize Thing(dist='0', Appear=[Cement], value=Barstool, type='Obj', side=[Back])
+12-01 14:43:27 INFO     Traveling forward.
+12-01 14:43:27 INFO     travel observing...
+12-01 14:43:27 INFO     post travel obs: [(Cement, Hatrack, Wall, Butterfly, BlueTile, Butterfly), (Cement, Empty, Wall, End, Wall, End)]; viewCache: ViewCache([[(Cement, Hatrack, Wall, Butterfly, BlueTile, Butterfly), (Cement, Empty, Wall, End, Wall, End)], [(BlueTile, Hatrack, BlueTile, End, Wall, End)], [(Wall, Hatrack, Cement, Butterfly, BlueTile, Butterfly), (Wall, Hatrack, Cement, Butterfly, BlueTile, Butterfly), (Wall, Sofa, Cement, Butterfly, BlueTile, Butterfly), (Wall, Empty, Cement, Butterfly, BlueTile, Butterfly), (Wall, Barstool, Stone, Butterfly, BlueTile, Butterfly), (Wall, Chair, Wood, Fish, BlueTile, Fish), (Wall, Empty, Rose, Fish, BlueTile, Fish), (Wall, Empty, Grass, End, Wall, End)], [(BlueTile, Hatrack, BlueTile, Unknown, Cement, Unknown)]])
+12-01 14:43:27 INFO     After until 1 [(Cement, Empty, Wall, End, Wall, End)]
+12-01 14:43:27 INFO     Recognizing [Thing(dist='0', Appear=[Cement], value=Barstool, type='Obj', side=[Back])].
+12-01 14:43:27 INFO     .....Examining [(Cement, Empty, Wall, End, Wall, End)]
+.....for Thing(dist='0', Appear=[Cement], value=Barstool, type='Obj', side=[Back])
+12-01 14:43:27 INFO     .....Did NOT recognize Thing(dist='0', Appear=[Cement], value=Barstool, type='Obj', side=[Back])
+12-01 14:43:27 INFO     Traveling forward.
+12-01 14:43:27 INFO     travel observing...
+12-01 14:43:27 INFO     post travel obs: [(Cement, Empty, Wall, End, Wall, End)]; viewCache: ViewCache([[(Cement, Empty, Wall, End, Wall, End)], [(Wall, Empty, Wall, End, Wall, End)], [(Wall, Empty, Cement, End, Wall, End), (Wall, Empty, Cement, Butterfly, BlueTile, Butterfly), (Wall, Hatrack, Cement, Butterfly, BlueTile, Butterfly), (Wall, Sofa, Cement, Butterfly, BlueTile, Butterfly), (Wall, Empty, Cement, Butterfly, BlueTile, Butterfly), (Wall, Barstool, Stone, Butterfly, BlueTile, Butterfly), (Wall, Chair, Wood, Fish, BlueTile, Fish), (Wall, Empty, Rose, Fish, BlueTile, Fish), (Wall, Empty, Grass, End, Wall, End)], [(Wall, Empty, Wall, Unknown, Cement, Unknown)]])
+12-01 14:43:27 INFO     After until 10 [(Cement, Empty, Wall, End, Wall, End)]
+12-01 14:43:39 INFO     frame2action [Travel_v=[MEAN='move_V_1'], Along=[Along_p=[MEAN='ALONG'], Path=[Det=[MEAN='THE'], Appear=[MEAN='blue_ADJ_1'], Path_n=[MEAN='hall_N_1']]], Until=[Until_p=[MEAN='UNTIL'], S=[Obj=[Det=[MEAN='THE'], Appear=[MEAN='bare_ADJ_4'], Obj_n=[MEAN='stool_N_1']], Is_v=[MEAN="is_V_('be', [1, 2, 3, 4, 5])"], Side=[Side_p=[MEAN='BEHIND'], Agent=[MEAN='YOU']]]]]
+12-01 14:43:39 INFO     <0> Travel(face=Face(faced=Verify(desc=[Thing(dist='0', Appear=[BlueTile], value=Path, type='Path', side=[Front])])), until=Verify(desc=[Thing(dist='0', Appear=[Cement], value=Barstool, type='Obj', side=[Back])]))
+12-01 14:44:19 INFO     frame2action [Obj=[Det=[MEAN='THE'], Appear=[MEAN='bare_ADJ_4'], Obj_n=[MEAN='stool_N_1']], Is_v=[MEAN='be_V_1,2,3,4,5'], Side=[Side_p=[MEAN='BEHIND'], Agent=[MEAN='YOU']]]
+12-01 14:44:19 INFO     <0> Verify(desc=[Thing(dist='0:', Appear=[Cement], value=Barstool, type='Obj', side=[Back])])
+12-01 14:44:25 INFO     frame2action [Obj=[Det=[MEAN='THE'], Appear=[MEAN='bare_ADJ_4'], Obj_n=[MEAN='stool_N_1']], Is_v=[MEAN='be_V_1,2,3,4,5'], Side=[Side_p=[MEAN='BEHIND'], Agent=[MEAN='YOU']]]
+12-01 14:44:25 INFO     <0> Verify(desc=[Thing(dist='0:', Appear=[Cement], value=Barstool, type='Obj', side=[Back])])
+12-01 14:44:35 INFO     Recognizing [Thing(dist='0:', Appear=[Cement], value=Barstool, type='Obj', side=[Back])].
+12-01 14:44:35 INFO     recognize observing...
+12-01 14:44:35 INFO     Observed [(Cement, Empty, Wall, Butterfly, BlueTile, Butterfly), (Cement, Sofa, Wall, Butterfly, BlueTile, Butterfly), (Cement, Hatrack, Wall, Butterfly, BlueTile, Butterfly), (Cement, Empty, Wall, End, Wall, End)]
+12-01 14:44:35 INFO     .....Examining [(Cement, Empty, Wall, Butterfly, BlueTile, Butterfly), (Cement, Sofa, Wall, Butterfly, BlueTile, Butterfly), (Cement, Hatrack, Wall, Butterfly, BlueTile, Butterfly), (Cement, Empty, Wall, End, Wall, End)]
+.....for Thing(dist='0:', Appear=[Cement], value=Barstool, type='Obj', side=[Back])
+12-01 14:44:35 INFO     .....Did NOT recognize Thing(dist='0:', Appear=[Cement], value=Barstool, type='Obj', side=[Back])
+12-01 14:45:36 INFO     Recognizing [Thing(dist='0:', value=Barstool, type='Obj', side=[Back])].
+12-01 14:45:36 INFO     recognize observing...
+12-01 14:45:36 INFO     Observed [(Cement, Empty, Wall, Butterfly, BlueTile, Butterfly), (Cement, Sofa, Wall, Butterfly, BlueTile, Butterfly), (Cement, Hatrack, Wall, Butterfly, BlueTile, Butterfly), (Cement, Empty, Wall, End, Wall, End)]
+12-01 14:45:36 INFO     .....Examining [(Cement, Empty, Wall, Butterfly, BlueTile, Butterfly), (Cement, Sofa, Wall, Butterfly, BlueTile, Butterfly), (Cement, Hatrack, Wall, Butterfly, BlueTile, Butterfly), (Cement, Empty, Wall, End, Wall, End)]
+.....for Thing(dist='0:', value=Barstool, type='Obj', side=[Back])
+12-01 14:45:36 INFO     .....Did NOT recognize Thing(dist='0:', value=Barstool, type='Obj', side=[Back])
+12-01 14:46:12 INFO     frame2action [Struct=[Det=[MEAN='THE'], Struct_n=[MEAN='section_N_4'], Detail=[Has_v=[MEAN="containing_V_('contain', [1])"], Obj=[Det=[MEAN='THE'], Obj_n=[MEAN='chair_N_1']]]], Is_v=[MEAN='be_V_1,2,3,4,5'], Side=[Side_p=[MEAN='TO'], Dir=[MEAN='left_ADV_1']]]
+12-01 14:46:12 INFO     <0> Verify(desc=[Thing(dist='0:', Detail=[Thing(value=GenChair, type='Obj')], value=Path, type='Struct', side=[Left])])
+12-01 14:46:24 INFO     frame2action [Struct=[Det=[MEAN='THE'], Struct_n=[MEAN='section_N_4'], Detail=[Has_v=[MEAN="containing_V_('contain', [1])"], Obj=[Det=[MEAN='THE'], Obj_n=[MEAN='chair_N_1']]]], Is_v=[MEAN='be_V_1,2,3,4,5'], Side=[Side_p=[MEAN='TO'], Dir=[MEAN='left_ADV_1']]]
+12-01 14:46:24 INFO     <0> Verify(desc=[Thing(dist='0:', Detail=[Thing(value=GenChair, type='Obj')], value=Path, type='Struct', side=[Left])])
+12-01 14:46:47 INFO     Recognizing [Thing(dist='0:', Detail=[Thing(value=GenChair, type='Obj')], value=Path, type='Struct', side=[Left])].
+12-01 14:46:47 INFO     recognize observing...
+12-01 14:46:47 INFO     Observed [(BlueTile, Empty, BlueTile, Butterfly, Cement, Butterfly), (Brick, Empty, Brick, Eiffel, Cement, Eiffel), (Cement, Empty, Cement, End, Wall, End)]
+12-01 14:46:47 INFO     .....Examining [(BlueTile, Empty, BlueTile, Butterfly, Cement, Butterfly), (Brick, Empty, Brick, Eiffel, Cement, Eiffel), (Cement, Empty, Cement, End, Wall, End)]
+.....for Thing(dist='0:', Detail=[Thing(value=GenChair, type='Obj')], value=Path, type='Struct', side=[Left])
+12-01 14:46:47 INFO     .....Did NOT recognize Thing(dist='0:', Detail=[Thing(value=GenChair, type='Obj')], value=Path, type='Struct', side=[Left])
+12-01 14:47:17 INFO     frame2action [Turn_v=[MEAN='turn_V_1'], Dir=[MEAN='right_ADV_4']]
+12-01 14:47:17 INFO     <0> Turn(direction=[Right])
+12-01 14:47:17 INFO     Turning Right.
+12-01 14:47:17 INFO     After turn 1 [(BlueTile, Empty, BlueTile, Butterfly, Cement, Butterfly)]...
+12-01 14:47:35 INFO     frame2action [Turn_v=[MEAN='turn_V_1'], Dir=[MEAN='right_ADV_4']]
+12-01 14:47:35 INFO     <0> Turn(direction=[Right])
+12-01 14:47:35 INFO     Turning Right.
+12-01 14:47:35 INFO     After turn 1 [(BlueTile, Empty, BlueTile, Butterfly, Cement, Butterfly)]...
+12-01 14:47:39 INFO     Recognizing [Thing(dist='0:', Detail=[Thing(value=GenChair, type='Obj')], value=Path, type='Struct', side=[Left])].
+12-01 14:47:39 INFO     .....Examining [(BlueTile, Empty, BlueTile, Butterfly, Cement, Butterfly), (Brick, Empty, Brick, Eiffel, Cement, Eiffel), (Cement, Empty, Cement, End, Wall, End)]
+.....for Thing(dist='0:', Detail=[Thing(value=GenChair, type='Obj')], value=Path, type='Struct', side=[Left])
+12-01 14:47:39 INFO     .....Did NOT recognize Thing(dist='0:', Detail=[Thing(value=GenChair, type='Obj')], value=Path, type='Struct', side=[Left])

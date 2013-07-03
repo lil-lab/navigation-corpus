@@ -1,0 +1,15 @@
+#VRML V2.0 utf8
+DEF Burlap Group {
+   children [
+      Shape {
+	 appearance Appearance {
+	    texture ImageTexture {
+	       url "SharedMedia/Textures/Burlap.JPG"
+	    }
+	 }
+	 geometry Box {
+	    size 10.000000 0.500000 30.000000
+	 }
+      }
+     ]
+}

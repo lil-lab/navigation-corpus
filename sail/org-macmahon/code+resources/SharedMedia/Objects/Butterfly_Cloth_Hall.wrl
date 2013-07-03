@@ -1,0 +1,27 @@
+#VRML V2.0 utf8
+DEF Butterfly_Cloth_Hall Group {
+   children [
+      Transform {
+	 translation -5.000000 0 0
+	 children DEF ButterflyHallWall Inline{
+	    url "SharedMedia/Objects/ButterflyHallWall.wrl"
+	 }
+      },
+      Transform {
+	 translation 5.000000 0 0
+	 children USE ButterflyHallWall
+      },
+      Transform {
+	 translation 0 -5.000000 0
+	 children Inline {
+	    url "SharedMedia/Objects/Cloth.wrl"
+	 }
+      },
+      Transform {
+	 translation 0 5.000000 0
+	 children Inline {
+	    url "SharedMedia/Objects/Cement.wrl"
+	 }
+      }
+     ]
+}

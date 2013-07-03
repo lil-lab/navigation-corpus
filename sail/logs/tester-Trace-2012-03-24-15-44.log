@@ -1,0 +1,14 @@
+03-24 15:44:18 INFO     frame2action [Turn_v=[MEAN='turn_V_1'], Purpose=[Purpose_p=[MEAN='SO THAT'], S=[Side=[Dir=[MEAN='back_ADV_1,2'], Side_n=[MEAN='side_N_1']], Orient_v=[MEAN="faces_V_('face', [5])"], Obj=[Det=[MEAN='THE'], Obj_n=[MEAN='easel_N_1']]]]]
+03-24 15:44:18 INFO     <0> Turn(face=Face(faced=Verify(desc=[Thing(dist='0:', value=Easel, type='Obj', side=[Back])])))
+03-24 15:44:19 INFO     frame2action [Travel_v=[MEAN='walk_V_1'], Dir=[MEAN='forward_ADV_1'], Dist=[Count=[MEAN='four_ADJ_1'], Dist_unit=[MEAN="times_N_('time', [1])"]]]
+03-24 15:44:19 INFO     <0> Travel(distance=[Distance(count=4)])
+03-24 15:44:20 INFO     frame2action [Travel_v=[MEAN='walk_V_1'], Dir=[MEAN='forward_ADV_1'], Dist=[Count=[MEAN='four_ADJ_1'], Dist_unit=[MEAN="times_N_('time', [1])"]]]
+03-24 15:44:20 INFO     <0> Travel(distance=[Distance(count=4)])
+03-24 15:44:20 INFO     frame2action [Travel_v=[MEAN='walk_V_1'], Dir=[MEAN='forward_ADV_1'], Dist=[Count=[MEAN='four_ADJ_1'], Dist_unit=[MEAN="times_N_('time', [1])"]]]
+03-24 15:44:20 INFO     <0> Travel(distance=[Distance(count=4)])
+03-24 15:44:21 INFO     frame2action [Travel_v=[MEAN='walk_V_1'], Dir=[MEAN='forward_ADV_1'], Dist=[Count=[MEAN='four_ADJ_1'], Dist_unit=[MEAN="times_N_('time', [1])"]]]
+03-24 15:44:21 INFO     <0> Travel(distance=[Distance(count=4)])
+03-24 15:44:21 INFO     frame2action [Travel_v=[MEAN='walk_V_1'], Dir=[MEAN='forward_ADV_1'], Dist=[Count=[MEAN='four_ADJ_1'], Dist_unit=[MEAN="times_N_('time', [1])"]]]
+03-24 15:44:21 INFO     <0> Travel(distance=[Distance(count=4)])
+03-24 15:44:22 INFO     frame2action [Travel_v=[MEAN='walk_V_1'], Dir=[MEAN='forward_ADV_1'], Dist=[Count=[MEAN='four_ADJ_1'], Dist_unit=[MEAN="times_N_('time', [1])"]]]
+03-24 15:44:22 INFO     <0> Travel(distance=[Distance(count=4)])

@@ -1,0 +1,11 @@
+11-17 09:30:38 INFO     frame2action [Loc=[Between=[Between_p=[MEAN='BETWEEN'], Obj=[Det=[MEAN='THE'], Obj_n=[MEAN='sofa_N_1']], Cc=[MEAN='AND'], Obj_3=[Obj_n=[MEAN='chair_N_1']]]], ,=[MEAN=','], Turn_v=[MEAN='turn_V_1'], Dir=[MEAN='left_ADV_1']]
+11-17 09:30:38 INFO     <0> Turn(direction=[Left], location=Travel(until=Verify(desc=[Thing(dist='0', value=Position, between=[Thing(dist='1:', value=GenChair, type='Obj', side=[Between]), Thing(dist='1:', value=Sofa, type='Obj', side=[Between])], type='Struct', side=[At])])))
+11-17 10:15:55 INFO     frame2action [Along=[Path=[Appear=[MEAN='concrete_ADJ_2'], Path_n=[MEAN='hallway_N_1']]]]
+11-17 10:15:55 ERROR    Couldn't find head in [Along=[Path=[Appear=[MEAN='concrete_ADJ_2'], Path_n=[MEAN='hallway_N_1']]]], but heuristic is Travel
+11-17 10:15:55 INFO     <0> Travel(face=Face(faced=Verify(desc=[Thing(dist='0', Appear=[Cement], value=Path, type='Path', side=[Front])])))
+11-17 10:16:54 WARNING  extractSurfaceSemantics : Text not in tagged senses: gravel
+11-17 10:16:54 INFO     frame2action [Orient_v=[MEAN='gravel_V_1,2,3'], Path=[Path_n=[MEAN='hallway_N_1']]]
+11-17 10:16:54 INFO     <0> Face(faced=Verify(desc=[Thing(value=Path, type='Path', side=[Front])]))
+11-17 10:17:06 WARNING  extractSurfaceSemantics : Text not in tagged senses: gravel
+11-17 10:17:06 INFO     frame2action [Turn_v=[MEAN='turn_V_1'], Purpose=[Purpose_p=[MEAN='TO'], S=[Along=[Path=[Det=[MEAN='THE'], Appear=[MEAN='gravel_ADJ_1'], Path_n=[MEAN='hallway_N_1']]]]]]
+11-17 10:17:06 INFO     <0> Turn(face=Face(faced=Verify(desc=[Thing(dist='0', value=Path, type='Path', side=[Front])])))

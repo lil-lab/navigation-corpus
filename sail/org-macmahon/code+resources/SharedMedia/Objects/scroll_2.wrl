@@ -1,0 +1,398 @@
+#VRML V2.0 utf8
+
+Background {               #remove these lines
+skyColor 0 0 0            #
+}                         # when placing this
+Viewpoint {               #
+position 0 0 2           # object in a VRML world
+}                       #
+NavigationInfo {           # or apartment.
+type "EXAMINE"            #
+}                         #
+
+WorldInfo {
+title "Animated Scroll"
+info [ "Copyright 1988 modeled by Kiwano [Andrew Reitemeyer] kiwano@t-online.de "
+"This model is linkware. Non commercial users are required to link to" 
+" http://home.t-online.de/home/kiwano4 "
+"Commercial users must pay a small fee, details and more models from the above url"
+"This node must remain unaltered in this code"
+]
+}    
+
+
+
+Transform {          # main grouping node
+translation 0 0 0     # controls position
+scale 1 1 1           # controls size
+rotation 0 0 0 0      # controls orientation
+children [
+DEF Read TouchSensor {
+} 
+DEF LargeRoll Transform {
+children [       
+Transform {
+children [
+Shape {
+appearance DEF PAPER Appearance {
+material  Material {
+diffuseColor .81569 .6902 .4706
+}
+#texture ImageTexture {url "parch.jpg"
+#   }
+} 
+geometry Cylinder {
+radius .1
+height .5
+}
+} 
+]
+}  
+
+Transform  {
+translation 0 .25 0   
+children [
+Shape {
+appearance Appearance {material DEF GOLD Material {
+diffuseColor .8 .7 .3
+ambientIntensity .4
+shininess .9 
+specularColor .9 .8 .4
+}
+}  # plate
+geometry Cylinder {
+radius .12
+height .01
+}
+} 
+]  
+}
+Transform  {
+translation 0 -.25 0   
+children [
+Shape {
+appearance Appearance {material USE GOLD }
+geometry Cylinder {
+radius .12
+height .01
+}
+} 
+]  
+}  
+
+
+Transform  {
+translation 0 .33 0   
+children [
+DEF HANDLE Shape {
+appearance Appearance {material USE GOLD }
+geometry Cylinder {
+radius .02
+height .15
+}
+} 
+]  
+}  
+Transform  {
+translation 0 -.33 0   
+children [
+USE HANDLE 
+]  
+}          
+
+Transform  {
+translation 0 .43 0   
+children [
+DEF BALL Shape {
+appearance Appearance {material USE GOLD }
+geometry Sphere {
+radius .04
+
+}
+} 
+]  
+}    
+Transform  {
+translation 0 -.43 0   
+children [
+USE BALL 
+]  
+}  
+]
+}     
+
+DEF SmallRoll Transform  {            # small roll
+translation -.1 0 0
+children [
+
+Transform {
+translation .3 0 0  
+children  [
+Shape {
+appearance  USE PAPER 
+
+geometry Cylinder {
+radius .05
+height .5
+}
+} 
+
+]  
+} 
+Transform  {
+translation  .3 -.43 0   
+children [
+USE BALL 
+]  
+}                
+Transform  {
+translation  .3 .43 0   
+children [
+USE BALL 
+]  
+} 
+Transform  {
+translation .3 -.33 0   
+children [
+USE HANDLE 
+]  
+}  
+Transform  {
+translation .3 .33 0   
+children [
+USE HANDLE 
+]  
+}      
+
+Transform  {
+translation .3 -.25 0   
+children [
+Shape {
+appearance Appearance {material USE GOLD }
+geometry Cylinder {
+radius .12
+height .01
+}
+} 
+]  
+} 
+
+Transform  {
+translation .3 .25 0   
+children [
+Shape {
+appearance Appearance {material USE GOLD }
+geometry Cylinder {
+radius .12
+height .01
+}
+} 
+]  
+}  
+
+]
+}    
+Transform {
+scale 1 1 1
+translation   0 0 0
+children [
+Shape {
+appearance  USE PAPER    #backpaper
+geometry IndexedFaceSet {
+solid FALSE
+coord DEF Back Coordinate { 
+point [ -.03  .25 -.1, .2 .25 -.05, -.03 -.25 -.1, .2 -.25 -.05
+]
+}
+coordIndex  [ 
+0,2,1, -1,
+2,3,1, -1
+]
+}
+}
+]
+} 
+DEF Message Transform {
+translation .18 -.1 0
+children [
+DEF Message Switch {
+whichChoice  0
+choice [
+Shape {                          #0
+appearance DEF Ink Appearance {
+material Material {
+diffuseColor 1 1 1       # controls text color
+shininess 1
+ambientIntensity 1
+specularColor 1 1 1
+}
+}
+geometry  Text {
+string [ "" ]
+# maxExtent 1.2
+fontStyle DEF Stil FontStyle {
+size .25
+family "Comic Sans MS Bold"
+style "BOLDITALIC"
+justify "MIDDLE"
+}
+}
+} 
+Shape {                   #1
+appearance USE Ink 
+geometry  Text {
+string [ "ex" ]               # to change the text start here with the
+maxExtent 1.2                 # middle letter/letters
+fontStyle USE Stil 
+}
+} 
+Shape {                 #2
+appearance USE Ink 
+geometry  Text {
+string [ "ex" ]
+maxExtent 1.2
+fontStyle USE Stil 
+}
+}      
+Shape {                 #3
+appearance USE Ink 
+geometry  Text {
+string [ "text" ]
+maxExtent 1.2
+fontStyle USE Stil 
+}
+}       
+Shape {                 #4
+appearance USE Ink 
+geometry  Text {
+string [ " text " ]
+maxExtent 1.2
+fontStyle USE Stil 
+}
+}       
+Shape {                 #5
+appearance USE Ink 
+geometry  Text {
+string [ "r text h" ]
+maxExtent 1.2
+fontStyle USE Stil 
+}
+}      
+
+Shape {                 #6
+appearance USE Ink 
+geometry  Text {
+string [ "ur text he" ]
+maxExtent 1.2
+fontStyle USE Stil 
+}
+}      
+
+Shape {                 #7
+appearance USE Ink 
+geometry  Text {
+string [ "our text her" ]
+maxExtent 1.2
+fontStyle USE Stil 
+}
+}    
+
+Shape {                 #8
+appearance USE Ink 
+geometry  Text {
+string [ "your text here" ]
+maxExtent 1.3
+fontStyle USE Stil 
+}
+}       
+
+]
+}           
+
+
+]
+}  
+
+]
+}  
+
+
+DEF Write Script 
+{
+eventIn SFFloat  fraction_changed
+eventOut  SFInt32 choice
+url "vrmlscript:
+function fraction_changed (eventValue) {
+if (eventValue <= 0)
+choice = 0;
+
+
+if (eventValue >= .01)
+choice = 1;
+
+if (eventValue >= .05)
+choice = 2;
+
+if (eventValue >= .15)
+choice = 3;   
+
+if (eventValue >= .25)
+choice = 4;   
+
+if (eventValue >= .35)
+choice = 5;    
+
+if (eventValue >= .55)
+choice = 6;  
+
+if (eventValue >= .65)
+choice = 7; 
+
+if (eventValue >= .75)
+choice = 8;      
+}
+"
+}                      
+
+DEF Timer TimeSensor {
+cycleInterval 5
+}
+DEF OpenSmall PositionInterpolator {
+key[ 0, 1 ]
+keyValue [ 0 0 0. .6 0 0]
+}
+DEF OpenLarge PositionInterpolator {
+key[ 0, 1 ]
+keyValue [ 0 0 0. -.6 0 0]
+} 
+DEF Stretch CoordinateInterpolator {
+key [0, 1]
+keyValue [ #1
+-.03  .25 -.1, .25 .25 -.05, -.03 -.25 -.1, .25 -.25 -.05  
+#2
+-.6  .25 -.1, .9 .25 -.05, -.6 -.25 -.1, .9 -.25 -.05 
+]
+}             
+
+ROUTE Read.touchTime TO Timer.set_startTime
+ROUTE Timer.fraction_changed TO OpenSmall.set_fraction
+ROUTE OpenSmall.value_changed TO SmallRoll.set_translation 
+ROUTE Timer.fraction_changed TO OpenLarge.set_fraction
+ROUTE OpenLarge.value_changed TO LargeRoll.set_translation  
+ROUTE Timer.fraction_changed TO Stretch.set_fraction
+ROUTE Stretch.value_changed TO Back.set_point   
+
+ROUTE Timer.fraction_changed TO Write.fraction_changed
+ROUTE Write.choice TO Message.set_whichChoice
+
+
+
+
+
+WorldInfo {
+title "Scroll 2"
+info [ "Copyright 1998 modeled by Kiwano {Andrew Reitemeyer} kiwano@t-online.de "]
+
+}               
+
+

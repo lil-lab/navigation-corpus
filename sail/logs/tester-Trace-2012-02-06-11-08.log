@@ -1,0 +1,2 @@
+02-06 11:09:23 INFO     frame2action [Travel_v=[MEAN='follow_V_4'], Along=[Path=[Det=[MEAN='THE'], Appear=[MEAN='pink_ADJ_1'], Path_n=[MEAN='hallway_N_1']]]]
+02-06 11:09:23 INFO     <0> Travel(face=Face(faced=Verify(desc=[Thing(dist='0', Appear=[Rose], value=Path, type='Path', side=[Front])])), follow=Follow())

@@ -1,0 +1,768 @@
+#VRML V2.0 utf8
+
+WorldInfo {
+    title	"Benzene"
+    info	"HAS Centre "
+}
+Background {
+    skyColor	0.00 0.00 0.6
+}
+NavigationInfo {
+    type	[ "EXAMINE", "ANY" ]
+    avatarSize 0
+}
+Collision {
+    collide FALSE
+    children [
+	Transform {
+	    translation	-2.4862 -0.0005 0.0002
+	    children [
+		Transform {
+		    translation	1.1202 0.0003 0.0002
+		    scale	0.5 0.5 0.5
+		    children [
+			Shape {
+			    appearance
+				Appearance {
+				    material
+					DEF mat_145_145_145 Material {
+					    ambientIntensity	0.2
+					    diffuseColor	0.569 0.569 0.569
+					    specularColor	0.8 0.8 0.8
+					}
+				}
+			    geometry
+				DEF sphere Sphere {
+				}
+			}
+		    ]
+		},
+		Transform {
+		    translation	1.803 1.1835 -0.0005
+		    scale	0.5 0.5 0.5
+		    children [
+			Shape {
+			    appearance
+				Appearance {
+				    material USE mat_145_145_145
+				}
+			    geometry USE sphere
+			}
+		    ]
+		},
+		Transform {
+		    translation	3.1691 1.1839 -0.0004
+		    scale	0.5 0.5 0.5
+		    children [
+			Shape {
+			    appearance
+				Appearance {
+				    material USE mat_145_145_145
+				}
+			    geometry USE sphere
+			}
+		    ]
+		},
+		Transform {
+		    translation	3.8522 0.0006 -0.0007
+		    scale	0.5 0.5 0.5
+		    children [
+			Shape {
+			    appearance
+				Appearance {
+				    material USE mat_145_145_145
+				}
+			    geometry USE sphere
+			}
+		    ]
+		},
+		Transform {
+		    translation	3.1691 -1.1823 0.0001
+		    scale	0.5 0.5 0.5
+		    children [
+			Shape {
+			    appearance
+				Appearance {
+				    material USE mat_145_145_145
+				}
+			    geometry USE sphere
+			}
+		    ]
+		},
+		Transform {
+		    translation	1.8034 -1.1829 -0.0003
+		    scale	0.5 0.5 0.5
+		    children [
+			Shape {
+			    appearance
+				Appearance {
+				    material USE mat_145_145_145
+				}
+			    geometry USE sphere
+			}
+		    ]
+		},
+		Transform {
+		    translation	0.1202 0.0002 0.0011
+		    scale	0.5 0.5 0.5
+		    children [
+			Shape {
+			    appearance
+				Appearance {
+				    material
+					DEF mat_255_255_255 Material {
+					    ambientIntensity	0.2
+					    diffuseColor	1 1 1
+					    specularColor	0.8 0.8 0.8
+					}
+				}
+			    geometry USE sphere
+			}
+		    ]
+		},
+		Transform {
+		    translation	1.3028 2.0494 -0.0011
+		    scale	0.5 0.5 0.5
+		    children [
+			Shape {
+			    appearance
+				Appearance {
+				    material USE mat_255_255_255
+				}
+			    geometry USE sphere
+			}
+		    ]
+		},
+		Transform {
+		    translation	3.669 2.05 -0.0001
+		    scale	0.5 0.5 0.5
+		    children [
+			Shape {
+			    appearance
+				Appearance {
+				    material USE mat_255_255_255
+				}
+			    geometry USE sphere
+			}
+		    ]
+		},
+		Transform {
+		    translation	4.8522 0.0005 -0.0015
+		    scale	0.5 0.5 0.5
+		    children [
+			Shape {
+			    appearance
+				Appearance {
+				    material USE mat_255_255_255
+				}
+			    geometry USE sphere
+			}
+		    ]
+		},
+		Transform {
+		    translation	3.6692 -2.0482 0.001
+		    scale	0.5 0.5 0.5
+		    children [
+			Shape {
+			    appearance
+				Appearance {
+				    material USE mat_255_255_255
+				}
+			    geometry USE sphere
+			}
+		    ]
+		},
+		Transform {
+		    translation	1.3036 -2.049 -0.001
+		    scale	0.5 0.5 0.5
+		    children [
+			Shape {
+			    appearance
+				Appearance {
+				    material USE mat_255_255_255
+				}
+			    geometry USE sphere
+			}
+		    ]
+		},
+		Transform {
+		    translation	1.4616 0.5919 -0.00015
+		    rotation	0 1 0  1.57182
+		    children [
+			Transform {
+			    rotation	1 0 0  0.523396
+			    scale	0.2 1.36608 0.2
+			    children [
+				Shape {
+				    appearance
+					Appearance {
+					    material USE mat_145_145_145
+					}
+				    geometry
+					DEF cylinder Cylinder {
+					    height	1
+					    top	FALSE
+					    bottom	FALSE
+					}
+				}
+			    ]
+			}
+		    ]
+		},
+		Transform {
+		    translation	1.65392 0.204903 -0.000286
+		    rotation	0 1 0  1.57182
+		    children [
+			Transform {
+			    rotation	1 0 0  0.523396
+			    scale	0.04 0.204912 0.04
+			    children [
+				Shape {
+				    appearance
+					Appearance {
+					    material USE mat_145_145_145
+					}
+				    geometry
+					Cylinder {
+					    height	1
+					    top	FALSE
+					    bottom	FALSE
+					}
+				}
+			    ]
+			}
+		    ]
+		},
+		Transform {
+		    translation	1.8929 0.619023 -0.000531
+		    rotation	0 1 0  1.57182
+		    children [
+			Transform {
+			    rotation	1 0 0  0.523396
+			    scale	0.04 0.204912 0.04
+			    children [
+				Shape {
+				    appearance
+					Appearance {
+					    material USE mat_145_145_145
+					}
+				    geometry
+					Cylinder {
+					    height	1
+					    top	FALSE
+					    bottom	FALSE
+					}
+				}
+			    ]
+			}
+		    ]
+		},
+		Transform {
+		    translation	1.4618 -0.5913 -5e-005
+		    rotation	0 1 0  1.57153
+		    children [
+			Transform {
+			    rotation	1 0 0  2.61794
+			    scale	0.2 1.36628 0.2
+			    children [
+				Shape {
+				    appearance
+					Appearance {
+					    material USE mat_145_145_145
+					}
+				    geometry
+					Cylinder {
+					    height	1
+					    top	FALSE
+					    bottom	FALSE
+					}
+				}
+			    ]
+			}
+		    ]
+		},
+		Transform {
+		    translation	1.654 -0.204224 -0.000252
+		    rotation	0 1 0  1.57153
+		    children [
+			Transform {
+			    rotation	1 0 0  2.61794
+			    scale	0.04 0.204942 0.04
+			    children [
+				Shape {
+				    appearance
+					Appearance {
+					    material USE mat_145_145_145
+					}
+				    geometry
+					Cylinder {
+					    height	1
+					    top	FALSE
+					    bottom	FALSE
+					}
+				}
+			    ]
+			}
+		    ]
+		},
+		Transform {
+		    translation	1.89312 -0.618344 -0.000427
+		    rotation	0 1 0  1.57153
+		    children [
+			Transform {
+			    rotation	1 0 0  2.61794
+			    scale	0.04 0.204942 0.04
+			    children [
+				Shape {
+				    appearance
+					Appearance {
+					    material USE mat_145_145_145
+					}
+				    geometry
+					Cylinder {
+					    height	1
+					    top	FALSE
+					    bottom	FALSE
+					}
+				}
+			    ]
+			}
+		    ]
+		},
+		Transform {
+		    translation	2.48605 1.1837 -0.00045
+		    rotation	0 1 0  1.57072
+		    children [
+			Transform {
+			    rotation	1 0 0  1.5705
+			    scale	0.2 1.3661 0.2
+			    children [
+				Shape {
+				    appearance
+					Appearance {
+					    material USE mat_145_145_145
+					}
+				    geometry
+					Cylinder {
+					    height	1
+					    top	FALSE
+					    bottom	FALSE
+					}
+				}
+			    ]
+			}
+		    ]
+		},
+		Transform {
+		    translation	2.24709 0.82363 -0.000239
+		    rotation	0 1 0  1.57072
+		    children [
+			Transform {
+			    rotation	1 0 0  1.5705
+			    scale	0.04 0.204915 0.04
+			    children [
+				Shape {
+				    appearance
+					Appearance {
+					    material USE mat_145_145_145
+					}
+				    geometry
+					Cylinder {
+					    height	1
+					    top	FALSE
+					    bottom	FALSE
+					}
+				}
+			    ]
+			}
+		    ]
+		},
+		Transform {
+		    translation	2.72522 0.82377 -0.000204
+		    rotation	0 1 0  1.57072
+		    children [
+			Transform {
+			    rotation	1 0 0  1.5705
+			    scale	0.04 0.204915 0.04
+			    children [
+				Shape {
+				    appearance
+					Appearance {
+					    material USE mat_145_145_145
+					}
+				    geometry
+					Cylinder {
+					    height	1
+					    top	FALSE
+					    bottom	FALSE
+					}
+				}
+			    ]
+			}
+		    ]
+		},
+		Transform {
+		    translation	3.51065 0.59225 -0.00055
+		    rotation	0 1 0  1.57124
+		    children [
+			Transform {
+			    rotation	1 0 0  2.61804
+			    scale	0.2 1.36632 0.2
+			    children [
+				Shape {
+				    appearance
+					Appearance {
+					    material USE mat_145_145_145
+					}
+				    geometry
+					Cylinder {
+					    height	1
+					    top	FALSE
+					    bottom	FALSE
+					}
+				}
+			    ]
+			}
+		    ]
+		},
+		Transform {
+		    translation	3.07933 0.619343 -0.000574
+		    rotation	0 1 0  1.57124
+		    children [
+			Transform {
+			    rotation	1 0 0  2.61804
+			    scale	0.04 0.204948 0.04
+			    children [
+				Shape {
+				    appearance
+					Appearance {
+					    material USE mat_145_145_145
+					}
+				    geometry
+					Cylinder {
+					    height	1
+					    top	FALSE
+					    bottom	FALSE
+					}
+				}
+			    ]
+			}
+		    ]
+		},
+		Transform {
+		    translation	3.31841 0.205188 -0.000679
+		    rotation	0 1 0  1.57124
+		    children [
+			Transform {
+			    rotation	1 0 0  2.61804
+			    scale	0.04 0.204948 0.04
+			    children [
+				Shape {
+				    appearance
+					Appearance {
+					    material USE mat_145_145_145
+					}
+				    geometry
+					Cylinder {
+					    height	1
+					    top	FALSE
+					    bottom	FALSE
+					}
+				}
+			    ]
+			}
+		    ]
+		},
+		Transform {
+		    translation	3.51065 -0.59085 -0.0003
+		    rotation	0 1 0  -1.56963
+		    children [
+			Transform {
+			    rotation	1 0 0  2.6179
+			    scale	0.2 1.36597 0.2
+			    children [
+				Shape {
+				    appearance
+					Appearance {
+					    material USE mat_145_145_145
+					}
+				    geometry
+					Cylinder {
+					    height	1
+					    top	FALSE
+					    bottom	FALSE
+					}
+				}
+			    ]
+			}
+		    ]
+		},
+		Transform {
+		    translation	3.31844 -0.203812 -0.000227
+		    rotation	0 1 0  -1.56963
+		    children [
+			Transform {
+			    rotation	1 0 0  2.6179
+			    scale	0.04 0.204896 0.04
+			    children [
+				Shape {
+				    appearance
+					Appearance {
+					    material USE mat_145_145_145
+					}
+				    geometry
+					Cylinder {
+					    height	1
+					    top	FALSE
+					    bottom	FALSE
+					}
+				}
+			    ]
+			}
+		    ]
+		},
+		Transform {
+		    translation	3.07936 -0.617827 5.3e-005
+		    rotation	0 1 0  -1.56963
+		    children [
+			Transform {
+			    rotation	1 0 0  2.6179
+			    scale	0.04 0.204896 0.04
+			    children [
+				Shape {
+				    appearance
+					Appearance {
+					    material USE mat_145_145_145
+					}
+				    geometry
+					Cylinder {
+					    height	1
+					    top	FALSE
+					    bottom	FALSE
+					}
+				}
+			    ]
+			}
+		    ]
+		},
+		Transform {
+		    translation	2.48625 -1.1826 -0.0001
+		    rotation	0 1 0  -1.57109
+		    children [
+			Transform {
+			    rotation	1 0 0  1.57124
+			    scale	0.2 1.3657 0.2
+			    children [
+				Shape {
+				    appearance
+					Appearance {
+					    material USE mat_145_145_145
+					}
+				    geometry
+					Cylinder {
+					    height	1
+					    top	FALSE
+					    bottom	FALSE
+					}
+				}
+			    ]
+			}
+		    ]
+		},
+		Transform {
+		    translation	2.72509 -0.822495 -0.000334
+		    rotation	0 1 0  -1.57109
+		    children [
+			Transform {
+			    rotation	1 0 0  1.57124
+			    scale	0.04 0.204855 0.04
+			    children [
+				Shape {
+				    appearance
+					Appearance {
+					    material USE mat_145_145_145
+					}
+				    geometry
+					Cylinder {
+					    height	1
+					    top	FALSE
+					    bottom	FALSE
+					}
+				}
+			    ]
+			}
+		    ]
+		},
+		Transform {
+		    translation	2.24709 -0.822705 -0.000474
+		    rotation	0 1 0  -1.57109
+		    children [
+			Transform {
+			    rotation	1 0 0  1.57124
+			    scale	0.04 0.204855 0.04
+			    children [
+				Shape {
+				    appearance
+					Appearance {
+					    material USE mat_145_145_145
+					}
+				    geometry
+					Cylinder {
+					    height	1
+					    top	FALSE
+					    bottom	FALSE
+					}
+				}
+			    ]
+			}
+		    ]
+		},
+		Transform {
+		    translation	0.6202 0.00025 0.00065
+		    rotation	0 1 0  -1.5699
+		    children [
+			Transform {
+			    rotation	1 0 0  1.5709
+			    scale	0.2 1 0.2
+			    children [
+				Shape {
+				    appearance
+					Appearance {
+					    material USE mat_145_145_145
+					}
+				    geometry
+					Cylinder {
+					    height	1
+					    top	FALSE
+					    bottom	FALSE
+					}
+				}
+			    ]
+			}
+		    ]
+		},
+		Transform {
+		    translation	1.5529 1.61645 -0.0008
+		    rotation	0 1 0  -1.572
+		    children [
+			Transform {
+			    rotation	1 0 0  0.523835
+			    scale	0.2 0.999992 0.2
+			    children [
+				Shape {
+				    appearance
+					Appearance {
+					    material USE mat_145_145_145
+					}
+				    geometry
+					Cylinder {
+					    height	1
+					    top	FALSE
+					    bottom	FALSE
+					}
+				}
+			    ]
+			}
+		    ]
+		},
+		Transform {
+		    translation	3.41905 1.61695 -0.00025
+		    rotation	0 1 0  1.5702
+		    children [
+			Transform {
+			    rotation	1 0 0  0.523475
+			    scale	0.2 1.00002 0.2
+			    children [
+				Shape {
+				    appearance
+					Appearance {
+					    material USE mat_145_145_145
+					}
+				    geometry
+					Cylinder {
+					    height	1
+					    top	FALSE
+					    bottom	FALSE
+					}
+				}
+			    ]
+			}
+		    ]
+		},
+		Transform {
+		    translation	4.3522 0.00055 -0.0011
+		    rotation	0 1 0  1.5716
+		    children [
+			Transform {
+			    rotation	1 0 0  1.5709
+			    scale	0.2 1 0.2
+			    children [
+				Shape {
+				    appearance
+					Appearance {
+					    material USE mat_145_145_145
+					}
+				    geometry
+					Cylinder {
+					    height	1
+					    top	FALSE
+					    bottom	FALSE
+					}
+				}
+			    ]
+			}
+		    ]
+		},
+		Transform {
+		    translation	3.41915 -1.61525 0.00055
+		    rotation	0 1 0  1.569
+		    children [
+			Transform {
+			    rotation	1 0 0  2.61784
+			    scale	0.2 0.999942 0.2
+			    children [
+				Shape {
+				    appearance
+					Appearance {
+					    material USE mat_145_145_145
+					}
+				    geometry
+					Cylinder {
+					    height	1
+					    top	FALSE
+					    bottom	FALSE
+					}
+				}
+			    ]
+			}
+		    ]
+		},
+		Transform {
+		    translation	1.5535 -1.61595 -0.00065
+		    rotation	0 1 0  -1.5722
+		    children [
+			Transform {
+			    rotation	1 0 0  2.6182
+			    scale	0.2 0.999965 0.2
+			    children [
+				Shape {
+				    appearance
+					Appearance {
+					    material USE mat_145_145_145
+					}
+				    geometry
+					Cylinder {
+					    height	1
+					    top	FALSE
+					    bottom	FALSE
+					}
+				}
+			    ]
+			}
+		    ]
+		}
+	    ]
+	}
+    ]
+}
+

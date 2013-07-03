@@ -1,0 +1,6 @@
+Segmentation included:
+Inserting new line characters after each action sequence instructions
+Often ',' characters where replaced with new line characters
+Obvious typos were corrected
+
+Stripping source and target position numbers was done by replacing all mentions of destination positions with X and all mentions of source position with Y.

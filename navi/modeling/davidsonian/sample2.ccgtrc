@@ -1,0 +1,205 @@
+7/10 won't get with current lexicon and type-shifting rules
+
+3 - template exists with S instead of AP
+1 - template exists with AP instead of S
+
+1 - requires generic coordination
+1 - special case of coordination
+
+1 - possibly an ontology problem
+
+Missing lexical entries per sentences:
+?/?
+3/9
+4/12
+3/6
+5/12
+1/8
+3/10
+1/4
+2/7
+1/11
+4/21
+
+
+[xxx -- template exists with S instead of AP] onto :- AP/NP : (lambda $0:e (lambda $1:a (post:<a,<t,t>> $1 (front:<ps,<ps,t>> you:ps $0))))
+[xxx -- template exists with S instead of AP] to face :- AP/NP : (lambda $0:e (lambda $1:a (post:<a,<t,t>> $1 (front:<ps,<ps,t>> you:ps $0))))
+face :- S/NP : (lambda $0:e (lambda $1:a (post:<a,<t,t>> $1 (front:<ps,<ps,t>> you:ps $0))))
+
+[xxx -- we have the template with S instead of AP] so :- AP/PP/NP : (lambda $0:e (lambda $1:<e,t> (lambda $2:a (post:<a,<t,t>> $2 ($1 $0)))))
+place :- S/PP/NP : (lambda $0:e (lambda $1:<e,t> (lambda $2:a (post:<a,<t,t>> $2 ($1 $0)))))
+
+---> shift S->AP, AP->S without touching the LF
+or maybe just duplicate all templates this way
+
+
+[xxx -- could work if we could shift AP to S/S] from :- S/S/NP : (lambda $0:e (lambda $1:<a,t> (lambda $2:a (and:<t*,t> (pre:<a,<ps,t>> $2 $0) ($1 $2)))))
+along :- AP/NP : (lambda $0:e (lambda $1:a (pre:<a,<ps,t>> $1 $0)))
+
+---> shift from S\S to S/S ???
+again, maybe should just duplicate templates
+or AP should shift to both S/S and S\S
+
+The question is:
+Do we want to add these type-shifting rules? Or do we want to expand the seed lexicon?
+
+Add AP -> S/S
+Automatically expand the template pool S<->AP
+
+
+only one way to go
+(intersect:<ps,<ps,t>> youcoord:ps (a:<<e,t>,e> deadend:<ps,t>))
+[x] only one way :- N : deadend:<ps,t>
+[xx] to go :- S\N : (lambda $0:<e,t> (intersect:<ps,<ps,t>> youcoord:ps (a:<<e,t>,e> $0)))
+valid=True numFollowers=5 correct=True implicit=partial map=jelly annotated=True directionRating=(5.6,0.4898979485566356) confidence=(5.8,0.39999999999999997) efficiency=(1.0,0.0) y=4 x=1 targetFound=(1.0,0.0)
+(15, 20, 0)
+
+go forward to the intersection which has butterfly pictures on one side and eiffel tower pictures on the other
+(lambda $0:a (and:<t*,t> (move:<a,t> $0) (dir:<a,<dir,t>> $0 forward:dir) (to:<a,<ps,t>> $0 (io:<<e,t>,t> (lambda $1:e (and:<t*,t> (intersection:<ps,t> $1) (intersect:<ps,<ps,t>> $1 (a:<<e,t>,e> butterfly_w:<ps,t>)) (intersect:<ps,<ps,t>> $1 (a:<<e,t>,e> eiffel_w:<ps,t>))))))))
+[v] go :- S/NP : (lambda $0:e (lambda $1:a (and:<t*,t> (move:<a,t> $1) (dir:<a,<dir,t>> $1 $0))))
+[v] forward :- NP : forward:dir
+[v] to :- AP/NP : (lambda $0:e (lambda $1:a (to:<a,<ps,t>> $1 $0)))
+[v] the :- NP/N : io:<<e,t>,e>
+[v] intersection :- N : intersection:<ps,t>
+[x] which has :- PP/NP : intersect:<ps,<ps,t>>
+[x] butterfly pictures on one side :- NP : butterfly_w:<ps,t>
+[v] and :- PP\(PP/NP)\NP/NP : (lambda $0:e (lambda $1:e (lambda $2:<e,<e,t>> (lambda $3:e (and:<t*,t> ($2 $1 $3) ($2 $0 $3))))))
+[x] eiffel tower pictures on the other :- NP : eiffel_w:<ps,t>
+valid=True numFollowers=7 correct=True implicit=False map=jelly annotated=True directionRating=(5.142857142857143,0.6388765649999399) confidence=(5.571428571428571,0.7284313590846834) efficiency=(0.7999999999999999,0.19086270308410552) y=6 x=1 targetFound=(1.0,0.0)
+FORWARD(20, 16, 270);(19, 16, 270)
+
+orient yourself along the stone hall with your back facing the easel
+(lambda $0:a (and:<t*,t> (post:<a,<t,t>> $0 (and:<t*,t> (front:<ps,<ps,t>> you:ps (io:<<e,t>,t> (lambda $1:e (and:<t*,t> (stone:<ps,t> $1) (hall:<ps,t> $1))))) (front:<ps,<ps,t>> (orient:<ps,<dir,ps>> you:ps back:dir) (io:<<e,t>,t> easel:<ps,t>))))))
+[x] orient :- S/PP/NP : (lambda $0:e (lambda $1:<e,t> (lambda $2:a (post:<a,<t,t>> $2 ($1 $0)))))
+[x] yourself :- NP : you:ps
+[x] along :- PP/NP : (lambda $0:e (lambda $1:e (front:<ps,<ps,t>> $1 $0)))
+[v] the :- NP/N : io:<<e,t>,e>
+[v] stone :- N/N : (lambda $0:<e,t> (lambda $1:e (and:<t*,t> ($0 $1) (stone:<ps,t> $1))))
+[v] hall :- N : hall:<ps,t>
+[xxx -- special case of coordination] with :- S\S/S : (lambda $0:t (lambda $1:t (and:<t*,t> $1 $0)))
+[v] your :- NP/NP : (lambda $0:e (orient:<ps,<dir,ps>> you:ps $0))
+[v] back :- NP : back:dir
+[x] facing :- S\NP/NP : (lambda $0:e (lambda $1:e (front:<ps,<ps,t>> $1 $0)))
+[v] the :- NP/N : io:<<e,t>,e>
+[v] easel :- N : easel:<ps,t>
+valid=True numFollowers=5 correct=True implicit=False map=l annotated=True directionRating=(5.4,0.48989794855663565) confidence=(5.4,0.8) efficiency=(0.7272727999999999,0.38995653921861606) y=2 x=5 targetFound=(0.8,0.4000000000000001)RIGHT(21, 23, 0);(21, 23, 90)
+
+turn right onto the green hallway
+(lambda $0:a (and:<t*,t> (turn:<a,t> $0) (dir:<a,<dir,t>> $0 right:dir) (post:<a,<t,t>> $0 (front:<ps,<ps,t>> you:ps (io:<<e,t>,t> (lambda $2:e (and:<t*,t> (grass:<ps,t> $2) (hall:<ps,t> $2))))))))
+[v] turn :- S/NP : (lambda $0:e (lambda $1:a (and:<t*,t> (turn:<a,t> $1) (dir:<a,<dir,t>> $1 $0))))
+[v] right :- NP : right:dir
+[xxx -- template exists with S instead of AP] onto :- AP/NP : (lambda $0:e (lambda $1:a (post:<a,<t,t>> $1 (front:<ps,<ps,t>> you:ps $0))))
+[v] the :- NP/N : io:<<e,t>,e>
+[x] green :- N/N : (lambda $0:<e,t> (lambda $1:e (and:<t*,t> ($0 $1) (grass:<ps,t> $1))))
+[x] hallway :- N : hall:<ps,t>
+valid=True numFollowers=7 correct=True implicit=False map=jelly annotated=True directionRating=(5.428571428571429,0.49487165930539345) confidence=(5.857142857142857,0.3499271061118826) efficiency=(1.0,0.0) y=1 x=2 targetFound=(1.0,0.0)
+RIGHT(19, 15, 0);(19, 15, 90)
+
+turn to face the short black hallway with the easel at the end
+(lambda $0:a (and:<t*,t> (turn:<a,t> $0) (post:<a,<t,t>> $0 (front:<ps,<ps,t>> you:ps (io:<<e,t>,t> (lambda $1:e (eq:<a,<a,t>> $1 (argmin:<<e,t>,<<e,n>,e>> (lambda $2:e (end:<ps,<ps,t>> $2 (a:<<e,t>,e> (lambda $3:e (and:<t*,t> (stone:<ps,t> $3) (hall:<ps,t> $3) (intersect:<ps,<ps,t>> $3 (io:<<e,t>,t> (lambda $4:e (and:<t*,t> (easel:<ps,t> $4) (intersect:<ps,<ps,t>> $4 (io:<<e,t>,t> (lambda $5:e (end:<ps,<ps,t>> $5 (a:<<e,t>,e> hall:<ps,t>)))))))))))))) dist:<ps,n>))))))))
+[v] turn :- S : turn:<a,t>
+[xxx -- template exists with S instead of AP] to face :- AP/NP : (lambda $0:e (lambda $1:a (post:<a,<t,t>> $1 (front:<ps,<ps,t>> you:ps $0))))
+[v] the :- NP/N : io:<<e,t>,e>
+[x] short :- N/N : (lambda $0:<e,t> (lambda $1:e (eq:<e,<e,t>> $1 (argmin:<<e,t>,<<e,n>,e>> (lambda $2:e (end:<ps,<ps,t>> $2 (a:<<e,t>,e> $0)))  dist:<ps,n>))))
+[x] stone :- N/N : (lambda $0:<e,t> (lambda $1:e (and:<t*,t> ($0 $1) (stone:<ps,t> $1))))
+[x] hallway :- N : hall:<ps,t>
+[v] with :- PP/NP : intersect:<ps,<ps,t>>
+[v] the :- NP/N : io:<<e,t>,e>
+[v] easel :- N : easel:<ps,t>
+[x] at :- PP/NP : intersect:<ps,<ps,t>>
+[v] the :- NP/N : io:<<e,t>,e>
+[v] end :- N : (lambda $0:e (end:<ps,<ps,t>> $0 (a:<<e,t>,e> hall:<ps,t>)))
+valid=True numFollowers=5 correct=False implicit=False map=l annotated=True directionRating=(2.8,1.8330302779823362) confidence=(2.0,1.5491933384829668) efficiency=(0.1636364,0.3272728) y=2 x=1 targetFound=(0.2,0.4000000000000001)
+LEFT(21, 23, 0);(21, 23, 270)
+
+go forward two segments , passing the easel
+(lambda $0:a (and:<t*,t> (move:<a,t> $0) (dir:<a,<dir,t>> $0 forward:dir) (len:<a,<n,t>> $0 2:n) (pass:<a,<ps,t>> $0 (io:<<e,t>,t> easel:<ps,t>))))
+[v] go :- S/NP : (lambda $0:e (lambda $1:a (and:<t*,t> (move:<a,t> $1) (dir:<a,<dir,t>> $1 $0))))
+[v] forward :- NP : forward:dir
+[x] two :- NP : 2:n
+[v] segments :- AP\NP : (lambda $0:e (lambda $1:a (len:<a,<n,t>> $1 $0)))
+[v] , :- S\S : (lambda $0:<a,t> (lambda $1:a ($0 $1)))
+[v] passing :- AP/NP : (lambda $0:e (lambda $1:a (pass:<a,<ps,t>> $1 $0)))
+[v] the :- NP/N : io:<<e,t>,e>
+[v] easel :- N : easel:<ps,t>
+valid=True numFollowers=4 correct=True implicit=False map=jelly annotated=True directionRating=(5.0,1.224744871391589) confidence=(5.0,1.7320508075688772) efficiency=(0.29761875,0.17617421176547804) y=7 x=1 targetFound=(0.75,0.4330127018922193)
+FORWARD(20, 18, 0);FORWARD(20, 17, 0);(20, 16, 0)
+
+from y face the octagon carpet and move forward one alley
+(lambda $0:a[] (and:<t*,t> (pre:<a,<ps,t>> (i:<a[],<ind,a>> $0 0:ind) y:ps) (post:<a,<t,t>> (i:<a[],<ind,a>> $0 0:ind) (front:<ps,<ps,t>> you:ps (io:<<e,t>,t> (lambda $1:e (and:<t*,t> (honeycomb:<ps,t> $1) (hall:<ps,t> $1)))))) (move:<a,t> (i:<a[],<ind,a>> $0 1:ind)) (dir:<a,<dir,t>> (i:<a[],<ind,a>> $0 1:ind) forward:dir) (len:<a,<n,t>> (i:<a[],<ind,a>> $0 1:ind) 1:n)))
+[xxx -- could work if we could shift AP to S/S] from :- S/S/NP : (lambda $0:e (lambda $1:<a,t> (lambda $2:a (and:<t*,t> (pre:<a,<ps,t>> $2 $0) ($1 $2)))))
+[v] face :- S/NP : (lambda $0:e (lambda $1:a (post:<a,<t,t>> $1 (front:<ps,<ps,t>> you:ps $0))))
+[v] the :- NP/N : io:<<e,t>,e>
+[x] octagon :- N/N : (lambda $0:<e,t> (lambda $1:e (and:<t*,t> ($0 $1) (honeycomb:<ps,t> $1))))
+[v] carpet :- N : hall:<ps,t>
+[v] and :- S\S/S : (lambda $0:<a,t> (lambda $1:<a,t> (lambda $2:a[] (and:<t*,t> ($1 (i:<a[],<ind,a>> $2 0:ind)) (bef:<a,<a,t>> (i:<a[],<ind,a>> $2 0:ind) (i:<a[],<ind,a>> $2 1:ind)) ($0 (i:<a[],<ind,a>> $2 1:ind))))))
+[v] move :- S/NP : (lambda $0:e (lambda $1:a (and:<t*,t> (move:<a,t> $1) (dir:<a,<dir,t>> $1 $0))))
+[v] forward :- NP : forward:dir
+[v] one :- NP : 1:n
+[x] alley :- AP\NP : (lambda $0:e (lambda $1:a (len:<a,<n,t>> $1 $0)))
+valid=True numFollowers=4 correct=True implicit=False map=grid annotated=True directionRating=(5.0,0.7071067811865476) confidence=(5.0,1.0) efficiency=(1.0,0.0) y=4 x=1 targetFound=(1.0,0.0)
+LEFT(3, 5, 0);LEFT(3, 5, 270);FORWARD(3, 5, 180);(3, 6, 180)
+
+walk forward 3 times
+(lambda $0:a (and:<t*,t> (move:<a,t> $0) (dir:<a,<dir,t>> $0 forward:dir) (len:<a,<n,t>> $0 3:n)))
+[v] walk :- S/NP : (lambda $0:e (lambda $1:a (and:<t*,t> (move:<a,t> $1) (dir:<a,<dir,t>> $1 $0))))
+[v] forward :- NP : forward:dir
+[x] 3 :- NP : 3:n
+[v] times :- AP\NP : (lambda $0:e (lambda $1:a (len:<a,<n,t>> $1 $0)))
+valid=True numFollowers=5 correct=True implicit=False map=l annotated=True directionRating=(5.2,1.1661903789690602) confidence=(5.6,0.8) efficiency=(1.0,0.0) y=4 x=7 targetFound=(1.0,0.0)
+FORWARD(24, 21, 270);FORWARD(23, 21, 270);FORWARD(22, 21, 270);(21, 21, 270)
+
+turn so the wall is on your left
+(lambda $0:a (and:<t*,t> (turn:<a,t> $0) (post:<a,<t,t>> $0 (front:<ps,<ps,t>> (orient:<ps,<dir,ps>> you:ps left:dir) (io:<<e,t>,t> wall:<ps,t>)))))
+[v] turn :- S : turn:<a,t>
+[xxx -- we have the template with S instead of AP] so :- AP/PP/NP : (lambda $0:e (lambda $1:<e,t> (lambda $2:a (post:<a,<t,t>> $2 ($1 $0)))))
+[v] the :- NP/N : io:<<e,t>,e>
+[v] wall :- N : wall:<ps,t>
+[x] is on :- PP/NP : front:<ps,<ps,t>>
+[v] your :- NP/NP : (lambda $0:e (orient:<ps,<dir,ps>> you:ps $0))
+[v] left :- NP : left:dir
+valid=True numFollowers=7 correct=True implicit=False map=grid annotated=True directionRating=(5.714285714285714,0.6998542122237653) confidence=(5.571428571428571,0.7284313590846834) efficiency=(1.0,0.0) y=3 x=4 targetFound=(1.0,0.0)
+LEFT(0, 9, 0);LEFT(0, 9, 270);LEFT(0, 9, 180);LEFT(0, 9, 90);(0, 9, 0)
+
+go forward two segments to the intersection with the blue-tiled hall
+(lambda $0:a (and:<t*,t> (move:<a,t> $0) (dir:<a,<dir,t>> $0 forward:dir) (to:<a,<ps,t>> $0 (io:<<e,t>,t> (lambda $1:e (and:<t*,t> (intersection:<ps,t> $1) (intersect:<ps,<ps,t>> $1 (io:<<e,t>,t> (lambda $2:e (and:<t*,t> (blue:<ps,t> $2) (hall:<ps,t> $2)))))))))))
+[v] go :- S/NP : (lambda $0:e (lambda $1:a (and:<t*,t> (move:<a,t> $1) (dir:<a,<dir,t>> $1 $0))))
+[v] forward :- NP : forward:dir
+[x] two :- NP : 2:n
+[v] segments :- AP\NP : (lambda $0:e (lambda $1:a (len:<a,<n,t>> $1 $0)))
+[v] to :- AP/NP : (lambda $0:e (lambda $1:a (to:<a,<ps,t>> $1 $0)))
+[v] the :- NP/N : io:<<e,t>,e>
+[v] intersection :- N : intersection:<ps,t>
+[v] with :- PP/NP : intersect:<ps,<ps,t>>
+[v] the :- NP/N : io:<<e,t>,e>
+[v] blue-tiled :- N/N : (lambda $0:<e,t> (lambda $1:e (and:<t*,t> ($0 $1) (blue:<ps,t> $1))))
+[v] hall :- N : hall:<ps,t>
+valid=True numFollowers=4 correct=True implicit=False map=jelly annotated=True directionRating=(2.75,1.479019945774904) confidence=(3.25,1.479019945774904) efficiency=(0.33333325,0.40824829046388855) y=4 x=3 targetFound=(0.5,0.5)
+FORWARD(15, 20, 0);FORWARD(15, 19, 0);(15, 18, 0)
+
+follow the blue-tiled hall six segments , passing the chair , stool and bench , to the intersection containing the hatrack
+(lambda $0:a (and:<t*,t> (move:<a,t> $0) (pre:<a,<ps,t>> $0 (io:<<e,t>,t> (lambda $1:e (blue:<ps,t> $1) (hall:<ps,t> $1)))) (len:<a,<n,t>> $0 6:n) (pass:<a,<ps,t>> $0 (io:<<e,t>,t> chair:<ps,t>)) (pass:<a,<ps,t>> $0 (io:<<e,t>,t> barstool:<ps,t>)) (pass:<a,<ps,t>> $0 (io:<<e,t>,t> sofa:<ps,t>)) (to:<a,<ps,t>> $0 (io:<<e,t>,t> (lambda $2:e (and:<t*,t> (intersection:<ps,t> $2) (intersect:<ps,<ps,t>> $2 (io:<<e,t>,t> hatrack:<ps,t>))))))))
+[x] follow :- S/NP : (lambda $0:e (lambda $1:a (and:<t*,t> (move:<a,t> $1) (pre:<a,<ps,t>> $1 $0))))
+[v] the :- NP/N : io:<<e,t>,e>
+[v] blue-tiled :- N/N : (lambda $0:<e,t> (lambda $1:e (and:<t*,t> ($0 $1) (blue:<ps,t> $1))))
+[v] hall :- N : hall:<ps,t>
+[v] six :- NP : 6:n
+[v] segments :- AP\NP : (lambda $0:e (lambda $1:a (len:<a,<n,t>> $1 $0)))
+[v] , :- S\S : (lambda $0:<a,t> (lambda $1:a ($0 $1)))
+[v] passing :- AP/NP : (lambda $0:e (lambda $1:a (pass:<a,<ps,t>> $1 $0)))
+[v] the :- NP/N : io:<<e,t>,e>
+[v] chair :- N : chair:<ps,t>
+[xxx -- need some generic way to do simple coordination] , :- AP\(AP/N)\N/(AP\(AP/N)) : (lambda $0: <<<e,t>,<a,t>> (lambda $1:<e,t> (lambda $2:<<e,t>,<a,t>> (lambda $3:a (and:<t*,t> ($0 $2 $3) ($2 $1 $3))))))
+[x] stool :- N : barstool:<ps,t>
+[xxx -- see note above] and :- AP\(AP/N)\N/N : (lambda $0:<e,t> (lambda $1:<e,t> (lambda $2:<<e,t>,<a,t>> (lambda $3:a (and:<t*,t> ($2 $1 $3) ($2 $0 $3))))))
+[v] bench :- N : sofa:<ps,t>
+[v] , :- S\S : (lambda $0:<a,t> (lambda $1:a ($0 $1)))
+[v] to :- AP/NP : (lambda $0:e (lambda $1:a (to:<a,<ps,t>> $1 $0)))
+[v] the :- NP/N : io:<<e,t>,e>
+[v] intersection :- N : intersection:<ps,t>
+[v] containing :- PP/NP : intersect:<ps,<ps,t>>
+[v] the :- NP/N : io:<<e,t>,e>
+[v] hatrack :- N : hatrack:<ps,t>
+valid=True numFollowers=5 correct=True implicit=False map=grid annotated=True directionRating=(6.0,0.0) confidence=(6.0,0.0) efficiency=(1.0,0.0) y=4 x=5 targetFound=(1.0,0.0)
+FORWARD(0, 5, 180);FORWARD(0, 6, 180);FORWARD(0, 7, 180);FORWARD(0, 8, 180);FORWARD(0, 9, 180);FORWARD(0, 10, 180);(0, 11, 180)
+
