@@ -1082,7 +1082,7 @@ you:ps
 FORWARD(1,9,0);(1, 8, 0)
 once at the black easel , you are at x
 you:ps
-FORWARD[I](1,8,0);FORWARD[I](1,7,0);(1, 7, 0)
+FORWARD[I](1,8,0);FORWARD[I](1,7,0);(1, 6, 0)
 
 EDA_Jelly0_3_5_Dirs_1
 map=jelly	efficiency=(1.0,0.0)	implicit=False	numFollowers=7	confidence=(5.857142857142857,0.3499271061118826)	directionRating=(5.714285714285714,0.45175395145262554)	annotated=True	targetFound=(1.0,0.0)	valid=True	y=3	x=5	correct=True

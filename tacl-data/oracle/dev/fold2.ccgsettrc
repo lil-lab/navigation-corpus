@@ -62,7 +62,7 @@ TJS_L0_2_4_Dirs_1
 map=l	efficiency=(0.75,0.4330127018922193)	implicit=True	numFollowers=4	confidence=(5.0,1.7320508075688772)	directionRating=(4.25,1.299038105676658)	annotated=True	targetFound=(0.75,0.4330127018922193)	valid=True	y=2	x=4	correct=True
 down the grey hall until you reach the blue hall , at the intersection of the blue hall and the rose floored hall
 you:ps
-RIGHT[I](21,23,0);FORWARD(21,23,90);FORWARD(22,23,90);FORWARD(23,23,90);RIGHT[I](24,23,90);FORWARD[I](24,23,0);FORWARD[I](24,22,0);(24, 21, 0)
+RIGHT[I](21,23,0);FORWARD(21,23,90);FORWARD(22,23,90);FORWARD(23,23,90);LEFT[I](24,23,90);FORWARD[I](24,23,0);FORWARD[I](24,22,0);(24, 21, 0)
 
 EMWC_L0_5_1_Dirs_1
 map=l	efficiency=(0.70833325,0.29755962287697485)	implicit=False	numFollowers=4	confidence=(6.0,0.0)	directionRating=(4.25,1.479019945774904)	annotated=True	targetFound=(1.0,0.0)	valid=True	y=5	x=1	correct=True
